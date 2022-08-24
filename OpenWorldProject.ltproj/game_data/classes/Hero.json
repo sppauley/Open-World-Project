@@ -4,7 +4,7 @@
         "name": "Hero",
         "desc": "",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": "Mercenary",
         "turns_into": [],
         "tags": [

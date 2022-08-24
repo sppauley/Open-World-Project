@@ -4,7 +4,7 @@
         "name": "Wight",
         "desc": "A summoned phantom.",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": "Sword_Bonewalker",
         "turns_into": [],
         "tags": [

@@ -4,7 +4,7 @@
         "name": "Soldier",
         "desc": "Average soldiers possessing\nno special abilities.",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],

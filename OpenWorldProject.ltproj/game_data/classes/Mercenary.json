@@ -4,7 +4,7 @@
         "name": "Mercenary",
         "desc": "Professional soldiers for hire. Well-balanced, with superior abilities all around.",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Hero",

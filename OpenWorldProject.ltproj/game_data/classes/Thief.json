@@ -4,7 +4,7 @@
         "name": "Thief",
         "desc": "Expert in stealth and subterfuge. Possess weak attacks but many other skills.",
         "tier": 1,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Assassin",

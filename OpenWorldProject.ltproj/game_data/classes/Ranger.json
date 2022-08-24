@@ -4,7 +4,7 @@
         "name": "Ranger",
         "desc": "Devotees of the bow. Possess incredible range.",
         "tier": 2,
-        "movement_group": "Light Cav",
+        "movement_group": "Mounted",
         "promotes_from": "Archer",
         "turns_into": [],
         "tags": [

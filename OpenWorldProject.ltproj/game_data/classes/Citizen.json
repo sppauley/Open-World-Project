@@ -4,7 +4,7 @@
         "name": "Citizen",
         "desc": "An ordinary commoner.",
         "tier": 0,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],

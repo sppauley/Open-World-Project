@@ -4,7 +4,7 @@
         "name": "Mage Knight",
         "desc": "",
         "tier": 2,
-        "movement_group": "Light Cav",
+        "movement_group": "Mounted",
         "promotes_from": "Mage",
         "turns_into": [],
         "tags": [

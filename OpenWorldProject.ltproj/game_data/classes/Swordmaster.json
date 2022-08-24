@@ -4,7 +4,7 @@
         "name": "Swordmaster",
         "desc": "Swordfighters with superior speed and skill.",
         "tier": 2,
-        "movement_group": "Light Foot",
+        "movement_group": "Infantry",
         "promotes_from": "Myrmidon",
         "turns_into": [],
         "tags": [
