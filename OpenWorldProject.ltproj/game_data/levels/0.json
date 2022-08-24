@@ -1,129 +1,29 @@
 [
     {
         "nid": "0",
-        "name": "Prologue",
-        "tilemap": "Prologue",
+        "name": "Demo 1",
+        "tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": "Distant Roads",
-            "enemy_phase": "Shadow of the Enemy",
+            "player_phase": null,
+            "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Attack",
-            "enemy_battle": "Defense",
+            "player_battle": null,
+            "enemy_battle": null,
             "other_battle": null,
-            "enemy2_battle": null,
-            "base": null
+            "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat boss",
-            "win": "Defeat boss",
-            "loss": "Eirika dies"
+            "simple": "",
+            "win": "",
+            "loss": ""
         },
         "roam": false,
-        "roam_unit": "Eirika",
+        "roam_unit": null,
         "go_to_overworld": false,
-        "units": [
-            {
-                "nid": "Eirika",
-                "team": "player",
-                "ai": "None",
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Seth",
-                "team": "player",
-                "ai": "None",
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Fighter",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "team": "enemy",
-                "ai": "Attack",
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 2,
-                "klass": "Fighter",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "team": "enemy",
-                "ai": "Attack",
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "O'Neill",
-                "team": "enemy",
-                "ai": "Guard",
-                "ai_group": null,
-                "starting_position": [
-                    10,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            }
-        ],
+        "units": [],
         "regions": [],
-        "unit_groups": [
-            {
-                "nid": "Enemy1",
-                "units": [
-                    "101",
-                    "102"
-                ],
-                "positions": {
-                    "101": [
-                        14,
-                        7
-                    ],
-                    "102": [
-                        14,
-                        8
-                    ]
-                }
-            }
-        ]
+        "unit_groups": []
     }
 ]

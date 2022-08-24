@@ -17,39 +17,35 @@
     },
     {
         "nid": "HIT",
-        "expression": "SKL*2 + LCK//2"
+        "expression": "DEX*2"
     },
     {
         "nid": "AVOID",
-        "expression": "SPD*2 + LCK"
+        "expression": "SPD*2"
     },
     {
         "nid": "CRIT_HIT",
-        "expression": "SKL//2"
+        "expression": "DEX//2"
     },
     {
         "nid": "CRIT_AVOID",
-        "expression": "LCK"
+        "expression": "DEX"
     },
     {
         "nid": "DAMAGE",
-        "expression": "STR"
+        "expression": "ATK"
     },
     {
         "nid": "DEFENSE",
-        "expression": "DEF"
+        "expression": "0"
     },
     {
         "nid": "MAGIC_DAMAGE",
-        "expression": "MAG"
+        "expression": "ATK"
     },
     {
         "nid": "MAGIC_DEFENSE",
-        "expression": "RES"
-    },
-    {
-        "nid": "MAGIC_RANGE",
-        "expression": "max(5, MAG//2)"
+        "expression": "0"
     },
     {
         "nid": "CRIT_ADD",
@@ -85,19 +81,11 @@
     },
     {
         "nid": "HEAL",
-        "expression": "MAG"
+        "expression": "ATK"
     },
     {
         "nid": "CONSTITUTION",
         "expression": "CON"
-    },
-    {
-        "nid": "INITIATIVE",
-        "expression": "SPD"
-    },
-    {
-        "nid": "MANA",
-        "expression": "20"
     },
     {
         "nid": "ZERO",

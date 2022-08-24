@@ -1,15 +1,15 @@
 [
     [
         "num_items",
-        5
+        2
     ],
     [
         "num_accessories",
-        0
+        2
     ],
     [
         "turnwheel",
-        true
+        false
     ],
     [
         "initiative",
@@ -61,7 +61,7 @@
     ],
     [
         "growth_info",
-        true
+        false
     ],
     [
         "backpropagate_difficulty_growths",
@@ -125,11 +125,11 @@
     ],
     [
         "roam_hide_hp",
-        true
+        false
     ],
     [
         "convoy_on_death",
-        false
+        true
     ],
     [
         "repair_shop",
@@ -141,7 +141,7 @@
     ],
     [
         "reset_mana",
-        true
+        false
     ],
     [
         "double_splash",
@@ -153,11 +153,11 @@
     ],
     [
         "attack_zero_hit",
-        true
+        false
     ],
     [
         "attack_zero_dam",
-        true
+        false
     ],
     [
         "zero_move",
@@ -165,11 +165,11 @@
     ],
     [
         "game_nid",
-        "openworld"
+        "LT"
     ],
     [
         "title",
-        "Open World Project"
+        "Lex Talionis Game"
     ],
     [
         "title_particles",

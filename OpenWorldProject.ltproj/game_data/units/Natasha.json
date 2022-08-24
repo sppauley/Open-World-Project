@@ -9,27 +9,19 @@
         "tags": [],
         "bases": {
             "HP": 18,
-            "STR": 0,
-            "MAG": 2,
-            "SKL": 4,
             "SPD": 8,
-            "LCK": 6,
-            "DEF": 2,
-            "RES": 6,
             "CON": 4,
-            "MOV": 5
+            "MOV": 5,
+            "ATK": 2,
+            "DEX": 4
         },
         "growths": {
             "HP": 50,
-            "STR": 0,
-            "MAG": 60,
-            "SKL": 25,
             "SPD": 40,
-            "LCK": 60,
-            "DEF": 15,
-            "RES": 55,
             "CON": 0,
-            "MOV": 0
+            "MOV": 0,
+            "ATK": 60,
+            "DEX": 25
         },
         "starting_items": [
             [
