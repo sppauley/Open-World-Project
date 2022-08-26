@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Stagger",
+        "name": "Stagger",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "condition",
+                "True"
+            ],
+            [
+                "combat_condition",
+                "target.current_poise >= 0"
+            ],
+            [
+                "stagger_damage",
+                []
+            ]
+        ]
+    }
+]

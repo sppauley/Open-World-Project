@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Staggered",
+        "name": "Staggered",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            8
+        ],
+        "components": []
+    }
+]

@@ -4,6 +4,10 @@
         2
     ],
     [
+        "stagger",
+        true
+    ],
+    [
         "num_accessories",
         2
     ],
