@@ -33,7 +33,7 @@
     },
     {
         "nid": "DAMAGE",
-        "expression": "ATK"
+        "expression": "STR"
     },
     {
         "nid": "DEFENSE",
@@ -41,7 +41,7 @@
     },
     {
         "nid": "MAGIC_DAMAGE",
-        "expression": "ATK"
+        "expression": "MAG"
     },
     {
         "nid": "MAGIC_DEFENSE",
@@ -69,7 +69,7 @@
     },
     {
         "nid": "RESCUE_WEIGHT",
-        "expression": "CON"
+        "expression": "STR"
     },
     {
         "nid": "STEAL_ATK",
@@ -81,14 +81,18 @@
     },
     {
         "nid": "HEAL",
-        "expression": "ATK"
+        "expression": "MAG"
     },
     {
         "nid": "CONSTITUTION",
-        "expression": "CON"
+        "expression": "STR"
     },
     {
         "nid": "ZERO",
         "expression": "0"
+    },
+    {
+        "nid": "POISE",
+        "expression": "PSE"
     }
 ]

@@ -12,42 +12,47 @@
         "bases": {
             "HP": 21,
             "SPD": 4,
-            "CON": 7,
             "MOV": 6,
-            "ATK": 4,
-            "DEX": 5
+            "DEX": 5,
+            "STR": 4,
+            "MAG": 0,
+            "PSE": 7
         },
         "growths": {
             "HP": 45,
             "SPD": 22,
-            "CON": 0,
             "MOV": 0,
-            "ATK": 35,
-            "DEX": 25
+            "DEX": 25,
+            "STR": 35,
+            "MAG": 0,
+            "PSE": 0
         },
         "growth_bonus": {
             "HP": 0,
             "SPD": 0,
-            "CON": 0,
             "MOV": 0,
-            "ATK": 0,
-            "DEX": 0
+            "DEX": 0,
+            "STR": 0,
+            "MAG": 0,
+            "PSE": 0
         },
         "promotion": {
             "HP": 3,
             "SPD": 1,
-            "CON": 2,
             "MOV": -99,
-            "ATK": 2,
-            "DEX": 2
+            "DEX": 2,
+            "STR": 2,
+            "MAG": 0,
+            "PSE": 2
         },
         "max_stats": {
             "HP": 60,
             "SPD": 26,
-            "CON": 20,
             "MOV": 15,
-            "ATK": 25,
-            "DEX": 26
+            "DEX": 26,
+            "STR": 25,
+            "MAG": 30,
+            "PSE": 20
         },
         "learned_skills": [
             [

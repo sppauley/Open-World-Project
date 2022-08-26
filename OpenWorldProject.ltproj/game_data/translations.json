@@ -322,5 +322,9 @@
     {
         "nid": "unit_record_header",
         "text": "Chapter Name        Kills    Damage    Healing"
+    },
+    {
+        "nid": "Pse_desc",
+        "text": "Poise. A unit's resistance to being staggered."
     }
 ]

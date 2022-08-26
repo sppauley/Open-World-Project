@@ -10,18 +10,20 @@
         "bases": {
             "HP": 30,
             "SPD": 14,
-            "CON": 8,
             "MOV": 6,
-            "ATK": 16,
-            "DEX": 18
+            "DEX": 18,
+            "STR": 16,
+            "MAG": 0,
+            "PSE": 8
         },
         "growths": {
             "HP": 50,
             "SPD": 40,
-            "CON": 0,
             "MOV": 0,
-            "ATK": 30,
-            "DEX": 25
+            "DEX": 25,
+            "STR": 30,
+            "MAG": 0,
+            "PSE": 0
         },
         "starting_items": [
             [

@@ -10,18 +10,20 @@
         "bases": {
             "HP": 17,
             "SPD": 11,
-            "CON": 5,
             "MOV": 7,
-            "ATK": 2,
-            "DEX": 7
+            "DEX": 7,
+            "STR": 2,
+            "MAG": 0,
+            "PSE": 5
         },
         "growths": {
             "HP": 50,
             "SPD": 60,
-            "CON": 0,
             "MOV": 0,
-            "ATK": 20,
-            "DEX": 55
+            "DEX": 55,
+            "STR": 20,
+            "MAG": 0,
+            "PSE": 0
         },
         "starting_items": [
             [
@@ -35,9 +37,30 @@
             [
                 "Vulnerary",
                 false
+            ],
+            [
+                "Elixir",
+                false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Crit +30"
+            ],
+            [
+                1,
+                "Resist+"
+            ],
+            [
+                1,
+                "Poisoned"
+            ],
+            [
+                1,
+                "Stunned"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

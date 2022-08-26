@@ -7,10 +7,17 @@
         "position": "hidden"
     },
     {
-        "nid": "ATK",
-        "name": "Atk",
+        "nid": "STR",
+        "name": "Str",
         "maximum": 30,
-        "desc": "Attack.  A unit's offensive power.",
+        "desc": "Strength. Determines physical offense and ability to use heavy weapons.",
+        "position": "left"
+    },
+    {
+        "nid": "MAG",
+        "name": "Mag",
+        "maximum": 30,
+        "desc": "Magic. Determines magic offense and status resistance.",
         "position": "left"
     },
     {
@@ -28,10 +35,10 @@
         "position": "left"
     },
     {
-        "nid": "CON",
-        "name": "Con",
+        "nid": "PSE",
+        "name": "Pse",
         "maximum": 25,
-        "desc": "Constitution. Affects how well the unit can wield heavier weapons and resists stagger.",
+        "desc": "Poise. A unit's resistance to stagger.",
         "position": "right"
     },
     {
