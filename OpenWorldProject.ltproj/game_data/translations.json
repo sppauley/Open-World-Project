@@ -326,5 +326,9 @@
     {
         "nid": "Pse_desc",
         "text": "Poise. A unit's resistance to being staggered."
+    },
+    {
+        "nid": "mtype_desc",
+        "text": "Movement type. Determines the movement cost for different types of terrain."
     }
 ]

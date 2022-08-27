@@ -8,6 +8,19 @@
             4,
             8
         ],
-        "components": []
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "dynamic_crit_avoid",
+                "-999"
+            ]
+        ]
     }
 ]

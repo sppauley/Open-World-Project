@@ -175,6 +175,13 @@
         "speed": "1,1,1,1,1,1,1,1,1,10,3,3,3"
     },
     {
+        "nid": "MapBreak",
+        "frame_x": 1,
+        "frame_y": 13,
+        "num_frames": 13,
+        "speed": "1,1,1,1,1,1,1,1,1,10,3,3,3"
+    },
+    {
         "nid": "MapNoDamage",
         "frame_x": 1,
         "frame_y": 12,

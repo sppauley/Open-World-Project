@@ -79,6 +79,10 @@
                     "Horse",
                     "Armor"
                 ]
+            ],
+            [
+                "stagger",
+                40
             ]
         ]
     }
