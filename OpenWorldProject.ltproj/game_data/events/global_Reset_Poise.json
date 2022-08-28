@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Reset Poise",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "set_current_poise",
+                [
+                    "{unit}",
+                    "{eval: int(unit.get_max_poise())}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

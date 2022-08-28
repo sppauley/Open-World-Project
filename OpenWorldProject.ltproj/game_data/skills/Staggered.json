@@ -2,7 +2,7 @@
     {
         "nid": "Staggered",
         "name": "Staggered",
-        "desc": "",
+        "desc": "This unit's poise has been broken. and it cannot move for the turn. The next attack against it will be a guaranteed critical hit,  but will refresh the unit's poise.",
         "icon_nid": "Skills",
         "icon_index": [
             4,
@@ -20,6 +20,27 @@
             [
                 "dynamic_crit_avoid",
                 "-999"
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "event_on_remove",
+                "Global Reset Poise"
+            ],
+            [
+                "lost_on_endstep",
+                null
             ]
         ]
     }

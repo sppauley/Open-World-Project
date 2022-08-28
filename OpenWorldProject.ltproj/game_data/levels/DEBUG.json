@@ -25,10 +25,10 @@
             {
                 "nid": "Bone",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "ai_group": null,
                 "starting_position": [
-                    2,
+                    3,
                     5
                 ],
                 "starting_traveler": null,
@@ -40,7 +40,7 @@
                 "ai": "None",
                 "ai_group": null,
                 "starting_position": [
-                    2,
+                    3,
                     6
                 ],
                 "starting_traveler": null,

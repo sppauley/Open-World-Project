@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Test",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [
+            [
+                "set_stats",
+                [
+                    "Bone",
+                    "HP,100",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Bone",
+                    "100"
+                ]
+            ],
+            [
+                "set_current_poise",
+                [
+                    "Eirika",
+                    "1"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#set_stats;Bone;SPD,60;FLAG(immediate)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
