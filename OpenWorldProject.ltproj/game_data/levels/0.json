@@ -3,6 +3,7 @@
         "nid": "0",
         "name": "Stagger Demo",
         "tilemap": "Chapter 1",
+        "bg_tilemap": null,
         "party": "Eirika",
         "music": {
             "player_phase": null,
@@ -27,6 +28,7 @@
                 "nid": "Eirika",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     11,
@@ -49,6 +51,7 @@
                 ],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     8,
@@ -71,6 +74,7 @@
                 ],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     11,
@@ -93,6 +97,7 @@
                 ],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     14,
@@ -105,6 +110,7 @@
                 "nid": "Seth",
                 "team": "player",
                 "ai": "None",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     13,
@@ -127,6 +133,7 @@
                 ],
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     4,
@@ -139,6 +146,7 @@
                 "nid": "Bone",
                 "team": "enemy",
                 "ai": "Attack",
+                "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     1,
