@@ -70,6 +70,10 @@
                         "Lose uses even on miss"
                     ]
                 ]
+            ],
+            [
+                "stagger",
+                5
             ]
         ]
     }
