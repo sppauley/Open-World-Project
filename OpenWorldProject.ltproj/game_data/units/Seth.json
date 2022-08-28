@@ -8,7 +8,7 @@
         "klass": "Paladin",
         "tags": [],
         "bases": {
-            "HP": 30,
+            "HP": 36,
             "SPD": 12,
             "MOV": 8,
             "DEX": 13,

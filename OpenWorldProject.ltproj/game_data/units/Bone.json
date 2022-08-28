@@ -4,19 +4,19 @@
         "name": "Bone",
         "desc": "One of Bazba's henchmen.",
         "variant": null,
-        "level": 4,
-        "klass": "Brigand",
+        "level": 1,
+        "klass": "Berserker",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 26,
-            "SPD": 6,
-            "MOV": 5,
-            "DEX": 6,
-            "STR": 0,
-            "MAG": 0,
-            "PSE": 12
+            "HP": 60,
+            "SPD": 9,
+            "MOV": 6,
+            "DEX": 16,
+            "STR": 1,
+            "MAG": 2,
+            "PSE": 20
         },
         "growths": {
             "HP": 0,
@@ -75,7 +75,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Bone",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     }
 ]
