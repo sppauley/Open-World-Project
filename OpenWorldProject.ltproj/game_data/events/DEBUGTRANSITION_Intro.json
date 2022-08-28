@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "DEBUGTRANSITION",
+        "condition": "True",
+        "commands": [
+            [
+                "add_talk",
+                [
+                    "Eirika (Eirika)",
+                    "Soldier (101)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

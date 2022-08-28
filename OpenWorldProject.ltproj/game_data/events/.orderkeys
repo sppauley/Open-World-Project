@@ -1,4 +1,6 @@
 {
     "DEBUG_Test.json": 0,
-    "global_Reset_Poise.json": 1
+    "global_Reset_Poise.json": 1,
+    "DEBUGTRANSITION_Intro.json": 2,
+    "DEBUGTRANSITION_StartEncounter.json": 3
 }

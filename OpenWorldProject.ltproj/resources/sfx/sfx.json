@@ -870,5 +870,9 @@
     [
         "Talk_Boop",
         null
+    ],
+    [
+        "BattleIntro",
+        null
     ]
 ]
