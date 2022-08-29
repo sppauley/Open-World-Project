@@ -2,5 +2,6 @@
     "DEBUG_Test.json": 0,
     "global_Reset_Poise.json": 1,
     "DEBUGTRANSITION_Intro.json": 2,
-    "DEBUGTRANSITION_StartEncounter.json": 3
+    "DEBUGTRANSITION_StartEncounter.json": 3,
+    "DEBUG_Unit_wait.json": 4
 }

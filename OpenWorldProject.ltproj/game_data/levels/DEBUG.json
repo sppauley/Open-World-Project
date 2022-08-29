@@ -27,7 +27,7 @@
             {
                 "nid": "Bone",
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [

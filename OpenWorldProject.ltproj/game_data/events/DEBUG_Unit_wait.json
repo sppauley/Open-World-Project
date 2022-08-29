@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Unit wait",
+        "trigger": "unit_wait",
+        "level_nid": "DEBUG",
+        "condition": "unit.team == 'player'",
+        "commands": [
+            [
+                "unit_act",
+                [
+                    "Bone (Bone)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Eirika",
+                    "ok"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
