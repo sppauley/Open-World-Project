@@ -3,19 +3,12 @@
         "name": "Unit wait",
         "trigger": "unit_wait",
         "level_nid": "DEBUG",
-        "condition": "unit.team == 'player'",
+        "condition": "unit.team == 'player' and game.check_alive('Bone')",
         "commands": [
             [
                 "unit_act",
                 [
                     "Bone (Bone)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Eirika",
-                    "ok"
                 ]
             ]
         ],
