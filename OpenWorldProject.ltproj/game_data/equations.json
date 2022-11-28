@@ -94,5 +94,9 @@
     {
         "nid": "POISE",
         "expression": "PSE"
+    },
+    {
+        "nid": "CRIT_MULT_PLUS",
+        "expression": "4"
     }
 ]

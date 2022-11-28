@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Luther Arrives",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount==2",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Luther",
+                    "0,3"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther",
+                    "1,3"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Luther"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

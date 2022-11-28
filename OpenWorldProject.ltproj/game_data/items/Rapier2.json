@@ -1,21 +1,17 @@
 [
     {
-        "nid": "Steel Sword",
-        "name": "Steel Sword",
-        "desc": "",
+        "nid": "Rapier2",
+        "name": "Rapier",
+        "desc": "Deals extra damage to broken foes",
         "icon_nid": "Sword",
         "icon_index": [
             0,
-            2
+            8
         ],
         "components": [
             [
                 "weapon",
                 null
-            ],
-            [
-                "value",
-                480
             ],
             [
                 "target_enemy",
@@ -31,19 +27,15 @@
             ],
             [
                 "damage",
-                8
+                3
             ],
             [
                 "hit",
-                80
-            ],
-            [
-                "crit",
-                0
+                95
             ],
             [
                 "weight",
-                10
+                3
             ],
             [
                 "level_exp",
@@ -54,12 +46,16 @@
                 "Sword"
             ],
             [
-                "weapon_rank",
-                "D"
+                "stagger",
+                2
             ],
             [
-                "stagger",
-                5
+                "crit",
+                0
+            ],
+            [
+                "status_on_equip",
+                "Bonus Crit"
             ]
         ]
     }

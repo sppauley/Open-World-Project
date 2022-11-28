@@ -5,5 +5,7 @@
     "1_Intro_(1).json": 3,
     "DEBUGTRANSITION_StartEncounter.json": 4,
     "1_StartEncounter_(1).json": 5,
-    "DEBUG_Unit_wait.json": 6
+    "DEBUG_Unit_wait.json": 6,
+    "2_Luther_Arrives.json": 7,
+    "2_General_dies.json": 8
 }

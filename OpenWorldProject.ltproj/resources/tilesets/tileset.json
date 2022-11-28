@@ -165,5 +165,15 @@
         "nid": "MagvelWorldMap",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Improved Castle Tileset Palette 2",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Castle Dark",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

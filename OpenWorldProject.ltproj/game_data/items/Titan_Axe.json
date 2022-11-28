@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Steel Blade",
-        "name": "Steel Blade",
-        "desc": "A heavy blade. Deals massive damage to Poise.",
-        "icon_nid": "Sword",
+        "nid": "Titan Axe",
+        "name": "Titan Axe",
+        "desc": "An extremely heavy axe. Deals massive damage to Poise.",
+        "icon_nid": "Axe",
         "icon_index": [
             0,
-            5
+            8
         ],
         "components": [
             [
@@ -23,23 +23,23 @@
             ],
             [
                 "damage",
-                10
+                8
             ],
             [
                 "hit",
-                65
+                55
             ],
             [
                 "weapon_type",
-                "Sword"
+                "Axe"
             ],
             [
                 "weapon_rank",
-                "C"
+                "B"
             ],
             [
                 "weight",
-                18
+                19
             ],
             [
                 "crit",
@@ -51,7 +51,7 @@
             ],
             [
                 "value",
-                1000
+                800
             ],
             [
                 "min_range",
@@ -63,7 +63,13 @@
             ],
             [
                 "stagger",
-                10
+                15
+            ],
+            [
+                "prf_unit",
+                [
+                    "Luther"
+                ]
             ]
         ]
     }

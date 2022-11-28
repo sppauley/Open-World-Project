@@ -1,0 +1,84 @@
+[
+    {
+        "nid": "Luther",
+        "name": "Luther",
+        "desc": "",
+        "variant": null,
+        "level": 2,
+        "klass": "Great_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 36,
+            "STR": 10,
+            "MAG": 0,
+            "DEX": 14,
+            "SPD": 5,
+            "PSE": 11,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 5,
+            "MAG": 5,
+            "DEX": 10,
+            "SPD": 5,
+            "PSE": 35,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Titan Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Fierce Presence"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                121
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

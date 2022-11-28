@@ -1,8 +1,8 @@
 [
     {
-        "nid": "1",
-        "name": "Roam -> Battle 2",
-        "tilemap": "New Tilemap",
+        "nid": "2",
+        "name": "Chapter 2",
+        "tilemap": "Demo",
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
@@ -20,42 +20,52 @@
             "win": "",
             "loss": ""
         },
-        "roam": true,
-        "roam_unit": "Eirika",
+        "roam": false,
+        "roam_unit": null,
         "go_to_overworld": false,
         "units": [
             {
-                "nid": "Eirika",
+                "nid": "Simon",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    14,
-                    25
+                    13,
+                    2
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Luther",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "101",
                 "variant": null,
-                "level": 3,
-                "klass": "Mercenary",
-                "faction": "Cutthroat",
+                "level": 1,
+                "klass": "General",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Blade",
+                        "Silver Lance",
                         false
                     ]
                 ],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    16,
-                    17
+                    2,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -63,32 +73,45 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 3,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Sword",
                         false
                     ]
                 ],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    11,
-                    16
+                    10,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
+                "nid": "Vincent",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "103",
                 "variant": null,
-                "level": 3,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -96,22 +119,19 @@
                     ]
                 ],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    8,
-                    17
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "104",
                 "variant": null,
-                "level": 3,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -119,61 +139,58 @@
                     ]
                 ],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    10,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "O'Neill",
+                "nid": "105",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    1,
-                    25
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Seth",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
-        "regions": [
+        "regions": [],
+        "unit_groups": [
             {
-                "nid": "New Region",
-                "region_type": "event",
-                "position": [
-                    10,
-                    15
+                "nid": "layer1",
+                "units": [
+                    "103",
+                    "104",
+                    "105"
                 ],
-                "size": [
-                    8,
-                    9
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "only_once": false,
-                "interrupt_move": true
+                "positions": {
+                    "103": [
+                        4,
+                        10
+                    ],
+                    "104": [
+                        6,
+                        9
+                    ],
+                    "105": [
+                        5,
+                        10
+                    ]
+                }
             }
-        ],
-        "unit_groups": []
+        ]
     }
 ]

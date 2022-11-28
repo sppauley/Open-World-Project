@@ -40,5 +40,8 @@
     "Inspiration.json": 38,
     "Inspiration_child.json": 39,
     "Staggered.json": 40,
-    "Stagger.json": 41
+    "Stagger.json": 41,
+    "Bonus_Crit.json": 42,
+    "Fierce_Presence.json": 43,
+    "Fierce_Presence_Effect.json": 44
 }

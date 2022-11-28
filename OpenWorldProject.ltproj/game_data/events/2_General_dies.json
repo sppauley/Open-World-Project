@@ -1,0 +1,24 @@
+[
+    {
+        "name": "General dies",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid=='101'",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "layer1"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "layer1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
