@@ -70,6 +70,7 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,

@@ -63,8 +63,8 @@
                 ]
             ],
             [
-                "stagger",
-                5
+                "effective_multiplier",
+                1
             ],
             [
                 "crit",

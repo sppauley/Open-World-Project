@@ -4,10 +4,6 @@
         2
     ],
     [
-        "stagger",
-        true
-    ],
-    [
         "num_accessories",
         2
     ],
@@ -158,6 +154,10 @@
     [
         "roam_hide_hp",
         false
+    ],
+    [
+        "autogenerate_grey_map_sprites",
+        true
     ],
     [
         "convoy_on_death",

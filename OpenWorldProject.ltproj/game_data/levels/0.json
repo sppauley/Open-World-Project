@@ -49,6 +49,7 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -72,6 +73,7 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -95,6 +97,7 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
@@ -131,6 +134,7 @@
                         false
                     ]
                 ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
