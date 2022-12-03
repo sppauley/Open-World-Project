@@ -58,12 +58,7 @@
             "MAG": 30,
             "PSE": 25
         },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 true,

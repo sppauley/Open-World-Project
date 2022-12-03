@@ -1,37 +1,33 @@
 [
     {
-        "nid": "Lyon",
-        "name": "Lyon",
+        "nid": "Simon",
+        "name": "Simon",
         "desc": "",
         "variant": null,
-        "level": 14,
-        "klass": "Necromancer",
+        "level": 1,
+        "klass": "Myrmidon",
         "tags": [],
         "bases": {
-            "HP": 46,
-            "SPD": 12,
-            "MOV": 6,
-            "DEX": 14,
-            "STR": 24,
+            "HP": 15,
+            "STR": 3,
             "MAG": 0,
-            "PSE": 7
+            "DEX": 7,
+            "SPD": 8,
+            "PSE": 5,
+            "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
-            "DEX": 0,
-            "STR": 0,
-            "MAG": 0,
-            "PSE": 0
+            "HP": 65,
+            "STR": 35,
+            "MAG": 20,
+            "DEX": 45,
+            "SPD": 45,
+            "PSE": 50,
+            "MOV": 0
         },
         "starting_items": [
             [
-                "Nosferatu",
-                false
-            ],
-            [
-                "Fenrir",
+                "Rapier2",
                 false
             ]
         ],
@@ -40,7 +36,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0
+                31
             ],
             "Lance": [
                 false,
@@ -56,7 +52,7 @@
             ],
             "Staff": [
                 false,
-                181
+                0
             ],
             "Light": [
                 false,
@@ -68,7 +64,7 @@
             ],
             "Dark": [
                 false,
-                251
+                0
             ],
             "Default": [
                 false,
@@ -76,7 +72,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Lyon",
+        "portrait_nid": "",
         "affinity": "None",
         "fields": []
     }

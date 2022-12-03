@@ -4,19 +4,19 @@
         "name": "O'Neill",
         "desc": "A troop leader in Grado's army.",
         "variant": null,
-        "level": 4,
-        "klass": "Fighter",
+        "level": 1,
+        "klass": "Ranger",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 24,
+            "HP": 60,
             "SPD": 7,
-            "MOV": 5,
-            "DEX": 4,
+            "MOV": 7,
+            "DEX": 11,
             "STR": 0,
             "MAG": 0,
-            "PSE": 11
+            "PSE": 15
         },
         "growths": {
             "HP": 0,
@@ -29,7 +29,11 @@
         },
         "starting_items": [
             [
-                "Iron Axe",
+                "Steel Bow",
+                false
+            ],
+            [
+                "Steel Blade",
                 false
             ]
         ],
@@ -38,7 +42,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0
+                71
             ],
             "Lance": [
                 false,
@@ -46,11 +50,11 @@
             ],
             "Axe": [
                 true,
-                71
+                0
             ],
             "Bow": [
                 false,
-                0
+                121
             ],
             "Staff": [
                 false,

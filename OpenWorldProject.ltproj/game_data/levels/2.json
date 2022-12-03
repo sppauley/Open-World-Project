@@ -1,0 +1,196 @@
+[
+    {
+        "nid": "2",
+        "name": "Chapter 2",
+        "tilemap": "Demo",
+        "bg_tilemap": null,
+        "party": "Eirika",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    13,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Luther",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "General",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    2,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Vincent",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [],
+        "unit_groups": [
+            {
+                "nid": "layer1",
+                "units": [
+                    "103",
+                    "104",
+                    "105"
+                ],
+                "positions": {
+                    "103": [
+                        4,
+                        10
+                    ],
+                    "104": [
+                        6,
+                        9
+                    ],
+                    "105": [
+                        5,
+                        10
+                    ]
+                }
+            }
+        ]
+    }
+]

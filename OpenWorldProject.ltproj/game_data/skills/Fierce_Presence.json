@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Fierce Presence",
+        "name": "Fierce Presence",
+        "desc": "Lowers the AVO of adjacent foes by 10",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ],
+            [
+                "aura",
+                "Fierce Presence Effect"
+            ],
+            [
+                "aura_range",
+                1
+            ]
+        ]
+    }
+]

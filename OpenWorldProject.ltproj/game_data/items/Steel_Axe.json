@@ -46,20 +46,6 @@
                 15
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -74,6 +60,10 @@
             [
                 "wexp",
                 2
+            ],
+            [
+                "stagger",
+                9
             ]
         ]
     }
