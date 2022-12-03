@@ -23,7 +23,11 @@
             ],
             [
                 "combat_condition",
-                "target.current_poise >= 0"
+                "target.get_poise() >= 0"
+            ],
+            [
+                "stagger_damage",
+                []
             ]
         ]
     }
