@@ -61,6 +61,26 @@
             [
                 1,
                 "Canto"
+            ],
+            [
+                1,
+                "Steal"
+            ],
+            [
+                1,
+                "Locktouch"
+            ],
+            [
+                1,
+                "Strength +2"
+            ],
+            [
+                1,
+                "Speed +5"
+            ],
+            [
+                1,
+                "Luck +5"
             ]
         ],
         "wexp_gain": {

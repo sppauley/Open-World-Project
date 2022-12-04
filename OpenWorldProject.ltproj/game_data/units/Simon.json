@@ -74,6 +74,11 @@
         "alternate_classes": [],
         "portrait_nid": "",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "PartyMember",
+                "No"
+            ]
+        ]
     }
 ]

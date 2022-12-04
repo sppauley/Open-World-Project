@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Add to Party",
+        "trigger": "level_start",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "set_unit_field",
+                [
+                    "Luther (Luther)",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Vincent",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 30
+    }
+]

@@ -1,0 +1,336 @@
+[
+    {
+        "name": "WinFirstCombat",
+        "trigger": "combat_end",
+        "level_nid": "3",
+        "condition": "is_dead('104')",
+        "commands": [
+            [
+                "remove_group",
+                [
+                    "Combat1",
+                    "fade"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "remove_game_board_bounds",
+                []
+            ],
+            [
+                "change_roaming",
+                [
+                    "t"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "firstdooropen"
+                ]
+            ],
+            [
+                "create_unit",
+                [
+                    "104",
+                    "",
+                    "1",
+                    "15,10",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "14,10"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "RECORDS.get('TriggeredTrap') == 't'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Hold, I-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Silence!{w} Don't take me for a fool.{w}{br}I'm well aware of the trap in the treasure room.{w}{br}How do I disarm it?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "H-h-how do you know about-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I'm asking the questions!{w}{br}Tell me!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Just open the chest normally!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Really?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Yes, truly!{w} Now, please, I-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Have a family in a nearby village, I know."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "VSSpareSmuggler",
+                    "Spare or kill him?",
+                    "Spare,Kill"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars['_last_choice'] == 'Spare'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You would happily kill me, even now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "No, I was forced!{w} I didn't want to!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Go home to your family.{w} And tell your village{w}{br}that Lord Simon shows mercy to his foes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Of course!{w} You are most wise and just!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "{created_unit}",
+                    "8,19"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{created_unit}"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "kill_unit",
+                [
+                    "{created_unit}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Let no one say that I allow treachery to go unrewarded."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Hold, I beg you!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Oh?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Please, spare my life!{w}{br}I'll give you information!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Lead with said information."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "T-there's a chest in the next room, but it's trapped.{w}{br}If you don't knock on it three times{w} it'll explode when you open it!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Is that so?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "I swear it!{w} Please, I have family in a nearby village."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Valueless.{w} Milord, I recommend a swift execution."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "P-please!"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "VSSpareSmuggler",
+                    "Spare or kill him?",
+                    "Spare,Kill"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars['_last_choice'] == 'Spare'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Whether or not his information is trustworthy,{w}{br}showing mercy has value.{w}{br}You're free to go."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "Thank you!{w} Fates bless you!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "{created_unit}",
+                    "8,19"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smuggler",
+                    "I... maybe I shouldn't have...{w}{br}No, but I need to get home.{w}{br}That's- that's all that matters."
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{created_unit}"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You have raised your sword against your lord.{w}{br}There is only one punishment for that crime."
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "{created_unit}"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

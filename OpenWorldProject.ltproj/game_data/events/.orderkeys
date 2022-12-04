@@ -7,5 +7,17 @@
     "1_StartEncounter_(1).json": 5,
     "DEBUG_Unit_wait.json": 6,
     "2_Luther_Arrives.json": 7,
-    "2_General_dies.json": 8
+    "2_General_dies.json": 8,
+    "3_Intro.json": 9,
+    "3_StartFirstCombat.json": 10,
+    "3_Add_to_Party.json": 11,
+    "3_EmptyPaty.json": 12,
+    "global_ConsolidateToLeader.json": 13,
+    "3_WinFirstCombat.json": 14,
+    "3_StartSecondCombat.json": 15,
+    "3_Boss_Attack.json": 16,
+    "3_AfterFirstCombat.json": 17,
+    "3_WinMap.json": 18,
+    "3_Pause_Roaming.json": 19,
+    "3_Top_Chest.json": 20
 }

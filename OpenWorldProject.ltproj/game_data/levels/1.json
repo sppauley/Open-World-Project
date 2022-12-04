@@ -4,7 +4,7 @@
         "name": "Roam -> Battle 2",
         "tilemap": "New Tilemap",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Simon",
         "music": {
             "player_phase": null,
             "enemy_phase": null,

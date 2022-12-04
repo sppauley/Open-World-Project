@@ -4,7 +4,7 @@
         "name": "DEBUG",
         "tilemap": "Chapter 2",
         "bg_tilemap": null,
-        "party": "Eirika",
+        "party": "Simon",
         "music": {
             "player_phase": "Shadow of the Enemy",
             "enemy_phase": null,
@@ -117,6 +117,19 @@
                 "starting_position": [
                     2,
                     2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Luther",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false

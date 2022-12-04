@@ -1,0 +1,76 @@
+[
+    {
+        "name": "StartSecondCombat",
+        "trigger": "roaming_interrupt",
+        "level_nid": "3",
+        "condition": "game.level_vars.get('next_combat') == 2",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "next_combat",
+                    "2"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "F2.1",
+                    "4,5",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "F2.2",
+                    "5,5",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "start_encounter",
+                [
+                    "0",
+                    "5",
+                    "13",
+                    "14",
+                    "BattleIntro"
+                ]
+            ],
+            [
+                "arrange_formation",
+                []
+            ],
+            [
+                "remove_region",
+                [
+                    "F2.1"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "F2.2"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "bossarrives",
+                    "game.turncount + 2"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Boss Attack",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.level_vars.get('bossarrives') == game.turncount",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "seconddooropen"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Soldier (110)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Captain",
+                    "Ah, enough!{w} It's my treasure...{w}{br}My cargo!{w} My profits to be won!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "EmptyPaty",
+        "trigger": "level_end",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "set_unit_field",
+                [
+                    "Luther (Luther)",
+                    "PartyMember",
+                    "No"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Vincent",
+                    "PartyMember",
+                    "No"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 10
+    }
+]

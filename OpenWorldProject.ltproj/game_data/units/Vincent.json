@@ -12,7 +12,7 @@
             "STR": 5,
             "MAG": 0,
             "DEX": 9,
-            "SPD": 3,
+            "SPD": 5,
             "PSE": 6,
             "MOV": 7
         },
@@ -74,6 +74,11 @@
         "alternate_classes": [],
         "portrait_nid": "",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "PartyMember",
+                "No"
+            ]
+        ]
     }
 ]

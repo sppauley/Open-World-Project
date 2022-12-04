@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Pause Roaming",
+        "trigger": null,
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "prep",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
