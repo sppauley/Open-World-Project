@@ -9,7 +9,7 @@
                 "for",
                 [
                     "voiced_unit",
-                    "[unit.nid for unit in game.get_units_in_party()]"
+                    "[unit.nid for unit in game.get_player_units()]"
                 ]
             ],
             [

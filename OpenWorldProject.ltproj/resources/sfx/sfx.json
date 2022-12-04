@@ -874,5 +874,17 @@
     [
         "BattleIntro",
         null
+    ],
+    [
+        "LutherSelect1",
+        null
+    ],
+    [
+        "LutherSelect2",
+        null
+    ],
+    [
+        "LutherSelect3",
+        null
     ]
 ]

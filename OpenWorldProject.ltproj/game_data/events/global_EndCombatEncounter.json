@@ -1,0 +1,34 @@
+[
+    {
+        "name": "EndCombatEncounter",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ResetSelectionQuotes (Global ResetSelectionQuotes)"
+                ]
+            ],
+            [
+                "remove_game_board_bounds",
+                []
+            ],
+            [
+                "change_roaming",
+                [
+                    "t"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

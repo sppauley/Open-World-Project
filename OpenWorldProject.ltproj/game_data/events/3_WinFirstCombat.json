@@ -15,17 +15,7 @@
             [
                 "trigger_script",
                 [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "remove_game_board_bounds",
-                []
-            ],
-            [
-                "change_roaming",
-                [
-                    "t"
+                    "EndCombatEncounter (Global EndCombatEncounter)"
                 ]
             ],
             [
