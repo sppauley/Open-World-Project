@@ -18,3 +18,25 @@ class DoNothing(SkillComponent):
 
     expose = ComponentType.Int
     value = 1
+
+class StaggerGaleforce(SkillComponent):
+    nid = 'stagger_galeforce'
+    desc = "After staggering an enemy on player phase, unit can move again."
+    tag = SkillTags.MOVEMENT
+
+    def init(self, skill):
+        self.skill.data['charge'] = 0
+
+    def on_stagger(self, playback, unit, target, item):
+        self.skill.data['charge'] = 1
+
+    def trigger_charge(self, unit, skill):
+        new_value = self.skill.data['charge'] - 1
+        action.do(action.SetObjData(self.skill, 'charge', new_value))
+
+    def end_combat(self, playback, unit, item, target, mode):
+        mark_playbacks = [p for p in playback if p.nid in ('mark_miss', 'mark_hit', 'mark_crit')]
+        if target and self.skill.data['charge'] == 1:
+                if any(p.main_attacker is unit for p in mark_playbacks):  # Unit is overall attacker
+                    action.do(action.Reset(unit))
+        action.do(action.TriggerCharge(unit, self.skill))

@@ -28,6 +28,10 @@
             [
                 "stagger_damage",
                 []
+            ],
+            [
+                "stagger_galeforce",
+                null
             ]
         ]
     }
