@@ -890,5 +890,25 @@
     [
         "LutherInjured1",
         null
+    ],
+    [
+        "SimonInjured1",
+        null
+    ],
+    [
+        "SimonInjured2",
+        null
+    ],
+    [
+        "SimonSelect1",
+        null
+    ],
+    [
+        "SimonSelect2",
+        null
+    ],
+    [
+        "SimonSelect3",
+        null
     ]
 ]
