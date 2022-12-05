@@ -23,5 +23,6 @@
     "global_ResetSelectionQuotes.json": 21,
     "global_PlaySelectionQuote.json": 22,
     "global_EndCombatEncounter.json": 23,
-    "4_WinMap.json": 24
+    "4_WinMap.json": 24,
+    "5_Intro.json": 25
 }

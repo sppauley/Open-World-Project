@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "give_item",
+                [
+                    "Vincent (Vincent)",
+                    "Iron Lance (Iron Lance)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
