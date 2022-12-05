@@ -18,6 +18,13 @@
                 ]
             ],
             [
+                "loop_units",
+                [
+                    "[unit.nid for unit in game.get_player_units()]",
+                    "Reset Poise (Global Reset Poise)"
+                ]
+            ],
+            [
                 "remove_game_board_bounds",
                 []
             ],
