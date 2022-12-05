@@ -82,6 +82,10 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "stagger",
+                3
             ]
         ]
     }

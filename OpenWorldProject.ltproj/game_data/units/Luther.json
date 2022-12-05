@@ -27,7 +27,11 @@
         },
         "starting_items": [
             [
-                "Titan Axe",
+                "Iron Axe",
+                false
+            ],
+            [
+                "Steel Axe",
                 false
             ]
         ],
