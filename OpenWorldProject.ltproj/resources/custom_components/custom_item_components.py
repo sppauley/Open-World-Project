@@ -5,10 +5,10 @@ from app.data.database.database import DB
 from app.data.database.item_components import ItemComponent, ItemTags
 from app.engine import (action, banner, combat_calcs, engine, equations,
                         image_mods, item_funcs, item_system, skill_system,
-                        static_random, target_system)
+                        target_system)
 from app.engine.game_state import game
 from app.engine.objects.unit import UnitObject
-from app.utilities import utils
+from app.utilities import utils, static_random
 
 
 class DoNothing(ItemComponent):
