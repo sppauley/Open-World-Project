@@ -32,6 +32,13 @@
                 [
                     "#set_stats;Bone;SPD,60;FLAG(immediate)"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Luther (Luther)",
+                    "CheatAxe (CheatAxe)"
+                ]
             ]
         ],
         "only_once": false,
