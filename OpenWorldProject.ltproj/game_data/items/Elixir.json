@@ -50,6 +50,10 @@
             [
                 "accessory",
                 null
+            ],
+            [
+                "usable_in_base",
+                null
             ]
         ]
     }
