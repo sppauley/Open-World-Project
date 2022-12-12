@@ -27,6 +27,13 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "_convoy",
+                    "1"
+                ]
+            ],
+            [
                 "give_item",
                 [
                     "Simon (Simon)",
@@ -151,6 +158,19 @@
                 "trigger_script",
                 [
                     "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#REMOVE BELOW LATER"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Simon (Simon)",
+                    "10"
                 ]
             ]
         ],

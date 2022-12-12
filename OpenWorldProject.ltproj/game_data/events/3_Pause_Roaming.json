@@ -1,7 +1,7 @@
 [
     {
         "name": "Pause Roaming",
-        "trigger": null,
+        "trigger": "roam_press_start",
         "level_nid": "3",
         "condition": "True",
         "commands": [
