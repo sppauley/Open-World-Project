@@ -22,5 +22,8 @@
     "3_Top_Chest.json": 20,
     "global_ResetSelectionQuotes.json": 21,
     "global_PlaySelectionQuote.json": 22,
-    "global_EndCombatEncounter.json": 23
+    "global_EndCombatEncounter.json": 23,
+    "4_Camp1.json": 24,
+    "global_GenericCamp.json": 25,
+    "4_Intro.json": 26
 }

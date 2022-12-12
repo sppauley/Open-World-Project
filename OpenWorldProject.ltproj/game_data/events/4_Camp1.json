@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Camp1",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "base",
+                [
+                    "Plains",
+                    "Quiet Burn",
+                    "FLAG(show_map)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

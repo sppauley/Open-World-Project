@@ -2,7 +2,7 @@
     {
         "nid": "1",
         "name": "Roam -> Battle 2",
-        "tilemap": "New Tilemap",
+        "tilemap": "SP Tilemap",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {

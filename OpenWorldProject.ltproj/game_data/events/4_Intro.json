@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "set_current_hp",
+                [
+                    "Simon (Simon)",
+                    "1"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

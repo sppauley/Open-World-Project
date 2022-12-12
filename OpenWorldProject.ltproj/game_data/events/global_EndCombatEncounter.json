@@ -25,6 +25,12 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "# Could be a good idea to have another loop_units here that clears inflicted statuses"
+                ]
+            ],
+            [
                 "remove_game_board_bounds",
                 []
             ],

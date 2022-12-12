@@ -9,7 +9,8 @@
     "Chapter_4.json": 7,
     "Chapter_5.json": 8,
     "Magvel.json": 9,
-    "New_Tilemap.json": 10,
+    "SP_Tilemap.json": 10,
     "Demo.json": 11,
-    "VSFort.json": 12
+    "VSFort.json": 12,
+    "Camp_Test.json": 13
 }
