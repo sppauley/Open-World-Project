@@ -1,0 +1,51 @@
+[
+    {
+        "name": "PrepHealUnit",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "{var:HealChoice}",
+                    "Eirika",
+                    "immediate",
+                    "closest"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{var:HealTargetChoice}",
+                    "Eirika",
+                    "immediate",
+                    "closest"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "{var:HealChoice}",
+                    "{var:HealTargetChoice}",
+                    "hit1,end",
+                    "{var:HealItemChoice}"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{var:HealChoice}"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{var:HealTargetChoice}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

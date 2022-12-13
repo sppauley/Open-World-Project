@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Pause Roaming",
+        "trigger": "roam_press_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "f",
+                    "",
+                    "Heal",
+                    "{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
+                    "HealMenu"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
