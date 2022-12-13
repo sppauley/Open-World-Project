@@ -18,12 +18,14 @@
     "3_Boss_Attack.json": 16,
     "3_AfterFirstCombat.json": 17,
     "3_WinMap.json": 18,
-    "3_Pause_Roaming.json": 19,
-    "3_Top_Chest.json": 20,
-    "global_ResetSelectionQuotes.json": 21,
-    "global_PlaySelectionQuote.json": 22,
-    "global_EndCombatEncounter.json": 23,
-    "4_Camp1.json": 24,
-    "global_GenericCamp.json": 25,
-    "4_Intro.json": 26
+    "3_Top_Chest.json": 19,
+    "global_ResetSelectionQuotes.json": 20,
+    "global_PlaySelectionQuote.json": 21,
+    "global_EndCombatEncounter.json": 22,
+    "4_Camp1.json": 23,
+    "global_GenericCamp.json": 24,
+    "4_Intro.json": 25,
+    "global_HealMenu.json": 26,
+    "global_Pause_Roaming.json": 27,
+    "global_PrepHealUnit.json": 28
 }

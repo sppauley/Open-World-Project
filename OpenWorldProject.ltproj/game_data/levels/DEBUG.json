@@ -20,8 +20,8 @@
             "win": "Don't Crash",
             "loss": "Crash"
         },
-        "roam": false,
-        "roam_unit": null,
+        "roam": true,
+        "roam_unit": "Eirika",
         "go_to_overworld": false,
         "units": [
             {

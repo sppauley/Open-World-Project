@@ -39,6 +39,31 @@
                     "Luther (Luther)",
                     "CheatAxe (CheatAxe)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# for testing"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Vanessa (Vanessa)",
+                    "1"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Moulder (Moulder)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Vanessa (Vanessa)"
+                ]
             ]
         ],
         "only_once": false,

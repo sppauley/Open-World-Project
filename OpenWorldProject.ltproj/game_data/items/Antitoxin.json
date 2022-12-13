@@ -46,6 +46,10 @@
             [
                 "restore_specific",
                 "Poisoned"
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

@@ -64,6 +64,10 @@
         true
     ],
     [
+        "overworld_start",
+        false
+    ],
+    [
         "unit_notes",
         false
     ],
