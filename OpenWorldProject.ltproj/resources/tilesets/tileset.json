@@ -175,5 +175,15 @@
         "nid": "Castle Dark",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Darkling Woods",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Swamp2",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
