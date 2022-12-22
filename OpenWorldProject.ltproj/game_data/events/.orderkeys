@@ -27,5 +27,7 @@
     "4_Intro.json": 25,
     "global_HealMenu.json": 26,
     "global_Pause_Roaming.json": 27,
-    "global_PrepHealUnit.json": 28
+    "global_PrepHealUnit.json": 28,
+    "5_Intro.json": 29,
+    "global_Credits.json": 30
 }
