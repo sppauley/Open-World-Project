@@ -41,6 +41,10 @@
             [
                 "lost_on_endstep",
                 null
+            ],
+            [
+                "avoid",
+                -30
             ]
         ]
     }
