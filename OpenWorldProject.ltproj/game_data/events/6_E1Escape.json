@@ -6,6 +6,12 @@
         "condition": "True",
         "commands": [
             [
+                "hide_layer",
+                [
+                    "blockreturn"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",
@@ -57,9 +63,9 @@
                 ]
             ],
             [
-                "trigger_script",
+                "comment",
                 [
-                    "EndCombatEncounter (Global EndCombatEncounter)"
+                    "#trigger_script;EndCombatEncounter (Global EndCombatEncounter)"
                 ]
             ],
             [
@@ -72,6 +78,13 @@
                 "show_layer",
                 [
                     "blockreturn"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "E1",
+                    "fade"
                 ]
             ],
             [
