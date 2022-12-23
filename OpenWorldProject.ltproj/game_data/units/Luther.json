@@ -9,11 +9,11 @@
         "tags": [],
         "bases": {
             "HP": 36,
-            "STR": 10,
+            "STR": 5,
             "MAG": 0,
-            "DEX": 14,
+            "DEX": 16,
             "SPD": 5,
-            "PSE": 11,
+            "PSE": 18,
             "MOV": 6
         },
         "growths": {
@@ -31,12 +31,7 @@
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Fierce Presence"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

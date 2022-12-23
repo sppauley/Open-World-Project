@@ -8,21 +8,21 @@
         "klass": "Cavalier",
         "tags": [],
         "bases": {
-            "HP": 18,
+            "HP": 21,
             "STR": 5,
-            "MAG": 0,
-            "DEX": 9,
-            "SPD": 5,
-            "PSE": 6,
+            "MAG": 9,
+            "DEX": 8,
+            "SPD": 6,
+            "PSE": 9,
             "MOV": 7
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 70,
+            "STR": 30,
+            "MAG": 40,
+            "DEX": 25,
+            "SPD": 20,
+            "PSE": 25,
             "MOV": 0
         },
         "starting_items": [

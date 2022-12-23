@@ -2,7 +2,7 @@
     {
         "nid": "Titan Axe",
         "name": "Titan Axe",
-        "desc": "An extremely heavy axe. Deals massive damage to Poise.",
+        "desc": "Luther only. An extremely heavy axe. Deals massive damage to Poise. ",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                55
+                70
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "weight",
-                19
+                20
             ],
             [
                 "crit",
@@ -48,10 +48,6 @@
             [
                 "wexp",
                 2
-            ],
-            [
-                "value",
-                800
             ],
             [
                 "min_range",
@@ -63,7 +59,7 @@
             ],
             [
                 "stagger",
-                15
+                14
             ],
             [
                 "prf_unit",

@@ -25,7 +25,7 @@
         "minimap": "Wall",
         "platform": "Wall",
         "background": "BlackBackground",
-        "mtype": "Fence",
+        "mtype": "Wall",
         "opaque": false,
         "status": null
     },

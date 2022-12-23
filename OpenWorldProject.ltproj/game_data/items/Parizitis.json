@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Rapier2",
-        "name": "Rapier",
-        "desc": "Deals extra damage to broken foes",
+        "nid": "Parizitis",
+        "name": "Parizitis",
+        "desc": "Simon only. Deals extra damage on crits against broken foes",
         "icon_nid": "Sword",
         "icon_index": [
             0,
-            8
+            18
         ],
         "components": [
             [
@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                3
+                5
             ],
             [
                 "hit",
-                95
+                90
             ],
             [
                 "weight",
@@ -47,15 +47,21 @@
             ],
             [
                 "stagger",
-                2
+                0
             ],
             [
                 "crit",
-                0
+                10
             ],
             [
                 "status_on_equip",
                 "Bonus Crit"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Simon"
+                ]
             ]
         ]
     }

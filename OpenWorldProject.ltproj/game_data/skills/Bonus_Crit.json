@@ -16,6 +16,10 @@
             [
                 "alternate_critical_multiplier_formula",
                 "CRIT_MULT_PLUS"
+            ],
+            [
+                "combat_condition",
+                "'Staggered' in [skill.nid for skill in target.skills]"
             ]
         ]
     }
