@@ -101,7 +101,7 @@
             0
         ],
         "map_sprite_nid": "Monk",
-        "combat_anim_nid": "Tactician",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

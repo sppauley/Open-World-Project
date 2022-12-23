@@ -105,7 +105,7 @@
             0
         ],
         "map_sprite_nid": "Cavalier",
-        "combat_anim_nid": "Cavalier",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

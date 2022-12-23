@@ -99,7 +99,7 @@
             0
         ],
         "map_sprite_nid": "Warrior",
-        "combat_anim_nid": "Warrior",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

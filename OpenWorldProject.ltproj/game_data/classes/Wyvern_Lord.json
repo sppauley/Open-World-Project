@@ -112,7 +112,7 @@
             0
         ],
         "map_sprite_nid": "WyvernLord",
-        "combat_anim_nid": "Wyvern Lord",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

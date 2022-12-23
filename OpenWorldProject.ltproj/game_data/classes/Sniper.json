@@ -104,7 +104,7 @@
             0
         ],
         "map_sprite_nid": "Sniper",
-        "combat_anim_nid": "Sniper",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

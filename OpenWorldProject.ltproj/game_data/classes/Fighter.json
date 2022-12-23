@@ -102,7 +102,7 @@
             0
         ],
         "map_sprite_nid": "Fighter",
-        "combat_anim_nid": "Fighter",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

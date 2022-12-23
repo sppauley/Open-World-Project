@@ -102,7 +102,7 @@
             0
         ],
         "map_sprite_nid": "Mage",
-        "combat_anim_nid": "Mage",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

@@ -101,7 +101,7 @@
             0
         ],
         "map_sprite_nid": "Cleric",
-        "combat_anim_nid": "Cleric",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

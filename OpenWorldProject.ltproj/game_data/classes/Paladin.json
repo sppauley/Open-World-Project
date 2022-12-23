@@ -127,7 +127,7 @@
             0
         ],
         "map_sprite_nid": "Paladin",
-        "combat_anim_nid": "Paladin",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]

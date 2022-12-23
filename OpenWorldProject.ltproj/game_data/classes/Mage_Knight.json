@@ -106,7 +106,7 @@
             0
         ],
         "map_sprite_nid": "MageKnight",
-        "combat_anim_nid": "Strategist",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]
