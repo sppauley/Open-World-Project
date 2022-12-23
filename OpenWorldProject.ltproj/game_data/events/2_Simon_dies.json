@@ -25,6 +25,30 @@
                 ]
             ],
             [
+                "remove_skill",
+                [
+                    "Simon",
+                    "Staggered",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "Vincent",
+                    "Staggered",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "Luther",
+                    "Staggered",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
                 "resurrect",
                 [
                     "Simon"
@@ -231,7 +255,7 @@
                 ]
             ],
             [
-                "has_finished",
+                "has_attacked",
                 [
                     "101"
                 ]

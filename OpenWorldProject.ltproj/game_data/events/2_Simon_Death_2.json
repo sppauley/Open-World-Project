@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Simon Death 2",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid=='Simon' and game.level_vars['SimonReset']==1",
+        "commands": [
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

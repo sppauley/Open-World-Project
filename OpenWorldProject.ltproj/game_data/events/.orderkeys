@@ -38,5 +38,10 @@
     "2_Turn_end_after_reset.json": 36,
     "global_EndCombatEncounterQuick.json": 37,
     "global_HidePartyMember.json": 38,
-    "global_NewTurnResetPoise.json": 39
+    "global_NewTurnResetPoise.json": 39,
+    "2_General_dies_2.json": 40,
+    "2_Luther_Arrives_2.json": 41,
+    "2_Door.json": 42,
+    "2_Prevent_early_pursuit.json": 43,
+    "2_Simon_Death_2.json": 44
 }

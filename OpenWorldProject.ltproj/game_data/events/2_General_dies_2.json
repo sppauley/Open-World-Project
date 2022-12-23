@@ -297,6 +297,12 @@
                 ]
             ],
             [
+                "add_group",
+                [
+                    "layer3"
+                ]
+            ],
+            [
                 "flicker_cursor",
                 [
                     "6,8"

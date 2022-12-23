@@ -266,6 +266,27 @@
                 "generic": true
             },
             {
+                "nid": "112",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "p",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "111",
                 "variant": null,
                 "level": 3,
@@ -285,9 +306,68 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "p",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 3,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "p",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Door",
+                "region_type": "event",
+                "position": [
+                    5,
+                    9
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [
             {
                 "nid": "layer1",
@@ -345,6 +425,32 @@
                     "111": [
                         20,
                         11
+                    ]
+                }
+            },
+            {
+                "nid": "layer3",
+                "units": [
+                    "113",
+                    "109",
+                    "112"
+                ],
+                "positions": {
+                    "111": [
+                        9,
+                        9
+                    ],
+                    "113": [
+                        10,
+                        10
+                    ],
+                    "109": [
+                        6,
+                        9
+                    ],
+                    "112": [
+                        9,
+                        9
                     ]
                 }
             }

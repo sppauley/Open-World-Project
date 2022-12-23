@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [
+            [
+                "remove_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.nid=='Simon'"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Father..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I'm sorry."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "not any(unit.team == 'player' for unit in game.units if unit.position)"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
