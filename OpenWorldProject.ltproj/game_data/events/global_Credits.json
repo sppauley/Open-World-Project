@@ -16,6 +16,18 @@
                 [
                     "# Feaw (Deep Swamp)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Item icons"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Ironmachine"
+                ]
             ]
         ],
         "only_once": false,

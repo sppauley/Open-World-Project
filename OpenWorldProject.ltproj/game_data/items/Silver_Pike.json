@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Iron Lance",
-        "name": "Iron Lance",
+        "nid": "Silver_Pike",
+        "name": "Silver Pike",
         "desc": "",
-        "icon_nid": "Lance",
+        "icon_nid": "{lovemachine} Silver Greatlance 01",
         "icon_index": [
             0,
             0
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                360
+                1200
             ],
             [
                 "target_enemy",
@@ -31,11 +31,11 @@
             ],
             [
                 "damage",
-                5
+                14
             ],
             [
                 "hit",
-                85
+                75
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                7
+                10
             ],
             [
                 "level_exp",
@@ -55,11 +55,7 @@
             ],
             [
                 "weapon_rank",
-                "E"
-            ],
-            [
-                "stagger",
-                4
+                "A"
             ]
         ]
     }
