@@ -218,6 +218,22 @@
                 "condition": "unit.nid == 'Simon'",
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "PathRuins1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    30
+                ],
+                "size": [
+                    6,
+                    3
+                ],
+                "sub_nid": "PathRuins1",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
