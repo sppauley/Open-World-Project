@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Iron Blade",
-        "name": "Iron Blade",
+        "nid": "Steel_Pike",
+        "name": "Steel Pike",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{lovemachine} Steel Greatlance",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -23,15 +23,15 @@
             ],
             [
                 "damage",
-                4
+                10
             ],
             [
                 "hit",
-                75
+                70
             ],
             [
                 "weapon_type",
-                "Sword"
+                "Lance"
             ],
             [
                 "weapon_rank",
@@ -39,19 +39,19 @@
             ],
             [
                 "weight",
-                10
-            ],
-            [
-                "crit",
-                0
+                13
             ],
             [
                 "wexp",
                 2
             ],
             [
+                "crit",
+                0
+            ],
+            [
                 "value",
-                980
+                480
             ],
             [
                 "min_range",
@@ -63,7 +63,7 @@
             ],
             [
                 "stagger",
-                6
+                5
             ]
         ]
     }

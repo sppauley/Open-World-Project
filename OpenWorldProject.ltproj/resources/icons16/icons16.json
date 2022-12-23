@@ -58,5 +58,17 @@
     {
         "nid": "wexp_icons",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{lovemachine} Steel Greatlance",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{lovemachine} Silver Greatlance 01",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{lovemachine} Iron Greatlance",
+        "subicon_dict": {}
     }
 ]

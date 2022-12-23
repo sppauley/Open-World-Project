@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Iron Lance",
-        "name": "Iron Lance",
+        "nid": "Iron_Pike",
+        "name": "Iron Pike",
         "desc": "",
-        "icon_nid": "Lance",
+        "icon_nid": "{lovemachine} Iron Greatlance",
         "icon_index": [
             0,
             0
@@ -35,7 +35,7 @@
             ],
             [
                 "hit",
-                85
+                70
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                7
+                12
             ],
             [
                 "level_exp",
@@ -59,7 +59,7 @@
             ],
             [
                 "stagger",
-                4
+                8
             ]
         ]
     }
