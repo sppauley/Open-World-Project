@@ -153,6 +153,94 @@
                 [
                     "1000"
                 ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Percy (Percy)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "I appreciate the zeal, but let's try not to destroy too much."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "We just need to find Verstadt and take the throne."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Try to spare any servants, if possible."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "They're wantonly destroying the place... {w}and they're after my father."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Simon, calm yourself."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "I feel the same, but we must keep level heads."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "We can't just stand around, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Lord Verstadt's life is in danger."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "We'll push forward."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "They won't stand a chance."
+                ]
             ]
         ],
         "only_once": true,

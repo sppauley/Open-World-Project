@@ -19,36 +19,80 @@
                 ]
             ],
             [
-                "comment",
+                "speak",
                 [
-                    "#add_portrait;Luther;Left"
+                    "Luther",
+                    "Simon! {w}What are you doing?"
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Simon! {br}Watch out, this one's going to be a real pain."
+                    "Vincent, get him to safety."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I can't just stand back while my House falls."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Luther, I'm certain you feel the same.{br}{w}Please, let's put a stop to this."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "We're not going to run."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "So let's fight."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Just follow my lead."
+                    "Alright, but I won't have you whelps dying on my watch."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "I'll knock 'em to the ground,{br} and you follow up."
+                    "Just give the word and I'll knock these brigands to the ground..."
                 ]
             ],
             [
-                "comment",
+                "speak",
                 [
-                    "#remove_portrait;Luther"
+                    "Simon",
+                    "...and I'll follow up after that."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "What about me?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Stand back and watch."
                 ]
             ],
             [
