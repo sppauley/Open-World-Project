@@ -440,5 +440,10 @@
             "31,29": 0,
             "31,30": 0
         }
+    },
+    {
+        "nid": "PathToMorrissey",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
