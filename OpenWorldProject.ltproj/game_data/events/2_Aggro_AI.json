@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Aggro AI",
+        "trigger": "unit_wait",
+        "level_nid": "2",
+        "condition": "any_unit_in_region('GroundFloor', team='player')",
+        "commands": [
+            [
+                "change_ai",
+                [
+                    "Percy",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "106",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "107",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "108",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "110",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "111",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "109",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "112",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "113",
+                    "Pursue"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
