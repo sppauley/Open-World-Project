@@ -4,7 +4,7 @@
         "name": "Great Knight",
         "desc": "Veteran horse knights.",
         "tier": 1,
-        "movement_group": "Armors",
+        "movement_group": "Mounted",
         "promotes_from": "Cavalier",
         "turns_into": [],
         "tags": [
