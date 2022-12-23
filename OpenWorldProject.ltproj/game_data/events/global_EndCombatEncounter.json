@@ -39,6 +39,18 @@
                 [
                     "t"
                 ]
+            ],
+            [
+                "has_finished",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "Simon (Simon)"
+                ]
             ]
         ],
         "only_once": false,

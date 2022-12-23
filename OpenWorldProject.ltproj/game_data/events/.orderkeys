@@ -35,5 +35,7 @@
     "6_E1Escape.json": 33,
     "global_SetRoamSpeed.json": 34,
     "2_Simon_dies.json": 35,
-    "2_Turn_end_after_reset.json": 36
+    "2_Turn_end_after_reset.json": 36,
+    "global_EndCombatEncounterQuick.json": 37,
+    "global_HidePartyMember.json": 38
 }

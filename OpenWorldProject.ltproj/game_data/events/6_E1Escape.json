@@ -63,9 +63,9 @@
                 ]
             ],
             [
-                "trigger_script",
+                "comment",
                 [
-                    "EndCombatEncounter (Global EndCombatEncounter)"
+                    "#trigger_script;EndCombatEncounter (Global EndCombatEncounter)"
                 ]
             ],
             [
@@ -81,9 +81,23 @@
                 ]
             ],
             [
+                "remove_group",
+                [
+                    "E1",
+                    "fade"
+                ]
+            ],
+            [
                 "trigger_script",
                 [
                     "EndCombatEncounterQuick (Global EndCombatEncounterQuick)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Luther (Luther)",
+                    "immediate"
                 ]
             ]
         ],
