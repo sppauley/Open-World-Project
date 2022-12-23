@@ -196,6 +196,12 @@
                 [
                     "E1Formation2"
                 ]
+            ],
+            [
+                "show_layer",
+                [
+                    "blockreturn"
+                ]
             ]
         ],
         "only_once": false,

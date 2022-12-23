@@ -6,6 +6,12 @@
         "condition": "True",
         "commands": [
             [
+                "hide_layer",
+                [
+                    "blockreturn"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",
