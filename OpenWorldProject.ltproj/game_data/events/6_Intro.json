@@ -1,0 +1,94 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "remove_unit",
+                [
+                    "Simon (Simon)",
+                    "immediate"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "4,44",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon (Simon)",
+                    "4,44"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Map_Step_Infantry1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "4,45"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# dialogue here"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "12,45"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "900"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "13,40"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "900"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "5,35"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "900"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

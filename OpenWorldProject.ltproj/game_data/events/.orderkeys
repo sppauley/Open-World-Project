@@ -30,5 +30,7 @@
     "global_PrepHealUnit.json": 28,
     "5_Intro.json": 29,
     "global_Credits.json": 30,
-    "2_Intro.json": 31
+    "2_Intro.json": 31,
+    "6_Intro.json": 32,
+    "6_E1Escape.json": 33
 }

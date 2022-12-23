@@ -11,6 +11,27 @@
                     "Simon (Simon)",
                     "1"
                 ]
+            ],
+            [
+                "give_bexp",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Simon (Simon)",
+                    "10",
+                    "FLAG(hidden)"
+                ]
+            ],
+            [
+                "set_unit_level",
+                [
+                    "Simon (Simon)",
+                    "10"
+                ]
             ]
         ],
         "only_once": false,

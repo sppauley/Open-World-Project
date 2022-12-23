@@ -1,0 +1,98 @@
+[
+    {
+        "name": "E1Escape",
+        "trigger": "Escape",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "len([unit for unit in game.get_player_units() if unit.position]) == 0"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon (Simon)",
+                    "13,36"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Luther (Luther)",
+                    "12,35"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Good, we're all across the bridge.{w}{br}It'll take some time for them to pursue us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Please, milord.{w} We will return, one day."
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "EndCombatEncounter (Global EndCombatEncounter)"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "E1Escape"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "blockreturn"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "move_unit",
+                [
+                    "{unit}",
+                    "{e:game.get_unit('{unit}').position[0], game.get_unit('{unit}').position[1] + 1}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -18526,6 +18526,15 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "blockreturn",
+                "visible": false,
+                "terrain_grid": {
+                    "12,37": "0",
+                    "13,37": "0"
+                },
+                "sprite_grid": {}
             }
         ],
         "tilesets": [

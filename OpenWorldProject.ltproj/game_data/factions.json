@@ -48,5 +48,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "NewDawn",
+        "name": "New Dawn",
+        "desc": "A group of rebels intent on\noverthrowing the Verstadt family.",
+        "icon_nid": "ResistanceEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

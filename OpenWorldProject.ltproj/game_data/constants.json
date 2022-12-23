@@ -49,7 +49,7 @@
     ],
     [
         "bexp",
-        false
+        true
     ],
     [
         "rd_bexp_lvl",
