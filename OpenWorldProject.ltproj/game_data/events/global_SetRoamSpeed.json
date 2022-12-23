@@ -1,0 +1,19 @@
+[
+    {
+        "name": "SetRoamSpeed",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "game_var",
+                [
+                    "_roam_speed",
+                    "0.60"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

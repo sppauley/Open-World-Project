@@ -3,7 +3,7 @@
         "nid": "Great_Knight",
         "name": "Great Knight",
         "desc": "Veteran horse knights.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Mounted",
         "promotes_from": "Cavalier",
         "turns_into": [],
@@ -76,7 +76,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -89,6 +89,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

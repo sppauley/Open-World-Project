@@ -32,5 +32,6 @@
     "global_Credits.json": 30,
     "2_Intro.json": 31,
     "6_Intro.json": 32,
-    "6_E1Escape.json": 33
+    "6_E1Escape.json": 33,
+    "global_SetRoamSpeed.json": 34
 }
