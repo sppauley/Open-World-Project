@@ -202,6 +202,22 @@
                 [
                     "blockreturn"
                 ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Luther (Luther)",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Vincent",
+                    "PartyMember",
+                    "'Yes'"
+                ]
             ]
         ],
         "only_once": false,

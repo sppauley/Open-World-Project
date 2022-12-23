@@ -1,0 +1,19 @@
+[
+    {
+        "name": "NewTurnResetPoise",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_player_units()]",
+                    "Reset Poise (Global Reset Poise)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 30
+    }
+]

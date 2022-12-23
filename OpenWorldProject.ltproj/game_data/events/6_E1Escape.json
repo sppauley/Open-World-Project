@@ -92,13 +92,6 @@
                 [
                     "EndCombatEncounterQuick (Global EndCombatEncounterQuick)"
                 ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Luther (Luther)",
-                    "immediate"
-                ]
             ]
         ],
         "only_once": false,

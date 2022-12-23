@@ -22,7 +22,7 @@
                 "remove_unit",
                 [
                     "{PARTY_UNIT}",
-                    "fade"
+                    "immediate"
                 ]
             ],
             [
