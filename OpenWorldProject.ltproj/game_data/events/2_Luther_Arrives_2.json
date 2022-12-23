@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Luther Arrives 2",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.level_vars['SimonReset']==1 and game.board.get_unit((15,4)) == None",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Luther",
+                    "14,3"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Luther"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Simon! {w}What are you doing?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Vincent, get him to safety."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I can't speak for Simon, but I'm not going to run."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "So let's fight."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Alright, but I won't have you whelps dying on my watch."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Just--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You knock them down, I follow up. {w}Got it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "That was what I--"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "What about me?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Stand back and watch."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "..."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther",
+                    "15,3"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

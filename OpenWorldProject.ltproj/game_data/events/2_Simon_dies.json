@@ -157,6 +157,12 @@
                 ]
             ],
             [
+                "remove_all_enemies",
+                [
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "resurrect",
                 [
                     "101"
@@ -217,20 +223,6 @@
                 ]
             ],
             [
-                "remove_group",
-                [
-                    "layer1",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "layer2",
-                    "immediate"
-                ]
-            ],
-            [
                 "add_unit",
                 [
                     "101",
@@ -239,11 +231,9 @@
                 ]
             ],
             [
-                "set_stats",
+                "has_finished",
                 [
-                    "101",
-                    "MOV,0",
-                    "FLAG(immediate)"
+                    "101"
                 ]
             ],
             [
@@ -305,6 +295,74 @@
                 "transition",
                 [
                     "open"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#dialgue and such"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Huh?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "You alright, Simon?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "You're as pale as a corpse."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Yeah, I'm fine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Good. Then let's move."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I'm not planning on having you die under my watch."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Yeah..."
                 ]
             ]
         ],

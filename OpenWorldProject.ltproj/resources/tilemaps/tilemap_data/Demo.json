@@ -11983,7 +11983,7 @@
             },
             {
                 "nid": "broken_statue",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "23,7": [
@@ -11997,7 +11997,7 @@
             },
             {
                 "nid": "broken_pillar",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "26,10": [
@@ -12025,7 +12025,7 @@
             },
             {
                 "nid": "broken_carpet",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "20,12": [

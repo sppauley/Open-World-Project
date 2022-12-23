@@ -177,10 +177,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "p",
-                "starting_position": [
-                    27,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
