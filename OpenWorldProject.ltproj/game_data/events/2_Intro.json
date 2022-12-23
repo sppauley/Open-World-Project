@@ -16,6 +16,13 @@
                 [
                     "layer2"
                 ]
+            ],
+            [
+                "level_var",
+                [
+                    "SimonReset",
+                    "0"
+                ]
             ]
         ],
         "only_once": false,

@@ -1,9 +1,9 @@
 [
     {
         "name": "General dies",
-        "trigger": "unit_death",
+        "trigger": "combat_end",
         "level_nid": "2",
-        "condition": "unit.nid=='101'",
+        "condition": "game.check_dead('101')",
         "commands": [
             [
                 "hide_layer",

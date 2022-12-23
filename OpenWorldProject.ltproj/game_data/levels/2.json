@@ -1,7 +1,7 @@
 [
     {
         "nid": "2",
-        "name": "Chapter 2",
+        "name": "Fall of House Verstadt",
         "tilemap": "Demo",
         "bg_tilemap": null,
         "party": "Simon",
@@ -177,7 +177,10 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "p",
-                "starting_position": null,
+                "starting_position": [
+                    27,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
