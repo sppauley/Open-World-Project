@@ -10,7 +10,7 @@
                 "weapon_rank": "All",
                 "damage": "1",
                 "resist": "0",
-                "accuracy": "15",
+                "accuracy": 20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -24,7 +24,7 @@
                 "weapon_rank": "All",
                 "damage": "-1",
                 "resist": "0",
-                "accuracy": "-15",
+                "accuracy": -20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -49,7 +49,7 @@
                 "weapon_rank": "All",
                 "damage": "1",
                 "resist": "0",
-                "accuracy": "15",
+                "accuracy": 20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -63,7 +63,7 @@
                 "weapon_rank": "All",
                 "damage": "-1",
                 "resist": "0",
-                "accuracy": "-15",
+                "accuracy": -20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -88,7 +88,7 @@
                 "weapon_rank": "All",
                 "damage": "1",
                 "resist": "0",
-                "accuracy": "15",
+                "accuracy": 20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -102,7 +102,7 @@
                 "weapon_rank": "All",
                 "damage": "-1",
                 "resist": "0",
-                "accuracy": "-15",
+                "accuracy": -20,
                 "avoid": "0",
                 "crit": "0",
                 "dodge": "0",
@@ -121,8 +121,58 @@
         "name": "Bow",
         "force_melee_anim": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
+        "advantage": [
+            {
+                "weapon_type": "Innate",
+                "weapon_rank": "All",
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Light",
+                "weapon_rank": "All",
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Anima",
+                "weapon_rank": "All",
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
@@ -130,16 +180,66 @@
         ]
     },
     {
-        "nid": "Staff",
-        "name": "Staff",
+        "nid": "Innate",
+        "name": "Innate",
         "force_melee_anim": false,
         "rank_bonus": [],
-        "advantage": [],
-        "disadvantage": [],
-        "icon_nid": "wexp_icons",
+        "advantage": [
+            {
+                "weapon_type": "Light",
+                "weapon_rank": "All",
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Dark",
+                "weapon_rank": "All",
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            },
+            {
+                "weapon_type": "Anima",
+                "weapon_rank": "All",
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "disadvantage": [
+            {
+                "weapon_type": "Bow",
+                "weapon_rank": "All",
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "Neutral",
         "icon_index": [
             0,
-            4
+            7
         ]
     },
     {
@@ -149,30 +249,30 @@
         "rank_bonus": [],
         "advantage": [
             {
-                "weapon_type": "Dark",
+                "weapon_type": "Bow",
                 "weapon_rank": "All",
-                "damage": "1",
-                "resist": "0",
-                "accuracy": "15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "disadvantage": [
             {
-                "weapon_type": "Anima",
+                "weapon_type": "Innate",
                 "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "icon_nid": "wexp_icons",
@@ -188,30 +288,30 @@
         "rank_bonus": [],
         "advantage": [
             {
-                "weapon_type": "Light",
+                "weapon_type": "Bow",
                 "weapon_rank": "All",
-                "damage": "1",
-                "resist": "0",
-                "accuracy": "15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "disadvantage": [
             {
-                "weapon_type": "Dark",
+                "weapon_type": "Innate",
                 "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "icon_nid": "wexp_icons",
@@ -227,36 +327,49 @@
         "rank_bonus": [],
         "advantage": [
             {
-                "weapon_type": "Anima",
+                "weapon_type": "Bow",
                 "weapon_rank": "All",
-                "damage": "1",
-                "resist": "0",
-                "accuracy": "15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": 1,
+                "resist": 0,
+                "accuracy": 20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "disadvantage": [
             {
-                "weapon_type": "Light",
+                "weapon_type": "Innate",
                 "weapon_rank": "All",
-                "damage": "-1",
-                "resist": "0",
-                "accuracy": "-15",
-                "avoid": "0",
-                "crit": "0",
-                "dodge": "0",
-                "attack_speed": "0",
-                "defense_speed": "0"
+                "damage": -1,
+                "resist": 0,
+                "accuracy": -20,
+                "avoid": 0,
+                "crit": 0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
             }
         ],
         "icon_nid": "wexp_icons",
         "icon_index": [
             0,
             7
+        ]
+    },
+    {
+        "nid": "Staff",
+        "name": "Staff",
+        "force_melee_anim": false,
+        "rank_bonus": [],
+        "advantage": [],
+        "disadvantage": [],
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            4
         ]
     },
     {
