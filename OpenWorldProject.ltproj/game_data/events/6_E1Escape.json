@@ -6,23 +6,33 @@
         "condition": "True",
         "commands": [
             [
-                "if",
-                [
-                    "len([unit for unit in game.get_player_units() if unit.position]) == 0"
-                ]
-            ],
-            [
-                "add_unit",
+                "move_unit",
                 [
                     "Simon (Simon)",
                     "13,36"
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Luther (Luther)",
+                    "immediate"
+                ]
+            ],
+            [
                 "add_unit",
                 [
                     "Luther (Luther)",
-                    "12,35"
+                    "13,36",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "13,35"
                 ]
             ],
             [
@@ -65,31 +75,10 @@
                 ]
             ],
             [
-                "else",
-                []
-            ],
-            [
-                "move_unit",
+                "trigger_script",
                 [
-                    "{unit}",
-                    "{e:game.get_unit('{unit}').position[0], game.get_unit('{unit}').position[1] + 1}"
+                    "EndCombatEncounterQuick (Global EndCombatEncounterQuick)"
                 ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "{unit}"
-                ]
-            ],
-            [
-                "end",
-                []
             ]
         ],
         "only_once": false,

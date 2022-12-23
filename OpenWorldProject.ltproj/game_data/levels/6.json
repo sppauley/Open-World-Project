@@ -20,7 +20,7 @@
             "win": "",
             "loss": ""
         },
-        "roam": true,
+        "roam": false,
         "roam_unit": "Simon",
         "go_to_overworld": false,
         "units": [
@@ -215,7 +215,7 @@
                     1
                 ],
                 "sub_nid": "Escape",
-                "condition": "True",
+                "condition": "unit.nid == 'Simon'",
                 "only_once": false,
                 "interrupt_move": false
             }
