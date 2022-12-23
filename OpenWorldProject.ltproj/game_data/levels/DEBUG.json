@@ -96,32 +96,6 @@
                 "generic": false
             },
             {
-                "nid": "Moulder",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Vanessa",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    2
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Luther",
                 "team": "player",
                 "ai": "None",
@@ -130,6 +104,19 @@
                 "starting_position": [
                     5,
                     6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Juliet",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false

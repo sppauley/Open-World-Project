@@ -1,42 +1,34 @@
 [
     {
-        "nid": "Caellach",
-        "name": "Caellach",
+        "nid": "Juliet",
+        "name": "Juliet",
         "desc": "",
-        "variant": null,
-        "level": 12,
-        "klass": "Hero",
+        "variant": "_Juliet",
+        "level": 1,
+        "klass": "Citizen",
         "tags": [],
         "bases": {
-            "HP": 50,
-            "SPD": 14,
-            "MOV": 6,
-            "DEX": 15,
-            "STR": 3,
-            "MAG": 0,
-            "PSE": 13
+            "HP": 9,
+            "STR": 8,
+            "MAG": 10,
+            "DEX": 12,
+            "SPD": 5,
+            "PSE": 5,
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
-            "DEX": 0,
             "STR": 0,
             "MAG": 0,
-            "PSE": 0
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
         },
         "starting_items": [
             [
-                "Tomahawk",
+                "Iron Bow",
                 false
-            ],
-            [
-                "Silver Axe",
-                false
-            ],
-            [
-                "Hoplon Guard",
-                true
             ]
         ],
         "learned_skills": [],
@@ -44,7 +36,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181
+                0
             ],
             "Lance": [
                 false,
@@ -52,7 +44,7 @@
             ],
             "Axe": [
                 false,
-                251
+                0
             ],
             "Bow": [
                 false,
@@ -80,8 +72,8 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Caellach",
-        "affinity": null,
+        "portrait_nid": "",
+        "affinity": "None",
         "fields": []
     }
 ]
