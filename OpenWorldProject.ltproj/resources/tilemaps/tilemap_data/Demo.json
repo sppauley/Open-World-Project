@@ -5793,7 +5793,7 @@
             },
             {
                 "nid": "layer1",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "0,0": "0",
                     "1,0": "0",
@@ -9847,7 +9847,7 @@
             },
             {
                 "nid": "layer2",
-                "visible": true,
+                "visible": false,
                 "terrain_grid": {
                     "3,0": "0",
                     "3,1": "0",
@@ -11977,6 +11977,146 @@
                         [
                             17,
                             1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "broken_statue",
+                "visible": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "23,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            16
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "broken_pillar",
+                "visible": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "26,10": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            26
+                        ]
+                    ],
+                    "27,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            22
+                        ]
+                    ],
+                    "25,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            20,
+                            25
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "broken_carpet",
+                "visible": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "20,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            21
+                        ]
+                    ],
+                    "21,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            26
+                        ]
+                    ],
+                    "21,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            26
+                        ]
+                    ],
+                    "19,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            26
+                        ]
+                    ],
+                    "22,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            31
+                        ]
+                    ],
+                    "20,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            26
+                        ]
+                    ],
+                    "21,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            15,
+                            30
+                        ]
+                    ],
+                    "19,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            15,
+                            30
+                        ]
+                    ],
+                    "23,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "20,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            15,
+                            30
+                        ]
+                    ],
+                    "19,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "26,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    "26,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            19
                         ]
                     ]
                 }

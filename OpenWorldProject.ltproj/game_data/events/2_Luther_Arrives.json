@@ -19,6 +19,39 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "#add_portrait;Luther;Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Simon! {br}Watch out, this one's going to be a real pain."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Just follow my lead."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "I'll knock 'em to the ground,{br} and you follow up."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#remove_portrait;Luther"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Luther",
