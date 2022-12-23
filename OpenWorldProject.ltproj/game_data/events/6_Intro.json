@@ -86,6 +86,116 @@
                 [
                     "900"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "#map_anim;BlueFort;12,38;FLAG(permanent)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#map_anim;BlueFort;13,38;FLAG(permanent)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "12,38"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w}{br}and his demense is the nearest."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Then we must all reach the bridge."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Nay, only yourself.{w} As our leader, only you must slip from the enemy's grasp."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "But what will happen to you and Vincent?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "We will use the ensuing chaos to break through.{w}{br}You need not fear leaving us behind."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Understood."
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "start_encounter",
+                [
+                    "0",
+                    "34",
+                    "19",
+                    "47",
+                    "BattleIntro"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "E1Formation1",
+                    "5,45",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "E1Formation2",
+                    "4,46",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "arrange_formation",
+                []
+            ],
+            [
+                "remove_region",
+                [
+                    "E1Formation1"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "E1Formation2"
+                ]
             ]
         ],
         "only_once": false,

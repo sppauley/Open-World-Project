@@ -14,6 +14,13 @@
         "speed": "80"
     },
     {
+        "nid": "BlueFort",
+        "frame_x": 1,
+        "frame_y": 1,
+        "num_frames": 1,
+        "speed": "1"
+    },
+    {
         "nid": "RedDot",
         "frame_x": 1,
         "frame_y": 8,
