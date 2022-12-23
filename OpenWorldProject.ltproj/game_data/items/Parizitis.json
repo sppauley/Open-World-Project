@@ -2,7 +2,7 @@
     {
         "nid": "Parizitis",
         "name": "Parizitis",
-        "desc": "Simon only. Deals extra damage on crits against broken foes",
+        "desc": "Simon only. Deals extra damage on crits against broken foes.",
         "icon_nid": "Sword",
         "icon_index": [
             0,

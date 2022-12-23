@@ -18,7 +18,7 @@
             "DEX": 5,
             "STR": 0,
             "MAG": 0,
-            "PSE": 11
+            "PSE": 20
         },
         "growths": {
             "HP": 75,
@@ -101,7 +101,7 @@
             0
         ],
         "map_sprite_nid": "General",
-        "combat_anim_nid": "General",
+        "combat_anim_nid": null,
         "fields": []
     }
 ]
