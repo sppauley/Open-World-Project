@@ -22,49 +22,49 @@
                 "speak",
                 [
                     "Luther",
-                    "Simon! {w}What are you doing?"
+                    "Milord! I apologize for the delay."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Vincent, get him to safety."
+                    "We must get out of here at once."
                 ]
             ],
             [
                 "speak",
                 [
                     "Simon",
-                    "I can't just stand back while my House falls."
+                    "Luther, I can't just stand back while my House falls."
                 ]
             ],
             [
                 "speak",
                 [
                     "Simon",
-                    "Luther, I'm certain you feel the same.{br}{w}Please, let's put a stop to this."
+                    "I'm certain you feel the same.{br}{w}Please, let's put a stop to this."
                 ]
             ],
             [
                 "speak",
                 [
                     "Vincent",
-                    "We're not going to run."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "So let's fight."
+                    "We can't let these brigands get away with this!"
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Alright, but I won't have you whelps dying on my watch."
+                    "I see."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "We must proceed with caution, then."
                 ]
             ],
             [
@@ -84,15 +84,8 @@
             [
                 "speak",
                 [
-                    "Vincent",
-                    "What about me?"
-                ]
-            ],
-            [
-                "speak",
-                [
                     "Luther",
-                    "Stand back and watch."
+                    "Very good, milord."
                 ]
             ],
             [

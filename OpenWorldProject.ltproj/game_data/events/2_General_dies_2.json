@@ -211,14 +211,7 @@
                 "speak",
                 [
                     "Vincent",
-                    "You're joking."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "We can't abandon Lord Verstadt and our home!"
+                    "But our home..."
                 ]
             ],
             [
@@ -260,28 +253,35 @@
                 "speak",
                 [
                     "Luther",
-                    "I did not expect this cowardice from you, young lord."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "There's no use throwing our lives away."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "We need to leave. {w}Now."
+                    "Lord Verstadt is correct."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "...very well. {w}Excuse my insolence."
+                    "There is nothing to gain by throwing our lives away."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I suppose you're right."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Sorry, Simon, I just thought..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Let's just...{w} get out while we can."
                 ]
             ],
             [

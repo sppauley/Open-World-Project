@@ -22,14 +22,14 @@
                 "speak",
                 [
                     "Luther",
-                    "Simon! {w}What are you doing?"
+                    "Milord! I apologize for the delay."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Vincent, get him to safety."
+                    "We must get out of here at once."
                 ]
             ],
             [
@@ -50,14 +50,21 @@
                 "speak",
                 [
                     "Vincent",
-                    "So let's fight."
+                    "We can't let these brigands get away with this!"
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Alright, but I won't have you whelps dying on my watch."
+                    "I see."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "We must proceed with caution, then."
                 ]
             ],
             [
@@ -72,27 +79,6 @@
                 [
                     "Simon",
                     "You knock them down, I follow up. {w}Got it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "That was what I--"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "What about me?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Stand back and watch."
                 ]
             ],
             [

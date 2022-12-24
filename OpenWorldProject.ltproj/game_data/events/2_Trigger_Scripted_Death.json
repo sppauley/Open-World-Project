@@ -27,7 +27,7 @@
                 "speak",
                 [
                     "Simon",
-                    "Your assault ends here."
+                    "This ends here."
                 ]
             ],
             [
@@ -104,42 +104,28 @@
                 "speak",
                 [
                     "Simon",
-                    "You dare...{w} You're after my father and expect me to run?"
+                    "You dare...{w} You're destoying my home and you expect me to run?"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Vincent",
-                    "We don't plan on just giving you Castle Verstadt if that's what you're after."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Curs like you aren't even fit to cross this threshold."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Simon, on your command."
+                    "Simon",
+                    "I won't surrender my throne to the likes of you."
                 ]
             ],
             [
                 "speak",
                 [
                     "Percy",
-                    "Ah, so you're the young lord."
+                    "Ah, so you're the young Lord Verstadt."
                 ]
             ],
             [
                 "speak",
                 [
                     "Percy",
-                    "I suppose it was foolish to hope we could resolve this peacefully."
+                    "Then I suppose this'll end in violence after all."
                 ]
             ],
             [
@@ -182,7 +168,7 @@
                 "speak",
                 [
                     "Vincent",
-                    "Sorry, Lord Verstadt."
+                    "Sorry, Simon."
                 ]
             ],
             [

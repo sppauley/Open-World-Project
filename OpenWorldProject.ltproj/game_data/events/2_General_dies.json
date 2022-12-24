@@ -197,21 +197,14 @@
                 "speak",
                 [
                     "Simon",
-                    "They're wantonly destroying the place... {w}and they're after my father."
+                    "They're wantonly destroying the place... {w}and they want me dead."
                 ]
             ],
             [
                 "speak",
                 [
                     "Luther",
-                    "Simon, calm yourself."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I feel the same, but we must keep level heads."
+                    "If I may interject, milord, we must keep level heads."
                 ]
             ],
             [
@@ -225,7 +218,7 @@
                 "speak",
                 [
                     "Vincent",
-                    "Lord Verstadt's life is in danger."
+                    "The castle will be a ruin if we don't do something."
                 ]
             ],
             [
