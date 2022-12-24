@@ -1,0 +1,159 @@
+[
+    {
+        "name": "MonsterKilled",
+        "trigger": "combat_end",
+        "level_nid": "6",
+        "condition": "game.level_vars.get('rebelReinforcements') == 0",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "aliveMonsters",
+                    "len([u for u in game.units if u.position and u.klass == 'Wolf'])"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars.get('aliveMonsters') == 2 and game.level_vars.get('rebelWarning') == 0"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#add_unit;New Dawn (112);28,26"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#add_unit;New Dawn (113);28,27"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#move_unit;New Dawn (112);34,26;FLAG(no_block);FLAG(no_follow)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#move_unit;New Dawn (113);34,27"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "36,26"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "36,36"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rebel",
+                    "The Count's gotta be around here somewhere!{w}{br}Find him and finish him off!"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Damn, I can hear the rebel army nearby!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "They managed to cross the river?!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "What now?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "This must be an advance force.{w}{br}It's only a matter of time until they spot us,{w}{br}so we best prepare accordingly."
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "rebelWarning",
+                    "1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "game.level_vars.get('aliveMonsters') == 0"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (112)",
+                    "35,26",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (113)",
+                    "35,27",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rebel",
+                    "I spotted the boy!{w} Attack!"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "rebelReinforcements",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

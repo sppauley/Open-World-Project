@@ -330,6 +330,48 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "AxeCavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "AxeCavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -411,6 +453,22 @@
                 "sub_nid": "PathMonsterAmbush",
                 "condition": "True",
                 "only_once": true,
+                "interrupt_move": true
+            },
+            {
+                "nid": "PathBlockGoBack",
+                "region_type": "event",
+                "position": [
+                    36,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "PathBlockGoBack",
+                "condition": "game.level_vars.get('clearedAmbush') == 1",
+                "only_once": false,
                 "interrupt_move": true
             }
         ],

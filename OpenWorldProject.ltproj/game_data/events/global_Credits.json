@@ -20,13 +20,37 @@
             [
                 "comment",
                 [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
                     "# Item icons"
                 ]
             ],
             [
                 "comment",
                 [
-                    "# Ironmachine"
+                    "# Ironmachine (pikes)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Map sprites"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Suloir (axe cav)"
                 ]
             ]
         ],

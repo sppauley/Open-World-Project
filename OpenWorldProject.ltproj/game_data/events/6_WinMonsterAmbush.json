@@ -1,0 +1,45 @@
+[
+    {
+        "name": "WinMonsterAmbush",
+        "trigger": null,
+        "level_nid": "6",
+        "condition": "is_dead('112') and is_dead('113')",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Milord, we must hurry north!"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "EndCombatEncounter (Global EndCombatEncounter)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "blockreturn"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "clearedAmbush",
+                    "1"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "40,27"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

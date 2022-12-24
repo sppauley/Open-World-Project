@@ -6,6 +6,46 @@
         "condition": "True",
         "commands": [
             [
+                "comment",
+                [
+                    "# Level vars"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "aliveMonsters",
+                    "5"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "rebelWarning",
+                    "0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "clearedAmbush",
+                    "0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "rebelReinforcements",
+                    "0"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
                 "remove_unit",
                 [
                     "Simon (Simon)",

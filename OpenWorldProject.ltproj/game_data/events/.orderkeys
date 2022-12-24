@@ -48,5 +48,8 @@
     "global_AppearBySimon.json": 46,
     "6_GazeAtVillage.json": 47,
     "6_PathRuins2.json": 48,
-    "6_MonsterAmbush.json": 49
+    "6_MonsterAmbush.json": 49,
+    "6_MonsterKilled.json": 50,
+    "6_WinMonsterAmbush.json": 51,
+    "6_BlockGoBack.json": 52
 }
