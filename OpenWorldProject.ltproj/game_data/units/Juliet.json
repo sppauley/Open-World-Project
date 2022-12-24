@@ -9,10 +9,10 @@
         "tags": [],
         "bases": {
             "HP": 9,
-            "STR": 8,
+            "STR": 4,
             "MAG": 10,
-            "DEX": 12,
-            "SPD": 5,
+            "DEX": 9,
+            "SPD": 2,
             "PSE": 5,
             "MOV": 5
         },

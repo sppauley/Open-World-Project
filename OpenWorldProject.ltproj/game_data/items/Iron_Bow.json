@@ -31,7 +31,7 @@
             ],
             [
                 "damage",
-                6
+                5
             ],
             [
                 "hit",
@@ -43,21 +43,7 @@
             ],
             [
                 "weight",
-                5
-            ],
-            [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                4
             ],
             [
                 "level_exp",
@@ -73,7 +59,7 @@
             ],
             [
                 "effective",
-                12
+                15
             ],
             [
                 "effective_tag",
@@ -84,6 +70,10 @@
             [
                 "effective_multiplier",
                 1
+            ],
+            [
+                "stagger",
+                4
             ]
         ]
     }

@@ -23,15 +23,15 @@
             ],
             [
                 "damage",
-                14
+                7
             ],
             [
                 "hit",
-                65
+                80
             ],
             [
                 "weight",
-                14
+                4
             ],
             [
                 "locked",
@@ -56,6 +56,10 @@
             [
                 "weapon_type",
                 "Innate"
+            ],
+            [
+                "stagger",
+                4
             ]
         ]
     }

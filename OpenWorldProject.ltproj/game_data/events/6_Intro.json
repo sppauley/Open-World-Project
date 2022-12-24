@@ -150,6 +150,85 @@
             [
                 "center_cursor",
                 [
+                    "2,43"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Juliet (Juliet)",
+                    "2,43",
+                    "fade",
+                    "stack",
+                    "east"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "3,45"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Hufh... milord..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Halt!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Please... I..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Oh, you're one of the servants.{w}{br}I'm glad you were able to escape,{w}{br}but we have little time!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Allow me to travel with you.{w}{br}I'm defenseless, and..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I understand.{w} Come with us for now, but we must hurry."
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Juliet",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
                     "Simon (Simon)"
                 ]
             ],
@@ -225,6 +304,10 @@
                     "E2",
                     "immediate"
                 ]
+            ],
+            [
+                "battle_save",
+                []
             ]
         ],
         "only_once": false,
