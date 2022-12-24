@@ -3,12 +3,18 @@
         "name": "Trigger Scripted Death",
         "trigger": "unit_wait",
         "level_nid": "2",
-        "condition": "unit.nid=='Simon' and any_unit_in_region('GroundFloor', nid='Simon')",
+        "condition": "unit.nid=='Simon' and any_unit_in_region('GroundFloor', team='player')",
         "commands": [
             [
                 "comment",
                 [
                     "#"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "{unit}"
                 ]
             ],
             [
