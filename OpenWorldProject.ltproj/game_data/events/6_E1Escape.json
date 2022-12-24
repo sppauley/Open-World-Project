@@ -63,6 +63,29 @@
                 ]
             ],
             [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "14,36",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "13,35"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Since the four of us are here..."
+                ]
+            ],
+            [
                 "comment",
                 [
                     "#trigger_script;EndCombatEncounter (Global EndCombatEncounter)"
@@ -75,9 +98,50 @@
                 ]
             ],
             [
+                "map_anim",
+                [
+                    "Snag",
+                    "12,35"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "13,36"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
                 "show_layer",
                 [
-                    "blockreturn"
+                    "destroyBridge"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "That will delay any pursuers."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Excellent thinking."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Now, we ought to continue.{w} There is no reason to linger."
                 ]
             ],
             [

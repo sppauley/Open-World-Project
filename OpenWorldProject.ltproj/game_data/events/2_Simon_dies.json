@@ -181,31 +181,9 @@
                 ]
             ],
             [
-                "remove_group",
+                "remove_all_enemies",
                 [
-                    "layer1",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "layer2",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "101",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "102",
-                    "immediate"
+                    "FLAG(no_warn)"
                 ]
             ],
             [
@@ -288,69 +266,6 @@
                     "102",
                     "23,3",
                     "immediate"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Percy",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "106",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "107",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "108",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "110",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "111",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "109",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "112",
-                    "Defend"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "113",
-                    "Defend"
                 ]
             ],
             [

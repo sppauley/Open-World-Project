@@ -18535,6 +18535,70 @@
                     "13,37": "0"
                 },
                 "sprite_grid": {}
+            },
+            {
+                "nid": "destroyBridge",
+                "visible": false,
+                "terrain_grid": {
+                    "13,37": "12",
+                    "13,38": "12",
+                    "12,38": "12",
+                    "12,37": "12",
+                    "12,36": "12",
+                    "12,35": "Ruins",
+                    "13,36": "Ruins"
+                },
+                "sprite_grid": {
+                    "13,36": [
+                        "PathToMorrissey",
+                        [
+                            28,
+                            35
+                        ]
+                    ],
+                    "12,35": [
+                        "PathToMorrissey",
+                        [
+                            33,
+                            46
+                        ]
+                    ],
+                    "13,37": [
+                        "PathToMorrissey",
+                        [
+                            14,
+                            38
+                        ]
+                    ],
+                    "12,36": [
+                        "PathToMorrissey",
+                        [
+                            11,
+                            35
+                        ]
+                    ],
+                    "13,38": [
+                        "PathToMorrissey",
+                        [
+                            5,
+                            33
+                        ]
+                    ],
+                    "12,37": [
+                        "PathToMorrissey",
+                        [
+                            14,
+                            38
+                        ]
+                    ],
+                    "12,38": [
+                        "PathToMorrissey",
+                        [
+                            4,
+                            33
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

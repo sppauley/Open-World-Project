@@ -1,7 +1,7 @@
 [
     {
-        "name": "PathRuins1",
-        "trigger": "PathRuins1",
+        "name": "GazeAtVillage",
+        "trigger": "PathGazeAtVillage",
         "level_nid": "6",
         "condition": "True",
         "commands": [
@@ -9,42 +9,63 @@
                 "move_unit",
                 [
                     "Simon (Simon)",
-                    "17,31"
+                    "12,27"
                 ]
             ],
             [
                 "speak",
                 [
                     "Simon",
-                    "This village is ruined..."
+                    "The village...{w}{br}Vincent, could our horses ford this river?"
                 ]
             ],
             [
                 "trigger_script",
                 [
                     "AppearBySimon (Global AppearBySimon)",
-                    "Luther (Luther)"
+                    "Vincent (Vincent)"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Luther",
-                    "Such is the cost of war.{w} The rebels were well aware of this possibility."
+                    "Vincent",
+                    "I doubt it.{w} The rapids are far too fast."
                 ]
             ],
             [
                 "speak",
                 [
                     "Simon",
-                    "I just can't understand it!{w}{br}They risk their lives... for what?{w}{br}Simply to destroy their own villages?"
+                    "Ah..."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Luther",
-                    "The mentality of a mob often defies reason.{w}{br}Best not to dwell on it."
+                    "Vincent",
+                    "I'm sorry."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "The rapids' speed is hardly your fault."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "No, I'm sorry that you have to leave this all behind."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thank you.{w} Hopefully, I will not be gone long."
                 ]
             ],
             [

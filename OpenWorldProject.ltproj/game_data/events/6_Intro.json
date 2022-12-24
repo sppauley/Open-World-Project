@@ -218,6 +218,13 @@
                     "PartyMember",
                     "'Yes'"
                 ]
+            ],
+            [
+                "remove_group",
+                [
+                    "E2",
+                    "immediate"
+                ]
             ]
         ],
         "only_once": false,

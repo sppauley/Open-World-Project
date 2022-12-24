@@ -45,13 +45,14 @@
     "Necromancer.json": 43,
     "Revenant.json": 44,
     "Entombed.json": 45,
-    "Sword_Bonewalker.json": 46,
-    "Sword_Wight.json": 47,
-    "Bow_Bonewalker.json": 48,
-    "Bow_Wight.json": 49,
-    "Mogall.json": 50,
-    "Arch_Mogall.json": 51,
-    "Wall25.json": 52,
-    "Snag20.json": 53,
-    "Manakete.json": 54
+    "Wolf.json": 46,
+    "Sword_Bonewalker.json": 47,
+    "Sword_Wight.json": 48,
+    "Bow_Bonewalker.json": 49,
+    "Bow_Wight.json": 50,
+    "Mogall.json": 51,
+    "Arch_Mogall.json": 52,
+    "Wall25.json": 53,
+    "Snag20.json": 54,
+    "Manakete.json": 55
 }

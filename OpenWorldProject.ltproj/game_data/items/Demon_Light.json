@@ -56,6 +56,10 @@
             [
                 "max_range",
                 3
+            ],
+            [
+                "weapon_type",
+                "Innate"
             ]
         ]
     }

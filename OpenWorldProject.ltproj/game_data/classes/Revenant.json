@@ -76,9 +76,9 @@
                 false,
                 0
             ],
-            "Staff": [
-                false,
-                0
+            "Innate": [
+                true,
+                1
             ],
             "Light": [
                 false,
@@ -89,6 +89,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

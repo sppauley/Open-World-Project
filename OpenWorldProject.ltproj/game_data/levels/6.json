@@ -58,6 +58,16 @@
                 "generic": false
             },
             {
+                "nid": "Juliet",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 1,
@@ -200,6 +210,126 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    42,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    44,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    47,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    45,
+                    35
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    46,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -234,6 +364,54 @@
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "PathRuins2",
+                "region_type": "event",
+                "position": [
+                    26,
+                    35
+                ],
+                "size": [
+                    3,
+                    4
+                ],
+                "sub_nid": "PathRuins2",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "PathGazeAtVillage",
+                "region_type": "event",
+                "position": [
+                    11,
+                    27
+                ],
+                "size": [
+                    2,
+                    5
+                ],
+                "sub_nid": "PathGazeAtVillage",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "PathMonsterAmbush",
+                "region_type": "event",
+                "position": [
+                    34,
+                    25
+                ],
+                "size": [
+                    2,
+                    6
+                ],
+                "sub_nid": "PathMonsterAmbush",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [
@@ -246,6 +424,17 @@
                     "103",
                     "104",
                     "105"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "E2",
+                "units": [
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111"
                 ],
                 "positions": {}
             }

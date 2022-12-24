@@ -1,0 +1,194 @@
+[
+    {
+        "name": "MonsterAmbush",
+        "trigger": "roaming_interrupt",
+        "level_nid": "6",
+        "condition": "region.nid == \"PathMonsterAmbush\"",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "36,27"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Lord Morrissey's castle is nearby."
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Ha, looks like the rebels couldn't be bothered to pursue us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Silence, Vincent!{w} Do not tempt the Fates!"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Wait, there are signs of battle here!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "40,30"
+                ]
+            ],
+            [
+                "change_class",
+                [
+                    "Juliet (Juliet)",
+                    "Irregular (Archer)",
+                    "FLAG(silent)"
+                ]
+            ],
+            [
+                "remove_item",
+                [
+                    "Juliet (Juliet)",
+                    "Iron Bow (Iron Bow)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Juliet (Juliet)",
+                    "Iron Bow (Iron Bow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Yes... this is...{w}{br}Milord, I can-"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Servant, beware!"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#show enemies, start encounter"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "E2",
+                    "starting",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Monster (107)",
+                    "42,30"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "39,28",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "These monsters are in Lord Morrissey's territory!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "It seems that he too has faced misfortune."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Juliet, stay behind us. We can-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "No need. This bow is the perfect tool for hunting these freaks."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "As you wish."
+                ]
+            ],
+            [
+                "start_encounter",
+                [
+                    "35",
+                    "24",
+                    "47",
+                    "35",
+                    "BattleIntro"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

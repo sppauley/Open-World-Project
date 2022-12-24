@@ -1,26 +1,24 @@
 [
     {
-        "nid": "Sword_Bonewalker",
-        "name": "Bonewalker",
-        "desc": "A summoned phantom.",
+        "nid": "Wolf",
+        "name": "Wolf",
+        "desc": "A monstrous beast",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,
-        "turns_into": [
-            "Sword_Wight"
-        ],
+        "turns_into": [],
         "tags": [
             "Monster"
         ],
         "max_level": 20,
         "bases": {
             "HP": 20,
-            "SPD": 3,
+            "SPD": 5,
             "MOV": 5,
             "DEX": 2,
             "STR": 2,
             "MAG": 0,
-            "PSE": 7
+            "PSE": 5
         },
         "growths": {
             "HP": 80,
@@ -61,11 +59,11 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 71
             ],
             "Lance": [
-                true,
+                false,
                 71
             ],
             "Axe": [
@@ -77,8 +75,8 @@
                 0
             ],
             "Innate": [
-                false,
-                0
+                true,
+                31
             ],
             "Light": [
                 false,
@@ -101,12 +99,12 @@
                 0
             ]
         },
-        "icon_nid": "Generic_Portrait_Sword_Bonewalker",
+        "icon_nid": "Mauthe Doog {IS}",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Sword_Bonewalker",
+        "map_sprite_nid": "Wolf",
         "combat_anim_nid": null,
         "fields": []
     }
