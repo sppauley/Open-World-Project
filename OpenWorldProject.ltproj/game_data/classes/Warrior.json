@@ -14,7 +14,7 @@
             "SPD": 6,
             "MOV": 6,
             "DEX": 5,
-            "STR": 0,
+            "STR": 5,
             "MAG": 0,
             "PSE": 13
         },
@@ -23,7 +23,7 @@
             "SPD": 20,
             "MOV": 0,
             "DEX": 25,
-            "STR": 0,
+            "STR": 25,
             "MAG": 0,
             "PSE": 0
         },
@@ -72,7 +72,7 @@
                 true,
                 1
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -85,6 +85,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

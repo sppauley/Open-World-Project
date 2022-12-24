@@ -316,10 +316,39 @@
                 ]
             ],
             [
+                "change_background",
+                [
+                    "BlackBackground"
+                ]
+            ],
+            [
                 "transition",
                 [
                     "open"
                 ]
+            ],
+            [
+                "wait",
+                [
+                    "600"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "???",
+                    "I won't sacrifice such an important piece just yet."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "600"
+                ]
+            ],
+            [
+                "change_background",
+                []
             ],
             [
                 "comment",

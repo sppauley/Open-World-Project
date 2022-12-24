@@ -1,0 +1,262 @@
+[
+    {
+        "name": "Trigger Scripted Death",
+        "trigger": "unit_wait",
+        "level_nid": "2",
+        "condition": "unit.nid=='Simon' and any_unit_in_region('GroundFloor', nid='Simon')",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Your assault ends here."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "20,14"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vincent",
+                    "18,13",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther",
+                    "19,15",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "106"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rebel",
+                    "Want me to cut 'em down, boss?"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Percy"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "No need, I hope."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Stand down, you three."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "We're only after Verstadt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "You've...{w} killed several of by men,{w}{br}but I'll give you a chance to leave before things get messy."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You dare...{w} You're after my father and expect me to run?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "We don't plan on just giving you Castle Verstadt if that's what you're after."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Curs like you aren't even fit to cross this threshold."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Simon, on your command."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Ah, so you're the young lord."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "I suppose it was foolish to hope we could resolve this peacefully."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Time to avenge our fallen and dethrone this despot!"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vincent",
+                    "24,13"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "107",
+                    "25,13",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "107",
+                    "Vincent",
+                    "hit1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Sorry, Lord Verstadt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I guess...{w} I failed."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther",
+                    "23,14"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "106",
+                    "24,14",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "106",
+                    "Luther",
+                    "hit1"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Luther",
+                    "106",
+                    "hit1"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "106",
+                    "Luther",
+                    "hit1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Young lord...{w} please, get out of here."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "28,14"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Simon",
+                    "Percy",
+                    "hit1"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Percy",
+                    "Simon",
+                    "hit1,hit2"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -176,7 +176,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
@@ -197,7 +197,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -218,7 +218,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -239,7 +239,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -260,7 +260,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -281,7 +281,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -302,7 +302,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -323,7 +323,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -344,7 +344,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "p",
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -363,6 +363,22 @@
                     1
                 ],
                 "sub_nid": "Door",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GroundFloor",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    9
+                ],
+                "size": [
+                    38,
+                    10
+                ],
+                "sub_nid": "",
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false
@@ -408,7 +424,7 @@
                     ],
                     "106": [
                         27,
-                        12
+                        14
                     ],
                     "107": [
                         29,
