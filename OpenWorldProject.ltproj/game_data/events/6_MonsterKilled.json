@@ -49,12 +49,6 @@
                 ]
             ],
             [
-                "flicker_cursor",
-                [
-                    "36,36"
-                ]
-            ],
-            [
                 "wait",
                 [
                     "800"
@@ -112,6 +106,12 @@
                 "elif",
                 [
                     "game.level_vars.get('aliveMonsters') == 0"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Move to not make them ambush spawns"
                 ]
             ],
             [

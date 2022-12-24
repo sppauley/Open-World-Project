@@ -308,30 +308,6 @@
                 "generic": true
             },
             {
-                "nid": "111",
-                "variant": null,
-                "level": 1,
-                "klass": "Wolf",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    47,
-                    33
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "112",
                 "variant": null,
                 "level": 1,
@@ -491,8 +467,7 @@
                     "107",
                     "108",
                     "109",
-                    "110",
-                    "111"
+                    "110"
                 ],
                 "positions": {}
             }
