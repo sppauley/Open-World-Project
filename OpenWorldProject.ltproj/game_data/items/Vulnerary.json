@@ -2,7 +2,7 @@
     {
         "nid": "Vulnerary",
         "name": "Vulnerary",
-        "desc": "Restores 10 HP.",
+        "desc": "Restores 20 HP.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -22,22 +22,8 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "heal",
-                10
+                20
             ],
             [
                 "map_hit_add_blend",
@@ -54,6 +40,25 @@
             [
                 "accessory",
                 null
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }
