@@ -25,6 +25,7 @@
     "Divine": "Magic",
     "Door Key": "Misc. Items",
     "Dragon Axe": "Axes",
+    "Dragonsbane": "Swords",
     "Dragonshield": "Misc. Items",
     "Dragonspear": "Lances",
     "Dragonstone": "Misc. Items",
@@ -129,8 +130,6 @@
     "Silver Sword": "Swords",
     "Silver_Pike": "Lances",
     "Sleep": "Staves",
-    "Slim Lance": "Lances",
-    "Slim Sword": "Swords",
     "Solar Brace": "Misc. Items",
     "Spear": "Lances",
     "Speedwing": "Misc. Items",
@@ -164,6 +163,5 @@
     "White Gem": "Misc. Items",
     "Wind Sword": "Swords",
     "Wretched Air": "Monster",
-    "Wyrmslayer": "Swords",
     "Zanbato": "Swords"
 }

@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Wyrmslayer",
-        "name": "Wyrmslayer",
+        "nid": "Dragonsbane",
+        "name": "Dragonsbane",
         "desc": "Effective against dragon units.",
         "icon_nid": "Sword",
         "icon_index": [
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                8
+                6
             ],
             [
                 "hit",
-                75
+                85
             ],
             [
                 "weapon_type",
@@ -35,25 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "C"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                "E"
             ],
             [
                 "weight",
-                5
+                8
             ],
             [
                 "crit",
@@ -84,6 +70,10 @@
             [
                 "effective_multiplier",
                 1
+            ],
+            [
+                "stagger",
+                2
             ]
         ]
     }

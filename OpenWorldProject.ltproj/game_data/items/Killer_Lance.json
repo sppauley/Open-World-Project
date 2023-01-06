@@ -31,7 +31,7 @@
             ],
             [
                 "damage",
-                10
+                6
             ],
             [
                 "hit",
@@ -58,22 +58,12 @@
                 "C"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "warning",
                 null
+            ],
+            [
+                "stagger",
+                4
             ]
         ]
     }
