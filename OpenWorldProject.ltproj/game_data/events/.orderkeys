@@ -52,5 +52,6 @@
     "6_BlockGoBack.json": 50,
     "2_Trigger_Scripted_Death.json": 51,
     "2_Aggro_Enemies.json": 52,
-    "2_Visual_fix_for_general.json": 53
+    "2_Visual_fix_for_general.json": 53,
+    "6_FirstRebelReinforcements.json": 54
 }

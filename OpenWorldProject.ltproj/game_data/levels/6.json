@@ -116,30 +116,6 @@
                 "generic": true
             },
             {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Journeyman",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    6,
-                    34
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "103",
                 "variant": null,
                 "level": 1,
@@ -454,7 +430,6 @@
                 "units": [
                     "101",
                     "102",
-                    "106",
                     "103",
                     "104",
                     "105"

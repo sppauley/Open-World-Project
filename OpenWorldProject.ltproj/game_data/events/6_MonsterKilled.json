@@ -15,6 +15,12 @@
             [
                 "if",
                 [
+                    "game.get_unit('Simon').position[0] > 33"
+                ]
+            ],
+            [
+                "if",
+                [
                     "game.level_vars.get('aliveMonsters') == 2 and game.level_vars.get('rebelWarning') == 0"
                 ]
             ],
@@ -105,7 +111,7 @@
             [
                 "elif",
                 [
-                    "game.level_vars.get('aliveMonsters') == 0"
+                    "game.level_vars.get('aliveMonsters') == 0 and game.level_vars.get('rebelReinforcements') == 0"
                 ]
             ],
             [
@@ -147,6 +153,10 @@
                     "rebelReinforcements",
                     "1"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "end",

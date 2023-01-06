@@ -1,0 +1,39 @@
+[
+    {
+        "name": "FirstRebelReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.level_vars.get('rebelReinforcements') == 1",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "New Dawn (112)",
+                    "35,26",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (113)",
+                    "35,27",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rebel",
+                    "I spotted the boy!{w} Attack!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
