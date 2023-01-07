@@ -1,19 +1,19 @@
 [
     {
-        "nid": "Bagustav",
-        "name": "Bagustav",
+        "nid": "Gustav",
+        "name": "Gustav",
         "desc": "",
         "variant": null,
         "level": 1,
         "klass": "General",
         "tags": [],
         "bases": {
-            "HP": 40,
-            "STR": 8,
+            "HP": 60,
+            "STR": 6,
             "MAG": 0,
             "DEX": 10,
-            "SPD": 4,
-            "PSE": 15,
+            "SPD": 8,
+            "PSE": 20,
             "MOV": 5
         },
         "growths": {
@@ -27,7 +27,7 @@
         },
         "starting_items": [
             [
-                "Steel_Pike",
+                "Iron Lance",
                 false
             ]
         ],

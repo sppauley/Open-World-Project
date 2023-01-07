@@ -361,7 +361,7 @@
                 "ai_group": null,
                 "starting_position": [
                     4,
-                    14
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -432,8 +432,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    15,
-                    16
+                    12,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -480,16 +480,16 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    16,
+                    15,
                     16
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Bagustav",
+                "nid": "Gustav",
                 "team": "other",
-                "ai": "Guard",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
