@@ -35,25 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "D"
-            ],
-            [
-                "uses",
-                16
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                "C"
             ],
             [
                 "weight",
-                13
+                12
             ],
             [
                 "crit",
@@ -72,8 +58,8 @@
                 1
             ],
             [
-                "effective",
-                14
+                "stagger",
+                4
             ],
             [
                 "effective_tag",
@@ -83,7 +69,7 @@
             ],
             [
                 "effective_multiplier",
-                1
+                3.0
             ]
         ]
     }
