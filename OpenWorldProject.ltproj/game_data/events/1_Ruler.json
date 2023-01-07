@@ -3,12 +3,12 @@
         "name": "Ruler",
         "trigger": "unit_wait",
         "level_nid": "1",
-        "condition": "unit.team=='player' and game.check_alive('Rickard')",
+        "condition": "unit.team=='player' and game.check_alive('Bordeaux')",
         "commands": [
             [
                 "unit_act",
                 [
-                    "Rickard"
+                    "Bordeaux"
                 ]
             ]
         ],

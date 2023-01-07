@@ -18,7 +18,7 @@
             "MOV": 5,
             "DEX": 3,
             "STR": 1,
-            "MAG": 0,
+            "MAG": 4,
             "PSE": 5
         },
         "growths": {
@@ -26,9 +26,9 @@
             "SPD": 35,
             "MOV": 0,
             "DEX": 40,
-            "STR": 55,
-            "MAG": 0,
-            "PSE": 0
+            "STR": 25,
+            "MAG": 30,
+            "PSE": 15
         },
         "growth_bonus": {
             "HP": 0,
@@ -75,7 +75,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -88,6 +88,10 @@
                 31
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

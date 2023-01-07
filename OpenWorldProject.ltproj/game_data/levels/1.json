@@ -175,6 +175,54 @@
                 "generic": true
             },
             {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackPlayerOnly",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackPlayerOnly",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "104",
                 "variant": null,
                 "level": 3,
@@ -295,31 +343,79 @@
                 "generic": true
             },
             {
-                "nid": "109",
+                "nid": "111",
                 "variant": null,
-                "level": 5,
-                "klass": "Troubadour",
-                "faction": "Soldier",
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Physic",
+                        "Thunder",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "SupportBoss",
+                "ai": "PursuePlayerOnly",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    7,
-                    2
+                    2,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "110",
+                "nid": "112",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursuePlayerOnly",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "PursuePlayerOnly",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
                 "variant": null,
                 "level": 5,
                 "klass": "Troubadour",
@@ -332,12 +428,36 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "SupportBoss",
+                "ai": "SupportBossGuard",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    11,
-                    2
+                    1,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 5,
+                "klass": "Troubadour",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SupportBossGuard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
