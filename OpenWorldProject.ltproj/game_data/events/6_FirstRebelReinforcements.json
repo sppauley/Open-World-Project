@@ -1,7 +1,7 @@
 [
     {
         "name": "FirstRebelReinforcements",
-        "trigger": "turn_change",
+        "trigger": null,
         "level_nid": "6",
         "condition": "game.level_vars.get('rebelReinforcements') == 1",
         "commands": [
