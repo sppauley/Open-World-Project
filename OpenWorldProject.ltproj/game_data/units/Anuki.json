@@ -1,35 +1,33 @@
 [
     {
-        "nid": "Rickard",
-        "name": "Rickard",
+        "nid": "Anuki",
+        "name": "Anuki",
         "desc": "",
-        "variant": null,
-        "level": 1,
-        "klass": "General",
-        "tags": [
-            "Boss"
-        ],
+        "variant": "",
+        "level": 3,
+        "klass": "Fighter",
+        "tags": [],
         "bases": {
-            "HP": 60,
+            "HP": 29,
             "STR": 8,
-            "MAG": 0,
-            "DEX": 15,
-            "SPD": 5,
-            "PSE": 25,
+            "MAG": 1,
+            "DEX": 7,
+            "SPD": 6,
+            "PSE": 11,
             "MOV": 5
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 75,
+            "STR": 30,
+            "MAG": 10,
+            "DEX": 30,
+            "SPD": 25,
+            "PSE": 25,
             "MOV": 0
         },
         "starting_items": [
             [
-                "Horseslayer",
+                "Agamemnon",
                 false
             ]
         ],
@@ -42,11 +40,11 @@
             ],
             "Lance": [
                 false,
-                121
+                0
             ],
             "Axe": [
                 false,
-                0
+                31
             ],
             "Bow": [
                 false,

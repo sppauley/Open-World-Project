@@ -1,0 +1,36 @@
+[
+    {
+        "name": "SetUp",
+        "trigger": "level_start",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "set_stats",
+                [
+                    "101",
+                    "STR,2,SPD,3",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_stats",
+                [
+                    "102",
+                    "STR,2,SPD,3",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_stats",
+                [
+                    "103",
+                    "STR,2,SPD,3",
+                    "FLAG(immediate)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
