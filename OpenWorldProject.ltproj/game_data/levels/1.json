@@ -49,6 +49,117 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Vincent",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Juliet",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Rickard",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],
