@@ -1,15 +1,12 @@
 [
     {
-        "nid": "Myrmidon",
-        "name": "Myrmidon",
-        "desc": "Swordfighters with superior speed and skill.",
+        "nid": "Simon_Lord",
+        "name": "Lord",
+        "desc": "A noble swordfighter with speed and precision.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,
-        "turns_into": [
-            "Swordmaster",
-            "Assassin"
-        ],
+        "turns_into": [],
         "tags": [
             "Sword"
         ],
@@ -107,7 +104,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Myrmidon",
+        "map_sprite_nid": "Sword_Lord",
         "combat_anim_nid": null,
         "fields": []
     }

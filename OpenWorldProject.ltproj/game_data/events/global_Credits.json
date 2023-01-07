@@ -70,6 +70,12 @@
                 [
                     "# Suloir (axe cav)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Teraspark (sword lord)"
+                ]
             ]
         ],
         "only_once": false,
