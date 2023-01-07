@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Excalibur",
-        "name": "Excalibur",
-        "desc": "Speed +5. Effective against monsters",
+        "nid": "Cyclone",
+        "name": "Cyclone",
+        "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                18
+                0
             ],
             [
                 "hit",
-                90
+                60
             ],
             [
                 "weapon_type",
@@ -35,59 +35,50 @@
             ],
             [
                 "weapon_rank",
-                "S"
+                "A"
             ],
             [
                 "magic",
                 null
             ],
             [
-                "uses",
-                30
+                "weight",
+                20
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "stagger",
+                12
+            ],
+            [
+                "c_uses",
+                5
             ],
             [
                 "uses_options",
                 [
                     [
                         "LoseUsesOnMiss (T/F)",
-                        "F",
+                        "T",
                         "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
                     ]
                 ]
-            ],
-            [
-                "weight",
-                13
-            ],
-            [
-                "crit",
-                10
-            ],
-            [
-                "status_on_equip",
-                "Speed +5"
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "max_range",
-                2
-            ],
-            [
-                "effective",
-                36
-            ],
-            [
-                "effective_tag",
-                [
-                    "Monster"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                1
             ]
         ]
     }
