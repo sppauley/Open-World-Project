@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Silver Axe",
-        "name": "Silver Axe",
+        "nid": "Silver_Mace",
+        "name": "Silver Mace",
         "desc": "",
-        "icon_nid": "Axe",
+        "icon_nid": "{Beansy} Blood Mace",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                1000
+                270
             ],
             [
                 "target_enemy",
@@ -31,11 +31,11 @@
             ],
             [
                 "damage",
-                15
+                10
             ],
             [
                 "hit",
-                70
+                60
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                12
+                16
             ],
             [
                 "level_exp",
@@ -55,11 +55,11 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "B"
             ],
             [
                 "stagger",
-                10
+                8
             ]
         ]
     }

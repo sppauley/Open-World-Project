@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                9
+                7
             ],
             [
                 "hit",
-                70
+                75
             ],
             [
                 "weapon_type",
@@ -38,22 +38,8 @@
                 "D"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "weight",
-                9
+                7
             ],
             [
                 "crit",
@@ -84,6 +70,10 @@
             [
                 "effective_multiplier",
                 1
+            ],
+            [
+                "stagger",
+                6
             ]
         ]
     }

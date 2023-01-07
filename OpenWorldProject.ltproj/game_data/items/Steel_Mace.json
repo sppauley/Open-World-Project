@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Silver Axe",
-        "name": "Silver Axe",
+        "nid": "Steel_Mace",
+        "name": "Steel Mace",
         "desc": "",
-        "icon_nid": "Axe",
+        "icon_nid": "4167b60532e055ac35d086f388048981fad5ce98",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                1000
+                270
             ],
             [
                 "target_enemy",
@@ -31,11 +31,11 @@
             ],
             [
                 "damage",
-                15
+                8
             ],
             [
                 "hit",
-                70
+                55
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                12
+                17
             ],
             [
                 "level_exp",
@@ -55,7 +55,7 @@
             ],
             [
                 "weapon_rank",
-                "A"
+                "D"
             ],
             [
                 "stagger",
