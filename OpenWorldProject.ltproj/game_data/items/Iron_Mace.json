@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Slim Lance",
-        "name": "Slim Lance",
+        "nid": "Iron_Mace",
+        "name": "Iron Mace",
         "desc": "",
-        "icon_nid": "Lance",
+        "icon_nid": "f63e6ee79cd28fc92731976f30ec191e60ec5eba",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                420
+                270
             ],
             [
                 "target_enemy",
@@ -31,19 +31,19 @@
             ],
             [
                 "damage",
-                4
+                6
             ],
             [
                 "hit",
-                85
+                65
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
-                4
+                14
             ],
             [
                 "level_exp",
@@ -51,11 +51,15 @@
             ],
             [
                 "weapon_type",
-                "Lance"
+                "Axe"
             ],
             [
                 "weapon_rank",
                 "E"
+            ],
+            [
+                "stagger",
+                8
             ]
         ]
     }

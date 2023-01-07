@@ -1,9 +1,9 @@
 [
     {
-        "nid": "Fire",
-        "name": "Fire",
+        "nid": "Steel_Mace",
+        "name": "Steel Mace",
         "desc": "",
-        "icon_nid": "Anima",
+        "icon_nid": "4167b60532e055ac35d086f388048981fad5ce98",
         "icon_index": [
             0,
             0
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                560
+                270
             ],
             [
                 "target_enemy",
@@ -27,15 +27,15 @@
             ],
             [
                 "max_range",
-                2
+                1
             ],
             [
                 "damage",
-                4
+                8
             ],
             [
                 "hit",
-                85
+                55
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                3
+                17
             ],
             [
                 "level_exp",
@@ -51,27 +51,15 @@
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Axe"
             ],
             [
                 "weapon_rank",
-                "E"
-            ],
-            [
-                "map_hit_add_blend",
-                [
-                    224,
-                    96,
-                    0
-                ]
-            ],
-            [
-                "magic",
-                null
+                "D"
             ],
             [
                 "stagger",
-                0
+                10
             ]
         ]
     }

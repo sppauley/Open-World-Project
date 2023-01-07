@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Killer Bow",
-        "name": "Killer Bow",
+        "nid": "Cyclone",
+        "name": "Cyclone",
         "desc": "",
-        "icon_nid": "Bow",
+        "icon_nid": "Anima",
         "icon_index": [
             0,
-            4
+            5
         ],
         "components": [
             [
@@ -23,61 +23,62 @@
             ],
             [
                 "damage",
-                6
+                0
             ],
             [
                 "hit",
-                70
+                60
             ],
             [
                 "weapon_type",
-                "Bow"
+                "Anima"
             ],
             [
                 "weapon_rank",
-                "C"
+                "A"
             ],
             [
-                "weight",
-                6
-            ],
-            [
-                "crit",
-                30
-            ],
-            [
-                "warning",
+                "magic",
                 null
             ],
             [
-                "value",
-                1400
+                "weight",
+                20
             ],
             [
                 "min_range",
-                2
+                3
             ],
             [
                 "max_range",
-                2
+                10
             ],
             [
-                "effective",
-                18
-            ],
-            [
-                "effective_tag",
-                [
-                    "Flying"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                1
+                "crit",
+                0
             ],
             [
                 "stagger",
-                4
+                12
+            ],
+            [
+                "c_uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "T",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }

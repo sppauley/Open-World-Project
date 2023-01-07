@@ -46,20 +46,6 @@
                 12
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -70,6 +56,10 @@
             [
                 "weapon_rank",
                 "A"
+            ],
+            [
+                "stagger",
+                10
             ]
         ]
     }

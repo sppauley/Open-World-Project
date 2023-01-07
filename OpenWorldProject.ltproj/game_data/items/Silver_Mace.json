@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Slim Sword",
-        "name": "Slim Sword",
+        "nid": "Silver_Mace",
+        "name": "Silver Mace",
         "desc": "",
-        "icon_nid": "Sword",
+        "icon_nid": "{Beansy} Blood Mace",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                480
+                270
             ],
             [
                 "target_enemy",
@@ -31,33 +31,19 @@
             ],
             [
                 "damage",
-                3
+                10
             ],
             [
                 "hit",
-                100
+                60
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
-                2
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                16
             ],
             [
                 "level_exp",
@@ -65,11 +51,15 @@
             ],
             [
                 "weapon_type",
-                "Sword"
+                "Axe"
             ],
             [
                 "weapon_rank",
-                "E"
+                "B"
+            ],
+            [
+                "stagger",
+                8
             ]
         ]
     }

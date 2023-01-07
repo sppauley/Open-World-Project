@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                11
+                7
             ],
             [
                 "hit",
-                65
+                60
             ],
             [
                 "weapon_type",
@@ -38,22 +38,8 @@
                 "C"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "weight",
-                11
+                10
             ],
             [
                 "crit",
@@ -74,6 +60,10 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "stagger",
+                6
             ]
         ]
     }

@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Excalibur",
-        "name": "Excalibur",
-        "desc": "Speed +5. Effective against monsters",
-        "icon_nid": "Anima",
+        "nid": "Dragonsbane",
+        "name": "Dragonsbane",
+        "desc": "Effective against dragon units.",
+        "icon_nid": "Sword",
         "icon_index": [
             0,
-            5
+            13
         ],
         "components": [
             [
@@ -23,49 +23,31 @@
             ],
             [
                 "damage",
-                18
+                6
             ],
             [
                 "hit",
-                90
+                85
             ],
             [
                 "weapon_type",
-                "Anima"
+                "Sword"
             ],
             [
                 "weapon_rank",
-                "S"
-            ],
-            [
-                "magic",
-                null
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
+                "E"
             ],
             [
                 "weight",
-                13
+                8
             ],
             [
                 "crit",
-                10
+                0
             ],
             [
-                "status_on_equip",
-                "Speed +5"
+                "value",
+                4500
             ],
             [
                 "min_range",
@@ -73,21 +55,25 @@
             ],
             [
                 "max_range",
-                2
+                1
             ],
             [
                 "effective",
-                36
+                16
             ],
             [
                 "effective_tag",
                 [
-                    "Monster"
+                    "Dragon"
                 ]
             ],
             [
                 "effective_multiplier",
                 1
+            ],
+            [
+                "stagger",
+                2
             ]
         ]
     }
