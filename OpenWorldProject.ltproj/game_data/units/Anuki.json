@@ -11,14 +11,14 @@
             "HP": 29,
             "STR": 8,
             "MAG": 1,
-            "DEX": 7,
+            "DEX": 9,
             "SPD": 6,
             "PSE": 11,
             "MOV": 5
         },
         "growths": {
             "HP": 75,
-            "STR": 30,
+            "STR": 35,
             "MAG": 10,
             "DEX": 30,
             "SPD": 25,
