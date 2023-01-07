@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "1",
+        "name": "Training Grounds",
+        "tilemap": "TrainingGrounds",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Luther",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": []
+    }
+]
