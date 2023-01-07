@@ -1,21 +1,19 @@
 [
     {
-        "nid": "Bordeaux",
-        "name": "Bordeaux",
+        "nid": "Bagustav",
+        "name": "Bagustav",
         "desc": "",
         "variant": null,
         "level": 1,
         "klass": "General",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
-            "HP": 60,
-            "STR": 12,
+            "HP": 40,
+            "STR": 8,
             "MAG": 0,
-            "DEX": 15,
-            "SPD": 5,
-            "PSE": 25,
+            "DEX": 10,
+            "SPD": 4,
+            "PSE": 15,
             "MOV": 5
         },
         "growths": {
@@ -29,7 +27,7 @@
         },
         "starting_items": [
             [
-                "Horseslayer",
+                "Steel_Pike",
                 false
             ]
         ],
@@ -42,7 +40,7 @@
             ],
             "Lance": [
                 false,
-                121
+                71
             ],
             "Axe": [
                 false,

@@ -271,7 +271,7 @@
                 "generic": true
             },
             {
-                "nid": "106",
+                "nid": "Archer1",
                 "variant": null,
                 "level": 3,
                 "klass": "Archer",
@@ -295,7 +295,7 @@
                 "generic": true
             },
             {
-                "nid": "107",
+                "nid": "Archer2",
                 "variant": null,
                 "level": 3,
                 "klass": "Archer",
@@ -319,7 +319,7 @@
                 "generic": true
             },
             {
-                "nid": "108",
+                "nid": "Archer3",
                 "variant": null,
                 "level": 3,
                 "klass": "Archer",
@@ -338,6 +338,30 @@
                 "starting_position": [
                     3,
                     11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 3,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -461,6 +485,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Bagustav",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [],
