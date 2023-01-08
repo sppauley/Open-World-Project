@@ -346,6 +346,13 @@
                 ]
             ],
             [
+                "remove_group",
+                [
+                    "E3",
+                    "immediate"
+                ]
+            ],
+            [
                 "battle_save",
                 []
             ]

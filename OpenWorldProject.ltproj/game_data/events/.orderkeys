@@ -53,5 +53,7 @@
     "2_Trigger_Scripted_Death.json": 51,
     "2_Aggro_Enemies.json": 52,
     "2_Visual_fix_for_general.json": 53,
-    "6_FirstRebelReinforcements.json": 54
+    "6_FirstRebelReinforcements.json": 54,
+    "6_E1Arrive.json": 55,
+    "6_FinalRebelChase.json": 56
 }

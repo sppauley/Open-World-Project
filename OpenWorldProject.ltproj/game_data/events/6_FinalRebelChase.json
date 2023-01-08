@@ -1,0 +1,170 @@
+[
+    {
+        "name": "FinalRebelChase",
+        "trigger": "FinalChaseSequence",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "The castle's within sight!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Let us hurry!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "42,17"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "The rebels-"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "E3",
+                    "starting",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "42,20"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Damnit!"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Milord, we must reach Castle Morrissey!{w}{br}We cannot continue to engage the rebels here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "But they're gaining on us!"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "43,12"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "43,12"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "41,12"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "41,12"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Lord Morrissey already has troops in the field.{w}{br}I have no doubt they'll come to our aid."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "So we continue to flee?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "We must survive, milord.{w}{br}Little else matters."
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "start_encounter",
+                [
+                    "37",
+                    "8",
+                    "47",
+                    "20",
+                    "BattleIntro"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

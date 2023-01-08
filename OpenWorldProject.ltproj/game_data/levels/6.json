@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Simon dies"
         },
         "roam": false,
         "roam_unit": "Simon",
@@ -324,6 +324,198 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    41,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    43,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    44,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Horseslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    40,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 10,
+                "klass": "Cavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    40,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 10,
+                "klass": "Cavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    44,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 10,
+                "klass": "AxeCavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    45,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 10,
+                "klass": "AxeCavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    39,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -422,6 +614,38 @@
                 "condition": "game.level_vars.get('clearedAmbush') == 1",
                 "only_once": false,
                 "interrupt_move": true
+            },
+            {
+                "nid": "E1Arrive",
+                "region_type": "event",
+                "position": [
+                    42,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Arrive",
+                "condition": "unit.nid == 'Simon'",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "FinalChaseSequence",
+                "region_type": "event",
+                "position": [
+                    38,
+                    19
+                ],
+                "size": [
+                    10,
+                    2
+                ],
+                "sub_nid": "FinalChaseSequence",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [
@@ -445,6 +669,43 @@
                     "110"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "MorrisseySoldiers",
+                "units": [
+                    "106",
+                    "111",
+                    "114",
+                    "115"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "E3",
+                "units": [
+                    "116",
+                    "117",
+                    "118",
+                    "119"
+                ],
+                "positions": {
+                    "116": [
+                        40,
+                        20
+                    ],
+                    "117": [
+                        44,
+                        20
+                    ],
+                    "118": [
+                        39,
+                        20
+                    ],
+                    "119": [
+                        45,
+                        20
+                    ]
+                }
             }
         ]
     }
