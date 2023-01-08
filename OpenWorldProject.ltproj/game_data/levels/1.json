@@ -431,10 +431,7 @@
                 "ai": "SupportBossGuard",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    1,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -455,10 +452,7 @@
                 "ai": "SupportBossGuard",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": [
-                    15,
-                    16
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
