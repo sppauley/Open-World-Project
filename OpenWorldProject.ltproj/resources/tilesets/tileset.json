@@ -445,5 +445,10 @@
         "nid": "PathToMorrissey",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "pathtoport",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
