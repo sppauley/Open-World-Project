@@ -53,5 +53,7 @@
     "2_Visual_fix_for_general.json": 51,
     "6_FirstRebelReinforcements.json": 52,
     "1_Ruler.json": 53,
-    "1_SetUp.json": 54
+    "1_SetUp.json": 54,
+    "1_Reset_MOV.json": 55,
+    "1_Halve_MOV.json": 56
 }
