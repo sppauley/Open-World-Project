@@ -450,5 +450,15 @@
         "nid": "pathtoport",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Caves1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "cliffs",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

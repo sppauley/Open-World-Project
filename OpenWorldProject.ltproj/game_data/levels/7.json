@@ -3,7 +3,7 @@
         "nid": "7",
         "name": "Eastern Path",
         "tilemap": "PathToPort",
-        "bg_tilemap": null,
+        "bg_tilemap": "Underground view",
         "party": "Simon",
         "music": {
             "player_phase": null,
@@ -38,7 +38,24 @@
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Scar",
+                "region_type": "event",
+                "position": [
+                    0,
+                    10
+                ],
+                "size": [
+                    11,
+                    9
+                ],
+                "sub_nid": "Look",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": []
     }
 ]
