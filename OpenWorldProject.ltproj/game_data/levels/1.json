@@ -225,7 +225,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 4,
+                "level": 5,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -249,7 +249,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 4,
+                "level": 5,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
