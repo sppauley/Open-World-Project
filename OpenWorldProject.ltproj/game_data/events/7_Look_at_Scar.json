@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Look at Scar",
+        "trigger": "Look",
+        "level_nid": "7",
+        "condition": "unit.nid == \"Simon\"",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Simon",
+                    "What is this?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Surely you remember this from your studies, milord?{w}{br}This is a worldscar."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Worldscar?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "I suppose not."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Areas like this are remnants of old cataclysms.{w}{br}They often reveal old cave systems, or ruins, buried beneath us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "We ought to investigate, then?{w}{br}I'm sure they could contain valuable artifacts."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Hah, you are certainly not the first to think of that.{w}{br}Many have tried to map these caves.{w}{br}The monsters within it, however, are quite territorial."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thank you, Luther.{w} Something to keep in mind, at least."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
