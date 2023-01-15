@@ -140,6 +140,14 @@
         false
     ],
     [
+        "learn_skills_on_reclass",
+        true
+    ],
+    [
+        "learn_skills_on_promote",
+        true
+    ],
+    [
         "negative_growths",
         true
     ],
