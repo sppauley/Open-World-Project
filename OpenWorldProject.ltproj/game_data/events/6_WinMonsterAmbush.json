@@ -1,9 +1,9 @@
 [
     {
         "name": "WinMonsterAmbush",
-        "trigger": null,
+        "trigger": "combat_end",
         "level_nid": "6",
-        "condition": "is_dead('112') and is_dead('113')",
+        "condition": "game.check_dead('112') and game.check_dead('113')",
         "commands": [
             [
                 "speak",

@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Agamemnon",
+        "name": "Agamemnon",
+        "desc": "Anuki only. A powerful axe that can strike at range.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "stagger",
+                2
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                1
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ]
+        ]
+    }
+]

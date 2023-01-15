@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "7",
+        "name": "Eastern Path",
+        "tilemap": "PathToPort",
+        "bg_tilemap": "Underground view",
+        "party": "Simon",
+        "music": {
+            "player_phase": null,
+            "enemy_phase": null,
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": null,
+            "enemy_battle": null,
+            "other_battle": null,
+            "enemy2_battle": null
+        },
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": true,
+        "roam_unit": "Simon",
+        "go_to_overworld": false,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Scar",
+                "region_type": "event",
+                "position": [
+                    0,
+                    10
+                ],
+                "size": [
+                    11,
+                    9
+                ],
+                "sub_nid": "Look",
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": []
+    }
+]

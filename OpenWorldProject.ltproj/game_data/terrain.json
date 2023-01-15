@@ -420,6 +420,21 @@
         "status": "Throne"
     },
     {
+        "nid": "39",
+        "name": "Sand",
+        "color": [
+            255,
+            255,
+            127
+        ],
+        "minimap": "Sand",
+        "platform": "Sand",
+        "background": "Hill",
+        "mtype": "Desert",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "Ruins",
         "name": "Ruins",
         "color": [

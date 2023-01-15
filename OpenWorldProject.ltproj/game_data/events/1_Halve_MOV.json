@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Halve MOV",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [
+            [
+                "set_stats",
+                [
+                    "Bordeaux (Bordeaux)",
+                    "MOV,2",
+                    "FLAG(immediate)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

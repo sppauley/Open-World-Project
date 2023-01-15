@@ -58,5 +58,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Morrissey",
+        "name": "Morrissey",
+        "desc": "Knights loyal to House Morrissey.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

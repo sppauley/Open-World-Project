@@ -35,11 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "weight",
-                13
+                12
             ],
             [
                 "crit",
@@ -58,8 +58,8 @@
                 1
             ],
             [
-                "effective",
-                14
+                "stagger",
+                4
             ],
             [
                 "effective_tag",
@@ -69,11 +69,7 @@
             ],
             [
                 "effective_multiplier",
-                1
-            ],
-            [
-                "stagger",
-                6
+                3.0
             ]
         ]
     }

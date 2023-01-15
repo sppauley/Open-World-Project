@@ -1,33 +1,33 @@
 [
     {
-        "nid": "Simon",
-        "name": "Simon",
+        "nid": "Anuki",
+        "name": "Anuki",
         "desc": "",
-        "variant": null,
-        "level": 1,
-        "klass": "Simon_Lord",
+        "variant": "",
+        "level": 3,
+        "klass": "Fighter",
         "tags": [],
         "bases": {
-            "HP": 18,
-            "STR": 4,
-            "MAG": 0,
-            "DEX": 10,
-            "SPD": 11,
-            "PSE": 6,
+            "HP": 29,
+            "STR": 8,
+            "MAG": 1,
+            "DEX": 9,
+            "SPD": 6,
+            "PSE": 11,
             "MOV": 5
         },
         "growths": {
-            "HP": 65,
+            "HP": 75,
             "STR": 35,
-            "MAG": 20,
-            "DEX": 45,
-            "SPD": 45,
-            "PSE": 50,
+            "MAG": 10,
+            "DEX": 30,
+            "SPD": 25,
+            "PSE": 25,
             "MOV": 0
         },
         "starting_items": [
             [
-                "Parizitis",
+                "Agamemnon",
                 false
             ]
         ],
@@ -36,7 +36,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                31
+                0
             ],
             "Lance": [
                 false,
@@ -44,13 +44,13 @@
             ],
             "Axe": [
                 false,
-                0
+                31
             ],
             "Bow": [
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -66,6 +66,10 @@
                 false,
                 0
             ],
+            "Staff": [
+                false,
+                0
+            ],
             "Default": [
                 false,
                 0
@@ -74,11 +78,6 @@
         "alternate_classes": [],
         "portrait_nid": "",
         "affinity": "None",
-        "fields": [
-            [
-                "PartyMember",
-                "No"
-            ]
-        ]
+        "fields": []
     }
 ]

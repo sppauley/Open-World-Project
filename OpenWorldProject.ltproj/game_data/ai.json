@@ -9,7 +9,7 @@
                     "Team",
                     "other"
                 ],
-                "view_range": 0,
+                "view_range": -5,
                 "invert_targeting": true,
                 "roam_speed": 100,
                 "desired_proximity": 0
@@ -18,7 +18,7 @@
                 "action": "None",
                 "target": "None",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": -5,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0
@@ -27,7 +27,7 @@
                 "action": "None",
                 "target": "None",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": -5,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0
@@ -537,6 +537,134 @@
         ],
         "priority": 20,
         "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "SupportBoss",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            },
+            {
+                "action": "Move_to",
+                "target": "Ally",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
+        "nid": "AttackPlayerOnly",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "player"
+                ],
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "PursuePlayerOnly",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "player"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "SupportBossGuard",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": [
+                    "Tag",
+                    "Boss"
+                ],
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            },
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
         "roam_ai": false
     }
 ]
