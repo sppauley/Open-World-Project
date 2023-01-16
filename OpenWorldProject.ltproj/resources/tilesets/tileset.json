@@ -447,17 +447,22 @@
         "autotiles": {}
     },
     {
-        "nid": "pathtoport",
-        "terrain_grid": {},
-        "autotiles": {}
-    },
-    {
         "nid": "Caves1",
         "terrain_grid": {},
         "autotiles": {}
     },
     {
         "nid": "cliffs",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "cavemap",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "pathtoport_1",
         "terrain_grid": {},
         "autotiles": {}
     }
