@@ -46,6 +46,12 @@
                 ]
             ],
             [
+                "show_layer",
+                [
+                    "blockBridge"
+                ]
+            ],
+            [
                 "remove_unit",
                 [
                     "Simon (Simon)",

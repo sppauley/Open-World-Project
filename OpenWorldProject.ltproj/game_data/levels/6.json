@@ -600,6 +600,22 @@
                 "interrupt_move": true
             },
             {
+                "nid": "FinalChaseSequence",
+                "region_type": "event",
+                "position": [
+                    39,
+                    21
+                ],
+                "size": [
+                    9,
+                    2
+                ],
+                "sub_nid": "FinalChaseSequence",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": true
+            },
+            {
                 "nid": "PathBlockGoBack",
                 "region_type": "event",
                 "position": [
@@ -630,22 +646,6 @@
                 "condition": "unit.nid == 'Simon'",
                 "only_once": false,
                 "interrupt_move": false
-            },
-            {
-                "nid": "FinalChaseSequence",
-                "region_type": "event",
-                "position": [
-                    38,
-                    19
-                ],
-                "size": [
-                    10,
-                    2
-                ],
-                "sub_nid": "FinalChaseSequence",
-                "condition": "True",
-                "only_once": true,
-                "interrupt_move": true
             }
         ],
         "unit_groups": [

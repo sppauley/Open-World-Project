@@ -12,6 +12,12 @@
                 ]
             ],
             [
+                "hide_layer",
+                [
+                    "blockBridge"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",
@@ -22,6 +28,13 @@
                 "remove_unit",
                 [
                     "Luther (Luther)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Vincent (Vincent)",
                     "immediate"
                 ]
             ],
