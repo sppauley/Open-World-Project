@@ -1,0 +1,52 @@
+[
+    {
+        "name": "MonsterRebelBackup",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.level_vars.get('aliveMonsters') == 0 and game.level_vars.get('rebelReinforcements') == 0",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# Move to not make them ambush spawns"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (112)",
+                    "35,26",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (113)",
+                    "35,27",
+                    "fade",
+                    "",
+                    "west"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rebel",
+                    "I spotted the boy!{w} Attack!"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "rebelReinforcements",
+                    "1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
