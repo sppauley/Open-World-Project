@@ -604,11 +604,11 @@
                 "region_type": "event",
                 "position": [
                     39,
-                    21
+                    20
                 ],
                 "size": [
                     9,
-                    2
+                    3
                 ],
                 "sub_nid": "FinalChaseSequence",
                 "condition": "True",
@@ -620,7 +620,7 @@
                 "region_type": "event",
                 "position": [
                     36,
-                    22
+                    23
                 ],
                 "size": [
                     1,

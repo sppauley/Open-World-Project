@@ -1,9 +1,9 @@
 [
     {
         "name": "BlockGoBack",
-        "trigger": "PathBlockGoBack",
+        "trigger": "roaming_interrupt",
         "level_nid": "6",
-        "condition": "True",
+        "condition": "region.nid == \"PathBlockGoBack\"",
         "commands": [
             [
                 "speak",
