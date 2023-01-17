@@ -359,6 +359,24 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "game.game_vars.get(\"tutorialPopup\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Units you control that fall in battle will return at the next save point.{w}{br}Only Simon's death will cause a game over.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "battle_save",
                 []
             ]

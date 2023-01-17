@@ -23,6 +23,13 @@
                     "SimonReset",
                     "0"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "tutorialPopups",
+                    "1"
+                ]
             ]
         ],
         "only_once": false,

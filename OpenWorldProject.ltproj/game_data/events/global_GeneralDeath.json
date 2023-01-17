@@ -1,0 +1,49 @@
+[
+    {
+        "name": "GeneralDeath",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.get_field('DeathQuote')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{eval:unit.nid}",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{eval:unit.nid}",
+                    "{eval:unit.get_field('DeathQuote')}"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "{eval:unit.nid}",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "{eval:unit.nid}"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

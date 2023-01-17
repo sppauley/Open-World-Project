@@ -59,5 +59,6 @@
     "DEBUGTRANSITION_StartEncounter.json": 57,
     "6_E1Arrive.json": 58,
     "6_FinalRebelChase.json": 59,
-    "6_MonsterRebelBackup.json": 60
+    "6_MonsterRebelBackup.json": 60,
+    "global_GeneralDeath.json": 61
 }

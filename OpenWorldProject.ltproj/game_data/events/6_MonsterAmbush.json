@@ -192,6 +192,30 @@
                 [
                     "f"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# set conditional for tutorial on"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars.get(\"tutorialPopup\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "A second triangle exists with similar effects as the primary one.{w}{br}Bows beat innate weapons, which beat tomes, which beat bows.{w}{br}Monsters, which use innate weapons like their claws,{w} can be quickly dispatched by Juliet.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
