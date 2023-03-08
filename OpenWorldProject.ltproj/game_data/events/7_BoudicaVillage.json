@@ -1,0 +1,148 @@
+[
+    {
+        "name": "BoudicaVillage",
+        "trigger": "roaming_interrupt",
+        "level_nid": "7",
+        "condition": "True",
+        "commands": [
+            [
+                "add_tag",
+                [
+                    "101",
+                    "Boss"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# dramatic music"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "106",
+                    "36,32",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "106",
+                    "Simon (Simon)",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit",
+                    "Harharhar, looks like you made a wrong turn!"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Boudica (Boudica)",
+                    "34,20",
+                    "immediate",
+                    "closest"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "banditTarPos",
+                    "game.get_unit(\"106\").position"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Boudica (Boudica)",
+                    "{v:banditTarPos}",
+                    "normal",
+                    "closest",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Eyes up, wretch!"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Boudica (Boudica)",
+                    "{v:banditTarPos}",
+                    "crit1,end",
+                    "Iron Axe (Iron Axe)"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Boudica (Boudica)",
+                    "player"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Woah!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Hold no fear, we share a common enemy.{w}{br}I will show these brigands true terror!"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Boudica",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ],
+            [
+                "start_encounter",
+                [
+                    "24",
+                    "24",
+                    "44",
+                    "35",
+                    "BattleIntro"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation",
+                    "",
+                    "",
+                    "",
+                    "t"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

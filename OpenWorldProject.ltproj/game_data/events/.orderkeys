@@ -60,5 +60,7 @@
     "6_E1Arrive.json": 58,
     "6_FinalRebelChase.json": 59,
     "6_MonsterRebelBackup.json": 60,
-    "global_GeneralDeath.json": 61
+    "global_GeneralDeath.json": 61,
+    "7_BoudicaVillage.json": 62,
+    "7_WinBoudicaVillage.json": 63
 }
