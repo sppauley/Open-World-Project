@@ -463,5 +463,35 @@
         "mtype": "Fort",
         "opaque": false,
         "status": null
+    },
+    {
+        "nid": "Marsh",
+        "name": "Marsh",
+        "color": [
+            0,
+            85,
+            127
+        ],
+        "minimap": "Sand",
+        "platform": "Forest",
+        "background": "combat_marsh",
+        "mtype": "Desert",
+        "opaque": false,
+        "status": "Marsh"
+    },
+    {
+        "nid": "Swamp",
+        "name": "Swamp",
+        "color": [
+            170,
+            0,
+            255
+        ],
+        "minimap": "River",
+        "platform": "River",
+        "background": "Cliff",
+        "mtype": "River",
+        "opaque": false,
+        "status": "Swamp"
     }
 ]
