@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Bottom Village",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid=='BottomVillage'",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "BottomVillage",
+                    "BottomVillage",
+                    "swoosh",
+                    "push"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

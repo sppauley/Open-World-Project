@@ -51,6 +51,198 @@
                 "generic": false
             },
             {
+                "nid": "101",
+                "variant": null,
+                "level": 6,
+                "klass": "Fighter",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 6,
+                "klass": "Fighter",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    18,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 2,
+                "klass": "Warrior",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    17,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 2,
+                "klass": "Hero",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    5,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    1,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "bl1",
                 "variant": null,
                 "level": 5,
@@ -242,7 +434,7 @@
             {
                 "nid": "cr",
                 "variant": null,
-                "level": 2,
+                "level": 3,
                 "klass": "Entombed",
                 "faction": "Monster",
                 "starting_items": [
@@ -258,6 +450,186 @@
                 "starting_skills": [],
                 "team": "enemy2",
                 "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 11,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ],
+                    [
+                        "Talisman",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 5,
+                "klass": "Myrmidon",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 11,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ],
+                    [
+                        "Elixir",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 13,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ],
+                    [
+                        "Physic",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": null,
@@ -345,6 +717,54 @@
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "BottomVillage",
+                "region_type": "event",
+                "position": [
+                    22,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CenterVillage",
+                "region_type": "event",
+                "position": [
+                    2,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TopVillage",
+                "region_type": "event",
+                "position": [
+                    21,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -423,6 +843,67 @@
                     "cr": [
                         18,
                         13
+                    ]
+                }
+            },
+            {
+                "nid": "BottomVillage",
+                "units": [
+                    "108",
+                    "106",
+                    "107"
+                ],
+                "positions": {
+                    "108": [
+                        22,
+                        19
+                    ],
+                    "106": [
+                        21,
+                        19
+                    ],
+                    "107": [
+                        23,
+                        19
+                    ]
+                }
+            },
+            {
+                "nid": "CenterVillage",
+                "units": [
+                    "109",
+                    "110"
+                ],
+                "positions": {
+                    "109": [
+                        2,
+                        15
+                    ],
+                    "110": [
+                        1,
+                        15
+                    ]
+                }
+            },
+            {
+                "nid": "TopVillage",
+                "units": [
+                    "115",
+                    "116",
+                    "114"
+                ],
+                "positions": {
+                    "114": [
+                        21,
+                        5
+                    ],
+                    "116": [
+                        20,
+                        5
+                    ],
+                    "115": [
+                        22,
+                        5
                     ]
                 }
             }

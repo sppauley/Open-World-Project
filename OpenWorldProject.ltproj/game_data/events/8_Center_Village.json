@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Center Village",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid=='CenterVillage'",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "CenterVillage",
+                    "CenterVillage",
+                    "swoosh",
+                    "push"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

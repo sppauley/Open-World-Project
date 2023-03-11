@@ -69,5 +69,8 @@
     "8_Bottom_Left_Swamp.json": 67,
     "8_Center_Right_Swamp.json": 68,
     "8_Top_Left_Swamp.json": 69,
-    "8_Bottom_Right_Swamp.json": 70
+    "8_Bottom_Right_Swamp.json": 70,
+    "8_Bottom_Village.json": 71,
+    "8_Center_Village.json": 72,
+    "8_Top_Village.json": 73
 }

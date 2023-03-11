@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Top Village",
+        "trigger": "Visit",
+        "level_nid": "8",
+        "condition": "region.nid=='TopVillage'",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "TopVillage",
+                    "TopVillage",
+                    "swoosh",
+                    "push"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
