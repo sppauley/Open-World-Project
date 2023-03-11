@@ -49,6 +49,69 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "bl1",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "bl2",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "bl3",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -67,8 +130,47 @@
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "BottomLeft",
+                "region_type": "normal",
+                "position": [
+                    3,
+                    20
+                ],
+                "size": [
+                    6,
+                    9
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
-        "unit_groups": []
+        "unit_groups": [
+            {
+                "nid": "BottomLeft",
+                "units": [
+                    "bl1",
+                    "bl2",
+                    "bl3"
+                ],
+                "positions": {
+                    "bl1": [
+                        6,
+                        24
+                    ],
+                    "bl2": [
+                        7,
+                        26
+                    ],
+                    "bl3": [
+                        5,
+                        27
+                    ]
+                }
+            }
+        ]
     }
 ]
