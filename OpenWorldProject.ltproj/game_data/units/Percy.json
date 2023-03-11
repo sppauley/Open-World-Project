@@ -3,7 +3,7 @@
         "nid": "Percy",
         "name": "Percy",
         "desc": "",
-        "variant": null,
+        "variant": "",
         "level": 15,
         "klass": "Hero",
         "tags": [],

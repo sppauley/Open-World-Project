@@ -1,44 +1,41 @@
 [
     {
-        "nid": "Bordeaux",
-        "name": "Bordeaux",
-        "desc": "",
-        "variant": "",
+        "nid": "Boudica",
+        "name": "Boudica",
+        "desc": "A ferocious fighter and \nformer bandit",
+        "variant": null,
         "level": 1,
-        "klass": "General",
-        "tags": [
-            "Boss"
-        ],
+        "klass": "Iceni",
+        "tags": [],
         "bases": {
-            "HP": 60,
-            "STR": 11,
-            "MAG": 0,
-            "DEX": 15,
-            "SPD": 5,
-            "PSE": 20,
-            "MOV": 5
+            "HP": 25,
+            "STR": 4,
+            "MAG": 3,
+            "DEX": 7,
+            "SPD": 9,
+            "PSE": 16,
+            "MOV": 11
         },
         "growths": {
-            "HP": 0,
-            "STR": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 50,
+            "STR": 30,
+            "MAG": 30,
+            "DEX": 30,
+            "SPD": 40,
+            "PSE": 20,
             "MOV": 0
         },
         "starting_items": [
             [
-                "Horseslayer",
+                "Iron Axe",
+                false
+            ],
+            [
+                "Vulnerary",
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Ruler"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -47,11 +44,11 @@
             ],
             "Lance": [
                 false,
-                121
+                0
             ],
             "Axe": [
                 false,
-                0
+                71
             ],
             "Bow": [
                 false,
@@ -84,7 +81,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "",
-        "affinity": "None",
+        "affinity": null,
         "fields": []
     }
 ]
