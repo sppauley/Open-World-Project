@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Reset MOV",
+        "trigger": "enemy_turn_change",
+        "level_nid": "8",
+        "condition": "not any(get_units_in_region('Gustav', nid='Gustav'))",
+        "commands": [
+            [
+                "set_stats",
+                [
+                    "Gustav",
+                    "MOV,7",
+                    "FLAG(immediate)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

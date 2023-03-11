@@ -62,5 +62,8 @@
     "6_MonsterRebelBackup.json": 60,
     "global_GeneralDeath.json": 61,
     "7_BoudicaVillage.json": 62,
-    "7_WinBoudicaVillage.json": 63
+    "7_WinBoudicaVillage.json": 63,
+    "8_Ruler_Gustav.json": 64,
+    "8_Halve_MOV.json": 65,
+    "8_Reset_MOV.json": 66
 }
