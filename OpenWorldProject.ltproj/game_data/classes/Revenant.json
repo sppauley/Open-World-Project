@@ -20,7 +20,7 @@
             "DEX": 8,
             "STR": 4,
             "MAG": 0,
-            "PSE": 6
+            "PSE": 8
         },
         "growths": {
             "HP": 95,
@@ -29,7 +29,7 @@
             "DEX": 30,
             "STR": 25,
             "MAG": 0,
-            "PSE": 20
+            "PSE": 0
         },
         "growth_bonus": {
             "HP": 0,

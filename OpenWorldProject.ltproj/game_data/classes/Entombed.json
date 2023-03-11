@@ -12,20 +12,20 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 35,
-            "SPD": 1,
-            "MOV": 5,
-            "DEX": 0,
-            "STR": 0,
+            "HP": 38,
+            "SPD": 4,
+            "MOV": 6,
+            "DEX": 10,
+            "STR": 6,
             "MAG": 0,
-            "PSE": 6
+            "PSE": 14
         },
         "growths": {
             "HP": 85,
             "SPD": 17,
             "MOV": 0,
-            "DEX": 25,
-            "STR": 0,
+            "DEX": 32,
+            "STR": 28,
             "MAG": 0,
             "PSE": 0
         },
@@ -75,7 +75,7 @@
                 0
             ],
             "Innate": [
-                false,
+                true,
                 0
             ],
             "Light": [

@@ -55,7 +55,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Revenant",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -76,7 +76,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Revenant",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -97,11 +97,162 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Revenant",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
                         false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "br1",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "br2",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "br3",
+                "variant": null,
+                "level": 5,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "tl1",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "tl2",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "tl3",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "cr",
+                "variant": null,
+                "level": 2,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ],
+                    [
+                        "Angelic Robe",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -146,6 +297,54 @@
                 "condition": "True",
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "BottomRight",
+                "region_type": "normal",
+                "position": [
+                    18,
+                    20
+                ],
+                "size": [
+                    7,
+                    10
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "TopLeft",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    2
+                ],
+                "size": [
+                    7,
+                    10
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CenterRight",
+                "region_type": "normal",
+                "position": [
+                    16,
+                    11
+                ],
+                "size": [
+                    7,
+                    4
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -168,6 +367,62 @@
                     "bl3": [
                         5,
                         27
+                    ]
+                }
+            },
+            {
+                "nid": "BottomRight",
+                "units": [
+                    "br1",
+                    "br2",
+                    "br3"
+                ],
+                "positions": {
+                    "br1": [
+                        20,
+                        23
+                    ],
+                    "br2": [
+                        19,
+                        26
+                    ],
+                    "br3": [
+                        20,
+                        28
+                    ]
+                }
+            },
+            {
+                "nid": "TopLeft",
+                "units": [
+                    "tl1",
+                    "tl2",
+                    "tl3"
+                ],
+                "positions": {
+                    "tl1": [
+                        4,
+                        5
+                    ],
+                    "tl2": [
+                        4,
+                        8
+                    ],
+                    "tl3": [
+                        2,
+                        10
+                    ]
+                }
+            },
+            {
+                "nid": "CenterRight",
+                "units": [
+                    "cr"
+                ],
+                "positions": {
+                    "cr": [
+                        18,
+                        13
                     ]
                 }
             }

@@ -66,5 +66,8 @@
     "8_Ruler_Gustav.json": 64,
     "8_Halve_MOV.json": 65,
     "8_Reset_MOV.json": 66,
-    "8_Bottom_Left_Swamp.json": 67
+    "8_Bottom_Left_Swamp.json": 67,
+    "8_Center_Right_Swamp.json": 68,
+    "8_Top_Left_Swamp.json": 69,
+    "8_Bottom_Right_Swamp.json": 70
 }

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Top Left Swamp",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "any(get_units_in_region('TopLeft', team='player'))",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "TopLeft",
+                    "TopLeft",
+                    "fade",
+                    "closest"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
