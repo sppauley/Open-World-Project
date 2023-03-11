@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Charm",
+        "name": "Charm",
+        "desc": "Aura - Grants +15 hit and avoid to allies within 3 spaces.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Charm_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Charm_child",
+        "name": "Charm Bonus",
+        "desc": "Grants +15 hit and avoid to allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ],
+            [
+                "avoid",
+                15
+            ]
+        ]
+    }
+]

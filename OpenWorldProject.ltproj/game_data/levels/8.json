@@ -38,6 +38,19 @@
                 "generic": false
             },
             {
+                "nid": "Kajal",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Gustav",
                 "team": "enemy",
                 "ai": "Defend",

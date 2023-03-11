@@ -41,10 +41,12 @@
     "Void_Curse.json": 39,
     "Inspiration.json": 40,
     "Inspiration_child.json": 41,
-    "Staggered.json": 42,
-    "Stagger.json": 43,
-    "Bonus_Crit.json": 44,
-    "Fierce_Presence.json": 45,
-    "Fierce_Presence_Effect.json": 46,
-    "Ruler.json": 47
+    "Charm.json": 42,
+    "Charm_child.json": 43,
+    "Staggered.json": 44,
+    "Stagger.json": 45,
+    "Bonus_Crit.json": 46,
+    "Fierce_Presence.json": 47,
+    "Fierce_Presence_Effect.json": 48,
+    "Ruler.json": 49
 }

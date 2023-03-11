@@ -1,0 +1,88 @@
+[
+    {
+        "nid": "Kajal",
+        "name": "Kajal",
+        "desc": "",
+        "variant": null,
+        "level": 5,
+        "klass": "Troubadour",
+        "tags": [],
+        "bases": {
+            "HP": 15,
+            "STR": 2,
+            "MAG": 11,
+            "DEX": 6,
+            "SPD": 8,
+            "PSE": 5,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 15,
+            "MAG": 35,
+            "DEX": 10,
+            "SPD": 35,
+            "PSE": 15,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Charm"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                71
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]
