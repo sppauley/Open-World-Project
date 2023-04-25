@@ -20,7 +20,7 @@
             "win": "Don't Crash",
             "loss": "Crash"
         },
-        "roam": true,
+        "roam": false,
         "roam_unit": "Eirika",
         "go_to_overworld": false,
         "units": [
@@ -83,7 +83,7 @@
                 "generic": true
             },
             {
-                "nid": "Seth",
+                "nid": "Yusna",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -109,7 +109,7 @@
                 "generic": false
             },
             {
-                "nid": "Juliet",
+                "nid": "Simon",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
