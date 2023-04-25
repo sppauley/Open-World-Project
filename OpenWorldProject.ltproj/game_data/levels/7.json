@@ -40,7 +40,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 2,
+                "level": 5,
                 "klass": "Recruit",
                 "faction": "Bandit",
                 "starting_items": [
@@ -64,7 +64,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Recruit",
                 "faction": "Bandit",
                 "starting_items": [
@@ -88,7 +88,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Journeyman",
                 "faction": "Bandit",
                 "starting_items": [
@@ -112,7 +112,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 1,
+                "level": 4,
                 "klass": "Journeyman",
                 "faction": "Bandit",
                 "starting_items": [
@@ -136,7 +136,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 1,
+                "level": 4,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [

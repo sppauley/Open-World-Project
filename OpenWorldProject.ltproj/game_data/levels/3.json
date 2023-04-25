@@ -302,6 +302,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Kajal",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

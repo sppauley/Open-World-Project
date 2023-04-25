@@ -172,6 +172,14 @@
                     "Simon (Simon)",
                     "10"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Luther (Luther)",
+                    "Heal (Heal)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,

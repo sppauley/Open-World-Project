@@ -9,7 +9,7 @@
                 "add_unit",
                 [
                     "{var:HealChoice}",
-                    "Eirika",
+                    "Simon",
                     "immediate",
                     "closest"
                 ]
@@ -18,7 +18,7 @@
                 "add_unit",
                 [
                     "{var:HealTargetChoice}",
-                    "Eirika",
+                    "Simon",
                     "immediate",
                     "closest"
                 ]
@@ -39,10 +39,20 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "{var:HealTargetChoice} != \"Simon\""
+                ]
+            ],
+            [
                 "remove_unit",
                 [
                     "{var:HealTargetChoice}"
                 ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,

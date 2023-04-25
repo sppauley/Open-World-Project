@@ -17,7 +17,7 @@
                     "f",
                     "",
                     "Heal",
-                    "{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
+                    "{e:any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) and item_system.available(u, item) for item in u.items])])}",
                     "HealMenu"
                 ]
             ],

@@ -111,6 +111,21 @@
             [
                 "end",
                 []
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "level_var",
+                [
+                    "aliveMonsters",
+                    "5"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
