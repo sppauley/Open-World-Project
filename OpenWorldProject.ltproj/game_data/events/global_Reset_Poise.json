@@ -6,10 +6,9 @@
         "condition": "True",
         "commands": [
             [
-                "set_current_poise",
+                "comment",
                 [
-                    "{unit}",
-                    "{eval: int(unit.get_max_poise())}"
+                    "#set_current_poise;{unit};{eval: int(unit.get_max_poise())}"
                 ]
             ]
         ],

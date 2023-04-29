@@ -21,10 +21,9 @@
                 ]
             ],
             [
-                "set_current_poise",
+                "comment",
                 [
-                    "Eirika",
-                    "1"
+                    "#set_current_poise;Eirika;1"
                 ]
             ],
             [

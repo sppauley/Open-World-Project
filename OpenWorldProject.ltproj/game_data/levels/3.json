@@ -331,6 +331,7 @@
                 ],
                 "sub_nid": "",
                 "condition": "True",
+                "time_left": null,
                 "only_once": true,
                 "interrupt_move": true
             },
@@ -347,6 +348,7 @@
                 ],
                 "sub_nid": null,
                 "condition": "True",
+                "time_left": null,
                 "only_once": true,
                 "interrupt_move": true
             },
@@ -363,6 +365,7 @@
                 ],
                 "sub_nid": "TopChest",
                 "condition": "game.level_vars.get('chestopen') == 0",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
@@ -390,6 +393,7 @@
                 ],
                 "positions": {}
             }
-        ]
+        ],
+        "connections": []
     }
 ]

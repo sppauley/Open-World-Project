@@ -240,6 +240,10 @@
         true
     ],
     [
+        "title_sound",
+        true
+    ],
+    [
         "music_main",
         "Main Theme"
     ],
@@ -250,6 +254,10 @@
     [
         "music_class_change",
         null
+    ],
+    [
+        "music_game_over",
+        "Game Over"
     ],
     [
         "restart_phase_music",

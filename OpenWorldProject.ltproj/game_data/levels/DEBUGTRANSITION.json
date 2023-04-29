@@ -63,6 +63,7 @@
             }
         ],
         "regions": [],
-        "unit_groups": []
+        "unit_groups": [],
+        "connections": []
     }
 ]

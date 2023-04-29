@@ -532,6 +532,7 @@
                 ],
                 "sub_nid": "Escape",
                 "condition": "unit.nid == 'Simon'",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -548,6 +549,7 @@
                 ],
                 "sub_nid": "PathRuins1",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -564,6 +566,7 @@
                 ],
                 "sub_nid": "PathRuins2",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -580,6 +583,7 @@
                 ],
                 "sub_nid": "PathGazeAtVillage",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -596,6 +600,7 @@
                 ],
                 "sub_nid": "PathMonsterAmbush",
                 "condition": "True",
+                "time_left": null,
                 "only_once": true,
                 "interrupt_move": true
             },
@@ -612,6 +617,7 @@
                 ],
                 "sub_nid": "FinalChaseSequence",
                 "condition": "True",
+                "time_left": null,
                 "only_once": true,
                 "interrupt_move": true
             },
@@ -628,6 +634,7 @@
                 ],
                 "sub_nid": "PathBlockGoBack",
                 "condition": "game.level_vars.get('clearedAmbush') == 1",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": true
             },
@@ -644,6 +651,7 @@
                 ],
                 "sub_nid": "Arrive",
                 "condition": "unit.nid == 'Simon'",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
@@ -707,6 +715,7 @@
                     ]
                 }
             }
-        ]
+        ],
+        "connections": []
     }
 ]

@@ -82,10 +82,12 @@
                 ],
                 "sub_nid": "ActivateGenericCamp",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
         ],
-        "unit_groups": []
+        "unit_groups": [],
+        "connections": []
     }
 ]

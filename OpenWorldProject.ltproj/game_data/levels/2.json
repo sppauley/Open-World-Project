@@ -343,6 +343,7 @@
                 ],
                 "sub_nid": "Door",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             },
@@ -359,6 +360,7 @@
                 ],
                 "sub_nid": "",
                 "condition": "True",
+                "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
             }
@@ -444,6 +446,7 @@
                     ]
                 }
             }
-        ]
+        ],
+        "connections": []
     }
 ]
