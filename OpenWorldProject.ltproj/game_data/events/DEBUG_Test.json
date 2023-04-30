@@ -33,10 +33,9 @@
                 ]
             ],
             [
-                "give_item",
+                "comment",
                 [
-                    "Luther (Luther)",
-                    "CheatAxe (CheatAxe)"
+                    "#give_item;Luther (Luther);CheatAxe (CheatAxe)"
                 ]
             ],
             [

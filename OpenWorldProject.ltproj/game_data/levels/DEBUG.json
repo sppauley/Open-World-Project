@@ -20,14 +20,14 @@
             "win": "Don't Crash",
             "loss": "Crash"
         },
-        "roam": true,
+        "roam": false,
         "roam_unit": "Eirika",
         "go_to_overworld": false,
         "units": [
             {
                 "nid": "Bone",
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
