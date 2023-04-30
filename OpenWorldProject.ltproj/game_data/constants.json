@@ -77,7 +77,7 @@
     ],
     [
         "trade",
-        true
+        false
     ],
     [
         "growth_info",
