@@ -24,6 +24,10 @@
             [
                 "combat_condition",
                 "target.get_poise() >= 0"
+            ],
+            [
+                "enable_stagger",
+                []
             ]
         ]
     }
