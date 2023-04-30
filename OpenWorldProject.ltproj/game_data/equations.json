@@ -33,7 +33,7 @@
     },
     {
         "nid": "DAMAGE",
-        "expression": "STR"
+        "expression": "0"
     },
     {
         "nid": "DEFENSE",
@@ -41,7 +41,7 @@
     },
     {
         "nid": "MAGIC_DAMAGE",
-        "expression": "MAG"
+        "expression": "0"
     },
     {
         "nid": "MAGIC_DEFENSE",
