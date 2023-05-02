@@ -33,35 +33,15 @@
                 ]
             ],
             [
-                "give_item",
+                "comment",
                 [
-                    "Luther (Luther)",
-                    "CheatAxe (CheatAxe)"
+                    "#give_item;Luther (Luther);CheatAxe (CheatAxe)"
                 ]
             ],
             [
                 "comment",
                 [
                     "# for testing"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Vanessa (Vanessa)",
-                    "1"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Moulder (Moulder)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Vanessa (Vanessa)"
                 ]
             ]
         ],
