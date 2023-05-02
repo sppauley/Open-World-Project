@@ -2,7 +2,7 @@
     {
         "nid": "Stagger",
         "name": "Stagger",
-        "desc": "",
+        "desc": "Enables stagger damage",
         "icon_nid": "Skills",
         "icon_index": [
             2,
@@ -24,6 +24,10 @@
             [
                 "combat_condition",
                 "target.get_poise() >= 0"
+            ],
+            [
+                "enable_stagger",
+                []
             ]
         ]
     }
