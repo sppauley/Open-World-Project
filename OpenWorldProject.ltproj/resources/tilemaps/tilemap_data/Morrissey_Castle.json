@@ -1,0 +1,4545 @@
+[
+    {
+        "nid": "Morrissey Castle",
+        "size": [
+            32,
+            36
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "0,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "1,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "2,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "3,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "31,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "30,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "28,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "29,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "5,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "6,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "7,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "26,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "25,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "24,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "23,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,34": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "18,34": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "15,35": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "15,34": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,34": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,35": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,34": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,35": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "15,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "17,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "17,34": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "17,35": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,32": [
+                        "Castle Dark",
+                        [
+                            15,
+                            21
+                        ]
+                    ],
+                    "15,32": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "16,32": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "17,32": [
+                        "Castle Dark",
+                        [
+                            16,
+                            21
+                        ]
+                    ],
+                    "13,35": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "18,35": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "19,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "20,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "21,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "22,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "23,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "24,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "25,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "26,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "27,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "28,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "29,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "30,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "31,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "12,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "11,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "10,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "9,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "8,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "7,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "6,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "5,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "4,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "3,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "2,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "1,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "0,34": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "0,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "1,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "3,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "4,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "2,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "5,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "6,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "7,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "8,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "9,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "10,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "11,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "12,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "19,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "20,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "22,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "23,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "21,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "24,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "25,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "26,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "27,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "28,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "30,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "31,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            23
+                        ]
+                    ],
+                    "29,35": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "13,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,31": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "17,31": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,30": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,29": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,28": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,27": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,26": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,25": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,24": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,23": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,22": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "17,21": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "14,30": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,29": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,28": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,27": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,26": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,25": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "15,25": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,24": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,23": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "14,21": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,22": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,23": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "14,24": [
+                        "Castle Dark",
+                        [
+                            13,
+                            19
+                        ]
+                    ],
+                    "15,21": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,22": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,26": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,27": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,28": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,29": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,30": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "15,31": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,31": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,30": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,29": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,28": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,27": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,26": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,25": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,24": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,23": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,22": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,21": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "14,20": [
+                        "Castle Dark",
+                        [
+                            15,
+                            20
+                        ]
+                    ],
+                    "17,20": [
+                        "Castle Dark",
+                        [
+                            16,
+                            20
+                        ]
+                    ],
+                    "15,20": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "16,20": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "13,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,30": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "12,29": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "12,28": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "12,27": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "12,20": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "12,21": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "12,22": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "12,23": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "12,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,30": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "19,29": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "19,28": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "19,27": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "19,20": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "19,21": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "19,22": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "19,23": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "12,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "25,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "26,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "27,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "28,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "29,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "30,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "31,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "27,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "23,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "4,33": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "4,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "24,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "23,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,31": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,30": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "8,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,27": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,28": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,29": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,32": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "15,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "17,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,26": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,25": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,24": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,23": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,22": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,21": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,20": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,19": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "0,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "1,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "3,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "2,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "5,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "4,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "6,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "0,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "1,1": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "2,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "3,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            0
+                        ]
+                    ],
+                    "4,1": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "5,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "0,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "1,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "2,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "3,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            1
+                        ]
+                    ],
+                    "4,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "5,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "6,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "6,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "7,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "7,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "7,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "8,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "8,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "8,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "9,0": [
+                        "Castle Dark",
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "9,1": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,2": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "10,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "10,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            0
+                        ]
+                    ],
+                    "10,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            1
+                        ]
+                    ],
+                    "11,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "11,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            0
+                        ]
+                    ],
+                    "11,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            1
+                        ]
+                    ],
+                    "12,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "12,1": [
+                        "Castle Dark",
+                        [
+                            21,
+                            29
+                        ]
+                    ],
+                    "12,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "13,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "13,1": [
+                        "Castle Dark",
+                        [
+                            22,
+                            29
+                        ]
+                    ],
+                    "13,2": [
+                        "Castle Dark",
+                        [
+                            22,
+                            30
+                        ]
+                    ],
+                    "14,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "14,1": [
+                        "Castle Dark",
+                        [
+                            21,
+                            29
+                        ]
+                    ],
+                    "14,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "15,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "15,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            0
+                        ]
+                    ],
+                    "15,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            1
+                        ]
+                    ],
+                    "16,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "16,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            0
+                        ]
+                    ],
+                    "16,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            1
+                        ]
+                    ],
+                    "17,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "17,1": [
+                        "Castle Dark",
+                        [
+                            21,
+                            29
+                        ]
+                    ],
+                    "17,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "18,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "18,1": [
+                        "Castle Dark",
+                        [
+                            22,
+                            29
+                        ]
+                    ],
+                    "18,2": [
+                        "Castle Dark",
+                        [
+                            22,
+                            30
+                        ]
+                    ],
+                    "19,0": [
+                        "Castle Dark",
+                        [
+                            21,
+                            28
+                        ]
+                    ],
+                    "19,1": [
+                        "Castle Dark",
+                        [
+                            21,
+                            29
+                        ]
+                    ],
+                    "19,2": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "20,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "20,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            0
+                        ]
+                    ],
+                    "20,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            1
+                        ]
+                    ],
+                    "21,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "21,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            0
+                        ]
+                    ],
+                    "21,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            27,
+                            1
+                        ]
+                    ],
+                    "22,0": [
+                        "Castle Dark",
+                        [
+                            12,
+                            14
+                        ]
+                    ],
+                    "22,1": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "22,2": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "23,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "23,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "23,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "24,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "24,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "24,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "25,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "25,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "25,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "26,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "26,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "26,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "27,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "27,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "27,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "28,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "28,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "28,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "27,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "28,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "29,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "29,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "29,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "30,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "30,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "30,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "31,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "31,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "31,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "29,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "30,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "31,0": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "26,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "25,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "24,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "23,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,3": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "21,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "20,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "19,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "18,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "17,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "16,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "15,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "14,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "13,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "12,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "11,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "10,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "9,3": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "8,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "7,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "6,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "5,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "4,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "3,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "2,3": [
+                        "Castle Dark",
+                        [
+                            17,
+                            24
+                        ]
+                    ],
+                    "1,3": [
+                        "Castle Dark",
+                        [
+                            4,
+                            26
+                        ]
+                    ],
+                    "0,3": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "2,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "3,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "4,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "1,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "0,4": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "5,4": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "0,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "1,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "2,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "3,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "4,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "5,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "6,5": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "6,4": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,11": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "12,12": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "12,13": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "12,14": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "19,11": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "19,12": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "19,13": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "19,14": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "11,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "11,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "20,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "20,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "21,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "21,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "10,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "10,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            23
+                        ]
+                    ],
+                    "22,12": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "22,13": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "9,12": [
+                        "Castle Dark",
+                        [
+                            6,
+                            19
+                        ]
+                    ],
+                    "9,13": [
+                        "Castle Dark",
+                        [
+                            6,
+                            20
+                        ]
+                    ],
+                    "9,11": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "10,11": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "11,11": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "20,11": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "22,11": [
+                        "Castle Dark",
+                        [
+                            6,
+                            18
+                        ]
+                    ],
+                    "21,11": [
+                        "Castle Dark",
+                        [
+                            11,
+                            14
+                        ]
+                    ],
+                    "22,10": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "22,9": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,10": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "9,9": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,7": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,6": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "9,8": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "9,5": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "9,4": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "22,8": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "22,7": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "22,6": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "22,5": [
+                        "Castle Dark",
+                        [
+                            10,
+                            14
+                        ]
+                    ],
+                    "22,4": [
+                        "Castle Dark",
+                        [
+                            10,
+                            15
+                        ]
+                    ],
+                    "22,14": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "9,14": [
+                        "Castle Dark",
+                        [
+                            5,
+                            27
+                        ]
+                    ],
+                    "12,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "14,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,4": [
+                        "Castle Dark",
+                        [
+                            14,
+                            18
+                        ]
+                    ],
+                    "14,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "11,4": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "10,4": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "11,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "12,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,5": [
+                        "Castle Dark",
+                        [
+                            15,
+                            19
+                        ]
+                    ],
+                    "17,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,5": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "10,5": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "10,6": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "10,7": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "10,8": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "10,9": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "10,10": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "11,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "12,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,11": [
+                        "Castle Dark",
+                        [
+                            15,
+                            24
+                        ]
+                    ],
+                    "13,12": [
+                        "Castle Dark",
+                        [
+                            3,
+                            14
+                        ]
+                    ],
+                    "14,12": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "15,12": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "16,12": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "17,12": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "18,12": [
+                        "Castle Dark",
+                        [
+                            4,
+                            14
+                        ]
+                    ],
+                    "18,11": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "14,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "14,11": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,11": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,11": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,11": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "14,13": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "15,13": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "16,13": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "17,13": [
+                        "Castle Dark",
+                        [
+                            5,
+                            14
+                        ]
+                    ],
+                    "18,13": [
+                        "Castle Dark",
+                        [
+                            4,
+                            14
+                        ]
+                    ],
+                    "13,13": [
+                        "Castle Dark",
+                        [
+                            3,
+                            14
+                        ]
+                    ],
+                    "11,6": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            11
+                        ]
+                    ],
+                    "11,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            12
+                        ]
+                    ],
+                    "11,8": [
+                        "Castle Dark",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "11,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "12,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            12
+                        ]
+                    ],
+                    "12,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            12
+                        ]
+                    ],
+                    "12,6": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            11
+                        ]
+                    ],
+                    "13,6": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            11
+                        ]
+                    ],
+                    "14,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            12
+                        ]
+                    ],
+                    "14,6": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            11
+                        ]
+                    ],
+                    "15,6": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            11
+                        ]
+                    ],
+                    "16,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,10": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "21,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "20,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "18,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "19,6": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "16,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,7": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            12
+                        ]
+                    ],
+                    "15,8": [
+                        "Castle Dark",
+                        [
+                            14,
+                            24
+                        ]
+                    ],
+                    "14,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "12,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "14,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "15,9": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "17,8": [
+                        "Castle Dark",
+                        [
+                            16,
+                            24
+                        ]
+                    ],
+                    "13,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "15,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "17,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "18,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "21,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,14": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "14,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "14,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "14,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "17,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "17,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "17,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "17,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "13,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "13,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "18,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "18,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "15,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "16,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "15,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "16,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "15,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "15,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "16,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "12,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "12,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "13,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "13,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "12,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,17": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,16": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "9,15": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "10,15": [
+                        "Castle Dark",
+                        [
+                            15,
+                            20
+                        ]
+                    ],
+                    "11,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "11,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "11,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "10,17": [
+                        "Castle Dark",
+                        [
+                            15,
+                            21
+                        ]
+                    ],
+                    "10,16": [
+                        "Castle Dark",
+                        [
+                            19,
+                            18
+                        ]
+                    ],
+                    "19,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "19,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "19,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "18,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "18,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "19,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "20,17": [
+                        "Castle Dark",
+                        [
+                            18,
+                            19
+                        ]
+                    ],
+                    "20,16": [
+                        "Castle Dark",
+                        [
+                            16,
+                            19
+                        ]
+                    ],
+                    "20,15": [
+                        "Castle Dark",
+                        [
+                            18,
+                            18
+                        ]
+                    ],
+                    "21,15": [
+                        "Castle Dark",
+                        [
+                            16,
+                            20
+                        ]
+                    ],
+                    "21,16": [
+                        "Castle Dark",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "21,17": [
+                        "Castle Dark",
+                        [
+                            16,
+                            21
+                        ]
+                    ],
+                    "21,18": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,15": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,16": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "22,17": [
+                        "Castle Dark",
+                        [
+                            21,
+                            25
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "Improved Castle Tileset Palette 2",
+            "Castle Dark"
+        ]
+    }
+]
