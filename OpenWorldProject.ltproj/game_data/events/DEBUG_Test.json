@@ -43,6 +43,14 @@
                 [
                     "# for testing"
                 ]
+            ],
+            [
+                "set_stats",
+                [
+                    "Luther",
+                    "STR,20,SPD,99",
+                    "FLAG(immediate)"
+                ]
             ]
         ],
         "only_once": false,
