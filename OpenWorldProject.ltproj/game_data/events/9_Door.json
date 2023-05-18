@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "9",
+        "condition": "True",
+        "commands": [
+            [
+                "choice",
+                [
+                    "LeaveMorrisseyCastle",
+                    "Enter training grounds?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:LeaveMorrisseyCastle}' == 'Yes'"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

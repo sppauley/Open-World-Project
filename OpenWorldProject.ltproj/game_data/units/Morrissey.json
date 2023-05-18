@@ -1,0 +1,78 @@
+[
+    {
+        "nid": "Morrissey",
+        "name": "Morrissey",
+        "desc": "",
+        "variant": null,
+        "level": 20,
+        "klass": "Morrissey_Lord",
+        "tags": [],
+        "bases": {
+            "HP": 60,
+            "STR": 12,
+            "MAG": 20,
+            "DEX": 18,
+            "SPD": 15,
+            "PSE": 18,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                251
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                251
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]

@@ -76,6 +76,12 @@
                 [
                     "# Teraspark (sword lord)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Unknown (magus lord)"
+                ]
             ]
         ],
         "only_once": false,

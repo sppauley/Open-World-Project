@@ -27,9 +27,40 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Morrissey",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    16,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "to_training_grounds",
+                "region_type": "event",
+                "position": [
+                    2,
+                    3
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
         "connections": []
     }
