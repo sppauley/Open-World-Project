@@ -1,7 +1,7 @@
 [
     {
         "nid": "7",
-        "name": "Eastern Path",
+        "name": "EasternPath (W)",
         "tilemap": "PathToPort",
         "bg_tilemap": "Underground view",
         "party": "Simon",
@@ -310,6 +310,13 @@
                 "positions": {}
             }
         ],
-        "connections": []
+        "connections": [
+            {
+                "nid": "MorriseyOutside",
+                "level": "6",
+                "direction": "LEFT",
+                "offset": 12
+            }
+        ]
     }
 ]

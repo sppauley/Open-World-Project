@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "11",
+        "name": "EasternPath (E)",
+        "tilemap": "EPE",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]
