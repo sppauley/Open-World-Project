@@ -26,6 +26,94 @@
                 "icon": "castle",
                 "level": "9",
                 "menu_options": []
+            },
+            {
+                "nid": "28",
+                "name": "Shrine of Clotho",
+                "pos": [
+                    9,
+                    14
+                ],
+                "icon": "cathedral",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "29",
+                "name": "Swamp",
+                "pos": [
+                    6,
+                    7
+                ],
+                "icon": "forest_temple",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "30",
+                "name": "Road to the Swamp",
+                "pos": [
+                    8,
+                    9
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "31",
+                "name": "The Eastern Highway",
+                "pos": [
+                    18,
+                    18
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "32",
+                "name": "Frees Village",
+                "pos": [
+                    16,
+                    15
+                ],
+                "icon": "town",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "33",
+                "name": "Port Hull",
+                "pos": [
+                    25,
+                    20
+                ],
+                "icon": "citadel",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "34",
+                "name": "Bandit Lair",
+                "pos": [
+                    20,
+                    20
+                ],
+                "icon": "fort",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "35",
+                "name": "Inner Caverns",
+                "pos": [
+                    18,
+                    21
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
             }
         ],
         "map_paths": {
@@ -47,12 +135,148 @@
                     22
                 ],
                 [
-                    9,
-                    20
+                    10,
+                    21
+                ],
+                [
+                    10,
+                    19
                 ],
                 [
                     11,
                     18
+                ]
+            ],
+            "(9, 14)-(11, 18)": [
+                [
+                    11,
+                    18
+                ],
+                [
+                    11,
+                    16
+                ],
+                [
+                    9,
+                    14
+                ]
+            ],
+            "(8, 9)-(9, 14)": [
+                [
+                    8,
+                    9
+                ],
+                [
+                    8,
+                    13
+                ],
+                [
+                    9,
+                    14
+                ]
+            ],
+            "(6, 7)-(8, 9)": [
+                [
+                    8,
+                    9
+                ],
+                [
+                    6,
+                    7
+                ]
+            ],
+            "(11, 18)-(18, 18)": [
+                [
+                    11,
+                    18
+                ],
+                [
+                    12,
+                    19
+                ],
+                [
+                    14,
+                    17
+                ],
+                [
+                    17,
+                    17
+                ],
+                [
+                    18,
+                    18
+                ]
+            ],
+            "(16, 15)-(18, 18)": [
+                [
+                    16,
+                    15
+                ],
+                [
+                    17,
+                    16
+                ],
+                [
+                    18,
+                    16
+                ],
+                [
+                    18,
+                    18
+                ]
+            ],
+            "(18, 18)-(25, 20)": [
+                [
+                    25,
+                    20
+                ],
+                [
+                    24,
+                    19
+                ],
+                [
+                    22,
+                    19
+                ],
+                [
+                    21,
+                    19
+                ],
+                [
+                    20,
+                    18
+                ],
+                [
+                    18,
+                    18
+                ]
+            ],
+            "(18, 18)-(20, 20)": [
+                [
+                    20,
+                    20
+                ],
+                [
+                    19,
+                    19
+                ],
+                [
+                    18,
+                    18
+                ]
+            ],
+            "(18, 21)-(20, 20)": [
+                [
+                    20,
+                    20
+                ],
+                [
+                    19,
+                    20
+                ],
+                [
+                    18,
+                    21
                 ]
             ]
         },
