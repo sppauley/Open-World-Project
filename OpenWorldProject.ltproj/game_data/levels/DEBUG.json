@@ -20,7 +20,7 @@
             "win": "Don't Crash",
             "loss": "Crash"
         },
-        "roam": false,
+        "roam": true,
         "roam_unit": "Eirika",
         "go_to_overworld": false,
         "units": [
@@ -161,10 +161,16 @@
         "unit_groups": [],
         "connections": [
             {
-                "nid": "New Connection",
+                "nid": "NewConnection",
                 "level": "4",
                 "direction": "UP",
-                "offset": 0
+                "offset": 2
+            },
+            {
+                "nid": "New Connection",
+                "level": "0",
+                "direction": "LEFT",
+                "offset": 1
             }
         ]
     }
