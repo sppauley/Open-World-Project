@@ -7,17 +7,17 @@
         "position": "hidden"
     },
     {
-        "nid": "STR",
-        "name": "Str",
+        "nid": "CON",
+        "name": "Con",
         "maximum": 30,
-        "desc": "Strength. Determines physical offense and ability to use heavy weapons.",
+        "desc": "Constitution. Determines ability to use heavy weapons.",
         "position": "left"
     },
     {
         "nid": "MAG",
         "name": "Mag",
         "maximum": 30,
-        "desc": "Magic. Determines magic offense and status resistance.",
+        "desc": "Magic. Determines ability to use magic items and status resistance.",
         "position": "left"
     },
     {

@@ -69,7 +69,7 @@
     },
     {
         "nid": "RESCUE_WEIGHT",
-        "expression": "STR"
+        "expression": "CON"
     },
     {
         "nid": "STEAL_ATK",
@@ -85,7 +85,7 @@
     },
     {
         "nid": "CONSTITUTION",
-        "expression": "STR"
+        "expression": "CON"
     },
     {
         "nid": "ZERO",
