@@ -1,5 +1,64 @@
 [
     {
+        "nid": "1",
+        "name": "The Continent",
+        "tilemap": "empty",
+        "music": null,
+        "overworld_nodes": [
+            {
+                "nid": "26",
+                "name": "House Verstadt",
+                "pos": [
+                    6,
+                    22
+                ],
+                "icon": "castle",
+                "level": "2",
+                "menu_options": []
+            },
+            {
+                "nid": "27",
+                "name": "House Morrissey",
+                "pos": [
+                    11,
+                    18
+                ],
+                "icon": "castle",
+                "level": "9",
+                "menu_options": []
+            }
+        ],
+        "map_paths": {
+            "(6, 22)-(11, 18)": [
+                [
+                    6,
+                    22
+                ],
+                [
+                    7,
+                    23
+                ],
+                [
+                    8,
+                    22
+                ],
+                [
+                    9,
+                    22
+                ],
+                [
+                    9,
+                    20
+                ],
+                [
+                    11,
+                    18
+                ]
+            ]
+        },
+        "border_tile_width": 1
+    },
+    {
         "nid": "0",
         "name": "Magvel",
         "tilemap": "Magvel",

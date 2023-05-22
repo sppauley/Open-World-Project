@@ -1,0 +1,58 @@
+[
+    {
+        "name": "DefeatBordeaux",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid == \"Bordeaux\"",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#change_background;BlackBackground"
+                ]
+            ],
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "House Verstadt (26)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "House Morrissey (27)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "26",
+                    "27",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_overworld_position",
+                [
+                    "Simon's Group (Simon)",
+                    "House Morrissey (27)",
+                    "FLAG(no_animate)"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
