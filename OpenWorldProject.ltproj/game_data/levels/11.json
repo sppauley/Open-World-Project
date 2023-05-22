@@ -11,12 +11,75 @@
             "win": "",
             "loss": ""
         },
-        "roam": false,
-        "roam_unit": null,
+        "roam": true,
+        "roam_unit": "Simon",
         "go_to_overworld": false,
-        "units": [],
-        "regions": [],
+        "units": [
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": "EPEEnterCave",
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "EnterCave",
+                "region_type": "event",
+                "position": [
+                    6,
+                    29
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "EnterCave",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
-        "connections": []
+        "connections": [
+            {
+                "nid": "LeftSide",
+                "level": "7",
+                "direction": "LEFT",
+                "offset": 0
+            }
+        ]
     }
 ]

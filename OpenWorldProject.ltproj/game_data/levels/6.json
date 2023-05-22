@@ -716,6 +716,13 @@
                 }
             }
         ],
-        "connections": []
+        "connections": [
+            {
+                "nid": "New Connection",
+                "level": "7",
+                "direction": "RIGHT",
+                "offset": -12
+            }
+        ]
     }
 ]

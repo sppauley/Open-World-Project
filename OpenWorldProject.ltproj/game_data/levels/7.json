@@ -316,6 +316,12 @@
                 "level": "6",
                 "direction": "LEFT",
                 "offset": 12
+            },
+            {
+                "nid": "RightSideofPath",
+                "level": "11",
+                "direction": "RIGHT",
+                "offset": 0
             }
         ]
     }
