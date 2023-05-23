@@ -4,7 +4,7 @@
         "name": "Journeyman",
         "desc": "Young fighters with high expectations.",
         "tier": 0,
-        "movement_group": "Regular",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Fighter",
@@ -75,7 +75,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -88,6 +88,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

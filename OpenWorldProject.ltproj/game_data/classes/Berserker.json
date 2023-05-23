@@ -4,7 +4,7 @@
         "name": "Berserker",
         "desc": "Devotees of the axe. Relentless savages that deliver devastating stikes.",
         "tier": 2,
-        "movement_group": "Pirates",
+        "movement_group": "Infantry",
         "promotes_from": "Pirate",
         "turns_into": [],
         "tags": [],

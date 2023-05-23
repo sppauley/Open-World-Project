@@ -54,7 +54,12 @@
             "PSE": 25,
             "MOV": 0
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Crate"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

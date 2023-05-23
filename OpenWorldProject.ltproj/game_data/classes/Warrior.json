@@ -4,7 +4,7 @@
         "name": "Warrior",
         "desc": "Determined fighters who relish battle.",
         "tier": 2,
-        "movement_group": "Regular",
+        "movement_group": "Infantry",
         "promotes_from": "Fighter",
         "turns_into": [],
         "tags": [],

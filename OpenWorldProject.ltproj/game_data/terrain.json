@@ -489,7 +489,7 @@
         ],
         "minimap": "River",
         "platform": "River",
-        "background": "Cliff",
+        "background": "combat_plains",
         "mtype": "River",
         "opaque": false,
         "status": "Swamp"

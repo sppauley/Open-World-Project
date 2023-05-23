@@ -4,7 +4,7 @@
         "name": "Fighter",
         "desc": "Ruffians with great strength but\npoor defense.",
         "tier": 1,
-        "movement_group": "Regular",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Hero",

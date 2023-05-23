@@ -4,7 +4,7 @@
         "name": "Falcoknight",
         "desc": "Veteran pegasus knights.",
         "tier": 2,
-        "movement_group": "Mounted",
+        "movement_group": "Fliers",
         "promotes_from": "Pegasus_Knight",
         "turns_into": [],
         "tags": [
@@ -84,7 +84,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -97,6 +97,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

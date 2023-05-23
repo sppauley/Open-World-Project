@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn 3 AI shift",
+        "name": "Turn 4 AI shift",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "True",
+        "condition": "game.turncount==4",
         "commands": [
             [
                 "change_ai",

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Crate",
+        "name": "Crate",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "crit_avoid",
+                100
+            ]
+        ]
+    }
+]
