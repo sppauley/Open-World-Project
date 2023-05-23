@@ -204,9 +204,9 @@
             [
                 "interact_unit",
                 [
-                    "Luther",
                     "106",
-                    "hit1,miss2,hit2"
+                    "Luther",
+                    "crit1"
                 ]
             ],
             [

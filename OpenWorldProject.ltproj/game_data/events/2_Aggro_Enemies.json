@@ -1,7 +1,7 @@
 [
     {
         "name": "Aggro Enemies",
-        "trigger": "unit_wait",
+        "trigger": "turn_change",
         "level_nid": "2",
         "condition": "game.level_vars['SimonReset']==1 and any_unit_in_region('GroundFloor', team='player')",
         "commands": [
