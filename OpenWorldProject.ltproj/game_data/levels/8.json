@@ -225,8 +225,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    3
+                    7,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -249,8 +249,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    4
+                    10,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -273,8 +273,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    7,
-                    5
+                    8,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1003,8 +1003,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    7,
-                    18
+                    8,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1185,8 +1185,8 @@
                 "nid": "BottomCenterCrate",
                 "region_type": "event",
                 "position": [
-                    6,
-                    18
+                    7,
+                    20
                 ],
                 "size": [
                     1,
@@ -1231,16 +1231,16 @@
                 ],
                 "positions": {
                     "br1": [
-                        20,
+                        21,
                         23
                     ],
                     "br2": [
-                        19,
-                        26
+                        20,
+                        24
                     ],
                     "br3": [
                         20,
-                        28
+                        27
                     ]
                 }
             },
