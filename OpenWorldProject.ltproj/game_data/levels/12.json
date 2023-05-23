@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "12",
+        "name": "Verstadt Courtyard",
+        "tilemap": "New Tilemap",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "",
+            "win": "",
+            "loss": ""
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]

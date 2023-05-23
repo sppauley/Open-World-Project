@@ -169,7 +169,25 @@
     {
         "nid": "Improved Castle Tileset Palette 2",
         "terrain_grid": {},
-        "autotiles": {}
+        "autotiles": {
+            "20,4": 0,
+            "20,5": 1,
+            "20,6": 2,
+            "20,7": 3,
+            "20,8": 4,
+            "21,5": 5,
+            "21,6": 6,
+            "21,7": 7,
+            "21,8": 8,
+            "22,5": 9,
+            "22,6": 10,
+            "23,4": 11,
+            "23,5": 12,
+            "23,6": 13,
+            "24,5": 14,
+            "25,16": 15,
+            "26,15": 16
+        }
     },
     {
         "nid": "Castle Dark",
@@ -494,6 +512,11 @@
     },
     {
         "nid": "pathtoport_1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ExtractedTiles",
         "terrain_grid": {},
         "autotiles": {}
     }
