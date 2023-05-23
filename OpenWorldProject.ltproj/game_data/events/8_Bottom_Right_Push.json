@@ -1,35 +1,64 @@
 [
     {
-        "name": "Bottom Left Push",
+        "name": "Bottom Right Push",
         "trigger": "Push",
         "level_nid": "8",
-        "condition": "game.check_alive('BottomLeftCrate') and region.nid == 'BottomLeftCrate'",
+        "condition": "game.check_alive('BottomRightCrate') and 'BottomRightCrate' in region.nid",
         "commands": [
             [
                 "center_cursor",
                 [
-                    "BottomLeftCrate"
+                    "BottomRightCrate"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "region.nid=='BottomRightCrate_1'"
                 ]
             ],
             [
                 "move_unit",
                 [
-                    "BottomLeftCrate",
-                    "7,26"
+                    "BottomRightCrate",
+                    "20,24"
                 ]
             ],
             [
                 "map_anim",
                 [
                     "Snag",
-                    "7,26",
+                    "20,24",
                     "FLAG(no_block)"
                 ]
             ],
             [
+                "else",
+                []
+            ],
+            [
+                "move_unit",
+                [
+                    "BottomRightCrate",
+                    "19,25"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "19,25",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "kill_unit",
                 [
-                    "BottomLeftCrate"
+                    "BottomRightCrate"
                 ]
             ],
             [
@@ -41,7 +70,7 @@
             [
                 "if",
                 [
-                    "game.level_vars['BottomRightSwamp']!=1"
+                    "game.level_vars['BottomLeftSwamp']!=1"
                 ]
             ],
             [
@@ -88,7 +117,7 @@
             [
                 "level_var",
                 [
-                    "BottomLeftSwamp",
+                    "BottomRightSwamp",
                     "1"
                 ]
             ],

@@ -341,12 +341,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     18,
-                    20
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -365,12 +365,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     15,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -389,12 +389,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    17,
-                    18
+                    16,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
