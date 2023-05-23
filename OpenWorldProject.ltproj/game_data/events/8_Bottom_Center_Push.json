@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Bottom Center Push",
+        "trigger": "Push",
+        "level_nid": "8",
+        "condition": "game.check_alive('BottomCenerCrate') and region.nid == 'BottomCenterCrate'",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "BottomCenterCrate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "BottomCenterCrate",
+                    "8,18"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "8,18",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "BottomCenterCrate"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "BottomCenterSwamp",
+                    "1"
+                ]
+            ],
+            [
+                "has_finished",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

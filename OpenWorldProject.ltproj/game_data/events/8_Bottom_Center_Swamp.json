@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Bottom Center Swamp",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "game.level_vars['BottomCenterSwamp']==1",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "10,20"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "BottomCenter",
+                    "BottomLeft",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
