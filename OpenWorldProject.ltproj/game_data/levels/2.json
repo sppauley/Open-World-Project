@@ -52,7 +52,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "General",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Silver Lance",
@@ -76,10 +76,10 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Mercenary",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Iron Blade",
                         false
                     ]
                 ],
@@ -89,7 +89,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    23,
+                    22,
                     3
                 ],
                 "starting_traveler": null,
@@ -113,7 +113,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Journeyman",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -134,31 +134,10 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Journeyman",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 2,
-                "klass": "Mercenary",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Blade",
                         false
                     ]
                 ],
@@ -186,7 +165,7 @@
                 "variant": null,
                 "level": 10,
                 "klass": "Warrior",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Silver Axe",
@@ -207,7 +186,7 @@
                 "variant": null,
                 "level": 10,
                 "klass": "Warrior",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Silver Axe",
@@ -228,7 +207,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Journeyman",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -249,7 +228,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Knight",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -270,7 +249,7 @@
                 "variant": null,
                 "level": 3,
                 "klass": "Knight",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -289,9 +268,9 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Knight",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -310,9 +289,9 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Journeyman",
-                "faction": "Bandit",
+                "faction": "NewDawn",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -370,8 +349,7 @@
                 "nid": "layer1",
                 "units": [
                     "103",
-                    "104",
-                    "105"
+                    "104"
                 ],
                 "positions": {
                     "103": [
@@ -380,10 +358,6 @@
                     ],
                     "104": [
                         16,
-                        10
-                    ],
-                    "105": [
-                        17,
                         10
                     ]
                 }
@@ -399,10 +373,6 @@
                     "111"
                 ],
                 "positions": {
-                    "Percy": [
-                        28,
-                        13
-                    ],
                     "106": [
                         27,
                         14
@@ -422,6 +392,10 @@
                     "111": [
                         20,
                         11
+                    ],
+                    "Percy": [
+                        28,
+                        13
                     ]
                 }
             },

@@ -30,6 +30,14 @@
                     "tutorialPopups",
                     "1"
                 ]
+            ],
+            [
+                "set_stats",
+                [
+                    "101",
+                    "HP,25",
+                    "FLAG(immediate)"
+                ]
             ]
         ],
         "only_once": false,

@@ -70,7 +70,7 @@
                 "set_stats",
                 [
                     "Simon",
-                    "HP,18,STR,4,MAG,0,DEX,9,SPD,10,PSE,6",
+                    "HP,18,CON,4,MAG,0,DEX,9,SPD,10,PSE,6",
                     "FLAG(immediate)"
                 ]
             ],
@@ -94,7 +94,7 @@
                 "set_stats",
                 [
                     "Vincent",
-                    "HP,21,STR,9,DEX,8,SPD,6,PSE,9",
+                    "HP,21,CON,9,DEX,8,SPD,6,PSE,9",
                     "FLAG(immediate)"
                 ]
             ],
@@ -118,7 +118,7 @@
                 "set_stats",
                 [
                     "Luther",
-                    "HP,36,STR,5,MAG,0,DEX,16,SPD,5,PSE,18",
+                    "HP,36,CON,5,MAG,0,DEX,16,SPD,5,PSE,18",
                     "FLAG(immediate)"
                 ]
             ],
@@ -213,12 +213,6 @@
             [
                 "resurrect",
                 [
-                    "105"
-                ]
-            ],
-            [
-                "resurrect",
-                [
                     "106"
                 ]
             ],
@@ -261,11 +255,26 @@
                 ]
             ],
             [
+                "set_stats",
+                [
+                    "101",
+                    "HP,25",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
                 "add_unit",
                 [
                     "102",
-                    "23,3",
+                    "22,3",
                     "immediate"
+                ]
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_all_units()]",
+                    "Reset Poise (Global Reset Poise)"
                 ]
             ],
             [

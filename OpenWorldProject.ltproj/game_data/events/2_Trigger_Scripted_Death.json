@@ -161,7 +161,7 @@
                 [
                     "107",
                     "Vincent",
-                    "hit1"
+                    "hit1,hit2,hit1"
                 ]
             ],
             [
@@ -198,7 +198,7 @@
                 [
                     "106",
                     "Luther",
-                    "hit1"
+                    "hit1,hit2,hit1"
                 ]
             ],
             [
@@ -206,15 +206,7 @@
                 [
                     "Luther",
                     "106",
-                    "hit1"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "106",
-                    "Luther",
-                    "hit1"
+                    "hit1,miss2,hit2"
                 ]
             ],
             [
@@ -236,15 +228,7 @@
                 [
                     "Simon",
                     "Percy",
-                    "hit1"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "Percy",
-                    "Simon",
-                    "hit1,hit2"
+                    "hit1,hit2,crit2"
                 ]
             ]
         ],
