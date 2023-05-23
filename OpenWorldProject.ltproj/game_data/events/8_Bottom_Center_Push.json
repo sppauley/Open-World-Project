@@ -3,7 +3,7 @@
         "name": "Bottom Center Push",
         "trigger": "Push",
         "level_nid": "8",
-        "condition": "game.check_alive('BottomCenerCrate') and region.nid == 'BottomCenterCrate'",
+        "condition": "game.check_alive('BottomCenterCrate') and region.nid == 'BottomCenterCrate'",
         "commands": [
             [
                 "center_cursor",

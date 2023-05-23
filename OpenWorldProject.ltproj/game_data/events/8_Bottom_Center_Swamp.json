@@ -21,7 +21,7 @@
                 "add_group",
                 [
                     "BottomCenter",
-                    "BottomLeft",
+                    "BottomCenter",
                     "fade",
                     "closest"
                 ]
