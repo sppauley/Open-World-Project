@@ -1,0 +1,103 @@
+[
+    {
+        "name": "DoorUnlock",
+        "trigger": "DoorUnlock",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "28,10"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Juliet (Juliet)",
+                    "Simon (Simon)",
+                    "immediate",
+                    "stack"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "27,10"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Juliet (Juliet)",
+                    "Left",
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Move, I've still got the key to this shed."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "28,11"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "28,10"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "opendoor"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Jolly. Let's take a peak."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Juliet (Juliet)",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

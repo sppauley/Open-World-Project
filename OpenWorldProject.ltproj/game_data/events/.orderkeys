@@ -86,5 +86,8 @@
     "8_Top_Left_Push.json": 84,
     "8_Turn_4_AI_shift.json": 85,
     "12_EscapeCourtyard.json": 86,
-    "12_Intro.json": 87
+    "12_Intro.json": 87,
+    "12_DoorUnlock.json": 88,
+    "12_CheckBarrels.json": 89,
+    "12_StartBattle.json": 90
 }

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "StartBattle",
+        "trigger": "StartBattle",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "CenterRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Milord, to cross this bridge...{w}{br}It will be the point of no return.{w}{br}Are you certain?"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "CrossBridge",
+                    "Cross?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:CrossBridge}' == 'Yes'"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "crossbridge"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "14,16"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "crossbridge"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add in things for if you have meat, bad guy response"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

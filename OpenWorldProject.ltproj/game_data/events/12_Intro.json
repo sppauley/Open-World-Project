@@ -6,6 +6,12 @@
         "condition": "True",
         "commands": [
             [
+                "comment",
+                [
+                    "###### LEVEL SETUP ######"
+                ]
+            ],
+            [
                 "add_weather",
                 [
                     "fire"
@@ -22,6 +28,26 @@
                 [
                     "overlaytiles",
                     "immediate"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "crossbridge",
+                    "immediate"
+                ]
+            ],
+            [
+                "add_tag",
+                [
+                    "105",
+                    "Boss"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#########################"
                 ]
             ],
             [
@@ -156,6 +182,331 @@
                 [
                     "#Add more dialogue and introduce Julia here"
                 ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I can see the gate!"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "15,5"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "CenterRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Only a token force has been left in defence.{w}{br}Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w} and his demense is the nearest."
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "15,5"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "14,5"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Then we must all reach the gate."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Nay, only yourself.{w} As our leader, only you must slip from the enemy's grasp."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "But what will happen to you and Vincent?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "We will use the ensuing chaos to break through.{w}{br}You need not fear leaving us behind."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Understood."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Luther (Luther)",
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Juliet (Juliet)",
+                    "29,15"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Juliet (Juliet)",
+                    "Simon (Simon)",
+                    "normal",
+                    "closest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Juliet (Juliet)",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Vincent!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Juliet (Juliet)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Juliet! Are you hurt?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "No, thank the Fates."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Who is this?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "One of your servants, and a close friend of mine."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "You appear unarmed. I have a spare bow,{w}{br}are you proficient?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "I know my way around it.{w}{br}Give it here."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Luther (Luther)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "change_class",
+                [
+                    "Juliet (Juliet)",
+                    "Archer",
+                    "FLAG(silent)"
+                ]
+            ],
+            [
+                "remove_item",
+                [
+                    "Juliet (Juliet)",
+                    "Iron Bow (Iron Bow)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Juliet (Juliet)",
+                    "Iron Bow (Iron Bow)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "It would wise to search the courtyard before we battle.{w}{br}Small advantages are found in unexpected places."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Vincent (Vincent)",
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Juliet",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Luther (Luther)",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Vincent (Vincent)",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.game_vars.get(\"tutorialPopup\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Units you control that fall in battle will return after the map ends.{w}{br}Only Simon's death will cause a game over.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
