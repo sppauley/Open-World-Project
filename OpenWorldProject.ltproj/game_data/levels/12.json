@@ -170,7 +170,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "G3",
                 "starting_position": [
                     14,
                     6
@@ -194,7 +194,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "G1",
                 "starting_position": [
                     21,
                     12
@@ -218,7 +218,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "G3",
                 "starting_position": [
                     15,
                     6

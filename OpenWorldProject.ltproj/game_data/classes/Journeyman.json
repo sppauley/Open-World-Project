@@ -18,7 +18,7 @@
             "MOV": 4,
             "DEX": 0,
             "MAG": 0,
-            "PSE": 8,
+            "PSE": 6,
             "CON": 0
         },
         "growths": {
