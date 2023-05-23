@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Turn 3 AI shift",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [
+            [
+                "change_ai",
+                [
+                    "112",
+                    "Pursue",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "127",
+                    "Pursue",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "122",
+                    "Pursue",
+                    "FLAG(no_warn)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

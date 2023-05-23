@@ -221,7 +221,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
@@ -245,11 +245,11 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    10,
+                    9,
                     3
                 ],
                 "starting_traveler": null,
@@ -269,11 +269,11 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
+                    7,
                     4
                 ],
                 "starting_traveler": null,

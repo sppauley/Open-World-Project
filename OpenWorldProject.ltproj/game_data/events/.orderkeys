@@ -82,5 +82,6 @@
     "1_DefeatBordeaux.json": 80,
     "8_Bottom_Left_Push.json": 81,
     "8_Bottom_Center_Push.json": 82,
-    "8_Bottom_Right_Push.json": 83
+    "8_Bottom_Right_Push.json": 83,
+    "8_Turn_3_AI_shift.json": 84
 }
