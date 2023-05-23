@@ -282,18 +282,18 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 7,
-                "klass": "Mercenary",
+                "level": 2,
+                "klass": "Berserker",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Steel Blade",
+                        "Silver_Mace",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
@@ -306,18 +306,18 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 7,
-                "klass": "Mercenary",
+                "level": 2,
+                "klass": "Berserker",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Steel Blade",
+                        "Silver_Mace",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
@@ -1217,8 +1217,8 @@
                         26
                     ],
                     "bl3": [
-                        5,
-                        27
+                        4,
+                        24
                     ]
                 }
             },

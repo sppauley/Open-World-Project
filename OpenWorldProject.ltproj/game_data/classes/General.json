@@ -4,7 +4,7 @@
         "name": "General",
         "desc": "",
         "tier": 2,
-        "movement_group": "Armors",
+        "movement_group": "Infantry",
         "promotes_from": "Knight",
         "turns_into": [],
         "tags": [
@@ -74,7 +74,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -87,6 +87,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

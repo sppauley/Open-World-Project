@@ -4,7 +4,7 @@
         "name": "Knight",
         "desc": "Heavily armored knights with poor movement.",
         "tier": 1,
-        "movement_group": "Armors",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Great_Knight",
@@ -77,7 +77,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -90,6 +90,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

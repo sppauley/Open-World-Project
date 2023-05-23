@@ -4,7 +4,7 @@
         "name": "Pirate",
         "desc": "Untrained but fanatical combatant.",
         "tier": 1,
-        "movement_group": "Pirates",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Berserker"
