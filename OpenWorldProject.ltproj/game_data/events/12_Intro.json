@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "add_weather",
+                [
+                    "fire"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "night"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "overlaytiles",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Simon (Simon)",
+                    "immediate"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "29,20",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon (Simon)",
+                    "29,20"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Vincent (Vincent)",
+                    "29,22"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Luther (Luther)",
+                    "29,21"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1300"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "28,19"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "27,19",
+                    "normal",
+                    "closest",
+                    "2000"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "28,19"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "The path forward is clear, milord."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "26,20",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vincent (Vincent)",
+                    "26,21",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Luther (Luther)",
+                    "27,20"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#Add more dialogue and introduce Julia here"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

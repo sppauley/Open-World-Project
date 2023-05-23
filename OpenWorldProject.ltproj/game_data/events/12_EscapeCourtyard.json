@@ -1,0 +1,108 @@
+[
+    {
+        "name": "EscapeCourtyard",
+        "trigger": "EscapeCourtyard",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# Add dialogue here"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I shall return...{w} one day..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "escapeopen"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "14,0"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "House Verstadt (26)"
+                ]
+            ],
+            [
+                "set_overworld_position",
+                [
+                    "Simon's Group (Simon)",
+                    "House Verstadt (26)",
+                    "FLAG(no_animate)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "26",
+                    "27"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "House Morrissey (27)"
+                ]
+            ],
+            [
+                "set_overworld_position",
+                [
+                    "Simon's Group (Simon)",
+                    "House Morrissey (27)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "With a heavy heart, Simon and his companions retreat towards House Morrissey.{w}{br}The rebels, disorganized and drunk on their loot,{w} fail to pursue them beyond the castle grounds."
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
