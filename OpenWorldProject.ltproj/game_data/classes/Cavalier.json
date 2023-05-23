@@ -4,7 +4,7 @@
         "name": "Cavalier",
         "desc": "Mounted knights with superior movement.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Mounted",
         "promotes_from": null,
         "turns_into": [
             "Paladin"

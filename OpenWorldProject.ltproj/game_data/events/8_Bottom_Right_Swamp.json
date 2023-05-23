@@ -3,8 +3,20 @@
         "name": "Bottom Right Swamp",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "any(get_units_in_region('BottomRight', team='player'))",
+        "condition": "game.level_vars['BottomRightSwamp']==1",
         "commands": [
+            [
+                "center_cursor",
+                [
+                    "21,24"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
             [
                 "add_group",
                 [
@@ -12,6 +24,12 @@
                     "BottomRight",
                     "fade",
                     "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
                 ]
             ]
         ],

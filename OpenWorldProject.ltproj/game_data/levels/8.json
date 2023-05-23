@@ -178,7 +178,7 @@
                 "ai_group": null,
                 "starting_position": [
                     9,
-                    25
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -201,32 +201,56 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    10,
-                    23
+                    11,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "121",
+                "nid": "112",
                 "variant": null,
-                "level": 7,
-                "klass": "Fighter",
+                "level": 3,
+                "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Silver Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    6
+                    7,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Hero",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -245,12 +269,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    7
+                    7,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -317,12 +341,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     18,
-                    20
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -341,12 +365,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     15,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -365,12 +389,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    17,
-                    18
+                    16,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -661,6 +685,69 @@
                 "generic": true
             },
             {
+                "nid": "bc1",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "bc2",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "bc3",
+                "variant": null,
+                "level": 8,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "cr",
                 "variant": null,
                 "level": 3,
@@ -866,44 +953,61 @@
                 "generic": true
             },
             {
-                "nid": "Luther",
-                "team": "player",
+                "nid": "BottomRightCrate",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    19,
+                    24
+                ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
-                "nid": "Vincent",
-                "team": "player",
+                "nid": "BottomLeftCrate",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    26
+                ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
-                "nid": "Juliet",
-                "team": "player",
+                "nid": "BottomCenterCrate",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    20
+                ],
                 "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Anuki",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
         "regions": [
@@ -919,40 +1023,6 @@
                     1
                 ],
                 "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "BottomLeft",
-                "region_type": "normal",
-                "position": [
-                    3,
-                    20
-                ],
-                "size": [
-                    6,
-                    9
-                ],
-                "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "BottomRight",
-                "region_type": "normal",
-                "position": [
-                    18,
-                    20
-                ],
-                "size": [
-                    7,
-                    10
-                ],
-                "sub_nid": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1059,6 +1129,74 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "BottomRightCrate_1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomRightCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomRightCrate_2",
+                "region_type": "event",
+                "position": [
+                    19,
+                    23
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomRightCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomLeftCrate",
+                "region_type": "event",
+                "position": [
+                    9,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomLeftCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomCenterCrate",
+                "region_type": "event",
+                "position": [
+                    7,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomCenterCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -1093,16 +1231,16 @@
                 ],
                 "positions": {
                     "br1": [
-                        20,
+                        21,
                         23
                     ],
                     "br2": [
-                        19,
-                        26
+                        20,
+                        24
                     ],
                     "br3": [
                         20,
-                        28
+                        27
                     ]
                 }
             },
@@ -1198,6 +1336,28 @@
                     "115": [
                         22,
                         5
+                    ]
+                }
+            },
+            {
+                "nid": "BottomCenter",
+                "units": [
+                    "bc1",
+                    "bc2",
+                    "bc3"
+                ],
+                "positions": {
+                    "bc1": [
+                        8,
+                        18
+                    ],
+                    "bc2": [
+                        9,
+                        20
+                    ],
+                    "bc3": [
+                        11,
+                        18
                     ]
                 }
             }

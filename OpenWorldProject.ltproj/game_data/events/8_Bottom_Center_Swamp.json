@@ -1,14 +1,14 @@
 [
     {
-        "name": "Bottom Left Swamp",
+        "name": "Bottom Center Swamp",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "game.level_vars['BottomLeftSwamp']==1",
+        "condition": "game.level_vars['BottomCenterSwamp']==1",
         "commands": [
             [
                 "center_cursor",
                 [
-                    "5,26"
+                    "10,20"
                 ]
             ],
             [
@@ -20,7 +20,7 @@
             [
                 "add_group",
                 [
-                    "BottomLeft",
+                    "BottomCenter",
                     "BottomLeft",
                     "fade",
                     "closest"

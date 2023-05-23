@@ -1,60 +1,58 @@
 [
     {
-        "nid": "Entombed",
-        "name": "Entombed",
-        "desc": "Reanimated corpses. They're not fast,\nbut their talons rend flesh with ease.",
-        "tier": 2,
-        "movement_group": "Infantry",
-        "promotes_from": "Revenant",
+        "nid": "Crate25",
+        "name": "Crate",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Carts",
+        "promotes_from": null,
         "turns_into": [],
-        "tags": [
-            "Monster"
-        ],
+        "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 38,
-            "SPD": 4,
-            "MOV": 6,
-            "DEX": 10,
+            "HP": 25,
+            "CON": 0,
             "MAG": 0,
-            "PSE": 14,
-            "CON": 6
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 25,
+            "MOV": 0
         },
         "growths": {
-            "HP": 85,
-            "SPD": 17,
-            "MOV": 0,
-            "DEX": 32,
+            "HP": 0,
+            "CON": 0,
             "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
             "PSE": 0,
-            "CON": 28
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
-            "DEX": 0,
+            "CON": 0,
             "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
             "PSE": 0,
-            "CON": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
-            "DEX": 0,
+            "CON": 0,
             "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
             "PSE": 0,
-            "CON": 0
+            "MOV": 0
         },
         "max_stats": {
-            "HP": 60,
-            "SPD": 21,
-            "MOV": 15,
-            "DEX": 22,
-            "MAG": 30,
+            "HP": 25,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
             "PSE": 25,
-            "CON": 20
+            "MOV": 0
         },
         "learned_skills": [],
         "wexp_gain": {
@@ -75,8 +73,8 @@
                 0
             ],
             "Innate": [
-                true,
-                1
+                false,
+                0
             ],
             "Light": [
                 false,
@@ -99,12 +97,12 @@
                 0
             ]
         },
-        "icon_nid": "Generic_Portrait_Entombed",
+        "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Entombed",
+        "map_sprite_nid": "Crates-stand",
         "combat_anim_nid": null,
         "fields": []
     }
