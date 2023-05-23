@@ -322,7 +322,7 @@
                 "ai_group": null,
                 "starting_position": [
                     18,
-                    21
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -346,7 +346,7 @@
                 "ai_group": null,
                 "starting_position": [
                     15,
-                    20
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -359,7 +359,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver Axe",
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -370,7 +370,7 @@
                 "ai_group": null,
                 "starting_position": [
                     17,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -389,36 +389,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "c",
                 "starting_position": [
-                    5,
-                    13
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 1,
-                "klass": "Berserker",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    7,
-                    14
+                    6,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -437,12 +413,60 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "c",
                 "starting_position": [
                     1,
                     16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    7,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    5,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
