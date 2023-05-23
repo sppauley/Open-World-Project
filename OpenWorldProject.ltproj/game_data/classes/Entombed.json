@@ -4,7 +4,7 @@
         "name": "Entombed",
         "desc": "Reanimated corpses. They're not fast,\nbut their talons rend flesh with ease.",
         "tier": 2,
-        "movement_group": "Regular",
+        "movement_group": "Infantry",
         "promotes_from": "Revenant",
         "turns_into": [],
         "tags": [

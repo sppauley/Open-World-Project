@@ -3,7 +3,7 @@
         "name": "Bottom Right Swamp",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "any(get_units_in_region('BottomRight', team='player'))",
+        "condition": "any(get_units_in_region('BottomRight')) and game.turncount >3",
         "commands": [
             [
                 "add_group",

@@ -178,7 +178,7 @@
                 "ai_group": null,
                 "starting_position": [
                     9,
-                    25
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -201,32 +201,56 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    10,
-                    23
+                    11,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "121",
+                "nid": "112",
                 "variant": null,
-                "level": 7,
-                "klass": "Fighter",
+                "level": 3,
+                "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Silver Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
                     6,
-                    6
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Hero",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -245,12 +269,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    7
+                    7,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -928,11 +952,11 @@
                 "nid": "BottomLeft",
                 "region_type": "normal",
                 "position": [
-                    3,
-                    20
+                    2,
+                    21
                 ],
                 "size": [
-                    6,
+                    10,
                     9
                 ],
                 "sub_nid": null,
@@ -945,12 +969,12 @@
                 "nid": "BottomRight",
                 "region_type": "normal",
                 "position": [
-                    18,
-                    20
+                    16,
+                    19
                 ],
                 "size": [
-                    7,
-                    10
+                    9,
+                    11
                 ],
                 "sub_nid": null,
                 "condition": "True",

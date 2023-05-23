@@ -4,7 +4,7 @@
         "name": "Troubadour",
         "desc": "Kind-hearted healers.",
         "tier": 1,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Mounted",
         "promotes_from": null,
         "turns_into": [
             "Valkyrie"
@@ -82,9 +82,9 @@
                 false,
                 0
             ],
-            "Staff": [
-                true,
-                31
+            "Innate": [
+                false,
+                0
             ],
             "Light": [
                 false,
@@ -97,6 +97,10 @@
             "Dark": [
                 false,
                 0
+            ],
+            "Staff": [
+                true,
+                31
             ],
             "Default": [
                 false,
