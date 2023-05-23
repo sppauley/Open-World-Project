@@ -2,7 +2,7 @@
     {
         "nid": "12",
         "name": "Verstadt Courtyard",
-        "tilemap": "New Tilemap",
+        "tilemap": "Courtyard",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
