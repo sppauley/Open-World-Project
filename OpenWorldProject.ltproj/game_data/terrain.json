@@ -492,7 +492,7 @@
         "background": "combat_plains",
         "mtype": "River",
         "opaque": false,
-        "status": "Swamp"
+        "status": null
     },
     {
         "nid": "Carpet",
