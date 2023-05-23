@@ -3,8 +3,20 @@
         "name": "Top Left Swamp",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "any(get_units_in_region('TopLeft', team='player'))",
+        "condition": "game.level_vars['TopLeftSwamp']==1",
         "commands": [
+            [
+                "center_cursor",
+                [
+                    "3,7"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
             [
                 "add_group",
                 [
@@ -12,6 +24,12 @@
                     "TopLeft",
                     "fade",
                     "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
                 ]
             ]
         ],

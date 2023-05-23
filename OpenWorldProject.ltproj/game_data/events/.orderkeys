@@ -69,8 +69,8 @@
     "8_Bottom_Left_Swamp.json": 67,
     "8_Bottom_Center_Swamp.json": 68,
     "8_Center_Right_Swamp.json": 69,
-    "8_Top_Left_Swamp.json": 70,
-    "8_Bottom_Right_Swamp.json": 71,
+    "8_Bottom_Right_Swamp.json": 70,
+    "8_Top_Left_Swamp.json": 71,
     "8_Bottom_Village.json": 72,
     "8_Center_Village.json": 73,
     "8_Top_Village.json": 74,
@@ -83,5 +83,6 @@
     "8_Bottom_Left_Push.json": 81,
     "8_Bottom_Center_Push.json": 82,
     "8_Bottom_Right_Push.json": 83,
-    "8_Turn_4_AI_shift.json": 84
+    "8_Top_Left_Push.json": 84,
+    "8_Turn_4_AI_shift.json": 85
 }

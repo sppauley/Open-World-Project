@@ -75,6 +75,14 @@
                     "Anuki",
                     "9"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Vincent",
+                    "Steel Sword",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
