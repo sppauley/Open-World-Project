@@ -3,8 +3,20 @@
         "name": "Bottom Left Swamp",
         "trigger": "turn_change",
         "level_nid": "8",
-        "condition": "any(get_units_in_region('BottomLeft')) and game.turncount >1",
+        "condition": "game.level_vars['BottomLeftSwamp']==1",
         "commands": [
+            [
+                "center_cursor",
+                [
+                    "5,26"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
             [
                 "add_group",
                 [
@@ -12,6 +24,12 @@
                     "BottomLeft",
                     "fade",
                     "closest"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
                 ]
             ]
         ],

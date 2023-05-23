@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Bottom Left Push",
+        "trigger": "Push",
+        "level_nid": "8",
+        "condition": "game.check_alive('BottomLeftCrate') and region.nid == 'BottomLeftCrate'",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "BottomLeftCrate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "BottomLeftCrate",
+                    "7,26"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "7,26",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "BottomLeftCrate"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Looks like something's moving down there..."
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.check_alive('Kajal')"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "The swamp creatures should be here soon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "I'd advise stepping away from the swamp."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "BottomLeftSwamp",
+                    "1"
+                ]
+            ],
+            [
+                "has_finished",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

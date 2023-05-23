@@ -890,44 +890,42 @@
                 "generic": true
             },
             {
-                "nid": "Luther",
-                "team": "player",
+                "nid": "BottomRightCrate",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    19,
+                    24
+                ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             },
             {
-                "nid": "Vincent",
-                "team": "player",
+                "nid": "BottomLeftCrate",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    26
+                ],
                 "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Juliet",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Anuki",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
         "regions": [
@@ -1082,6 +1080,57 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomRightCrate_1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomRightCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomRightCrate_2",
+                "region_type": "event",
+                "position": [
+                    19,
+                    23
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomRightCrate')",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "BottomLeftCrate",
+                "region_type": "event",
+                "position": [
+                    9,
+                    26
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Push",
+                "condition": "game.check_alive('BottomLeftCrate')",
+                "time_left": null,
+                "only_once": true,
                 "interrupt_move": false
             }
         ],
