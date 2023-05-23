@@ -493,5 +493,35 @@
         "mtype": "River",
         "opaque": false,
         "status": "Swamp"
+    },
+    {
+        "nid": "Carpet",
+        "name": "Carpet",
+        "color": [
+            144,
+            78,
+            149
+        ],
+        "minimap": "Floor",
+        "platform": "Floor",
+        "background": "combat_castle4",
+        "mtype": "Carpet",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "Flowers",
+        "name": "Flowers",
+        "color": [
+            25,
+            109,
+            199
+        ],
+        "minimap": "Grass",
+        "platform": "Plains",
+        "background": "Cliff",
+        "mtype": "Forest",
+        "opaque": false,
+        "status": null
     }
 ]

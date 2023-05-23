@@ -8,11 +8,11 @@
         "music": {},
         "objective": {
             "simple": "",
-            "win": "",
-            "loss": ""
+            "win": "Escape",
+            "loss": "Simon Dies"
         },
-        "roam": false,
-        "roam_unit": null,
+        "roam": true,
+        "roam_unit": "Simon",
         "go_to_overworld": false,
         "units": [],
         "regions": [],
