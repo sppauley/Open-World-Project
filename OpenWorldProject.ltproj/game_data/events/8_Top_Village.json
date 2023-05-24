@@ -6,12 +6,10 @@
         "condition": "region.nid=='TopVillage'",
         "commands": [
             [
-                "add_group",
+                "give_item",
                 [
-                    "TopVillage",
-                    "TopVillage",
-                    "swoosh",
-                    "push"
+                    "{unit}",
+                    "Physic"
                 ]
             ]
         ],

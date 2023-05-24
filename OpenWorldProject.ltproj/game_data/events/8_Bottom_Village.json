@@ -6,12 +6,10 @@
         "condition": "region.nid=='BottomVillage'",
         "commands": [
             [
-                "add_group",
+                "give_item",
                 [
-                    "BottomVillage",
-                    "BottomVillage",
-                    "swoosh",
-                    "push"
+                    "{unit}",
+                    "Talisman"
                 ]
             ]
         ],

@@ -6,12 +6,10 @@
         "condition": "region.nid=='CenterVillage'",
         "commands": [
             [
-                "add_group",
+                "give_item",
                 [
-                    "CenterVillage",
-                    "CenterVillage",
-                    "swoosh",
-                    "push"
+                    "{unit}",
+                    "Steel Mace (Steel_Mace)"
                 ]
             ]
         ],

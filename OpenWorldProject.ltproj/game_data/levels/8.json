@@ -210,7 +210,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -402,7 +402,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -773,186 +773,6 @@
                 "generic": true
             },
             {
-                "nid": "106",
-                "variant": null,
-                "level": 5,
-                "klass": "Shaman",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 5,
-                "klass": "Shaman",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 11,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel_Mace",
-                        false
-                    ],
-                    [
-                        "Talisman",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 5,
-                "klass": "Myrmidon",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 11,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel_Mace",
-                        false
-                    ],
-                    [
-                        "Elixir",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 13,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel_Mace",
-                        false
-                    ],
-                    [
-                        "Physic",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "BottomRightCrate",
                 "variant": null,
                 "level": 1,
@@ -1299,64 +1119,18 @@
             },
             {
                 "nid": "BottomVillage",
-                "units": [
-                    "108",
-                    "106",
-                    "107"
-                ],
-                "positions": {
-                    "108": [
-                        22,
-                        19
-                    ],
-                    "106": [
-                        21,
-                        19
-                    ],
-                    "107": [
-                        23,
-                        19
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "CenterVillage",
-                "units": [
-                    "109",
-                    "110"
-                ],
-                "positions": {
-                    "109": [
-                        2,
-                        15
-                    ],
-                    "110": [
-                        1,
-                        15
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "TopVillage",
-                "units": [
-                    "115",
-                    "116",
-                    "114"
-                ],
-                "positions": {
-                    "114": [
-                        21,
-                        5
-                    ],
-                    "116": [
-                        20,
-                        5
-                    ],
-                    "115": [
-                        22,
-                        5
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "BottomCenter",

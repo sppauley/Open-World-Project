@@ -83,6 +83,18 @@
                     "Steel Sword",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# actual intro stuff"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "purple"
+                ]
             ]
         ],
         "only_once": false,
