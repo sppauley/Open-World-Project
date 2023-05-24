@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "8",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.nid=='Simon'"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "remove_unit",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
