@@ -96,10 +96,11 @@
                 ]
             ],
             [
-                "set_overworld_position",
+                "overworld_move_unit",
                 [
                     "Simon's Group (Simon)",
-                    "House Morrissey (27)"
+                    "House Morrissey (27)",
+                    "0.7"
                 ]
             ],
             [

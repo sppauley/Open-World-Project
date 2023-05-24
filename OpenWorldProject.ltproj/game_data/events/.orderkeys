@@ -93,5 +93,7 @@
     "12_SearchChest.json": 91,
     "12_Manually_Change_AI.json": 92,
     "12_Autoclear.json": 93,
-    "12_Bait_Archer.json": 94
+    "12_Bait_Archer.json": 94,
+    "8_Defeat_Gustav.json": 95,
+    "8_Escape.json": 96
 }
