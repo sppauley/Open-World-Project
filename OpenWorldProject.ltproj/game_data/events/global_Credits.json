@@ -82,6 +82,18 @@
                 [
                     "# Unknown (magus lord)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Primefusion (crate)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# ArcherBias (guerilla)"
+                ]
             ]
         ],
         "only_once": false,
