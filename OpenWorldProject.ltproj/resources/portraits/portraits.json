@@ -754,5 +754,29 @@
             40
         ],
         "info_offset": 7
+    },
+    {
+        "nid": "Boudica",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Anuki",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 5
     }
 ]
