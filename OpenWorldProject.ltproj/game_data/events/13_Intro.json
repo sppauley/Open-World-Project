@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# debug commands"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# chapter intro commands"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "bars_closed"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
