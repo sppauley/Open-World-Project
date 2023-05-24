@@ -1,7 +1,7 @@
 [
     {
         "nid": "6",
-        "name": "Path to Castle Morrissey",
+        "name": "Deprecated",
         "tilemap": "PathToMorrissey",
         "bg_tilemap": null,
         "party": "Simon",

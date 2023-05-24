@@ -1,7 +1,7 @@
 [
     {
         "nid": "7",
-        "name": "EasternPath (W)",
+        "name": "Deprecated",
         "tilemap": "PathToPort",
         "bg_tilemap": "Underground view",
         "party": "Simon",

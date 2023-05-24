@@ -1,7 +1,7 @@
 [
     {
         "nid": "11",
-        "name": "EasternPath (E)",
+        "name": "Deprecated",
         "tilemap": "EPE",
         "bg_tilemap": null,
         "party": "Simon",
