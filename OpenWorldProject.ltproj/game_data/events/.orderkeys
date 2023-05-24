@@ -89,5 +89,7 @@
     "12_Intro.json": 87,
     "12_DoorUnlock.json": 88,
     "12_CheckBarrels.json": 89,
-    "12_StartBattle.json": 90
+    "12_StartBattle.json": 90,
+    "8_Defeat_Gustav.json": 91,
+    "8_Escape.json": 92
 }

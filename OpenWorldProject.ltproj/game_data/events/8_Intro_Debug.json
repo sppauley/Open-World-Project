@@ -95,6 +95,20 @@
                 [
                     "purple"
                 ]
+            ],
+            [
+                "add_weather",
+                [
+                    "night"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Kajal",
+                    "PartyMember",
+                    "'Yes'"
+                ]
             ]
         ],
         "only_once": false,

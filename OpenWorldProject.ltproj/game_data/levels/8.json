@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Arrive",
+            "win": "Arrive",
+            "loss": "Simon Dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -210,12 +210,12 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 1,
-                "klass": "Hero",
+                "level": 11,
+                "klass": "Mercenary",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Steel Blade",
                         false
                     ]
                 ],
@@ -896,7 +896,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "True",
+                "condition": "game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -913,7 +913,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "True",
+                "condition": "game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -930,7 +930,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "True",
+                "condition": "game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -964,7 +964,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomRightCrate')",
+                "condition": "game.check_alive('BottomRightCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -981,7 +981,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('TopLeftCrate')",
+                "condition": "game.check_alive('TopLeftCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -998,7 +998,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomRightCrate')",
+                "condition": "game.check_alive('BottomRightCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1015,7 +1015,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomLeftCrate')",
+                "condition": "game.check_alive('BottomLeftCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1032,9 +1032,26 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomCenterCrate')",
+                "condition": "game.check_alive('BottomCenterCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    12,
+                    0
+                ],
+                "size": [
+                    8,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
