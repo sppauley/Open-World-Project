@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Thief1",
+        "trigger": "turn_change",
+        "level_nid": "13",
+        "condition": "game.check_alive('Crate1') and any([unit for unit in get_units_in_region('Thief1', team='player') if any([skill for skill in unit.skills if skill.nid == 'Crippled'])])",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Crate1"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "Crate1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Thief1",
+                    "13,17",
+                    "swoosh",
+                    "giveup"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

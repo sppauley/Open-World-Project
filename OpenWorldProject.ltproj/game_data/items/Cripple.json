@@ -1,0 +1,68 @@
+[
+    {
+        "nid": "Cripple",
+        "name": "Cripple",
+        "desc": "Enemy loses 5 CON and 2 MOV for two turns.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                5
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Crippled"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "max_range",
+                15
+            ]
+        ]
+    }
+]

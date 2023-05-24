@@ -95,5 +95,7 @@
     "12_Autoclear.json": 93,
     "12_Bait_Archer.json": 94,
     "8_Defeat_Gustav.json": 95,
-    "8_Escape.json": 96
+    "8_Escape.json": 96,
+    "13_Intro.json": 97,
+    "13_Thief1.json": 98
 }
