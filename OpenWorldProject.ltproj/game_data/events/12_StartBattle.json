@@ -20,6 +20,12 @@
                 ]
             ],
             [
+                "remove_portrait",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
                 "choice",
                 [
                     "CrossBridge",
@@ -84,6 +90,170 @@
                 [
                     "# Add in things for if you have meat, bad guy response"
                 ]
+            ],
+            [
+                "if",
+                [
+                    "{v:hasMeat}"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Juliet (Juliet)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Juliet",
+                    "Food's up!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "15,6"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "W-w-woah, easy! Easy!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "SoldierRed",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "It's gone feral! Someone, help!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "107",
+                    "enemy2"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "106",
+                    "enemy2"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "New Dawn (107)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "21,12"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "New Dawn (106)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Good work. Now, forward!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "center_cursor",
+                [
+                    "New Dawn (105)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "The little boy's tryin' to run!{w}{br}Make his garden his grave!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "end",

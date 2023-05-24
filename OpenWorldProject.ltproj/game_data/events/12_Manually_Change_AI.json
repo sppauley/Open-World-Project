@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Manually Change AI",
+        "trigger": "combat_start",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit2.nid in [\"101\", \"102\", \"106\"]"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "102",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "101",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "106",
+                    "Pursue"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit2.nid in [\"104\", \"103\", \"108\"]"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "104",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "103",
+                    "Pursue"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "108",
+                    "Pursue"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

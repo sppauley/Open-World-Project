@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "VerstadtRing",
+        "name": "Verstadt Ring",
+        "desc": "+1 CON to holder.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "CONUpSmall"
+            ]
+        ]
+    }
+]

@@ -25,6 +25,12 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "# Add a choice for!!"
+                ]
+            ],
+            [
                 "game_var",
                 [
                     "tutorialPopups",

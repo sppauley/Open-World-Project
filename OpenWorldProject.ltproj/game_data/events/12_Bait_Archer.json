@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Bait Archer",
+        "trigger": "BaitArcher",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "1,2"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "New Dawn (109)",
+                    "1,2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "Hah, we took the walls!{w}{br}Now we'll find 'em for sure."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bandit1"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "CenterRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Curses!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "1,12"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "May I offer a suggestion?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Of course."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "That brigand lacks vision in this darkness.{w}{br}He will likely be unable to distinguish friend from foe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You advise trickery?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "His arrows could spread confusion among our enemies."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "2,10"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Left",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Verstadt is escaping!{w} Quick, fire on the central isle!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "Wha-wha-yes, right away!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Bandit1",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "1,12",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "109",
+                    "12,2"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "109",
+                    "105",
+                    "hit1,end",
+                    "Steel Bow (Steel Bow)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Left",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierRed",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierRed",
+                    "G-GAH!{w} You idiot!{w}{br}We're on your side!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "W-wait... damn it!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Bandit1",
+                    "SoldierRed"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "109",
+                    "1,2"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "New Dawn (109)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Masterfully done milord.{w} Though, may I suggest sending a servant in the future?{w}{br}Lives like Juliet's weigh less than yours."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

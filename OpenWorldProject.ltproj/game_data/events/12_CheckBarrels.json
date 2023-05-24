@@ -122,6 +122,13 @@
                 [
                     "ConsolidateToLeader (Global ConsolidateToLeader)"
                 ]
+            ],
+            [
+                "level_var",
+                [
+                    "hasMeat",
+                    "1"
+                ]
             ]
         ],
         "only_once": false,

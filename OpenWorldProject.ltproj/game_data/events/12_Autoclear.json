@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Autoclear",
+        "trigger": "combat_end",
+        "level_nid": "12",
+        "condition": "game.get_enemy_units() == []",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Milord, we've cleared a route!{w}{br}Let us away!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "14,5"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "EscapeCourtyard (12 EscapeCourtyard)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

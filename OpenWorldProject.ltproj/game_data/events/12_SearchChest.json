@@ -1,0 +1,47 @@
+[
+    {
+        "name": "SearchChest",
+        "trigger": "Search",
+        "level_nid": "12",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "CenterRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Those bandits!{w} House Verstadt's treasures are...{w}{br}Wait, they left something inside."
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Simon (Simon)",
+                    "Verstadt Ring (VerstadtRing)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "The ring of my house.{w} I'm glad this, at least, will survive."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

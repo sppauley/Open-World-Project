@@ -89,5 +89,9 @@
     "12_Intro.json": 87,
     "12_DoorUnlock.json": 88,
     "12_CheckBarrels.json": 89,
-    "12_StartBattle.json": 90
+    "12_StartBattle.json": 90,
+    "12_SearchChest.json": 91,
+    "12_Manually_Change_AI.json": 92,
+    "12_Autoclear.json": 93,
+    "12_Bait_Archer.json": 94
 }
