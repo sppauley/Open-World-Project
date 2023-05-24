@@ -681,6 +681,78 @@
             24,
             48
         ],
-        "info_offset": 0
+        "info_offset": 7
+    },
+    {
+        "nid": "VillagerWoman",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "VillagerTeen",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "OldVillager2",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "YoungBoy",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            24,
+            56
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "OldVillager",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "Vincent",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 7
     }
 ]
