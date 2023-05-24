@@ -97,5 +97,7 @@
     "8_Defeat_Gustav.json": 95,
     "8_Escape.json": 96,
     "13_Intro.json": 97,
-    "13_Thief1.json": 98
+    "13_Thief1.json": 98,
+    "14_Intro.json": 99,
+    "14_Defeat_Boss.json": 100
 }
