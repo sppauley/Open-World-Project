@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "14",
+        "name": "Eastern Path",
+        "tilemap": "EasternPath",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Defeat Boss",
+            "win": "Defeat Boss",
+            "loss": "Simon Dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": true,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]
