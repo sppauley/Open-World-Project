@@ -70,6 +70,15 @@
             [
                 "effective_multiplier",
                 3.0
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        9
+                    ]
+                ]
             ]
         ]
     }
