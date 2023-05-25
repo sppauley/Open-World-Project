@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "15",
+        "condition": "True",
+        "commands": [
+            [
+                "add_weather",
+                [
+                    "sunset"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "purple"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Kajal"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
