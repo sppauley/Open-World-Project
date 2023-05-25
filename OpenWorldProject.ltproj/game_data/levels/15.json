@@ -1,7 +1,7 @@
 [
     {
         "nid": "15",
-        "name": "Swamp Road Outpost",
+        "name": "Swamp Outpost",
         "tilemap": "Swamp checkpoint",
         "bg_tilemap": null,
         "party": "Simon",
@@ -40,25 +40,6 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    10,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "102",
@@ -134,6 +115,23 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Arrive",
+                "region_type": "event",
+                "position": [
+                    5,
+                    0
+                ],
+                "size": [
+                    5,
+                    1
+                ],
+                "sub_nid": "Arrive",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],

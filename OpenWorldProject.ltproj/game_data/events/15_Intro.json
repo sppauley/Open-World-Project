@@ -23,6 +23,13 @@
                     "Simon (Simon)",
                     "Kajal"
                 ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "103"
+                ]
             ]
         ],
         "only_once": false,
