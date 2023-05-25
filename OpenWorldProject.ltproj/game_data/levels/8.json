@@ -964,7 +964,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomRightCrate')",
+                "condition": "game.check_alive('BottomRightCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -981,7 +981,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('TopLeftCrate')",
+                "condition": "game.check_alive('TopLeftCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -998,7 +998,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomRightCrate')",
+                "condition": "game.check_alive('BottomRightCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1015,7 +1015,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomLeftCrate')",
+                "condition": "game.check_alive('BottomLeftCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1032,7 +1032,7 @@
                     1
                 ],
                 "sub_nid": "Push",
-                "condition": "game.check_alive('BottomCenterCrate')",
+                "condition": "game.check_alive('BottomCenterCrate') and game.check_alive('Gustav')",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

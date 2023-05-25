@@ -80,7 +80,7 @@
                 "give_item",
                 [
                     "Vincent",
-                    "Steel Sword",
+                    "Iron Blade",
                     "FLAG(no_banner)"
                 ]
             ],
@@ -94,6 +94,12 @@
                 "add_weather",
                 [
                     "purple"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "sunset"
                 ]
             ]
         ],
