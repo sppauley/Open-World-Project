@@ -101,5 +101,6 @@
     "14_Intro.json": 99,
     "14_Defeat_Boss.json": 100,
     "14_BanditsFlee.json": 101,
-    "global_DEBUGPostTutorial.json": 102
+    "global_DEBUGPostTutorial.json": 102,
+    "14_Outro.json": 103
 }

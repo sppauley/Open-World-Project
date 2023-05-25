@@ -40,6 +40,76 @@
                 ]
             ],
             [
+                "center_cursor",
+                [
+                    "House Morrissey (27)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "The Eastern Highway (31)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "27",
+                    "31"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Shrine of Clotho (28)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "27",
+                    "28"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Road to the Swamp (30)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Road to the Swamp (30)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "28",
+                    "30"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "House Morrissey (27)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "The Royal Garrison (43)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "27",
+                    "43"
+                ]
+            ],
+            [
                 "set_overworld_position",
                 [
                     "Simon's Group (Simon)",

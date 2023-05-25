@@ -1,7 +1,7 @@
 [
     {
         "nid": "5",
-        "name": "Haunted Swamp",
+        "name": "Deprecated",
         "tilemap": "Swamp of Ruin",
         "bg_tilemap": null,
         "party": "Simon",
