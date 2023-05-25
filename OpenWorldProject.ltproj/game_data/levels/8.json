@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Escape",
+            "win": "Escape",
+            "loss": "Simon Dies"
         },
         "roam": false,
         "roam_unit": null,
