@@ -6,11 +6,45 @@
         "condition": "region.nid=='CenterVillage'",
         "commands": [
             [
+                "if",
+                [
+                    "game.check_alive('Gustav')"
+                ]
+            ],
+            [
                 "give_item",
                 [
                     "{unit}",
                     "Steel Mace (Steel_Mace)"
                 ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "It looks like they raided the ruins already."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": true,
