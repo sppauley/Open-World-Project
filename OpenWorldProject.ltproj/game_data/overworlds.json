@@ -46,7 +46,7 @@
                     7
                 ],
                 "icon": "forest_temple",
-                "level": null,
+                "level": "10",
                 "menu_options": []
             },
             {
@@ -57,7 +57,7 @@
                     9
                 ],
                 "icon": "map_node",
-                "level": null,
+                "level": "8",
                 "menu_options": []
             },
             {
@@ -68,7 +68,7 @@
                     18
                 ],
                 "icon": "map_node",
-                "level": null,
+                "level": "14",
                 "menu_options": []
             },
             {
