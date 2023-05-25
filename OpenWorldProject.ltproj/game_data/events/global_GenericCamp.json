@@ -40,7 +40,7 @@
             [
                 "comment",
                 [
-                    "set_current_poise;{INJURED};{e:game.get_unit('{INJURED}').get_max_poise()}"
+                    "#set_current_poise;{INJURED};{e:game.get_unit('{INJURED}').get_max_poise()}"
                 ]
             ],
             [

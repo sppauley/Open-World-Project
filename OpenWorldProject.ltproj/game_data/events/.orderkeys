@@ -102,5 +102,6 @@
     "14_Defeat_Boss.json": 100,
     "14_BanditsFlee.json": 101,
     "global_DEBUGPostTutorial.json": 102,
-    "14_Outro.json": 103
+    "14_Outro.json": 103,
+    "global_OverworldMapSelect.json": 104
 }
