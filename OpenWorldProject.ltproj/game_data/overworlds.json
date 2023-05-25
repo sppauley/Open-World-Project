@@ -25,7 +25,15 @@
                 ],
                 "icon": "castle",
                 "level": "9",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "28",
@@ -58,7 +66,15 @@
                 ],
                 "icon": "map_node",
                 "level": "8",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "31",
@@ -69,7 +85,15 @@
                 ],
                 "icon": "map_node",
                 "level": "14",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "32",
@@ -101,8 +125,16 @@
                     20
                 ],
                 "icon": "fort",
-                "level": null,
-                "menu_options": []
+                "level": "13",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "35",
