@@ -13,8 +13,289 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon",
+                    "0,3"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "3,3"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "9,3"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "9,3"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "2,11"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "2,11"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "23,11"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "23,11"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Bandits have completely overrun the road."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Anuki",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "Annoying.{w} Let's cut them down and clear a path."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Isn't House Morrissey supposed to garrison this road?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "We all have our problems, don't we?"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Boudica",
+                    "3,0"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Boudica (Boudica)",
+                    "4,2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boudica (Boudica)",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Hiiya!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Anuki (Anuki)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "First on the menu?"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Hold!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Are you with the bandits, or against them?{w}{br}I wish only for their retreat."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Their retreat?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "This is a graveyard-{w}not a place for them to ransack."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Understood. We would be happy to work with you."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Bandit (101)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# dialogue"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "Search these ruins for anything leftover.{w}{br}There's no way they've been picked clean already!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bandit1"
+                ]
+            ],
+            [
                 "arrange_formation",
                 []
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation"
+                ]
             ]
         ],
         "only_once": false,
