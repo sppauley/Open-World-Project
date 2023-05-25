@@ -25,5 +25,6 @@
     "empty.json": 23,
     "Courtyard.json": 24,
     "Hideout_Entry.json": 25,
-    "EasternPath.json": 26
+    "EasternPath.json": 26,
+    "Intro.json": 27
 }
