@@ -20,15 +20,6 @@
             [
                 "hidden",
                 null
-            ],
-            [
-                "stat_change",
-                [
-                    [
-                        "DEF",
-                        3
-                    ]
-                ]
             ]
         ]
     }

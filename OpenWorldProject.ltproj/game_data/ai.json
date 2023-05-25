@@ -727,7 +727,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "EnterCave",
+                "target_spec": "BanditsLeave",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -737,7 +737,7 @@
             {
                 "action": "Move_to",
                 "target": "Event",
-                "target_spec": "EnterCave",
+                "target_spec": "BanditsLeave",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

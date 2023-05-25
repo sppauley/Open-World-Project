@@ -115,7 +115,7 @@
         "minimap": "Sand",
         "platform": "Road",
         "background": "combat_plains",
-        "mtype": "Normal",
+        "mtype": "Road",
         "opaque": false,
         "status": null
     },
@@ -521,6 +521,36 @@
         "platform": "Plains",
         "background": "Cliff",
         "mtype": "Forest",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "Dirt",
+        "name": "Dirt",
+        "color": [
+            154,
+            171,
+            98
+        ],
+        "minimap": "Sand",
+        "platform": "Arena",
+        "background": "Cliff",
+        "mtype": "Dirt",
+        "opaque": false,
+        "status": "AvoidDown10"
+    },
+    {
+        "nid": "Grave",
+        "name": "Grave",
+        "color": [
+            179,
+            162,
+            100
+        ],
+        "minimap": "Wall",
+        "platform": "Arena",
+        "background": "Cliff",
+        "mtype": "Cliff",
         "opaque": false,
         "status": null
     }

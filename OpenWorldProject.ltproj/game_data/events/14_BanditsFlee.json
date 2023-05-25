@@ -1,0 +1,113 @@
+[
+    {
+        "name": "BanditsFlee",
+        "trigger": "turn_change",
+        "level_nid": "14",
+        "condition": "game.turncount == 2",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit1",
+                    "We've got the loot.{w} You boys, get back to base!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bandit1"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Bandit (102)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "102"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Bandit (103)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "103"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Bandit (104)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "104"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# change ai"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "104",
+                    "EPEEnterCave"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "102",
+                    "EPEEnterCave"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "103",
+                    "EPEEnterCave"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

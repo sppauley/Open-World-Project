@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Peak",
-        "name": "Peak",
+        "nid": "AvoidDown10",
+        "name": "AvoidDown10",
         "desc": "",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15,7 +15,7 @@
             ],
             [
                 "avoid",
-                40
+                -10
             ]
         ]
     }

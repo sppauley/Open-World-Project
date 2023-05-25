@@ -1,12 +1,12 @@
 [
     {
-        "nid": "VerstadtRing",
-        "name": "Constitution Ring",
-        "desc": "+1 CON to holder.",
-        "icon_nid": "Boosters",
+        "nid": "DexterityRing",
+        "name": "Dexterity Ring",
+        "desc": "+2 DEX to holder.",
+        "icon_nid": "{Maxim} Accessory 11",
         "icon_index": [
             0,
-            8
+            0
         ],
         "components": [
             [
@@ -15,7 +15,7 @@
             ],
             [
                 "status_on_hold",
-                "CONUpSmall"
+                "DEXUpTwo"
             ]
         ]
     }
