@@ -74,7 +74,7 @@
     "8_Bottom_Village.json": 72,
     "8_Center_Village.json": 73,
     "8_Top_Village.json": 74,
-    "8_Intro_Debug.json": 75,
+    "8_Intro.json": 75,
     "9_Door.json": 76,
     "11_EnterCave.json": 77,
     "11_EPE_Battle_1.json": 78,
@@ -98,10 +98,10 @@
     "8_Escape.json": 96,
     "13_Intro.json": 97,
     "13_Thief1.json": 98,
-    "14_Intro.json": 99,
-    "14_Defeat_Boss.json": 100,
-    "14_BanditsFlee.json": 101,
-    "global_DEBUGPostTutorial.json": 102,
-    "14_Outro.json": 103,
-    "global_OverworldMapSelect.json": 104
+    "13_Thief2.json": 99,
+    "14_Intro.json": 100,
+    "14_Defeat_Boss.json": 101,
+    "14_BanditsFlee.json": 102,
+    "global_DEBUGPostTutorial.json": 103,
+    "14_Outro.json": 104
 }

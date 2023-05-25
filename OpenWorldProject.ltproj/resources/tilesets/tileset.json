@@ -528,10 +528,5 @@
         "nid": "54728",
         "terrain_grid": {},
         "autotiles": {}
-    },
-    {
-        "nid": "courtyard",
-        "terrain_grid": {},
-        "autotiles": {}
     }
 ]

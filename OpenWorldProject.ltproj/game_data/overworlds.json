@@ -25,15 +25,7 @@
                 ],
                 "icon": "castle",
                 "level": "9",
-                "menu_options": [
-                    {
-                        "nid": "Roam",
-                        "event": null,
-                        "option_name": "Roam",
-                        "visible": true,
-                        "enabled": true
-                    }
-                ]
+                "menu_options": []
             },
             {
                 "nid": "28",
@@ -44,15 +36,7 @@
                 ],
                 "icon": "cathedral",
                 "level": null,
-                "menu_options": [
-                    {
-                        "nid": "Roam",
-                        "event": "OverworldMapBattleSelect",
-                        "option_name": "Roam",
-                        "visible": true,
-                        "enabled": true
-                    }
-                ]
+                "menu_options": []
             },
             {
                 "nid": "29",
@@ -63,15 +47,7 @@
                 ],
                 "icon": "forest_temple",
                 "level": "10",
-                "menu_options": [
-                    {
-                        "nid": "Roam",
-                        "event": null,
-                        "option_name": "Roam",
-                        "visible": true,
-                        "enabled": true
-                    }
-                ]
+                "menu_options": []
             },
             {
                 "nid": "30",
@@ -82,15 +58,7 @@
                 ],
                 "icon": "map_node",
                 "level": "8",
-                "menu_options": [
-                    {
-                        "nid": "Battle",
-                        "event": "OverworldMapSelect",
-                        "option_name": "Battle",
-                        "visible": true,
-                        "enabled": true
-                    }
-                ]
+                "menu_options": []
             },
             {
                 "nid": "31",
@@ -101,15 +69,7 @@
                 ],
                 "icon": "map_node",
                 "level": "14",
-                "menu_options": [
-                    {
-                        "nid": "Battle",
-                        "event": "OverworldMapSelect",
-                        "option_name": "Battle",
-                        "visible": true,
-                        "enabled": true
-                    }
-                ]
+                "menu_options": []
             },
             {
                 "nid": "32",
