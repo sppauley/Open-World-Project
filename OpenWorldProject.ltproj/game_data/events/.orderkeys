@@ -109,5 +109,6 @@
     "15_Swamp.json": 107,
     "15_Talk_Knight.json": 108,
     "15_Arrive.json": 109,
-    "global_OverworldMapSelect.json": 110
+    "global_OverworldMapSelect.json": 110,
+    "16_Intro.json": 111
 }
