@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "17",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "overlaytiles",
+                    "immediate"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

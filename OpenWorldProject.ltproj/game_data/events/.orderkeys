@@ -117,5 +117,7 @@
     "9_Talk_Servant.json": 115,
     "9_Stairs.json": 116,
     "1_Lose_Condition.json": 117,
-    "8_Lose_Condition.json": 118
+    "8_Lose_Condition.json": 118,
+    "17_Intro.json": 119,
+    "global_ExitMap.json": 120
 }
