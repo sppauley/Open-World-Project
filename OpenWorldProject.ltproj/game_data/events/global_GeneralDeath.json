@@ -3,7 +3,7 @@
         "name": "GeneralDeath",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "True",
+        "condition": "game.level.nid != \"2\"",
         "commands": [
             [
                 "if",
