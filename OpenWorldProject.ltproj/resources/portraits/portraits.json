@@ -874,5 +874,17 @@
             48
         ],
         "info_offset": 7
+    },
+    {
+        "nid": "GenericMage",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]
