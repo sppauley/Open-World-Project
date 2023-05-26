@@ -46,15 +46,60 @@
                 ]
             ],
             [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
                 "change_background",
                 [
                     "BlackBackground"
                 ]
             ],
             [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
                 "wait",
                 [
-                    "700"
+                    "1000"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Find Verstadt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "What's going on?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Who's there?"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
                 ]
             ],
             [
@@ -67,13 +112,21 @@
                 "move_unit",
                 [
                     "Simon",
-                    "28,2"
+                    "28,2",
+                    "immediate",
+                    "closest"
                 ]
             ],
             [
                 "add_weather",
                 [
                     "fire"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "night"
                 ]
             ],
             [
@@ -89,8 +142,289 @@
                 ]
             ],
             [
+                "load_unit",
+                [
+                    "Percy"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Percy",
+                    "22,3"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Percy",
+                    "enemy"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
                 "change_background",
                 []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1500"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "26,3"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "No... not this again."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Percy",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Ah, there you are."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Oh, how amusing.{w} You're shaking."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Steady your hand and fight like a man."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Percy",
+                    "Simon"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "27,3"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "300"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Right",
+                    "Percy",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Oh?{w} What's the matter?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Percy",
+                    "Are you afraid to die again?",
+                    "TextSpeed=6.0",
+                    "FontType=text-red"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Percy",
+                    "Simon"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Percy",
+                    "23,3",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "28,3",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Percy",
+                    "27,3",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "Percy",
+                    "Simon",
+                    "hit1,miss2,crit1"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "BlackBackground"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "verstadt"
+                ]
+            ],
+            [
+                "resurrect",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon",
+                    "28,0"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Vincent",
+                    "26,6"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "Vincent"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Percy"
+                ]
+            ],
+            [
+                "remove_weather",
+                [
+                    "fire"
+                ]
+            ],
+            [
+                "remove_weather",
+                [
+                    "night"
+                ]
+            ],
+            [
+                "change_roaming_unit",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "t"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "28,3"
+                ]
             ]
         ],
         "only_once": true,
