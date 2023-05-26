@@ -12,6 +12,13 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
+            ],
+            [
                 "overworld_cinematic",
                 [
                     "The Continent (1)"

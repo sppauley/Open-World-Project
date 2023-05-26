@@ -790,5 +790,77 @@
             48
         ],
         "info_offset": 5
+    },
+    {
+        "nid": "{CanDy} Princess Wolfy",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 7
+    },
+    {
+        "nid": "Villager Woman 2",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Man 5",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Man 6",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Villager Girl",
+        "blinking_offset": [
+            24,
+            40
+        ],
+        "smiling_offset": [
+            16,
+            56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Freefall} F2U OC 2",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
     }
 ]

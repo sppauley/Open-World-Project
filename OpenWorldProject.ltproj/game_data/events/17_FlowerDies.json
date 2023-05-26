@@ -1,0 +1,39 @@
+[
+    {
+        "name": "FlowerDies",
+        "trigger": "unit_death",
+        "level_nid": "17",
+        "condition": "unit.nid == \"Flower\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Flower (Flower)",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Flower (Flower)",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "*whine*"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Flower (Flower)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

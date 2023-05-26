@@ -1,0 +1,542 @@
+[
+    {
+        "nid": "17",
+        "name": "Frees Village",
+        "tilemap": "Frees",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Rout the Enemy",
+            "win": "Rout the Enemy",
+            "loss": "Simon Dies"
+        },
+        "roam": false,
+        "roam_unit": "Simon",
+        "go_to_overworld": true,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Flower",
+                "team": "other",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 2,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G1",
+                "starting_position": [
+                    8,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyVillage",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyVillage",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    18,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyVillage",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    0,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 3,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyVillage",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    19,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    18,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G1",
+                "starting_position": [
+                    6,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G2",
+                "starting_position": [
+                    9,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G2",
+                "starting_position": [
+                    11,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G2",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Vilge",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 3,
+                "klass": "Journeyman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    11,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 3,
+                "klass": "Recruit",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
+        "regions": [
+            {
+                "nid": "F1",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F1_1",
+                "region_type": "formation",
+                "position": [
+                    7,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F1_2",
+                "region_type": "formation",
+                "position": [
+                    6,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Grave1",
+                "region_type": "event",
+                "position": [
+                    2,
+                    19
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Grave",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Grave2",
+                "region_type": "event",
+                "position": [
+                    3,
+                    18
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Grave",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Grave3",
+                "region_type": "event",
+                "position": [
+                    19,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Grave",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village1",
+                "region_type": "event",
+                "position": [
+                    14,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village2",
+                "region_type": "event",
+                "position": [
+                    8,
+                    12
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village3",
+                "region_type": "event",
+                "position": [
+                    6,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village4",
+                "region_type": "event",
+                "position": [
+                    14,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "connections": []
+    }
+]

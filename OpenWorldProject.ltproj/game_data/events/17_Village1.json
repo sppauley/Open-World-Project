@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Village",
+        "level_nid": "17",
+        "condition": "unit.team=='player'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "OldVillager2",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "OldVillager2",
+                    "Bandits, again?{w} Argh, why, now!{w}{br}Here, drink this up.{w} It's swill, but helps a bit."
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Vulnerary (Vulnerary)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "OldVillager2"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

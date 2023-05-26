@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Village3",
+        "trigger": "Village",
+        "level_nid": "17",
+        "condition": "unit.team=='player'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "VillagerTeen",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "VillagerTeen",
+                    "I'm sorry I can't help, but I'm still hurt.{w}{br}Please, take my ring.{w} It won't stop them from burning through your armor,{w}{br}but it'll keep you on your feet."
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Poise Ring (PoiseRing)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "VillagerTeen"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village3"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "Vilge",
+        "name": "Vilge",
+        "desc": "",
+        "variant": null,
+        "level": 3,
+        "klass": "Sage",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "CON": 8,
+            "MAG": 14,
+            "DEX": 12,
+            "SPD": 9,
+            "PSE": 16,
+            "MOV": 0
+        },
+        "growths": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Fimbulvetr",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Freefall} F2U OC 2",
+        "affinity": null,
+        "fields": []
+    }
+]

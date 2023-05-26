@@ -56,7 +56,7 @@
             [
                 "comment",
                 [
-                    "# Maxim (dexterity ring)"
+                    "# Maxim (dexterity ring, poise ring)"
                 ]
             ],
             [
@@ -134,7 +134,7 @@
             [
                 "comment",
                 [
-                    "# CanDy (VillagerWoman, VillagerTeen, OldVillager, OldVillager2, YoungBoy)"
+                    "# CanDy (VillagerWoman, VillagerTeen, OldVillager, OldVillager2, YoungBoy, Flower)"
                 ]
             ],
             [
@@ -147,6 +147,18 @@
                 "comment",
                 [
                     "# CapibaraInSpace (Boudica)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Edlritch Abomination (FE7 Mugs)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Freefall (Vilge)"
                 ]
             ]
         ],

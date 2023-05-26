@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Grave2",
+        "trigger": "Grave",
+        "level_nid": "17",
+        "condition": "region.nid== \"Grave2\"",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Here lies Sadie, daughter of Alister.{w}{br}A wise woman but poor accountant.",
+                    "StyleNid=hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

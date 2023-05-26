@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Grave1",
+        "trigger": "Grave",
+        "level_nid": "17",
+        "condition": "region.nid== \"Grave1\"",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Here lies John, son of Alister{w}{br}We were glad to have known you.",
+                    "StyleNid=hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
