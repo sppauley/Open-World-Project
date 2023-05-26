@@ -161,6 +161,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Percy (Percy)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Percy",
@@ -182,6 +189,12 @@
                 ]
             ],
             [
+                "remove_portrait",
+                [
+                    "Percy (Percy)"
+                ]
+            ],
+            [
                 "wait",
                 [
                     "500"
@@ -194,6 +207,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
@@ -201,10 +221,24 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
                     "If I may interject, milord, we must keep level heads."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent",
+                    "FarLeft"
                 ]
             ],
             [

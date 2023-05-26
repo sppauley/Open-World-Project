@@ -1,7 +1,7 @@
 [
     {
         "name": "Door",
-        "trigger": "Door",
+        "trigger": "Escape",
         "level_nid": "2",
         "condition": "True",
         "commands": [
@@ -25,6 +25,10 @@
                 ]
             ],
             [
+                "win_game",
+                []
+            ],
+            [
                 "end",
                 []
             ],
@@ -38,12 +42,6 @@
                 "if",
                 [
                     "not any(unit.team == 'player' for unit in game.units if unit.position)"
-                ]
-            ],
-            [
-                "skip_save",
-                [
-                    "true"
                 ]
             ],
             [

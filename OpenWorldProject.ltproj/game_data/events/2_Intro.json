@@ -18,6 +18,12 @@
                 ]
             ],
             [
+                "add_weather",
+                [
+                    "night"
+                ]
+            ],
+            [
                 "level_var",
                 [
                     "SimonReset",
@@ -50,6 +56,101 @@
                 [
                     "Simon (Simon)",
                     "FLAG(immediate)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "upperdoor",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "27,0",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vincent (Vincent)",
+                    "28,0",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "27,2",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Vincent (Vincent)",
+                    "28,3",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "upperdoor"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "22,3"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "22,3"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "The rebels have already reached the corridor?{w}{br}Sire, let me take the lead.{w}{br}You won't die under my watch."
+                ]
+            ],
+            [
+                "music_clear",
+                [
+                    "1500"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vincent (Vincent)"
                 ]
             ]
         ],

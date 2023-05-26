@@ -161,6 +161,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Percy (Percy)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Percy",
@@ -182,6 +189,12 @@
                 ]
             ],
             [
+                "remove_portrait",
+                [
+                    "Percy (Percy)"
+                ]
+            ],
+            [
                 "wait",
                 [
                     "500"
@@ -191,6 +204,13 @@
                 "flicker_cursor",
                 [
                     "Simon"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
                 ]
             ],
             [
@@ -205,6 +225,13 @@
                 [
                     "Simon",
                     "Let's get out of here."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Right"
                 ]
             ],
             [
@@ -250,6 +277,19 @@
                 ]
             ],
             [
+                "change_objective_win",
+                [
+                    "Escape"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarLeft"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
@@ -282,6 +322,14 @@
                 [
                     "Simon",
                     "Let's just...{w} get out while we can."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Vincent (Vincent)",
+                    "Luther"
                 ]
             ],
             [

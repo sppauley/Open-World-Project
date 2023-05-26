@@ -350,6 +350,12 @@
                 ]
             ],
             [
+                "sound",
+                [
+                    "TurnwheelOut"
+                ]
+            ],
+            [
                 "wait",
                 [
                     "600"
@@ -372,10 +378,24 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
                     "Huh?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Right"
                 ]
             ],
             [
@@ -417,7 +437,7 @@
                 "speak",
                 [
                     "Vincent",
-                    "I'm not planning on having you die under my watch."
+                    "You won't die under my watch."
                 ]
             ],
             [
@@ -425,6 +445,13 @@
                 [
                     "Simon",
                     "Yeah..."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Vincent (Vincent)"
                 ]
             ]
         ],

@@ -149,7 +149,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Soldier",
-                "faction": "NewDawn",
+                "faction": "Soldier",
                 "starting_items": [
                     [
                         "Iron Lance",
@@ -173,7 +173,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Myrmidon",
-                "faction": "NewDawn",
+                "faction": "Soldier",
                 "starting_items": [
                     [
                         "Iron Blade",

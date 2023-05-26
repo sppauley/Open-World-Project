@@ -12120,6 +12120,62 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "upperdoor",
+                "visible": false,
+                "terrain_grid": {
+                    "26,1": "6",
+                    "27,1": "6",
+                    "28,1": "6",
+                    "28,0": "6",
+                    "27,0": "6",
+                    "26,0": "6"
+                },
+                "sprite_grid": {
+                    "26,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ],
+                    "27,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ],
+                    "28,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ],
+                    "28,0": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ],
+                    "27,0": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ],
+                    "26,0": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            22
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

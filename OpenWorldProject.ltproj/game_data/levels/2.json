@@ -16,9 +16,9 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Rout the Enemy",
+            "win": "Rout the Enemy",
+            "loss": "Simon Dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -310,7 +310,7 @@
         ],
         "regions": [
             {
-                "nid": "Door",
+                "nid": "Escape",
                 "region_type": "event",
                 "position": [
                     5,
@@ -320,7 +320,7 @@
                     3,
                     1
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "Escape",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

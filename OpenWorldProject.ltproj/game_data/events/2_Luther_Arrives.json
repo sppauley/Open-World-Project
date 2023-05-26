@@ -19,6 +19,14 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
@@ -33,6 +41,14 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
@@ -44,6 +60,14 @@
                 [
                     "Simon",
                     "I'm certain you feel the same.{br}{w}Please, let's put a stop to this."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "FarRight",
+                    "right"
                 ]
             ],
             [

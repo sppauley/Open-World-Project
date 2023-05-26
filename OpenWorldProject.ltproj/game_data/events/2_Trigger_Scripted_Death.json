@@ -24,10 +24,23 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
                     "This ends here."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
                 ]
             ],
             [
@@ -60,9 +73,16 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Bandit1",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
-                    "Rebel",
+                    "Bandit1",
                     "Want me to cut 'em down, boss?"
                 ]
             ],
@@ -73,10 +93,30 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Percy (Percy)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Percy",
                     "No need, I hope."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bandit1"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
                 ]
             ],
             [
@@ -136,6 +176,13 @@
                 ]
             ],
             [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Percy (Percy)"
+                ]
+            ],
+            [
                 "wait",
                 [
                     "400"
@@ -165,6 +212,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Vincent",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Vincent",
@@ -172,10 +226,23 @@
                 ]
             ],
             [
+                "expression",
+                [
+                    "Vincent (Vincent)",
+                    "CloseEyes"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Vincent",
                     "I guess...{w} I failed."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vincent"
                 ]
             ],
             [
@@ -210,10 +277,30 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Luther",
+                    "HalfCloseEyes"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
-                    "Young lord...{w} please, get out of here."
+                    "Young lord...{w} please, get out..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luther (Luther)"
                 ]
             ],
             [

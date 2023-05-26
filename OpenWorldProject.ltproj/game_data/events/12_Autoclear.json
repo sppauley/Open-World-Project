@@ -27,6 +27,12 @@
                 ]
             ],
             [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",

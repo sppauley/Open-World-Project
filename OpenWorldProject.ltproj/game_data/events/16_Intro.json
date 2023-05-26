@@ -63,7 +63,7 @@
                 "sound",
                 [
                     "VillageDestroyed",
-                    "5"
+                    "6"
                 ]
             ],
             [
@@ -76,7 +76,7 @@
                 "sound",
                 [
                     "VillageDestroyed",
-                    "5"
+                    "7"
                 ]
             ],
             [
@@ -89,7 +89,7 @@
                 "sound",
                 [
                     "VillageDestroyed",
-                    "5"
+                    "8"
                 ]
             ],
             [
@@ -113,7 +113,7 @@
                 "sound",
                 [
                     "VillageDestroyed",
-                    "5"
+                    "9"
                 ]
             ],
             [
@@ -310,7 +310,7 @@
                 "speak",
                 [
                     "Percy",
-                    "The despot's day has come.{w} Set fire to the castle.{w}{br}If you find him, bring him to me!"
+                    "The despot's day has come.{w}{br}If you find him, bring him to me!"
                 ]
             ],
             [
@@ -401,21 +401,21 @@
                 "speak",
                 [
                     "Vincent",
-                    "Not for you- not yet.{w}{br}We must use this time to escape!"
+                    "Not for you- not yet.{w}{br}This castle stands while we do."
                 ]
             ],
             [
                 "speak",
                 [
                     "Simon",
-                    "I... yes...{w}{br}Do you have a plan?"
+                    "Yes...{w} I will not yield so pitifully."
                 ]
             ],
             [
                 "speak",
                 [
                     "Vincent",
-                    "The northern gate is our best chance.{w}{br}Please, follow me!"
+                    "Come, sire, let us enter the fray below."
                 ]
             ],
             [
