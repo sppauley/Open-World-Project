@@ -3,7 +3,7 @@
         "name": "Door",
         "trigger": "Door",
         "level_nid": "9",
-        "condition": "True",
+        "condition": "game.level_vars['NightPassed']==1",
         "commands": [
             [
                 "choice",

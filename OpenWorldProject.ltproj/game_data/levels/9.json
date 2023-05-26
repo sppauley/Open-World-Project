@@ -263,7 +263,7 @@
                     1
                 ],
                 "sub_nid": "Door",
-                "condition": "True",
+                "condition": "game.level_vars['NightPassed']==1",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -280,9 +280,9 @@
                     3
                 ],
                 "sub_nid": "Stairs",
-                "condition": "True",
+                "condition": " game.level_vars['NightPassed']!=1",
                 "time_left": null,
-                "only_once": true,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],

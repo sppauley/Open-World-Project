@@ -3,8 +3,32 @@
         "name": "Stairs",
         "trigger": "Stairs",
         "level_nid": "9",
-        "condition": "True",
+        "condition": "game.level_vars['NightPassed']!=1",
         "commands": [
+            [
+                "if",
+                [
+                    "game.level_vars['TalkMorrissey']!=1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I probably should talk to Lord Morrissey first."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I feel like he wouldn't be happy if I snooped around his rooms."
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
             [
                 "add_portrait",
                 [
@@ -42,7 +66,28 @@
             [
                 "wait",
                 [
-                    "500"
+                    "700"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "26,0"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Simon (Simon)",
+                    "fade",
+                    "north"
                 ]
             ],
             [
@@ -66,14 +111,42 @@
             [
                 "wait",
                 [
-                    "1000"
+                    "500"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Percy",
-                    "Find Verstadt."
+                    "Simon",
+                    "Take back House Verstadt..."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "300"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "NaglfarHit"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1500"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "",
+                    "Find Verstadt.",
+                    "",
+                    "",
+                    "noir"
                 ]
             ],
             [
@@ -109,12 +182,10 @@
                 ]
             ],
             [
-                "move_unit",
+                "add_unit",
                 [
                     "Simon",
-                    "28,2",
-                    "immediate",
-                    "closest"
+                    "28,2"
                 ]
             ],
             [
@@ -309,17 +380,15 @@
                 ]
             ],
             [
-                "interact_unit",
-                [
-                    "Percy",
-                    "Simon",
-                    "hit1,miss2,crit1"
-                ]
-            ],
-            [
                 "change_background",
                 [
                     "BlackBackground"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Critical Kill"
                 ]
             ],
             [
@@ -332,12 +401,6 @@
                 "hide_layer",
                 [
                     "verstadt"
-                ]
-            ],
-            [
-                "resurrect",
-                [
-                    "Simon"
                 ]
             ],
             [
@@ -425,9 +488,20 @@
                     "Simon",
                     "28,3"
                 ]
+            ],
+            [
+                "level_var",
+                [
+                    "NightPassed",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
-        "only_once": true,
+        "only_once": false,
         "priority": 20
     }
 ]
