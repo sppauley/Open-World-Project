@@ -6,9 +6,21 @@
         "condition": "unit.team=='player' and game.check_alive('Bordeaux')",
         "commands": [
             [
+                "center_cursor",
+                [
+                    "Bordeaux (Bordeaux)"
+                ]
+            ],
+            [
                 "unit_act",
                 [
                     "Bordeaux"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "{unit}"
                 ]
             ]
         ],
