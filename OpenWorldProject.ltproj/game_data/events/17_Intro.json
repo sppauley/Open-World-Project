@@ -41,6 +41,34 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "FreesHouse1Destroyed",
+                    "False"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "FreesHouse2Destroyed",
+                    "False"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "FreesHouse3Destroyed",
+                    "False"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "FreesHouse4Destroyed",
+                    "False"
+                ]
+            ],
+            [
                 "prep",
                 [
                     "t",

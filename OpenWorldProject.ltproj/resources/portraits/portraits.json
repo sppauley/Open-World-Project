@@ -862,5 +862,17 @@
             32
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "{Kanna, bwan,  Obsydian Daddy} F2E OC 1",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            32,
+            48
+        ],
+        "info_offset": 7
     }
 ]
