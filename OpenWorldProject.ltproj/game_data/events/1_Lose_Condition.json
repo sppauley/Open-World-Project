@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Lose Condition",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid=='Simon'",
+        "commands": [
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

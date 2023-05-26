@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Stairs",
+        "trigger": "Stairs",
+        "level_nid": "9",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I guess Morrissey was right. It has been a long day."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I just... don't know if I can sleep after everything."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Might as well try, though."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "BlackBackground"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "verstadt"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "28,2"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "fire"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "109"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "Guards"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -2,13 +2,13 @@
     {
         "name": "Intro",
         "trigger": "level_start",
-        "level_nid": "13",
+        "level_nid": "9",
         "condition": "True",
         "commands": [
             [
                 "comment",
                 [
-                    "# debug commands"
+                    "#debug"
                 ]
             ],
             [
@@ -20,13 +20,34 @@
             [
                 "comment",
                 [
-                    "# chapter intro commands"
+                    "#actual level"
                 ]
             ],
             [
                 "show_layer",
                 [
-                    "bars_closed"
+                    "top_layer"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "102"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "Morrissey (Morrissey)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "109"
                 ]
             ]
         ],
