@@ -42,6 +42,13 @@
                     "Simon",
                     "Morrissey (Morrissey)"
                 ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "109"
+                ]
             ]
         ],
         "only_once": false,

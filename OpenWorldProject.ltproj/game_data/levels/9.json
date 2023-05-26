@@ -232,6 +232,22 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Morrissey",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -251,9 +267,79 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "to_chambers",
+                "region_type": "event",
+                "position": [
+                    27,
+                    0
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "Stairs",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Guards",
+                "units": [
+                    "101",
+                    "103",
+                    "105",
+                    "102",
+                    "104",
+                    "106",
+                    "107",
+                    "108",
+                    "Morrissey"
+                ],
+                "positions": {
+                    "Morrissey": [
+                        16,
+                        4
+                    ],
+                    "108": [
+                        13,
+                        9
+                    ],
+                    "107": [
+                        18,
+                        9
+                    ],
+                    "106": [
+                        13,
+                        23
+                    ],
+                    "104": [
+                        18,
+                        23
+                    ],
+                    "105": [
+                        13,
+                        30
+                    ],
+                    "102": [
+                        18,
+                        30
+                    ],
+                    "103": [
+                        14,
+                        15
+                    ],
+                    "101": [
+                        17,
+                        15
+                    ]
+                }
+            }
+        ],
         "connections": []
     }
 ]

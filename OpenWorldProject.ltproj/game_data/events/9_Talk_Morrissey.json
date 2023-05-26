@@ -38,8 +38,22 @@
             [
                 "speak",
                 [
+                    "Morrissey",
+                    "What brings you here?"
+                ]
+            ],
+            [
+                "speak",
+                [
                     "Simon",
-                    "Lord Morrissey... House Verstadt has fallen."
+                    "Lord Morrissey... I need your help."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "House Verstadt has fallen."
                 ]
             ],
             [
@@ -133,10 +147,24 @@
                 ]
             ],
             [
+                "multi_remove_portrait",
+                [
+                    "Simon",
+                    "Morrissey"
+                ]
+            ],
+            [
                 "remove_talk",
                 [
                     "Simon",
                     "Morrissey (Morrissey)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "109",
+                    "22,15"
                 ]
             ]
         ],
