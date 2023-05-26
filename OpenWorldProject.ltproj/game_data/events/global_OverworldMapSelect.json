@@ -39,6 +39,12 @@
                 [
                     "# TODO: Figure out how to load into the map"
                 ]
+            ],
+            [
+                "enter_level_from_overworld",
+                [
+                    "{eval:game.overworld_controller.selected_party_node().prefab.level}"
+                ]
             ]
         ],
         "only_once": false,
