@@ -1,21 +1,19 @@
 [
     {
-        "nid": "Flower",
-        "name": "Flower",
+        "nid": "Vilge",
+        "name": "Vilge",
         "desc": "",
         "variant": null,
-        "level": 4,
-        "klass": "Wolf",
-        "tags": [
-            "Monster"
-        ],
+        "level": 3,
+        "klass": "Sage",
+        "tags": [],
         "bases": {
-            "HP": 25,
-            "CON": 4,
-            "MAG": 3,
-            "DEX": 9,
-            "SPD": 13,
-            "PSE": 14,
+            "HP": 40,
+            "CON": 8,
+            "MAG": 14,
+            "DEX": 12,
+            "SPD": 9,
+            "PSE": 16,
             "MOV": 0
         },
         "growths": {
@@ -29,7 +27,7 @@
         },
         "starting_items": [
             [
-                "Sharp Claw",
+                "Fimbulvetr",
                 false
             ]
         ],
@@ -54,7 +52,7 @@
             ],
             "Innate": [
                 false,
-                31
+                0
             ],
             "Light": [
                 false,
@@ -78,8 +76,8 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "{CanDy} Princess Wolfy",
-        "affinity": "None",
+        "portrait_nid": "{Freefall} F2U OC 2",
+        "affinity": null,
         "fields": []
     }
 ]

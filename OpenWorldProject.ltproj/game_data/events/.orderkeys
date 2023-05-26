@@ -119,5 +119,14 @@
     "1_Lose_Condition.json": 117,
     "8_Lose_Condition.json": 118,
     "17_Intro.json": 119,
-    "global_ExitMap.json": 120
+    "global_ExitMap.json": 120,
+    "17_Grave1.json": 121,
+    "17_Grave2.json": 122,
+    "17_Grave3.json": 123,
+    "17_Village1.json": 124,
+    "17_DestroyVillager.json": 125,
+    "17_Village2.json": 126,
+    "17_Village3.json": 127,
+    "17_Village4.json": 128,
+    "17_FlowerDies.json": 129
 }

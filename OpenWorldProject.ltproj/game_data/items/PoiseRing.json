@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PoiseRing",
+        "name": "Poise Ring",
+        "desc": "+3 Poise to holder.",
+        "icon_nid": "{Maxim} Accessory 11",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "PSEUpThree"
+            ]
+        ]
+    }
+]

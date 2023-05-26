@@ -11,6 +11,13 @@
                     "overlaytiles",
                     "immediate"
                 ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation"
+                ]
             ]
         ],
         "only_once": false,

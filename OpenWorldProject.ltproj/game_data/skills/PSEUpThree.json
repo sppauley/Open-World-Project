@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "PSEUpThree",
+        "name": "PSEUpThree",
+        "desc": "+3 PSE",
+        "icon_nid": "{Maxim} Accessory 11",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "PSE",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

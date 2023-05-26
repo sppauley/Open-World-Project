@@ -1,0 +1,144 @@
+[
+    {
+        "name": "DestroyVillager",
+        "trigger": "Village",
+        "level_nid": "17",
+        "condition": "unit.team == 'enemy'",
+        "commands": [
+            [
+                "sound",
+                [
+                    "VillageDestroyed",
+                    "2"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.position == (14,16)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedright"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.position == (8,12)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedleft"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village2"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.position == (14,6)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedtop"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village3"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.position == (6,5)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedtopright"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village4"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.get_unit(\"Flower\")"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Flower (Flower)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "Raarrgh!{w}{br}RARRGHH!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Flower (Flower)",
+                    "enemy2"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

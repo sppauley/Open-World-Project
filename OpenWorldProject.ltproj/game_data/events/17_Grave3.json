@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Grave3",
+        "trigger": "Grave",
+        "level_nid": "17",
+        "condition": "region.nid== \"Grave3\"",
+        "commands": [
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Here lies Nika, daughter of Matthew.{w}{br}Let her heart stay full.",
+                    "StyleNid=hint"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
