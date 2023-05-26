@@ -42,6 +42,14 @@
                     "Archer",
                     "FLAG(silent)"
                 ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Anuki (Anuki)",
+                    "PartyMember",
+                    "Yes"
+                ]
             ]
         ],
         "only_once": false,
