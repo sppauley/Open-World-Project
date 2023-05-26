@@ -81,6 +81,19 @@
                 "generic": false
             },
             {
+                "nid": "Juliet",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    8,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "102",
                 "variant": null,
                 "level": 5,
@@ -153,38 +166,14 @@
                 "generic": true
             },
             {
-                "nid": "105",
-                "variant": null,
-                "level": 5,
-                "klass": "Myrmidon",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "108",
                 "variant": null,
-                "level": 5,
-                "klass": "Myrmidon",
+                "level": 3,
+                "klass": "Knight",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -196,6 +185,30 @@
                 "starting_position": [
                     11,
                     15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 3,
+                "klass": "Knight",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true

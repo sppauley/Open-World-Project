@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Talk Morrissey",
+        "trigger": "on_talk",
+        "level_nid": "9",
+        "condition": "unit2.nid==\"Morrissey\"",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "16,6"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Left",
+                    "Morrissey",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Ah, young Simon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "I haven't seen you since you were quite young, if my memory serves me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Lord Morrissey... House Verstadt has fallen."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Cutting right to the chase, I see."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Well, young Simon, I'm glad you sought me out."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "We must stick together in times like these, after all."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "You are more than welcome to stay here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "And I will help you retake House Verstadt when the time comes."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I-I cannot thank you enough."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "No need. As I said before, we cannot afford to act selfishly nowadays."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Now, it seems like you've had a long day."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "I will have my servants prepare chambers for you and your retainers."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "... Thank you sir."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You will not regret giving me this chance."
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon",
+                    "Morrissey (Morrissey)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

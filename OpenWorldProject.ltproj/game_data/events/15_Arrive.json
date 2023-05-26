@@ -4,7 +4,12 @@
         "trigger": "Arrive",
         "level_nid": "15",
         "condition": "True",
-        "commands": [],
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
         "only_once": false,
         "priority": 20
     }

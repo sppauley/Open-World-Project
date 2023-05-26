@@ -110,5 +110,8 @@
     "15_Talk_Knight.json": 108,
     "15_Arrive.json": 109,
     "global_OverworldMapSelect.json": 110,
-    "16_Intro.json": 111
+    "16_Intro.json": 111,
+    "9_Intro.json": 112,
+    "9_Talk_Knight1.json": 113,
+    "9_Talk_Morrissey.json": 114
 }

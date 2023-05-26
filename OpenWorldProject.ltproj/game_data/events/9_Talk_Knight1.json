@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Talk Knight1",
+        "trigger": "on_talk",
+        "level_nid": "9",
+        "condition": "unit2.nid=='102'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "SoldierBlue",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierBlue",
+                    "You must be Lord Verstadt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierBlue",
+                    "His Lordship will see you now."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SoldierBlue",
+                    "Continue straight to the lord's study. He awaits your arrival."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon",
+                    "SoldierBlue"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon",
+                    "102"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
