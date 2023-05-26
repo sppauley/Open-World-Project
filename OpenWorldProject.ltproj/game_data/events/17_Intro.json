@@ -13,6 +13,34 @@
                 ]
             ],
             [
+                "hide_layer",
+                [
+                    "destroyedright",
+                    "immediate"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "destroyedleft",
+                    "immediate"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "destroyedtop",
+                    "immediate"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "destroyedtopright",
+                    "immediate"
+                ]
+            ],
+            [
                 "prep",
                 [
                     "t",

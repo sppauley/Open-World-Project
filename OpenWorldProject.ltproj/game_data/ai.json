@@ -763,30 +763,10 @@
         "nid": "DestroyVillage",
         "behaviours": [
             {
-                "action": "Move_to",
-                "target": "Event",
-                "target_spec": "Village",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
                 "action": "Interact",
                 "target": "Event",
                 "target_spec": "Village",
                 "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

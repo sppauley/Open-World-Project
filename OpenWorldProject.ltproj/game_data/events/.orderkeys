@@ -118,7 +118,7 @@
     "9_Stairs.json": 116,
     "1_Lose_Condition.json": 117,
     "8_Lose_Condition.json": 118,
-    "17_Intro.json": 130,
+    "9_Talk_Vincent.json": 119,
     "global_ExitMap.json": 120,
     "17_Grave1.json": 121,
     "17_Grave2.json": 122,
@@ -129,5 +129,5 @@
     "17_Village3.json": 127,
     "17_Village4.json": 128,
     "17_FlowerDies.json": 129,
-    "9_Talk_Vincent.json": 119
+    "17_Intro.json": 130
 }

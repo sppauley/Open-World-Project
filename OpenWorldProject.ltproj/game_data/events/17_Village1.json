@@ -3,7 +3,7 @@
         "name": "Village1",
         "trigger": "Village",
         "level_nid": "17",
-        "condition": "unit.team=='player'",
+        "condition": "unit.team=='player' and region.nid== \"Village1\"",
         "commands": [
             [
                 "add_portrait",

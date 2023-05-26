@@ -25,6 +25,13 @@
                 ]
             ],
             [
+                "change_ai",
+                [
+                    "{unit}",
+                    "Pursue"
+                ]
+            ],
+            [
                 "remove_region",
                 [
                     "Village1"
@@ -43,27 +50,16 @@
                 ]
             ],
             [
+                "change_ai",
+                [
+                    "{unit}",
+                    "Pursue"
+                ]
+            ],
+            [
                 "remove_region",
                 [
                     "Village2"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit.position == (14,6)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedtop"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village3"
                 ]
             ],
             [
@@ -75,7 +71,39 @@
             [
                 "show_layer",
                 [
+                    "destroyedtop"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "{unit}",
+                    "Pursue"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village3"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.position == (14,6)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
                     "destroyedtopright"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "{unit}",
+                    "Pursue"
                 ]
             ],
             [
