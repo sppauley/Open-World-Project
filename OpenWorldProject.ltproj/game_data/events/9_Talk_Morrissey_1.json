@@ -1,9 +1,9 @@
 [
     {
-        "name": "Talk Morrissey",
+        "name": "Talk Morrissey 1",
         "trigger": "on_talk",
         "level_nid": "9",
-        "condition": "unit2.nid==\"Morrissey\"",
+        "condition": "unit2.nid==\"Morrissey\" and game.level_vars['NightPassed']!=1",
         "commands": [
             [
                 "move_unit",
@@ -165,6 +165,13 @@
                 [
                     "109",
                     "22,15"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TalkMorrissey",
+                    "1"
                 ]
             ]
         ],
