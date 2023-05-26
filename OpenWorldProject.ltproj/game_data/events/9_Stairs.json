@@ -431,6 +431,26 @@
                 ]
             ],
             [
+                "load_unit",
+                [
+                    "Luther"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Luther",
+                    "18,15"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "Luther"
+                ]
+            ],
+            [
                 "remove_unit",
                 [
                     "Percy"
@@ -494,6 +514,20 @@
                 [
                     "NightPassed",
                     "1"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Guards",
+                    "starting"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "Morrissey"
                 ]
             ],
             [

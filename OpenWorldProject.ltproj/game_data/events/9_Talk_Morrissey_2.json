@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Talk Morrissey 2",
+        "trigger": "on_talk",
+        "level_nid": "9",
+        "condition": "unit2.nid==\"Morrissey\" and game.level_vars['NightPassed']==1",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon",
+                    "16,6"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Left",
+                    "Morrissey",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Simon, you seem tired."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Were the chambers not to your liking?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "No, the rooms were more than fine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I just had some trouble sleeping."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Understandable."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Look, you should take your mind off this."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Plus, it would be nice to see how you and your companions fight."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Why don't you join my daughter Anuki in a skirmish against my guard captain?"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "And perhaps, if I may be forward with you..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "This will spark something between Anuki and yourself as well."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "A union between our houses would be most advantageous."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "Especially given the state of yours, if you will excuse my frankness."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Wait, what?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "I only ask that you think on it."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "The training grounds are on the West side of the main hall."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon",
+                    "Morrissey"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon",
+                    "Morrissey (Morrissey)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
