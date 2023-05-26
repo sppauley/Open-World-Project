@@ -69,6 +69,130 @@
                 ]
             ],
             [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "6,19",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "8,18"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "15,13"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "15,13"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "8,9"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "8,9"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "10,1"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "10,1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Even here..."
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Nowhere on the plains is safe.{w}{br}The villages have either collapsed,{w} or will be soon overrun."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "We have to help them."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "How grateful am I that someone finally can."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Boudica",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
                 "prep",
                 [
                     "t",
