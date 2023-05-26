@@ -16,7 +16,8 @@
                 "prep",
                 [
                     "t",
-                    "Combat Preparation"
+                    "Combat Preparation",
+                    "FormationEnabled=True"
                 ]
             ]
         ],

@@ -41,6 +41,20 @@
             [
                 "end",
                 []
+            ],
+            [
+                "if",
+                [
+                    "unit.nid == 'Simon'"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,

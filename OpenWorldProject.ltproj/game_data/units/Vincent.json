@@ -78,6 +78,10 @@
             [
                 "PartyMember",
                 "No"
+            ],
+            [
+                "DeathQuote",
+                "Gah...{w} I've got to fall back.{w}{br}Sorry."
             ]
         ]
     }

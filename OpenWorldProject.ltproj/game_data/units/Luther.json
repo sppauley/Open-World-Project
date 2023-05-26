@@ -82,6 +82,10 @@
             [
                 "PartyMember",
                 "No"
+            ],
+            [
+                "DeathQuote",
+                "I cannot abandon milord yet...{w}{br}I'm sorry, but I must withdraw."
             ]
         ]
     }

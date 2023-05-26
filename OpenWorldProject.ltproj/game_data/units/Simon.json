@@ -78,6 +78,10 @@
             [
                 "PartyMember",
                 "No"
+            ],
+            [
+                "DeathQuote",
+                "I'm... I'm d-dying..."
             ]
         ]
     }

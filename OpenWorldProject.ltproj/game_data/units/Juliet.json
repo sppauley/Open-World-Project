@@ -74,6 +74,11 @@
         "alternate_classes": [],
         "portrait_nid": "Juliet",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "That's it...?{w} Agh, no, not yet.{w}{br}I'm out for now."
+            ]
+        ]
     }
 ]

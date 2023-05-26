@@ -252,7 +252,7 @@
                 "ai_group": "G2",
                 "starting_position": [
                     9,
-                    2
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -276,13 +276,37 @@
                 "ai_group": "G2",
                 "starting_position": [
                     11,
-                    2
+                    0
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
                 "nid": "111",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "G2",
+                "starting_position": [
+                    10,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
                 "variant": null,
                 "level": 3,
                 "klass": "Mage",
@@ -297,10 +321,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "G2",
+                "ai_group": "",
                 "starting_position": [
-                    10,
-                    3
+                    3,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true

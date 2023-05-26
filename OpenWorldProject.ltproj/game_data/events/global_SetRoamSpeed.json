@@ -11,6 +11,13 @@
                     "_roam_speed",
                     "0.60"
                 ]
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_all_units()]",
+                    "Reset Poise (Global Reset Poise)"
+                ]
             ]
         ],
         "only_once": false,

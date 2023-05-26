@@ -103,8 +103,23 @@
                     15
                 ],
                 "icon": "town",
-                "level": null,
-                "menu_options": []
+                "level": "17",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    },
+                    {
+                        "nid": "Roam",
+                        "event": null,
+                        "option_name": "Roam",
+                        "visible": false,
+                        "enabled": false
+                    }
+                ]
             },
             {
                 "nid": "33",

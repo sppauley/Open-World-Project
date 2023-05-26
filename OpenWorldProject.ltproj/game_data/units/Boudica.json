@@ -78,6 +78,11 @@
         "alternate_classes": [],
         "portrait_nid": "Boudica",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Hrgh...{w} A lucky blow."
+            ]
+        ]
     }
 ]

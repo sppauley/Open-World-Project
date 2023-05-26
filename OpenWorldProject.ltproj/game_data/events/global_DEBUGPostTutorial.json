@@ -24,6 +24,12 @@
                 ]
             ],
             [
+                "load_unit",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
                 "change_class",
                 [
                     "Juliet (Juliet)",
