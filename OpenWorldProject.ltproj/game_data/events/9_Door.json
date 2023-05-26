@@ -9,14 +9,14 @@
                 "choice",
                 [
                     "LeaveMorrisseyCastle",
-                    "Enter training grounds?",
-                    "Yes,No"
+                    "Training Grounds",
+                    "Enter Training Grounds,Go Back"
                 ]
             ],
             [
                 "if",
                 [
-                    "'{v:LeaveMorrisseyCastle}' == 'Yes'"
+                    "'{v:LeaveMorrisseyCastle}' == 'Enter Training Grounds'"
                 ]
             ],
             [

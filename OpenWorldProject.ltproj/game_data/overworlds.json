@@ -65,12 +65,12 @@
                     9
                 ],
                 "icon": "map_node",
-                "level": "8",
+                "level": "15",
                 "menu_options": [
                     {
-                        "nid": "Battle",
+                        "nid": "Roam",
                         "event": null,
-                        "option_name": "Battle",
+                        "option_name": "Roam",
                         "visible": true,
                         "enabled": true
                     }
