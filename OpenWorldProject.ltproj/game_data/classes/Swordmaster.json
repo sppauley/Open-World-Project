@@ -56,12 +56,7 @@
             "PSE": 20,
             "CON": 22
         },
-        "learned_skills": [
-            [
-                1,
-                "Crit +15"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 2,

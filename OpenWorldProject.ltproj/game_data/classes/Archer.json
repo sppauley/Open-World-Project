@@ -16,10 +16,10 @@
             "HP": 18,
             "SPD": 4,
             "MOV": 5,
-            "DEX": 3,
+            "DEX": 7,
             "MAG": 0,
             "PSE": 7,
-            "CON": 0
+            "CON": 4
         },
         "growths": {
             "HP": 70,
@@ -28,7 +28,7 @@
             "DEX": 40,
             "MAG": 0,
             "PSE": 0,
-            "CON": 0
+            "CON": 18
         },
         "growth_bonus": {
             "HP": 0,

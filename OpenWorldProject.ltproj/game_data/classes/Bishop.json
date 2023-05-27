@@ -54,12 +54,7 @@
             "PSE": 20,
             "CON": 25
         },
-        "learned_skills": [
-            [
-                1,
-                "Slayer"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -77,9 +72,9 @@
                 false,
                 0
             ],
-            "Staff": [
-                true,
-                1
+            "Innate": [
+                false,
+                0
             ],
             "Light": [
                 true,
@@ -92,6 +87,10 @@
             "Dark": [
                 false,
                 0
+            ],
+            "Staff": [
+                true,
+                1
             ],
             "Default": [
                 false,

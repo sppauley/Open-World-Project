@@ -65,10 +65,6 @@
             [
                 1,
                 "Flying"
-            ],
-            [
-                1,
-                "Canto"
             ]
         ],
         "wexp_gain": {
@@ -88,7 +84,7 @@
                 false,
                 0
             ],
-            "Staff": [
+            "Innate": [
                 false,
                 0
             ],
@@ -101,6 +97,10 @@
                 0
             ],
             "Dark": [
+                false,
+                0
+            ],
+            "Staff": [
                 false,
                 0
             ],

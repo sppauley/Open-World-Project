@@ -59,12 +59,7 @@
             "PSE": 25,
             "CON": 20
         },
-        "learned_skills": [
-            [
-                1,
-                "Canto"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
