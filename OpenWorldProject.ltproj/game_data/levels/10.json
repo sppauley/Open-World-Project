@@ -291,6 +291,216 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 10,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 10,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 10,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 10,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 10,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -431,7 +641,65 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Turn3",
+                "units": [
+                    "112",
+                    "116",
+                    "113",
+                    "114",
+                    "115",
+                    "118",
+                    "117",
+                    "120",
+                    "119",
+                    "121"
+                ],
+                "positions": {
+                    "112": [
+                        0,
+                        23
+                    ],
+                    "113": [
+                        0,
+                        24
+                    ],
+                    "116": [
+                        0,
+                        25
+                    ],
+                    "114": [
+                        24,
+                        24
+                    ],
+                    "115": [
+                        24,
+                        25
+                    ],
+                    "118": [
+                        23,
+                        26
+                    ],
+                    "117": [
+                        10,
+                        26
+                    ],
+                    "120": [
+                        11,
+                        26
+                    ],
+                    "119": [
+                        13,
+                        26
+                    ],
+                    "121": [
+                        14,
+                        26
+                    ]
+                }
+            }
+        ],
         "connections": []
     }
 ]
