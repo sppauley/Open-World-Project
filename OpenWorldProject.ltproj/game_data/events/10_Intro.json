@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "10",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# Debug commands"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "DEBUGPostTutorial (Global DEBUGPostTutorial)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Boudica"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Nika"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Kajal"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Flower"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Actual intro"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "dark"
+                ]
+            ],
+            [
+                "add_weather",
+                [
+                    "purple"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "t"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

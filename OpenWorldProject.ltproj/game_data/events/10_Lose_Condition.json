@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Lose Condition",
+        "trigger": "DefendObjective",
+        "level_nid": "10",
+        "condition": "unit.team=='enemy'",
+        "commands": [
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
