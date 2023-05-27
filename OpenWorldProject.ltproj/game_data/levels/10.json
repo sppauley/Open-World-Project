@@ -46,8 +46,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    13,
-                    9
+                    14,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -71,20 +71,20 @@
                 "ai_group": null,
                 "starting_position": [
                     12,
-                    10
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "103",
+                "nid": "104",
                 "variant": null,
-                "level": 8,
-                "klass": "Fighter",
+                "level": 9,
+                "klass": "Mercenary",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -94,8 +94,200 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    16,
-                    9
+                    3,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 9,
+                "klass": "Mercenary",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 5,
+                "klass": "Hero",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    2,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 8,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    24,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 8,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    23,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 4,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    23,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    10,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true

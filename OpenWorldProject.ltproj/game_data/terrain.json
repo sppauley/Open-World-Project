@@ -475,7 +475,7 @@
         "minimap": "Sand",
         "platform": "Forest",
         "background": "combat_marsh",
-        "mtype": "Desert",
+        "mtype": "Thicket",
         "opaque": false,
         "status": "Marsh"
     },
