@@ -94,6 +94,19 @@
                 "generic": false
             },
             {
+                "nid": "Nika",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "102",
                 "variant": null,
                 "level": 5,

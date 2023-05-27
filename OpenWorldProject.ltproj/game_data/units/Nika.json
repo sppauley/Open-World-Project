@@ -3,7 +3,7 @@
         "nid": "Nika",
         "name": "Nika",
         "desc": "",
-        "variant": null,
+        "variant": "_Nika",
         "level": 1,
         "klass": "Soldier",
         "tags": [],
@@ -72,7 +72,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "{Kanna, bwan,  Obsydian Daddy} F2E OC 1",
-        "affinity": null,
+        "affinity": "None",
         "fields": []
     }
 ]
