@@ -1,0 +1,11 @@
+[
+    {
+        "name": "TalkGirlAndFlower",
+        "trigger": "on_talk",
+        "level_nid": "FVRoaming",
+        "condition": "unit2.nid in [\"101\", \"Flower\"]",
+        "commands": [],
+        "only_once": false,
+        "priority": 20
+    }
+]

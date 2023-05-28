@@ -6,6 +6,12 @@
         "condition": "True",
         "commands": [
             [
+                "comment",
+                [
+                    "### Intro setup"
+                ]
+            ],
+            [
                 "if",
                 [
                     "{v:FreesHouse1Destroyed}"
@@ -60,6 +66,70 @@
             [
                 "end",
                 []
+            ],
+            [
+                "if",
+                [
+                    "not {v:FlowerRecruited}"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (101)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Flower (Flower)",
+                    "immediate"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# Talks:"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (101)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (102)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "###############"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
             ]
         ],
         "only_once": false,

@@ -15,7 +15,7 @@
                 "add_portrait",
                 [
                     "Simon (Simon)",
-                    "Right"
+                    "FarLeft"
                 ]
             ],
             [
@@ -443,6 +443,13 @@
                 [
                     "Luther",
                     "Simon (Simon)"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "FlowerRecruited",
+                    "Yes"
                 ]
             ],
             [

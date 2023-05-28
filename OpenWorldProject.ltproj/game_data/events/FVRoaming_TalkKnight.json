@@ -1,0 +1,11 @@
+[
+    {
+        "name": "TalkKnight",
+        "trigger": "on_talk",
+        "level_nid": "FVRoaming",
+        "condition": "unit2.nid == \"102\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20
+    }
+]
