@@ -13,7 +13,7 @@
         },
         "roam": false,
         "roam_unit": "Simon",
-        "go_to_overworld": true,
+        "go_to_overworld": false,
         "units": [
             {
                 "nid": "Simon",
@@ -384,6 +384,22 @@
                     9,
                     13
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": "Female",
+                "level": 1,
+                "klass": "Girl",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }

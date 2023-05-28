@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "FVRoaming",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "{v:FreesHouse1Destroyed}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedright",
+                    "immediate"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{v:FreesHouse2Destroyed}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedleft",
+                    "immediate"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{v:FreesHouse3Destroyed}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedtop",
+                    "immediate"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "{v:FreesHouse4Destroyed}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "destroyedtopright",
+                    "immediate"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

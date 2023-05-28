@@ -38,6 +38,13 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "FreesHouse1Destroyed",
+                    "True"
+                ]
+            ],
+            [
                 "elif",
                 [
                     "unit.position == (8,12)"
@@ -63,6 +70,13 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "FreesHouse2Destroyed",
+                    "True"
+                ]
+            ],
+            [
                 "elif",
                 [
                     "unit.position == (6,5)"
@@ -85,6 +99,13 @@
                 "remove_region",
                 [
                     "Village3"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "FreesHouse3Destroyed",
+                    "True"
                 ]
             ],
             [
@@ -160,6 +181,13 @@
             [
                 "end",
                 []
+            ],
+            [
+                "game_var",
+                [
+                    "FreesHouse4Destroyed",
+                    "True"
+                ]
             ],
             [
                 "end",
