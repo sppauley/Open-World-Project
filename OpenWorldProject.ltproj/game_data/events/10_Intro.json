@@ -115,6 +115,10 @@
                 ]
             ],
             [
+                "arrange_formation",
+                []
+            ],
+            [
                 "prep",
                 [
                     "t"
