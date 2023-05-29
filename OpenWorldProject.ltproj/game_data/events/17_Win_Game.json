@@ -32,6 +32,13 @@
                 ]
             ],
             [
+                "game_var",
+                [
+                    "FlowerRecruited",
+                    "False"
+                ]
+            ],
+            [
                 "load_unit",
                 [
                     "Anuki (Anuki)"
@@ -118,6 +125,13 @@
             [
                 "else",
                 []
+            ],
+            [
+                "game_var",
+                [
+                    "FlowerRecruited",
+                    "True"
+                ]
             ],
             [
                 "comment",

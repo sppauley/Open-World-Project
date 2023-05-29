@@ -12,6 +12,13 @@
                 ]
             ],
             [
+                "show_layer",
+                [
+                    "overlaytiles",
+                    "immediate"
+                ]
+            ],
+            [
                 "if",
                 [
                     "{v:FreesHouse1Destroyed}"

@@ -16,28 +16,32 @@
                 "hide_layer",
                 [
                     "destroyedright",
-                    "immediate"
+                    "immediate",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "hide_layer",
                 [
                     "destroyedleft",
-                    "immediate"
+                    "immediate",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "hide_layer",
                 [
                     "destroyedtop",
-                    "immediate"
+                    "immediate",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "hide_layer",
                 [
                     "destroyedtopright",
-                    "immediate"
+                    "immediate",
+                    "FLAG(no_warn)"
                 ]
             ],
             [

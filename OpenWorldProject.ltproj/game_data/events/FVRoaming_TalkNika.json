@@ -183,6 +183,27 @@
                     "Simon",
                     "Wait, there's something in here."
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Nika (Nika)",
+                    "Nika's Teddy (TeddyBear)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Hah, no way.{w} They threw my old teddy in.{w}{br}Thanks, Simon. It's good to have this back."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Nika (Nika)",
+                    "Simon (Simon)"
+                ]
             ]
         ],
         "only_once": true,
