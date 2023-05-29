@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Heartseeker",
+        "name": "Heartseeker",
+        "desc": "-15 hit and avoid to adjacent enemies",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Heartseeker_Effect"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "'enemy' in unit.team"
+            ]
+        ]
+    }
+]

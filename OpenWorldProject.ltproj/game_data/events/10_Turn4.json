@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "10",
+        "condition": "game.turncount==4",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Turn4"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "16,1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
