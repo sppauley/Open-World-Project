@@ -2,5 +2,9 @@
     {
         "nid": "FlowerRecruited",
         "desc": "Was Flower recruited in Frees Village?"
+    },
+    {
+        "nid": "OpenedNikasGrave",
+        "desc": "Did Simon and Nika dig up her grave?"
     }
 ]

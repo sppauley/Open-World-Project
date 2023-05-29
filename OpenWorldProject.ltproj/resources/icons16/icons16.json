@@ -91,5 +91,9 @@
     {
         "nid": "{Maxim} Accessory 11",
         "subicon_dict": {}
+    },
+    {
+        "nid": "teddybear",
+        "subicon_dict": {}
     }
 ]

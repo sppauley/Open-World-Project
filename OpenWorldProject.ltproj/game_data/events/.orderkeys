@@ -140,5 +140,8 @@
     "FVRoaming_Intro.json": 138,
     "17_Win_Game.json": 139,
     "FVRoaming_TalkGirlAndFlower.json": 140,
-    "FVRoaming_TalkKnight.json": 141
+    "FVRoaming_TalkKnight.json": 141,
+    "FVRoaming_TalkMerchant.json": 142,
+    "FVRoaming_TalkNika.json": 143,
+    "FVRoaming_CapturedEnemy.json": 144
 }

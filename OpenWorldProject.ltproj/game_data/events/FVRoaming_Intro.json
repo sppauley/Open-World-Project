@@ -38,6 +38,36 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Bandit (104)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (105)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (106)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (107)"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "CapturedEnemy"
+                ]
+            ],
+            [
                 "elif",
                 [
                     "{v:FreesHouse3Destroyed}"
@@ -70,6 +100,22 @@
             [
                 "if",
                 [
+                    "{v:OpenedNikasGrave}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "opengrave"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
                     "not {v:FlowerRecruited}"
                 ]
             ],
@@ -90,6 +136,16 @@
             [
                 "end",
                 []
+            ],
+            [
+                "add_unit",
+                [
+                    "Nika",
+                    "18,1",
+                    "immediate",
+                    "push",
+                    "FLAG(no_warn)"
+                ]
             ],
             [
                 "comment",
@@ -116,6 +172,21 @@
                 [
                     "Simon (Simon)",
                     "Soldier (102)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (103)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Nika",
+                    "FLAG(no_warn)"
                 ]
             ],
             [

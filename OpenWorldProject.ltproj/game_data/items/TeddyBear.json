@@ -1,0 +1,40 @@
+[
+    {
+        "nid": "TeddyBear",
+        "name": "Nika's Teddy",
+        "desc": "Nika's Teddy Bear from her childhood. Heals user to full health. Nika only.",
+        "icon_nid": "teddybear",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Nika"
+                ]
+            ],
+            [
+                "unstealable",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "heal",
+                99
+            ]
+        ]
+    }
+]

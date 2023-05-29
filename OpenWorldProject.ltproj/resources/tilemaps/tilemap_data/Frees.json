@@ -3501,6 +3501,20 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "opengrave",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "19,1": [
+                        "54728",
+                        [
+                            11,
+                            8
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

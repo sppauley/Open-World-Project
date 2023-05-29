@@ -20,7 +20,7 @@
             "win": "Don't Crash",
             "loss": "Crash"
         },
-        "roam": true,
+        "roam": false,
         "roam_unit": "Eirika",
         "go_to_overworld": false,
         "units": [
@@ -117,6 +117,19 @@
                 "starting_position": [
                     6,
                     9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nika",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false

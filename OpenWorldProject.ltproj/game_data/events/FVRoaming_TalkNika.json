@@ -1,0 +1,191 @@
+[
+    {
+        "name": "TalkNika",
+        "trigger": "on_talk",
+        "level_nid": "FVRoaming",
+        "condition": "unit2.nid == \"Nika\"",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Nika (Nika)",
+                    "MidRight",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Here lies Nika..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Nika (Nika)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Ever read your own gravestone?{w}{br}Strange feeling."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "No, I can't say I have.{w}{br}I didn't know you were from here."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Born and raised.{w} And buried, apparently."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "19,2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "It's a lovely epitaph."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Yeah."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Do you have any family left here?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Not one.{w} I was the last of mine."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Ah.{w}{br}..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "I'm gonna dig it up.{w}{br}Wanna help?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I don't know how I feel about grave robbing."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "It's empty, Simon."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I suppose, then..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "2500"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "opengrave"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "OpenedNikasGrave",
+                    "1"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "There.{w} Just try and keep me in the dirt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Wait, there's something in here."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

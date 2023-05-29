@@ -51,6 +51,14 @@
                     "STR,20,SPD,99",
                     "FLAG(immediate)"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Nika (Nika)",
+                    "Nika's Teddy (TeddyBear)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
