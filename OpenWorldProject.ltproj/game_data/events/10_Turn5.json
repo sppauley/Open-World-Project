@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "10",
+        "condition": "game.turncount==5",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Turn5"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "0,24"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "23,24"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "6,26"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "19,26"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

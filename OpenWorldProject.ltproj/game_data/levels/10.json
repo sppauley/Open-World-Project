@@ -564,6 +564,132 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 10,
+                "klass": "Wyvern Rider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 10,
+                "klass": "Wyvern Rider",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 10,
+                "klass": "Mage",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Hero",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 10,
+                "klass": "Fighter",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 3,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -781,6 +907,43 @@
                     "124": [
                         18,
                         1
+                    ]
+                }
+            },
+            {
+                "nid": "Turn5",
+                "units": [
+                    "125",
+                    "126",
+                    "129",
+                    "127",
+                    "130",
+                    "128"
+                ],
+                "positions": {
+                    "125": [
+                        5,
+                        26
+                    ],
+                    "126": [
+                        19,
+                        26
+                    ],
+                    "129": [
+                        0,
+                        23
+                    ],
+                    "127": [
+                        0,
+                        24
+                    ],
+                    "130": [
+                        24,
+                        23
+                    ],
+                    "128": [
+                        24,
+                        24
                     ]
                 }
             }
