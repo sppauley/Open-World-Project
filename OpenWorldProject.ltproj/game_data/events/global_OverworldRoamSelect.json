@@ -1,0 +1,71 @@
+[
+    {
+        "name": "OverworldRoamSelect",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "CurrentNode",
+                    "{eval:game.overworld_controller.selected_party_node().nid}"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "NextLevel",
+                    "DEBUG"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Prepare for a long ass if statement chain"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:CurrentNode}' == '32'"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Frees Village"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "NextLevel",
+                    "FVRoaming"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# Actually enter"
+                ]
+            ],
+            [
+                "enter_level_from_overworld",
+                [
+                    "{v:NextLevel}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

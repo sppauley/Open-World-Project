@@ -95,6 +95,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Boudica",
@@ -152,6 +159,26 @@
             [
                 "reveal_overworld_node",
                 [
+                    "The Eastern Highway (31)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_overworld_position",
+                [
+                    "Simon's Group (Simon)",
+                    "The Eastern Highway (31)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "The Eastern Highway (31)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
                     "Frees Village (32)"
                 ]
             ],
@@ -159,7 +186,8 @@
                 "reveal_overworld_road",
                 [
                     "31",
-                    "32"
+                    "32",
+                    "FLAG(immediate)"
                 ]
             ],
             [
@@ -172,7 +200,8 @@
                 "reveal_overworld_road",
                 [
                     "31",
-                    "34"
+                    "34",
+                    "FLAG(immediate)"
                 ]
             ],
             [
@@ -185,7 +214,8 @@
                 "reveal_overworld_road",
                 [
                     "31",
-                    "33"
+                    "33",
+                    "FLAG(immediate)"
                 ]
             ]
         ],

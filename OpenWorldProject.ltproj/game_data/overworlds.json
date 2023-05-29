@@ -114,7 +114,7 @@
                     },
                     {
                         "nid": "Roam",
-                        "event": null,
+                        "event": "OverworldRoamSelect",
                         "option_name": "Roam",
                         "visible": false,
                         "enabled": false
@@ -208,7 +208,7 @@
             },
             {
                 "nid": "40",
-                "name": "New Location",
+                "name": "Maligned Fort",
                 "pos": [
                     20,
                     14

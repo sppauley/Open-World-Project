@@ -143,5 +143,7 @@
     "FVRoaming_TalkKnight.json": 141,
     "FVRoaming_TalkMerchant.json": 142,
     "FVRoaming_TalkNika.json": 143,
-    "FVRoaming_CapturedEnemy.json": 144
+    "FVRoaming_CapturedEnemy.json": 144,
+    "global_OverworldRoamSelect.json": 145,
+    "FVRoaming_Outro.json": 146
 }

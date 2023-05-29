@@ -6,5 +6,9 @@
     {
         "nid": "OpenedNikasGrave",
         "desc": "Did Simon and Nika dig up her grave?"
+    },
+    {
+        "nid": "freely_exit",
+        "desc": "Can exit from roaming menu?"
     }
 ]

@@ -35,6 +35,15 @@
                 ]
             ],
             [
+                "set_overworld_menu_option_enabled",
+                [
+                    "{eval:game.overworld_controller.selected_party_node().nid}",
+                    "Roam",
+                    "True",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "# TODO: Figure out how to load into the map"
