@@ -6,6 +6,54 @@
         "condition": "True",
         "commands": [
             [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#    How to add to this event:"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#    Add an elif statement in the form of line 11 (remember quotes)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#    When you set the NextLevel level_var make sure your level ID has quotes around it"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#    Otherwise the game will crash when trying to load lmao"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
                 "level_var",
                 [
                     "CurrentNode",
@@ -16,7 +64,7 @@
                 "level_var",
                 [
                     "NextLevel",
-                    "DEBUG"
+                    "\"DEBUG\""
                 ]
             ],
             [
@@ -41,7 +89,7 @@
                 "level_var",
                 [
                     "NextLevel",
-                    "FVRoaming"
+                    "\"FVRoaming\""
                 ]
             ],
             [
