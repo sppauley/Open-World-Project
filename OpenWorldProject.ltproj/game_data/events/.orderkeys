@@ -148,5 +148,6 @@
     "FVRoaming_Outro.json": 146,
     "18_Intro.json": 147,
     "18_Survive_Count.json": 148,
-    "18_Caylus_Killed.json": 149
+    "18_Caylus_Killed.json": 149,
+    "global_AutolevelEnemies.json": 150
 }
