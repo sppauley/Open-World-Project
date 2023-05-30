@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Survive Count",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 10",
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

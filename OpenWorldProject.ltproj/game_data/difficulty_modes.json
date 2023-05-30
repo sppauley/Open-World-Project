@@ -3,7 +3,7 @@
         "nid": "Normal",
         "name": "Normal",
         "color": "blue",
-        "permadeath_choice": "Classic",
+        "permadeath_choice": "Casual",
         "growths_choice": "Random",
         "rng_choice": "True Hit",
         "player_bases": {
@@ -82,6 +82,6 @@
         "enemy_autolevels": 0,
         "boss_autolevels": 0,
         "promoted_autolevels_fraction": 1.0,
-        "start_locked": false
+        "start_locked": true
     }
 ]

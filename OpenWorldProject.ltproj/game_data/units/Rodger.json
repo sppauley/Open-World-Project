@@ -1,40 +1,31 @@
 [
     {
-        "nid": "Yusna",
-        "name": "Yusna",
-        "desc": "",
-        "variant": "",
+        "nid": "Rodger",
+        "name": "Rodger",
+        "desc": "The captain of a small trading vessel.",
+        "variant": null,
         "level": 1,
-        "klass": "Monk",
+        "klass": "Pirate",
         "tags": [],
         "bases": {
-            "HP": 14,
-            "MAG": 11,
-            "DEX": 8,
-            "SPD": 14,
-            "PSE": 9,
-            "MOV": 5,
-            "CON": 5
+            "HP": 25,
+            "CON": 9,
+            "MAG": 3,
+            "DEX": 6,
+            "SPD": 7,
+            "PSE": 11,
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
+            "CON": 0,
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
             "PSE": 0,
-            "MOV": 0,
-            "CON": 0
+            "MOV": 0
         },
-        "starting_items": [
-            [
-                "Beloved",
-                false
-            ],
-            [
-                "Fire",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -48,7 +39,7 @@
             ],
             "Axe": [
                 false,
-                0
+                31
             ],
             "Bow": [
                 false,
@@ -60,7 +51,7 @@
             ],
             "Light": [
                 false,
-                71
+                0
             ],
             "Anima": [
                 false,
@@ -80,13 +71,8 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "yusna",
-        "affinity": "None",
-        "fields": [
-            [
-                "DeathQuote",
-                "A shame I can't push further.{w}{br}I apologize."
-            ]
-        ]
+        "portrait_nid": "Captain",
+        "affinity": null,
+        "fields": []
     }
 ]

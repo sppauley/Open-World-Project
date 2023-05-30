@@ -405,7 +405,7 @@
             16,
             40
         ],
-        "info_offset": 0
+        "info_offset": 5
     },
     {
         "nid": "Bazba",
@@ -910,5 +910,17 @@
             48
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Captain",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 7
     }
 ]

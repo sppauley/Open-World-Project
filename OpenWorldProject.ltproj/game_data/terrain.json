@@ -553,5 +553,20 @@
         "mtype": "Cliff",
         "opaque": false,
         "status": null
+    },
+    {
+        "nid": "Rope",
+        "name": "Rope",
+        "color": [
+            0,
+            255,
+            255
+        ],
+        "minimap": "Switch",
+        "platform": "Arena",
+        "background": "Cliff",
+        "mtype": "Forest",
+        "opaque": false,
+        "status": "AvoidDown10"
     }
 ]

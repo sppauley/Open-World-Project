@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "18",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "topdoor",
+                    "fade",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "arrange_formation",
+                []
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation",
+                    "",
+                    "",
+                    "",
+                    "t"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "nid": "18",
+        "name": "Offshore Expedition",
+        "tilemap": "Ship",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "{e:10 - game.turncount} turns remain",
+            "win": "Survive or Defeat Boss",
+            "loss": "Simon dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": true,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Yusna",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Caylus",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Rodger",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    11,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "F1",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    24
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F2",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F2_1",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    17
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "F2_2",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    16
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "StartingPirates",
+                "units": [
+                    "Caylus"
+                ],
+                "positions": {}
+            }
+        ],
+        "connections": []
+    }
+]

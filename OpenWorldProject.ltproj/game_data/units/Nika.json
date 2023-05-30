@@ -78,6 +78,11 @@
         "alternate_classes": [],
         "portrait_nid": "{Kanna, bwan,  Obsydian Daddy} F2E OC 1",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "N-no... keep control...{w}{br}I need to back off, or..."
+            ]
+        ]
     }
 ]

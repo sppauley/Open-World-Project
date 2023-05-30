@@ -1,38 +1,34 @@
 [
     {
-        "nid": "Yusna",
-        "name": "Yusna",
-        "desc": "",
-        "variant": "",
+        "nid": "Caylus",
+        "name": "Caylus",
+        "desc": "A towering pirate leader.\nIt's all for the thrill.",
+        "variant": null,
         "level": 1,
-        "klass": "Monk",
+        "klass": "Berserker",
         "tags": [],
         "bases": {
-            "HP": 14,
-            "MAG": 11,
-            "DEX": 8,
-            "SPD": 14,
-            "PSE": 9,
-            "MOV": 5,
-            "CON": 5
+            "HP": 30,
+            "CON": 11,
+            "MAG": 5,
+            "DEX": 14,
+            "SPD": 6,
+            "PSE": 17,
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
+            "CON": 0,
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
             "PSE": 0,
-            "MOV": 0,
-            "CON": 0
+            "MOV": 0
         },
         "starting_items": [
             [
-                "Beloved",
-                false
-            ],
-            [
-                "Fire",
-                false
+                "Silver Axe",
+                true
             ]
         ],
         "learned_skills": [],
@@ -48,7 +44,7 @@
             ],
             "Axe": [
                 false,
-                0
+                181
             ],
             "Bow": [
                 false,
@@ -60,7 +56,7 @@
             ],
             "Light": [
                 false,
-                71
+                0
             ],
             "Anima": [
                 false,
@@ -80,13 +76,8 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "yusna",
+        "portrait_nid": "Bone",
         "affinity": "None",
-        "fields": [
-            [
-                "DeathQuote",
-                "A shame I can't push further.{w}{br}I apologize."
-            ]
-        ]
+        "fields": []
     }
 ]

@@ -145,5 +145,8 @@
     "FVRoaming_TalkNika.json": 143,
     "FVRoaming_CapturedEnemy.json": 144,
     "global_OverworldRoamSelect.json": 145,
-    "FVRoaming_Outro.json": 146
+    "FVRoaming_Outro.json": 146,
+    "18_Intro.json": 147,
+    "18_Survive_Count.json": 148,
+    "18_Caylus_Killed.json": 149
 }
