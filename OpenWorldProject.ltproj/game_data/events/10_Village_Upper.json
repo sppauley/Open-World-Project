@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Village_Upper",
+        "trigger": "Visit",
+        "level_nid": "10",
+        "condition": "region.nid=='Village_Upper'",
+        "commands": [
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Killer Bow"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Village_Upper"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

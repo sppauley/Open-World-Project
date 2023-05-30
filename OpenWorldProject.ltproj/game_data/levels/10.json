@@ -703,6 +703,69 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -841,6 +904,40 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Village_Upper",
+                "region_type": "event",
+                "position": [
+                    23,
+                    5
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village_Lower",
+                "region_type": "event",
+                "position": [
+                    1,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -952,11 +1049,33 @@
                     ],
                     "130": [
                         24,
-                        23
+                        15
                     ],
                     "128": [
                         24,
-                        24
+                        16
+                    ]
+                }
+            },
+            {
+                "nid": "Turn6",
+                "units": [
+                    "131",
+                    "132",
+                    "133"
+                ],
+                "positions": {
+                    "131": [
+                        17,
+                        9
+                    ],
+                    "132": [
+                        18,
+                        8
+                    ],
+                    "133": [
+                        3,
+                        7
                     ]
                 }
             }

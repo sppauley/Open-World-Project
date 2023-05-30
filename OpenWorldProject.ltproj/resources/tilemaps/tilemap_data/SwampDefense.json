@@ -5414,6 +5414,34 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "Village_Upper",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "23,5": [
+                        "SacredStonesBase",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "Village_Lower",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "1,15": [
+                        "SacredStonesBase",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

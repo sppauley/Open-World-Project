@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Village_Lower",
+        "trigger": "Visit",
+        "level_nid": "10",
+        "condition": "region.nid=='Village_Lower'",
+        "commands": [
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Horseslayer (Horseslayer)"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "Village_Lower"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

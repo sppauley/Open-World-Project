@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "10",
+        "condition": "game.turncount==6",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Turn6"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "17,9"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "3,7"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
