@@ -9,7 +9,7 @@
                 "level_var",
                 [
                     "AvgPlayerLvl",
-                    "{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not unit.get_field(\"IgnoreLvl\")])/len([u for u in game.units if not u.dead and u.team == \"player\"]))}"
+                    "{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")])/len([u for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")]))}"
                 ]
             ],
             [
