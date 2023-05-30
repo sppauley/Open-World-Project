@@ -1,0 +1,48 @@
+[
+    {
+        "name": "AutolevelEnemies",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "AvgPlayerLvl",
+                    "{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not unit.get_field(\"IgnoreLvl\")])/len([u for u in game.units if not u.dead and u.team == \"player\"]))}"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "enemy_unit",
+                    "[u.nid for u in game.units if u.team.startswith('enemy')]"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.get_unit(\"{enemy_unit}\").level < v('AvgPlayerLvl')"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "{enemy_unit}",
+                    "{v:AvgPlayerLvl}",
+                    "fixed"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "endf",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

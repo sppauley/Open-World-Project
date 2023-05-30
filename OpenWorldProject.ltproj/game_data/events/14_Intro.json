@@ -294,7 +294,11 @@
                 "prep",
                 [
                     "t",
-                    "Combat Preparation"
+                    "Combat Preparation",
+                    "",
+                    "",
+                    "",
+                    "t"
                 ]
             ]
         ],
