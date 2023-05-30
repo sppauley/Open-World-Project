@@ -1,20 +1,20 @@
 [
     {
-        "name": "Turn5",
+        "name": "Turn8",
         "trigger": "turn_change",
         "level_nid": "10",
-        "condition": "game.turncount==5",
+        "condition": "game.turncount==8",
         "commands": [
             [
                 "add_group",
                 [
-                    "Turn5"
+                    "Turn8"
                 ]
             ],
             [
                 "flicker_cursor",
                 [
-                    "0,24"
+                    "0,23"
                 ]
             ],
             [
@@ -38,19 +38,7 @@
             [
                 "flicker_cursor",
                 [
-                    "6,26"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "19,26"
+                    "12,25"
                 ]
             ],
             [
