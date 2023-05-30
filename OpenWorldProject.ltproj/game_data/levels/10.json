@@ -167,7 +167,7 @@
                 "ai_group": null,
                 "starting_position": [
                     24,
-                    19
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -191,7 +191,7 @@
                 "ai_group": null,
                 "starting_position": [
                     23,
-                    20
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -214,8 +214,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    23,
-                    21
+                    24,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true

@@ -472,10 +472,10 @@
             85,
             127
         ],
-        "minimap": "Sand",
+        "minimap": "River",
         "platform": "Forest",
         "background": "combat_marsh",
-        "mtype": "Thicket",
+        "mtype": "Marsh",
         "opaque": false,
         "status": "Marsh"
     },
