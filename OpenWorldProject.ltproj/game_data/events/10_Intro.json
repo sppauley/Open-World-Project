@@ -45,56 +45,56 @@
                 "autolevel_to",
                 [
                     "Simon",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Vincent",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Luther",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Flower",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Boudica",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Anuki",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Juliet",
-                    "11"
+                    "12"
                 ]
             ],
             [
                 "autolevel_to",
                 [
                     "Nika",
-                    "11"
+                    "12"
                 ]
             ],
             [
@@ -128,7 +128,8 @@
             [
                 "prep",
                 [
-                    "t"
+                    "t",
+                    "FormationEnabled=True"
                 ]
             ]
         ],
