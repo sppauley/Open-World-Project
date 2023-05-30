@@ -29,6 +29,19 @@
                 "generic": false
             },
             {
+                "nid": "Larry",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 8,
@@ -898,7 +911,7 @@
                 "positions": {
                     "122": [
                         15,
-                        1
+                        2
                     ],
                     "123": [
                         17,
