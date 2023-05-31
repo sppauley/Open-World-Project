@@ -28,6 +28,12 @@
                 [
                     "bars_closed"
                 ]
+            ],
+            [
+                "show_layer",
+                [
+                    "darkness"
+                ]
             ]
         ],
         "only_once": false,

@@ -22,73 +22,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    7,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Loraine",
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Vincent",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Luther",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    6,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Anuki",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Juliet",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    19
+                    24,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -100,131 +35,11 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    14,
-                    5
+                    29,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 5,
-                "klass": "Brigand",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 5,
-                "klass": "Brigand",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 5,
-                "klass": "Fighter",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    2,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 3,
-                "klass": "Knight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    11,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 3,
-                "klass": "Knight",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
             },
             {
                 "nid": "104",
@@ -244,130 +59,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    14,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Crate1",
-                "variant": null,
-                "level": 1,
-                "klass": "Crate25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    13,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Thief1",
-                "variant": null,
-                "level": 10,
-                "klass": "Thief",
-                "faction": "Bandit",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Crate2",
-                "variant": null,
-                "level": 1,
-                "klass": "Crate25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    5,
-                    11
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Thief2",
-                "variant": null,
-                "level": 10,
-                "klass": "Thief",
-                "faction": "Bandit",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 5,
-                "klass": "Archer",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "Warrior",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ],
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    8,
-                    10
+                    30,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -375,34 +68,17 @@
         ],
         "regions": [
             {
-                "nid": "Thief1",
-                "region_type": "normal",
+                "nid": "prep",
+                "region_type": "formation",
                 "position": [
-                    9,
-                    13
+                    23,
+                    25
                 ],
                 "size": [
-                    6,
-                    7
+                    3,
+                    2
                 ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Thief2",
-                "region_type": "normal",
-                "position": [
-                    4,
-                    9
-                ],
-                "size": [
-                    7,
-                    5
-                ],
-                "sub_nid": "",
+                "sub_nid": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
