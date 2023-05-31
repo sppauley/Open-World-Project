@@ -24,10 +24,10 @@
             "HP": 65,
             "SPD": 30,
             "MOV": 0,
-            "DEX": 30,
+            "DEX": 40,
             "MAG": 0,
             "PSE": 0,
-            "CON": 15
+            "CON": 17
         },
         "growth_bonus": {
             "HP": 0,
@@ -78,15 +78,7 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
-                false,
-                0
-            ],
-            "Dark": [
                 false,
                 0
             ],
@@ -95,6 +87,14 @@
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

@@ -34,6 +34,16 @@
                 [
                     "darkness"
                 ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "FormationEnabled=True",
+                    "OtherOptions=Difficulty",
+                    "OtherOptionsEnabled=True",
+                    "OtherOptionsOnSelect=ChangeDifficulty"
+                ]
             ]
         ],
         "only_once": false,

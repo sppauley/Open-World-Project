@@ -12,7 +12,7 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 25,
+            "HP": 10,
             "SPD": 40,
             "MOV": 0,
             "DEX": 0,
@@ -83,11 +83,7 @@
                 false,
                 0
             ],
-            "Staff": [
-                false,
-                0
-            ],
-            "Light": [
+            "Innate": [
                 false,
                 0
             ],
@@ -95,7 +91,7 @@
                 false,
                 0
             ],
-            "Dark": [
+            "Staff": [
                 false,
                 0
             ],
@@ -103,7 +99,11 @@
                 false,
                 0
             ],
-            "Innate": [
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

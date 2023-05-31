@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Prison Wall",
+        "trigger": "unit_death",
+        "level_nid": "13",
+        "condition": "unit.nid=='PrisonWall'",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "28,21"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "prison_break"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Nika",
+                    "player"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "Nika",
+                    "PartyMember",
+                    "'Yes'"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

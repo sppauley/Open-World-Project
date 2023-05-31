@@ -58,6 +58,14 @@
             [
                 1,
                 "Crate"
+            ],
+            [
+                1,
+                "Void Curse"
+            ],
+            [
+                1,
+                "NoAvoid"
             ]
         ],
         "wexp_gain": {
@@ -81,15 +89,7 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
-                false,
-                0
-            ],
-            "Dark": [
                 false,
                 0
             ],
@@ -98,6 +98,14 @@
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

@@ -64,6 +64,97 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Swordmaster",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    23,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 5,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    18,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 5,
+                "klass": "Archer",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    16,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "PrisonWall",
+                "variant": null,
+                "level": 5,
+                "klass": "Wall25",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    28,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -71,11 +162,11 @@
                 "nid": "prep",
                 "region_type": "formation",
                 "position": [
-                    23,
+                    24,
                     25
                 ],
                 "size": [
-                    3,
+                    2,
                     2
                 ],
                 "sub_nid": "",
