@@ -153,7 +153,7 @@
     },
     {
         "nid": "MAG_desc",
-        "text": "Magical power. Increases ward and spell damage."
+        "text": "Magical power. Impacts status resistance and accessory usage."
     },
     {
         "nid": "SKL_desc",
@@ -181,7 +181,7 @@
     },
     {
         "nid": "CON_desc",
-        "text": "Constitution. Affects how well the unit can wield heavier weapons."
+        "text": "Constitution. Affects how well the unit can wield weapons."
     },
     {
         "nid": "Aid_desc",
@@ -330,5 +330,9 @@
     {
         "nid": "mtype_desc",
         "text": "Movement type. Determines the movement cost for different types of terrain."
+    },
+    {
+        "nid": "DEX_desc",
+        "text": "Dexterity. Affects hit, avoid, and growth rates."
     }
 ]
