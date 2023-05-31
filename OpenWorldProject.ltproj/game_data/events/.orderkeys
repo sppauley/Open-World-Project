@@ -153,5 +153,11 @@
     "global_AutolevelEnemies.json": 151,
     "10_Village_Upper.json": 152,
     "10_Village_Lower.json": 153,
-    "10_Win_Condition.json": 154
+    "10_Win_Condition.json": 154,
+    "18_FinalReinforcements.json": 155,
+    "18_Fliers.json": 156,
+    "18_LeftShip.json": 157,
+    "18_OpenDoor.json": 158,
+    "18_RightShip.json": 159,
+    "global_ChangeDifficulty.json": 160
 }
