@@ -92,7 +92,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -107,8 +107,8 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    18,
-                    18
+                    21,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -116,7 +116,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -132,7 +132,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     16,
-                    19
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
