@@ -10,5 +10,9 @@
     {
         "nid": "freely_exit",
         "desc": "Can exit from roaming menu?"
+    },
+    {
+        "nid": "TurnwheelEnabled",
+        "desc": "Has the turnwheel ever been enabled?"
     }
 ]

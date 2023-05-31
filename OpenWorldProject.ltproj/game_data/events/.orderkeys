@@ -160,5 +160,6 @@
     "18_RightShip.json": 158,
     "18_Fliers.json": 159,
     "18_LeftShip.json": 160,
-    "18_FinalReinforcements.json": 161
+    "18_FinalReinforcements.json": 161,
+    "global_ChangeDifficulty.json": 162
 }
