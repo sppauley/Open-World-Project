@@ -93,6 +93,10 @@
             "Default": [
                 false,
                 0
+            ],
+            "Innate": [
+                false,
+                0
             ]
         },
         "icon_nid": "Generic_Portrait_Citizen",

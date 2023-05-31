@@ -137,31 +137,7 @@
         ],
         "disadvantage": [
             {
-                "weapon_type": "Light",
-                "weapon_rank": "All",
-                "damage": -2,
-                "resist": 0,
-                "accuracy": -30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
                 "weapon_type": "Anima",
-                "weapon_rank": "All",
-                "damage": -2,
-                "resist": 0,
-                "accuracy": -30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
-                "weapon_type": "Dark",
                 "weapon_rank": "All",
                 "damage": -2,
                 "resist": 0,
@@ -185,30 +161,6 @@
         "force_melee_anim": false,
         "rank_bonus": [],
         "advantage": [
-            {
-                "weapon_type": "Light",
-                "weapon_rank": "All",
-                "damage": 2,
-                "resist": 0,
-                "accuracy": 30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
-                "weapon_type": "Dark",
-                "weapon_rank": "All",
-                "damage": 2,
-                "resist": 0,
-                "accuracy": 30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
             {
                 "weapon_type": "Anima",
                 "weapon_rank": "All",
@@ -243,47 +195,8 @@
         ]
     },
     {
-        "nid": "Light",
-        "name": "Light",
-        "force_melee_anim": false,
-        "rank_bonus": [],
-        "advantage": [
-            {
-                "weapon_type": "Bow",
-                "weapon_rank": "All",
-                "damage": 2,
-                "resist": 0,
-                "accuracy": 30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "disadvantage": [
-            {
-                "weapon_type": "Innate",
-                "weapon_rank": "All",
-                "damage": -2,
-                "resist": 0,
-                "accuracy": -30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "icon_nid": "wexp_icons",
-        "icon_index": [
-            0,
-            5
-        ]
-    },
-    {
         "nid": "Anima",
-        "name": "Anima",
+        "name": "Magic",
         "force_melee_anim": false,
         "rank_bonus": [],
         "advantage": [
@@ -318,45 +231,6 @@
         "icon_index": [
             0,
             6
-        ]
-    },
-    {
-        "nid": "Dark",
-        "name": "Dark",
-        "force_melee_anim": false,
-        "rank_bonus": [],
-        "advantage": [
-            {
-                "weapon_type": "Bow",
-                "weapon_rank": "All",
-                "damage": 2,
-                "resist": 0,
-                "accuracy": 30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "disadvantage": [
-            {
-                "weapon_type": "Innate",
-                "weapon_rank": "All",
-                "damage": -2,
-                "resist": 0,
-                "accuracy": -30,
-                "avoid": 0,
-                "crit": 0,
-                "dodge": 0,
-                "attack_speed": 0,
-                "defense_speed": 0
-            }
-        ],
-        "icon_nid": "wexp_icons",
-        "icon_index": [
-            0,
-            7
         ]
     },
     {

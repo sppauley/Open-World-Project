@@ -69,6 +69,10 @@
             "Default": [
                 false,
                 0
+            ],
+            "Innate": [
+                false,
+                0
             ]
         },
         "alternate_classes": [],

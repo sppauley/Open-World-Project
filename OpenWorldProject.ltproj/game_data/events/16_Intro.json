@@ -14,6 +14,13 @@
             [
                 "game_var",
                 [
+                    "_convoy",
+                    "True"
+                ]
+            ],
+            [
+                "game_var",
+                [
                     "freely_exit",
                     "False"
                 ]

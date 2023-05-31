@@ -30,6 +30,10 @@
             [
                 "can_unlock",
                 "region.nid.startswith('Chest')"
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }
