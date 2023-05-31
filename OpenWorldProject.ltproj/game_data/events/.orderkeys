@@ -156,5 +156,9 @@
     "10_Village_Upper.json": 154,
     "10_Village_Lower.json": 155,
     "10_Win_Condition.json": 156,
-    "18_OpenDoor.json": 157
+    "18_OpenDoor.json": 157,
+    "18_RightShip.json": 158,
+    "18_Fliers.json": 159,
+    "18_LeftShip.json": 160,
+    "18_FinalReinforcements.json": 161
 }

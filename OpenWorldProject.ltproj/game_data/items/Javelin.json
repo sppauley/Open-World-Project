@@ -55,7 +55,24 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "D"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "stagger",
+                3
             ]
         ]
     }

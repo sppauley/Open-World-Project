@@ -1,0 +1,18 @@
+[
+    {
+        "name": "FinalReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 9",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# add enemies and dialogue"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "RightShip",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "23,26"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "rightship"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# add enemies here"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# add dialogue here"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
