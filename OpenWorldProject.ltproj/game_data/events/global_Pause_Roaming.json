@@ -16,9 +16,9 @@
                 [
                     "f",
                     "",
-                    "Heal,Exit",
-                    "{e:any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) and item_system.available(u, item) for item in u.items])])},{v:freely_exit}",
-                    "HealMenu,ExitMap"
+                    "Heal,Difficulty,Exit",
+                    "{e:any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) and item_system.available(u, item) for item in u.items])])},True,{v:freely_exit}",
+                    "HealMenu,ChangeDifficulty,ExitMap"
                 ]
             ],
             [

@@ -6,11 +6,32 @@
         "condition": "True",
         "commands": [
             [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
                 "show_layer",
                 [
                     "topdoor",
                     "fade",
                     "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Yusna (Yusna)",
+                    "Door Key (Door Key)"
+                ]
+            ],
+            [
+                "pair_up",
+                [
+                    "Rodger (Rodger)",
+                    "Caylus (Caylus)"
                 ]
             ],
             [
@@ -25,7 +46,10 @@
                     "",
                     "",
                     "",
-                    "t"
+                    "t",
+                    "OtherOptions=Difficulty",
+                    "OtherOptionsEnabled=True",
+                    "OtherOptionsOnSelect=ChangeDifficulty"
                 ]
             ]
         ],

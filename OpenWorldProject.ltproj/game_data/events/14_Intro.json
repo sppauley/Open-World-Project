@@ -298,7 +298,10 @@
                     "",
                     "",
                     "",
-                    "t"
+                    "t",
+                    "OtherOptions=Difficulty",
+                    "OtherOptionsEnabled=True",
+                    "OtherOptionsOnSelect=ChangeDifficulty"
                 ]
             ]
         ],

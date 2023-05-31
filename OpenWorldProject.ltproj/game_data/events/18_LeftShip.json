@@ -1,0 +1,36 @@
+[
+    {
+        "name": "LeftShip",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 7",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "1,12"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "leftship"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# add enemies here"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# add dialogue here"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

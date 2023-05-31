@@ -1,0 +1,24 @@
+[
+    {
+        "name": "OpenDoor",
+        "trigger": "Door",
+        "level_nid": "18",
+        "condition": "True",
+        "commands": [
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "topdoor"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

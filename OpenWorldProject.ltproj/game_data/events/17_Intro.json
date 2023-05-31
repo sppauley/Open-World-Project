@@ -207,7 +207,10 @@
                 [
                     "t",
                     "Combat Preparation",
-                    "FormationEnabled=True"
+                    "FormationEnabled=True",
+                    "OtherOptions=Difficulty",
+                    "OtherOptionsEnabled=True",
+                    "OtherOptionsOnSelect=ChangeDifficulty"
                 ]
             ],
             [

@@ -27,7 +27,7 @@
             ],
             [
                 "weapon_type",
-                "Light"
+                "Anima"
             ],
             [
                 "weapon_rank",
@@ -36,20 +36,6 @@
             [
                 "magic",
                 null
-            ],
-            [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
             ],
             [
                 "weight",
