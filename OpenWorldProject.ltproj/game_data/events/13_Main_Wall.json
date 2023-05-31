@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Main Wall",
+        "trigger": "unit_death",
+        "level_nid": "13",
+        "condition": "unit.nid=='MainWall'",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "15,18"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "main_break"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

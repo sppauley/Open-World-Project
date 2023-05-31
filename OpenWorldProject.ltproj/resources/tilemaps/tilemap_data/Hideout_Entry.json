@@ -846,7 +846,8 @@
                     "13,1": "6",
                     "14,0": "6",
                     "13,0": "6",
-                    "11,0": "6"
+                    "11,0": "6",
+                    "9,9": "6"
                 },
                 "sprite_grid": {
                     "24,9": [
@@ -10971,6 +10972,82 @@
                         [
                             0,
                             8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "rampart_break",
+                "visible": false,
+                "terrain_grid": {
+                    "12,11": "6"
+                },
+                "sprite_grid": {
+                    "12,11": [
+                        "Caves1",
+                        [
+                            12,
+                            13
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "main_break",
+                "visible": false,
+                "terrain_grid": {
+                    "15,18": "6"
+                },
+                "sprite_grid": {
+                    "15,18": [
+                        "Caves1",
+                        [
+                            26,
+                            4
+                        ]
+                    ],
+                    "16,18": [
+                        "Caves1",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "15,17": [
+                        "Caves1",
+                        [
+                            0,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "chest_break",
+                "visible": false,
+                "terrain_grid": {
+                    "12,0": "6"
+                },
+                "sprite_grid": {
+                    "12,0": [
+                        "Caves1",
+                        [
+                            12,
+                            13
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "chest_open",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "14,1": [
+                        "SacredStonesBase",
+                        [
+                            1,
+                            0
                         ]
                     ]
                 }

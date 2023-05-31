@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Rampart Wall",
+        "trigger": "unit_death",
+        "level_nid": "13",
+        "condition": "unit.nid=='RampartWall'",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "12,11"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "rampart_break"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
