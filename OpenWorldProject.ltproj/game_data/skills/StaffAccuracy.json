@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "StaffAccuracy",
+        "name": "StaffAccuracy",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "global",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_accuracy",
+                "-1000 if ((item_system.weapon_type(unit, item) == 'Staff') and (not unit.team == unit2.team) and (unit2.stats['MAG'] > unit.stats['MAG'])) else 0"
+            ]
+        ]
+    }
+]

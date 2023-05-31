@@ -79,23 +79,23 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
                 true,
                 31
-            ],
-            "Dark": [
-                false,
-                0
             ],
             "Staff": [
                 false,
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

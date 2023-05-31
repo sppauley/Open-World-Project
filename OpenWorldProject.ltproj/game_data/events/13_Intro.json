@@ -30,9 +30,16 @@
                 ]
             ],
             [
-                "show_layer",
+                "comment",
                 [
-                    "darkness"
+                    "#show_layer;darkness"
+                ]
+            ],
+            [
+                "set_stats",
+                [
+                    "105",
+                    "MAG,9"
                 ]
             ],
             [

@@ -14,7 +14,7 @@
             "SPD": 5,
             "MOV": 6,
             "DEX": 6,
-            "MAG": 0,
+            "MAG": 6,
             "PSE": 7,
             "CON": 5
         },
@@ -23,7 +23,7 @@
             "SPD": 25,
             "MOV": 0,
             "DEX": 30,
-            "MAG": 0,
+            "MAG": 35,
             "PSE": 0,
             "CON": 45
         },
@@ -76,23 +76,23 @@
                 false,
                 0
             ],
-            "Light": [
-                true,
-                31
-            ],
             "Anima": [
                 true,
                 62
-            ],
-            "Dark": [
-                false,
-                0
             ],
             "Staff": [
                 true,
                 31
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                true,
+                31
+            ],
+            "Dark": [
                 false,
                 0
             ]
