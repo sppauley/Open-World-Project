@@ -39,7 +39,8 @@
                 "set_stats",
                 [
                     "105",
-                    "MAG,9"
+                    "MAG,9",
+                    "FLAG(immediate)"
                 ]
             ],
             [
