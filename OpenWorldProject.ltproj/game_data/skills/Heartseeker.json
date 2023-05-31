@@ -23,7 +23,7 @@
             ],
             [
                 "aura_target",
-                "'enemy' in unit.team"
+                "enemy"
             ]
         ]
     }
