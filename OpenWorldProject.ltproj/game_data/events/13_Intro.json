@@ -30,9 +30,15 @@
                 ]
             ],
             [
-                "comment",
+                "remove_group",
                 [
-                    "#show_layer;darkness"
+                    "HiddenEnemies"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "darkness"
                 ]
             ],
             [
