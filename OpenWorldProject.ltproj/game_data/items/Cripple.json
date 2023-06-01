@@ -2,7 +2,7 @@
     {
         "nid": "Cripple",
         "name": "Cripple",
-        "desc": "Enemy loses 5 CON and 2 MOV for two turns. Cannot hit enemies with higher MAG.",
+        "desc": "Enemy loses 5 CON and 2 MOV for one turn. Cannot hit enemies with higher MAG.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

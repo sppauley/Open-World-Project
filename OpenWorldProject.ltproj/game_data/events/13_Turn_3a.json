@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Turn 3a",
+        "trigger": "turn_change",
+        "level_nid": "13",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Bandit (Crate_Wave1a)",
+                    "23,26"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Bandit (Crate_Wave1a)",
+                    "24,22",
+                    "",
+                    "closest"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Did that crate just move?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

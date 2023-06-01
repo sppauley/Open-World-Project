@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Reinforcement Crates",
+        "trigger": null,
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [
+            [
+                "alert",
+                [
+                    "{eval: game.get_unit(unit.nid.replace('Crate','Unit')).nid}"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#saves position"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "BanditCratePos",
+                    "{eval:unit.position}"
+                ]
+            ],
+            [
+                "kill_unit",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{eval: game.get_unit(unit.nid.replace('Crate','Unit')).nid}",
+                    "{eval: game.level_vars['BanditCratePos']}",
+                    "swoosh"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

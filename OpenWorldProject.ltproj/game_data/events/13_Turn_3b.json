@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn 3b",
+        "trigger": "enemy_turn_change",
+        "level_nid": "13",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_all_units() if 'Crate_Wave1' in unit.nid]",
+                    "Reinforcement Crates (13 Reinforcement Crates)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

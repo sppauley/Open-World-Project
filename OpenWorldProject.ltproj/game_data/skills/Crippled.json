@@ -2,7 +2,7 @@
     {
         "nid": "Crippled",
         "name": "Crippled",
-        "desc": "-5 CON and -2 MOV for two turns",
+        "desc": "-5 CON and -2 MOV for one turn",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -28,7 +28,7 @@
             ],
             [
                 "end_time",
-                2
+                1
             ]
         ]
     }

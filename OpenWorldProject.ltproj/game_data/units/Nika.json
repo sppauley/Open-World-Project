@@ -8,12 +8,12 @@
         "klass": "Soldier",
         "tags": [],
         "bases": {
-            "HP": 16,
+            "HP": 17,
             "CON": 7,
             "MAG": 10,
             "DEX": 9,
             "SPD": 4,
-            "PSE": 6,
+            "PSE": 8,
             "MOV": 5
         },
         "growths": {

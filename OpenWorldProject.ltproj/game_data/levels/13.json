@@ -73,7 +73,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -297,7 +297,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -384,6 +384,167 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "Warrior",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    7,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "Sniper",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    2,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 1,
+                "klass": "Guerilla",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ],
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    1,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    8,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    14,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Crate_Wave1a",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Bandit",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Unit_Wave1a",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -417,7 +578,12 @@
                     "109",
                     "111",
                     "RampartWall",
-                    "ChestWall"
+                    "ChestWall",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116"
                 ],
                 "positions": {}
             }
