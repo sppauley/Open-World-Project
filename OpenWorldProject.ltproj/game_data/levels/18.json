@@ -118,7 +118,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -142,7 +142,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -500,6 +500,54 @@
                 "generic": true
             },
             {
+                "nid": "128",
+                "variant": null,
+                "level": 3,
+                "klass": "Pegasus_Knight",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 3,
+                "klass": "Pegasus_Knight",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "119",
                 "variant": null,
                 "level": 3,
@@ -844,7 +892,9 @@
                 "nid": "SouthFliers",
                 "units": [
                     "118",
-                    "119"
+                    "119",
+                    "128",
+                    "129"
                 ],
                 "positions": {}
             },
