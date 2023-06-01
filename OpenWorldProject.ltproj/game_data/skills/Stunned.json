@@ -27,12 +27,16 @@
                 ]
             ],
             [
-                "cannot_use_items",
+                "negative",
                 null
             ],
             [
-                "negative",
-                null
+                "hit",
+                -999
+            ],
+            [
+                "damage_multiplier",
+                0.0
             ]
         ]
     }

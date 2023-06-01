@@ -14,10 +14,6 @@
                 null
             ],
             [
-                "cannot_use_items",
-                null
-            ],
-            [
                 "dynamic_crit_avoid",
                 "-999"
             ],
@@ -45,6 +41,14 @@
             [
                 "avoid",
                 -30
+            ],
+            [
+                "hit",
+                -999
+            ],
+            [
+                "damage_multiplier",
+                0.0
             ]
         ]
     }
