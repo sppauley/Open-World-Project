@@ -18,6 +18,14 @@
                 ]
             ],
             [
+                "add_group",
+                [
+                    "LeftGroup",
+                    "LeftGroup",
+                    "fade"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "# add enemies here"

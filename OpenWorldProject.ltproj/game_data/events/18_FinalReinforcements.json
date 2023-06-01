@@ -10,6 +10,14 @@
                 [
                     "# add enemies and dialogue"
                 ]
+            ],
+            [
+                "add_group",
+                [
+                    "FinalGroup",
+                    "FinalGroup",
+                    "swoosh"
+                ]
             ]
         ],
         "only_once": false,

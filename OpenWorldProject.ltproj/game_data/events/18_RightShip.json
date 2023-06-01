@@ -24,6 +24,14 @@
                 ]
             ],
             [
+                "add_group",
+                [
+                    "RightGroup",
+                    "RightGroup",
+                    "fade"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "# add dialogue here"

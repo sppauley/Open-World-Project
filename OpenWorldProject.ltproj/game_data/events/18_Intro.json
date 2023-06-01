@@ -13,6 +13,48 @@
                 ]
             ],
             [
+                "hide_layer",
+                [
+                    "rightship",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "RightGroup",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "LeftGroup",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "FinalGroup",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "SouthFliers",
+                    "immediate"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "leftship",
+                    "immediate"
+                ]
+            ],
+            [
                 "show_layer",
                 [
                     "topdoor",

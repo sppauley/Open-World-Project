@@ -10,6 +10,20 @@
                 [
                     "# Fliers in the south"
                 ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "11,29"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "SouthFliers",
+                    "SouthFliers",
+                    "fade"
+                ]
             ]
         ],
         "only_once": false,

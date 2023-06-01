@@ -6041,7 +6041,7 @@
             },
             {
                 "nid": "rightship",
-                "visible": false,
+                "visible": true,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "21,19": [
@@ -6979,7 +6979,7 @@
             },
             {
                 "nid": "leftship",
-                "visible": false,
+                "visible": true,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "0,5": [
