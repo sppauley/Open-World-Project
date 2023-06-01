@@ -163,5 +163,6 @@
     "13_Prison_Wall.json": 161,
     "13_Rampart_Wall.json": 162,
     "13_Main_Wall.json": 163,
-    "13_Chest_Wall.json": 164
+    "13_Chest_Wall.json": 164,
+    "global_DEBUGLvl3Team.json": 165
 }

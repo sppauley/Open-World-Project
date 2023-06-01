@@ -1,0 +1,156 @@
+[
+    {
+        "name": "DEBUGLvl3Team",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "load_unit",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Juliet (Juliet)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Nika (Nika)"
+                ]
+            ],
+            [
+                "change_class",
+                [
+                    "Juliet (Juliet)",
+                    "Archer",
+                    "FLAG(silent)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Juliet (Juliet)",
+                    "Iron Bow (Iron Bow)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Simon (Simon)",
+                    "Verstadt Ring (VerstadtRing)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "convoy",
+                    "Dexterity Ring (DexterityRing)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "convoy",
+                    "Iron Blade (Iron Blade)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "convoy",
+                    "Vulnerary (Vulnerary)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "convoy",
+                    "Vulnerary (Vulnerary)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "convoy",
+                    "Iron Mace (Iron_Mace)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Nika (Nika)",
+                    "Nika's Teddy (TeddyBear)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Juliet (Juliet)",
+                    "3"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Vincent (Vincent)",
+                    "3",
+                    "random"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Simon (Simon)",
+                    "3",
+                    "random"
+                ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "Boudica (Boudica)",
+                    "3"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
