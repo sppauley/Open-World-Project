@@ -258,7 +258,7 @@
                 "set_stats",
                 [
                     "101",
-                    "HP,25",
+                    "HP,18",
                     "FLAG(immediate)"
                 ]
             ],
