@@ -453,6 +453,14 @@
                 ]
             ],
             [
+                "set_stats",
+                [
+                    "Juliet",
+                    "CON,4,SPD,6,DEX,10,MAG,8",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
