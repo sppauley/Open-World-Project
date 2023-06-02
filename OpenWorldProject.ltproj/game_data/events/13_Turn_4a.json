@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn 3a",
+        "name": "Turn 4a",
         "trigger": "turn_change",
         "level_nid": "13",
-        "condition": "game.turncount == 3",
+        "condition": "game.turncount == 4",
         "commands": [
             [
                 "add_unit",
@@ -13,12 +13,44 @@
                 ]
             ],
             [
+                "add_unit",
+                [
+                    "Bandit (Crate_Wave1b)",
+                    "17,26"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "23,25"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Bandit (Crate_Wave1a)",
-                    "24,22",
+                    "25,25",
                     "",
-                    "closest"
+                    "closest",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Bandit (Crate_Wave1b)",
+                    "20,25",
+                    "",
+                    "closest",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
                 ]
             ],
             [
@@ -39,7 +71,7 @@
                 "speak",
                 [
                     "Simon",
-                    "Did that crate just move?"
+                    "Did those crates just move?"
                 ]
             ],
             [

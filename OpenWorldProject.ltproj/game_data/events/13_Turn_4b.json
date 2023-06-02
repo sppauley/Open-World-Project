@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn 3b",
+        "name": "Turn 4b",
         "trigger": "enemy_turn_change",
         "level_nid": "13",
-        "condition": "game.turncount == 3",
+        "condition": "game.turncount == 4",
         "commands": [
             [
                 "loop_units",

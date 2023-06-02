@@ -6,12 +6,6 @@
         "condition": "True",
         "commands": [
             [
-                "alert",
-                [
-                    "{eval: game.get_unit(unit.nid.replace('Crate','Unit')).nid}"
-                ]
-            ],
-            [
                 "comment",
                 [
                     "#saves position"

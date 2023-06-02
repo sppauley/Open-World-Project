@@ -526,6 +526,22 @@
                 "generic": true
             },
             {
+                "nid": "Crate_Wave1b",
+                "variant": null,
+                "level": 1,
+                "klass": "Crate25",
+                "faction": "Bandit",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Unit_Wave1a",
                 "variant": null,
                 "level": 3,
@@ -533,7 +549,28 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Unit_Wave1b",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron Sword",
                         false
                     ]
                 ],
