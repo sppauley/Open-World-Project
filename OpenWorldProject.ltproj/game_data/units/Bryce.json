@@ -29,8 +29,8 @@
         },
         "starting_items": [
             [
-                "Steel Sword",
-                false
+                "Killing Edge",
+                true
             ]
         ],
         "learned_skills": [],
