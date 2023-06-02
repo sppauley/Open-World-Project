@@ -6,6 +6,31 @@
         "condition": "game.check_dead(\"Caylus\")",
         "commands": [
             [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Pirate's Current (49)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Millin's Isle (50)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "49",
+                    "50"
+                ]
+            ],
+            [
                 "win_game",
                 []
             ]
