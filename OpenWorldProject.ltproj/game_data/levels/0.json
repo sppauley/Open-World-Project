@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "0",
+        "name": "Port Hull",
+        "tilemap": "PortHull",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "--",
+            "win": "--",
+            "loss": "--"
+        },
+        "roam": true,
+        "roam_unit": "Simon",
+        "go_to_overworld": true,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]
