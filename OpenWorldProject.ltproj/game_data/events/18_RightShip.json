@@ -3,7 +3,7 @@
         "name": "RightShip",
         "trigger": "turn_change",
         "level_nid": "18",
-        "condition": "game.turncount == 3",
+        "condition": "game.turncount == 2",
         "commands": [
             [
                 "center_cursor",

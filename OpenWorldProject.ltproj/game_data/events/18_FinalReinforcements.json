@@ -3,7 +3,7 @@
         "name": "FinalReinforcements",
         "trigger": "turn_change",
         "level_nid": "18",
-        "condition": "game.turncount == 9",
+        "condition": "game.turncount == 8",
         "commands": [
             [
                 "comment",
