@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Turn 7a",
+        "trigger": "turn_change",
+        "level_nid": "13",
+        "condition": "game.turncount == 7 and game.check_dead('MainWall')",
+        "commands": [
+            [
+                "add_unit",
+                [
+                    "Bandit (Crate_Wave2a)",
+                    "0,18"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Bandit (Crate_Wave2b)",
+                    "0,20"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Bandit (Crate_Wave2c)",
+                    "0,22"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "1,19"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Bandit (Crate_Wave2a)",
+                    "4,18",
+                    "",
+                    "closest",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Bandit (Crate_Wave2b)",
+                    "2,20",
+                    "",
+                    "closest",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Bandit (Crate_Wave2c)",
+                    "5,22",
+                    "",
+                    "closest",
+                    "FLAG(no_block)",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

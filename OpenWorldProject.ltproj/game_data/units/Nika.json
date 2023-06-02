@@ -29,6 +29,10 @@
             [
                 "Iron_Pike",
                 false
+            ],
+            [
+                "Vulnerary",
+                false
             ]
         ],
         "learned_skills": [
