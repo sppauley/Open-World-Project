@@ -50,6 +50,22 @@
                 ]
             ],
             [
+                "set_stats",
+                [
+                    "101",
+                    "SPD,16",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "set_stats",
+                [
+                    "107",
+                    "SPD,16",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
                 "arrange_formation",
                 []
             ],
