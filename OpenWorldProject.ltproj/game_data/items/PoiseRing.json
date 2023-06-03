@@ -16,6 +16,15 @@
             [
                 "status_on_hold",
                 "PSEUpThree"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        7
+                    ]
+                ]
             ]
         ]
     }
