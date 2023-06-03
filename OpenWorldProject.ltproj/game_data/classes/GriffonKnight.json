@@ -1,15 +1,14 @@
 [
     {
-        "nid": "Wyvern Knight",
-        "name": "Wyvern Knight",
+        "nid": "GriffonKnight",
+        "name": "Griffon Knight",
         "desc": "",
         "tier": 2,
         "movement_group": "Fliers",
-        "promotes_from": "Wyvern Rider",
+        "promotes_from": null,
         "turns_into": [],
         "tags": [
             "Mounted",
-            "Dragon",
             "Flying"
         ],
         "max_level": 20,
@@ -62,19 +61,15 @@
             [
                 1,
                 "Flying"
-            ],
-            [
-                1,
-                "Canto"
             ]
         ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0
+                true,
+                40
             ],
             "Lance": [
-                2,
+                false,
                 40
             ],
             "Axe": [
@@ -115,7 +110,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "WyvernKnight",
+        "map_sprite_nid": "Griffon Rider (U) Sword {N426}-stand",
         "combat_anim_nid": null,
         "fields": []
     }

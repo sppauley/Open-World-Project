@@ -81,15 +81,7 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
-                false,
-                0
-            ],
-            "Dark": [
                 false,
                 0
             ],
@@ -98,6 +90,14 @@
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]
