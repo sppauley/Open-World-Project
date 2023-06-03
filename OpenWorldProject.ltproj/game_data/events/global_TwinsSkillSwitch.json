@@ -1,0 +1,58 @@
+[
+    {
+        "name": "TwinsSkillSwitch",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "game.get_unit(\"Twins\")",
+        "commands": [
+            [
+                "remove_skill",
+                [
+                    "Tristan (Twins)",
+                    "Dualhearted - DMG (DualheartedDMG)"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "Tristan (Twins)",
+                    "Dualhearted - STG (DualheartedSTG)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.turncount % 2 == 0"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Tristan (Twins)",
+                    "Dualhearted - DMG (DualheartedDMG)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "give_skill",
+                [
+                    "Tristan (Twins)",
+                    "Dualhearted - STG (DualheartedSTG)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

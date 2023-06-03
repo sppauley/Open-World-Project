@@ -57,5 +57,7 @@
     "Crippled.json": 55,
     "Heartseeker.json": 56,
     "Heartseeker_Effect.json": 57,
-    "StaffAccuracy.json": 58
+    "StaffAccuracy.json": 58,
+    "DualheartedDMG.json": 59,
+    "DualheartedSTG.json": 60
 }

@@ -2,7 +2,7 @@
     {
         "nid": "Nika",
         "name": "Nika",
-        "desc": "",
+        "desc": "A possessed prisoner and\nformer soldier.",
         "variant": "_Nika",
         "level": 4,
         "klass": "Soldier",
@@ -90,7 +90,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "N-no... keep control...{w}{br}I need to back off, or..."
+                "This is all your fault!{w}{br}Sorry Simon, I'll give my twin an earful for this one."
             ]
         ]
     }
