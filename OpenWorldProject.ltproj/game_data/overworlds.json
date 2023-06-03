@@ -69,7 +69,7 @@
                 "menu_options": [
                     {
                         "nid": "Roam",
-                        "event": null,
+                        "event": "OverworldRoamSelect",
                         "option_name": "Roam",
                         "visible": true,
                         "enabled": true
@@ -144,7 +144,7 @@
                 "menu_options": [
                     {
                         "nid": "Battle",
-                        "event": null,
+                        "event": "OverworldMapSelect",
                         "option_name": "Battle",
                         "visible": true,
                         "enabled": true
