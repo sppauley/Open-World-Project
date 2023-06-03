@@ -93,6 +93,25 @@
                 ]
             ],
             [
+                "elif",
+                [
+                    "'{v:CurrentNode}' == '30'"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Swamp Outpost"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "NextLevel",
+                    "\"15\""
+                ]
+            ],
+            [
                 "else",
                 []
             ],
