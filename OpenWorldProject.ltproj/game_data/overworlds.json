@@ -356,6 +356,17 @@
                 "icon": "woods",
                 "level": null,
                 "menu_options": []
+            },
+            {
+                "nid": "53",
+                "name": "Mage's School",
+                "pos": [
+                    21,
+                    11
+                ],
+                "icon": "town",
+                "level": null,
+                "menu_options": []
             }
         ],
         "map_paths": {
@@ -819,6 +830,20 @@
                 [
                     16,
                     15
+                ]
+            ],
+            "(21, 11)-(24, 12)": [
+                [
+                    21,
+                    11
+                ],
+                [
+                    23,
+                    11
+                ],
+                [
+                    24,
+                    12
                 ]
             ]
         },
