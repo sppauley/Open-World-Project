@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "overlaytiles",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "merchantdooropen",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add stuff here for putting player characters on map if they have a convo (e.x. Vincent/Juliet)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add stuff here for changing Simon's starting position depending on where he loaded into the map"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

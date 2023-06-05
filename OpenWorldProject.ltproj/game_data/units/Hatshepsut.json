@@ -1,19 +1,21 @@
 [
     {
-        "nid": "Ebert",
-        "name": "Ebert",
-        "desc": "A businessman and de facto head of\nPort Hull.",
+        "nid": "Hatshepsut",
+        "name": "Hatshepsut",
+        "desc": "Blessed by a foreign god. Her adventuring life has ended.",
         "variant": null,
         "level": 1,
-        "klass": "Tycoon",
-        "tags": [],
+        "klass": "Eirika_Lord",
+        "tags": [
+            "Lord"
+        ],
         "bases": {
-            "HP": 38,
-            "CON": 6,
-            "MAG": 14,
-            "DEX": 12,
-            "SPD": 9,
-            "PSE": 16,
+            "HP": 24,
+            "CON": 10,
+            "MAG": 8,
+            "DEX": 15,
+            "SPD": 13,
+            "PSE": 12,
             "MOV": 5
         },
         "growths": {
@@ -27,7 +29,7 @@
         },
         "starting_items": [
             [
-                "Fortify",
+                "Shamshir",
                 false
             ]
         ],
@@ -36,7 +38,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                0
+                121
             ],
             "Lance": [
                 false,
@@ -60,7 +62,7 @@
             ],
             "Staff": [
                 false,
-                181
+                0
             ],
             "Default": [
                 false,
@@ -68,8 +70,8 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "CanDy F2E 3",
-        "affinity": "None",
+        "portrait_nid": "CanDy F2E 23 Female Merc",
+        "affinity": null,
         "fields": []
     }
 ]

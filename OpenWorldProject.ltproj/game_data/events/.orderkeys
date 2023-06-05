@@ -170,5 +170,13 @@
     "13_Turn_7a.json": 168,
     "13_Turn_4b.json": 169,
     "13_Turn_7b.json": 170,
-    "global_TwinsSkillSwitch.json": 171
+    "global_TwinsSkillSwitch.json": 171,
+    "0_Intro.json": 172,
+    "0_EbertConvo.json": 173,
+    "0_TwinsConvo.json": 174,
+    "0_ForgeConvo.json": 175,
+    "0_HatshesputConvo.json": 176,
+    "0_YusnaConvo.json": 177,
+    "0_MitziConvo.json": 178,
+    "0_ShopkeepConvo.json": 179
 }

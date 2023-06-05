@@ -9,14 +9,18 @@
                 "remove_skill",
                 [
                     "Tristan (Twins)",
-                    "Dualhearted - DMG (DualheartedDMG)"
+                    "Dualhearted - DMG (DualheartedDMG)",
+                    "FLAG(no_banner)",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "remove_skill",
                 [
                     "Tristan (Twins)",
-                    "Dualhearted - STG (DualheartedSTG)"
+                    "Dualhearted - STG (DualheartedSTG)",
+                    "FLAG(no_banner)",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
