@@ -61,6 +61,13 @@
                 ]
             ],
             [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "#"
@@ -110,6 +117,29 @@
                 [
                     "Simon (Simon)",
                     "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "{v:MitziRecruited} == True"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Mitzi (Mitzi)"
                 ]
             ],
             [

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ResetTargetPoise",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "set_current_poise",
+                [
+                    "{unit2}",
+                    "99"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

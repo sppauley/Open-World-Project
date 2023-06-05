@@ -18,5 +18,9 @@
     {
         "nid": "RevealedBoat",
         "desc": "Spoken to Yusna/Rodger?"
+    },
+    {
+        "nid": "MitziRecruited",
+        "desc": "Was Mitzi recruited?"
     }
 ]

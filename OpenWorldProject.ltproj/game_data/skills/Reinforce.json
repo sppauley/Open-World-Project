@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Reinforce",
+        "name": "Reinforced",
+        "desc": "Until your next turn, +5 Poise.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "PSE",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]
