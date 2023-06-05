@@ -946,5 +946,17 @@
             40
         ],
         "info_offset": 3
+    },
+    {
+        "nid": "CanDy F2E 3",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

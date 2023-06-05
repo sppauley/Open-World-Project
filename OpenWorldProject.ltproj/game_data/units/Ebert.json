@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Ebert",
+        "name": "Ebert",
+        "desc": "A businessman and de facto head of\nPort Hull.",
+        "variant": null,
+        "level": 1,
+        "klass": "Tycoon",
+        "tags": [],
+        "bases": {
+            "HP": 38,
+            "CON": 6,
+            "MAG": 14,
+            "DEX": 12,
+            "SPD": 9,
+            "PSE": 16,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Fortify",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                181
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "CanDy F2E 3",
+        "affinity": null,
+        "fields": []
+    }
+]

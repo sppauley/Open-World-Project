@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Girl",
-        "name": "Girl",
-        "desc": "An ordinary commoner.",
+        "nid": "Tycoon",
+        "name": "Tycoon",
+        "desc": "",
         "tier": 0,
         "movement_group": "Infantry",
         "promotes_from": null,
@@ -102,7 +102,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Villager (F) (Girl) Standing {IS}",
+        "map_sprite_nid": "Sage (M) FE2 (Leif, MeatofJustice)-stand",
         "combat_anim_nid": null,
         "fields": []
     }
