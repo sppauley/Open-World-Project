@@ -39,6 +39,13 @@
                 ]
             ],
             [
+                "set_name",
+                [
+                    "Twins",
+                    "Trina"
+                ]
+            ],
+            [
                 "else",
                 []
             ],
@@ -49,6 +56,13 @@
                     "Dualhearted - STG (DualheartedSTG)",
                     "",
                     "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "set_name",
+                [
+                    "Twins",
+                    "Tristan"
                 ]
             ],
             [

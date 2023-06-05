@@ -14,5 +14,9 @@
     {
         "nid": "TurnwheelEnabled",
         "desc": "Has the turnwheel ever been enabled?"
+    },
+    {
+        "nid": "RevealedBoat",
+        "desc": "Spoken to Yusna/Rodger?"
     }
 ]

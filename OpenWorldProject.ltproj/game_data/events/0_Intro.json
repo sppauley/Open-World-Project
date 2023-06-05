@@ -37,6 +37,38 @@
             [
                 "comment",
                 [
+                    "# Add talks for Simon"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
                     "# Add stuff here for putting player characters on map if they have a convo (e.x. Vincent/Juliet)"
                 ]
             ],
@@ -45,6 +77,44 @@
                 [
                     "#"
                 ]
+            ],
+            [
+                "if",
+                [
+                    "{v:RevealedBoat} == True"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Yusna (Yusna)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Rodger (Rodger)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "comment",

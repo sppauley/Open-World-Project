@@ -1,0 +1,31 @@
+[
+    {
+        "name": "RevealBoatOutro",
+        "trigger": "level_end",
+        "level_nid": "0",
+        "condition": "v(\"RevealedBoat\") == True",
+        "commands": [
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Pirate's Current (49)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "33",
+                    "49"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 18
+    }
+]
