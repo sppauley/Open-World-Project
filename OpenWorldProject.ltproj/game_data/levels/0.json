@@ -292,7 +292,10 @@
             {
                 "nid": "EbertDoor",
                 "region_type": "event",
-                "position": null,
+                "position": [
+                    7,
+                    25
+                ],
                 "size": [
                     1,
                     1
@@ -301,6 +304,23 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "ShopRegion",
+                "region_type": "event",
+                "position": [
+                    17,
+                    24
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "SouthShop",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
