@@ -47,6 +47,12 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "'{v:EbertState}' == 'Met'"
+                ]
+            ],
+            [
                 "add_talk",
                 [
                     "Simon (Simon)",
@@ -59,6 +65,10 @@
                     "Simon (Simon)",
                     "Rodger (Rodger)"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "add_talk",

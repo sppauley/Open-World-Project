@@ -1,7 +1,7 @@
 [
     {
         "name": "EbertConvo",
-        "trigger": null,
+        "trigger": "Door",
         "level_nid": "0",
         "condition": "True",
         "commands": [
@@ -64,9 +64,54 @@
                 [
                     "# kill him, bringing Port Hull directly under Morrissey's control"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add dialogue here"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "merchantdooropen"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "EbertState",
+                    "Met"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20
     }
 ]
