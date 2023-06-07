@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "3",
+        "name": "Millin's Isle",
+        "tilemap": "Millin's Isle",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Defeat Boss",
+            "win": "Defeat Boss",
+            "loss": "Simon dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": true,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]
