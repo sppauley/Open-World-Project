@@ -26,5 +26,17 @@
     {
         "nid": "EbertState",
         "desc": "What is the player's relationship with Ebert?"
+    },
+    {
+        "nid": "StaggerMaterial",
+        "desc": "Used for forging"
+    },
+    {
+        "nid": "DamageMaterial",
+        "desc": "Used for forging"
+    },
+    {
+        "nid": "TriangleMaterial",
+        "desc": "Used for forging"
     }
 ]

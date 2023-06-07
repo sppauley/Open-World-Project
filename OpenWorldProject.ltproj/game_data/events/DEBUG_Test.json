@@ -76,6 +76,27 @@
                     "Loyalty (Loyalty)",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "DamageMaterial",
+                    "1"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "StaggerMaterial",
+                    "2"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "TriangleMaterial",
+                    "1"
+                ]
             ]
         ],
         "only_once": false,
