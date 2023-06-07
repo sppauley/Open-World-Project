@@ -1,7 +1,7 @@
 [
     {
         "nid": "Void Curse",
-        "name": "Void Curse",
+        "name": "Lost to History",
         "desc": "No exp gained for attacking this unit.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -15,6 +15,10 @@
             ],
             [
                 "enemy_exp_multiplier",
+                0
+            ],
+            [
+                "enemy_wexp_multiplier",
                 0
             ]
         ]

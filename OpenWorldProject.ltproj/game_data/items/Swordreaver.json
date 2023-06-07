@@ -39,25 +39,11 @@
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "weight",
                 13
-            ],
-            [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
             ],
             [
                 "level_exp",
@@ -74,6 +60,19 @@
             [
                 "reaver",
                 null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        8
+                    ]
+                ]
+            ],
+            [
+                "stagger",
+                6
             ]
         ]
     }
