@@ -38,5 +38,9 @@
     {
         "nid": "TriangleWeaponMaterial",
         "desc": "Used for forging weapons"
+    },
+    {
+        "nid": "AccuracyWeaponMaterial",
+        "desc": "Used for forging weapons"
     }
 ]

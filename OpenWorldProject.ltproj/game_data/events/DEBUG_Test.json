@@ -97,6 +97,13 @@
                     "TriangleWeaponMaterial",
                     "1"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "AccuracyWeaponMaterial",
+                    "4"
+                ]
             ]
         ],
         "only_once": false,

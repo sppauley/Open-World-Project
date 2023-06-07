@@ -106,7 +106,7 @@
             [
                 "elif",
                 [
-                    "'Hit' in '{v:ForgeType}'"
+                    "'Accuracy' in '{v:ForgeType}'"
                 ]
             ],
             [
@@ -174,7 +174,7 @@
                 "level_var",
                 [
                     "ForgeCost",
-                    "{eval:[component.value for component in [item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0].components if component.nid == game.level_vars['ForgeComponent']][0] + 1 - [component.value for component in [item for item in game.get_unit('Blacksmith').items if item.nid == '{v:ForgeItem}'][0].components if component.nid == game.level_vars['ForgeComponent']][0]}"
+                    "{eval:[component.value for component in [item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0].components if component.nid == game.level_vars['ForgeComponent']][0]//game.level_vars['ForgeAmount'] + 1 - [component.value for component in [item for item in game.get_unit('Blacksmith').items if item.nid == '{v:ForgeItem}'][0].components if component.nid == game.level_vars['ForgeComponent']][0]//game.level_vars['ForgeAmount']}"
                 ]
             ],
             [
@@ -278,6 +278,12 @@
                 "alert",
                 [
                     "Can't afford"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Forge_PickMaterial"
                 ]
             ],
             [

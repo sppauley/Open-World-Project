@@ -31,6 +31,7 @@
                     "ForgeType",
                     "Choose a material:",
                     "{eval:','.join([str(var).replace('WeaponMaterial','')+' ('+str(game.game_vars[var])+')' for var in game.game_vars if 'WeaponMaterial' in var])}",
+                    "102",
                     "FLAG(backable)"
                 ]
             ],
@@ -77,14 +78,19 @@
                 ]
             ],
             [
-                "end",
+                "trigger_script_with_args",
+                [
+                    "Forge_PickItem",
+                    "ForgeUnit,{v:ForgeUnit}"
+                ]
+            ],
+            [
+                "unchoice",
                 []
             ],
             [
-                "comment",
-                [
-                    "# component selections"
-                ]
+                "end",
+                []
             ]
         ],
         "only_once": false,
