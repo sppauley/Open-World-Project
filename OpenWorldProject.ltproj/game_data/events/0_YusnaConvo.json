@@ -1,0 +1,25 @@
+[
+    {
+        "name": "YusnaConvo",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid in [\"Rodger\", \"Yusna\"]",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# TODO - writing for unlock boat map"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "RevealedBoat",
+                    "True"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

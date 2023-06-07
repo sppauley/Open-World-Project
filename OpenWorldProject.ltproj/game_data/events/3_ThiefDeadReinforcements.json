@@ -1,0 +1,56 @@
+[
+    {
+        "name": "ThiefDeadReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.check_dead(\"115\")",
+        "commands": [
+            [
+                "make_generic",
+                [
+                    "",
+                    "Soldier (Soldier)",
+                    "6",
+                    "enemy",
+                    "Pursue",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Iron_Pike"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "1,22",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Mercenary (Mercenary)",
+                    "6",
+                    "enemy",
+                    "Pursue",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Steel Blade"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "1,23",
+                    "fade",
+                    "closest"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

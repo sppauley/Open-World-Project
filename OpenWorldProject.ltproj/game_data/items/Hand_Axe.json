@@ -42,20 +42,6 @@
                 12
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "level_exp",
                 null
             ],
@@ -70,6 +56,23 @@
             [
                 "value",
                 300
+            ],
+            [
+                "stagger",
+                3
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "no_double",
+                null
             ]
         ]
     }

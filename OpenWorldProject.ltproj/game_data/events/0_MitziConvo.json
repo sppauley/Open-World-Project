@@ -1,0 +1,64 @@
+[
+    {
+        "name": "MitziConvo",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == \"Mitzi\"",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# Recruit Mitzi"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "MitziRecruited",
+                    "True"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Mitzi (Mitzi)",
+                    "player"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Mitzi (Mitzi)",
+                    "18,0",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{v:tutorialPopups}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "All staves replenish at the end of a chapter.{w}{br}However, their limited uses mean they must be utilized carefully during battle.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

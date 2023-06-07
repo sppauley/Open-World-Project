@@ -14,5 +14,17 @@
     {
         "nid": "TurnwheelEnabled",
         "desc": "Has the turnwheel ever been enabled?"
+    },
+    {
+        "nid": "RevealedBoat",
+        "desc": "Spoken to Yusna/Rodger?"
+    },
+    {
+        "nid": "MitziRecruited",
+        "desc": "Was Mitzi recruited?"
+    },
+    {
+        "nid": "EbertState",
+        "desc": "What is the player's relationship with Ebert?"
     }
 ]

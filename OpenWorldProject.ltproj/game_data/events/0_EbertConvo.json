@@ -1,0 +1,117 @@
+[
+    {
+        "name": "EbertConvo",
+        "trigger": "Door",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# In the future, this will be used for Simon's first conversation with Ebert"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Atm it's just for writing ideas"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Ebert is a rich merchant and de facto head of Port Hull. He collects $$$"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# from fees on incoming ships and funds many exporting ships"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Getting him on side is one way to establish control over Port Hull."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# The easiest way to do that is to speak to him and then complete the boat"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# and Millin's Isle map. However, it is also possible to discover that he"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# provided a loan to New Dawn. If you wish, you can instead attack and"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# kill him, bringing Port Hull directly under Morrissey's control"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add dialogue here"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "merchantdooropen"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "EbertState",
+                    "Met"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

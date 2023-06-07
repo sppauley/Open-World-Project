@@ -14,19 +14,19 @@
         "bases": {
             "HP": 21,
             "SPD": 5,
-            "MOV": 5,
+            "MOV": 6,
             "DEX": 5,
-            "MAG": 0,
-            "PSE": 20,
-            "CON": 0
+            "MAG": 2,
+            "PSE": 25,
+            "CON": 3
         },
         "growths": {
             "HP": 75,
             "SPD": 10,
             "MOV": 0,
             "DEX": 25,
-            "MAG": 0,
-            "PSE": 0,
+            "MAG": 15,
+            "PSE": 60,
             "CON": 0
         },
         "growth_bonus": {
@@ -78,15 +78,7 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
-                false,
-                0
-            ],
-            "Dark": [
                 false,
                 0
             ],
@@ -95,6 +87,14 @@
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

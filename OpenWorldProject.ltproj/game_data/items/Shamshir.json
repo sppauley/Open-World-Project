@@ -34,20 +34,6 @@
                 "Sword"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "weight",
                 5
             ],
@@ -85,6 +71,10 @@
             [
                 "weapon_rank",
                 "D"
+            ],
+            [
+                "stagger",
+                4
             ]
         ]
     }

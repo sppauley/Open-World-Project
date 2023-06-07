@@ -6,70 +6,6 @@
         "condition": "True",
         "commands": [
             [
-                "level_var",
-                [
-                    "next_combat",
-                    "1"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "bossarrives",
-                    "-1"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "chestopen",
-                    "0"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_convoy",
-                    "1"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Simon (Simon)",
-                    "Vulnerary (Vulnerary)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "firstdooropen",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "seconddooropen",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "leftchestopen",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "rightchestopen",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
                 "center_cursor",
                 [
                     "Simon (Simon)",
@@ -77,108 +13,18 @@
                 ]
             ],
             [
-                "speak",
-                [
-                    "Simon",
-                    "Tell me, Luther, what seems to be the state of this fort?",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "There is little positive to be said.{w}{br}Our forces abandoned it three years ago.{w}{br}Smugglers have taken it now, and bring their unsightly goods here.",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Smugglers?{w} I must say, there are certainly higher demons.",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Silence.{w} They undercut our lord's authority -{w}{br}I would not hear you speak well of them.",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I agree with Luther.{w}{br}We must not show weakness on this matter.",
-                    "center"
-                ]
-            ],
-            [
-                "battle_save",
+                "arrange_formation",
                 []
             ],
             [
-                "if",
+                "prep",
                 [
-                    "RECORDS.get('TriggeredTrap') == 't'"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Dammit!",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Sire?",
-                    "center"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "They have a guard in the foyer.{w}{br}Let me do the talking.",
-                    "center"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#REMOVE BELOW LATER"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Simon (Simon)",
-                    "10"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Luther (Luther)",
-                    "Heal (Heal)",
-                    "FLAG(no_banner)"
+                    "t",
+                    "Combat Preparation",
+                    "Exit",
+                    "True",
+                    "ExitMap",
+                    "FormationEnabled=True"
                 ]
             ]
         ],

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "HatshesputConvo",
+        "trigger": null,
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# TODO - Set prereq for Clotho ending"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Have Hatshesput leave and maybe appear again later? Recruitable?"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

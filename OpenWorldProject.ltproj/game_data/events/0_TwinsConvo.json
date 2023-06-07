@@ -1,0 +1,25 @@
+[
+    {
+        "name": "TwinsConvo",
+        "trigger": null,
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# TODO - writing"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "Tristan (Twins)",
+                    "player"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

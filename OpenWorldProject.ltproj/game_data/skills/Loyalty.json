@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Loyalty",
+        "name": "Loyalty",
+        "desc": "Can warp adjacent to Simon.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "specific_witch_warp",
+                [
+                    "Simon"
+                ]
+            ]
+        ]
+    }
+]

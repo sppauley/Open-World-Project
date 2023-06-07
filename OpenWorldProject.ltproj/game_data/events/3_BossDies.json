@@ -1,9 +1,9 @@
 [
     {
-        "name": "WinMap",
+        "name": "BossDies",
         "trigger": "combat_end",
         "level_nid": "3",
-        "condition": "len(game.get_enemy_units()) == 0",
+        "condition": "game.check_dead(\"Bounty\")",
         "commands": [
             [
                 "win_game",

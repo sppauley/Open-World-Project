@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Tavern",
+        "trigger": "Tavern",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "Ransacked.{w}...What's this?"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Steel Mace (Steel_Mace)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "overlaytiles",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "merchantdooropen",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add talks for Simon"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:EbertState}' == 'Met'"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add stuff here for putting player characters on map if they have a convo (e.x. Vincent/Juliet)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "{v:RevealedBoat} == True"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Yusna (Yusna)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Rodger (Rodger)",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "{v:MitziRecruited} == True"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add stuff here for changing Simon's starting position depending on where he loaded into the map"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

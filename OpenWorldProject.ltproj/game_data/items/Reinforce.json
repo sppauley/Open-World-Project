@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "Reinforce",
+        "name": "Reinforce",
+        "desc": "Target gains +5 PSE until their next turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            14
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "exp",
+                12
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "c_uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Reinforce"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global ResetTargetPoise"
+            ]
+        ]
+    }
+]
