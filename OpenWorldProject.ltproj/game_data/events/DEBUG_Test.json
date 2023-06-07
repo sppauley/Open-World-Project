@@ -59,6 +59,23 @@
                     "Nika's Teddy (TeddyBear)",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "give_wexp",
+                [
+                    "Mitzi (Mitzi)",
+                    "Staff (Staff)",
+                    "500",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Mitzi (Mitzi)",
+                    "Loyalty (Loyalty)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
