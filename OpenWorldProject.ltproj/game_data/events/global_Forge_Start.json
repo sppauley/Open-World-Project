@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Forge_Start",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# sets up unit to forge for, saves to var ForgeUnit"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "ForgeUnit",
+                    "Choose a unit to forge for:",
+                    "{eval:','.join([unit.nid for unit in game.get_units_in_party()])}",
+                    "64",
+                    "v",
+                    "top_left",
+                    "menu_bg_base (menu_bg_base)",
+                    "",
+                    "type_unit",
+                    "8,3",
+                    "left",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "'{v:ForgeUnit}'!='BACK'"
+                ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    "Forge_PickItem",
+                    "ForgeUnit,{v:ForgeUnit}"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "unchoice",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
