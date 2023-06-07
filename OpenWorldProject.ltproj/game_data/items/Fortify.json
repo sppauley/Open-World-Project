@@ -30,20 +30,6 @@
                 null
             ],
             [
-                "uses",
-                8
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -62,6 +48,25 @@
             [
                 "equation_blast_aoe",
                 "HITPOINTS"
+            ],
+            [
+                "c_uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }

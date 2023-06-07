@@ -172,5 +172,7 @@
     "0_RevealBoatOutro.json": 170,
     "global_ResetTargetPoise.json": 171,
     "3_Intro.json": 172,
-    "3_Tavern.json": 173
+    "3_Tavern.json": 173,
+    "3_ThiefDeadReinforcements.json": 174,
+    "3_BossDies.json": 175
 }

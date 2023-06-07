@@ -1,21 +1,21 @@
 [
     {
-        "nid": "Hatshepsut",
-        "name": "Hatshepsut",
-        "desc": "Blessed by a foreign god. Her adventuring life has ended.",
+        "nid": "Bounty",
+        "name": "Bounty",
+        "desc": "A surprisingly unifying leader.\nUnited the pirate gangs together.",
         "variant": null,
         "level": 1,
-        "klass": "Eirika_Lord",
+        "klass": "General",
         "tags": [
-            "Lord"
+            "Boss"
         ],
         "bases": {
-            "HP": 24,
-            "CON": 10,
-            "MAG": 8,
-            "DEX": 15,
-            "SPD": 13,
-            "PSE": 12,
+            "HP": 40,
+            "CON": 14,
+            "MAG": 5,
+            "DEX": 13,
+            "SPD": 10,
+            "PSE": 28,
             "MOV": 5
         },
         "growths": {
@@ -29,7 +29,7 @@
         },
         "starting_items": [
             [
-                "Shamshir",
+                "Silver Lance",
                 false
             ]
         ],
@@ -38,11 +38,11 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                121
+                0
             ],
             "Lance": [
                 false,
-                0
+                181
             ],
             "Axe": [
                 false,
@@ -70,7 +70,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "CanDy F2E 23 Female Merc",
+        "portrait_nid": "OC 7",
         "affinity": "None",
         "fields": []
     }

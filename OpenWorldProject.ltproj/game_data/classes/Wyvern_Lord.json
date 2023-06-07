@@ -20,7 +20,7 @@
             "DEX": 7,
             "MAG": 0,
             "PSE": 11,
-            "CON": 0
+            "CON": 6
         },
         "growths": {
             "HP": 75,
@@ -28,8 +28,8 @@
             "MOV": 0,
             "DEX": 30,
             "MAG": 0,
-            "PSE": 0,
-            "CON": 10
+            "PSE": 50,
+            "CON": 60
         },
         "growth_bonus": {
             "HP": 0,
@@ -85,15 +85,7 @@
                 false,
                 0
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
-                false,
-                0
-            ],
-            "Dark": [
                 false,
                 0
             ],
@@ -102,6 +94,14 @@
                 0
             ],
             "Default": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]

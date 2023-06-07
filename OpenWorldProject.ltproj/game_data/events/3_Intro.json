@@ -11,6 +11,21 @@
                     "Simon (Simon)",
                     "FLAG(immediate)"
                 ]
+            ],
+            [
+                "arrange_formation",
+                []
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "Combat Preparation",
+                    "Exit",
+                    "True",
+                    "ExitMap",
+                    "FormationEnabled=True"
+                ]
             ]
         ],
         "only_once": false,

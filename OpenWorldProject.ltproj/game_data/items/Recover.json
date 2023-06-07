@@ -34,20 +34,6 @@
                 99
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "wexp",
                 3
             ],
@@ -73,6 +59,25 @@
                     94,
                     144,
                     232
+                ]
+            ],
+            [
+                "c_uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
                 ]
             ]
         ]

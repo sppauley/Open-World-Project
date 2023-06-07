@@ -24,7 +24,7 @@
             "MOV": 0,
             "DEX": 32,
             "MAG": 0,
-            "PSE": 0,
+            "PSE": 30,
             "CON": 50
         },
         "growth_bonus": {
@@ -76,17 +76,9 @@
                 true,
                 31
             ],
-            "Light": [
-                false,
-                0
-            ],
             "Anima": [
                 false,
                 0
-            ],
-            "Dark": [
-                true,
-                31
             ],
             "Staff": [
                 false,
@@ -95,6 +87,14 @@
             "Default": [
                 false,
                 0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
+                true,
+                31
             ]
         },
         "icon_nid": "Generic_Portrait_Shaman",

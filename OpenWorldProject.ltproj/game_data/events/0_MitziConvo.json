@@ -38,6 +38,24 @@
                 [
                     "Mitzi (Mitzi)"
                 ]
+            ],
+            [
+                "if",
+                [
+                    "{v:tutorialPopups}"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "All staves replenish at the end of a chapter.{w}{br}However, their limited uses mean they must be utilized carefully during battle.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": true,

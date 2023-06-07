@@ -30,20 +30,6 @@
                 null
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "wexp",
                 3
             ],
@@ -74,6 +60,25 @@
             [
                 "min_range",
                 1
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }

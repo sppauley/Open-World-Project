@@ -28,7 +28,7 @@
             "MOV": 0,
             "DEX": 40,
             "MAG": 0,
-            "PSE": 0,
+            "PSE": 50,
             "CON": 22
         },
         "growth_bonus": {
@@ -76,11 +76,7 @@
                 false,
                 0
             ],
-            "Staff": [
-                false,
-                0
-            ],
-            "Light": [
+            "Innate": [
                 false,
                 0
             ],
@@ -88,7 +84,7 @@
                 false,
                 0
             ],
-            "Dark": [
+            "Staff": [
                 false,
                 0
             ],
@@ -96,7 +92,11 @@
                 false,
                 0
             ],
-            "Innate": [
+            "Light": [
+                false,
+                0
+            ],
+            "Dark": [
                 false,
                 0
             ]
