@@ -283,6 +283,14 @@
             [
                 "end",
                 []
+            ],
+            [
+                "remove_item",
+                [
+                    "Blacksmith",
+                    "{v:ForgeItem}",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
