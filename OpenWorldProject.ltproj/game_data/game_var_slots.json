@@ -28,15 +28,15 @@
         "desc": "What is the player's relationship with Ebert?"
     },
     {
-        "nid": "StaggerMaterial",
-        "desc": "Used for forging"
+        "nid": "StaggerWeaponMaterial",
+        "desc": "Used for forging weapons"
     },
     {
-        "nid": "DamageMaterial",
-        "desc": "Used for forging"
+        "nid": "DamageWeaponMaterial",
+        "desc": "Used for forging weapons"
     },
     {
-        "nid": "TriangleMaterial",
-        "desc": "Used for forging"
+        "nid": "TriangleWeaponMaterial",
+        "desc": "Used for forging weapons"
     }
 ]

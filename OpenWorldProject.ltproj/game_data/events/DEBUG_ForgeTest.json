@@ -1,6 +1,6 @@
 [
     {
-        "name": "ForgeTest2",
+        "name": "ForgeTest",
         "trigger": "unit_wait",
         "level_nid": "DEBUG",
         "condition": "True",

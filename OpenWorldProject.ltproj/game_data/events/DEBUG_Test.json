@@ -80,21 +80,21 @@
             [
                 "game_var",
                 [
-                    "DamageMaterial",
+                    "DamageWeaponMaterial",
                     "1"
                 ]
             ],
             [
                 "game_var",
                 [
-                    "StaggerMaterial",
+                    "StaggerWeaponMaterial",
                     "2"
                 ]
             ],
             [
                 "game_var",
                 [
-                    "TriangleMaterial",
+                    "TriangleWeaponMaterial",
                     "1"
                 ]
             ]

@@ -175,10 +175,9 @@
     "3_ThiefDeadReinforcements.json": 173,
     "3_BossDies.json": 174,
     "3_TowerReinforcements.json": 175,
-    "DEBUG_Forge_Test.json": 176,
-    "global_Forge_Start.json": 177,
-    "global_Forge_PickItem.json": 178,
-    "DEBUG_ForgeTest2.json": 179,
-    "global_Forge_PickMaterial.json": 180,
-    "global_Forge_End.json": 181
+    "global_Forge_Start.json": 176,
+    "global_Forge_PickItem.json": 177,
+    "DEBUG_ForgeTest.json": 178,
+    "global_Forge_PickMaterial.json": 179,
+    "global_Forge_End.json": 180
 }
