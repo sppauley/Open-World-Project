@@ -38,51 +38,6 @@
                 "generic": false
             },
             {
-                "nid": "Eirika",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ],
-                    [
-                        "Slim Lance",
-                        false
-                    ],
-                    [
-                        "Vulnerary",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Yusna",
                 "team": "player",
                 "ai": "None",
@@ -135,38 +90,33 @@
                 "generic": false
             },
             {
-                "nid": "101",
+                "nid": "Blacksmith",
                 "variant": null,
                 "level": 1,
-                "klass": "Cleric",
+                "klass": "Citizen",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Cripple",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    11
+                    7,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "102",
+                "nid": "101",
                 "variant": null,
-                "level": 20,
-                "klass": "Sage",
+                "level": 1,
+                "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Cripple",
+                        "Iron Bow",
                         false
                     ]
                 ],
@@ -176,8 +126,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    10
+                    7,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
