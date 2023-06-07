@@ -1,0 +1,36 @@
+[
+    {
+        "name": "LarryElixir",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.get_stats['CON'] < 10"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "MapPoison",
+                    "{unit}"
+                ]
+            ],
+            [
+                "set_current_poise",
+                [
+                    "{unit}",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -104,6 +104,27 @@
                     "AccuracyWeaponMaterial",
                     "4"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Yusna (Yusna)",
+                    "Larry's \"Elixir\" (LarrysElixir)"
+                ]
+            ],
+            [
+                "set_current_hp",
+                [
+                    "Yusna (Yusna)",
+                    "4"
+                ]
+            ],
+            [
+                "set_stats",
+                [
+                    "Yusna",
+                    "CON,11"
+                ]
             ]
         ],
         "only_once": false,
