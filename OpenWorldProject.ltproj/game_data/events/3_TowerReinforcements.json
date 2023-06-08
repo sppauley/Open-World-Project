@@ -104,7 +104,7 @@
                     "Pirate (Pirate)",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Steel Axe"
@@ -150,7 +150,7 @@
                     "Pirate (Pirate)",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Iron_Mace"
@@ -196,7 +196,7 @@
                     "Pirate (Pirate)",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Swordreaver"
@@ -252,7 +252,7 @@
                     "Pirate (Pirate)",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Steel Axe"
@@ -298,7 +298,7 @@
                     "Archer",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Iron Bow"
@@ -344,7 +344,7 @@
                     "Mercenary",
                     "6",
                     "enemy",
-                    "Defend",
+                    "Pursue",
                     "Cutthroat (Cutthroat)",
                     "",
                     "Iron Blade"
