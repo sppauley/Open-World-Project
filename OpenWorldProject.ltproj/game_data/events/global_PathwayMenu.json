@@ -12,6 +12,12 @@
                 ]
             ],
             [
+                "change_background",
+                [
+                    "default_background"
+                ]
+            ],
+            [
                 "choice",
                 [
                     "PathwayUnitMenu",
@@ -24,7 +30,50 @@
                     "",
                     "type_unit",
                     "8,3",
-                    "center"
+                    "center",
+                    "FLAG(backable)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "not game.get_unit(\"{v:_last_choice}\").get_field(\"PathwayStage\")"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "{v:_last_choice}",
+                    "PathwayStage",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "level_var",
+                [
+                    "UnitChosenNid",
+                    "game.get_unit(\"{v:_last_choice}\").nid"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "PathwayNodeMenu",
+                    "Convos",
+                    "{eval:','.join([convo.nid for convo in game.get_data(\"{v:UnitChosenNid}\" + \"Pathway\")])}",
+                    "73",
+                    "vert",
+                    "top_left",
+                    "",
+                    "",
+                    "",
+                    "6,1",
+                    "center",
+                    "FLAG(persist)"
                 ]
             ]
         ],

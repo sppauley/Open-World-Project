@@ -186,5 +186,6 @@
     "global_Forge_End.json": 184,
     "global_UnlockPathwayConvo.json": 185,
     "global_CompletePathwayConvo.json": 186,
-    "global_PathwayMenu.json": 187
+    "global_VisiblePathwayConvo.json": 187,
+    "global_PathwayMenu.json": 188
 }

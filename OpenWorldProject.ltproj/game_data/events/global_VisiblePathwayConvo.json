@@ -1,0 +1,57 @@
+[
+    {
+        "name": "VisiblePathwayConvo",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "for",
+                [
+                    "convo",
+                    "[c.nid for c in game.get_data('{eval:Unit}' + 'Pathway')]"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "ConvoName",
+                    "'{eval:Convo}' + 'Visible'"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "UnitName",
+                    "'{eval:Unit}'"
+                ]
+            ],
+            [
+                "set_unit_field",
+                [
+                    "{v:UnitName}",
+                    "{v:ConvoName}",
+                    "True"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#if;not game.get_unit(\"{eval:Unit}\").get_field('{eval:Convo}' + 'Available')"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#end"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
