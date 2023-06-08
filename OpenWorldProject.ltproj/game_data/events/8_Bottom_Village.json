@@ -12,10 +12,16 @@
                 ]
             ],
             [
-                "give_item",
+                "inc_game_var",
                 [
-                    "{unit}",
-                    "Talisman"
+                    "DamageWeaponMaterial",
+                    "1"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Found Damage forging material!"
                 ]
             ],
             [

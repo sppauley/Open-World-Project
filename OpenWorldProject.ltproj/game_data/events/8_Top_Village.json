@@ -12,10 +12,16 @@
                 ]
             ],
             [
-                "give_item",
+                "inc_game_var",
                 [
-                    "{unit}",
-                    "Physic"
+                    "TriangleWeaponMaterial",
+                    "1"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Found Triangle forging material!"
                 ]
             ],
             [
