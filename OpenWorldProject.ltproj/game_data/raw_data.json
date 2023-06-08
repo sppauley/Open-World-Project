@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "nid": "SimonPathway",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "1A",
+                "Completed": "False",
+                "Prereq": "Speak to Vincent in Morrissey Castle",
+                "Available": "True"
+            },
+            {
+                "nid": "1B",
+                "Completed": "False",
+                "Prereq": "Recruit the Twins",
+                "Available": "False"
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "Prereq"
+        ]
+    }
+]

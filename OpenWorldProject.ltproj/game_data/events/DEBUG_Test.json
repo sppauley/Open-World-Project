@@ -127,6 +127,13 @@
                     "Forging Materials (ForgingBag)",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "trigger_script_with_args",
+                [
+                    "UnlockPathwayConvo (Global UnlockPathwayConvo)",
+                    "Unit,Simon,Convo,1B"
+                ]
             ]
         ],
         "only_once": false,

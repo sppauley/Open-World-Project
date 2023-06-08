@@ -1,0 +1,34 @@
+[
+    {
+        "name": "PathwayMenu",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#choice;PathwayUnitMenu;Choose a unit;{eval:','.join([u.nid for u in game.get_all_units_in_party()])}73;;top_left;;;type_unit;8,3;center;FLAG(scroll_bar)"
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "PathwayUnitMenu",
+                    "Choose a unit",
+                    "{eval:','.join([u.nid for u in game.get_all_units_in_party()])}",
+                    "73",
+                    "",
+                    "top_left",
+                    "",
+                    "",
+                    "type_unit",
+                    "8,3",
+                    "center"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

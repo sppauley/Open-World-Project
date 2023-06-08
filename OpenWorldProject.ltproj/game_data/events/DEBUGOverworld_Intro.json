@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "DEBUGOverworld",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    "DEBUGLvl3Team (Global DEBUGLvl3Team)"
+                ]
+            ],
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "node",
+                    "[str(i) for i in range(26,52)]"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "{node}",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "target",
+                    "[str(i) for i in range(26,52)]"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "{node}",
+                    "{target}",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

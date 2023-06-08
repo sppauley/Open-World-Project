@@ -2,7 +2,7 @@
     {
         "name": "Camp1",
         "trigger": null,
-        "level_nid": "4",
+        "level_nid": "DEBUGOverworld",
         "condition": "True",
         "commands": [
             [

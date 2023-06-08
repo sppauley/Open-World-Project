@@ -8,9 +8,9 @@
     "global_ResetSelectionQuotes.json": 6,
     "global_PlaySelectionQuote.json": 7,
     "global_EndCombatEncounter.json": 8,
-    "4_Camp1.json": 9,
+    "DEBUGOverworld_Camp1.json": 9,
     "global_GenericCamp.json": 10,
-    "4_Intro.json": 11,
+    "DEBUGOverworld_Intro.json": 11,
     "global_HealMenu.json": 12,
     "global_Pause_Roaming.json": 13,
     "global_PrepHealUnit.json": 14,
@@ -183,5 +183,8 @@
     "global_Forge_Calculate.json": 181,
     "global_LarryElixir.json": 182,
     "global_OpenForgingBag.json": 183,
-    "global_Forge_End.json": 184
+    "global_Forge_End.json": 184,
+    "global_UnlockPathwayConvo.json": 185,
+    "global_CompletePathwayConvo.json": 186,
+    "global_PathwayMenu.json": 187
 }
