@@ -173,6 +173,30 @@
                 "generic": true
             },
             {
+                "nid": "120",
+                "variant": null,
+                "level": 6,
+                "klass": "Mercenary",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "107",
                 "variant": null,
                 "level": 6,
