@@ -8,7 +8,7 @@
             [
                 "if",
                 [
-                    "unit.get_stats['CON'] < 10"
+                    "unit.get_stat('CON') < 10"
                 ]
             ],
             [

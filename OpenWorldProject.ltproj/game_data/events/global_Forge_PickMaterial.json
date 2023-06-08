@@ -44,7 +44,7 @@
             [
                 "trigger_script_with_args",
                 [
-                    "Forge_End",
+                    "Forge_Calculate",
                     "ForgeType,{v:ForgeType}"
                 ]
             ],
