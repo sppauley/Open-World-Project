@@ -70,14 +70,6 @@
                 ]
             ],
             [
-                "give_item",
-                [
-                    "Mitzi (Mitzi)",
-                    "Loyalty (Loyalty)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
                 "game_var",
                 [
                     "DamageWeaponMaterial",
@@ -109,7 +101,8 @@
                 "give_item",
                 [
                     "Yusna (Yusna)",
-                    "Larry's \"Elixir\" (LarrysElixir)"
+                    "Larry's \"Elixir\" (LarrysElixir)",
+                    "FLAG(no_banner)"
                 ]
             ],
             [
@@ -123,7 +116,16 @@
                 "set_stats",
                 [
                     "Yusna",
-                    "CON,11"
+                    "CON,11",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Simon (Simon)",
+                    "Forging Materials (ForgingBag)",
+                    "FLAG(no_banner)"
                 ]
             ]
         ],

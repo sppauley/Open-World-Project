@@ -1,9 +1,9 @@
 [
     {
         "name": "HatshesputConvo",
-        "trigger": null,
+        "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "unit2.nid == 'Hatshesput'",
         "commands": [
             [
                 "comment",
@@ -15,6 +15,13 @@
                 "comment",
                 [
                     "# Have Hatshesput leave and maybe appear again later? Recruitable?"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "HatshesputMet",
+                    "True"
                 ]
             ]
         ],

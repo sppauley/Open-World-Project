@@ -85,6 +85,60 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "{v:TwinsRecruited} == True"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# pass"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Tristan (Twins)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "{v:HatshesputMet} == True"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# pass"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Hatshepsut (Hatshepsut)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "comment",
                 [
                     "#"

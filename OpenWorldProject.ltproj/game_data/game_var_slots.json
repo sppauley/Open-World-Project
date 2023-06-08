@@ -42,5 +42,13 @@
     {
         "nid": "AccuracyWeaponMaterial",
         "desc": "Used for forging weapons"
+    },
+    {
+        "nid": "TwinsRecruited",
+        "desc": "Were the Twins recruited in Port Hull?"
+    },
+    {
+        "nid": "HatshesputMet",
+        "desc": "Was Hatshesput met in Port Hull?"
     }
 ]

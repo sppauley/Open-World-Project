@@ -278,6 +278,10 @@
                     [
                         "Iron_Pike",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -463,6 +467,10 @@
                     [
                         "Iron Lance",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],

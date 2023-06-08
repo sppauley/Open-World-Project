@@ -1,0 +1,52 @@
+[
+    {
+        "name": "OpenForgingBag",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "BagDMGReward",
+                    "random.randint(1,2)"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "BagSTGReward",
+                    "random.randint(1,2)"
+                ]
+            ],
+            [
+                "inc_game_var",
+                [
+                    "DamageWeaponMaterial",
+                    "v('BagDMGReward')"
+                ]
+            ],
+            [
+                "inc_game_var",
+                [
+                    "StaggerWeaponMaterial",
+                    "v('BagSTGReward')"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Recieved {v:BagDMGReward} damage materials!"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Recieved {v:BagSTGReward} stagger materials!"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

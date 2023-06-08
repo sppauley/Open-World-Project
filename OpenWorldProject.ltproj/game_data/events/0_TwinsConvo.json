@@ -1,9 +1,9 @@
 [
     {
         "name": "TwinsConvo",
-        "trigger": null,
+        "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "unit2.nid == 'Twins'",
         "commands": [
             [
                 "comment",
@@ -17,9 +17,16 @@
                     "Tristan (Twins)",
                     "player"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "TwinsRecruited",
+                    "True"
+                ]
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20
     }
 ]
