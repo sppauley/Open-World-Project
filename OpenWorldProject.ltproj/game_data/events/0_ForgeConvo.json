@@ -1,14 +1,40 @@
 [
     {
         "name": "ForgeConvo",
-        "trigger": null,
+        "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "True",
+        "condition": "unit2.nid == '104'",
         "commands": [
             [
                 "comment",
                 [
-                    "# TODO - Call Sean's event"
+                    "# dialogue"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Forger",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Forger",
+                    "Another order?{w}{br}Leave it here."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Forger"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "Forge_Start (Global Forge_Start)"
                 ]
             ]
         ],

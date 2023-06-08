@@ -220,6 +220,12 @@
                 [
                     "# Zeldacrafter (Bounty)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Imperial (Forger)"
+                ]
             ]
         ],
         "only_once": false,

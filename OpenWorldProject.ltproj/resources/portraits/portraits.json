@@ -994,5 +994,17 @@
             40
         ],
         "info_offset": 4
+    },
+    {
+        "nid": "Forger",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 5
     }
 ]
