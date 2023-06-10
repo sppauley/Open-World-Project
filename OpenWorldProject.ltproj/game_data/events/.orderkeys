@@ -187,5 +187,7 @@
     "global_CompletePathwayConvo.json": 185,
     "global_VisiblePathwayConvo.json": 186,
     "global_PathwayMenu.json": 187,
-    "global_PathwayConvoPrereq.json": 188
+    "global_PathwayConvoPrereq.json": 188,
+    "4_Miasma.json": 189,
+    "4_GiveMiasma.json": 190
 }

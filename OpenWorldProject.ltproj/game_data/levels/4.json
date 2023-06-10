@@ -1,7 +1,7 @@
 [
     {
         "nid": "4",
-        "name": "Chapter 4",
+        "name": "Submerged Mausoleum",
         "tilemap": "SubmergedMausoleum",
         "bg_tilemap": null,
         "party": "Simon",
@@ -15,6 +15,19 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    15,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
             {
                 "nid": "102",
                 "variant": null,
@@ -33,8 +46,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    26
+                    9,
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -57,8 +70,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    26
+                    10,
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -82,7 +95,7 @@
                 "ai_group": null,
                 "starting_position": [
                     21,
-                    26
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -106,7 +119,7 @@
                 "ai_group": null,
                 "starting_position": [
                     22,
-                    26
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -130,7 +143,7 @@
                 "ai_group": null,
                 "starting_position": [
                     15,
-                    15
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -153,8 +166,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    18
+                    10,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -177,7 +190,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    10,
+                    9,
                     20
                 ],
                 "starting_traveler": null,
@@ -202,7 +215,7 @@
                 "ai_group": null,
                 "starting_position": [
                     21,
-                    18
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -225,7 +238,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    20,
+                    22,
                     20
                 ],
                 "starting_traveler": null,
