@@ -16,7 +16,8 @@
                 "for",
                 [
                     "enemy_unit",
-                    "[u.nid for u in game.units if u.team.startswith('enemy')]"
+                    "[u.nid for u in game.units if u.team.startswith('enemy')]",
+                    "FLAG(no_warn)"
                 ]
             ],
             [

@@ -9,18 +9,24 @@
                 "nid": "1A",
                 "Completed": "False",
                 "Prereq": "Speak to Vincent in Morrissey Castle",
-                "Available": "True"
+                "Available": "True",
+                "name": "Cool Name",
+                "desc": "Simon reminisces on growing up in the castle."
             },
             {
                 "nid": "1B",
                 "Completed": "False",
                 "Prereq": "Recruit the Twins",
-                "Available": "False"
+                "Available": "False",
+                "name": "Cooler Name",
+                "desc": "Simon asks for combat advice."
             }
         ],
         "oattrs": [
             "nid",
-            "Prereq"
+            "Prereq",
+            "name",
+            "desc"
         ]
     }
 ]

@@ -187,5 +187,6 @@
     "global_UnlockPathwayConvo.json": 185,
     "global_CompletePathwayConvo.json": 186,
     "global_VisiblePathwayConvo.json": 187,
-    "global_PathwayMenu.json": 188
+    "global_PathwayMenu.json": 188,
+    "global_PathwayConvoPrereq.json": 189
 }

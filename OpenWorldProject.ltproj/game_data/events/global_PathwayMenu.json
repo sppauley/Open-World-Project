@@ -53,6 +53,12 @@
                 []
             ],
             [
+                "comment",
+                [
+                    "# The convo screen section"
+                ]
+            ],
+            [
                 "level_var",
                 [
                     "UnitChosenNid",
@@ -60,20 +66,74 @@
                 ]
             ],
             [
+                "level_var",
+                [
+                    "DataName",
+                    "\"{v:UnitChosenNid}\" + \"Pathway\""
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "ConvoChosen",
+                    "\"\""
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "ConvoChosenDesc",
+                    "\"\""
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Add desc textbox"
+                ]
+            ],
+            [
+                "textbox",
+                [
+                    "ConvoDesc",
+                    "\"{v:ConvoChosenDesc}\"",
+                    "bottom",
+                    "",
+                    "3",
+                    "",
+                    "0.05",
+                    "FLAG(expression)"
+                ]
+            ],
+            [
+                "textbox",
+                [
+                    "ConvoPrereq",
+                    "\"Prerequisite:|{v:ConvoChosen}\"",
+                    "top_right",
+                    "113",
+                    "4",
+                    "",
+                    "0.05",
+                    "FLAG(expression)"
+                ]
+            ],
+            [
                 "choice",
                 [
                     "PathwayNodeMenu",
-                    "Convos",
-                    "{eval:','.join([convo.nid for convo in game.get_data(\"{v:UnitChosenNid}\" + \"Pathway\")])}",
-                    "73",
+                    "Select a convo",
+                    "{eval:','.join([convo.name for convo in game.get_data(\"{v:DataName}\") if convo.nid[0] == str(game.get_unit(\"{v:UnitChosenNid}\").get_field('PathwayStage'))])}",
+                    "93",
                     "vert",
                     "top_left",
                     "",
+                    "PathwayConvoPrereq",
                     "",
-                    "",
-                    "6,1",
+                    "3,1",
                     "center",
-                    "FLAG(persist)"
+                    "FLAG(persist)",
+                    "FLAG(backable)"
                 ]
             ]
         ],
