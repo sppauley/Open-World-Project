@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "5",
+        "name": "Port Sewers",
+        "tilemap": "Port Sewers",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Catch the Thief",
+            "win": "Catch the Thief",
+            "loss": "Thief escapes, Simon dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": false,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "connections": []
+    }
+]
