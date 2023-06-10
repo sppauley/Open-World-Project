@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Canto2",
+        "name": "Canto 2",
+        "desc": "Can move 2 spaces after certain actions.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canter",
+                2
+            ]
+        ]
+    }
+]

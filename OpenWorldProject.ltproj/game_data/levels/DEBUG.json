@@ -109,38 +109,14 @@
                 "generic": true
             },
             {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Archer",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    3
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Vincent",
+                "nid": "Titus",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    3,
-                    5
+                    2,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
