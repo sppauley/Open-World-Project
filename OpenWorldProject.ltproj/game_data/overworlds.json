@@ -332,8 +332,16 @@
                     23
                 ],
                 "icon": "town",
-                "level": null,
-                "menu_options": []
+                "level": "3",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "51",
