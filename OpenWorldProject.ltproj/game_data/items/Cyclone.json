@@ -79,6 +79,15 @@
                         "Doubling doesn't cost extra uses"
                     ]
                 ]
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
             ]
         ]
     }
