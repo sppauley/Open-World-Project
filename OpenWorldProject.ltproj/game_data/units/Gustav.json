@@ -2,7 +2,7 @@
     {
         "nid": "Gustav",
         "name": "Gustav",
-        "desc": "",
+        "desc": "A bandit leader whose troops prey on those traveling through dangerous areas.",
         "variant": null,
         "level": 5,
         "klass": "Ranger",
@@ -82,7 +82,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "Citrus 1",
         "affinity": "None",
         "fields": []
     }

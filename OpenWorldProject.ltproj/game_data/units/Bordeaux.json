@@ -2,7 +2,7 @@
     {
         "nid": "Bordeaux",
         "name": "Bordeaux",
-        "desc": "",
+        "desc": "A captain in Morrissey's army.\nTasked with training Anuki.",
         "variant": "",
         "level": 1,
         "klass": "General",
@@ -83,7 +83,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "JiroPaiPai-Armor guy",
         "affinity": "None",
         "fields": []
     }

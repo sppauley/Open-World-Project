@@ -1042,5 +1042,29 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "JiroPaiPai-Armor guy",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Citrus 1",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
     }
 ]
