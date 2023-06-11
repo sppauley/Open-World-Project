@@ -12,12 +12,6 @@
                 ]
             ],
             [
-                "alert",
-                [
-                    "Unit Death"
-                ]
-            ],
-            [
                 "resurrect",
                 [
                     "{unit}"
@@ -50,12 +44,6 @@
                 "elif",
                 [
                     "unit2.team=='other' and unit2.get_hp() < 1"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Unit Death"
                 ]
             ],
             [
