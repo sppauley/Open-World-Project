@@ -55,7 +55,15 @@
                 ],
                 "icon": "forest_temple",
                 "level": "10",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "30",
@@ -129,8 +137,16 @@
                     20
                 ],
                 "icon": "citadel",
-                "level": null,
-                "menu_options": []
+                "level": "0",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "34",

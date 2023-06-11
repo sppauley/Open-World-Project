@@ -12,6 +12,25 @@
                 ]
             ],
             [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Swamp (29)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "29",
+                    "30"
+                ]
+            ],
+            [
                 "win_game",
                 []
             ],

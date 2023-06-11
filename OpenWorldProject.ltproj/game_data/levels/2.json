@@ -51,7 +51,7 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "General",
+                "klass": "Knight",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
@@ -65,7 +65,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    15,
+                    14,
                     4
                 ],
                 "starting_traveler": null,
