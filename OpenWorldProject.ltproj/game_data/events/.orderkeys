@@ -189,5 +189,7 @@
     "global_PathwayMenu.json": 187,
     "global_PathwayConvoPrereq.json": 188,
     "4_Miasma.json": 189,
-    "4_GiveMiasma.json": 190
+    "4_GiveMiasma.json": 190,
+    "4_Intro.json": 191,
+    "4_Trigger_Revive.json": 192
 }

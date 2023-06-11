@@ -3,7 +3,7 @@
         "name": "Miasma",
         "trigger": "turn_change",
         "level_nid": "4",
-        "condition": "True",
+        "condition": "game.turncount > 1",
         "commands": [
             [
                 "center_cursor",

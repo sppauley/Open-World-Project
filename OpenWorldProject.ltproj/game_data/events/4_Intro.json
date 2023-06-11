@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    "DEBUGLvl3Team (Global DEBUGLvl3Team)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Titus"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "t",
+                    "FormationEnabled=True",
+                    "OtherOptions=Difficulty",
+                    "OtherOptionsEnabled=True",
+                    "OtherOptionsOnSelect=ChangeDifficulty"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
