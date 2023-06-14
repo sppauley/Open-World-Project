@@ -748,31 +748,6 @@
                 "generic": true
             },
             {
-                "nid": "cr",
-                "variant": null,
-                "level": 3,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ],
-                    [
-                        "Angelic Robe",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "BottomRightCrate",
                 "variant": null,
                 "level": 1,
@@ -860,23 +835,6 @@
                 "size": [
                     1,
                     1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "CenterRight",
-                "region_type": "normal",
-                "position": [
-                    16,
-                    11
-                ],
-                "size": [
-                    7,
-                    4
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -1240,33 +1198,6 @@
                         10
                     ]
                 }
-            },
-            {
-                "nid": "CenterRight",
-                "units": [
-                    "cr"
-                ],
-                "positions": {
-                    "cr": [
-                        18,
-                        13
-                    ]
-                }
-            },
-            {
-                "nid": "BottomVillage",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "CenterVillage",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "TopVillage",
-                "units": [],
-                "positions": {}
             },
             {
                 "nid": "BottomCenter",
