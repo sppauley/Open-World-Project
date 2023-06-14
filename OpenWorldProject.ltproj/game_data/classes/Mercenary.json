@@ -20,7 +20,7 @@
             "MOV": 5,
             "DEX": 6,
             "MAG": 0,
-            "PSE": 5,
+            "PSE": 4,
             "CON": 4
         },
         "growths": {
