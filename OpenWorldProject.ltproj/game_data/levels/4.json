@@ -7,9 +7,9 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Reach the tomb",
+            "win": "Reach the tomb",
+            "loss": "Simon dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -325,7 +325,7 @@
                 "variant": null,
                 "level": 11,
                 "klass": "General",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Silver_Pike",
@@ -345,11 +345,59 @@
                 "generic": true
             },
             {
+                "nid": "121",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "l",
+                "starting_position": [
+                    3,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "l",
+                "starting_position": [
+                    1,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "114",
                 "variant": null,
                 "level": 7,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -373,7 +421,7 @@
                 "variant": null,
                 "level": 7,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Steel Lance",
@@ -397,7 +445,7 @@
                 "variant": null,
                 "level": 11,
                 "klass": "Berserker",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Silver_Mace",
@@ -417,11 +465,59 @@
                 "generic": true
             },
             {
+                "nid": "120",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "r",
+                "starting_position": [
+                    29,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "r",
+                "starting_position": [
+                    27,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "117",
                 "variant": null,
                 "level": 7,
                 "klass": "Brigand",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -445,7 +541,7 @@
                 "variant": null,
                 "level": 7,
                 "klass": "Brigand",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Steel Axe",
@@ -460,6 +556,206 @@
                 "starting_position": [
                     29,
                     16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Cyclone",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Cyclone",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    21,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    24,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    25,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    25,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    6,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
