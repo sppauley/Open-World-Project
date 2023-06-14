@@ -321,6 +321,102 @@
                 "generic": true
             },
             {
+                "nid": "139",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    25,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    26,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    4,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "113",
                 "variant": null,
                 "level": 11,
@@ -583,7 +679,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    8
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -611,7 +707,7 @@
                 "ai_group": null,
                 "starting_position": [
                     21,
-                    8
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -843,6 +939,102 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    12,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    12,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    18,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    18,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -859,6 +1051,74 @@
                 ],
                 "sub_nid": "",
                 "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Destroy1",
+                "region_type": "event",
+                "position": [
+                    12,
+                    5
+                ],
+                "size": [
+                    7,
+                    4
+                ],
+                "sub_nid": "Destroy",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Destroy2",
+                "region_type": "event",
+                "position": [
+                    13,
+                    4
+                ],
+                "size": [
+                    5,
+                    6
+                ],
+                "sub_nid": "Destroy",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Absorb",
+                "region_type": "event",
+                "position": [
+                    12,
+                    5
+                ],
+                "size": [
+                    7,
+                    4
+                ],
+                "sub_nid": "Absorb",
+                "condition": "'Kajal' in unit.nid or 'Simon' in unit.nid",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Absorb_1",
+                "region_type": "event",
+                "position": [
+                    13,
+                    4
+                ],
+                "size": [
+                    5,
+                    6
+                ],
+                "sub_nid": "Absorb",
+                "condition": "'Kajal' in unit.nid or 'Simon' in unit.nid",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
