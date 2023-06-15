@@ -76,26 +76,9 @@
             [
                 "move_unit",
                 [
-                    "109",
-                    "5,20",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
                     "110",
                     "5,21",
                     "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "106",
-                    "9,16",
                     "FLAG(no_follow)"
                 ]
             ],

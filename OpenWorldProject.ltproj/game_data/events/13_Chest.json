@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Chest",
+        "trigger": "Chest",
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "chest_open"
+                ]
+            ],
+            [
+                "inc_game_var",
+                [
+                    "StaggerWeaponMaterial",
+                    "3"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "Found 3 Stagger forging material!"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

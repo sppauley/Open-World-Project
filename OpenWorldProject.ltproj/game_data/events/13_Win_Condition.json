@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Win Condition",
+        "trigger": "combat_end",
+        "level_nid": "13",
+        "condition": "game.check_dead('Bryce')",
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

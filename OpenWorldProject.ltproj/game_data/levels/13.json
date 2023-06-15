@@ -7,9 +7,9 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defeat the boss",
+            "win": "Defeat the boss",
+            "loss": "Simon dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -242,30 +242,6 @@
                 "generic": true
             },
             {
-                "nid": "106",
-                "variant": null,
-                "level": 3,
-                "klass": "Myrmidon",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "b",
-                "starting_position": [
-                    9,
-                    12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "110",
                 "variant": null,
                 "level": 3,
@@ -332,30 +308,6 @@
                 "ai_group": "b",
                 "starting_position": [
                     4,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 3,
-                "klass": "Archer",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "b",
-                "starting_position": [
-                    2,
                     15
                 ],
                 "starting_traveler": null,
@@ -869,6 +821,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "chest",
+                "region_type": "event",
+                "position": [
+                    14,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -876,11 +845,9 @@
                 "nid": "HiddenEnemies",
                 "units": [
                     "105",
-                    "106",
                     "110",
                     "107",
                     "108",
-                    "109",
                     "111",
                     "RampartWall",
                     "ChestWall",

@@ -191,5 +191,7 @@
     "4_GiveMiasma.json": 189,
     "4_Intro.json": 190,
     "4_Trigger_Revive.json": 191,
-    "4_Turn3.json": 192
+    "4_Turn3.json": 192,
+    "13_Win_Condition.json": 193,
+    "13_Chest.json": 194
 }
