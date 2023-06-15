@@ -174,8 +174,9 @@
     "Red_Gem.json": 172,
     "Blue_Gem.json": 173,
     "White_Gem.json": 174,
-    "Steal.json": 175,
-    "Refresh.json": 176,
-    "Summon.json": 177,
-    "Summon_Soldier.json": 178
+    "DamageMaterial.json": 175,
+    "Steal.json": 176,
+    "Refresh.json": 177,
+    "Summon.json": 178,
+    "Summon_Soldier.json": 179
 }

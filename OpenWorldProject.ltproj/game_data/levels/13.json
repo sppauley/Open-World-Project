@@ -75,6 +75,10 @@
                     [
                         "Steel Sword",
                         false
+                    ],
+                    [
+                        "DamageMaterial",
+                        true
                     ]
                 ],
                 "starting_skills": [],

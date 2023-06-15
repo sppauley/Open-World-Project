@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Unit101 Death",
+        "trigger": "combat_end",
+        "level_nid": "13",
+        "condition": "game.check_dead('101')",
+        "commands": [
+            [
+                "inc_game_var",
+                [
+                    "DamageWeaponMaterial",
+                    "1"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "unit.team=='player'"
+                ]
+            ],
+            [
+                "remove_item",
+                [
+                    "{unit}",
+                    "Damage Material (DamageMaterial)"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "remove_item",
+                [
+                    "{unit2}",
+                    "Damage Material (DamageMaterial)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "DamageMaterial",
+        "name": "Damage Material",
+        "desc": "Material used for forging. Increases a weapon's damage.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": []
+    }
+]
