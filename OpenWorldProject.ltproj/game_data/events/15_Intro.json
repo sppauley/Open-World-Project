@@ -30,6 +30,13 @@
                     "Simon",
                     "103"
                 ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
             ]
         ],
         "only_once": false,

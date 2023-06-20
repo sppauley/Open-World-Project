@@ -17,14 +17,9 @@
                 []
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "Combat Preparation",
-                    "Exit",
-                    "True",
-                    "ExitMap",
-                    "FormationEnabled=True"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

@@ -18,10 +18,23 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
                     "I'll return one day,{w} I swear it."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon"
                 ]
             ],
             [

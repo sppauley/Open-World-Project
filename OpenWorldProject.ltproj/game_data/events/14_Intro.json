@@ -15,7 +15,8 @@
             [
                 "remove_unit",
                 [
-                    "Boudica (Boudica)"
+                    "Boudica (Boudica)",
+                    "immediate"
                 ]
             ],
             [
@@ -291,17 +292,9 @@
                 []
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "Combat Preparation",
-                    "",
-                    "",
-                    "",
-                    "t",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

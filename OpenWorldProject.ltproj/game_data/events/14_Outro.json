@@ -6,6 +6,13 @@
         "condition": "True",
         "commands": [
             [
+                "transition",
+                [
+                    "close",
+                    "1500"
+                ]
+            ],
+            [
                 "remove_all_units",
                 []
             ],
@@ -43,6 +50,13 @@
                 [
                     "Boudica (Boudica)",
                     "FLAG(immediate)"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open",
+                    "1500"
                 ]
             ],
             [

@@ -283,6 +283,12 @@
                 ]
             ],
             [
+                "change_objective_simple",
+                [
+                    "Escape"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Luther (Luther)",

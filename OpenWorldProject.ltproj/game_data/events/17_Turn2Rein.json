@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Turn2Rein",
+        "trigger": "turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 3",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "0,0"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "102",
+                    "0,0"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "102"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

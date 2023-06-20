@@ -24,6 +24,13 @@
                     "TwinsRecruited",
                     "True"
                 ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Tristan (Twins)"
+                ]
             ]
         ],
         "only_once": true,

@@ -1066,5 +1066,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Simon_4_KD",
+        "blinking_offset": [
+            21,
+            25
+        ],
+        "smiling_offset": [
+            15,
+            41
+        ],
+        "info_offset": 4
     }
 ]

@@ -79,6 +79,13 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Bandit (102)",
+                    "immediate"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",
@@ -203,14 +210,9 @@
                 ]
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "Combat Preparation",
-                    "FormationEnabled=True",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ],
             [

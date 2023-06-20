@@ -256,6 +256,12 @@
                 [
                     "# JiroPaiPai (Bordeaux)"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# Rammerrush (Simon)"
+                ]
             ]
         ],
         "only_once": false,

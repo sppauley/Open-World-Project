@@ -30,6 +30,13 @@
                 ]
             ],
             [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
                 "add_talk",
                 [
                     "Simon (Simon)",

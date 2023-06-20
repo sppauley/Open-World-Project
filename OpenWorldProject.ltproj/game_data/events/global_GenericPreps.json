@@ -1,7 +1,7 @@
 [
     {
-        "name": "Pause Roaming",
-        "trigger": "roam_press_start",
+        "name": "GenericPreps",
+        "trigger": null,
         "level_nid": null,
         "condition": "True",
         "commands": [
@@ -14,17 +14,12 @@
             [
                 "prep",
                 [
-                    "f",
-                    "",
+                    "t",
+                    "Combat Preparation",
                     "Pathways,Difficulty,Exit",
                     "True,True,{v:freely_exit}",
-                    "PathwayMenu,ChangeDifficulty,ExitMap"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}"
+                    "PathwayMenu,ChangeDifficulty,ExitMap",
+                    "t"
                 ]
             ]
         ],

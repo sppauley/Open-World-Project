@@ -1,7 +1,7 @@
 [
     {
         "nid": "16",
-        "name": "Intro Cutscene",
+        "name": "To the Victor",
         "tilemap": "Intro",
         "bg_tilemap": null,
         "party": "Simon",

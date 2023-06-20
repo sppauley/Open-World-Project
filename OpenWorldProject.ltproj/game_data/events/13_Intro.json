@@ -12,15 +12,22 @@
                 ]
             ],
             [
-                "trigger_script",
+                "comment",
                 [
-                    "DEBUGPostTutorial (Global DEBUGPostTutorial)"
+                    "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)"
                 ]
             ],
             [
                 "comment",
                 [
                     "# chapter intro commands"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
                 ]
             ],
             [
@@ -70,13 +77,9 @@
                 []
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "FormationEnabled=True",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

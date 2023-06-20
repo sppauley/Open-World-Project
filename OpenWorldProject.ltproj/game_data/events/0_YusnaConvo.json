@@ -17,6 +17,20 @@
                     "RevealedBoat",
                     "True"
                 ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)"
+                ]
             ]
         ],
         "only_once": true,

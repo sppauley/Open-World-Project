@@ -6,6 +6,13 @@
         "condition": "unit2.nid == \"Nika\"",
         "commands": [
             [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "18,2"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Nika (Nika)",

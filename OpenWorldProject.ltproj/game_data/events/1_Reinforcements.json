@@ -6,6 +6,13 @@
         "condition": "game.turncount==6",
         "commands": [
             [
+                "add_portrait",
+                [
+                    "Bordeaux (Bordeaux)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Bordeaux",
@@ -17,6 +24,12 @@
                 [
                     "Bordeaux",
                     "Let's raise the stakes, shall we?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bordeaux (Bordeaux)"
                 ]
             ],
             [

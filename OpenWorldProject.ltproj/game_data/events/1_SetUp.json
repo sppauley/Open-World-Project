@@ -36,11 +36,9 @@
                 ]
             ],
             [
-                "change_class",
+                "comment",
                 [
-                    "Juliet (Juliet)",
-                    "Archer",
-                    "FLAG(silent)"
+                    "#change_class;Juliet (Juliet);Archer;FLAG(silent)"
                 ]
             ],
             [
@@ -50,6 +48,31 @@
                     "PartyMember",
                     "Yes"
                 ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v(\"tutorialPopups\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Bordeaux is a <icon>Ruler</> Ruler, granting him enhanced battlefield capabilities.{w}{br}He will gain an additional action whenever one of your units ends their turn.{w}{br}However, if broken, he will not be able to move until his next turn.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,

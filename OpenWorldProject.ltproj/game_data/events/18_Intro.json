@@ -6,6 +6,13 @@
         "condition": "True",
         "commands": [
             [
+                "change_team",
+                [
+                    "Yusna (Yusna)",
+                    "player"
+                ]
+            ],
+            [
                 "center_cursor",
                 [
                     "Simon (Simon)",
@@ -81,17 +88,9 @@
                 []
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "Combat Preparation",
-                    "",
-                    "",
-                    "",
-                    "t",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

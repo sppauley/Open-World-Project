@@ -24,13 +24,9 @@
                 ]
             ],
             [
-                "prep",
+                "trigger_script",
                 [
-                    "t",
-                    "FormationEnabled=True",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

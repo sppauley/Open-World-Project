@@ -508,7 +508,7 @@
             [
                 "if",
                 [
-                    "game.game_vars.get(\"tutorialPopup\")"
+                    "v(\"tutorialPopups\")"
                 ]
             ],
             [

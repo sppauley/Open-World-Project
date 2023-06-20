@@ -45,39 +45,33 @@
                 ]
             ],
             [
-                "autolevel_to",
+                "comment",
                 [
-                    "Luther",
-                    "4"
+                    "#autolevel_to;Luther;4"
                 ]
             ],
             [
-                "autolevel_to",
+                "comment",
                 [
-                    "Vincent (Vincent)",
-                    "9"
+                    "#autolevel_to;Vincent (Vincent);9"
                 ]
             ],
             [
-                "autolevel_to",
+                "comment",
                 [
-                    "Juliet",
-                    "9"
+                    "#autolevel_to;Juliet;9"
                 ]
             ],
             [
-                "autolevel_to",
+                "comment",
                 [
-                    "Anuki",
-                    "9"
+                    "#autolevel_to;Anuki;9"
                 ]
             ],
             [
-                "give_item",
+                "comment",
                 [
-                    "Vincent",
-                    "Iron Blade",
-                    "FLAG(no_banner)"
+                    "#give_item;Vincent;Iron Blade;FLAG(no_banner)"
                 ]
             ],
             [
@@ -114,6 +108,13 @@
                 "comment",
                 [
                     "# intro script"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "13,29",
+                    "FLAG(immediate)"
                 ]
             ],
             [
@@ -402,13 +403,40 @@
                 ]
             ],
             [
-                "prep",
+                "if",
                 [
-                    "t",
-                    "FormationEnabled=True",
-                    "OtherOptions=Difficulty",
-                    "OtherOptionsEnabled=True",
-                    "OtherOptionsOnSelect=ChangeDifficulty"
+                    "v(\"tutorialPopups\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Some enemies may be too difficult for your current team.{w}{br}If you feel frustrated, try using the Exit option from the preparations screen.{w}{br}You can always return to a map later.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "#prep;t;FormationEnabled=True;OtherOptions=Difficulty;OtherOptionsEnabled=True;OtherOptionsOnSelect=ChangeDifficulty"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

@@ -23,6 +23,13 @@
                     "HatshesputMet",
                     "True"
                 ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon",
+                    "Hatshepsut (Hatshepsut)"
+                ]
             ]
         ],
         "only_once": false,
