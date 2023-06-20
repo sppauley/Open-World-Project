@@ -180,6 +180,10 @@
         true
     ],
     [
+        "translucent_unit_sprite",
+        false
+    ],
+    [
         "convoy_on_death",
         true
     ],
