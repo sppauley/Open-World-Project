@@ -40,52 +40,7 @@
             [
                 "wait",
                 [
-                    "300"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "5,16"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "107",
-                    "7,17",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "108",
-                    "8,16",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "110",
-                    "5,21",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
+                    "500"
                 ]
             ]
         ],
