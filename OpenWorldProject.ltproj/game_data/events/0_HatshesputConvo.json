@@ -3,7 +3,7 @@
         "name": "HatshesputConvo",
         "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "unit2.nid == 'Hatshesput'",
+        "condition": "unit2.nid == 'Hatshepsut'",
         "commands": [
             [
                 "comment",
@@ -20,7 +20,7 @@
             [
                 "game_var",
                 [
-                    "HatshesputMet",
+                    "HatshepsutMet",
                     "True"
                 ]
             ],

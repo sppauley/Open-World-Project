@@ -114,7 +114,7 @@
             [
                 "if",
                 [
-                    "{v:HatshesputMet} == True"
+                    "{v:HatshepsutMet} == True"
                 ]
             ],
             [

@@ -13,9 +13,23 @@
         },
         "roam": false,
         "roam_unit": null,
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
-        "units": [],
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
         "regions": [],
         "unit_groups": [],
         "connections": []
