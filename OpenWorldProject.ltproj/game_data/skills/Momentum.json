@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Momentum",
+        "name": "Momentum",
+        "desc": "Unit has a 10% chance to gain one point of MOV on level up.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "growth_change",
+                [
+                    [
+                        "MOV",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    }
+]

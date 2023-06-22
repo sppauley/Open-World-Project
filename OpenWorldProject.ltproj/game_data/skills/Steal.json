@@ -2,7 +2,7 @@
     {
         "nid": "Steal",
         "name": "Steal",
-        "desc": "Can steal items from enemies with lower speed.",
+        "desc": "Can open chests as well as steal items from enemies with lower speed.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
@@ -20,6 +20,10 @@
             [
                 "sight_range_bonus",
                 3
+            ],
+            [
+                "locktouch",
+                null
             ]
         ]
     }

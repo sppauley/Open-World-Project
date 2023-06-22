@@ -1,0 +1,84 @@
+[
+    {
+        "nid": "Lupus",
+        "name": "Lupus",
+        "desc": "The alias of a renowned thief.\nA fashionable renowned thief.",
+        "variant": null,
+        "level": 4,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "HP": 13,
+            "CON": 5,
+            "MAG": 7,
+            "DEX": 11,
+            "SPD": 14,
+            "PSE": 7,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 25,
+            "CON": 15,
+            "MAG": 30,
+            "DEX": 35,
+            "SPD": 40,
+            "PSE": 20,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Blade",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Steal"
+            ],
+            [
+                1,
+                "Momentum"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                31
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Zeldacrafter} OC 1",
+        "affinity": "None",
+        "fields": []
+    }
+]

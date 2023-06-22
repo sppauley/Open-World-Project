@@ -32,6 +32,10 @@
             [
                 "steal",
                 null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.stats['SPD'] < unit.stats['SPD']"
             ]
         ]
     }

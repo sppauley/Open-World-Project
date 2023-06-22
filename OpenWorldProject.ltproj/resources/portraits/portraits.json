@@ -1068,7 +1068,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Simon_4_KD",
+        "nid": "RamSimon",
         "blinking_offset": [
             21,
             25
@@ -1076,6 +1076,18 @@
         "smiling_offset": [
             15,
             41
+        ],
+        "info_offset": 4
+    },
+    {
+        "nid": "{Zeldacrafter} OC 1",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
         ],
         "info_offset": 4
     }
