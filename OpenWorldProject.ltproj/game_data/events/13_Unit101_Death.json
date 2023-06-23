@@ -22,7 +22,8 @@
                 "remove_item",
                 [
                     "{unit}",
-                    "Damage Material (DamageMaterial)"
+                    "Damage Material (DamageMaterial)",
+                    "FLAG(no_banner)"
                 ]
             ],
             [
@@ -40,6 +41,14 @@
             [
                 "end",
                 []
+            ],
+            [
+                "remove_item",
+                [
+                    "convoy",
+                    "Damage Material (DamageMaterial)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": true,

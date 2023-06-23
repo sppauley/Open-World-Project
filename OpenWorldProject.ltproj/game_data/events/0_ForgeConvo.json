@@ -3,7 +3,7 @@
         "name": "ForgeConvo",
         "trigger": "on_talk",
         "level_nid": "0",
-        "condition": "unit2.nid == '104'",
+        "condition": "unit2.nid == 'Blacksmith'",
         "commands": [
             [
                 "comment",

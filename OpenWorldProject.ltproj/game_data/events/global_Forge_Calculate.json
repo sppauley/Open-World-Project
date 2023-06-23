@@ -248,6 +248,12 @@
                 ]
             ],
             [
+                "trigger_script",
+                [
+                    "Forge_End"
+                ]
+            ],
+            [
                 "else",
                 []
             ],
