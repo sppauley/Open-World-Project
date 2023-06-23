@@ -45,6 +45,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Left"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Simon",
@@ -55,6 +62,13 @@
                 "if",
                 [
                     "game.check_alive('Kajal')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Kajal",
+                    "Right"
                 ]
             ],
             [
@@ -72,8 +86,20 @@
                 ]
             ],
             [
+                "remove_portrait",
+                [
+                    "Kajal"
+                ]
+            ],
+            [
                 "end",
                 []
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon"
+                ]
             ],
             [
                 "end",

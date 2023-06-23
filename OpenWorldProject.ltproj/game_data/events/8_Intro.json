@@ -421,10 +421,8 @@
                 []
             ],
             [
-                "comment",
-                [
-                    "#prep;t;FormationEnabled=True;OtherOptions=Difficulty;OtherOptionsEnabled=True;OtherOptionsOnSelect=ChangeDifficulty"
-                ]
+                "arrange_formation",
+                []
             ],
             [
                 "game_var",
