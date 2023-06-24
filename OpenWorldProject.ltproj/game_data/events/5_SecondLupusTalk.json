@@ -1,0 +1,63 @@
+[
+    {
+        "name": "SecondLupusTalk",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "unit2.nid == \"Lupus\" and game.get_unit(\"Lupus\").position != (7, 9)",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "Right"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit1}",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "Ahah... well, this is awkward.{w}{br}Wanna talk this out?"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "{unit1}"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "Lupus (Lupus)",
+                    "Evasive (Evasive)"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

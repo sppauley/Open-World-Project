@@ -196,5 +196,12 @@
     "13_Win_Condition.json": 194,
     "13_Chest.json": 195,
     "13_Unit101_Death.json": 196,
-    "17_Turn2Rein.json": 197
+    "17_Turn2Rein.json": 197,
+    "5_Outro.json": 198,
+    "5_FirstLupusTalk.json": 199,
+    "5_Check.json": 200,
+    "5_SecondLupusTalk.json": 201,
+    "5_PurchaseChoice.json": 202,
+    "5_CombatStart1.json": 203,
+    "5_CombatStart2.json": 204
 }

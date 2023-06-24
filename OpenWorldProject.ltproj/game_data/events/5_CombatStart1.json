@@ -1,0 +1,72 @@
+[
+    {
+        "name": "CombatStart1",
+        "trigger": "roaming_interrupt",
+        "level_nid": "5",
+        "condition": "any_unit_in_region('CombatStart1', nid='Simon')",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "22,17"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "2ndForm1",
+                    "23,17",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "2ndForm1",
+                    "22,18",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "2ndForm1",
+                    "23,18",
+                    "1,1",
+                    "formation"
+                ]
+            ],
+            [
+                "set_game_board_bounds",
+                [
+                    "6",
+                    "19",
+                    "34",
+                    "34"
+                ]
+            ],
+            [
+                "prep",
+                [
+                    "f",
+                    "Combat Preparation",
+                    "Pathways,Difficulty",
+                    "True,True",
+                    "PathwayMenu,ChangeDifficulty",
+                    "t"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

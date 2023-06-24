@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Evasive",
+        "name": "Evasive",
+        "desc": "Unit cannot be hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            2
+        ],
+        "components": [
+            [
+                "avoid",
+                999
+            ]
+        ]
+    }
+]

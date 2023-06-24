@@ -41,9 +41,152 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": "_Dead",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    5,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": "_Dead",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    12,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": "",
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    11,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "CheckGuy1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    18
+                ],
+                "size": [
+                    2,
+                    3
+                ],
+                "sub_nid": "Check",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CheckGuy2",
+                "region_type": "event",
+                "position": [
+                    11,
+                    15
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "Check",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "PurchaseChoice",
+                "region_type": "event",
+                "position": [
+                    9,
+                    15
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "PurchaseChoice",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            },
+            {
+                "nid": "CombatStart1",
+                "region_type": "event",
+                "position": [
+                    22,
+                    17
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "CombatStart1",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            },
+            {
+                "nid": "CombatStart2",
+                "region_type": "event",
+                "position": [
+                    9,
+                    27
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "CombatStart2",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            }
+        ],
         "unit_groups": [],
         "connections": []
     }

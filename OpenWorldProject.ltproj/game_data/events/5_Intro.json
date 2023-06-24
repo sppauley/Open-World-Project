@@ -117,6 +117,32 @@
                     "freely_exit",
                     "False"
                 ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Lupus (Lupus)",
+                    "Evasive (Evasive)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "party_unit",
+                    "[u.nid for u in game.get_units_in_party()]"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "{party_unit}",
+                    "Lupus"
+                ]
+            ],
+            [
+                "endf",
+                []
             ]
         ],
         "only_once": false,

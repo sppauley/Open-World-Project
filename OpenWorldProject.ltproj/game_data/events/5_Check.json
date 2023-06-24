@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Check",
+        "trigger": "Check",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "any_unit_in_region('CheckGuy1', nid='Simon')"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Is... he..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Best not to dwell on it, milord.{w}{br}We should continue forward."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "..."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "600"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "300"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Vincent",
+                    "MidRight"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "100"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Here. Take care."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Vincent",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vincent"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

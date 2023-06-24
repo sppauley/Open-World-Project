@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [
+            [
+                "remove_skill",
+                [
+                    "Lupus (Lupus)",
+                    "Evasive (Evasive)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "party_unit",
+                    "[u.nid for u in game.get_units_in_party()]"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "{party_unit}",
+                    "Lupus"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
