@@ -3,7 +3,7 @@
         "nid": "Lupus",
         "name": "Lupus",
         "desc": "The alias of a renowned thief.\nA fashionable renowned thief.",
-        "variant": null,
+        "variant": "_Lupus",
         "level": 4,
         "klass": "Thief",
         "tags": [],
