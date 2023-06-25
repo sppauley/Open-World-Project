@@ -32,6 +32,13 @@
                 []
             ],
             [
+                "remove_tag",
+                [
+                    "Lupus (Lupus)",
+                    "Boss"
+                ]
+            ],
+            [
                 "remove_all_units",
                 []
             ],

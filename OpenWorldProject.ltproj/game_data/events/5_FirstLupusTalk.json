@@ -9,21 +9,28 @@
                 "add_unit",
                 [
                     "Soldier (101)",
-                    "Soldier (101)"
+                    "5,19"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Soldier (102)",
-                    "Soldier (102)"
+                    "12,15"
                 ]
             ],
             [
                 "add_unit",
                 [
                     "Soldier (103)",
-                    "Soldier (103)"
+                    "11,19"
+                ]
+            ],
+            [
+                "remove_group",
+                [
+                    "StartGroup",
+                    "fade"
                 ]
             ],
             [
@@ -155,6 +162,12 @@
                 "remove_portrait",
                 [
                     "Simon (Simon)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
                 ]
             ],
             [

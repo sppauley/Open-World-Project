@@ -18,6 +18,13 @@
                 ]
             ],
             [
+                "add_tag",
+                [
+                    "Lupus (Lupus)",
+                    "Boss"
+                ]
+            ],
+            [
                 "level_var",
                 [
                     "maxTurns",
