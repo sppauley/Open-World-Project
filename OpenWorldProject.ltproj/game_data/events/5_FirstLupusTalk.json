@@ -6,6 +6,27 @@
         "condition": "unit2.nid == \"Lupus\" and game.get_unit(\"Lupus\").position == (7, 9)",
         "commands": [
             [
+                "add_unit",
+                [
+                    "Soldier (101)",
+                    "Soldier (101)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Soldier (102)",
+                    "Soldier (102)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Soldier (103)",
+                    "Soldier (103)"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Lupus (Lupus)",

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "LoseOnTime",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.turncount == v(\"maxTurns\")",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "Ah, there we are!{w} That boat is my ride!{w}{br}Toodaloo!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Dammit!{w} He's gone."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

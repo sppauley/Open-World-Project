@@ -53,6 +53,10 @@
                 ]
             ],
             [
+                "remove_all_enemies",
+                []
+            ],
+            [
                 "win_game",
                 []
             ]

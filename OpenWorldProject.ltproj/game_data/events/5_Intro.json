@@ -18,6 +18,13 @@
                 ]
             ],
             [
+                "level_var",
+                [
+                    "maxTurns",
+                    "-1"
+                ]
+            ],
+            [
                 "show_layer",
                 [
                     "overlaytiles",
@@ -103,6 +110,24 @@
                 [
                     "freely_exit",
                     "True"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (101)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (102)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (103)"
                 ]
             ],
             [

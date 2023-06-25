@@ -6,6 +6,13 @@
         "condition": "any_unit_in_region('PurchaseChoice', nid='Simon')",
         "commands": [
             [
+                "remove_group",
+                [
+                    "StartGroup",
+                    "fade"
+                ]
+            ],
+            [
                 "for",
                 [
                     "party_unit",

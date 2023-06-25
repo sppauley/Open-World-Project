@@ -203,5 +203,6 @@
     "5_SecondLupusTalk.json": 201,
     "5_PurchaseChoice.json": 202,
     "5_CombatStart1.json": 203,
-    "5_CombatStart2.json": 204
+    "5_CombatStart2.json": 204,
+    "5_LoseOnTime.json": 205
 }
