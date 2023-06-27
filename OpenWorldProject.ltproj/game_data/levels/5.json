@@ -277,6 +277,10 @@
                     [
                         "Hand Axe",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -541,6 +545,10 @@
                     [
                         "Thunder",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -685,6 +693,10 @@
                     [
                         "Steel Sword",
                         false
+                    ],
+                    [
+                        "AlertBand",
+                        true
                     ]
                 ],
                 "starting_skills": [],

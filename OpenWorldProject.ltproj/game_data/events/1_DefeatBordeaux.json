@@ -19,6 +19,37 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Feel free to change this later, but some money for now"
+                ]
+            ],
+            [
+                "give_money",
+                [
+                    "1500",
+                    "Simon's Group (Simon)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
                 "overworld_cinematic",
                 [
                     "The Continent (1)"

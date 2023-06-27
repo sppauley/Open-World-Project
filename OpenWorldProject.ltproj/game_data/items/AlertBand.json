@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "AlertBand",
+        "name": "Alert Band",
+        "desc": "Holder has +20 hit when attacked.",
+        "icon_nid": "{Maxim} Accessory 28",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "AlertBand"
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

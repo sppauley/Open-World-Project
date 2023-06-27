@@ -134,6 +134,14 @@
                     "UnlockPathwayConvo (Global UnlockPathwayConvo)",
                     "Unit,Simon,Convo,1B"
                 ]
+            ],
+            [
+                "give_item",
+                [
+                    "Hatshepsut (Hatshepsut)",
+                    "Alert Band (AlertBand)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
