@@ -33,7 +33,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "SunLight"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

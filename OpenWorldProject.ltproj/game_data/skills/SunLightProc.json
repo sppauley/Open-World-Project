@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SunLightProc",
+        "name": "Sun's Light",
+        "desc": "Proc skill",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            1
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "HitDown50"
+            ]
+        ]
+    }
+]

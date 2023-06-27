@@ -98,5 +98,9 @@
     {
         "nid": "CRIT_MULT_PLUS",
         "expression": "4"
+    },
+    {
+        "nid": "ALWAYS",
+        "expression": "100"
     }
 ]
