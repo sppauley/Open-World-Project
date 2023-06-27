@@ -1,0 +1,482 @@
+[
+    {
+        "name": "LupusConvo",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == \"Lupus\"",
+        "commands": [
+            [
+                "if",
+                [
+                    "v(\"SimonLupusTalk\") == 1"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "15,23"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "FarLeft",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "All clear?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Excuse me?"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "Oh! Err, well.{w} Don't mind me."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lupus (Lupus)",
+                    "19,6",
+                    "swoosh",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Hey, wait up!"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "14,23"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "He's gone, damn."
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v(\"FlowerRecruited\") == True"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Flower (Flower)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "*grrrr*"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You've got his scent, girl?{w}{br}Lead me to him."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "Awwooooooo!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "North? Fine."
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)",
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Flower (Flower)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "level_var",
+                [
+                    "SimonLupusTalk",
+                    "2"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"SimonLupusTalk\") == 2"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You were hanging around that store, right?"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "What's it to you?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "He mentioned stores nearby being robbed-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "That's nothing to do with me!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "And I noticed a nice new iron blade under your cloak."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "Yeah, I saved up!{w}{br}Give me a break!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lupus (Lupus)",
+                    "29,9",
+                    "swoosh",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "He's eager to run."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "SimonLupusTalk",
+                    "3"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "add_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "Right",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I'm not-"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Lupus",
+                    "Oh, leave me alone!"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Lupus (Lupus)",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lupus (Lupus)",
+                    "30,8"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "29,9"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "sewersentranceopen"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lupus (Lupus)",
+                    "30,7"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "A hidden basement?{w} Hmm..."
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "LupusLvlUnlocked",
+                    "True"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Port Hull (33)",
+                    "FLAG(immediate)",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Port Hull (33)"
+                ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Port Hull Sewers (54)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "33",
+                    "54"
+                ]
+            ],
+            [
+                "win_game",
+                []
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

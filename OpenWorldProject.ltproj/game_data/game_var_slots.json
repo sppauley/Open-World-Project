@@ -50,5 +50,13 @@
     {
         "nid": "HatshepsutMet",
         "desc": "Was Hatshepsut met in Port Hull?"
+    },
+    {
+        "nid": "LupusRecruited",
+        "desc": "Has Lupus been recruited?"
+    },
+    {
+        "nid": "LupusLvlUnlocked",
+        "desc": "Can Simon enter the sewers level?"
     }
 ]

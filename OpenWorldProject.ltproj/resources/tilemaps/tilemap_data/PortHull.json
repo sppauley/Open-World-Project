@@ -8769,6 +8769,20 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "sewersentranceopen",
+                "visible": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "30,7": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            13
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

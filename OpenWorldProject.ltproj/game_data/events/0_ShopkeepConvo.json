@@ -67,14 +67,81 @@
                 []
             ],
             [
-                "comment",
+                "if",
                 [
-                    "# Add dialogue here"
+                    "v(\"LupusRecruited\") != True"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "OldVillager",
+                    "Some thief's been hitting stores in the area.{w}{br}Fool better not grab anything from my stock!{w}{br}I'll... knock him right up!"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Lupus (Lupus)",
+                    "17,28",
+                    "swoosh"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "...That isn't how...{w}{br}A-hem. Right."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Lupus (Lupus)",
+                    "14,23",
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Lupus (Lupus)"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "SimonLupusTalk",
+                    "1"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "OldVillager",
+                    "So, buying up all my goods for a 'grand campaign'?{w}{br}What's this world coming to?{w}{br}You better be damn sure you can sort this all out."
                 ]
             ],
             [
                 "end",
                 []
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "OldVillager",
+                    "Simon (Simon)"
+                ]
             ]
         ],
         "only_once": false,

@@ -391,6 +391,25 @@
                 "icon": "town",
                 "level": null,
                 "menu_options": []
+            },
+            {
+                "nid": "54",
+                "name": "Port Hull Sewers",
+                "pos": [
+                    24,
+                    21
+                ],
+                "icon": "map_node",
+                "level": "5",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -868,6 +887,16 @@
                 [
                     24,
                     12
+                ]
+            ],
+            "(24, 21)-(25, 20)": [
+                [
+                    24,
+                    21
+                ],
+                [
+                    25,
+                    20
                 ]
             ]
         },

@@ -275,6 +275,13 @@
                     "Anuki (Anuki)",
                     "Lupus (Lupus)"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "LupusRecruited",
+                    "True"
+                ]
             ]
         ],
         "only_once": false,

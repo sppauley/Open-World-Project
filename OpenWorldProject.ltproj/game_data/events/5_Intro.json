@@ -49,10 +49,38 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "###"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "12,0",
+                    "immediate"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Simon",
                     "CenterRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "All this is underneath the city?"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "12,1"
                 ]
             ],
             [

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Exit From Gates",
+        "trigger": "Exit",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "trigger_script",
+                [
+                    "ExitMap (Global ExitMap)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

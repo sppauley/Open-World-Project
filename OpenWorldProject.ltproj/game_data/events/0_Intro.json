@@ -22,6 +22,14 @@
                 ]
             ],
             [
+                "hide_layer",
+                [
+                    "sewersentranceopen",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "game_var",
                 [
                     "freely_exit",
@@ -211,6 +219,23 @@
                 [
                     "Simon (Simon)",
                     "Mitzi (Mitzi)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "v(\"LupusLvlUnlocked\") == True"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "sewersentranceopen",
+                    "immediate"
                 ]
             ],
             [

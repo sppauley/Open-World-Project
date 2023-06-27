@@ -204,5 +204,7 @@
     "5_PurchaseChoice.json": 202,
     "5_CombatStart1.json": 203,
     "5_CombatStart2.json": 204,
-    "5_LoseOnTime.json": 205
+    "5_LoseOnTime.json": 205,
+    "0_LupusConvo.json": 206,
+    "0_Exit_From_Gates.json": 207
 }
