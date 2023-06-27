@@ -2,7 +2,7 @@
     {
         "nid": "4",
         "name": "Submerged Mausoleum",
-        "tilemap": "SubmergedMausoleum",
+        "tilemap": "SumbergedMausoleum2",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
