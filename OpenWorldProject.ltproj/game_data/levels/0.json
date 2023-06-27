@@ -150,7 +150,7 @@
             },
             {
                 "nid": "105",
-                "variant": null,
+                "variant": "_Juliet",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Soldier",
@@ -188,7 +188,7 @@
             },
             {
                 "nid": "107",
-                "variant": null,
+                "variant": "_Juliet",
                 "level": 1,
                 "klass": "Citizen",
                 "faction": "Soldier",

@@ -126,6 +126,13 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Hatshepsut (Hatshepsut)",
+                    "immediate"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "# pass"

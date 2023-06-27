@@ -69,7 +69,7 @@
             [
                 "if",
                 [
-                    "v(\"LupusRecruited\") != True"
+                    "v(\"LupusLvlUnlocked\") != True"
                 ]
             ],
             [

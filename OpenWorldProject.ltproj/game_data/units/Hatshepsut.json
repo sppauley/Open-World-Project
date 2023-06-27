@@ -11,9 +11,9 @@
         ],
         "bases": {
             "HP": 24,
-            "CON": 10,
-            "MAG": 8,
-            "DEX": 15,
+            "CON": 11,
+            "MAG": 16,
+            "DEX": 8,
             "SPD": 13,
             "PSE": 12,
             "MOV": 5
@@ -29,7 +29,7 @@
         },
         "starting_items": [
             [
-                "Shamshir",
+                "ShiningBow",
                 false
             ]
         ],
@@ -50,7 +50,7 @@
             ],
             "Bow": [
                 false,
-                0
+                71
             ],
             "Innate": [
                 false,

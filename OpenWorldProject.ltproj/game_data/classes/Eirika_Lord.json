@@ -61,7 +61,7 @@
         "learned_skills": [],
         "wexp_gain": {
             "Sword": [
-                true,
+                false,
                 1
             ],
             "Lance": [
@@ -73,8 +73,8 @@
                 0
             ],
             "Bow": [
-                false,
-                0
+                true,
+                1
             ],
             "Innate": [
                 false,
@@ -106,7 +106,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "EirikaLord",
+        "map_sprite_nid": "Great Lord (F) Eirika Sniper Bow {ArcaneEli}-stand",
         "combat_anim_nid": null,
         "fields": []
     }
