@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    15,
-                    32
+                    2,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -95,7 +95,7 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    21,
+                    18,
                     33
                 ],
                 "starting_traveler": null,
@@ -1036,31 +1036,62 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    20,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    9,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
             {
-                "nid": "prep",
-                "region_type": "formation",
-                "position": [
-                    13,
-                    33
-                ],
-                "size": [
-                    5,
-                    2
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
                 "nid": "Destroy1",
                 "region_type": "event",
                 "position": [
-                    12,
+                    15,
                     5
                 ],
                 "size": [
@@ -1077,7 +1108,7 @@
                 "nid": "Destroy2",
                 "region_type": "event",
                 "position": [
-                    13,
+                    16,
                     4
                 ],
                 "size": [
@@ -1094,7 +1125,7 @@
                 "nid": "Absorb",
                 "region_type": "event",
                 "position": [
-                    12,
+                    15,
                     5
                 ],
                 "size": [
@@ -1111,7 +1142,7 @@
                 "nid": "Absorb_1",
                 "region_type": "event",
                 "position": [
-                    13,
+                    16,
                     4
                 ],
                 "size": [
@@ -1120,6 +1151,210 @@
                 ],
                 "sub_nid": "Absorb",
                 "condition": "'Kajal' in unit.nid or 'Simon' in unit.nid",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_upper1",
+                "region_type": "normal",
+                "position": [
+                    3,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_upper2",
+                "region_type": "normal",
+                "position": [
+                    33,
+                    6
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_upper3",
+                "region_type": "normal",
+                "position": [
+                    18,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_left1",
+                "region_type": "normal",
+                "position": [
+                    2,
+                    27
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_left2",
+                "region_type": "normal",
+                "position": [
+                    17,
+                    31
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_left3",
+                "region_type": "normal",
+                "position": [
+                    9,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_right1",
+                "region_type": "normal",
+                "position": [
+                    15,
+                    28
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_right2",
+                "region_type": "normal",
+                "position": [
+                    35,
+                    32
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_right3",
+                "region_type": "normal",
+                "position": [
+                    23,
+                    24
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_left",
+                "region_type": "normal",
+                "position": [
+                    8,
+                    22
+                ],
+                "size": [
+                    3,
+                    4
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_right",
+                "region_type": "normal",
+                "position": [
+                    22,
+                    26
+                ],
+                "size": [
+                    3,
+                    4
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "door_upper",
+                "region_type": "normal",
+                "position": [
+                    17,
+                    11
+                ],
+                "size": [
+                    3,
+                    4
+                ],
+                "sub_nid": null,
+                "condition": "True",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
