@@ -160,6 +160,7 @@
             }
         ],
         "unit_groups": [],
+        "ai_groups": [],
         "connections": [
             {
                 "nid": "NewConnection",

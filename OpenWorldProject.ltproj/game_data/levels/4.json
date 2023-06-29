@@ -1412,6 +1412,20 @@
                 }
             }
         ],
+        "ai_groups": [
+            {
+                "nid": "g",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "l",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "r",
+                "trigger_threshold": 1
+            }
+        ],
         "connections": []
     }
 ]

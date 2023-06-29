@@ -578,6 +578,16 @@
             }
         ],
         "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "G2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "G1",
+                "trigger_threshold": 1
+            }
+        ],
         "connections": []
     }
 ]

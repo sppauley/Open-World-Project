@@ -872,6 +872,24 @@
                 "positions": {}
             }
         ],
+        "ai_groups": [
+            {
+                "nid": "a",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "b",
+                "trigger_threshold": 1
+            }
+        ],
         "connections": []
     }
 ]

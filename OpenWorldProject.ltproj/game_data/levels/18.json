@@ -914,6 +914,7 @@
                 "positions": {}
             }
         ],
+        "ai_groups": [],
         "connections": []
     }
 ]

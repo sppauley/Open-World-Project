@@ -678,6 +678,24 @@
             }
         ],
         "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "OutsideGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "FinalGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "InsideGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "BountyGroup",
+                "trigger_threshold": 1
+            }
+        ],
         "connections": []
     }
 ]

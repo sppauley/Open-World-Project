@@ -201,6 +201,7 @@
             }
         ],
         "unit_groups": [],
+        "ai_groups": [],
         "connections": []
     }
 ]
