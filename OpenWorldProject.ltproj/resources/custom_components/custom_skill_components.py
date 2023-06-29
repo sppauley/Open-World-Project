@@ -34,9 +34,14 @@ class StaggerGaleforce(SkillComponent):
         new_value = self.skill.data['charge'] - 1
         action.do(action.SetObjData(self.skill, 'charge', new_value))
 
+    def on_upkeep_unconditional(self, actions, playback, unit):
+         self.skill.data['charge'] = 0
+
     def end_combat(self, playback, unit, item, target, mode):
         mark_playbacks = [p for p in playback if p.nid in ('mark_miss', 'mark_hit', 'mark_crit')]
         if target and self.skill.data['charge'] == 1:
                 if any(p.main_attacker is unit for p in mark_playbacks):  # Unit is overall attacker
                     action.do(action.Reset(unit))
+                    unit.has_run_ai = False
+                    game.ai.load_unit(unit)
         action.do(action.TriggerCharge(unit, self.skill))

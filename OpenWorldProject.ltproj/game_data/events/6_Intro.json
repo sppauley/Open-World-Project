@@ -6,370 +6,29 @@
         "condition": "True",
         "commands": [
             [
-                "comment",
-                [
-                    "# Level vars"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "aliveMonsters",
-                    "5"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "rebelWarning",
-                    "0"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "clearedAmbush",
-                    "0"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "rebelReinforcements",
-                    "0"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "blockBridge"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Simon (Simon)",
-                    "immediate"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "4,44",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Simon (Simon)",
-                    "4,44"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Map_Step_Infantry1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "4,45"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# dialogue here"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "12,45"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "900"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "13,40"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "900"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "5,35"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "900"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#map_anim;BlueFort;12,38;FLAG(permanent)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#map_anim;BlueFort;13,38;FLAG(permanent)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "12,38"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w}{br}and his demense is the nearest."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Then we must all reach the bridge."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Nay, only yourself.{w} As our leader, only you must slip from the enemy's grasp."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "But what will happen to you and Vincent?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We will use the ensuing chaos to break through.{w}{br}You need not fear leaving us behind."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Understood."
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "2,43"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Juliet (Juliet)",
-                    "2,43",
-                    "fade",
-                    "stack",
-                    "east"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Juliet (Juliet)",
-                    "3,45"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Hufh... milord..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Halt!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Please... I..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Oh, you're one of the servants.{w}{br}I'm glad you were able to escape,{w}{br}but we have little time!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Allow me to travel with you.{w}{br}I'm defenseless, and..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I understand.{w} Come with us for now, but we must hurry."
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Juliet",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "start_encounter",
-                [
-                    "0",
-                    "34",
-                    "19",
-                    "47",
-                    "BattleIntro"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "E1Formation1",
-                    "5,45",
-                    "1,1",
-                    "formation"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "E1Formation2",
-                    "4,46",
-                    "1,1",
-                    "formation"
-                ]
-            ],
-            [
-                "arrange_formation",
-                []
-            ],
-            [
-                "remove_region",
-                [
-                    "E1Formation1"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "E1Formation2"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "blockreturn"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Luther (Luther)",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Vincent",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "E2",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "E3",
-                    "immediate"
-                ]
-            ],
-            [
                 "if",
                 [
-                    "game.game_vars.get(\"tutorialPopup\")"
+                    "v(\"NikaRecruited\")"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Nika (Nika)",
+                    "Left"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Narrator",
-                    "Units you control that fall in battle will return at the next save point.{w}{br}Only Simon's death will cause a game over.",
-                    "StyleNid=hint"
+                    "Nika",
+                    "Simon, this feels like...{w}{br}It's the same as in the mine.{w}{br}Please, let me stay in the rear guard."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Nika (Nika)"
                 ]
             ],
             [
@@ -377,11 +36,98 @@
                 []
             ],
             [
-                "battle_save",
+                "for",
+                [
+                    "u",
+                    "[unit.nid for unit in game.get_all_units()]"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "{u}",
+                    "Eldritch Swiftness (StaggerGaleforce)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "trigger_script",
+                [
+                    "GenericPreps (Global GenericPreps)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.get_unit(\"Nika\").position"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Nika (Nika)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Sorry, Simon...{w} I can't-{w}{br}Keep..."
+                ]
+            ],
+            [
+                "add_unit_map_anim",
+                [
+                    "MapBerserk",
+                    "Nika (Nika)",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Nika (Nika)",
+                    "Berserk (NikaBerserk)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Nika (Nika)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Nika?{w} ..?{w} Everyone, be careful.{w}{br}I don't know what she's doing."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "end",
                 []
             ]
         ],
-        "only_once": true,
+        "only_once": false,
         "priority": 20
     }
 ]
