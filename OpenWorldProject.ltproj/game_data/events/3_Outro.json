@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [
+            [
+                "game_var",
+                [
+                    "EbertState",
+                    "TookIsle"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
