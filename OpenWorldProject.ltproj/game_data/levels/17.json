@@ -587,7 +587,6 @@
                 "nid": "G1",
                 "trigger_threshold": 1
             }
-        ],
-        "connections": []
+        ]
     }
 ]

@@ -160,20 +160,6 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [],
-        "connections": [
-            {
-                "nid": "NewConnection",
-                "level": "4",
-                "direction": "UP",
-                "offset": 2
-            },
-            {
-                "nid": "New Connection",
-                "level": "0",
-                "direction": "LEFT",
-                "offset": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

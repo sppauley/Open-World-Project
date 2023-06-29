@@ -422,7 +422,6 @@
                 }
             }
         ],
-        "ai_groups": [],
-        "connections": []
+        "ai_groups": []
     }
 ]

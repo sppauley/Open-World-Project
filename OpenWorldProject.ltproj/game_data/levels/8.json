@@ -1232,7 +1232,6 @@
                 "nid": "b",
                 "trigger_threshold": 1
             }
-        ],
-        "connections": []
+        ]
     }
 ]

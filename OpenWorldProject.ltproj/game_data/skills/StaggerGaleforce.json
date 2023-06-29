@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "StaggerGaleforce",
+        "name": "Eldritch Swiftness",
+        "desc": "Upon staggering an enemy, gain another turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "stagger_galeforce",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

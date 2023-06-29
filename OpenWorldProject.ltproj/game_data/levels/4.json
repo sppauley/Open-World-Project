@@ -1425,7 +1425,6 @@
                 "nid": "r",
                 "trigger_threshold": 1
             }
-        ],
-        "connections": []
+        ]
     }
 ]

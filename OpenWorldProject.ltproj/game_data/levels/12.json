@@ -391,7 +391,6 @@
                 "nid": "G3",
                 "trigger_threshold": 1
             }
-        ],
-        "connections": []
+        ]
     }
 ]

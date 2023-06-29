@@ -695,7 +695,6 @@
                 "nid": "BountyGroup",
                 "trigger_threshold": 1
             }
-        ],
-        "connections": []
+        ]
     }
 ]

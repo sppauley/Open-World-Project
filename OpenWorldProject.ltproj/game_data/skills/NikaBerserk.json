@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "NikaBerserk",
+        "name": "Berserk",
+        "desc": "Nika has lost control of herself.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "change_ai",
+                "Pursue"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "stagger_bonus",
+                6
+            ],
+            [
+                "unselectable",
+                null
+            ]
+        ]
+    }
+]
