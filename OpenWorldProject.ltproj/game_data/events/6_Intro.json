@@ -6,6 +6,14 @@
         "condition": "True",
         "commands": [
             [
+                "show_layer",
+                [
+                    "overlay_tiles",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "if",
                 [
                     "v(\"NikaRecruited\")"
