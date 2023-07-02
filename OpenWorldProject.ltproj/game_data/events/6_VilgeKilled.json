@@ -1,0 +1,16 @@
+[
+    {
+        "name": "VilgeKilled",
+        "trigger": "combat_end",
+        "level_nid": "6",
+        "condition": "game.check_dead(\"Vilge\")",
+        "commands": [
+            [
+                "win_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

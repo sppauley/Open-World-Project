@@ -2,11 +2,13 @@
     {
         "nid": "Vilge",
         "name": "Vilge",
-        "desc": "",
+        "desc": "A former archeologist turned\nrogue mage.",
         "variant": null,
         "level": 3,
         "klass": "Sage",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 40,
             "CON": 8,
@@ -60,7 +62,7 @@
             ],
             "Anima": [
                 false,
-                0
+                181
             ],
             "Dark": [
                 false,

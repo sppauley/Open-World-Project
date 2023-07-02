@@ -1,0 +1,128 @@
+[
+    {
+        "name": "FirstTimeIntro",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "This is Port Hull?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Aye.{w} You visited once before,{w}{br}during your father's reign."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I was a boy at the time.{w}{br}I barely remember a moment."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Of course."
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "23,9"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "The north of the city is little but slums-{w}{br}I would avoid the area."
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "19,17"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "The tavern and port district are the center of the city,{w}{br}though it holds its own set of ne'er-do-wells."
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "9,25"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Lord Ebert's offices are to the south.{w}{br}He is the most powerful man in Port Hull,{w}{br}and winning his allegiance is as good as winning the city."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Lord? I thought the city was ruled by a council of merchants?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "His titles lack any legitimacy.{w} They were purchased, not inherited."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "He rules no land?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Only a sizeable estate to the north of the city,{w}{br}along with a private army.{w}{br}Once again, it is best to be wary of him."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I understand.{w} I'll be certain to speak with him before we depart."
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 18
+    }
+]
