@@ -202,5 +202,6 @@
     "4_Right1Reinforce.json": 200,
     "4_TopLeft1Reinforce.json": 201,
     "4_TopRight1Reinforce.json": 202,
-    "6_Villages.json": 203
+    "6_Villages.json": 203,
+    "6_Create_Barrier.json": 204
 }

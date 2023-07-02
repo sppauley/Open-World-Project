@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Create Barrier",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.board.get_unit((8,15)) and game.board.get_unit((8,15)).team == \"enemy\" and game.board.get_unit((8,15)).klass == \"Cleric\""
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "12,6"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Wall (101)",
+                    "12,6",
+                    "warp",
+                    "push",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Wall (102)",
+                    "13,6",
+                    "warp",
+                    "push",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Wall (103)",
+                    "12,7",
+                    "warp",
+                    "push",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Wall (104)",
+                    "13,7",
+                    "warp",
+                    "push",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (101)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (102)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (103)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (104)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
