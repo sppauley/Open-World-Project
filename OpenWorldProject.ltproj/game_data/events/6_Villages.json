@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Villages",
+        "trigger": "Village",
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "unit.position == (13, 10)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#Village 1 reward"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "unit.position == (20, 4)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#Vilalge 2 reward"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

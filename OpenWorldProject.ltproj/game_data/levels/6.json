@@ -81,6 +81,40 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Village1",
+                "region_type": "event",
+                "position": [
+                    13,
+                    10
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Village2",
+                "region_type": "event",
+                "position": [
+                    20,
+                    4
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
