@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Right1Reinforce",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "(any(get_units_in_region('door_right1')) and any(get_units_in_region('door_right2')))",
+        "commands": [
+            [
+                "add_group",
+                [
+                    "Right1"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

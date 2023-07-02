@@ -197,5 +197,9 @@
     "4_PushUnit.json": 195,
     "3_Outro.json": 196,
     "2_SetGameVars.json": 197,
-    "6_Intro.json": 198
+    "6_Intro.json": 198,
+    "4_Left1Reinforce.json": 199,
+    "4_Right1Reinforce.json": 200,
+    "4_TopLeft1Reinforce.json": 201,
+    "4_TopRight1Reinforce.json": 202
 }
