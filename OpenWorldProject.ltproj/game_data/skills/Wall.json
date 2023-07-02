@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "This unit cannot be killed through normal means.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ignore_damage",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "exp_multiplier",
+                0
+            ],
+            [
+                "enemy_exp_multiplier",
+                0
+            ],
+            [
+                "immune_status",
+                null
+            ]
+        ]
+    }
+]
