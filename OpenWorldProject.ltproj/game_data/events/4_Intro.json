@@ -24,6 +24,140 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Left",
+                    "Kajal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Simon, I understand that you wish to destroy my lord\u2019s remains?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Huh? Where\u2019d you hear that from?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Don\u2019t try to lie. I heard you and the newcomer talking."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Well, to be honest, that was originally the plan\u2026"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Lord Morrissey hoped purging the swamp would help the land\u2019s monster problem."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "I understand, but listen to me for a minute."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Vesner\u2019s miasma is certainly dangerous, and its lack of a strong vessel causes it to spill out and affect the land."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Perhaps destruction isn\u2019t the only way to resolve this problem, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "If I, as a devoted disciple, reach the tomb and absorb Vesner\u2019s power\u2026"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "I may serve as a faithful vessel, and you can rest easy knowing the land is safe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "What will you do with all that power?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Continue to aid you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "As shocking as it may sound, I wish to see the noble houses endure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "While Vesner may have... failed in his attempt, I believe there is still a way to break fate\u2019s cruel cycle."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I believe so too."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "So I will\u2026 consider your request."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon",
+                    "Kajal"
+                ]
+            ],
+            [
                 "trigger_script",
                 [
                     "GenericPreps (Global GenericPreps)"
