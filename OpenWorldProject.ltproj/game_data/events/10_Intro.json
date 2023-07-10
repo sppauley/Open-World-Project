@@ -122,6 +122,163 @@
                 ]
             ],
             [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Left",
+                    "Kajal",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Here we are."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "It really is in miserable condition\u2026"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "It\u2019s tragic, isn\u2019t it?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "It\u2019s the fate of all the noble houses, so they say."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "You don\u2019t sound like you believe it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "I don\u2019t."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "You might call it blasphemy, but I just can\u2019t believe that the noble houses are doomed."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Lord Vesner proved it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "With enough strength can cunning, you can wrest control from fate."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "But he still died, didn\u2019t he?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Not quite. He managed to stay alive in an act of defiance."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "But perhaps death would have been kinder."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Vincent",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Sorry interrupt, but it looks like we\u2019ve got company."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "Bandits? This far into the swamp?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "They\u2019ve gotten bolder. Or more foolish."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "We can hold them off."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Everyone, prepare for battle."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vincent",
+                    "Simon",
+                    "Kajal"
+                ]
+            ],
+            [
                 "arrange_formation",
                 []
             ],
