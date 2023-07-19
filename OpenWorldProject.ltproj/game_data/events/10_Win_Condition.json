@@ -6,6 +6,166 @@
         "condition": "game.check_dead('Larry')",
         "commands": [
             [
+                "change_background",
+                [
+                    "ForestDark"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "Simon",
+                    "Left",
+                    "Titus",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thanks for lending us a hand back there."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Anytime."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "The name\u2019s Titus, by the way. I\u2019m a member of the Wandering Knights."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "We\u2019ve set out to stop the miasma plaguing these lands."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Coincidentally, we\u2019re here for a similar reason."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Think your troops would be willing to lend us a hand?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "We\u2019d certainly help."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Can\u2019t promise too much, though."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Seems the Fates have it in for us. Our convoy has been ravaged by bandits and many of our soldiers have disappeared in the night."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Only a few paladins and I remain."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Any idea what happened?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "This place is cursed, it seems."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Between the miasma and the monsters, we\u2019ve had some foul luck."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "Anyways, Vesner\u2019s tomb is just a ways ahead."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Titus",
+                    "With luck, we can find some way to end the miasma spilling out from his corpse."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon",
+                    "Kajal"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Kajal",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Kajal",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Kajal",
+                    "..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Kajal"
+                ]
+            ],
+            [
                 "win_game",
                 []
             ]
