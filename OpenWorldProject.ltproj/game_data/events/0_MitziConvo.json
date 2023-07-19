@@ -12,6 +12,245 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Mitzi (Mitzi)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarLeft",
+                    "left"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "2000"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "Move, please."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Oh, sorry."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "Are you daft?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Excuse me?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "I'm trying to observe the locals.{w}{br}You are not a local."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I suppose that's obvious."
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "What are you doing?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Joining you in people-watching."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "I would not...{w} describe it as people-watching."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Enlighten me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "I am an anthropologist and historian.{w}{br}I document the lifestyles of-"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Villager Woman 2",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "Villager Woman 2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Woman 2",
+                    "Oh, excuse me!{w} Seems I made a bit of a spill.{w}{br}It'll wash right out!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Villager Woman 2",
+                    "OffscreenLeft"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Villager Woman 2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "...Their lifestyles.{c:wait;2000} I tire of it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Then care to travel with us?{w}{br}We plan to see the continent."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "A mercenary band?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Of a sort."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Mitzi",
+                    "My first aid abilities have deprecated,{w}{br}but they should be useful enough.{w}{br}I... appreciate this opportunity."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Simon (Simon)",
+                    "Mitzi (Mitzi)"
+                ]
+            ],
+            [
                 "game_var",
                 [
                     "MitziRecruited",
