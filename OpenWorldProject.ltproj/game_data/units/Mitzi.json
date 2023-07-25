@@ -25,6 +25,7 @@
             "PSE": 20,
             "MOV": 0
         },
+        "stat_cap_modifiers": {},
         "starting_items": [
             [
                 "Mend",

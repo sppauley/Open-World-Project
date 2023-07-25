@@ -25,6 +25,7 @@
             "MOV": 0,
             "CON": 35
         },
+        "stat_cap_modifiers": {},
         "starting_items": [
             [
                 "Parizitis",

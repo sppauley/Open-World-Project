@@ -25,6 +25,7 @@
             "PSE": 10,
             "MOV": 0
         },
+        "stat_cap_modifiers": {},
         "starting_items": [
             [
                 "Iron Lance",

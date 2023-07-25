@@ -25,6 +25,7 @@
             "MOV": 0,
             "CON": 15
         },
+        "stat_cap_modifiers": {},
         "starting_items": [
             [
                 "Heal",

@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "6",
                     "31,6": "6",
@@ -9234,6 +9235,7 @@
             {
                 "nid": "top_layer",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "11,7": "6",
                     "12,7": "6",
@@ -11062,6 +11064,7 @@
             {
                 "nid": "verstadt",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "24,3": "6",
                     "23,3": "6",

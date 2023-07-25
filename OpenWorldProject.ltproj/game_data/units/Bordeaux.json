@@ -27,6 +27,7 @@
             "MOV": 0,
             "CON": 0
         },
+        "stat_cap_modifiers": {},
         "starting_items": [
             [
                 "Horseslayer",

@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "22",
                     "6,9": "1",
@@ -6018,6 +6019,7 @@
             {
                 "nid": "overlay_tiles",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "5,10": "22",
                     "5,11": "22",

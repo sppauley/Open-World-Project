@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "1",
                     "16,9": "1",
@@ -3218,6 +3219,7 @@
             {
                 "nid": "firstdooropen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "14,8": [
@@ -3239,6 +3241,7 @@
             {
                 "nid": "seconddooropen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "8,10": "1",
                     "9,10": "1"
@@ -3263,6 +3266,7 @@
             {
                 "nid": "rightchestopen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "19,4": [
@@ -3277,6 +3281,7 @@
             {
                 "nid": "leftchestopen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "12,7": [

@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "5,3": "9",
                     "5,4": "9",
@@ -5418,6 +5419,7 @@
             {
                 "nid": "Village_Upper",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "23,5": [
@@ -5432,6 +5434,7 @@
             {
                 "nid": "Village_Lower",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "1,15": [

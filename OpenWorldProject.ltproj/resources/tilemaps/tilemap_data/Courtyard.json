@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "0,5": "9",
                     "1,5": "9",
@@ -4862,6 +4863,7 @@
             {
                 "nid": "overlaytiles",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "9",
                     "16,9": "1",
@@ -8423,6 +8425,7 @@
             {
                 "nid": "opendoor",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "28,9": "1"
                 },
@@ -8439,6 +8442,7 @@
             {
                 "nid": "escapeopen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "14,4": "7",
                     "15,4": "7"
@@ -8448,6 +8452,7 @@
             {
                 "nid": "crossbridge",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "14,17": "0",
                     "15,17": "0"

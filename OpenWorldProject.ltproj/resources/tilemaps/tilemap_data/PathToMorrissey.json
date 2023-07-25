@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "31,6": "1",
                     "40,22": "1",
@@ -18450,6 +18451,7 @@
             {
                 "nid": "southernBridge",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "4,32": "4",
                     "4,33": "4",
@@ -18490,6 +18492,7 @@
             {
                 "nid": "northernBridge",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "8,21": "4",
                     "8,22": "4",
@@ -18530,6 +18533,7 @@
             {
                 "nid": "blockreturn",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "12,37": "4",
                     "13,37": "4",
@@ -18545,6 +18549,7 @@
             {
                 "nid": "destroyBridge",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "13,37": "12",
                     "13,38": "12",
@@ -18609,6 +18614,7 @@
             {
                 "nid": "blockBridge",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "12,37": "0",
                     "13,37": "0"

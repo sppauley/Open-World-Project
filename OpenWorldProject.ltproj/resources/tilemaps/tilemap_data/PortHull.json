@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "9",
                     "31,6": "9",
@@ -8210,6 +8211,7 @@
             {
                 "nid": "overlaytiles",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "17,25": "9",
                     "18,25": "9",
@@ -8757,6 +8759,7 @@
             {
                 "nid": "merchantdooropen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "7,26": "6"
                 },
@@ -8773,6 +8776,7 @@
             {
                 "nid": "sewersentranceopen",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "30,7": [

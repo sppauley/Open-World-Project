@@ -76,6 +76,14 @@
         true
     ],
     [
+        "reset_uses",
+        true
+    ],
+    [
+        "allow_negative_as",
+        false
+    ],
+    [
         "trade",
         false
     ],
@@ -181,6 +189,10 @@
     ],
     [
         "translucent_unit_sprite",
+        false
+    ],
+    [
+        "talk_display",
         false
     ],
     [

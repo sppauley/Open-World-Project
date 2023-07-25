@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "23,1": "9",
                     "24,1": "9",
@@ -5794,6 +5795,7 @@
             {
                 "nid": "layer1",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "0,0": "0",
                     "1,0": "0",
@@ -9848,6 +9850,7 @@
             {
                 "nid": "layer2",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "3,0": "0",
                     "3,1": "0",
@@ -11984,6 +11987,7 @@
             {
                 "nid": "broken_statue",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "23,7": [
@@ -11998,6 +12002,7 @@
             {
                 "nid": "broken_pillar",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "26,10": [
@@ -12026,6 +12031,7 @@
             {
                 "nid": "broken_carpet",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "20,12": [
@@ -12124,6 +12130,7 @@
             {
                 "nid": "upperdoor",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "26,1": "6",
                     "27,1": "6",

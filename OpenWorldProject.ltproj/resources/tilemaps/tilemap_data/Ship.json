@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "7,3": "11",
                     "20,25": "11",
@@ -6018,6 +6019,7 @@
             {
                 "nid": "topdoor",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "11,10": "37",
                     "12,10": "37"
@@ -6042,6 +6044,7 @@
             {
                 "nid": "rightship",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "20,21": "Fence",
                     "20,20": "Fence",
@@ -7048,6 +7051,7 @@
             {
                 "nid": "leftship",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "5,12": "6",
                     "4,12": "6",

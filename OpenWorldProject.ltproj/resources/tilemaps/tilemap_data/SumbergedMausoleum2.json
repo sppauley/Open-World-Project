@@ -10,6 +10,7 @@
             {
                 "nid": "base",
                 "visible": true,
+                "foreground": false,
                 "terrain_grid": {
                     "0,10": "Swamp",
                     "0,11": "Swamp",
@@ -12450,6 +12451,7 @@
             {
                 "nid": "door_left",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "8,22": "6",
                     "8,23": "6",
@@ -12575,6 +12577,7 @@
             {
                 "nid": "door_right",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "22,26": "6",
                     "22,27": "6",
@@ -12700,6 +12703,7 @@
             {
                 "nid": "door_upper",
                 "visible": false,
+                "foreground": false,
                 "terrain_grid": {
                     "17,11": "6",
                     "17,12": "6",
