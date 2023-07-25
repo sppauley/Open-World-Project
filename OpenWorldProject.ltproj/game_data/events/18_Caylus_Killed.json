@@ -6,6 +6,36 @@
         "condition": "game.check_dead(\"Caylus\")",
         "commands": [
             [
+                "add_portrait",
+                [
+                    "Caylus (Caylus)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caylus",
+                    "N-no... I'm not gonna die..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Caylus (Caylus)"
+                ]
+            ],
+            [
+                "remove_all_enemies",
+                []
+            ],
+            [
+                "trigger_script",
+                [
+                    "SharedOutroDialogue (18 SharedOutroDialogue)"
+                ]
+            ],
+            [
                 "overworld_cinematic",
                 [
                     "The Continent (1)"

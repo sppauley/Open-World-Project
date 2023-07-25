@@ -210,5 +210,6 @@
     "global_SimonDeath.json": 208,
     "global_CallOutKiller.json": 209,
     "global_CallOutKillerTurnwheel.json": 210,
-    "global_CallOutKillerDialogue.json": 211
+    "global_CallOutKillerDialogue.json": 211,
+    "18_SharedOutroDialogue.json": 212
 }
