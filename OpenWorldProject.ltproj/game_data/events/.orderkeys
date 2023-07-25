@@ -208,5 +208,7 @@
     "0_FirstTimeIntro.json": 206,
     "18_Yusna_First_Kill.json": 207,
     "global_SimonDeath.json": 208,
-    "global_CallOutKiller.json": 209
+    "global_CallOutKiller.json": 209,
+    "global_CallOutKillerTurnwheel.json": 210,
+    "global_CallOutKillerDialogue.json": 211
 }

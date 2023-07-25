@@ -1,7 +1,7 @@
 [
     {
-        "name": "CallOutKiller",
-        "trigger": "turn_change",
+        "name": "CallOutKillerTurnwheel",
+        "trigger": "on_turnwheel",
         "level_nid": null,
         "condition": "True",
         "commands": [
