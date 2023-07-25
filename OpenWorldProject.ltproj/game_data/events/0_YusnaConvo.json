@@ -6,16 +6,17 @@
         "condition": "unit2.nid in [\"Rodger\", \"Yusna\"]",
         "commands": [
             [
-                "comment",
-                [
-                    "# TODO - writing for unlock boat map"
-                ]
-            ],
-            [
                 "game_var",
                 [
                     "RevealedBoat",
                     "True"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "23,18"
                 ]
             ],
             [
@@ -30,6 +31,160 @@
                 [
                     "Simon (Simon)",
                     "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yusna (Yusna)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "Walk away, kid.{w} Ebert's orders or no,{w}{br}I ain't takin' you alone."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Tell me this is a joke."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "He hired me to destroy the fort,{w}{br}so take me to the fort!{w}{br}You don't even need to fight!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "I ain't letting you face those bandits alone.{w}{br}You got no idea what they'd do to you."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "I'm not stupid - I won't be facing them head on.{w}{br}All Ebert wants is for the fort to be razed.{w}{br}Once their home is on fire, they won't be interested in me."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "And how you gonna get close enough to do that?{w}{br}The fort's on a cliff, fool!{w}{br}There's one way up, and your magic won't reach from the sea below."
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "22,17"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Perhaps I can help."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "This is a private conversation!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I apologize.{w} But I've also been hired to destroy the fort.{w}{br}My men and I are prepared for a head-on attack."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "Aye?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I'm sure the bandits expect ships to avoid their island.{w}{br}If we attack quickly we can overwhelm any initial defenses."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Well?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "Tis sounding less like a suicide mission now that you're the one saying it.{w}{br}Fine, I'll sail you there and back.{w}{br}Give me some time to prepare my crew."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thank you.{w} We'll keep you safe."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "Agh... just hope your confidence survives the pirates."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "Yusna (Yusna)",
+                    "Simon (Simon)"
                 ]
             ]
         ],

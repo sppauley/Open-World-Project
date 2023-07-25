@@ -6,12 +6,6 @@
         "condition": "unit2.nid == 'Twins'",
         "commands": [
             [
-                "comment",
-                [
-                    "# TODO - writing"
-                ]
-            ],
-            [
                 "move_unit",
                 [
                     "Simon (Simon)",
