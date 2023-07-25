@@ -346,9 +346,5 @@
     [
         "heal_min",
         5
-    ],
-    [
-        "dark_sprites",
-        false
     ]
 ]
