@@ -55,10 +55,334 @@
                 ]
             ],
             [
+                "remove_group",
+                [
+                    "StartingPirates",
+                    "immediate"
+                ]
+            ],
+            [
                 "hide_layer",
                 [
                     "leftship",
                     "immediate"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "### Writing here - TODO"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "Rodger (Rodger)",
+                    "immediate",
+                    "closest"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "We're enterin' pirate waters now, son.{w}{br}Last chance to call it off."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "No need. Stay the course."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Luther",
+                    "11,16",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "12,16"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "It's too quiet."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I'm surprised you're nervous."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "The anticipation of battle, milord.{w}{br}I have never become used to that feeling."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "We have a while until we make land.{w}{br}No need to worry."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Vincent",
+                    "11,23",
+                    "immediate"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yusna (Yusna)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Where are you from?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "A small town outside of Verstadt.{w}{br}You?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Near Verstadt as well. My family left a decade ago,{w}{br}during the Decrepit's reign.{w}{br}From what I hear, his son's not much better."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "...{w} You might be surprised."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "He lost his castle recently, didn't he?{w}{br}What a joke of a duke.{w}{br}I've got nothing against nobles,{w}{br}but fair's fair, you know?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "I, myself, have only heard good things about Lord Verstadt."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Ha, a real loyalist!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Wait, what's that noise?"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Yusna (Yusna)",
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "Attack boats!{w} Damn, we ain't outrunning this!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "###"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "StartingPirates",
+                    "starting",
+                    "swoosh",
+                    "push"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Caylus (Caylus)",
+                    "12,6"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "Left",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Caylus (Caylus)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caylus",
+                    "No, you aren't."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Critical Hit 1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "pair_up",
+                [
+                    "Rodger (Rodger)",
+                    "Caylus (Caylus)"
                 ]
             ],
             [
@@ -70,6 +394,108 @@
                 ]
             ],
             [
+                "speak",
+                [
+                    "Caylus",
+                    "Start the killing, boys!{w}{br}Our waters, our rules!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Caylus (Caylus)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Yusna (Yusna)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "A-already? I thought we'd have more time..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Their boss barricaded himself in the bow.{w}{br}Any ideas?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "Rodger gave me a spare key."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "But I'm not sure if I can bring myself to kill.{w}{br}I really thought-"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Oh, trust me, you can."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Better hope Lord Verstadt is less of a joke than you think."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Yusna",
+                    "What?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "You'll see."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Yusna (Yusna)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "### start chapter"
+                ]
+            ],
+            [
                 "give_item",
                 [
                     "Yusna (Yusna)",
@@ -77,10 +503,23 @@
                 ]
             ],
             [
-                "pair_up",
+                "center_cursor",
                 [
-                    "Rodger (Rodger)",
-                    "Caylus (Caylus)"
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Luther",
+                    "immediate"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Vincent",
+                    "immediate"
                 ]
             ],
             [

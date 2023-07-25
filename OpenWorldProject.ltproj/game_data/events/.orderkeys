@@ -205,5 +205,8 @@
     "6_Villages.json": 203,
     "6_Create_Barrier.json": 204,
     "6_VilgeKilled.json": 205,
-    "0_FirstTimeIntro.json": 206
+    "0_FirstTimeIntro.json": 206,
+    "18_Yusna_First_Kill.json": 207,
+    "global_SimonDeath.json": 208,
+    "global_CallOutKiller.json": 209
 }

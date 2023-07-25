@@ -36,6 +36,32 @@
                 [
                     "# add dialogue here"
                 ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Looks like they're bringing in their real ships.{w}{br}Hold fast, everyone!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
             ]
         ],
         "only_once": false,

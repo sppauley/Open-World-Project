@@ -1,0 +1,124 @@
+[
+    {
+        "name": "CallOutKiller",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "level_var",
+                [
+                    "targetUnit",
+                    "RECORDS.get(\"UnitWhoKilledSimon\")"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "RECORDS.get(\"UnitWhoKilledSimon\") and game.get_unit(\"{targetUnit}\").position"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "{e:\"{targetUnit}\"}"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "randDiedDialogue",
+                    "random.randint(1, 4)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v('randDiedDialogue') == 1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "1"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v('randDiedDialogue') == 2"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "2"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v('randDiedDialogue') == 3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "3"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v('randDiedDialogue') == 4"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "4"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "update_record",
+                [
+                    "UnitWhoKilledSimon",
+                    "None"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 5
+    }
+]

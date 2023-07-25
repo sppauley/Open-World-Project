@@ -18,6 +18,12 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "# add enemies here"
+                ]
+            ],
+            [
                 "add_group",
                 [
                     "LeftGroup",
@@ -28,13 +34,33 @@
             [
                 "comment",
                 [
-                    "# add enemies here"
+                    "# add dialogue here"
                 ]
             ],
             [
-                "comment",
+                "center_cursor",
                 [
-                    "# add dialogue here"
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "A second ship?{w} They can't have much more than this."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
                 ]
             ]
         ],

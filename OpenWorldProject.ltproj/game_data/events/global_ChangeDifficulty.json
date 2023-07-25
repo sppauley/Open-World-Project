@@ -9,7 +9,7 @@
                 "speak",
                 [
                     "Narrator",
-                    "Would you like to enable the turnwheel? It will have five uses per map.{w}{br}Doing so may have story ramifications.",
+                    "Would you like to enable the turnwheel? It will have five uses per map.",
                     "StyleNid=hint"
                 ]
             ],
