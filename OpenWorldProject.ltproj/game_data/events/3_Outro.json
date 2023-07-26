@@ -9,7 +9,507 @@
                 "game_var",
                 [
                     "EbertState",
-                    "TookIsle"
+                    "\"TookIsle\""
+                ]
+            ],
+            [
+                "remove_all_units",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "close"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "4000"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
+                ]
+            ],
+            [
+                "change_tilemap",
+                [
+                    "Ship"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon (Simon)",
+                    "12,7",
+                    "immediate"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Luther (Luther)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Luther",
+                    "13,6",
+                    "immediate"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Rodger (Rodger)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Rodger",
+                    "11,6",
+                    "immediate"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Vincent",
+                    "12,5"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "That bastard will get what's coming."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Aye. I can't wait to get my hands on him."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Perhaps we should take a breath."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "What?{w} Explain yourself."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Though I may not show it, I am as incensed as you are.{w}{br}But, consider our situation."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "The New Dawn has already received Ebert's loan.{w}{br}Killing him now does not weaken them."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Indeed, freeing them of debt obligations may strengthen their finances.{w}{br}Additionally, Lord Morrissey has asked us to deliver Port Hull's cooperation.{w}{br}Ebert's death is unlikely to help us in that goal."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "What, so we have to let him walk?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "It is Lord Verstadt's decision.{w} I simply advise that we bite our tongue."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "If I can chime in, I got some ideas."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "First, no one's following Ebert to his grave.{w}{br}They like his money, and that's it."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "I wouldn't worry about loyal holdouts if you off him.{w}{br}The real problem is whos'ta replace him.{w}{br}Ain't no one that commands Port Hull like he does."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "I got friends high up, and I can get 'em to keep a deal with Morrissey.{w}{br}But your knight's right, Simon-{w}{br}Doin' this'll make things... tough."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "If I may, perhaps it would be wise to consult Anuki.{w}{br}She may be able to explain her House's priorities."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "...Very well.{w} I'll speak to her."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Rodger",
+                    "Vincent",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "load_unit",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Anuki",
+                    "17,16",
+                    "immediate"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "17,15"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Anuki (Anuki)",
+                    "Right",
+                    "FLAG(mirror)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left",
+                    "left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "*ahem*"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "2000"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Hey, Anuki."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "Yes?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I wanted to ask your advice on an issue."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "2000"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "Well?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Luther has learned that Ebert...{w}{br}Is funding anti-nobility movements.{w}{br}He backed the rebellion against my House,{w}{br}and may be targeting yours next."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "You can prove that?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Some of it, but not all."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Would House Morrissey... or, you... be opposed to removing Ebert?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "If you're asking me if I'd kill him, then yes, I'd kill him.{w}{br}My father may not agree, but he could be persuaded."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Anuki",
+                    "Really, the trick with him is to never ask for permission.{w}{br}Do what you will, then apologize afterwards."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Oh."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thank you."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Anuki (Anuki)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "12,7"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Rodger (Rodger)",
+                    "FarLeft"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vincent (Vincent)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "House Morrissey would accept Ebert's death."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vincent",
+                    "Good!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Hmm...{w} Once again, it is your decision milord.{w}{br}Just know that we do not need to kill him.{w}{br}Justice may do more harm than good."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Rodger",
+                    "If you do wanna do it, he's got an estate near the city.{w}{br}It's isolated, so you'd have him all to yourself.{w}{br}I'd be happy to arrange a meeting."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Thank you all. I'll need some time to consider our options."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Rodger",
+                    "Vincent",
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "overworld_cinematic",
+                [
+                    "The Continent (1)"
+                ]
+            ],
+            [
+                "set_overworld_position",
+                [
+                    "Simon's Group (Simon)",
+                    "Pirate's Current (49)"
                 ]
             ]
         ],

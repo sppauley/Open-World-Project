@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BountyBattle",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_default('Bounty', [''])",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Bounty (Bounty)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bounty",
+                    "Waltzing into my hold?{w} What is this, a tavern?{w}{br}I'll tear you apart!"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bounty (Bounty)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

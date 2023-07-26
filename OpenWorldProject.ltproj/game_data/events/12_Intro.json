@@ -143,10 +143,31 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Simon",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Luther",
                     "The path forward is clear, milord.{w}{br}However, they've set fire to parts of the castle.{w}{br}Won't be long until the flames reach us."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "They call themselves \"New Dawn\" yet only care about looting my castle.{w}{br}Bastards."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "You will have your revenge, Lord Verstadt."
                 ]
             ],
             [
@@ -156,9 +177,22 @@
                 ]
             ],
             [
+                "speak",
+                [
+                    "Luther",
+                    "We all will."
+                ]
+            ],
+            [
                 "remove_portrait",
                 [
                     "Luther (Luther)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
                 ]
             ],
             [

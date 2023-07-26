@@ -354,7 +354,14 @@
                 "speak",
                 [
                     "Ebert",
-                    "Now, on this topic.{w} The acceptability of this proposal is{w}{br}conditional upon your labor.{w}{br}A local group of pirates have become too ambitious.{w}{br}Eliminating them will solidify this deal."
+                    "Now, on this topic."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Ebert",
+                    "The acceptability of this proposal is conditional upon your labor.{w}{br}A local group of pirates have become too ambitious.{w}{br}Eliminating them will solidify this deal."
                 ]
             ],
             [

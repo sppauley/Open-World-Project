@@ -1,16 +1,10 @@
 [
     {
-        "name": "Survive Count",
-        "trigger": "turn_change",
+        "name": "CaylusJulietBattle",
+        "trigger": "combat_end",
         "level_nid": "18",
-        "condition": "game.turncount == 10",
+        "condition": "check_pair('Caylus', 'Juliet')",
         "commands": [
-            [
-                "center_cursor",
-                [
-                    "Caylus (Caylus)"
-                ]
-            ],
             [
                 "add_portrait",
                 [
@@ -19,76 +13,52 @@
                 ]
             ],
             [
-                "speak",
-                [
-                    "Caylus",
-                    "Damn, they're putting up a fight.{w}{br}All for you, Mr. Captain!"
-                ]
-            ],
-            [
                 "add_portrait",
                 [
-                    "Rodger (Rodger)",
-                    "Left",
-                    "normal",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Rodger",
-                    "*cough*... *cough*..."
+                    "Juliet",
+                    "Left"
                 ]
             ],
             [
                 "speak",
                 [
                     "Caylus",
-                    "But they ain't got much longer.{w} I can tell."
+                    "Harharha-"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Rodger",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "What're ya doing with a ship full of mercs, anyway?{w}{br}Cargo that good?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Rodger",
-                    "Hired to...{w} *cough*... destroy the fort..."
+                    "Juliet",
+                    "Hey, listen up.{w} We're going after your boss, not you.{w}{br}If you've got half a brain, let us pass."
                 ]
             ],
             [
                 "speak",
                 [
                     "Caylus",
-                    "W-why didn' ya say that earlier?{w}{br}Attacking Bounty's boys is just what I need.{w}{br}I'm calling this whole thing off,{w}{br}Fates, I oughta thank ya!{w}{br}The Caylus Crew ain't gonna be under his thumb no more!"
+                    "You're going after Bounty's boys?{w}{br}Damn, why didn' ya say so?{w}{br}I oughta wish ya luck!"
                 ]
             ],
             [
-                "separate",
+                "speak",
                 [
+                    "Juliet",
+                    "So are we good?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Caylus",
+                    "We sure are! Keep your wits aboutcha!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Juliet (Juliet)",
                     "Caylus (Caylus)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Rodger (Rodger)",
-                    "Caylus (Caylus)",
-                    "fade",
-                    "closest"
                 ]
             ],
             [
@@ -144,7 +114,7 @@
                 []
             ]
         ],
-        "only_once": false,
+        "only_once": true,
         "priority": 20
     }
 ]

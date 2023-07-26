@@ -70,6 +70,32 @@
                 ]
             ],
             [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Worth remembering for next time. Six minutes in."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
                 "end",
                 []
             ],

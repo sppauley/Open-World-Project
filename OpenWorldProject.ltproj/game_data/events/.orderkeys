@@ -159,7 +159,7 @@
     "0_RevealBoatOutro.json": 157,
     "0_RevealRepublicOutro.json": 158,
     "global_ResetTargetPoise.json": 159,
-    "3_Intro.json": 160,
+    "3_FirstTimeIntro.json": 160,
     "3_Tavern.json": 161,
     "3_ThiefDeadReinforcements.json": 162,
     "3_BossDies.json": 163,
@@ -211,5 +211,10 @@
     "global_CallOutKiller.json": 209,
     "global_CallOutKillerTurnwheel.json": 210,
     "global_CallOutKillerDialogue.json": 211,
-    "18_SharedOutroDialogue.json": 212
+    "18_SharedOutroDialogue.json": 212,
+    "3_Intro.json": 213,
+    "3_BountyBattle.json": 214,
+    "18_CaylusBattle.json": 215,
+    "18_CaylusJulietBattle.json": 216,
+    "12_First_Fight_Dialogue.json": 217
 }

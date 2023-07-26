@@ -66,14 +66,7 @@
                 "speak",
                 [
                     "Morrissey",
-                    "Look, you should take your mind off this."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Plus, it would be nice to see how you and your companions fight."
+                    "Please, you simply must take your mind off of this."
                 ]
             ],
             [
@@ -81,6 +74,13 @@
                 [
                     "Morrissey",
                     "Why don't you join my daughter Anuki in a skirmish against my guard captain?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Morrissey",
+                    "It would be nice to see how you and your companions fight."
                 ]
             ],
             [
