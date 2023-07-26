@@ -32,7 +32,7 @@
             [
                 "comment",
                 [
-                    "#"
+                    "# More dialogue here could definitely be good"
                 ]
             ],
             [
@@ -46,7 +46,7 @@
                 [
                     "Anuki (Anuki)",
                     "PartyMember",
-                    "Yes"
+                    "'Yes'"
                 ]
             ],
             [
@@ -54,6 +54,38 @@
                 [
                     "Simon (Simon)",
                     "FLAG(immediate)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Bordeaux (Bordeaux)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Bordeaux (Bordeaux)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bordeaux (Bordeaux)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bordeaux",
+                    "I am Bordeaux, master of arms for Lord Morrissey.{w}{br}I have no intention of surrendering this battle."
                 ]
             ],
             [
@@ -73,6 +105,109 @@
             [
                 "end",
                 []
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Bordeaux (Bordeaux)"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Luther (Luther)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Tread carefully, this is much more than a training bout."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "How do you mean?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Lord Morrissey intends this as a test."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Our performance here will determine the nature of our relationship."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Why? Wasn't surviving the siege proof enough?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Evidently not."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I suppose our goal is the same."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Defeating his commander should \"prove\" our capability."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Luther",
+                    "Agreed."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Then let's begin."
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "Simon (Simon)"
+                ]
             ]
         ],
         "only_once": false,
