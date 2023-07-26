@@ -541,6 +541,19 @@
                     "Simon's Group (Simon)",
                     "Pirate's Current (49)"
                 ]
+            ],
+            [
+                "reveal_overworld_node",
+                [
+                    "Ebert's Estate (56)"
+                ]
+            ],
+            [
+                "reveal_overworld_road",
+                [
+                    "33",
+                    "56"
+                ]
             ]
         ],
         "only_once": false,

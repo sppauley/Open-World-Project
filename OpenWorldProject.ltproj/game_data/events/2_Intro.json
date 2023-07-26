@@ -33,6 +33,29 @@
             [
                 "comment",
                 [
+                    "#Fates speak style"
+                ]
+            ],
+            [
+                "speak_style",
+                [
+                    "FatesTalk",
+                    "",
+                    "center",
+                    "160",
+                    "",
+                    "white",
+                    "",
+                    "None",
+                    "",
+                    "f",
+                    "None",
+                    "FLAG(fit)"
+                ]
+            ],
+            [
+                "comment",
+                [
                     "# Add a choice for!!"
                 ]
             ],
