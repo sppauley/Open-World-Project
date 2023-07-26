@@ -23,21 +23,17 @@
                 ]
             ],
             [
-                "wait",
-                [
-                    "4000"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
                 "change_tilemap",
                 [
                     "Ship"
+                ]
+            ],
+            [
+                "hide_layer",
+                [
+                    "topdoor",
+                    "immediate",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
@@ -122,6 +118,18 @@
                 [
                     "Luther (Luther)",
                     "FarRight"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "3000"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "open"
                 ]
             ],
             [
@@ -421,10 +429,32 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Simon (Simon)",
+                    "immediate"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "Simon (Simon)",
+                    "17,15",
+                    "immediate"
+                ]
+            ],
+            [
                 "move_unit",
                 [
                     "Simon (Simon)",
-                    "12,7"
+                    "16,15"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "12,8"
                 ]
             ],
             [

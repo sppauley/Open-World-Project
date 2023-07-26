@@ -167,12 +167,6 @@
                 ]
             ],
             [
-                "remove_portrait",
-                [
-                    "Tristan (Twins)"
-                ]
-            ],
-            [
                 "else",
                 []
             ],
@@ -226,12 +220,6 @@
                 ]
             ],
             [
-                "remove_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
                 "end",
                 []
             ],
@@ -253,6 +241,20 @@
                 [
                     "Yusna",
                     "We can discuss this on the boat.{w}{br}His reinforcements are coming."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luther (Luther)",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Tristan (Twins)",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
