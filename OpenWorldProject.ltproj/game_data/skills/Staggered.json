@@ -49,6 +49,14 @@
             [
                 "damage_multiplier",
                 0.0
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    32,
+                    126,
+                    170
+                ]
             ]
         ]
     }
