@@ -113,9 +113,11 @@
                 ]
             ],
             [
-                "remove_portrait",
+                "multi_remove_portrait",
                 [
-                    "Luther (Luther)"
+                    "Luther (Luther)",
+                    "Simon (Simon)",
+                    "Vincent (Vincent)"
                 ]
             ],
             [

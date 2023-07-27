@@ -542,6 +542,24 @@
             [
                 "if",
                 [
+                    "v('basicTutorials')"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Juliet uses bows. Bow units can only attack from range.{w}{br}For Juliet to attack an enemy there must be one tile between her and the target.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
                     "v(\"tutorialPopups\")"
                 ]
             ],

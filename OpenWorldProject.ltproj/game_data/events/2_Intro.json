@@ -164,10 +164,15 @@
                 ]
             ],
             [
+                "end_skip",
+                []
+            ],
+            [
                 "speak",
                 [
                     "Narrator",
-                    "Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players."
+                    "Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players.",
+                    "StyleNid=hint"
                 ]
             ],
             [
@@ -216,7 +221,8 @@
                 "speak",
                 [
                     "Narrator",
-                    "Would you to see tutorials for unique mechanics?{w}{br}These are recommended for all new players."
+                    "Would you to see tutorials for unique mechanics?{w}{br}These are recommended for all new players.",
+                    "StyleNid=hint"
                 ]
             ],
             [
@@ -249,6 +255,96 @@
                 [
                     "tutorialPopups",
                     "0"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "v('basicTutorials') == 1"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# TODO: Figure out how to turn below into the actual key"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#s;Narrator;Use the directional buttons to move the cursor.{w}{br}Press {e:cf.SETTINGS['key_SELECT']} to select a unit.;StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "v('tutorialPopups') == 1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Units have both a health and poise bar.{w}{br}During your turn, your attacks with some weapons will deal stagger damage.{w}{br}Stagger damage reduces a target's poise.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "Vincent (Vincent)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Try attacking the nearby enemy with Vincent.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "22,4"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "22,4"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Doing so will trigger tutorialmsg1"
                 ]
             ],
             [

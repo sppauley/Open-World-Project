@@ -113,9 +113,11 @@
                 ]
             ],
             [
-                "remove_portrait",
+                "multi_remove_portrait",
                 [
-                    "Luther (Luther)"
+                    "Luther (Luther)",
+                    "Simon (Simon)",
+                    "Vincent (Vincent)"
                 ]
             ],
             [
@@ -130,6 +132,42 @@
                 [
                     "500"
                 ]
+            ],
+            [
+                "if",
+                [
+                    "v('basicTutorials')"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Every type of weapon has an advantage against another.{w}{br}Axes beat lances, lances beat swords, and swords beat axes.{w}{br}Luther, who wields an axe, should attack the lance-wielding knight.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "v('tutorialPopups')"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Each weapon deals a different amount of stagger damage.{w}{br}However, stagger damage is affected by weapon advantage.{w}{br}If an attacker has weapon advantage, stagger will be multiplied by 1.5.{w}{br}However, if they are at a disadvantage, it will be halved.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": true,

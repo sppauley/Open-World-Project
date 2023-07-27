@@ -256,6 +256,24 @@
                 []
             ],
             [
+                "if",
+                [
+                    "v(\"tutorialPopups\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Monster units, like dogs, wield innate weapons.{w}{br}Bows have an advantage against innate weapons,{w}{br}innate weapons have an advantage against magic,{w}{br}and magic has an advantage against bows.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "end",
                 []
             ]
