@@ -54,19 +54,6 @@
                 ]
             ],
             [
-                "comment",
-                [
-                    "# Add a choice for!!"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "tutorialPopups",
-                    "1"
-                ]
-            ],
-            [
                 "set_stats",
                 [
                     "101",
@@ -175,6 +162,98 @@
                 [
                     "Vincent (Vincent)"
                 ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "basicTutorial",
+                    "View basic tutorials?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v('_last_choice') == 'Yes'"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "basicTutorials",
+                    "1"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "game_var",
+                [
+                    "basicTutorials",
+                    "0"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# Add a choice for!!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Would you to see tutorials for unique mechanics?{w}{br}These are recommended for all new players."
+                ]
+            ],
+            [
+                "choice",
+                [
+                    "fullTutorial",
+                    "View unique tutorials?",
+                    "Yes,No"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v('_last_choice') == 'Yes'"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "tutorialPopups",
+                    "1"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "game_var",
+                [
+                    "tutorialPopups",
+                    "0"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
