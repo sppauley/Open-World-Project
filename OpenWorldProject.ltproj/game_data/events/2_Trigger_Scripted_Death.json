@@ -55,7 +55,8 @@
                 [
                     "Vincent",
                     "18,13",
-                    "FLAG(no_follow)"
+                    "FLAG(no_follow)",
+                    "FLAG(no_block)"
                 ]
             ],
             [

@@ -160,7 +160,7 @@
                 "speak",
                 [
                     "Simon",
-                    "They call themselves \"New Dawn\" yet only care about looting my castle.{w}{br}Bastards."
+                    "The \"New Dawn\" only care about looting my castle.{w}{br}Bastards."
                 ]
             ],
             [
@@ -433,7 +433,7 @@
                 "speak",
                 [
                     "Luther",
-                    "You appear unarmed. I have a spare bow,{w}{br}are you proficient?"
+                    "You appear unarmed.{w} I have a spare bow, are you proficient?"
                 ]
             ],
             [

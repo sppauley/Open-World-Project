@@ -468,6 +468,12 @@
                 ]
             ],
             [
+                "trigger_script",
+                [
+                    "ExitMap (Global ExitMap)"
+                ]
+            ],
+            [
                 "win_game",
                 []
             ],

@@ -37,7 +37,7 @@
                 "speak",
                 [
                     "Luther",
-                    "We must get out of here at once."
+                    "We must retreat at once."
                 ]
             ],
             [
@@ -110,6 +110,12 @@
                 [
                     "Luther",
                     "..."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Luther (Luther)"
                 ]
             ],
             [

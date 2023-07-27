@@ -12,9 +12,9 @@
                 ]
             ],
             [
-                "trigger_script",
+                "comment",
                 [
-                    "DEBUGPostTutorial (Global DEBUGPostTutorial)"
+                    "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)"
                 ]
             ],
             [

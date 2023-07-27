@@ -48,6 +48,13 @@
                 ]
             ],
             [
+                "set_current_hp",
+                [
+                    "Simon (Simon)",
+                    "20"
+                ]
+            ],
+            [
                 "add_portrait",
                 [
                     "Morrissey (Morrissey)",
