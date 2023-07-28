@@ -2,7 +2,7 @@
     {
         "nid": "SlowTome",
         "name": "Slow Tome",
-        "desc": "When this dies, halves ALL units' MOV for 1 turn.",
+        "desc": "When this dies, halves enemy units' MOV for 1 turn.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,

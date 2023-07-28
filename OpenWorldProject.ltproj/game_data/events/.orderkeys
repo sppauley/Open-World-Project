@@ -219,5 +219,9 @@
     "7_Trigger_Accelerate.json": 217,
     "7_Trigger_Slow.json": 218,
     "7_Accelerate.json": 219,
-    "7_Slow.json": 220
+    "7_Slow.json": 220,
+    "7_EnemyTurn.json": 221,
+    "7_PlayerTurn.json": 222,
+    "7_Fireball.json": 223,
+    "7_FireballDamage.json": 224
 }

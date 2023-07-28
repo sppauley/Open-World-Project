@@ -142,6 +142,13 @@
                     "Alert Band (AlertBand)",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Bone",
+                    "Dragon's Blessing (DragonsBlessing)"
+                ]
             ]
         ],
         "only_once": false,

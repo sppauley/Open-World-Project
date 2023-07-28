@@ -2,7 +2,7 @@
     {
         "nid": "SpeedTome",
         "name": "Speed Tome",
-        "desc": "When this dies, double ALL units' MOV for 1 turn.",
+        "desc": "When this dies, double your units' MOV for 1 turn.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,

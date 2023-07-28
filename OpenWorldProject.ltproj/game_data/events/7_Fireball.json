@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Fireball",
+        "trigger": "level_start",
+        "level_nid": "7",
+        "condition": "True",
+        "commands": [
+            [
+                "center_cursor",
+                [
+                    "12,36"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball",
+                    "12,36",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "AOE_Meteor",
+                    "13,37"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "AOE_Fireball",
+                    "13,37"
+                ]
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in get_units_in_region('Fireball')]",
+                    "FireballDamage"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

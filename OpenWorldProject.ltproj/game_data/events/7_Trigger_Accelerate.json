@@ -19,11 +19,32 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "game.level_vars['Phase']=='Enemy'"
+                ]
+            ],
+            [
                 "loop_units",
                 [
-                    "[unit for unit in game.get_all_units()]",
+                    "[unit for unit in game.get_enemy_units()]",
                     "Accelerate (7 Accelerate)"
                 ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_player_units()]",
+                    "Accelerate (7 Accelerate)"
+                ]
+            ],
+            [
+                "end",
+                []
             ]
         ],
         "only_once": false,
