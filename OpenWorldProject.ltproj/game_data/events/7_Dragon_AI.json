@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Dragon AI",
+        "trigger": "turn_change",
+        "level_nid": "7",
+        "condition": "game.turncount>1",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# determines fireball location"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# picks a random enemy unit"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit",
+                    "game.get_player_units()[static_random.get_randint(0, len(game.get_player_units())-1)].nid"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "FireballLocation",
+                    "(game.get_unit(game.level_vars['TargetUnit']).position[0]-1,game.get_unit(game.level_vars['TargetUnit']).position[1]-1)"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "FireballWarn"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

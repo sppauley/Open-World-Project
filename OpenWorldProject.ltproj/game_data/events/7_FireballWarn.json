@@ -1,7 +1,7 @@
 [
     {
         "name": "FireballWarn",
-        "trigger": "level_start",
+        "trigger": null,
         "level_nid": "7",
         "condition": "True",
         "commands": [
@@ -9,7 +9,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "12,36",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1])}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -17,7 +17,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "12,37",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+1)}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -25,7 +25,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "12,38",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+2)}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -33,7 +33,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "13,36",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1])}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -41,7 +41,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "13,37",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+1)}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -49,7 +49,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "13,38",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+2)}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -57,7 +57,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "14,36",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1])}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -65,7 +65,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "14,37",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+1)}",
                     "FLAG(permanent)"
                 ]
             ],
@@ -73,7 +73,7 @@
                 "map_anim",
                 [
                     "Square",
-                    "14,38",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+2)}",
                     "FLAG(permanent)"
                 ]
             ]

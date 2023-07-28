@@ -1,14 +1,83 @@
 [
     {
         "name": "FireballActivate",
-        "trigger": "level_start",
+        "trigger": "enemy_turn_change",
         "level_nid": "7",
-        "condition": "True",
+        "condition": "game.turncount>1",
         "commands": [
             [
                 "center_cursor",
                 [
                     "12,36"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "200"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1])}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+1)}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+2)}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1])}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+1)}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+2)}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1])}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+1)}"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+2)}"
                 ]
             ],
             [
@@ -21,7 +90,7 @@
                 "add_region",
                 [
                     "Fireball",
-                    "12,36",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1])}",
                     "3,3",
                     "normal"
                 ]
@@ -30,14 +99,93 @@
                 "map_anim",
                 [
                     "AOE_Meteor",
-                    "13,37"
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+1)}"
                 ]
             ],
             [
                 "map_anim",
                 [
                     "AOE_Fireball",
-                    "13,37"
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+1)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1])}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+1)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0],game.level_vars['FireballLocation'][1]+2)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1])}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+1)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+1,game.level_vars['FireballLocation'][1]+2)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1])}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+1)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Snag",
+                    "{eval:(game.level_vars['FireballLocation'][0]+2,game.level_vars['FireballLocation'][1]+2)}",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "700"
                 ]
             ],
             [
@@ -49,6 +197,6 @@
             ]
         ],
         "only_once": false,
-        "priority": 19
+        "priority": 20
     }
 ]
