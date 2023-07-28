@@ -222,6 +222,7 @@
     "7_Slow.json": 220,
     "7_EnemyTurn.json": 221,
     "7_PlayerTurn.json": 222,
-    "7_Fireball.json": 223,
-    "7_FireballDamage.json": 224
+    "7_FireballActivate.json": 223,
+    "7_FireballDamage.json": 224,
+    "7_FireballWarn.json": 225
 }

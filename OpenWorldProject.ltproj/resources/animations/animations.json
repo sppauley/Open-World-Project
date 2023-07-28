@@ -520,5 +520,14 @@
         "speed": 32,
         "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
         "use_frame_time": false
+    },
+    {
+        "nid": "Square",
+        "frame_x": 1,
+        "frame_y": 1,
+        "num_frames": 1,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]

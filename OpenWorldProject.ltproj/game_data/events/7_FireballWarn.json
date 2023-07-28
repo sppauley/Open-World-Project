@@ -1,0 +1,84 @@
+[
+    {
+        "name": "FireballWarn",
+        "trigger": "level_start",
+        "level_nid": "7",
+        "condition": "True",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "12,36",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "12,37",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "12,38",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "13,36",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "13,37",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "13,38",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "14,36",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "14,37",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "14,38",
+                    "FLAG(permanent)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

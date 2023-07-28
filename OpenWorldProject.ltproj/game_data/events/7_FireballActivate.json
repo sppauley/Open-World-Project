@@ -1,6 +1,6 @@
 [
     {
-        "name": "Fireball",
+        "name": "FireballActivate",
         "trigger": "level_start",
         "level_nid": "7",
         "condition": "True",
@@ -49,6 +49,6 @@
             ]
         ],
         "only_once": false,
-        "priority": 20
+        "priority": 19
     }
 ]
