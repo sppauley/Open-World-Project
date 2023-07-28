@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Slow",
+        "name": "Slow",
+        "desc": "Halves MOV for 1 turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            7
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    170,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    }
+]

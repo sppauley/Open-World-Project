@@ -72,5 +72,8 @@
     "AlertBand.json": 70,
     "StaggerGaleforce.json": 71,
     "NikaBerserk.json": 72,
-    "Wall.json": 73
+    "Wall.json": 73,
+    "Accelerate.json": 74,
+    "Slow.json": 75,
+    "DragonsBlessing.json": 76
 }

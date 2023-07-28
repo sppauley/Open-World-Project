@@ -780,5 +780,10 @@
         "nid": "107037",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Lava Cave Tiles",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

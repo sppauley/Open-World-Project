@@ -1,60 +1,68 @@
 [
     {
-        "nid": "Morrissey_Lord",
-        "name": "Lord",
-        "desc": "",
+        "nid": "DraconicKnight",
+        "name": "Draconic Knight",
+        "desc": "Servant of the dragonlord. Raises the dragon's resistances while they live.",
         "tier": 1,
-        "movement_group": "Infantry",
+        "movement_group": "Mounted",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Horse",
+            "Mounted"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 36,
-            "MAG": 12,
-            "DEX": 10,
-            "SPD": 8,
-            "PSE": 16,
-            "MOV": 6,
-            "CON": 8
+            "CON": 12,
+            "MAG": 8,
+            "DEX": 14,
+            "SPD": 5,
+            "PSE": 18,
+            "MOV": 7
         },
         "growths": {
             "HP": 45,
-            "MAG": 35,
-            "DEX": 15,
-            "SPD": 25,
-            "PSE": 10,
-            "MOV": 0,
-            "CON": 15
+            "CON": 20,
+            "MAG": 10,
+            "DEX": 20,
+            "SPD": 5,
+            "PSE": 25,
+            "MOV": 0
         },
         "growth_bonus": {
             "HP": 0,
+            "CON": 0,
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
             "PSE": 0,
-            "MOV": 0,
-            "CON": 0
+            "MOV": 0
         },
         "promotion": {
             "HP": 0,
+            "CON": 0,
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
             "PSE": 0,
-            "MOV": 0,
-            "CON": 0
+            "MOV": 0
         },
         "max_stats": {
             "HP": 60,
+            "CON": 30,
             "MAG": 30,
             "DEX": 30,
             "SPD": 30,
             "PSE": 25,
-            "MOV": 15,
-            "CON": 30
+            "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "DragonsBlessing"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -65,8 +73,8 @@
                 0
             ],
             "Axe": [
-                false,
-                0
+                true,
+                121
             ],
             "Bow": [
                 false,
@@ -77,32 +85,24 @@
                 0
             ],
             "Anima": [
-                true,
-                1
+                false,
+                0
             ],
             "Staff": [
-                true,
-                1
+                false,
+                0
             ],
             "Default": [
                 false,
                 0
-            ],
-            "Light": [
-                false,
-                0
-            ],
-            "Dark": [
-                false,
-                0
             ]
         },
-        "icon_nid": null,
+        "icon_nid": "Generic_Portrait_Great_Knight",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "High Magus (M) {Unknown}-stand",
+        "map_sprite_nid": "Great Knight (M) Alt Axe {Pikmin, L95, Der}-stand",
         "combat_anim_nid": null,
         "fields": []
     }

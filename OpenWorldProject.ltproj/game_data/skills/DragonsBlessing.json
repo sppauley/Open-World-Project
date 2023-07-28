@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DragonsBlessing",
+        "name": "Dragon's Blessing",
+        "desc": "Immune to all damage except dragon fire and dragonslayer blades.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit2.get_weapon() and item_system.weapon_type(unit2, unit2.get_weapon()) != 'Dragonsbane'"
+            ],
+            [
+                "resist",
+                999
+            ]
+        ]
+    }
+]

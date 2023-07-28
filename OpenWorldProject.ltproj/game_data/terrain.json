@@ -568,5 +568,20 @@
         "mtype": "Forest",
         "opaque": false,
         "status": "AvoidDown10"
+    },
+    {
+        "nid": "Fire",
+        "name": "Fire",
+        "color": [
+            255,
+            0,
+            0
+        ],
+        "minimap": "Lava",
+        "platform": "Arena",
+        "background": "Cliff",
+        "mtype": "Thicket",
+        "opaque": false,
+        "status": null
     }
 ]

@@ -68,5 +68,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Dragon",
+        "name": "Dragon",
+        "desc": "Beings loyal only to the might of the ancient dragons.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

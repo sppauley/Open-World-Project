@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Trigger_Accelerate",
+        "trigger": "unit_death",
+        "level_nid": "7",
+        "condition": "'Acc' in unit.nid",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "AOE_Reinforce",
+                    "{unit}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars['Phase']=='Enemy'"
+                ]
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_enemy_units()]",
+                    "Accelerate (7 Accelerate)"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_player_units()]",
+                    "Accelerate (7 Accelerate)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
