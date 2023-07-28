@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Accelerate",
+        "name": "Haste",
+        "desc": "Doubles MOV for 1 turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MOV",
+                        2.0
+                    ]
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    0,
+                    85,
+                    255
+                ]
+            ]
+        ]
+    }
+]

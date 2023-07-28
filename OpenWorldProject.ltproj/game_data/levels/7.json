@@ -15,9 +15,103 @@
         "roam_unit": null,
         "go_to_overworld": false,
         "should_record": true,
-        "units": [],
+        "units": [
+            {
+                "nid": "Acc_1",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Boudica",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Mercenary",
+                "faction": "Wall",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_1",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    40
+                ],
+                "starting_traveler": null,
+                "generic": true
+            }
+        ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

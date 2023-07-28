@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Slow",
+        "trigger": null,
+        "level_nid": "7",
+        "condition": "True",
+        "commands": [
+            [
+                "give_skill",
+                [
+                    "{unit}",
+                    "Slow",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

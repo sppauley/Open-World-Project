@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Trigger_Slow",
+        "trigger": "unit_death",
+        "level_nid": "7",
+        "condition": "'Slo' in unit.nid",
+        "commands": [
+            [
+                "map_anim",
+                [
+                    "AOE_Reinforce",
+                    "{unit}"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_all_units()]",
+                    "Slow"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
