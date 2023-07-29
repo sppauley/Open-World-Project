@@ -9,7 +9,7 @@
                 "level_var",
                 [
                     "Phase",
-                    "Enemy"
+                    "'Enemy'"
                 ]
             ]
         ],
