@@ -94,6 +94,12 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball1'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball1')]",
@@ -101,9 +107,19 @@
                 ]
             ],
             [
+                "end",
+                []
+            ],
+            [
                 "remove_region",
                 [
                     "Fireball1"
+                ]
+            ],
+            [
+                "alert",
+                [
+                    "{eval:game.get_region('Fireball1').nid}"
                 ]
             ],
             [
@@ -205,11 +221,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball2'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball2')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -316,11 +342,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball3'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball3')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -427,11 +463,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball4'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball4')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -538,11 +584,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball5'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball5')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -649,11 +705,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball6'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball6')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -760,11 +826,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball7'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball7')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -871,11 +947,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball8'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball8')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
@@ -982,11 +1068,21 @@
                 ]
             ],
             [
+                "if",
+                [
+                    "len(get_units_in_region('Fireball9'))>0"
+                ]
+            ],
+            [
                 "loop_units",
                 [
                     "[unit for unit in get_units_in_region('Fireball9')]",
                     "FireballDamage"
                 ]
+            ],
+            [
+                "end",
+                []
             ],
             [
                 "remove_region",
