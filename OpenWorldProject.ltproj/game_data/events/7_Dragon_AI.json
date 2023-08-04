@@ -14,13 +14,32 @@
             [
                 "comment",
                 [
-                    "# picks a random enemy unit"
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# sets a variable for determining whether the dragon will strategically destroy a tome"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "FireballCount",
+                    "0"
                 ]
             ],
             [
                 "comment",
                 [
                     "# not a great way to do this that I can see other than a bunch of code spam for each fireball"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# zone 1"
                 ]
             ],
             [
@@ -46,6 +65,23 @@
                 ]
             ],
             [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 2"
+                ]
+            ],
+            [
                 "if",
                 [
                     "len(get_units_in_region('Zone2', team='player'))>0"
@@ -65,6 +101,307 @@
                     "{eval:(game.get_unit(game.level_vars['TargetUnit2']).position[0]-1,game.get_unit(game.level_vars['TargetUnit2']).position[1]-1)}",
                     "3,3",
                     "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 3"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone3', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit3",
+                    "get_units_in_region('Zone3', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone3', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball3",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit3']).position[0]-1,game.get_unit(game.level_vars['TargetUnit3']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 4"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone4', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit4",
+                    "get_units_in_region('Zone4', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone4', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball4",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit4']).position[0]-1,game.get_unit(game.level_vars['TargetUnit4']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 5"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone5', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit5",
+                    "get_units_in_region('Zone5', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone5', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball5",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit5']).position[0]-1,game.get_unit(game.level_vars['TargetUnit5']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 6"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone6', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit6",
+                    "get_units_in_region('Zone6', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone6', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball6",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit6']).position[0]-1,game.get_unit(game.level_vars['TargetUnit6']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 7"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone7', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit7",
+                    "get_units_in_region('Zone7', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone7', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball7",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit7']).position[0]-1,game.get_unit(game.level_vars['TargetUnit7']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# zone 8"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone8', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit8",
+                    "get_units_in_region('Zone8', team='player')[static_random.get_randint(0, len(get_units_in_region('Zone8', team='player'))-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball8",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit8']).position[0]-1,game.get_unit(game.level_vars['TargetUnit8']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "inc_level_var",
+                [
+                    "FireballCount",
+                    "1"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# determines whether the dragon will go after the tomes"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.level_vars['FireballCount']<game.turncount and game.turncount%3==0"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# prioritizes slows"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# goes for the slow if players are in tight regions"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "len(get_units_in_region('Zone3', team='player'))>0 or len(get_units_in_region('Zone5', team='player'))>0 or len(get_units_in_region('Zone6', team='player'))>0 or len(get_units_in_region('Zone8', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit9",
+                    "[u for u in game.get_enemy_units() if 'Slo' in u.nid][static_random.get_randint(0, len([u for u in game.get_enemy_units() if 'Slo' in u.nid])-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball9",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit9']).position[0]-1,game.get_unit(game.level_vars['TargetUnit9']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# goes for speed if players are in wide regions"
                 ]
             ],
             [
