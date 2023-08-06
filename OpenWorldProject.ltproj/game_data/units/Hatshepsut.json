@@ -3,7 +3,7 @@
         "nid": "Hatshepsut",
         "name": "Hatshepsut",
         "desc": "Blessed by a foreign god. Her adventuring life has ended.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Eirika_Lord",
         "tags": [
@@ -78,6 +78,11 @@
         "alternate_classes": [],
         "portrait_nid": "CanDy F2E 23 Female Merc",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Lord Horus, must I retreat so soon?{w}{br}....I understand, I will not delay."
+            ]
+        ]
     }
 ]

@@ -20,13 +20,6 @@
                 ]
             ],
             [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Flower"
-                ]
-            ],
-            [
                 "add_portrait",
                 [
                     "Flower (Flower)",
@@ -56,6 +49,13 @@
                 [
                     "Simon",
                     "He must be up ahead.{w}{br}Best be ready."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Flower (Flower)",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
@@ -411,12 +411,6 @@
             [
                 "else",
                 []
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
             ],
             [
                 "move_unit",

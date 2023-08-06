@@ -84,6 +84,11 @@
         "alternate_classes": [],
         "portrait_nid": "{Levin64} - F2U 5",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Ah, a shame.{w} This wound will take some time to heal."
+            ]
+        ]
     }
 ]

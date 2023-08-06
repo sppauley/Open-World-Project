@@ -628,12 +628,12 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 14,
-                "klass": "Entombed",
+                "level": 6,
+                "klass": "Revenant",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Rotten Claw",
+                        "Sharp Claw",
                         false
                     ]
                 ],
@@ -652,12 +652,12 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 14,
-                "klass": "Entombed",
+                "level": 6,
+                "klass": "Revenant",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Rotten Claw",
+                        "Sharp Claw",
                         false
                     ]
                 ],
