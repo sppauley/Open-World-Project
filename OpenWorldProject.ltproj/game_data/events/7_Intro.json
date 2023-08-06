@@ -10,6 +10,12 @@
                 [
                     "# debugging"
                 ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "DEBUGLvl3Team (Global DEBUGLvl3Team)"
+                ]
             ]
         ],
         "only_once": false,
