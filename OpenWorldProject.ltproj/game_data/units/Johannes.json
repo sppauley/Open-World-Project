@@ -1,0 +1,80 @@
+[
+    {
+        "nid": "Johannes",
+        "name": "Johannes",
+        "desc": "",
+        "variant": "",
+        "level": 3,
+        "klass": "Hero",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "CON": 16,
+            "MAG": 1,
+            "DEX": 12,
+            "SPD": 16,
+            "PSE": 14,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 70,
+            "CON": 35,
+            "MAG": 5,
+            "DEX": 30,
+            "SPD": 40,
+            "PSE": 20,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Dragonsbane",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                1
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": "None",
+        "fields": []
+    }
+]
