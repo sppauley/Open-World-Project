@@ -2,7 +2,7 @@
     {
         "nid": "Rapier",
         "name": "Rapier",
-        "desc": "Eirika Only, effective against horseback and armoured units",
+        "desc": "Effective against horseback and armoured units",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -46,12 +46,6 @@
                 "Sword"
             ],
             [
-                "prf_unit",
-                [
-                    "Eirika"
-                ]
-            ],
-            [
                 "effective",
                 14
             ],
@@ -68,7 +62,11 @@
             ],
             [
                 "crit",
-                0
+                10
+            ],
+            [
+                "stagger",
+                2
             ]
         ]
     }

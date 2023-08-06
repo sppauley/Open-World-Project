@@ -22,20 +22,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "heal",
                 99
             ],
@@ -52,8 +38,23 @@
                 null
             ],
             [
-                "usable_in_base",
-                null
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }

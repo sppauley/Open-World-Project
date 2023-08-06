@@ -12,6 +12,35 @@
                 ]
             ],
             [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (122)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Cutthroat (105)"
+                ]
+            ],
+            [
+                "remove_talk",
+                [
+                    "Simon (Simon)",
+                    "Cutthroat (116)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Cutthroat (105)",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "trigger_script",
                 [
                     "GenericPreps (Global GenericPreps)"

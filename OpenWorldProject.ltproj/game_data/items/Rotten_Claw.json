@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                7
+                9
             ],
             [
                 "hit",
@@ -56,6 +56,10 @@
             [
                 "weapon_type",
                 "Innate"
+            ],
+            [
+                "stagger",
+                6
             ]
         ]
     }

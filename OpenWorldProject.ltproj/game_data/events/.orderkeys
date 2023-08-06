@@ -228,5 +228,8 @@
     "7_Dragon_AI.json": 226,
     "2_TutorialMsg1.json": 227,
     "6_BeginBattle.json": 228,
-    "6_DispelFog.json": 229
+    "6_DispelFog.json": 229,
+    "6_LittleGirlTalk.json": 230,
+    "6_ThiefTalk.json": 231,
+    "6_ClericTalk.json": 232
 }

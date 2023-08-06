@@ -14,20 +14,6 @@
                 500
             ],
             [
-                "uses",
-                5
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "target_ally",
                 null
             ],
@@ -38,6 +24,25 @@
             [
                 "status_on_hit",
                 "Torch"
+            ],
+            [
+                "c_uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
             ]
         ]
     }

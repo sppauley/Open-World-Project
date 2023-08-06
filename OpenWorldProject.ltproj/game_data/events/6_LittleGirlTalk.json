@@ -1,0 +1,243 @@
+[
+    {
+        "name": "LittleGirlTalk",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "unit2.nid == '122'",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "25,13"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Villager Girl",
+                    "Left",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Girl",
+                    "Sniff.... I... I wanna..."
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "FarRight",
+                    "right"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "AppearBySimon (Global AppearBySimon)",
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "move_unit",
+                [
+                    "Boudica",
+                    "24,14",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Boudica (Boudica)",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Hello? Who's there?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Girl",
+                    "W-who are you?"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "...Someone who can help.{w}{br}What's wrong?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Girl",
+                    "M-my mommy went to Master Vilge...{w}{br}And now she's g-g-gone!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Boudica (Boudica)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "Peace, little one.{w} All will be well.{w}{br}Is your mother still there?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Girl",
+                    "Yes, but she's not normal.{w} She's not-{c:wait;500} not right."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "I see.{w} Some of our friends are nearby.{w}{br}Would you like me to take you to them?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Villager Girl",
+                    "Y-yes..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "I will show you the way. Just hold onto my hand."
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Boudica (Boudica)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (122)",
+                    "fade",
+                    "south"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)",
+                    "FLAG(no_block)"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Boudica (Boudica)",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Villager Girl",
+                    "OffscreenRight"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                ]
+            ],
+            [
+                "mirror_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Poor girl."
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Looks like she dropped this."
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Simon (Simon)",
+                    "Torch (Torch)"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Villager Girl",
+                    "Boudica (Boudica)",
+                    "Simon (Simon)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

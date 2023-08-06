@@ -49,6 +49,39 @@
                 ]
             ],
             [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (122)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Cutthroat (116)"
+                ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Cutthroat (105)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Start event narration"
+                ]
+            ],
+            [
                 "center_cursor",
                 [
                     "Simon (Simon)",
@@ -79,7 +112,7 @@
                 "speak",
                 [
                     "Narrator",
-                    "Both player and enemy units are affected by the fog.",
+                    "Both player and enemy units are affected by the fog.{w}{br}Some units, such as thieves, have a high sight range.{w}{br}These units allow enemies to coordinate effectively.",
                     "StyleNid=hint"
                 ]
             ],
@@ -198,18 +231,6 @@
                 "comment",
                 [
                     "#endf"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# REMOVE LATER"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
                 ]
             ]
         ],
