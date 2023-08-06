@@ -776,14 +776,27 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": true
+            },
+            {
+                "nid": "VilgeVision",
+                "region_type": "vision",
+                "position": [
+                    1,
+                    2
+                ],
+                "size": [
+                    7,
+                    5
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
         "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            },
             {
                 "nid": "TileGroup",
                 "trigger_threshold": 2

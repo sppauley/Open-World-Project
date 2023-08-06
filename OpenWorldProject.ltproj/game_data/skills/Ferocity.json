@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Ferocity",
+        "name": "Ferocity",
+        "desc": "If using an Innate weapon, +4 DEX and +2 SPD.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "DEX",
+                        4
+                    ],
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "item_system.weapon_type(unit, unit.get_weapon()) == 'Innate'"
+            ]
+        ]
+    }
+]

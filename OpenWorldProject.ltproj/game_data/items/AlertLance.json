@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "AlertLance",
+        "name": "Alert Lance",
+        "desc": "When equipped, +10 avoid.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                720
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "stagger",
+                6
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        6
+                    ]
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Avoid10"
+            ]
+        ]
+    }
+]

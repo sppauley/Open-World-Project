@@ -136,14 +136,6 @@
                 ]
             ],
             [
-                "give_item",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "Alert Band (AlertBand)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
                 "give_skill",
                 [
                     "Simon",

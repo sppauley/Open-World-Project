@@ -1,0 +1,189 @@
+[
+    {
+        "name": "AscendedReins",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "game.turncount > 1",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.turncount == 2"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Vilge (Vilge)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Vilge (Vilge)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vilge",
+                    "The earth shall reclaim you.{w}{br}My Ascended will make sure of that."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Vilge (Vilge)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# Just a default value - they should never spawn there"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "game.get_unit(\"Simon\").position"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "ranNum",
+                    "random.randint(1,7)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v(\"ranNum\") == 1"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "21,8"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 2"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "26,13"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 3"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "26,21"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 4"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "18,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 5"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "22,2"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 6"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "19,14"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "v(\"ranNum\") == 7"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "reinPos",
+                    "12,12"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "create_unit",
+                [
+                    "Cutthroat (123)",
+                    "",
+                    "10",
+                    "{e:v(\"reinPos\")}",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "change_ai",
+                [
+                    "{created_unit}",
+                    "Pursue"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "{created_unit}",
+                    "Lost to History (Void Curse)",
+                    "FLAG(no_banner)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
