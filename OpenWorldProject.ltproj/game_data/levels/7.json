@@ -171,6 +171,25 @@
                 "generic": true
             },
             {
+                "nid": "Slo_2",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Dragon",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    25,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Acc_1",
                 "variant": null,
                 "level": 1,
@@ -185,6 +204,25 @@
                 "starting_position": [
                     10,
                     39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_2",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Dragon",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -416,7 +454,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 12,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -431,9 +469,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": "r",
+                "ai_group": "",
                 "starting_position": [
                     20,
                     20
@@ -444,7 +482,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 12,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -459,9 +497,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": "r",
+                "ai_group": "",
                 "starting_position": [
                     21,
                     20
@@ -561,6 +599,198 @@
                 "starting_position": [
                     1,
                     27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 16,
+                "klass": "Fighter",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 16,
+                "klass": "Fighter",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 16,
+                "klass": "Fighter",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 8,
+                "klass": "General",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    27,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 8,
+                "klass": "General",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    28,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    23,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 12,
+                "klass": "Archer",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    9,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 12,
+                "klass": "Cleric",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -750,6 +980,14 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "c",
                 "trigger_threshold": 1
             }
         ]
