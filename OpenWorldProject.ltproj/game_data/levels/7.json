@@ -298,7 +298,7 @@
                 "variant": null,
                 "level": 15,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Dragon",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -322,7 +322,7 @@
                 "variant": null,
                 "level": 15,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Dragon",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -346,7 +346,7 @@
                 "variant": null,
                 "level": 15,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Dragon",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -370,7 +370,7 @@
                 "variant": null,
                 "level": 15,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Dragon",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -394,7 +394,7 @@
                 "variant": null,
                 "level": 12,
                 "klass": "Cleric",
-                "faction": "Soldier",
+                "faction": "Dragon",
                 "starting_items": [
                     [
                         "Cripple",
@@ -409,6 +409,158 @@
                 "starting_position": [
                     13,
                     31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 12,
+                "klass": "Ranger",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "r",
+                "starting_position": [
+                    20,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 12,
+                "klass": "Ranger",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "r",
+                "starting_position": [
+                    21,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 15,
+                "klass": "Mercenary",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    3,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 15,
+                "klass": "Mercenary",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    4,
+                    33
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 8,
+                "klass": "Sniper",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    2,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 11,
+                "klass": "Hero",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    1,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -555,11 +707,15 @@
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
+                "nid": "a",
                 "trigger_threshold": 1
             },
             {
-                "nid": "a",
+                "nid": "r",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "b",
                 "trigger_threshold": 1
             }
         ]

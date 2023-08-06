@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "ExecutionersBand",
+        "name": "Executioner's Band",
+        "desc": "Holder gains +1 attack against staggered foes",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "Executioner"
+            ]
+        ]
+    }
+]
