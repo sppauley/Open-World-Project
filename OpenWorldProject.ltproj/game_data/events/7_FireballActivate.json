@@ -14,7 +14,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball1')"
+                    "'Fireball1' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -117,12 +117,6 @@
                 ]
             ],
             [
-                "alert",
-                [
-                    "{eval:game.get_region('Fireball1').nid}"
-                ]
-            ],
-            [
                 "wait",
                 [
                     "500"
@@ -141,7 +135,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball2')"
+                    "'Fireball2' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -262,7 +256,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball3')"
+                    "'Fireball3' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -383,7 +377,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball4')"
+                    "'Fireball4' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -504,7 +498,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball5')"
+                    "'Fireball5' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -625,7 +619,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball6')"
+                    "'Fireball6' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -746,7 +740,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball7')"
+                    "'Fireball7' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -867,7 +861,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball8')"
+                    "'Fireball8' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
@@ -988,7 +982,7 @@
             [
                 "if",
                 [
-                    "game.get_region('Fireball9')"
+                    "'Fireball9' in [r.nid for r in game.level.regions]"
                 ]
             ],
             [
