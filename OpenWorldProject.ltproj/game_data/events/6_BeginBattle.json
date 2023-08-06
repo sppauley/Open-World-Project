@@ -1,0 +1,90 @@
+[
+    {
+        "name": "BeginBattle",
+        "trigger": null,
+        "level_nid": "6",
+        "condition": "True",
+        "commands": [
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "GenericPreps (Global GenericPreps)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "game.get_unit(\"Nika\").position"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Nika (Nika)",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "Sorry, Simon...{w} I can't-{w}{br}Keep..."
+                ]
+            ],
+            [
+                "add_unit_map_anim",
+                [
+                    "MapBerserk",
+                    "Nika (Nika)",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Nika (Nika)",
+                    "Berserk (NikaBerserk)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Nika (Nika)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Nika?{w} ..?{w} Everyone, be careful.{w}{br}I don't know what she's doing."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

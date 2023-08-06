@@ -1,7 +1,7 @@
 [
     {
         "name": "Create Barrier",
-        "trigger": "turn_change",
+        "trigger": "combat_end",
         "level_nid": "6",
         "condition": "True",
         "commands": [
@@ -9,6 +9,19 @@
                 "if",
                 [
                     "game.board.get_unit((8,15)) and game.board.get_unit((8,15)).team == \"enemy\" and game.board.get_unit((8,15)).klass == \"Cleric\""
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "wallsUp",
+                    "True"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "not game.get_unit('101').position"
                 ]
             ],
             [
@@ -64,8 +77,19 @@
                 ]
             ],
             [
+                "end",
+                []
+            ],
+            [
                 "else",
                 []
+            ],
+            [
+                "level_var",
+                [
+                    "wallsUp",
+                    "False"
+                ]
             ],
             [
                 "remove_unit",

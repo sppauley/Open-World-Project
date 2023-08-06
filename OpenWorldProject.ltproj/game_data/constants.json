@@ -117,7 +117,7 @@
     ],
     [
         "ai_fog_of_war",
-        false
+        true
     ],
     [
         "def_double",
@@ -181,7 +181,7 @@
     ],
     [
         "roam_hide_hp",
-        false
+        true
     ],
     [
         "autogenerate_grey_map_sprites",

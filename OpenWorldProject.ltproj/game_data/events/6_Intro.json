@@ -14,6 +14,111 @@
                 ]
             ],
             [
+                "level_var",
+                [
+                    "_fog_of_war",
+                    "True"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "_fog_of_war_type",
+                    "2"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "_fog_of_war_radius",
+                    "3"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "_ai_fog_of_war_radius",
+                    "3"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "wallsUp",
+                    "False"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Simon (Simon)",
+                    "MidRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "Where did this fog come from?{w}{br}I can barely see a few steps ahead."
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v(\"tutorialPopups\")"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Narrator",
+                    "Both player and enemy units are affected by the fog.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "if",
+                [
+                    "v(\"FlowerRecruited\")"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Flower (Flower)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "Grr...."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Simon",
+                    "I know, the bandits' hideout must be close."
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
                 "if",
                 [
                     "v(\"NikaRecruited\")"
@@ -34,6 +139,20 @@
                 ]
             ],
             [
+                "speak",
+                [
+                    "Simon",
+                    "I'll try, but I cannot promise it.{w}{br}This battle will be fierce."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Nika",
+                    "I understand, I just...{w}{br}I'll stay back for now."
+                ]
+            ],
+            [
                 "remove_portrait",
                 [
                     "Nika (Nika)"
@@ -44,84 +163,10 @@
                 []
             ],
             [
-                "for",
-                [
-                    "u",
-                    "[unit.nid for unit in game.get_all_units()]"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "{u}",
-                    "Eldritch Swiftness (StaggerGaleforce)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.get_unit(\"Nika\").position"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Nika (Nika)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nika",
-                    "Sorry, Simon...{w} I can't-{w}{br}Keep..."
-                ]
-            ],
-            [
-                "add_unit_map_anim",
-                [
-                    "MapBerserk",
-                    "Nika (Nika)",
-                    "FLAG(permanent)"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "Nika (Nika)",
-                    "Berserk (NikaBerserk)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Nika (Nika)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
                 "speak",
                 [
                     "Simon",
-                    "Nika?{w} ..?{w} Everyone, be careful.{w}{br}I don't know what she's doing."
+                    "No need to attack immediately.{w}{br}Let's scout the area first."
                 ]
             ],
             [
@@ -131,8 +176,41 @@
                 ]
             ],
             [
-                "end",
-                []
+                "remove_portrait",
+                [
+                    "Flower (Flower)",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#for;u;[unit.nid for unit in game.get_all_units()]"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#    give_skill;{u};Eldritch Swiftness (StaggerGaleforce);FLAG(no_banner)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#endf"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# REMOVE LATER"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
+                ]
             ]
         ],
         "only_once": false,

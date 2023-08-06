@@ -11,8 +11,8 @@
             "win": "Defeat Boss",
             "loss": "Simon Dies"
         },
-        "roam": false,
-        "roam_unit": null,
+        "roam": true,
+        "roam_unit": "Simon",
         "go_to_overworld": false,
         "should_record": true,
         "units": [
@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    22
+                    9,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -123,8 +123,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    16
+                    8,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -141,6 +141,30 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Shaman",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -148,12 +172,12 @@
                 "nid": "Form1",
                 "region_type": "formation",
                 "position": [
-                    23,
-                    23
+                    15,
+                    6
                 ],
                 "size": [
-                    3,
-                    1
+                    1,
+                    3
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -165,8 +189,8 @@
                 "nid": "Form2",
                 "region_type": "formation",
                 "position": [
-                    24,
-                    24
+                    17,
+                    7
                 ],
                 "size": [
                     1,

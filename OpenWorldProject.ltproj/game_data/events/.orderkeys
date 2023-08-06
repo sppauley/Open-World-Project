@@ -226,5 +226,7 @@
     "7_FireballDamage.json": 224,
     "7_FireballWarn.json": 225,
     "7_Dragon_AI.json": 226,
-    "2_TutorialMsg1.json": 227
+    "2_TutorialMsg1.json": 227,
+    "6_BeginBattle.json": 228,
+    "6_DispelFog.json": 229
 }
