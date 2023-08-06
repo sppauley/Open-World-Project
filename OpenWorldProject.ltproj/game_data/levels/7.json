@@ -36,8 +36,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    41
+                    17,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -56,20 +56,97 @@
                 "generic": false
             },
             {
-                "nid": "Acc_1",
+                "nid": "DraconicKnight1",
                 "variant": null,
-                "level": 1,
-                "klass": "SpeedTome",
+                "level": 10,
+                "klass": "DraconicKnight",
                 "faction": "Dragon",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "DraconicAxe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    39
+                    30,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "DraconicKnight2",
+                "variant": null,
+                "level": 10,
+                "klass": "DraconicKnight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "DraconicAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "DraconicKnight3",
+                "variant": null,
+                "level": 10,
+                "klass": "DraconicKnight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "DraconicAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "DraconicKnight4",
+                "variant": null,
+                "level": 10,
+                "klass": "DraconicKnight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "DraconicAxe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    31,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -94,25 +171,20 @@
                 "generic": true
             },
             {
-                "nid": "102",
+                "nid": "Acc_1",
                 "variant": null,
-                "level": 10,
-                "klass": "DraconicKnight",
+                "level": 1,
+                "klass": "SpeedTome",
                 "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "DraconicAxe",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    30,
-                    30
+                    10,
+                    39
                 ],
                 "starting_traveler": null,
                 "generic": true

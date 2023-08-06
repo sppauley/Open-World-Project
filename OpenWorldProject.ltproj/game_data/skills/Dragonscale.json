@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Dragonscale",
+        "name": "Dragonscale",
+        "desc": "Takes -5 damage for each Draconic Knight alive.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "5*len([unit for unit in game.get_enemy_units() if 'DraconicKnight' in unit.nid])"
+            ]
+        ]
+    }
+]

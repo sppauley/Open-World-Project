@@ -34,7 +34,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Dragonscale"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
