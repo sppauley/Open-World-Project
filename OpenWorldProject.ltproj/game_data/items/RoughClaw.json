@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Sharp Claw",
-        "name": "Sharp Claw",
-        "desc": "Finely sharpened for killing.",
+        "nid": "RoughClaw",
+        "name": "Rough Claw",
+        "desc": "A brutish, unwieldy thing.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                7
+                5
             ],
             [
                 "hit",
-                80
+                50
             ],
             [
                 "weight",

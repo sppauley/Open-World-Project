@@ -337,6 +337,10 @@
                 ]
             ],
             [
+                "arrange_formation",
+                []
+            ],
+            [
                 "trigger_script",
                 [
                     "GenericPreps (Global GenericPreps)"
@@ -375,6 +379,14 @@
                 [
                     "Nika (Nika)",
                     "Berserk (NikaBerserk)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Nika",
+                    "Eldritch Swiftness (StaggerGaleforce)",
                     "FLAG(no_banner)"
                 ]
             ],

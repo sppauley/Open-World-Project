@@ -1,9 +1,9 @@
 [
     {
-        "name": "VilgeFlowerBattle",
+        "name": "VilgeBoudicaBattle",
         "trigger": "combat_start",
         "level_nid": "6",
-        "condition": "check_pair('Vilge', 'Flower')",
+        "condition": "check_pair('Vilge', 'Boudica')",
         "commands": [
             [
                 "add_portrait",
@@ -15,42 +15,49 @@
             [
                 "add_portrait",
                 [
-                    "Flower (Flower)",
+                    "Boudica",
                     "Right"
                 ]
             ],
             [
                 "speak",
                 [
-                    "Flower",
-                    "Grrrrrrrrraaah!"
+                    "Boudica",
+                    "You lead these abominations?"
                 ]
             ],
             [
                 "speak",
                 [
                     "Vilge",
-                    "Stupid mutt.{w} Don't you dare get closer!"
+                    "Abominations? My children!{w} Why, you once knew what it means to be a mother."
                 ]
             ],
             [
                 "speak",
                 [
-                    "Flower",
-                    "Awwooooo!"
+                    "Boudica",
+                    "You tread dangerously, knave."
                 ]
             ],
             [
-                "move_portrait",
+                "speak",
                 [
-                    "Flower (Flower)",
-                    "MidLeft"
+                    "Vilge",
+                    "Absolute, undying love for your offspring.{w}{br}I have heard tales of your battles, Boudica.{w}{br}You understand my position, I'm sure."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Boudica",
+                    "I have heard enough of your ramblings.{w}{br}You will sour this earth no longer!"
                 ]
             ],
             [
                 "multi_remove_portrait",
                 [
-                    "Flower (Flower)",
+                    "Boudica",
                     "Vilge (Vilge)"
                 ]
             ]

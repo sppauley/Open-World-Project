@@ -633,7 +633,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "RoughClaw",
                         false
                     ]
                 ],
@@ -657,7 +657,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "RoughClaw",
                         false
                     ]
                 ],

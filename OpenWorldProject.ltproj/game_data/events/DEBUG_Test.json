@@ -136,10 +136,9 @@
                 ]
             ],
             [
-                "give_skill",
+                "trigger_script",
                 [
-                    "Simon",
-                    "Executioner (Executioner)"
+                    "GenericPreps (Global GenericPreps)"
                 ]
             ]
         ],

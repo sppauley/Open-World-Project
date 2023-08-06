@@ -3,7 +3,7 @@
         "name": "VilgeBattle",
         "trigger": "combat_start",
         "level_nid": "6",
-        "condition": "check_default('Vilge', ['Flower'])",
+        "condition": "check_default('Vilge', ['Flower', 'Boudica'])",
         "commands": [
             [
                 "add_portrait",
