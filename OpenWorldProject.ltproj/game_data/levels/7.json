@@ -1,15 +1,15 @@
 [
     {
         "nid": "7",
-        "name": "Chapter 7",
+        "name": "Dragon's Lair",
         "tilemap": "Dragon's Lair",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defeat the Dragon",
+            "win": "Defeat the Dragon",
+            "loss": "Simon Dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -36,8 +36,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    4
+                    11,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -292,6 +292,126 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 15,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    11,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 15,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    12,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 15,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    13,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 15,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    14,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 12,
+                "klass": "Cleric",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    13,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -436,6 +556,10 @@
         "ai_groups": [
             {
                 "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "a",
                 "trigger_threshold": 1
             }
         ]
