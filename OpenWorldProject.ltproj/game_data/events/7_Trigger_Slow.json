@@ -21,7 +21,7 @@
             [
                 "if",
                 [
-                    "game.level_vars['Phase']=='Enemy'"
+                    "game.level_vars['Phase']=='Player'"
                 ]
             ],
             [
