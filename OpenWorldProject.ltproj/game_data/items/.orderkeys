@@ -178,10 +178,11 @@
     "Red_Gem.json": 176,
     "Blue_Gem.json": 177,
     "ExecutionersBand.json": 178,
-    "White_Gem.json": 179,
-    "DamageMaterial.json": 180,
-    "Steal.json": 181,
-    "Refresh.json": 182,
-    "Summon.json": 183,
-    "Summon_Soldier.json": 184
+    "TricksterBoots.json": 179,
+    "White_Gem.json": 180,
+    "DamageMaterial.json": 181,
+    "Steal.json": 182,
+    "Refresh.json": 183,
+    "Summon.json": 184,
+    "Summon_Soldier.json": 185
 }

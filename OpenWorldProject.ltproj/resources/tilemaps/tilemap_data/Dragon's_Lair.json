@@ -12615,6 +12615,36 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "chest_bottom",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "8,33": [
+                        "Lava Cave Tiles",
+                        [
+                            1,
+                            0
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "chest_top",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "26,14": [
+                        "Lava Cave Tiles",
+                        [
+                            1,
+                            0
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

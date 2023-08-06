@@ -229,5 +229,7 @@
     "2_TutorialMsg1.json": 227,
     "6_BeginBattle.json": 228,
     "6_DispelFog.json": 229,
-    "7_Intro.json": 230
+    "7_Intro.json": 230,
+    "7_ChestTop.json": 231,
+    "7_ChestBottom.json": 232
 }
