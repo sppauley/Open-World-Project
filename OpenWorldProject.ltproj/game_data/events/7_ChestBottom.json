@@ -1,0 +1,25 @@
+[
+    {
+        "name": "ChestBottom",
+        "trigger": "Chest",
+        "level_nid": "7",
+        "condition": "'ChestBottom' in region.nid",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "chest_bottom"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Executioner's Band (ExecutionersBand)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

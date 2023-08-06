@@ -1,0 +1,103 @@
+[
+    {
+        "nid": "Dragon",
+        "name": "Dragon",
+        "desc": "",
+        "tier": 1,
+        "movement_group": "Fliers",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Dragon"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 99,
+            "CON": 18,
+            "MAG": 15,
+            "DEX": 18,
+            "SPD": 9,
+            "PSE": 32,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "promotion": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "max_stats": {
+            "HP": 100,
+            "CON": 30,
+            "MAG": 30,
+            "DEX": 30,
+            "SPD": 30,
+            "PSE": 25,
+            "MOV": 15
+        },
+        "learned_skills": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Innate": [
+                true,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Dragon (U) FE7 Fire Dragon (U) {IS}-stand",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

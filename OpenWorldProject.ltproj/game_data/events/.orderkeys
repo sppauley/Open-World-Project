@@ -233,5 +233,8 @@
     "6_ThiefTalk.json": 231,
     "6_ClericTalk.json": 232,
     "6_VilgeBattle.json": 233,
-    "6_VilgeFlowerBattle.json": 234
+    "6_VilgeFlowerBattle.json": 234,
+    "7_Intro.json": 235,
+    "7_ChestTop.json": 236,
+    "7_ChestBottom.json": 237
 }

@@ -177,10 +177,12 @@
     "Hoplon_Guard.json": 175,
     "Red_Gem.json": 176,
     "Blue_Gem.json": 177,
-    "White_Gem.json": 178,
-    "DamageMaterial.json": 179,
-    "Steal.json": 180,
-    "Refresh.json": 181,
-    "Summon.json": 182,
-    "Summon_Soldier.json": 183
+    "ExecutionersBand.json": 178,
+    "TricksterBoots.json": 179,
+    "White_Gem.json": 180,
+    "DamageMaterial.json": 181,
+    "Steal.json": 182,
+    "Refresh.json": 183,
+    "Summon.json": 184,
+    "Summon_Soldier.json": 185
 }

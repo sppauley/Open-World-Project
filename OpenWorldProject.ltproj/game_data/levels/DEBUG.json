@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    5,
-                    6
+                    4,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -71,8 +71,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    9
+                    3,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false

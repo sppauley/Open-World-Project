@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "TricksterBoots",
+        "name": "Trickster's Boots",
+        "desc": "Holder gains +1 MOV during the first 7 turns",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        12
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "Trickster"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Trickster",
+        "name": "Trickster",
+        "desc": "+1 MOV during first 7 turns",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "game.turncount<8"
+            ]
+        ]
+    }
+]
