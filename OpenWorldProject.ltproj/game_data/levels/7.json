@@ -17,6 +17,45 @@
         "should_record": true,
         "units": [
             {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Johannes",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Dragonlord",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Acc_1",
                 "variant": null,
                 "level": 1,
@@ -30,7 +69,7 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    37
+                    39
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -79,19 +118,6 @@
                 "generic": true
             },
             {
-                "nid": "Simon",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    41
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Boudica",
                 "team": "player",
                 "ai": "None",
@@ -100,19 +126,6 @@
                 "starting_position": [
                     10,
                     42
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Johannes",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    30,
-                    32
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -196,7 +209,7 @@
                 "generic": false
             },
             {
-                "nid": "Juliet",
+                "nid": "Kajal",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
