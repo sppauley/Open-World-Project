@@ -622,7 +622,7 @@
                 "ai_group": "",
                 "starting_position": [
                     17,
-                    25
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -646,7 +646,7 @@
                 "ai_group": "",
                 "starting_position": [
                     20,
-                    26
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -670,7 +670,7 @@
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    27
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -791,6 +791,102 @@
                 "starting_position": [
                     27,
                     23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 11,
+                "klass": "Paladin",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    30,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 11,
+                "klass": "Paladin",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    32,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 15,
+                "klass": "Myrmidon",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    27,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 15,
+                "klass": "Myrmidon",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    29,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -947,7 +1043,7 @@
                 "sub_nid": "Chest",
                 "condition": "True",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {
@@ -964,7 +1060,7 @@
                 "sub_nid": "Chest",
                 "condition": "True",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             }
         ],
@@ -975,19 +1071,15 @@
                 "trigger_threshold": 1
             },
             {
-                "nid": "r",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "b",
                 "trigger_threshold": 1
             },
             {
-                "nid": "",
+                "nid": "c",
                 "trigger_threshold": 1
             },
             {
-                "nid": "c",
+                "nid": "e",
                 "trigger_threshold": 1
             }
         ]
