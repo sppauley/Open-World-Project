@@ -49,6 +49,30 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Wall (101)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (102)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (103)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Wall (104)"
+                ]
+            ],
+            [
                 "add_talk",
                 [
                     "Simon (Simon)",

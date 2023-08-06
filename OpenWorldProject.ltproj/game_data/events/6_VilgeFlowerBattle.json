@@ -1,0 +1,61 @@
+[
+    {
+        "name": "VilgeFlowerBattle",
+        "trigger": "combat_start",
+        "level_nid": "6",
+        "condition": "check_pair('Caylus', 'Flower')",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Vilge (Vilge)",
+                    "Left"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Flower (Flower)",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "Grrrrrrrrraaah!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Vilge",
+                    "Stupid mutt.{w} Don't you dare get closer!"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Flower",
+                    "Awwooooo!"
+                ]
+            ],
+            [
+                "move_portrait",
+                [
+                    "Flower (Flower)",
+                    "MidLeft"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "Flower (Flower)",
+                    "Vilge (Vilge)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

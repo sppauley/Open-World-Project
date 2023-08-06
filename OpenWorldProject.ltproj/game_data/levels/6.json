@@ -759,6 +759,23 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "VilgeArea",
+                "region_type": "event",
+                "position": [
+                    12,
+                    6
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "VilgeArea",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [],
