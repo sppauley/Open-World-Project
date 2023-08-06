@@ -39,11 +39,11 @@
                 "generic": false
             },
             {
-                "nid": "Hatshepsut",
+                "nid": "Flower",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     5,
                     4
@@ -184,6 +184,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

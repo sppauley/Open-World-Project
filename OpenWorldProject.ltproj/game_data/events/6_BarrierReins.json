@@ -1,0 +1,142 @@
+[
+    {
+        "name": "BarrierReins",
+        "trigger": "turn_change",
+        "level_nid": "6",
+        "condition": "not v(\"wallsUp\") and game.turncount % 3 == 0",
+        "commands": [
+            [
+                "make_generic",
+                [
+                    "",
+                    "Cleric (Cleric)",
+                    "1",
+                    "enemy",
+                    "HideoutBarrier",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Heal"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "7,24",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Shaman (Shaman)",
+                    "13",
+                    "enemy",
+                    "HideoutBarrierEscort",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Thunder"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "8,24",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Fighter",
+                    "12",
+                    "enemy",
+                    "HideoutBarrierEscort",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Steel Axe"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "6,24",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "make_generic",
+                [
+                    "",
+                    "Cavalier",
+                    "12",
+                    "enemy",
+                    "HideoutBarrierEscort",
+                    "Cutthroat (Cutthroat)",
+                    "",
+                    "Iron Lance"
+                ]
+            ],
+            [
+                "add_unit",
+                [
+                    "{created_unit}",
+                    "5,24",
+                    "fade",
+                    "closest"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "7,24"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "8,24"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "7,24"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "6,24"
+                ]
+            ],
+            [
+                "flicker_cursor",
+                [
+                    "5,24"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,7 +1,7 @@
 [
     {
-        "name": "Create Barrier",
-        "trigger": "combat_end",
+        "name": "CreateBarrier",
+        "trigger": "unit_wait",
         "level_nid": "6",
         "condition": "True",
         "commands": [
@@ -94,25 +94,33 @@
             [
                 "remove_unit",
                 [
-                    "Wall (101)"
+                    "Wall (101)",
+                    "warp",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "remove_unit",
                 [
-                    "Wall (102)"
+                    "Wall (102)",
+                    "warp",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "remove_unit",
                 [
-                    "Wall (103)"
+                    "Wall (103)",
+                    "warp",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
                 "remove_unit",
                 [
-                    "Wall (104)"
+                    "Wall (104)",
+                    "warp",
+                    "FLAG(no_warn)"
                 ]
             ],
             [

@@ -14,7 +14,20 @@
             [
                 "comment",
                 [
-                    "#Village 1 reward"
+                    "#Village 2 reward"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Alert Lance (AlertLance)"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village2"
                 ]
             ],
             [
@@ -26,7 +39,20 @@
             [
                 "comment",
                 [
-                    "#Village 2 reward"
+                    "#Village 1 reward"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "{unit}",
+                    "Ferocity (Ferocity)"
+                ]
+            ],
+            [
+                "remove_region",
+                [
+                    "Village1"
                 ]
             ],
             [

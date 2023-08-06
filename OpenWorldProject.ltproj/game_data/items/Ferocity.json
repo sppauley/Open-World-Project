@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Ferocity",
+        "name": "Ferocity",
+        "desc": "If using an Innate weapon, +4 DEX and +2 SPD.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "Ferocity"
+            ]
+        ]
+    }
+]
