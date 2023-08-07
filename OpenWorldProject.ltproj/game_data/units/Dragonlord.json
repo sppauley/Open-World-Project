@@ -2,7 +2,7 @@
     {
         "nid": "Dragonlord",
         "name": "Dragonlord",
-        "desc": "",
+        "desc": "An ancient dragon whose worshippers claimed the ruins of an old city.",
         "variant": "",
         "level": 20,
         "klass": "Dragon",
@@ -32,6 +32,10 @@
             [
                 "Sharp Claw",
                 false
+            ],
+            [
+                "Dragonfire",
+                false
             ]
         ],
         "learned_skills": [
@@ -60,7 +64,7 @@
             ],
             "Innate": [
                 false,
-                181
+                251
             ],
             "Anima": [
                 false,

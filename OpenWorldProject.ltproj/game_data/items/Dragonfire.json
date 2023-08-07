@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Dragonfire",
+        "name": "Dragonfire",
+        "desc": "A 2-range, high-damage burst of flame from an ancient dragon.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "damage",
+                30
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Innate"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "stagger",
+                0
+            ]
+        ]
+    }
+]

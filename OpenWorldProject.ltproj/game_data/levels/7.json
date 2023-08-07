@@ -1541,6 +1541,111 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1757,6 +1862,38 @@
                     "140": [
                         20,
                         11
+                    ]
+                }
+            },
+            {
+                "nid": "Boss",
+                "units": [
+                    "146",
+                    "147",
+                    "148",
+                    "149",
+                    "150"
+                ],
+                "positions": {
+                    "146": [
+                        10,
+                        4
+                    ],
+                    "147": [
+                        11,
+                        7
+                    ],
+                    "148": [
+                        20,
+                        12
+                    ],
+                    "149": [
+                        24,
+                        10
+                    ],
+                    "150": [
+                        19,
+                        12
                     ]
                 }
             }
