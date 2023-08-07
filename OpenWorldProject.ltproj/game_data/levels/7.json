@@ -1316,10 +1316,6 @@
                 "trigger_threshold": 1
             },
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "g",
                 "trigger_threshold": 1
             }

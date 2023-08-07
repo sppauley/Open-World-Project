@@ -337,6 +337,14 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Cutthroat (128)",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
                 "arrange_formation",
                 []
             ],
@@ -345,6 +353,30 @@
                 [
                     "GenericPreps (Global GenericPreps)"
                 ]
+            ],
+            [
+                "for",
+                [
+                    "unit",
+                    "[unit.nid for unit in game.units if not unit.dead and not unit.is_dying and 'Tile' not in unit.tags]"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "hi"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "endf",
+                []
             ],
             [
                 "if",

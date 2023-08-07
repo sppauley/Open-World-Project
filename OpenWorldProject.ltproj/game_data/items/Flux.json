@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                7
+                4
             ],
             [
                 "hit",
-                80
+                75
             ],
             [
                 "crit",
@@ -70,16 +70,15 @@
                 900
             ],
             [
-                "uses",
-                45
+                "stagger",
+                6
             ],
             [
-                "uses_options",
+                "stat_req",
                 [
                     [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
+                        "MAG",
+                        5
                     ]
                 ]
             ]

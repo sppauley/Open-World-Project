@@ -240,5 +240,6 @@
     "7_ChestBottom.json": 238,
     "6_AscendedReins.json": 239,
     "6_BarrierReins.json": 240,
-    "6_CreateBarrier.json": 241
+    "6_CreateBarrier.json": 241,
+    "6_ScaredTalk.json": 242
 }

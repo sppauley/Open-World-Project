@@ -21,30 +21,6 @@
                     "PathwayMenu,ChangeDifficulty,ExitMap",
                     "t"
                 ]
-            ],
-            [
-                "comment",
-                [
-                    "# Come back to this if the bug continues OUTSIDE of a preload"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#for;{unit};[unit.nid for unit in self.units if not unit.dead and not unit.is_dying and 'Tile' not in unit.tags]"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#    reset;{unit}"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#endf"
-                ]
             ]
         ],
         "only_once": false,

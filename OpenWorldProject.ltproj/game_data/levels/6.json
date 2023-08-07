@@ -672,6 +672,25 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Cutthroat",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
