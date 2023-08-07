@@ -202,8 +202,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    26
+                    12,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -240,8 +240,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    24
+                    9,
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -583,7 +583,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     3,
-                    34
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -607,7 +607,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     4,
-                    33
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -630,7 +630,7 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    2,
+                    3,
                     32
                 ],
                 "starting_traveler": null,
@@ -654,7 +654,7 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    1,
+                    5,
                     27
                 ],
                 "starting_traveler": null,
@@ -678,8 +678,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    25
+                    18,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -727,7 +727,7 @@
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    26
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -822,7 +822,7 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    9,
+                    6,
                     27
                 ],
                 "starting_traveler": null,
@@ -918,8 +918,8 @@
                 "roam_ai": null,
                 "ai_group": "e",
                 "starting_position": [
-                    27,
-                    15
+                    24,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -943,7 +943,7 @@
                 "ai_group": "e",
                 "starting_position": [
                     29,
-                    20
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1039,7 +1039,7 @@
                 "ai_group": "",
                 "starting_position": [
                     14,
-                    12
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
