@@ -1067,7 +1067,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    18
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1310,7 +1310,7 @@
                     37
                 ],
                 "size": [
-                    21,
+                    20,
                     7
                 ],
                 "sub_nid": "",
@@ -1357,11 +1357,11 @@
                 "nid": "Zone4",
                 "region_type": "normal",
                 "position": [
-                    11,
+                    12,
                     21
                 ],
                 "size": [
-                    10,
+                    9,
                     15
                 ],
                 "sub_nid": null,
