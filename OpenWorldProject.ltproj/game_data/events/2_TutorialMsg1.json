@@ -3,7 +3,7 @@
         "name": "TutorialMsg1",
         "trigger": "combat_end",
         "level_nid": "2",
-        "condition": "v('tutorialPopups') == 1 and game.get_unit('Vincent').position == (22, 4)",
+        "condition": "(v('tutorialPopups') == 1  or v('basicTutorials') == 1) and game.get_unit('Vincent').position == (22, 4)",
         "commands": [
             [
                 "speak",

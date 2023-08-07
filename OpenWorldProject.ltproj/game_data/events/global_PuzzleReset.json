@@ -1,0 +1,61 @@
+[
+    {
+        "name": "PuzzleReset",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# WILL NOT WORK IF PUZZLECRATES GROUP DOES NOT EXIST IN LEVEL"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "not any([skill_system.can_select(u) and not u.finished for u in game.get_player_units()])"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "crate",
+                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "{crate}"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "remove_group",
+                [
+                    "PuzzleCrates",
+                    "fade"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "PuzzleCrates",
+                    "starting",
+                    "fade",
+                    "push"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

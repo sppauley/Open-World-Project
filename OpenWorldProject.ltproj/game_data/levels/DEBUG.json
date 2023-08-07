@@ -154,7 +154,7 @@
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -173,7 +173,7 @@
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -221,7 +221,16 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "PuzzleCrates",
+                "units": [
+                    "102",
+                    "103"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     }
 ]

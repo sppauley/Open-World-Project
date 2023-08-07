@@ -55,6 +55,12 @@
                 ]
             ],
             [
+                "comment",
+                [
+                    "# Probably convert this into a separate event with its own inventory logic"
+                ]
+            ],
+            [
                 "shop",
                 [
                     "Simon (Simon)",
