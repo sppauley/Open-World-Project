@@ -1,0 +1,30 @@
+[
+    {
+        "name": "CheckPuzzleCompletion",
+        "trigger": "unit_wait",
+        "level_nid": "DEBUG",
+        "condition": "v(\"InPuzzle\")",
+        "commands": [
+            [
+                "comment",
+                [
+                    "#trigger_script;PuzzleExit (Global PuzzleExit)"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# Reset puzzle"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#trigger_script;PuzzleReset (Global PuzzleReset)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

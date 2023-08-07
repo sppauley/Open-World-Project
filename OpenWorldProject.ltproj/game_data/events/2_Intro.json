@@ -283,9 +283,17 @@
                 ]
             ],
             [
+                "speak",
+                [
+                    "Narrator",
+                    "Use the directional buttons to move the cursor.{w}{br}Press {e:chr(cf.SETTINGS['key_SELECT'])} to select a unit.",
+                    "StyleNid=hint"
+                ]
+            ],
+            [
                 "comment",
                 [
-                    "#s;Narrator;Use the directional buttons to move the cursor.{w}{br}Press {e:cf.SETTINGS['key_SELECT']} to select a unit.;StyleNid=hint"
+                    "# Add more in following events - how to move a selected unit, opening info screen"
                 ]
             ],
             [
@@ -295,7 +303,7 @@
             [
                 "if",
                 [
-                    "v('tutorialPopups') == 1"
+                    "v('tutorialPopups') == 1 or v('basicTutorials') == 1"
                 ]
             ],
             [

@@ -1,0 +1,125 @@
+[
+    {
+        "name": "PuzzleExit",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "v(\"InPuzzle\")",
+        "commands": [
+            [
+                "comment",
+                [
+                    "# This is recommended to be triggered through a unit_wait"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "# command with the v(\"InPuzzle\") condition."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "#"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "all([game.board.get_unit(pos) and game.board.get_unit(pos).klass == \"PuzzleCrate\" for pos in v(\"PuzzleTargets\")])"
+                ]
+            ],
+            [
+                "remove_game_board_bounds",
+                []
+            ],
+            [
+                "game_var",
+                [
+                    "InPuzzle",
+                    "False"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "unit",
+                    "[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\"]"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "{unit}",
+                    "Stunned (Stunned)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "comment",
+                [
+                    "# Turn crates into player units"
+                ]
+            ],
+            [
+                "for",
+                [
+                    "unit",
+                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
+                ]
+            ],
+            [
+                "change_team",
+                [
+                    "{unit}",
+                    "other"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "for",
+                [
+                    "pos",
+                    "[str(p) for p in v(\"PuzzleTargets\")]"
+                ]
+            ],
+            [
+                "remove_map_anim",
+                [
+                    "Square",
+                    "{pos}"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
+                "level_var",
+                [
+                    "PuzzleCompleted",
+                    "True"
+                ]
+            ],
+            [
+                "end",
+                []
+            ],
+            [
+                "trigger_script",
+                [
+                    "PuzzleReset (Global PuzzleReset)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

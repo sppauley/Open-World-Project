@@ -243,5 +243,10 @@
     "6_CreateBarrier.json": 241,
     "6_ScaredTalk.json": 242,
     "7_Win_Condition.json": 243,
-    "7_Turn5.json": 244
+    "7_Turn5.json": 244,
+    "DEBUG_TestPuzzle.json": 245,
+    "DEBUG_CheckPuzzleCompletion.json": 246,
+    "global_PuzzleExit.json": 247,
+    "global_PuzzleReset.json": 248,
+    "global_PuzzleSetup.json": 249
 }
