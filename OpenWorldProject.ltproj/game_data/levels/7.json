@@ -71,7 +71,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "c",
                 "starting_position": [
                     30,
                     30
@@ -95,7 +95,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "b",
                 "starting_position": [
                     3,
                     24
@@ -119,7 +119,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "d",
                 "starting_position": [
                     9,
                     11
@@ -143,7 +143,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "e",
                 "starting_position": [
                     31,
                     14
@@ -259,7 +259,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
+                    22,
                     26
                 ],
                 "starting_traveler": null,
@@ -1067,7 +1067,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    18
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1167,6 +1167,138 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 8,
+                "klass": "Warrior",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    33,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 15,
+                "klass": "Fighter",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    32,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 8,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 8,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 8,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 8,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1178,7 +1310,7 @@
                     37
                 ],
                 "size": [
-                    21,
+                    20,
                     7
                 ],
                 "sub_nid": "",
@@ -1225,11 +1357,11 @@
                 "nid": "Zone4",
                 "region_type": "normal",
                 "position": [
-                    11,
+                    12,
                     21
                 ],
                 "size": [
-                    10,
+                    9,
                     15
                 ],
                 "sub_nid": null,
@@ -1341,7 +1473,35 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "GreatKnights",
+                "units": [
+                    "135",
+                    "136",
+                    "137",
+                    "138"
+                ],
+                "positions": {
+                    "135": [
+                        33,
+                        42
+                    ],
+                    "136": [
+                        33,
+                        43
+                    ],
+                    "137": [
+                        1,
+                        42
+                    ],
+                    "138": [
+                        1,
+                        43
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "a",
@@ -1365,6 +1525,10 @@
             },
             {
                 "nid": "g",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
