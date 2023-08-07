@@ -7,8 +7,8 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "{e:10 - game.turncount} turns remain",
-            "win": "Survive or Defeat Boss",
+            "simple": "Survive or Defeat Boss",
+            "win": "Survive or Defeat Boss,{e:10 - game.turncount} turns remain",
             "loss": "Simon dies"
         },
         "roam": false,

@@ -114,6 +114,12 @@
             [
                 "end",
                 []
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
             ]
         ],
         "only_once": true,

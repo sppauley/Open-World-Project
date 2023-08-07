@@ -182,6 +182,13 @@
                 ]
             ],
             [
+                "add_portrait",
+                [
+                    "Boudica (Boudica)",
+                    "Right"
+                ]
+            ],
+            [
                 "speak",
                 [
                     "Boudica",
@@ -199,7 +206,7 @@
                 "speak",
                 [
                     "Boudica",
-                    "How grateful am I that someone finally can."
+                    "I am grateful that someone finally can."
                 ]
             ],
             [
@@ -267,7 +274,7 @@
                 "speak",
                 [
                     "Vilge",
-                    "A shame.{w} Though, I doubt any of these ingrates{w}{br}would be fit for attunement."
+                    "A shame.{w} Though, I doubt any of these ingrates{w}{br}would be fit for ascendancy."
                 ]
             ],
             [

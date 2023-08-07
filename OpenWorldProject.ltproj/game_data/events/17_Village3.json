@@ -37,6 +37,12 @@
                 [
                     "Village3"
                 ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
             ]
         ],
         "only_once": true,

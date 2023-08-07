@@ -21,38 +21,6 @@
                 ]
             ],
             [
-                "comment",
-                [
-                    "#set_current_poise;Eirika;1"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#set_stats;Bone;SPD,60;FLAG(immediate)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#give_item;Luther (Luther);CheatAxe (CheatAxe)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# for testing"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "Luther",
-                    "STR,20,SPD,99",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
                 "give_item",
                 [
                     "Nika (Nika)",
@@ -100,29 +68,6 @@
             [
                 "give_item",
                 [
-                    "Yusna (Yusna)",
-                    "Larry's \"Elixir\" (LarrysElixir)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Yusna (Yusna)",
-                    "4"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "Yusna",
-                    "CON,11",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "give_item",
-                [
                     "Simon (Simon)",
                     "Forging Materials (ForgingBag)",
                     "FLAG(no_banner)"
@@ -136,9 +81,9 @@
                 ]
             ],
             [
-                "trigger_script",
+                "comment",
                 [
-                    "GenericPreps (Global GenericPreps)"
+                    "#trigger_script;GenericPreps (Global GenericPreps)"
                 ]
             ],
             [
@@ -147,6 +92,116 @@
                     "103",
                     "Shove (CrateShove)",
                     "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Flower (Flower)",
+                    "Iron Sword (Iron Sword)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Flower (Flower)",
+                    "Vulnerary (Vulnerary)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Flower (Flower)",
+                    "Vulnerary (Vulnerary)",
+                    "FLAG(no_banner)",
+                    "FLAG(no_choice)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Canto (Canto)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Canto 2 (Canto2)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Steal (Steal)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Poisoned (Poisoned)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Charm Bonus (Charm_child)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Inspired (Inspiration_child)",
+                    "",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Slow (Slow)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Eldritch Swiftness (StaggerGaleforce)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "Flower (Flower)",
+                    "Hit -50 (HitDown50)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "change_class",
+                [
+                    "Flower (Flower)",
+                    "Wyvern Lord",
+                    "FLAG(silent)"
                 ]
             ]
         ],
