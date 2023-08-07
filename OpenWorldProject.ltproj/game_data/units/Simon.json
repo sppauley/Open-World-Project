@@ -2,7 +2,7 @@
     {
         "nid": "Simon",
         "name": "Simon",
-        "desc": "",
+        "desc": "A young lord in an \nuncertain world.",
         "variant": null,
         "level": 1,
         "klass": "Simon_Lord",

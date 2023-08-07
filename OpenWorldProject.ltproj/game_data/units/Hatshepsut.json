@@ -2,7 +2,7 @@
     {
         "nid": "Hatshepsut",
         "name": "Hatshepsut",
-        "desc": "Blessed by a foreign god. Her adventuring life has ended.",
+        "desc": "Blessed by a foreign god.\nHer adventuring life has ended.",
         "variant": "",
         "level": 1,
         "klass": "Eirika_Lord",
