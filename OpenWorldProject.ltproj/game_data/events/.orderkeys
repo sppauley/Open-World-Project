@@ -241,5 +241,7 @@
     "6_AscendedReins.json": 239,
     "6_BarrierReins.json": 240,
     "6_CreateBarrier.json": 241,
-    "6_ScaredTalk.json": 242
+    "6_ScaredTalk.json": 242,
+    "7_Win_Condition.json": 243,
+    "7_Turn5.json": 244
 }

@@ -22,8 +22,7 @@
                 "autolevel_to",
                 [
                     "{PLAYER_UNIT}",
-                    "10",
-                    "FLAG(hidden)"
+                    "12"
                 ]
             ],
             [
