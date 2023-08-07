@@ -6,6 +6,15 @@
         "condition": "game.check_dead('101') and game.level_vars['SimonReset']==1",
         "commands": [
             [
+                "set_game_board_bounds",
+                [
+                    "0",
+                    "0",
+                    "37",
+                    "18"
+                ]
+            ],
+            [
                 "hide_layer",
                 [
                     "layer1"

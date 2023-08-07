@@ -31,6 +31,15 @@
                 ]
             ],
             [
+                "set_game_board_bounds",
+                [
+                    "14",
+                    "0",
+                    "37",
+                    "5"
+                ]
+            ],
+            [
                 "comment",
                 [
                     "#Fates speak style"
