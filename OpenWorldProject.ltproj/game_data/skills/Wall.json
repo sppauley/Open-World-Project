@@ -32,6 +32,10 @@
             [
                 "immune_status",
                 null
+            ],
+            [
+                "resist_multiplier",
+                0.0
             ]
         ]
     }

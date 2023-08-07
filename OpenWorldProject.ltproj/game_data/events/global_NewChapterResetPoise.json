@@ -1,0 +1,19 @@
+[
+    {
+        "name": "NewChapterResetPoise",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "loop_units",
+                [
+                    "[unit for unit in game.get_all_units_in_party()]",
+                    "Reset Poise (Global Reset Poise)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 30
+    }
+]

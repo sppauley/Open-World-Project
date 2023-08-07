@@ -67,6 +67,10 @@
             [
                 "stagger",
                 2
+            ],
+            [
+                "weapon_rank",
+                "D"
             ]
         ]
     }

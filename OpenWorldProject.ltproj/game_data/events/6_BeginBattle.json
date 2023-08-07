@@ -20,13 +20,6 @@
                 ]
             ],
             [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Flower"
-                ]
-            ],
-            [
                 "add_portrait",
                 [
                     "Flower (Flower)",
@@ -56,6 +49,13 @@
                 [
                     "Simon",
                     "He must be up ahead.{w}{br}Best be ready."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Flower (Flower)",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
@@ -337,10 +337,46 @@
                 ]
             ],
             [
+                "remove_unit",
+                [
+                    "Cutthroat (128)",
+                    "immediate",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "arrange_formation",
+                []
+            ],
+            [
                 "trigger_script",
                 [
                     "GenericPreps (Global GenericPreps)"
                 ]
+            ],
+            [
+                "for",
+                [
+                    "unit",
+                    "[unit.nid for unit in game.units if not unit.dead and not unit.is_dying and 'Tile' not in unit.tags]"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "{unit}",
+                    "hi"
+                ]
+            ],
+            [
+                "reset",
+                [
+                    "{unit}"
+                ]
+            ],
+            [
+                "endf",
+                []
             ],
             [
                 "if",
@@ -379,6 +415,14 @@
                 ]
             ],
             [
+                "give_skill",
+                [
+                    "Nika",
+                    "Eldritch Swiftness (StaggerGaleforce)",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
                 "remove_portrait",
                 [
                     "Nika (Nika)"
@@ -411,12 +455,6 @@
             [
                 "else",
                 []
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
             ],
             [
                 "move_unit",

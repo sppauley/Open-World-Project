@@ -80,6 +80,11 @@
         "alternate_classes": [],
         "portrait_nid": "{Zeldacrafter} OC 1",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "You tore my scarf! Oh, I'll never forgive you!{w}{br}Someone else, kill this guy!"
+            ]
+        ]
     }
 ]

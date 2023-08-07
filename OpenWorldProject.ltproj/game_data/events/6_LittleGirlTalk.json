@@ -183,9 +183,20 @@
                 ]
             ],
             [
-                "trigger_script",
+                "move_unit",
                 [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
+                    "Boudica",
+                    "Simon (Simon)",
+                    "normal",
+                    "stack",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Boudica",
+                    "FLAG(no_warn)"
                 ]
             ],
             [
