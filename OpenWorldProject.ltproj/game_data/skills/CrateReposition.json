@@ -1,11 +1,11 @@
 [
     {
-        "nid": "CrateShove",
-        "name": "Shove",
-        "desc": "Unit can shove adjacent crates one tile.",
+        "nid": "CrateReposition",
+        "name": "Reposition",
+        "desc": "Move target to the opposite side of unit.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            0,
+            3,
             36
         ],
         "components": [
@@ -15,11 +15,11 @@
             ],
             [
                 "ability",
-                "Shove"
+                "Reposition"
             ],
             [
                 "unit_anim",
-                "HasShove"
+                "HasReposition"
             ]
         ]
     }

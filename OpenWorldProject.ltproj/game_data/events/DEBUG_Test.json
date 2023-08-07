@@ -93,6 +93,14 @@
                     "Shove (CrateShove)",
                     "FLAG(no_banner)"
                 ]
+            ],
+            [
+                "give_skill",
+                [
+                    "102",
+                    "Reposition (CrateReposition)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,
