@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CrateMove",
+        "name": "Enchanted Crate",
+        "desc": "Unit can warp adjacent to other crates.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            45
+        ],
+        "components": [
+            [
+                "witch_warp_expression",
+                "unit.klass == \"PuzzleCrate\" and unit != target"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

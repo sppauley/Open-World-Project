@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Shove adjacent unit one tile.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.klass == \"PuzzleCrate\""
+            ],
+            [
+                "force_shove",
+                1
+            ]
+        ]
+    }
+]

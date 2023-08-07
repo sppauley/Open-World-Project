@@ -79,5 +79,7 @@
     "Dragonscale.json": 77,
     "Executioner.json": 78,
     "Trickster.json": 79,
-    "Ferocity.json": 80
+    "Ferocity.json": 80,
+    "CrateMove.json": 81,
+    "CrateShove.json": 82
 }

@@ -140,6 +140,14 @@
                 [
                     "GenericPreps (Global GenericPreps)"
                 ]
+            ],
+            [
+                "give_skill",
+                [
+                    "103",
+                    "Shove (CrateShove)",
+                    "FLAG(no_banner)"
+                ]
             ]
         ],
         "only_once": false,

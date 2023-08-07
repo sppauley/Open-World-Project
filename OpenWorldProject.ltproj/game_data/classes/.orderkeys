@@ -66,10 +66,11 @@
     "Manakete.json": 64,
     "Morrissey_Lord.json": 65,
     "Crate25.json": 66,
-    "Transport.json": 67,
-    "LightRune.json": 68,
-    "SpeedTome.json": 69,
-    "SlowTome.json": 70,
-    "DraconicKnight.json": 71,
-    "Dragon.json": 72
+    "PuzzleCrate.json": 67,
+    "Transport.json": 68,
+    "LightRune.json": 69,
+    "SpeedTome.json": 70,
+    "SlowTome.json": 71,
+    "DraconicKnight.json": 72,
+    "Dragon.json": 73
 }

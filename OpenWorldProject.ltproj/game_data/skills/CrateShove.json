@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CrateShove",
+        "name": "Shove",
+        "desc": "Unit can shove adjacent crates one tile.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            36
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Shove"
+            ]
+        ]
+    }
+]
