@@ -1073,6 +1073,34 @@
                 "generic": true
             },
             {
+                "nid": "143",
+                "variant": null,
+                "level": 13,
+                "klass": "Bishop",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Cripple",
+                        false
+                    ],
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "129",
                 "variant": null,
                 "level": 8,
@@ -1091,6 +1119,54 @@
                 "ai_group": "g",
                 "starting_position": [
                     20,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 8,
+                "klass": "General",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    3,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 8,
+                "klass": "General",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "g",
+                "starting_position": [
+                    4,
                     8
                 ],
                 "starting_traveler": null,
@@ -1217,6 +1293,54 @@
                 "generic": true
             },
             {
+                "nid": "141",
+                "variant": null,
+                "level": 7,
+                "klass": "Mercenary",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "h",
+                "starting_position": [
+                    10,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 7,
+                "klass": "Mercenary",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "h",
+                "starting_position": [
+                    9,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "135",
                 "variant": null,
                 "level": 8,
@@ -1288,6 +1412,48 @@
                 "starting_items": [
                     [
                         "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 7,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 7,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
                         false
                     ]
                 ],
@@ -1500,6 +1666,23 @@
                         43
                     ]
                 }
+            },
+            {
+                "nid": "Sages",
+                "units": [
+                    "139",
+                    "140"
+                ],
+                "positions": {
+                    "139": [
+                        19,
+                        11
+                    ],
+                    "140": [
+                        20,
+                        11
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -1529,6 +1712,10 @@
             },
             {
                 "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "h",
                 "trigger_threshold": 1
             }
         ]

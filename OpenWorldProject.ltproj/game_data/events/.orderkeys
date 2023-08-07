@@ -243,5 +243,7 @@
     "6_CreateBarrier.json": 241,
     "6_ScaredTalk.json": 242,
     "7_Win_Condition.json": 243,
-    "7_Turn5.json": 244
+    "7_Turn5.json": 244,
+    "7_Turn8.json": 245,
+    "7_Turn10.json": 246
 }
