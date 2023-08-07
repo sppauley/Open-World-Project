@@ -395,6 +395,28 @@
                 ]
             ],
             [
+                "elif",
+                [
+                    "len(get_units_in_region('Zone1', team='player'))>0 or len(get_units_in_region('Zone2', team='player'))>0 or len(get_units_in_region('Zone4', team='player'))>0 or len(get_units_in_region('Zone7', team='player'))>0"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "TargetUnit9",
+                    "[u for u in game.get_enemy_units() if 'Acc' in u.nid][static_random.get_randint(0, len([u for u in game.get_enemy_units() if 'Acc' in u.nid])-1)].nid"
+                ]
+            ],
+            [
+                "add_region",
+                [
+                    "Fireball9",
+                    "{eval:(game.get_unit(game.level_vars['TargetUnit9']).position[0]-1,game.get_unit(game.level_vars['TargetUnit9']).position[1]-1)}",
+                    "3,3",
+                    "normal"
+                ]
+            ],
+            [
                 "end",
                 []
             ],

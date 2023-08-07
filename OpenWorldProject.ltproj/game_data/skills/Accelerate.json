@@ -14,14 +14,6 @@
                 1
             ],
             [
-                "unit_flickering_tint",
-                [
-                    0,
-                    85,
-                    255
-                ]
-            ],
-            [
                 "stat_change",
                 [
                     [

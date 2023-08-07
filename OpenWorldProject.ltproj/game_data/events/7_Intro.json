@@ -12,10 +12,23 @@
                 ]
             ],
             [
-                "trigger_script",
+                "for",
                 [
-                    "DEBUGLvl3Team (Global DEBUGLvl3Team)"
+                    "PLAYER_UNIT",
+                    "[unit.nid for unit in game.get_player_units()]"
                 ]
+            ],
+            [
+                "autolevel_to",
+                [
+                    "{PLAYER_UNIT}",
+                    "10",
+                    "FLAG(hidden)"
+                ]
+            ],
+            [
+                "endf",
+                []
             ]
         ],
         "only_once": false,
