@@ -170,6 +170,13 @@
                     "Simon",
                     "Titus"
                 ]
+            ],
+            [
+                "change_team",
+                [
+                    "Titus",
+                    "player"
+                ]
             ]
         ],
         "only_once": true,

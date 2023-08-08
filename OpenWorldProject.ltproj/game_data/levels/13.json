@@ -369,8 +369,8 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 1,
-                "klass": "Sniper",
+                "level": 9,
+                "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
                     [
@@ -384,7 +384,7 @@
                 "roam_ai": null,
                 "ai_group": "c",
                 "starting_position": [
-                    2,
+                    3,
                     2
                 ],
                 "starting_traveler": null,
@@ -414,30 +414,6 @@
                 "starting_position": [
                     1,
                     1
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 3,
-                "klass": "Myrmidon",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    8,
-                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -859,7 +835,6 @@
                     "112",
                     "113",
                     "114",
-                    "115",
                     "116",
                     "Bryce",
                     "117",
