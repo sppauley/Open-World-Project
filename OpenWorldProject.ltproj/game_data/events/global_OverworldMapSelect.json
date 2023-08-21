@@ -46,7 +46,7 @@
             [
                 "comment",
                 [
-                    "# TODO: Figure out how to load into the map"
+                    "# Loads into the map"
                 ]
             ],
             [
