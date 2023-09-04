@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "11",
+        "name": "Ebert's Mansion",
+        "tilemap": "Ebert's Mansion",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Defeat Ebert",
+            "win": "Defeat Ebert",
+            "loss": "Simon dies"
+        },
+        "roam": true,
+        "roam_unit": "Simon",
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]
