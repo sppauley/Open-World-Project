@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Accost",
+        "name": "Accost",
+        "desc": "If unit has higher HP and SPD than the target, initiates another round of combat.",
+        "icon_nid": "Accost",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global Accost"
+            ],
+            [
+                "combat_condition",
+                "(unit.stats['SPD'] > unit2.stats['SPD']) and (unit.get_hp() > unit2.get_hp()) and ('Accosted' not in [skill.nid for skill in unit.skills])"
+            ]
+        ]
+    }
+]

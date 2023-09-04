@@ -82,5 +82,7 @@
     "Ferocity.json": 80,
     "CrateMove.json": 81,
     "CrateShove.json": 82,
-    "CrateReposition.json": 83
+    "CrateReposition.json": 83,
+    "Accost.json": 84,
+    "Accosted.json": 85
 }

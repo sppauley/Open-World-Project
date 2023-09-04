@@ -10,13 +10,13 @@
             "Boss"
         ],
         "bases": {
-            "HP": 60,
-            "SPD": 9,
+            "HP": 30,
+            "SPD": 4,
             "MOV": 6,
             "DEX": 16,
             "MAG": 2,
             "PSE": 20,
-            "CON": 1
+            "CON": 20
         },
         "growths": {
             "HP": 0,

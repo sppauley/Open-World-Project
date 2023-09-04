@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Accost",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "game.check_alive(unit.nid) and game.check_alive(unit2.nid)"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "AOE_Reinforce",
+                    "{unit}"
+                ]
+            ],
+            [
+                "give_skill",
+                [
+                    "{unit}",
+                    "Accosted",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "interact_unit",
+                [
+                    "{unit}",
+                    "{unit2}",
+                    "",
+                    "",
+                    "1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "10"
+                ]
+            ],
+            [
+                "remove_skill",
+                [
+                    "{unit}",
+                    "Accosted",
+                    "FLAG(no_banner)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

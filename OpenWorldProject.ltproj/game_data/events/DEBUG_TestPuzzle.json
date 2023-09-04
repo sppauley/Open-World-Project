@@ -1,7 +1,7 @@
 [
     {
         "name": "TestPuzzle",
-        "trigger": "level_start",
+        "trigger": null,
         "level_nid": "DEBUG",
         "condition": "True",
         "commands": [

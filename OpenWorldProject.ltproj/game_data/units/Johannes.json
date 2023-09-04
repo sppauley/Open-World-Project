@@ -40,7 +40,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Accost"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
