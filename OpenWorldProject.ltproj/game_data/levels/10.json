@@ -91,57 +91,9 @@
                 "generic": true
             },
             {
-                "nid": "104",
-                "variant": null,
-                "level": 9,
-                "klass": "Mercenary",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 9,
-                "klass": "Mercenary",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    4,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "103",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Hero",
                 "faction": "Bandit",
                 "starting_items": [
@@ -154,7 +106,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     2,
                     17
@@ -163,57 +115,9 @@
                 "generic": true
             },
             {
-                "nid": "107",
-                "variant": null,
-                "level": 8,
-                "klass": "Archer",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    24,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 8,
-                "klass": "Archer",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Iron Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    23,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "106",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Sniper",
                 "faction": "Bandit",
                 "starting_items": [
@@ -226,7 +130,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     24,
                     15
@@ -1410,6 +1314,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
