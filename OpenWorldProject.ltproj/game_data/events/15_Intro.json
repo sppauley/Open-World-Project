@@ -37,6 +37,13 @@
                     "Simon (Simon)",
                     "FLAG(immediate)"
                 ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon",
+                    "101"
+                ]
             ]
         ],
         "only_once": false,

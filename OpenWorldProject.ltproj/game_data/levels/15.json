@@ -43,6 +43,25 @@
                 "generic": false
             },
             {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "102",
                 "variant": null,
                 "level": 1,
@@ -137,6 +156,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
