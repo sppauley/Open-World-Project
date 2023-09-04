@@ -491,7 +491,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -499,7 +499,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -512,7 +512,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -520,7 +520,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -680,7 +680,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -688,7 +688,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -701,7 +701,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -709,7 +709,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -722,7 +722,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -730,7 +730,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -743,7 +743,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Axe",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -751,7 +751,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -1137,15 +1137,15 @@
                     ],
                     "114": [
                         24,
-                        24
+                        14
                     ],
                     "115": [
                         24,
-                        25
+                        15
                     ],
                     "118": [
-                        23,
-                        26
+                        24,
+                        16
                     ],
                     "117": [
                         10,
