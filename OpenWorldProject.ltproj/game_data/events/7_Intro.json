@@ -118,6 +118,25 @@
                 [
                     "300"
                 ]
+            ],
+            [
+                "comment",
+                [
+                    "# preps"
+                ]
+            ],
+            [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "GenericPreps (Global GenericPreps)"
+                ]
             ]
         ],
         "only_once": false,

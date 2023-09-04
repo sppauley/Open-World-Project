@@ -287,6 +287,13 @@
                 [
                     "GenericPreps (Global GenericPreps)"
                 ]
+            ],
+            [
+                "game_var",
+                [
+                    "freely_exit",
+                    "True"
+                ]
             ]
         ],
         "only_once": false,
