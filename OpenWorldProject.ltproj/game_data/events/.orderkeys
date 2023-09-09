@@ -252,5 +252,6 @@
     "7_Boss_Reinforce.json": 250,
     "15_Talk_Villager.json": 251,
     "global_Accost.json": 252,
-    "global_AttackUnitWithAccost.json": 253
+    "global_AttackUnitWithAccost.json": 253,
+    "11_Intro.json": 254
 }
