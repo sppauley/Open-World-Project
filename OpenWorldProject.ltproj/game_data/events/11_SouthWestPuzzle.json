@@ -1,0 +1,48 @@
+[
+    {
+        "name": "SouthWestPuzzle",
+        "trigger": "SouthWestPuzzle",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "7,22",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "set_game_board_bounds",
+                [
+                    "2",
+                    "18",
+                    "8",
+                    "25"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PuzzleTargets",
+                    "[(5,22), (4,22), (4,21)]"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "PuzzleSetup (Global PuzzleSetup)"
+                ]
+            ],
+            [
+                "has_finished",
+                [
+                    "Soldier (103)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "SouthEastPuzzle",
+        "trigger": "SouthEastPuzzle",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "16,22",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "set_game_board_bounds",
+                [
+                    "13",
+                    "15",
+                    "16",
+                    "22"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PuzzleTargets",
+                    "[(14,18), (15,17), (15,16)]"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "PuzzleSetup (Global PuzzleSetup)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

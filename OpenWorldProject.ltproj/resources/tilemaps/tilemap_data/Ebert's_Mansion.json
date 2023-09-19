@@ -271,7 +271,7 @@
                     "2,10": "1",
                     "5,15": "1",
                     "29,2": "1",
-                    "3,19": "1",
+                    "3,19": "10",
                     "6,12": "1",
                     "30,25": "1",
                     "4,20": "1",
@@ -314,7 +314,7 @@
                     "3,24": "1",
                     "6,7": "1",
                     "30,0": "1",
-                    "4,19": "1",
+                    "4,19": "10",
                     "19,29": "1",
                     "7,6": "1",
                     "31,5": "1",
@@ -790,7 +790,7 @@
                     "19,26": "1",
                     "7,7": "1",
                     "31,26": "1",
-                    "5,19": "1",
+                    "5,19": "10",
                     "20,29": "1",
                     "16,21": "1",
                     "6,24": "1",
@@ -1743,29 +1743,29 @@
                     "20,9": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            22
+                            16,
+                            20
                         ]
                     ],
                     "20,10": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            24
+                            20,
+                            18
                         ]
                     ],
                     "20,11": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            22
+                            20,
+                            18
                         ]
                     ],
                     "20,12": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            24
+                            16,
+                            21
                         ]
                     ],
                     "20,13": [
@@ -1884,7 +1884,7 @@
                         "Improved Castle Tileset Palette 2",
                         [
                             17,
-                            24
+                            20
                         ]
                     ],
                     "21,10": [
@@ -1904,8 +1904,8 @@
                     "21,12": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            22
+                            19,
+                            19
                         ]
                     ],
                     "21,13": [
@@ -2037,15 +2037,15 @@
                     "22,11": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            7,
-                            14
+                            19,
+                            18
                         ]
                     ],
                     "22,12": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            7,
-                            15
+                            19,
+                            19
                         ]
                     ],
                     "22,13": [
@@ -2178,14 +2178,14 @@
                         "Improved Castle Tileset Palette 2",
                         [
                             17,
-                            24
+                            20
                         ]
                     ],
                     "23,12": [
                         "Improved Castle Tileset Palette 2",
                         [
                             17,
-                            22
+                            21
                         ]
                     ],
                     "23,13": [
@@ -9027,14 +9027,14 @@
                     "34,20": "9",
                     "35,20": "9",
                     "36,20": "9",
-                    "11,26": "10",
-                    "12,26": "10",
-                    "11,19": "10",
-                    "12,19": "10",
+                    "11,26": "1",
+                    "12,26": "1",
+                    "11,19": "Fence",
+                    "12,19": "36",
                     "3,19": "10",
-                    "2,19": "10",
-                    "2,26": "10",
-                    "3,26": "10",
+                    "2,19": "Fence",
+                    "2,26": "1",
+                    "3,26": "1",
                     "22,27": "10",
                     "22,28": "10",
                     "22,29": "10",
@@ -9168,45 +9168,45 @@
                     "18,21": "Flowers",
                     "19,21": "Flowers",
                     "20,21": "Flowers",
-                    "12,21": "Flowers",
-                    "11,21": "Flowers",
-                    "11,28": "Flowers",
-                    "12,28": "Flowers",
-                    "9,26": "Flowers",
-                    "5,26": "Flowers",
-                    "2,28": "Flowers",
-                    "3,28": "Flowers",
-                    "2,21": "Flowers",
-                    "3,21": "Flowers",
-                    "5,19": "Flowers",
-                    "9,19": "Flowers",
-                    "4,21": "2",
-                    "1,21": "2",
-                    "5,20": "2",
-                    "5,18": "2",
-                    "9,18": "2",
-                    "9,20": "2",
-                    "10,21": "2",
-                    "13,21": "2",
+                    "12,21": "1",
+                    "11,21": "1",
+                    "11,28": "10",
+                    "12,28": "10",
+                    "9,26": "1",
+                    "5,26": "1",
+                    "2,28": "10",
+                    "3,28": "10",
+                    "2,21": "Fence",
+                    "3,21": "Fence",
+                    "5,19": "10",
+                    "9,19": "1",
+                    "4,21": "10",
+                    "1,21": "1",
+                    "5,20": "10",
+                    "5,18": "Fence",
+                    "9,18": "1",
+                    "9,20": "1",
+                    "10,21": "1",
+                    "13,21": "1",
                     "9,27": "2",
-                    "9,25": "2",
-                    "10,28": "2",
-                    "13,28": "2",
-                    "5,25": "2",
+                    "9,25": "1",
+                    "10,28": "Fence",
+                    "13,28": "Fence",
+                    "5,25": "1",
                     "5,27": "2",
-                    "4,28": "2",
-                    "1,28": "2",
-                    "1,20": "Fence",
+                    "4,28": "Fence",
+                    "1,28": "Fence",
+                    "1,20": "2",
                     "2,20": "Fence",
-                    "3,20": "Fence",
-                    "4,20": "Fence",
-                    "4,19": "Fence",
+                    "3,20": "10",
+                    "4,20": "38",
+                    "4,19": "10",
                     "4,18": "Fence",
                     "3,18": "Fence",
                     "2,18": "Fence",
-                    "1,18": "Fence",
-                    "1,19": "Fence",
-                    "10,18": "Fence",
+                    "1,18": "2",
+                    "1,19": "Flowers",
+                    "10,18": "1",
                     "11,18": "Fence",
                     "12,18": "Fence",
                     "13,18": "Fence",
@@ -9214,28 +9214,28 @@
                     "13,20": "Fence",
                     "12,20": "Fence",
                     "11,20": "Fence",
-                    "10,20": "Fence",
-                    "10,19": "Fence",
-                    "10,25": "Fence",
-                    "10,26": "Fence",
+                    "10,20": "1",
+                    "10,19": "1",
+                    "10,25": "1",
+                    "10,26": "1",
                     "10,27": "Fence",
                     "11,27": "Fence",
                     "12,27": "Fence",
                     "13,27": "Fence",
-                    "13,26": "Fence",
-                    "13,25": "Fence",
-                    "12,25": "Fence",
-                    "11,25": "Fence",
-                    "4,25": "Fence",
-                    "4,26": "Fence",
+                    "13,26": "1",
+                    "13,25": "1",
+                    "12,25": "1",
+                    "11,25": "1",
+                    "4,25": "1",
+                    "4,26": "1",
                     "4,27": "Fence",
                     "3,27": "Fence",
                     "2,27": "Fence",
                     "1,27": "Fence",
-                    "1,26": "Fence",
-                    "1,25": "Fence",
-                    "2,25": "Fence",
-                    "3,25": "Fence",
+                    "1,26": "1",
+                    "1,25": "1",
+                    "2,25": "1",
+                    "3,25": "1",
                     "21,26": "Fence",
                     "21,27": "Fence",
                     "21,28": "Fence",
@@ -9274,132 +9274,85 @@
                     "27,28": "7",
                     "27,27": "7",
                     "27,26": "7",
-                    "26,24": "7"
+                    "26,24": "7",
+                    "23,11": "Carpet",
+                    "22,11": "Carpet",
+                    "22,12": "Carpet",
+                    "21,12": "Carpet",
+                    "20,12": "Carpet",
+                    "23,12": "Carpet",
+                    "21,11": "Carpet",
+                    "20,11": "Carpet",
+                    "20,10": "Carpet",
+                    "21,10": "Carpet",
+                    "21,9": "Carpet",
+                    "20,9": "Carpet",
+                    "32,13": "Carpet",
+                    "33,13": "Carpet",
+                    "34,13": "Carpet",
+                    "34,14": "Carpet",
+                    "33,14": "Carpet",
+                    "32,14": "Carpet",
+                    "4,22": "10",
+                    "5,22": "10",
+                    "1,22": "1",
+                    "1,17": "1",
+                    "9,28": "Flowers",
+                    "9,29": "2",
+                    "14,26": "1",
+                    "14,25": "1",
+                    "8,25": "1",
+                    "10,29": "Fence",
+                    "11,29": "Fence",
+                    "12,29": "Fence",
+                    "13,29": "Fence",
+                    "4,29": "Fence",
+                    "3,29": "Fence",
+                    "2,29": "Fence",
+                    "1,29": "Fence",
+                    "5,28": "Flowers",
+                    "5,29": "2",
+                    "6,26": "1",
+                    "6,25": "1",
+                    "3,24": "2",
+                    "2,23": "2",
+                    "2,22": "2",
+                    "3,22": "Fence",
+                    "3,23": "Fence",
+                    "4,23": "Fence",
+                    "5,23": "Fence",
+                    "5,21": "Fence",
+                    "6,21": "Fence",
+                    "6,20": "Fence",
+                    "6,19": "Fence",
+                    "6,18": "Fence",
+                    "14,19": "Fence",
+                    "13,17": "Fence",
+                    "13,16": "Fence",
+                    "13,15": "Fence",
+                    "16,17": "Fence",
+                    "14,18": "10",
+                    "14,17": "10",
+                    "14,16": "10",
+                    "14,15": "10",
+                    "15,16": "10",
+                    "15,17": "10",
+                    "16,16": "10",
+                    "16,15": "10",
+                    "15,15": "38"
                 },
                 "sprite_grid": {
-                    "9,25": [
-                        "54728",
-                        [
-                            13,
-                            7
-                        ]
-                    ],
-                    "9,26": [
-                        "54728",
-                        [
-                            5,
-                            12
-                        ]
-                    ],
-                    "10,25": [
+                    "2,18": [
                         "Improved Castle Tileset Palette 2",
                         [
                             22,
                             9
                         ]
                     ],
-                    "10,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            26,
-                            6
-                        ]
-                    ],
-                    "11,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "11,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            21,
-                            6
-                        ]
-                    ],
-                    "12,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "12,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            21,
-                            6
-                        ]
-                    ],
-                    "2,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "2,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            21,
-                            6
-                        ]
-                    ],
-                    "3,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "3,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            21,
-                            6
-                        ]
-                    ],
-                    "4,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            24,
-                            9
-                        ]
-                    ],
-                    "4,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            25,
-                            6
-                        ]
-                    ],
-                    "5,25": [
-                        "54728",
-                        [
-                            13,
-                            7
-                        ]
-                    ],
-                    "5,26": [
-                        "54728",
-                        [
-                            5,
-                            12
-                        ]
-                    ],
-                    "2,18": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
                     "2,19": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
+                            26,
                             6
                         ]
                     ],
@@ -9420,99 +9373,36 @@
                     "4,18": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            24,
+                            23,
                             9
                         ]
                     ],
                     "4,19": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            25,
+                            21,
                             6
                         ]
                     ],
                     "5,18": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            23,
+                            9
                         ]
                     ],
                     "5,19": [
-                        "54728",
-                        [
-                            5,
-                            12
-                        ]
-                    ],
-                    "9,18": [
-                        "54728",
-                        [
-                            13,
-                            7
-                        ]
-                    ],
-                    "9,19": [
-                        "54728",
-                        [
-                            5,
-                            12
-                        ]
-                    ],
-                    "10,18": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            22,
-                            9
-                        ]
-                    ],
-                    "10,19": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            26,
-                            6
-                        ]
-                    ],
-                    "11,18": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "11,19": [
                         "Improved Castle Tileset Palette 2",
                         [
                             21,
                             6
-                        ]
-                    ],
-                    "12,18": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            9
-                        ]
-                    ],
-                    "12,19": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            21,
-                            6
-                        ]
-                    ],
-                    "12,20": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            10
                         ]
                     ],
                     "12,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             23,
-                            10
+                            9
                         ]
                     ],
                     "5,27": [
@@ -9523,38 +9413,38 @@
                         ]
                     ],
                     "5,20": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            21,
+                            6
                         ]
                     ],
                     "2,20": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            23,
-                            10
+                            26,
+                            6
                         ]
                     ],
                     "3,20": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            23,
-                            10
+                            21,
+                            6
                         ]
                     ],
                     "2,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             23,
-                            10
+                            9
                         ]
                     ],
                     "3,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             23,
-                            10
+                            9
                         ]
                     ],
                     "9,27": [
@@ -9568,70 +9458,28 @@
                         "Improved Castle Tileset Palette 2",
                         [
                             22,
-                            10
-                        ]
-                    ],
-                    "9,20": [
-                        "54728",
-                        [
-                            13,
-                            7
-                        ]
-                    ],
-                    "10,20": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            22,
-                            10
-                        ]
-                    ],
-                    "11,20": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            23,
-                            10
+                            9
                         ]
                     ],
                     "11,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             23,
-                            10
+                            9
                         ]
                     ],
                     "4,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             24,
-                            10
+                            9
                         ]
                     ],
                     "4,20": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            24,
-                            10
-                        ]
-                    ],
-                    "9,21": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            3,
-                            1
-                        ]
-                    ],
-                    "11,24": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            3,
-                            1
-                        ]
-                    ],
-                    "12,24": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            3,
-                            1
+                            22,
+                            13
                         ]
                     ],
                     "6,26": [
@@ -9649,17 +9497,17 @@
                         ]
                     ],
                     "1,20": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "2,21": [
                         "Improved Castle Tileset Palette 2",
                         [
                             22,
                             10
-                        ]
-                    ],
-                    "2,21": [
-                        "54728",
-                        [
-                            47,
-                            15
                         ]
                     ],
                     "4,17": [
@@ -9672,15 +9520,15 @@
                     "6,20": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            3,
-                            1
+                            25,
+                            6
                         ]
                     ],
                     "6,18": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            3,
-                            1
+                            24,
+                            9
                         ]
                     ],
                     "8,18": [
@@ -9697,27 +9545,6 @@
                             1
                         ]
                     ],
-                    "13,18": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            24,
-                            9
-                        ]
-                    ],
-                    "13,19": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            25,
-                            6
-                        ]
-                    ],
-                    "13,20": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            24,
-                            10
-                        ]
-                    ],
                     "8,19": [
                         "Improved Castle Tileset Palette 2",
                         [
@@ -9726,37 +9553,23 @@
                         ]
                     ],
                     "1,18": [
-                        "Improved Castle Tileset Palette 2",
+                        "54728",
                         [
-                            22,
-                            9
+                            13,
+                            7
                         ]
                     ],
                     "1,19": [
-                        "Improved Castle Tileset Palette 2",
+                        "54728",
                         [
-                            26,
-                            6
+                            5,
+                            12
                         ]
                     ],
                     "6,19": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            3,
-                            1
-                        ]
-                    ],
-                    "1,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            22,
-                            9
-                        ]
-                    ],
-                    "1,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            26,
+                            25,
                             6
                         ]
                     ],
@@ -9764,133 +9577,91 @@
                         "Improved Castle Tileset Palette 2",
                         [
                             22,
-                            10
-                        ]
-                    ],
-                    "13,25": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            24,
                             9
-                        ]
-                    ],
-                    "13,26": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            25,
-                            6
                         ]
                     ],
                     "13,27": [
                         "Improved Castle Tileset Palette 2",
                         [
                             24,
-                            10
+                            9
                         ]
                     ],
                     "11,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            47,
-                            15
+                            21,
+                            6
                         ]
                     ],
                     "12,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            47,
-                            15
-                        ]
-                    ],
-                    "11,21": [
-                        "54728",
-                        [
-                            47,
-                            15
-                        ]
-                    ],
-                    "12,21": [
-                        "54728",
-                        [
-                            47,
-                            15
+                            21,
+                            6
                         ]
                     ],
                     "3,21": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            47,
-                            15
+                            23,
+                            10
                         ]
                     ],
                     "2,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            47,
-                            15
+                            21,
+                            6
                         ]
                     ],
                     "3,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            47,
-                            15
-                        ]
-                    ],
-                    "10,21": [
-                        "54728",
-                        [
-                            13,
-                            7
-                        ]
-                    ],
-                    "13,21": [
-                        "54728",
-                        [
-                            13,
-                            7
+                            21,
+                            6
                         ]
                     ],
                     "10,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            26,
+                            6
                         ]
                     ],
                     "13,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            25,
+                            6
                         ]
                     ],
                     "4,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            25,
+                            6
                         ]
                     ],
                     "1,28": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            26,
+                            6
                         ]
                     ],
                     "1,21": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            3,
+                            1
                         ]
                     ],
                     "4,21": [
-                        "54728",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            13,
-                            7
+                            21,
+                            6
                         ]
                     ],
                     "34,21": [
@@ -9980,15 +9751,456 @@
                     "22,11": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            17,
-                            22
+                            19,
+                            18
                         ]
                     ],
                     "22,12": [
                         "Improved Castle Tileset Palette 2",
                         [
+                            19,
+                            19
+                        ]
+                    ],
+                    "21,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            20
+                        ]
+                    ],
+                    "21,10": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            20,
+                            19
+                        ]
+                    ],
+                    "33,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            18
+                        ]
+                    ],
+                    "33,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            19
+                        ]
+                    ],
+                    "34,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
                             17,
-                            24
+                            20
+                        ]
+                    ],
+                    "34,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            21
+                        ]
+                    ],
+                    "32,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            20
+                        ]
+                    ],
+                    "32,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            16,
+                            21
+                        ]
+                    ],
+                    "9,28": [
+                        "54728",
+                        [
+                            5,
+                            12
+                        ]
+                    ],
+                    "9,29": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "10,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            10
+                        ]
+                    ],
+                    "11,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "12,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "13,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            24,
+                            10
+                        ]
+                    ],
+                    "1,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            10
+                        ]
+                    ],
+                    "2,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "3,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "4,29": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            24,
+                            10
+                        ]
+                    ],
+                    "5,28": [
+                        "54728",
+                        [
+                            5,
+                            12
+                        ]
+                    ],
+                    "5,29": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "1,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,23": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "2,22": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "2,23": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "2,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "3,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            25,
+                            4
+                        ]
+                    ],
+                    "3,23": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            24,
+                            4
+                        ]
+                    ],
+                    "3,24": [
+                        "54728",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "4,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "4,23": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "4,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,21": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "5,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "5,23": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            23,
+                            10
+                        ]
+                    ],
+                    "5,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,21": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            24,
+                            10
+                        ]
+                    ],
+                    "6,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,23": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "12,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "13,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            15
+                        ]
+                    ],
+                    "13,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            17
+                        ]
+                    ],
+                    "13,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            16
+                        ]
+                    ],
+                    "11,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            17
+                        ]
+                    ],
+                    "12,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "11,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            16
+                        ]
+                    ],
+                    "11,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            19,
+                            15
+                        ]
+                    ],
+                    "12,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            20,
+                            17
+                        ]
+                    ],
+                    "15,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            13
+                        ]
+                    ],
+                    "16,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "15,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "15,17": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "14,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "14,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "14,17": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "16,17": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            10
+                        ]
+                    ],
+                    "16,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "13,17": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            26,
+                            7
+                        ]
+                    ],
+                    "13,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            26,
+                            5
+                        ]
+                    ],
+                    "13,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            26,
+                            6
+                        ]
+                    ],
+                    "14,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            6
+                        ]
+                    ],
+                    "14,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            24,
+                            10
                         ]
                     ]
                 }
@@ -10097,6 +10309,160 @@
                         [
                             7,
                             15
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "openoutsidechest",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "12,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            1,
+                            0
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "lowerbarriers",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "11,20": "7",
+                    "12,20": "7",
+                    "13,20": "7",
+                    "13,19": "7",
+                    "13,18": "7",
+                    "12,18": "7",
+                    "11,18": "7",
+                    "11,19": "7"
+                },
+                "sprite_grid": {
+                    "11,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "13,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "11,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "13,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "12,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            8
+                        ]
+                    ],
+                    "12,20": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            17,
+                            9
+                        ]
+                    ],
+                    "13,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            18,
+                            13
+                        ]
+                    ],
+                    "11,19": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            14,
+                            8
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "southeastcomplete",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "15,16": "6",
+                    "15,17": "6",
+                    "14,18": "6"
+                },
+                "sprite_grid": {
+                    "15,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "15,17": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "14,18": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "southwestcomplete",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,22": "6",
+                    "4,22": "6",
+                    "4,21": "6"
+                },
+                "sprite_grid": {
+                    "5,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "4,22": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
+                        ]
+                    ],
+                    "4,21": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            1
                         ]
                     ]
                 }

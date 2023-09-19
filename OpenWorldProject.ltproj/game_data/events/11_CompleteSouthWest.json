@@ -1,0 +1,53 @@
+[
+    {
+        "name": "CompleteSouthWest",
+        "trigger": "unit_wait",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "if",
+                [
+                    "v(\"PuzzleCompleted\") and game.board.get_unit((4,22)) and game.board.get_unit((4,21)) and game.board.get_unit((5,22))"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "southwestcomplete"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (103)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (104)"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Soldier (105)"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PuzzleCompleted",
+                    "False"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 10
+    }
+]

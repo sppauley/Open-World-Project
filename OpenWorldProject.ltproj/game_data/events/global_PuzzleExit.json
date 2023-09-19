@@ -102,6 +102,12 @@
                 []
             ],
             [
+                "change_roaming",
+                [
+                    "t"
+                ]
+            ],
+            [
                 "level_var",
                 [
                     "PuzzleCompleted",

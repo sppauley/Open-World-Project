@@ -73,6 +73,26 @@
                 []
             ],
             [
+                "for",
+                [
+                    "pos",
+                    "[str(p) for p in v(\"PuzzleTargets\")]"
+                ]
+            ],
+            [
+                "map_anim",
+                [
+                    "Square",
+                    "{pos}",
+                    "",
+                    "FLAG(permanent)"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ],
+            [
                 "comment",
                 [
                     "#"
@@ -96,6 +116,12 @@
                 [
                     "_no_end_turn",
                     "True"
+                ]
+            ],
+            [
+                "change_roaming",
+                [
+                    "f"
                 ]
             ]
         ],

@@ -253,5 +253,9 @@
     "15_Talk_Villager.json": 251,
     "global_Accost.json": 252,
     "global_AttackUnitWithAccost.json": 253,
-    "11_Intro.json": 254
+    "11_Intro.json": 254,
+    "11_SouthEastPuzzle.json": 255,
+    "11_SouthWestPuzzle.json": 256,
+    "11_CompleteSouthEast.json": 257,
+    "11_CompleteSouthWest.json": 258
 }
