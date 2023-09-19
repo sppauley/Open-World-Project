@@ -1,0 +1,42 @@
+[
+    {
+        "name": "NorthEastPuzzle",
+        "trigger": "NorthEastPuzzle",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "move_unit",
+                [
+                    "Simon (Simon)",
+                    "6,6",
+                    "FLAG(no_follow)"
+                ]
+            ],
+            [
+                "set_game_board_bounds",
+                [
+                    "4",
+                    "1",
+                    "8",
+                    "6"
+                ]
+            ],
+            [
+                "level_var",
+                [
+                    "PuzzleTargets",
+                    "[(7,3), (7,2), (5,3), (5,4)]"
+                ]
+            ],
+            [
+                "trigger_script",
+                [
+                    "PuzzleSetup (Global PuzzleSetup)"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

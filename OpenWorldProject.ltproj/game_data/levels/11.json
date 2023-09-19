@@ -146,6 +146,174 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateRefresh"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateRefresh"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -178,6 +346,40 @@
                     8
                 ],
                 "sub_nid": "SouthWestPuzzle",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "NorthWestPuzzle",
+                "region_type": "event",
+                "position": [
+                    2,
+                    7
+                ],
+                "size": [
+                    7,
+                    10
+                ],
+                "sub_nid": "NorthWestPuzzle",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "NorthEastPuzzle",
+                "region_type": "event",
+                "position": [
+                    3,
+                    0
+                ],
+                "size": [
+                    7,
+                    7
+                ],
+                "sub_nid": "NorthEastPuzzle",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,

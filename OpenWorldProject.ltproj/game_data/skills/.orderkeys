@@ -83,6 +83,7 @@
     "CrateMove.json": 81,
     "CrateShove.json": 82,
     "CrateReposition.json": 83,
-    "Accost.json": 84,
-    "Accosted.json": 85
+    "CrateRefresh.json": 84,
+    "Accost.json": 85,
+    "Accosted.json": 86
 }

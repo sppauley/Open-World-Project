@@ -1,0 +1,32 @@
+[
+    {
+        "name": "StartBattle",
+        "trigger": null,
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "for",
+                [
+                    "unit",
+                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "{unit}",
+                    "immediate",
+                    "fade",
+                    "FLAG(no_warn)"
+                ]
+            ],
+            [
+                "endf",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

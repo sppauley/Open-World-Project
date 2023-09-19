@@ -35,6 +35,13 @@
                     "Simon (Simon)",
                     "FLAG(immediate)"
                 ]
+            ],
+            [
+                "level_var",
+                [
+                    "NumPuzzlesCompleted",
+                    "0"
+                ]
             ]
         ],
         "only_once": false,
