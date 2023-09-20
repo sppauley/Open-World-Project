@@ -1,0 +1,25 @@
+[
+    {
+        "name": "OutsideChest",
+        "trigger": "Chest",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "show_layer",
+                [
+                    "openoutsidechest"
+                ]
+            ],
+            [
+                "give_item",
+                [
+                    "Simon (Simon)",
+                    "Killer Bow (Killer Bow)"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]
