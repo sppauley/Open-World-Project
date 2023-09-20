@@ -62,5 +62,9 @@
     {
         "nid": "NikaRecruited",
         "desc": "Has Nika been recruited?"
+    },
+    {
+        "nid": "KajalRecruited",
+        "desc": "Has Kajal been recruited?"
     }
 ]

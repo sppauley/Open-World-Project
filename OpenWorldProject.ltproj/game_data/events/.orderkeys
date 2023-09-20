@@ -263,5 +263,10 @@
     "11_NorthWestPuzzle.json": 261,
     "11_NorthEastPuzzle.json": 262,
     "11_StartBattle.json": 263,
-    "11_OutsideChest.json": 264
+    "11_OutsideChest.json": 264,
+    "11_Switch1.json": 265,
+    "11_Switch2.json": 266,
+    "11_Switch3.json": 267,
+    "11_Switch4.json": 268,
+    "11_TalkGroundskeeper.json": 269
 }

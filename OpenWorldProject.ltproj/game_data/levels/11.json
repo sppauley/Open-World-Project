@@ -420,14 +420,77 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Switch1",
+                "region_type": "event",
+                "position": [
+                    4,
+                    20
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Switch1",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Switch2",
+                "region_type": "event",
+                "position": [
+                    15,
+                    15
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Switch2",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Switch3",
+                "region_type": "event",
+                "position": [
+                    4,
+                    8
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Switch3",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Switch4",
+                "region_type": "event",
+                "position": [
+                    6,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Switch4",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

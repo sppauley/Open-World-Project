@@ -42,6 +42,13 @@
                     "NumPuzzlesCompleted",
                     "0"
                 ]
+            ],
+            [
+                "add_talk",
+                [
+                    "Simon (Simon)",
+                    "Soldier (115)"
+                ]
             ]
         ],
         "only_once": false,

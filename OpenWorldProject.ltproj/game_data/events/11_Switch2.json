@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Switch2",
+        "trigger": "Switch2",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [
+            [
+                "inc_level_var",
+                [
+                    "NumPuzzlesCompleted"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "v(\"NumPuzzlesCompleted\") == 4"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "12,19"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "Unlock"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "lowerbarriers"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "800"
+                ]
+            ],
+            [
+                "center_cursor",
+                [
+                    "Simon (Simon)"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
