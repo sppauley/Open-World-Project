@@ -274,5 +274,7 @@
     "11_LevelSetup.json": 272,
     "11_StairsToTreasure.json": 273,
     "11_TalkButler.json": 274,
-    "11_Outro.json": 275
+    "11_Outro.json": 275,
+    "11_UnlockSideDoor.json": 276,
+    "11_EndlessReinforcements.json": 277
 }

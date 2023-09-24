@@ -70,22 +70,17 @@
                 1200
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "wexp",
                 2
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        6
+                    ]
+                ]
             ]
         ]
     }

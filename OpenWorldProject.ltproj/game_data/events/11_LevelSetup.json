@@ -13,7 +13,8 @@
             "show_layer;foyerdoor;immediate;FLAG(no_warn)",
             "game_var;freely_exit;True",
             "add_talk;Simon;119",
-            "level_var;TreasureRaid;False"
+            "level_var;TreasureRaid;False",
+            "remove_group;Enemies"
         ]
     }
 ]

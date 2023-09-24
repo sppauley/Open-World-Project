@@ -1,0 +1,22 @@
+[
+    {
+        "name": "EndlessReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "11",
+        "condition": "game.turncount % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Soldier;8;enemy;Pursue;Soldier;;Steel Lance",
+            "add_unit;{created_unit};36,0;fade;closest",
+            "give_skill;{created_unit};Void Curse;;no_banner",
+            "make_generic;;Mercenary;8;enemy;Pursue;Soldier;;Steel Sword",
+            "add_unit;{created_unit};36,1;fade;closest",
+            "give_skill;{created_unit};Void Curse;;no_banner",
+            "make_generic;;Fighter;8;enemy;Pursue;Soldier;;Steel Axe",
+            "add_unit;{created_unit};36,2;fade;closest",
+            "give_skill;{created_unit};Void Curse;;no_banner"
+        ]
+    }
+]

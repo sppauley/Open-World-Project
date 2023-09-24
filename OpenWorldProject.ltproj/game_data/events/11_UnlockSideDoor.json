@@ -1,0 +1,16 @@
+[
+    {
+        "name": "UnlockSideDoor",
+        "trigger": "Door",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_layer;sidedoor",
+            "unlock;{unit}",
+            "has_attacked;{unit}"
+        ]
+    }
+]
