@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"TreasureRaid\")",
+            "    add_portrait;Lupus;Right",
+            "    s;Lupus;Hey, Simon!{w} It all went perfectly.{w}{br}Not a bad haul, if I do say so myself.",
+            "    remove_portrait;Lupus",
+            "    give_money;3000",
+            "end"
+        ]
+    }
+]

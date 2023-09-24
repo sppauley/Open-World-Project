@@ -68,6 +68,8 @@
             "    s;Ebert;Hah! What a lovely couple.{w}{br}Guards, to me!",
             "    s;Ebert;Whoever brings their heads on a pike will get a generous bonus!",
             "    multi_remove_portrait;Ebert;Anuki;Simon",
+            "",
+            "    move_unit;Ebert;13,6;warp;no_follow",
             "    ",
             "    trigger_script;11 StartBattle",
             "",

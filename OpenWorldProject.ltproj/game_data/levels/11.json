@@ -634,6 +634,13 @@
                     "113"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Enemies",
+                "units": [
+                    "Ebert"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [
