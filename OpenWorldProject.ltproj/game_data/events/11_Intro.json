@@ -16,7 +16,7 @@
             "add_talk;Simon (Simon);Soldier (115)",
             "load_unit;Anuki",
             "",
-            "move_unit;Simon;27,26",
+            "move_unit;Simon;27,27",
             "trigger_script;Global AppearBySimon;Anuki",
             "move_unit;Anuki;26,28",
             "add_portrait;Simon;MidLeft",
@@ -40,7 +40,7 @@
             "s;OldVillager2;Of course.",
             "remove_portrait;OldVillager2",
             "hide_layer;frontdoor",
-            "move_unit;119;29,16",
+            "move_unit;119;29,16;no_follow",
             "",
             "mirror_portrait;Simon",
             "move_portrait;Simon;Right",
@@ -50,7 +50,7 @@
             "wait;1000",
             "s;Simon;I'll take a look around. Might be able to learn something.",
             "multi_remove_portrait;Anuki;Simon",
-            "trigger_script;Global ConsolidateToLeader"
+            "trigger_script;Global ConsolidateToSimon;Anuki"
         ]
     }
 ]

@@ -11,8 +11,9 @@
             "show_layer;overlay;immediate;FLAG(no_warn)",
             "show_layer;sidedoor;immediate;FLAG(no_warn)",
             "show_layer;foyerdoor;immediate;FLAG(no_warn)",
-            "game_var;freely_exit;true",
-            "add_talk;Simon;119"
+            "game_var;freely_exit;True",
+            "add_talk;Simon;119",
+            "level_var;TreasureRaid;False"
         ]
     }
 ]
