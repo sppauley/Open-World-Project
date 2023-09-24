@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;36,0",
             "make_generic;;Soldier;8;enemy;Pursue;Soldier;;Steel Lance",
             "add_unit;{created_unit};36,0;fade;closest",
             "give_skill;{created_unit};Void Curse;;no_banner",

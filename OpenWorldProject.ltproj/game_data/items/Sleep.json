@@ -26,20 +26,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "wexp",
                 5
             ],
@@ -60,12 +46,40 @@
                 "Sleep"
             ],
             [
-                "max_equation_range",
-                "HITPOINTS"
-            ],
-            [
                 "target_enemy",
                 null
+            ],
+            [
+                "max_range",
+                8
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        14
+                    ]
+                ]
             ]
         ]
     }
