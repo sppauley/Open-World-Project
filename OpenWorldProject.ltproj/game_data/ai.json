@@ -985,5 +985,113 @@
         "priority": 20,
         "offense_bias": 2,
         "roam_ai": false
+    },
+    {
+        "nid": "EbertGarden1",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    28
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 1000,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    35,
+                    22
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 4000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
+    },
+    {
+        "nid": "EbertGarden2",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    8,
+                    28
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 5000,
+                "view_range": -5,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    6,
+                    22
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 5000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
     }
 ]
