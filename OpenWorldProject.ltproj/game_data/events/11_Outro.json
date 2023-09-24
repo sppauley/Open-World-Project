@@ -8,6 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "remove_all_enemies;",
+            "\u2028",
+            "",
+            "",
             "if;v(\"TreasureRaid\")",
             "    add_portrait;Lupus;Right",
             "    s;Lupus;Hey, Simon!{w} It all went perfectly.{w}{br}Not a bad haul, if I do say so myself.",

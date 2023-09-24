@@ -20,6 +20,8 @@
             "remove_unit;Soldier (115);immediate",
             "remove_unit;Anuki;immediate",
             "",
+            "add_tag;Ebert;Boss",
+            "",
             "if;v(\"TreasureRaid\")",
             "    add_unit;Lupus;35,19",
             "end",

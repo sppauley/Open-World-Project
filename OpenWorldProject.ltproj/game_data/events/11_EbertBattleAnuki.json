@@ -1,0 +1,22 @@
+[
+    {
+        "name": "EbertBattleAnuki",
+        "trigger": "combat_start",
+        "level_nid": "11",
+        "condition": "check_pair('Ebert', 'Anuki')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ebert;Left",
+            "add_portrait;Anuki;Right",
+            "s;Anuki;Hey, Ebert.",
+            "s;Ebert;Lady Morrissey. It is not too late to withdraw your support.{w}{br}This idiotic scheme would collapse without you.",
+            "s;Anuki;Not happening. I've been waiting for this.",
+            "s;Ebert;You are impressively loyal to Verstadt.{w}{br}Especially for a political marriage.",
+            "s;Anuki;No, Ebert, that's not why.{w} It's because I want to feel your skull give way to my axe.",
+            "s;Ebert;W-what have I done to...",
+            "multi_remove_portrait;Ebert;Anuki"
+        ]
+    }
+]

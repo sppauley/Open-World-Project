@@ -1,0 +1,16 @@
+[
+    {
+        "name": "EbertBattle",
+        "trigger": "combat_start",
+        "level_nid": "11",
+        "condition": "check_default('Ebert', ['Simon', 'Anuki', 'Lupus'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ebert;Left",
+            "s;Ebert;Hypocrites, all of you!{w} I am building a new house-{w}{br}a new type of nobility!{w}{br}Yet you destroy what is beautiful,{w}{br}all while watching your own empires crumble.",
+            "remove_portrait;Ebert"
+        ]
+    }
+]

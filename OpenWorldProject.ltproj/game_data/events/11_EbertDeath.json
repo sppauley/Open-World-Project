@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EbertDeath",
+        "trigger": "unit_death",
+        "level_nid": "11",
+        "condition": "unit.nid == \"Ebert\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ebert;Left",
+            "s;Ebert;A bad bet... one single bad bet...",
+            "remove_portrait;Ebert",
+            "win_game"
+        ]
+    }
+]

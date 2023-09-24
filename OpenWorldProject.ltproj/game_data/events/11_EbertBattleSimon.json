@@ -1,0 +1,21 @@
+[
+    {
+        "name": "EbertBattleSimon",
+        "trigger": "combat_start",
+        "level_nid": "11",
+        "condition": "check_pair('Ebert', 'Simon')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ebert;Left",
+            "add_portrait;Simon;Right",
+            "s;Ebert;It wasn't anything personal, Verstadt.{w}{br}None of this is, really.",
+            "s;Simon;To think you consider yourself worthy of nobility.{w}{br}It isn't just a title- it's a promise of loyalty and trust.",
+            "s;Ebert;To think the son of Bertholdt Verstadt would say such a thing.{w}{br}Your father slaughtered villages over minor slights.",
+            "bop_portrait;Simon",
+            "s;Simon;Enough!{c:wait;600} I tire of your rhetoric and schemes.",
+            "multi_remove_portrait;Simon;Ebert"
+        ]
+    }
+]

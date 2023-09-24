@@ -1,0 +1,21 @@
+[
+    {
+        "name": "EbertBattleLupus",
+        "trigger": "combat_start",
+        "level_nid": "11",
+        "condition": "check_pair('Ebert', 'Lupus')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ebert;Left",
+            "add_portrait;Lupus;Right",
+            "s;Ebert;Lupus, I still hold your debt.",
+            "s;Ebert;Turn against your employer, and it will be wiped clean!",
+            "s;Lupus;Should've made that offer earlier.{w}{br}Pretty sure it'll be cleared after today,{w}{br}one way or another.",
+            "s;Ebert;Pah!",
+            "s;Lupus;Also, have you met Anuki? She's terrifying.{w}{br}I'm not betraying her.",
+            "multi_remove_portrait;Lupus;Ebert"
+        ]
+    }
+]

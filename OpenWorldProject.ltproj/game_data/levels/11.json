@@ -1292,10 +1292,6 @@
         ],
         "ai_groups": [
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "N1",
                 "trigger_threshold": 1
             },

@@ -276,5 +276,10 @@
     "11_TalkButler.json": 274,
     "11_Outro.json": 275,
     "11_UnlockSideDoor.json": 276,
-    "11_EndlessReinforcements.json": 277
+    "11_EndlessReinforcements.json": 277,
+    "11_EbertBattle.json": 278,
+    "11_EbertBattleLupus.json": 279,
+    "11_EbertBattleSimon.json": 280,
+    "11_EbertBattleAnuki.json": 281,
+    "11_EbertDeath.json": 282
 }
