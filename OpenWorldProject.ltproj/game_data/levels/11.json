@@ -409,6 +409,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Ebert",
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    0
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

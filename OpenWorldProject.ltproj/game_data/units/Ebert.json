@@ -30,6 +30,10 @@
             [
                 "Fortify",
                 false
+            ],
+            [
+                "Sleep",
+                false
             ]
         ],
         "learned_skills": [],

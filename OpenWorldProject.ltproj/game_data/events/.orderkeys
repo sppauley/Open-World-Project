@@ -272,5 +272,6 @@
     "11_TalkGroundskeeper.json": 270,
     "11_SwitchDialogue.json": 271,
     "11_LevelSetup.json": 272,
-    "11_StairsToTreasure.json": 273
+    "11_StairsToTreasure.json": 273,
+    "11_TalkButler.json": 274
 }
