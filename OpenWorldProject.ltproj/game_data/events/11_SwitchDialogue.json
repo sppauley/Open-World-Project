@@ -19,6 +19,20 @@
             "add_portrait;OldMan1;Right",
             "s;OldMan1;Splendid work, young master.{w}{br}Lord Ebert's prize awaits.",
             "multi_remove_portrait;OldMan1;Simon",
+            "elif;v(\"NumPuzzlesCompleted\") == 3",
+            "add_portrait;Simon;Left",
+            "s;Simon;Only one more.",
+            "remove_portrait;Simon",
+            "elif;v(\"NumPuzzlesCompleted\") == 2",
+            "add_portrait;Simon;Left",
+            "add_portrait;OldMan1;Right",
+            "s;OldMan1;You are natural, Lord Verstadt!{w}{br}It seems natural that you are milord's{w}{br}close ally.",
+            "s;Simon;Close ally indeed.",
+            "multi_remove_portrait;OldMan1;Simon",
+            "elif;v(\"NumPuzzlesCompleted\") == 1",
+            "add_portrait;OldMan1;Right",
+            "s;OldMan1;Superb work.{w} You learn quickly.",
+            "remove_portrait;OldMan1",
             "end"
         ]
     }
