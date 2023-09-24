@@ -4,36 +4,14 @@
         "trigger": "turn_change",
         "level_nid": "8",
         "condition": "game.level_vars['BottomLeftSwamp']==1",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "5,26"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "100"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "BottomLeft",
-                    "BottomLeft",
-                    "fade",
-                    "closest"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;5,26",
+            "wait;100",
+            "add_group;BottomLeft;BottomLeft;fade;closest",
+            "wait;700"
+        ]
     }
 ]

@@ -4,372 +4,65 @@
         "trigger": "level_start",
         "level_nid": "2",
         "condition": "True",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "layer1"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "layer2"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "SimonReset",
-                    "0"
-                ]
-            ],
-            [
-                "set_game_board_bounds",
-                [
-                    "14",
-                    "0",
-                    "37",
-                    "5"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Fates speak style"
-                ]
-            ],
-            [
-                "speak_style",
-                [
-                    "FatesTalk",
-                    "",
-                    "center",
-                    "160",
-                    "",
-                    "white",
-                    "",
-                    "None",
-                    "",
-                    "f",
-                    "None",
-                    "FLAG(fit)"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "101",
-                    "HP,18",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "upperdoor",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "27,0",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "28,0",
-                    "immediate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "27,2",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "28,3",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "upperdoor"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "22,3"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "22,3"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "The rebels have already reached the corridor?{w}{br}Sire, let me take the lead.{w}{br}You won't die under my watch."
-                ]
-            ],
-            [
-                "music_clear",
-                [
-                    "1500"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "basicTutorial",
-                    "View basic tutorials?",
-                    "Yes,No"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('_last_choice') == 'Yes'"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "basicTutorials",
-                    "1"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "basicTutorials",
-                    "0"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "# Add a choice for!!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Would you to see tutorials for unique mechanics?{w}{br}These are recommended for all new players.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "fullTutorial",
-                    "View unique tutorials?",
-                    "Yes,No"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('_last_choice') == 'Yes'"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "tutorialPopups",
-                    "1"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "tutorialPopups",
-                    "0"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v('basicTutorials') == 1"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# TODO: Figure out how to turn below into the actual key"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Use the directional buttons to move the cursor.{w}{br}Press {e:chr(cf.SETTINGS['key_SELECT'])} to select a unit.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add more in following events - how to move a selected unit, opening info screen"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v('tutorialPopups') == 1 or v('basicTutorials') == 1"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Units have both a health and poise bar.{w}{br}During your turn, your attacks with some weapons will deal stagger damage.{w}{br}Stagger damage reduces a target's poise.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Try attacking the nearby enemy with Vincent.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "22,4"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "22,4"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Doing so will trigger tutorialmsg1"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "show_layer;layer1;immediate",
+            "show_layer;layer2;immediate",
+            "add_weather;night",
+            "level_var;SimonReset;0",
+            "set_game_board_bounds;14;0;37;5",
+            "#Fates speak style",
+            "speak_style;FatesTalk;;center;160;;white;;None;;f;None;FLAG(fit)",
+            "set_stats;101;HP,18;FLAG(immediate)",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "show_layer;upperdoor;immediate",
+            "move_unit;Simon (Simon);27,0;immediate",
+            "move_unit;Vincent (Vincent);28,0;immediate",
+            "move_unit;Simon (Simon);27,2;FLAG(no_block)",
+            "move_unit;Vincent (Vincent);28,3;FLAG(no_follow)",
+            "sound;Unlock",
+            "hide_layer;upperdoor",
+            "center_cursor;22,3",
+            "flicker_cursor;22,3",
+            "wait;500",
+            "add_portrait;Vincent (Vincent);Right",
+            "speak;Vincent;The rebels have already reached the corridor?{w}{br}Sire, let me take the lead.{w}{br}You won't die under my watch.",
+            "music_clear;1500",
+            "remove_portrait;Vincent (Vincent)",
+            "end_skip",
+            "speak;Narrator;Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players.;StyleNid=hint",
+            "choice;basicTutorial;View basic tutorials?;Yes,No",
+            "if;v('_last_choice') == 'Yes'",
+            "game_var;basicTutorials;1",
+            "else",
+            "game_var;basicTutorials;0",
+            "end",
+            "# Add a choice for!!",
+            "speak;Narrator;Would you to see tutorials for unique mechanics?{w}{br}These are recommended for all new players.;StyleNid=hint",
+            "choice;fullTutorial;View unique tutorials?;Yes,No",
+            "if;v('_last_choice') == 'Yes'",
+            "game_var;tutorialPopups;1",
+            "else",
+            "game_var;tutorialPopups;0",
+            "end",
+            "if;v('basicTutorials') == 1",
+            "# TODO: Figure out how to turn below into the actual key",
+            "speak;Narrator;Use the directional buttons to move the cursor.{w}{br}Press {e:chr(cf.SETTINGS['key_SELECT'])} to select a unit.;StyleNid=hint",
+            "# Add more in following events - how to move a selected unit, opening info screen",
+            "end",
+            "if;v('tutorialPopups') == 1 or v('basicTutorials') == 1",
+            "speak;Narrator;Units have both a health and poise bar.{w}{br}During your turn, your attacks with some weapons will deal stagger damage.{w}{br}Stagger damage reduces a target's poise.;StyleNid=hint",
+            "center_cursor;Vincent (Vincent)",
+            "flicker_cursor;Vincent (Vincent)",
+            "wait;500",
+            "speak;Narrator;Try attacking the nearby enemy with Vincent.;StyleNid=hint",
+            "center_cursor;22,4",
+            "flicker_cursor;22,4",
+            "wait;800",
+            "# Doing so will trigger tutorialmsg1",
+            "end"
+        ]
     }
 ]

@@ -4,25 +4,12 @@
         "trigger": "on_talk",
         "level_nid": "DEBUGTRANSITION",
         "condition": "unit1.nid == 'Eirika' and unit2.nid == '101'",
-        "commands": [
-            [
-                "start_encounter",
-                [
-                    "1",
-                    "1",
-                    "7",
-                    "5",
-                    "BattleIntro"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "start_encounter;1;1;7;5;BattleIntro",
+            "change_roaming;f"
+        ]
     }
 ]

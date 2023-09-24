@@ -4,417 +4,68 @@
         "trigger": "on_talk",
         "level_nid": "0",
         "condition": "unit2.nid == 'Hatshepsut'",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# TODO - Set prereq for Clotho ending"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Have Hatshesput leave and maybe appear again later? Recruitable?"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# This isn't very good. Rewrite later probably"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,18"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Villager Man 5",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Excuse me?{w} I'm new in town, and I was wondering-"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Villager Man 5",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close",
-                    "200",
-                    "160,160,160"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Shine",
-                    "1.5"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Was wondering..."
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close",
-                    "200",
-                    "160,160,160"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Shine",
-                    "1.5"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "15,16",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,19"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "Right",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "## More dialogue here"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...",
-                    "TextSpeed=11"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "...",
-                    "TextSpeed=11"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "Sit",
-                    "TextSpeed=5"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "15,17"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...Fine.",
-                    "TextSpeed=5"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "15,15"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What did you just do?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "Tis no action of mine.{w}{br}Our blessings alone are responsible."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "You're blessed by the Fates too?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "The Fates?{w} Oh, the gods of your land.{w}{br}I know no Fates."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Then..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "I was awoken by Horus, of the Sun."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Horus...?{w} I've never heard of him."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "My land is far from yours.{w}{br}My journey was long."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Are you bound to his will?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "No. A blessing is not a tether.{w}{br}Gods can bless those they think to be useful,{w}{br}but they can't control them."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Maybe your gods. But the Fates are different."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "Perhaps so.{w} Or perhaps they wish you to believe so."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I don't think you understand."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "Your land is indeed foreign to me."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "..."
-                ]
-            ],
-            [
-                "expression",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "OpenEyes"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "15,18"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "I will take my leave."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "It is an ill omen for two blessed to be close by."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Is it?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "In the tradition of my land, at least."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It was good to meet you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Hatshepsut",
-                    "A word of advice, blessed.{w}{br}Freedom can always be found across the sea."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Hatshepsut (Hatshepsut)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "5,21",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Hatshepsut (Hatshepsut)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...{w} I hope we meet again someday."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Hatshepsut (Hatshepsut)"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "HatshepsutMet",
-                    "True"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon",
-                    "Hatshepsut (Hatshepsut)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# TODO - Set prereq for Clotho ending",
+            "# Have Hatshesput leave and maybe appear again later? Recruitable?",
+            "# This isn't very good. Rewrite later probably",
+            "move_unit;Simon (Simon);14,18",
+            "add_portrait;Villager Man 5;Left",
+            "add_portrait;Simon (Simon);MidRight",
+            "speak;Simon;Excuse me?{w} I'm new in town, and I was wondering-",
+            "remove_portrait;Villager Man 5;FLAG(immediate)",
+            "transition;close;200;160,160,160",
+            "sound;Shine;1.5",
+            "transition;open",
+            "speak;Simon;Was wondering...",
+            "transition;close;200;160,160,160",
+            "sound;Shine;1.5",
+            "transition;open",
+            "remove_portrait;Simon (Simon);FLAG(immediate)",
+            "move_unit;Hatshepsut (Hatshepsut);15,16;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Simon (Simon);14,19",
+            "add_portrait;Simon (Simon);Left;FLAG(immediate)",
+            "add_portrait;Hatshepsut (Hatshepsut);Right;FLAG(immediate)",
+            "## More dialogue here",
+            "speak;Simon;...;TextSpeed=11",
+            "speak;Hatshepsut;...;TextSpeed=11",
+            "speak;Hatshepsut;Sit;TextSpeed=5",
+            "move_unit;Hatshepsut (Hatshepsut);15,17",
+            "speak;Simon;...Fine.;TextSpeed=5",
+            "move_unit;Simon (Simon);15,15",
+            "speak;Simon;What did you just do?",
+            "speak;Hatshepsut;Tis no action of mine.{w}{br}Our blessings alone are responsible.",
+            "speak;Simon;You're blessed by the Fates too?",
+            "speak;Hatshepsut;The Fates?{w} Oh, the gods of your land.{w}{br}I know no Fates.",
+            "speak;Simon;Then...",
+            "speak;Hatshepsut;I was awoken by Horus, of the Sun.",
+            "speak;Simon;Horus...?{w} I've never heard of him.",
+            "speak;Hatshepsut;My land is far from yours.{w}{br}My journey was long.",
+            "speak;Simon;Are you bound to his will?",
+            "speak;Hatshepsut;No. A blessing is not a tether.{w}{br}Gods can bless those they think to be useful,{w}{br}but they can't control them.",
+            "speak;Simon;Maybe your gods. But the Fates are different.",
+            "speak;Hatshepsut;Perhaps so.{w} Or perhaps they wish you to believe so.",
+            "speak;Simon;I don't think you understand.",
+            "speak;Hatshepsut;Your land is indeed foreign to me.",
+            "expression;Hatshepsut (Hatshepsut);CloseEyes",
+            "speak;Hatshepsut;...",
+            "expression;Hatshepsut (Hatshepsut);OpenEyes",
+            "move_unit;Hatshepsut (Hatshepsut);15,18",
+            "speak;Hatshepsut;I will take my leave.",
+            "speak;Hatshepsut;It is an ill omen for two blessed to be close by.",
+            "speak;Simon;Is it?",
+            "speak;Hatshepsut;In the tradition of my land, at least.",
+            "speak;Simon;It was good to meet you.",
+            "speak;Hatshepsut;A word of advice, blessed.{w}{br}Freedom can always be found across the sea.",
+            "remove_portrait;Hatshepsut (Hatshepsut)",
+            "move_unit;Hatshepsut (Hatshepsut);5,21;FLAG(no_follow)",
+            "remove_unit;Hatshepsut (Hatshepsut)",
+            "speak;Simon;...{w} I hope we meet again someday.",
+            "remove_portrait;Hatshepsut (Hatshepsut)",
+            "game_var;HatshepsutMet;True",
+            "remove_talk;Simon;Hatshepsut (Hatshepsut)"
+        ]
     }
 ]

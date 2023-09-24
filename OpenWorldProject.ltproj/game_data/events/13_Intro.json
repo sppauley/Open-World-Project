@@ -4,96 +4,24 @@
         "trigger": "level_start",
         "level_nid": "13",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# debug commands"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# chapter intro commands"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "bars_closed"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "HiddenEnemies"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "darkness"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "105",
-                    "MAG,9",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "101",
-                    "SPD,16",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v(\"tutorialPopups\")"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Some enemies may be too difficult for your current team.{w}{br}If you feel frustrated, try using the Exit option from the preparations screen.{w}{br}You can always return to a map later.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "arrange_formation",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# debug commands",
+            "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
+            "# chapter intro commands",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "show_layer;bars_closed",
+            "remove_group;HiddenEnemies",
+            "show_layer;darkness",
+            "set_stats;105;MAG,9;FLAG(immediate)",
+            "set_stats;101;SPD,16;FLAG(immediate)",
+            "if;v(\"tutorialPopups\")",
+            "speak;Narrator;Some enemies may be too difficult for your current team.{w}{br}If you feel frustrated, try using the Exit option from the preparations screen.{w}{br}You can always return to a map later.;StyleNid=hint",
+            "end",
+            "arrange_formation",
+            "trigger_script;GenericPreps (Global GenericPreps)"
+        ]
     }
 ]

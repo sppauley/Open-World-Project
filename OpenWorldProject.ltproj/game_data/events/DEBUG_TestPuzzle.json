@@ -4,148 +4,32 @@
         "trigger": null,
         "level_nid": "DEBUG",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# This is a puzzle template for future use."
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "10,7",
-                    "immediate"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# The following must be done WHENEVER"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# you start a puzzle"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Set bounds of puzzle"
-                ]
-            ],
-            [
-                "set_game_board_bounds",
-                [
-                    "9",
-                    "3",
-                    "14",
-                    "8"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Draw target squares and set targets"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# PuzzleTargets must include every space"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# that a crate must occupy for the puzzle"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# to complete"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "PuzzleTargets",
-                    "[(12,6), (12,4)]"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "pos",
-                    "[str(p) for p in v(\"PuzzleTargets\")]"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Square",
-                    "{pos}",
-                    "FLAG(permanent)"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "PuzzleSetup (Global PuzzleSetup)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 14
+        "priority": 14,
+        "_source": [
+            "#",
+            "# This is a puzzle template for future use.",
+            "#",
+            "#",
+            "move_unit;Simon (Simon);10,7;immediate",
+            "center_cursor;Simon (Simon)",
+            "#",
+            "# The following must be done WHENEVER",
+            "# you start a puzzle",
+            "#",
+            "# Set bounds of puzzle",
+            "set_game_board_bounds;9;3;14;8",
+            "# Draw target squares and set targets",
+            "#",
+            "# PuzzleTargets must include every space",
+            "# that a crate must occupy for the puzzle",
+            "# to complete",
+            "level_var;PuzzleTargets;[(12,6), (12,4)]",
+            "for;pos;[str(p) for p in v(\"PuzzleTargets\")]",
+            "map_anim;Square;{pos};FLAG(permanent)",
+            "endf",
+            "trigger_script;PuzzleSetup (Global PuzzleSetup)"
+        ]
     }
 ]

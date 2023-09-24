@@ -4,173 +4,34 @@
         "trigger": "turn_change",
         "level_nid": "2",
         "condition": "game.turncount==2",
-        "commands": [
-            [
-                "add_unit",
-                [
-                    "Luther",
-                    "14,3"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Luther"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "Left",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Milord! I apologize for the delay."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We must retreat at once."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Luther, I can't just stand back while my House falls."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I'm certain you feel the same.{br}{w}Please, let's put a stop to this."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "We can't let these brigands get away with this!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I see."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We must proceed with caution, then."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Just give the word and I'll knock these brigands to the ground..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...and I'll follow up after that."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Very good, milord."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther (Luther)",
-                    "Simon (Simon)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther",
-                    "15,3"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('basicTutorials')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Every type of weapon has an advantage against another.{w}{br}Axes beat lances, lances beat swords, and swords beat axes.{w}{br}Luther, who wields an axe, should attack the lance-wielding knight.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v('tutorialPopups')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Each weapon deals a different amount of stagger damage.{w}{br}However, stagger damage is affected by weapon advantage.{w}{br}If an attacker has weapon advantage, stagger will be multiplied by 1.5.{w}{br}However, if they are at a disadvantage, it will be halved.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_unit;Luther;14,3",
+            "flicker_cursor;Luther",
+            "add_portrait;Luther (Luther);Left;left",
+            "speak;Luther;Milord! I apologize for the delay.",
+            "speak;Luther;We must retreat at once.",
+            "add_portrait;Simon (Simon);Right;right",
+            "speak;Simon;Luther, I can't just stand back while my House falls.",
+            "speak;Simon;I'm certain you feel the same.{br}{w}Please, let's put a stop to this.",
+            "add_portrait;Vincent (Vincent);FarRight;right",
+            "speak;Vincent;We can't let these brigands get away with this!",
+            "speak;Luther;I see.",
+            "speak;Luther;We must proceed with caution, then.",
+            "speak;Luther;Just give the word and I'll knock these brigands to the ground...",
+            "speak;Simon;...and I'll follow up after that.",
+            "speak;Luther;Very good, milord.",
+            "multi_remove_portrait;Luther (Luther);Simon (Simon);Vincent (Vincent)",
+            "move_unit;Luther;15,3",
+            "wait;500",
+            "if;v('basicTutorials')",
+            "speak;Narrator;Every type of weapon has an advantage against another.{w}{br}Axes beat lances, lances beat swords, and swords beat axes.{w}{br}Luther, who wields an axe, should attack the lance-wielding knight.;StyleNid=hint",
+            "end",
+            "if;v('tutorialPopups')",
+            "speak;Narrator;Each weapon deals a different amount of stagger damage.{w}{br}However, stagger damage is affected by weapon advantage.{w}{br}If an attacker has weapon advantage, stagger will be multiplied by 1.5.{w}{br}However, if they are at a disadvantage, it will be halved.;StyleNid=hint",
+            "end"
+        ]
     }
 ]

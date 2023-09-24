@@ -490,7 +490,46 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "PuzzleCrates",
+                "units": [
+                    "101",
+                    "102",
+                    "106"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "PuzzleCrates2",
+                "units": [
+                    "103",
+                    "104",
+                    "105"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "PuzzleCrates3",
+                "units": [
+                    "107",
+                    "108",
+                    "109",
+                    "110"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "PuzzleCrates4",
+                "units": [
+                    "111",
+                    "112",
+                    "114",
+                    "113"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     }
 ]

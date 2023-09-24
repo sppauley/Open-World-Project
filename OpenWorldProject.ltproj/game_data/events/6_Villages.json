@@ -4,69 +4,20 @@
         "trigger": "Village",
         "level_nid": "6",
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.position == (13, 10)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Village 2 reward"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Alert Lance (AlertLance)"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village2"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit.position == (20, 4)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Village 1 reward"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Ferocity (Ferocity)"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village1"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;unit.position == (13, 10)",
+            "#Village 2 reward",
+            "give_item;{unit};Alert Lance (AlertLance)",
+            "remove_region;Village2",
+            "elif;unit.position == (20, 4)",
+            "#Village 1 reward",
+            "give_item;{unit};Ferocity (Ferocity)",
+            "remove_region;Village1",
+            "end",
+            "has_traded;{unit}"
+        ]
     }
 ]

@@ -4,18 +4,11 @@
         "trigger": null,
         "level_nid": "4",
         "condition": "True",
-        "commands": [
-            [
-                "give_skill",
-                [
-                    "{unit}",
-                    "Miasma (Miasma)",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};Miasma (Miasma);;FLAG(no_banner)"
+        ]
     }
 ]

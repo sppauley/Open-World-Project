@@ -4,186 +4,37 @@
         "trigger": "on_talk",
         "level_nid": "5",
         "condition": "unit2.nid == \"Lupus\" and game.get_unit(\"Lupus\").position == (7, 9)",
-        "commands": [
-            [
-                "add_unit",
-                [
-                    "Soldier (101)",
-                    "5,19"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Soldier (102)",
-                    "12,15"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Soldier (103)",
-                    "11,19"
-                ]
-            ],
-            [
-                "remove_group",
-                [
-                    "StartGroup",
-                    "fade"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Lupus (Lupus)",
-                    "Right",
-                    "FLAG(mirror)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit1}",
-                    "Left"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Lupus (Lupus)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Woah, scary!{w} Don't mind me..."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Lupus (Lupus)"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Lupus (Lupus)",
-                    "OffscreenRight"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "{unit1}"
-                ]
-            ],
-            [
-                "remove_game_board_bounds",
-                []
-            ],
-            [
-                "move_unit",
-                [
-                    "Lupus (Lupus)",
-                    "20,33",
-                    "swoosh",
-                    "closest",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "He got away?{w} Not for long."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "\"Mitzi\" in [u.nid for u in game.get_units_in_party()]"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mitzi (Mitzi)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mitzi",
-                    "Please be careful, milord.{w}{br}The locals know these sewers well."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I see. Then let us tread carefully."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Mitzi (Mitzi)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "change_roaming_unit",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "t"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_unit;Soldier (101);5,19",
+            "add_unit;Soldier (102);12,15",
+            "add_unit;Soldier (103);11,19",
+            "remove_group;StartGroup;fade",
+            "add_portrait;Lupus (Lupus);Right;FLAG(mirror)",
+            "wait;500",
+            "add_portrait;{unit1};Left",
+            "mirror_portrait;Lupus (Lupus)",
+            "speak;Lupus;Woah, scary!{w} Don't mind me...",
+            "mirror_portrait;Lupus (Lupus)",
+            "move_portrait;Lupus (Lupus);OffscreenRight",
+            "remove_portrait;{unit1}",
+            "remove_game_board_bounds",
+            "move_unit;Lupus (Lupus);20,33;swoosh;closest;FLAG(no_block);FLAG(no_follow)",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon;Left",
+            "speak;Simon;He got away?{w} Not for long.",
+            "if;\"Mitzi\" in [u.nid for u in game.get_units_in_party()]",
+            "add_portrait;Mitzi (Mitzi);Right",
+            "speak;Mitzi;Please be careful, milord.{w}{br}The locals know these sewers well.",
+            "speak;Simon;I see. Then let us tread carefully.",
+            "remove_portrait;Mitzi (Mitzi)",
+            "end",
+            "remove_portrait;Simon (Simon)",
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "change_roaming_unit;Simon (Simon)",
+            "change_roaming;t"
+        ]
     }
 ]

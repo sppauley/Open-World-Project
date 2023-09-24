@@ -4,19 +4,12 @@
         "trigger": "level_start",
         "level_nid": "3",
         "condition": "True",
-        "commands": [
-            [
-                "arrange_formation",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 16
+        "priority": 16,
+        "_source": [
+            "arrange_formation",
+            "trigger_script;GenericPreps (Global GenericPreps)"
+        ]
     }
 ]

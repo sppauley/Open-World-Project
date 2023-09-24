@@ -4,90 +4,22 @@
         "trigger": "turn_change",
         "level_nid": "10",
         "condition": "game.turncount==4",
-        "commands": [
-            [
-                "add_group",
-                [
-                    "Turn4"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "16,1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Monsters?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "This really isn't a good time."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Kajal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "They might be more help than you think."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "They won't attack the ruins."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "And we might be able to pit them against our adversaries here."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Hmm. I guess we'll see."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon",
-                    "Kajal"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_group;Turn4",
+            "flicker_cursor;16,1",
+            "wait;500",
+            "add_portrait;Simon;Left",
+            "speak;Simon;Monsters?",
+            "speak;Simon;This really isn't a good time.",
+            "add_portrait;Kajal;Right",
+            "speak;Kajal;They might be more help than you think.",
+            "speak;Kajal;They won't attack the ruins.",
+            "speak;Kajal;And we might be able to pit them against our adversaries here.",
+            "speak;Simon;Hmm. I guess we'll see.",
+            "multi_remove_portrait;Simon;Kajal"
+        ]
     }
 ]

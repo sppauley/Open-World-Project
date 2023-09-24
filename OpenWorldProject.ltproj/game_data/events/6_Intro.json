@@ -4,268 +4,50 @@
         "trigger": "level_start",
         "level_nid": "6",
         "condition": "True",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "overlay_tiles",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_fog_of_war",
-                    "True"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_fog_of_war_type",
-                    "2"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_fog_of_war_radius",
-                    "3"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_ai_fog_of_war_radius",
-                    "3"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "wallsUp",
-                    "False"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Wall (101)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Wall (102)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Wall (103)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Wall (104)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (122)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Cutthroat (116)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Cutthroat (105)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Cutthroat (128)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Start event narration"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Where did this fog come from?{w}{br}I can barely see a few steps ahead."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v(\"tutorialPopups\")"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Both player and enemy units are affected by the fog.{w}{br}Some units, such as thieves, have a high sight range.{w}{br}These units allow enemies to coordinate effectively.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v(\"FlowerRecruited\")"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Flower (Flower)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "Grr...."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I know, the bandits' hideout must be close."
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v(\"NikaRecruited\")"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Nika (Nika)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nika",
-                    "Simon, this feels like...{w}{br}It's the same as in the mine.{w}{br}Please, let me stay in the rear guard."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I'll try, but I cannot promise it.{w}{br}This battle will be fierce."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Nika",
-                    "I understand, I just...{w}{br}I'll stay back for now."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Nika (Nika)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "No need to attack immediately.{w}{br}Let's scout the area first."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Flower (Flower)",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#for;u;[unit.nid for unit in game.get_all_units()]"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#    give_skill;{u};Eldritch Swiftness (StaggerGaleforce);FLAG(no_banner)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#endf"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "show_layer;overlay_tiles;immediate;FLAG(no_warn)",
+            "level_var;_fog_of_war;True",
+            "level_var;_fog_of_war_type;2",
+            "level_var;_fog_of_war_radius;3",
+            "level_var;_ai_fog_of_war_radius;3",
+            "level_var;wallsUp;False",
+            "remove_unit;Wall (101)",
+            "remove_unit;Wall (102)",
+            "remove_unit;Wall (103)",
+            "remove_unit;Wall (104)",
+            "add_talk;Simon (Simon);Soldier (122)",
+            "add_talk;Simon (Simon);Cutthroat (116)",
+            "add_talk;Simon (Simon);Cutthroat (105)",
+            "add_talk;Simon (Simon);Cutthroat (128)",
+            "#",
+            "# Start event narration",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "add_portrait;Simon (Simon);MidRight",
+            "speak;Simon;Where did this fog come from?{w}{br}I can barely see a few steps ahead.",
+            "if;v(\"tutorialPopups\")",
+            "speak;Narrator;Both player and enemy units are affected by the fog.{w}{br}Some units, such as thieves, have a high sight range.{w}{br}These units allow enemies to coordinate effectively.;StyleNid=hint",
+            "end",
+            "if;v(\"FlowerRecruited\")",
+            "add_portrait;Flower (Flower);Right",
+            "speak;Flower;Grr....",
+            "speak;Simon;I know, the bandits' hideout must be close.",
+            "end",
+            "if;v(\"NikaRecruited\")",
+            "add_portrait;Nika (Nika);Left",
+            "speak;Nika;Simon, this feels like...{w}{br}It's the same as in the mine.{w}{br}Please, let me stay in the rear guard.",
+            "speak;Simon;I'll try, but I cannot promise it.{w}{br}This battle will be fierce.",
+            "speak;Nika;I understand, I just...{w}{br}I'll stay back for now.",
+            "remove_portrait;Nika (Nika)",
+            "end",
+            "speak;Simon;No need to attack immediately.{w}{br}Let's scout the area first.",
+            "remove_portrait;Simon (Simon)",
+            "remove_portrait;Flower (Flower);FLAG(no_warn)",
+            "#for;u;[unit.nid for unit in game.get_all_units()]",
+            "#    give_skill;{u};Eldritch Swiftness (StaggerGaleforce);FLAG(no_banner)",
+            "#endf"
+        ]
     }
 ]

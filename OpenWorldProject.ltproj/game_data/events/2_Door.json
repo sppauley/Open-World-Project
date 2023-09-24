@@ -4,69 +4,21 @@
         "trigger": "Escape",
         "level_nid": "2",
         "condition": "True",
-        "commands": [
-            [
-                "remove_unit",
-                [
-                    "{unit}"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "unit.nid=='Simon'"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I'll return one day,{w} I swear it."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "not any(unit.team == 'player' for unit in game.units if unit.position)"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit}",
+            "if;unit.nid=='Simon'",
+            "add_portrait;Simon;Left",
+            "speak;Simon;I'll return one day,{w} I swear it.",
+            "remove_portrait;Simon",
+            "win_game",
+            "end",
+            "wait;500",
+            "if;not any(unit.team == 'player' for unit in game.units if unit.position)",
+            "win_game",
+            "end"
+        ]
     }
 ]

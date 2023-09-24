@@ -4,134 +4,28 @@
         "trigger": "CheckBarrels",
         "level_nid": "12",
         "condition": "True",
-        "commands": [
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "28,8"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Juliet (Juliet)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Juliet (Juliet)",
-                    "26,8"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "..!"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "27,8"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Scheming something?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "The rebel dogs aren't trained.{w} The handlers can barely hold them.{w}{br}Throw in this fresh meat, and..."
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "They'll bite the closest thing they can see.{w}{br}Smart."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Pfh. Ain't nothing."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "hasMeat",
-                    "1"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon (Simon);28,8",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Juliet (Juliet)",
+            "move_unit;Juliet (Juliet);26,8",
+            "add_portrait;Juliet (Juliet);Left",
+            "speak;Juliet;..!",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Vincent (Vincent)",
+            "move_unit;Vincent (Vincent);27,8",
+            "add_portrait;Vincent (Vincent);Right;right",
+            "speak;Vincent;Scheming something?",
+            "speak;Juliet;The rebel dogs aren't trained.{w} The handlers can barely hold them.{w}{br}Throw in this fresh meat, and...",
+            "move_portrait;Juliet (Juliet);MidLeft",
+            "wait;500",
+            "move_portrait;Juliet (Juliet);Left",
+            "speak;Vincent;They'll bite the closest thing they can see.{w}{br}Smart.",
+            "speak;Juliet;Pfh. Ain't nothing.",
+            "multi_remove_portrait;Juliet (Juliet);Vincent (Vincent)",
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "level_var;hasMeat;1"
+        ]
     }
 ]

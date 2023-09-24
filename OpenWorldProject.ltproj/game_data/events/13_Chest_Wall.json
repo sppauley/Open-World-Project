@@ -4,22 +4,12 @@
         "trigger": "unit_death",
         "level_nid": "13",
         "condition": "unit.nid=='ChestWall'",
-        "commands": [
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "12,0"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "chest_break"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;12,0",
+            "show_layer;chest_break"
+        ]
     }
 ]

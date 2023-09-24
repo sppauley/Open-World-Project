@@ -4,29 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "12",
         "condition": "unit1.nid == 'Simon' or unit2.nid == 'Simon'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "I've got the lordling here!{w}{br}For Sir Percy! For the New Dawn!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SoldierRed"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierRed;Right",
+            "speak;SoldierRed;I've got the lordling here!{w}{br}For Sir Percy! For the New Dawn!",
+            "remove_portrait;SoldierRed"
+        ]
     }
 ]

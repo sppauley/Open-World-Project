@@ -4,54 +4,16 @@
         "trigger": "level_start",
         "level_nid": "11",
         "condition": "True",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "overlay",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "sidedoor",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "foyerdoor",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "NumPuzzlesCompleted",
-                    "0"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (115)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "show_layer;overlay;immediate;FLAG(no_warn)",
+            "show_layer;sidedoor;immediate;FLAG(no_warn)",
+            "show_layer;foyerdoor;immediate;FLAG(no_warn)",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "level_var;NumPuzzlesCompleted;0",
+            "add_talk;Simon (Simon);Soldier (115)"
+        ]
     }
 ]

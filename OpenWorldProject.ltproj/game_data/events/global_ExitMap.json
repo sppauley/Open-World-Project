@@ -4,31 +4,14 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "for",
-                [
-                    "party_unit",
-                    "[u.nid for u in game.get_units_in_party()]"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "{party_unit}",
-                    "None"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "for;party_unit;[u.nid for u in game.get_units_in_party()]",
+            "change_ai;{party_unit};None",
+            "endf",
+            "win_game"
+        ]
     }
 ]

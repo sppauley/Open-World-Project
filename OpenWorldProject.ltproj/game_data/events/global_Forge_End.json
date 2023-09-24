@@ -4,93 +4,23 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# Ends the forge based on calculations"
-                ]
-            ],
-            [
-                "inc_game_var",
-                [
-                    "{eval:game.level_vars['MaterialReference']}",
-                    "-game.level_vars['ForgeCost']"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Forge completed!"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.level_vars['NewComponent']==0"
-                ]
-            ],
-            [
-                "modify_item_component",
-                [
-                    "{v:ForgeUnit}",
-                    "{v:ForgeItem}",
-                    "{eval:game.level_vars['ForgeComponent']}",
-                    "game.level_vars['ForgeAmount']",
-                    "FLAG(additive)"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_item_component",
-                [
-                    "{v:ForgeUnit}",
-                    "{v:ForgeItem}",
-                    "{eval:game.level_vars['ForgeComponent']}",
-                    "game.level_vars['ForgeAmount']"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# some new components add non-stat changes. Updates the description to compensate."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.level_vars['ForgeComponent']=='double_triangle'"
-                ]
-            ],
-            [
-                "change_item_desc",
-                [
-                    "{v:ForgeUnit}",
-                    "{v:ForgeItem}",
-                    "{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0] +'Doubles weapon triangle.'}"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_item",
-                [
-                    "Blacksmith",
-                    "{v:ForgeItem}",
-                    "FLAG(no_banner)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# Ends the forge based on calculations",
+            "inc_game_var;{eval:game.level_vars['MaterialReference']};-game.level_vars['ForgeCost']",
+            "alert;Forge completed!",
+            "if;game.level_vars['NewComponent']==0",
+            "modify_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount'];FLAG(additive)",
+            "else",
+            "add_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount']",
+            "# some new components add non-stat changes. Updates the description to compensate.",
+            "if;game.level_vars['ForgeComponent']=='double_triangle'",
+            "change_item_desc;{v:ForgeUnit};{v:ForgeItem};{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0] +'Doubles weapon triangle.'}",
+            "end",
+            "end",
+            "remove_item;Blacksmith;{v:ForgeItem};FLAG(no_banner)"
+        ]
     }
 ]

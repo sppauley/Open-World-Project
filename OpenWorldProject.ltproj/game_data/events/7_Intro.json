@@ -4,142 +4,31 @@
         "trigger": "level_start",
         "level_nid": "7",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# debugging"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "PLAYER_UNIT",
-                    "[unit.nid for unit in game.get_player_units()]"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "{PLAYER_UNIT}",
-                    "16"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "#tutorials"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Dragonlord (Dragonlord)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "The dragon will blast fire at certain locations on the map.{w}{br}ANY unit hit by the dragon's fire will take 30 damage.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "10,39"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "300"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "There are also tomes scattered across the map that can affect MOV.{w}{br}Speed tomes will increase allies' MOV by 3 when destroyed.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "300"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "19,34"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "300"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Slow tomes will reduce enemies' MOV by 3 when destroyed.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "300"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# preps"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "True"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# debugging",
+            "for;PLAYER_UNIT;[unit.nid for unit in game.get_player_units()]",
+            "autolevel_to;{PLAYER_UNIT};16",
+            "endf",
+            "#tutorials",
+            "wait;700",
+            "flicker_cursor;Dragonlord (Dragonlord)",
+            "wait;700",
+            "speak;Narrator;The dragon will blast fire at certain locations on the map.{w}{br}ANY unit hit by the dragon's fire will take 30 damage.;StyleNid=hint",
+            "wait;500",
+            "flicker_cursor;10,39",
+            "wait;300",
+            "speak;Narrator;There are also tomes scattered across the map that can affect MOV.{w}{br}Speed tomes will increase allies' MOV by 3 when destroyed.;StyleNid=hint",
+            "wait;300",
+            "flicker_cursor;19,34",
+            "wait;300",
+            "speak;Narrator;Slow tomes will reduce enemies' MOV by 3 when destroyed.;StyleNid=hint",
+            "wait;300",
+            "# preps",
+            "game_var;freely_exit;True",
+            "trigger_script;GenericPreps (Global GenericPreps)"
+        ]
     }
 ]

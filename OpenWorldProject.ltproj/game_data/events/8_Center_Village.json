@@ -4,50 +4,17 @@
         "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid=='CenterVillage'",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive('Gustav')"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Steel Bow"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It looks like they raided the ruins already."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Gustav')",
+            "give_item;{unit};Steel Bow",
+            "else",
+            "add_portrait;Simon;Left",
+            "speak;Simon;It looks like they raided the ruins already.",
+            "remove_portrait;Simon",
+            "end"
+        ]
     }
 ]

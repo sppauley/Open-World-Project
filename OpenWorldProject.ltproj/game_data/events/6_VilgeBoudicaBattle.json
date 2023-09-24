@@ -4,65 +4,18 @@
         "trigger": "combat_start",
         "level_nid": "6",
         "condition": "check_pair('Vilge', 'Boudica')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Vilge (Vilge)",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Boudica",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Boudica",
-                    "You lead these abominations?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vilge",
-                    "Abominations? My children!{w} Why, you once knew what it means to be a mother."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Boudica",
-                    "You tread dangerously, knave."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vilge",
-                    "Absolute, undying love for your offspring.{w}{br}I have heard tales of your battles, Boudica.{w}{br}You understand my position, I'm sure."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Boudica",
-                    "I have heard enough of your ramblings.{w}{br}You will sour this earth no longer!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Boudica",
-                    "Vilge (Vilge)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Vilge (Vilge);Left",
+            "add_portrait;Boudica;Right",
+            "speak;Boudica;You lead these abominations?",
+            "speak;Vilge;Abominations? My children!{w} Why, you once knew what it means to be a mother.",
+            "speak;Boudica;You tread dangerously, knave.",
+            "speak;Vilge;Absolute, undying love for your offspring.{w}{br}I have heard tales of your battles, Boudica.{w}{br}You understand my position, I'm sure.",
+            "speak;Boudica;I have heard enough of your ramblings.{w}{br}You will sour this earth no longer!",
+            "multi_remove_portrait;Boudica;Vilge (Vilge)"
+        ]
     }
 ]

@@ -4,77 +4,20 @@
         "trigger": "level_start",
         "level_nid": "2",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# Set game vars relevant to a playthrough. Not crucial, but will avoid warning messages in the cmd prompt box"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "NikaRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "MitziRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FlowerRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "TwinsRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "LupusRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "HatshepsutMet",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_convoy",
-                    "True"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "False"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 25
+        "priority": 25,
+        "_source": [
+            "# Set game vars relevant to a playthrough. Not crucial, but will avoid warning messages in the cmd prompt box",
+            "#",
+            "game_var;NikaRecruited;False",
+            "game_var;MitziRecruited;False",
+            "game_var;FlowerRecruited;False",
+            "game_var;TwinsRecruited;False",
+            "game_var;LupusRecruited;False",
+            "game_var;HatshepsutMet;False",
+            "game_var;_convoy;True",
+            "game_var;freely_exit;False"
+        ]
     }
 ]

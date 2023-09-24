@@ -4,197 +4,40 @@
         "trigger": "Village",
         "level_nid": "17",
         "condition": "unit.team == 'enemy'",
-        "commands": [
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "2"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "unit.position == (14,16)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedright"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "{unit}",
-                    "Pursue"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village1"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FreesHouse1Destroyed",
-                    "True"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit.position == (8,12)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedleft"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "{unit}",
-                    "Pursue"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village2"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FreesHouse2Destroyed",
-                    "True"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit.position == (6,5)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedtop"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "{unit}",
-                    "Pursue"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village3"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FreesHouse3Destroyed",
-                    "True"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "unit.position == (14,6)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedtopright"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "{unit}",
-                    "Pursue"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village4"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.get_unit(\"Flower\")"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Flower (Flower)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "Raarrgh!{w}{br}RARRGHH!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Flower (Flower)",
-                    "enemy2"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "FreesHouse4Destroyed",
-                    "True"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "sound;VillageDestroyed;2",
+            "if;unit.position == (14,16)",
+            "show_layer;destroyedright",
+            "change_ai;{unit};Pursue",
+            "remove_region;Village1",
+            "game_var;FreesHouse1Destroyed;True",
+            "elif;unit.position == (8,12)",
+            "show_layer;destroyedleft",
+            "change_ai;{unit};Pursue",
+            "remove_region;Village2",
+            "game_var;FreesHouse2Destroyed;True",
+            "elif;unit.position == (6,5)",
+            "show_layer;destroyedtop",
+            "change_ai;{unit};Pursue",
+            "remove_region;Village3",
+            "game_var;FreesHouse3Destroyed;True",
+            "elif;unit.position == (14,6)",
+            "show_layer;destroyedtopright",
+            "change_ai;{unit};Pursue",
+            "remove_region;Village4",
+            "if;game.get_unit(\"Flower\")",
+            "center_cursor;Flower (Flower)",
+            "flicker_cursor;Flower (Flower)",
+            "add_portrait;Flower (Flower);Left",
+            "speak;Flower;Raarrgh!{w}{br}RARRGHH!",
+            "remove_portrait;Flower (Flower)",
+            "change_team;Flower (Flower);enemy2",
+            "end",
+            "game_var;FreesHouse4Destroyed;True",
+            "end"
+        ]
     }
 ]

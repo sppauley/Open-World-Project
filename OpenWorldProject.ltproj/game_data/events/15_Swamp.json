@@ -4,79 +4,20 @@
         "trigger": "Swamp",
         "level_nid": "15",
         "condition": "True",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "This water looks pretty gross."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Any idea how it turned this weird shade of purple?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Some say there's a strange miasma surrounding this place."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "It supposedly corrupts nature and...{w} uh, even turns the dead into monstrous beasts."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "You can't be serious."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "It's probably just a story."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "But, with everything going on, it's hard to say."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Vincent",
-                    "Simon"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Vincent;Right",
+            "speak;Simon;This water looks pretty gross.",
+            "speak;Simon;Any idea how it turned this weird shade of purple?",
+            "speak;Vincent;Some say there's a strange miasma surrounding this place.",
+            "speak;Vincent;It supposedly corrupts nature and...{w} uh, even turns the dead into monstrous beasts.",
+            "speak;Simon;You can't be serious.",
+            "speak;Vincent;It's probably just a story.",
+            "speak;Vincent;But, with everything going on, it's hard to say.",
+            "multi_remove_portrait;Vincent;Simon"
+        ]
     }
 ]

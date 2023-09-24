@@ -4,128 +4,29 @@
         "trigger": "Push",
         "level_nid": "8",
         "condition": "game.check_alive('BottomLeftCrate') and region.nid == 'BottomLeftCrate'",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "BottomLeftCrate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "BottomLeftCrate",
-                    "7,26"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "7,26",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "BottomLeftCrate"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.level_vars['BottomRightSwamp']!=1"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Looks like something's moving down there..."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.check_alive('Kajal')"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Kajal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "The swamp creatures should be here soon."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "I'd advise stepping away from the swamp."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Kajal"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "BottomLeftSwamp",
-                    "1"
-                ]
-            ],
-            [
-                "has_finished",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;BottomLeftCrate",
+            "move_unit;BottomLeftCrate;7,26",
+            "map_anim;Snag;7,26;FLAG(no_block)",
+            "kill_unit;BottomLeftCrate",
+            "wait;700",
+            "if;game.level_vars['BottomRightSwamp']!=1",
+            "add_portrait;Simon;Left",
+            "speak;Simon;Looks like something's moving down there...",
+            "if;game.check_alive('Kajal')",
+            "add_portrait;Kajal;Right",
+            "speak;Kajal;The swamp creatures should be here soon.",
+            "speak;Kajal;I'd advise stepping away from the swamp.",
+            "remove_portrait;Kajal",
+            "end",
+            "remove_portrait;Simon",
+            "end",
+            "wait;500",
+            "level_var;BottomLeftSwamp;1",
+            "has_finished;{unit}"
+        ]
     }
 ]

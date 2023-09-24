@@ -4,278 +4,54 @@
         "trigger": "level_start",
         "level_nid": "0",
         "condition": "True",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "overlaytiles",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "merchantdooropen",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "sewersentranceopen",
-                    "immediate",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "True"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add talks for Simon"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:EbertState}' == 'Met'"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Yusna (Yusna)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Rodger (Rodger)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Mitzi (Mitzi)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Blacksmith"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:TwinsRecruited} == True"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# pass"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Tristan (Twins)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "{v:HatshepsutMet} == True"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Hatshepsut (Hatshepsut)",
-                    "immediate"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# pass"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Hatshepsut (Hatshepsut)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add stuff here for putting player characters on map if they have a convo (e.x. Vincent/Juliet)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:RevealedBoat} == True"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Yusna (Yusna)",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Rodger (Rodger)",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon (Simon)",
-                    "Yusna (Yusna)"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon (Simon)",
-                    "Rodger (Rodger)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "{v:MitziRecruited} == True"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Mitzi (Mitzi)"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon (Simon)",
-                    "Mitzi (Mitzi)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v(\"LupusLvlUnlocked\") == True"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "sewersentranceopen",
-                    "immediate"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add stuff here for changing Simon's starting position depending on where he loaded into the map"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "show_layer;overlaytiles;immediate;FLAG(no_warn)",
+            "hide_layer;merchantdooropen;immediate;FLAG(no_warn)",
+            "hide_layer;sewersentranceopen;immediate;FLAG(no_warn)",
+            "game_var;freely_exit;True",
+            "#",
+            "# Add talks for Simon",
+            "#",
+            "if;'{v:EbertState}' == 'Met'",
+            "add_talk;Simon (Simon);Yusna (Yusna)",
+            "add_talk;Simon (Simon);Rodger (Rodger)",
+            "end",
+            "add_talk;Simon (Simon);Mitzi (Mitzi)",
+            "add_talk;Simon (Simon);Blacksmith",
+            "if;{v:TwinsRecruited} == True",
+            "# pass",
+            "else",
+            "add_talk;Simon (Simon);Tristan (Twins)",
+            "end",
+            "if;{v:HatshepsutMet} == True",
+            "remove_unit;Hatshepsut (Hatshepsut);immediate",
+            "# pass",
+            "else",
+            "add_talk;Simon (Simon);Hatshepsut (Hatshepsut)",
+            "end",
+            "#",
+            "# Add stuff here for putting player characters on map if they have a convo (e.x. Vincent/Juliet)",
+            "#",
+            "if;{v:RevealedBoat} == True",
+            "remove_unit;Yusna (Yusna);immediate",
+            "remove_unit;Rodger (Rodger);immediate",
+            "remove_talk;Simon (Simon);Yusna (Yusna)",
+            "remove_talk;Simon (Simon);Rodger (Rodger)",
+            "end",
+            "if;{v:MitziRecruited} == True",
+            "remove_unit;Mitzi (Mitzi)",
+            "remove_talk;Simon (Simon);Mitzi (Mitzi)",
+            "end",
+            "if;v(\"LupusLvlUnlocked\") == True",
+            "show_layer;sewersentranceopen;immediate",
+            "end",
+            "#",
+            "# Add stuff here for changing Simon's starting position depending on where he loaded into the map",
+            "#",
+            "center_cursor;Simon (Simon);FLAG(immediate)"
+        ]
     }
 ]

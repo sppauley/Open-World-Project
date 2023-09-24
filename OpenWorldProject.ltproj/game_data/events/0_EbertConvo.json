@@ -4,450 +4,76 @@
         "trigger": "Door",
         "level_nid": "0",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# In the future, this will be used for Simon's first conversation with Ebert"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Atm it's just for writing ideas"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Ebert is a rich merchant and de facto head of Port Hull. He collects $$$"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# from fees on incoming ships and funds many exporting ships"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Getting him on side is one way to establish control over Port Hull."
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# The easiest way to do that is to speak to him and then complete the boat"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# and Millin's Isle map. However, it is also possible to discover that he"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# provided a loan to New Dawn. If you wish, you can instead attack and"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# kill him, bringing Port Hull directly under Morrissey's control"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add dialogue here"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "*knock*"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "VillagerTeen",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "VillagerTeen",
-                    "Oh, uhm, excuse me, sir."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Yes?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "VillagerTeen",
-                    "That's Lord Ebert's office.{w}{br}Entry is forbidden without-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I have an appointment."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "VillagerTeen",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "merchantdooropen"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "7,27"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "merchantdooropen"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Ebert (Ebert)",
-                    "Left",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Lord Ebert! A pleasure to meet you.{w}{br}I'm Lord-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "Verstadt.{w} Take a seat."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...Of course."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "6,27"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "Well?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I've come on behalf of Lord Morrissey.{w}{br}He requests... one moment."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Sorry, I have his letter here..."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "A loan of 40,000 gold and a favorable reduction in your import tariffs."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "Very well. And what does he offer in return?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "He offers... err... the assistance of Lord Verstadt and his-{w}{br}my retainers."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "A moment, please.{w} The lamp's flame is low."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Ebert (Ebert)",
-                    "4,28"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "4000"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Ebert (Ebert)",
-                    "5,28"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "First, let me express my condolences for the loss of your home."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Thank you."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "As a noble myself, I understand your pain all too well."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "Now, on this topic."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "The acceptability of this proposal is conditional upon your labor.{w}{br}A local group of pirates have become too ambitious.{w}{br}Eliminating them will solidify this deal."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I will see to it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "They operate primarily from Millin's Isle.{w}{br}When you seize their hideout, burn it.{w}{br}It is important to me that an example be set,{w}{br}and that a blaze consumes their fort."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I understand.{w} On the matter of transport-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Ebert",
-                    "One of my captains should be preparing an expedition.{w}{br}Speak to him, and he will sail you to the isle."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Thank you, Lord Ebert."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "7,27"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "merchantdooropen"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "7,25"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "EbertState",
-                    "Met"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Yusna (Yusna)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Rodger (Rodger)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# In the future, this will be used for Simon's first conversation with Ebert",
+            "# Atm it's just for writing ideas",
+            "#",
+            "# Ebert is a rich merchant and de facto head of Port Hull. He collects $$$",
+            "# from fees on incoming ships and funds many exporting ships",
+            "# Getting him on side is one way to establish control over Port Hull.",
+            "# The easiest way to do that is to speak to him and then complete the boat",
+            "# and Millin's Isle map. However, it is also possible to discover that he",
+            "# provided a loan to New Dawn. If you wish, you can instead attack and",
+            "# kill him, bringing Port Hull directly under Morrissey's control",
+            "#",
+            "# Add dialogue here",
+            "add_portrait;Simon (Simon);Right",
+            "speak;Simon;*knock*",
+            "#",
+            "add_portrait;VillagerTeen;FarRight;right",
+            "speak;VillagerTeen;Oh, uhm, excuse me, sir.",
+            "mirror_portrait;Simon (Simon)",
+            "move_portrait;Simon (Simon);Left",
+            "speak;Simon;Yes?",
+            "speak;VillagerTeen;That's Lord Ebert's office.{w}{br}Entry is forbidden without-",
+            "speak;Simon;I have an appointment.",
+            "remove_portrait;VillagerTeen;FLAG(immediate)",
+            "remove_portrait;Simon (Simon);FLAG(immediate)",
+            "sound;Unlock",
+            "show_layer;merchantdooropen",
+            "move_unit;Simon (Simon);7,27",
+            "hide_layer;merchantdooropen",
+            "sound;Unlock",
+            "add_portrait;Ebert (Ebert);Left;FLAG(immediate)",
+            "add_portrait;Simon (Simon);Right;right",
+            "speak;Simon;Lord Ebert! A pleasure to meet you.{w}{br}I'm Lord-",
+            "speak;Ebert;Verstadt.{w} Take a seat.",
+            "speak;Simon;...Of course.",
+            "move_unit;Simon (Simon);6,27",
+            "speak;Ebert;Well?",
+            "speak;Simon;I've come on behalf of Lord Morrissey.{w}{br}He requests... one moment.",
+            "mirror_portrait;Simon (Simon)",
+            "bop_portrait;Simon (Simon)",
+            "speak;Simon;Sorry, I have his letter here...",
+            "mirror_portrait;Simon (Simon)",
+            "speak;Simon;A loan of 40,000 gold and a favorable reduction in your import tariffs.",
+            "speak;Ebert;Very well. And what does he offer in return?",
+            "speak;Simon;He offers... err... the assistance of Lord Verstadt and his-{w}{br}my retainers.",
+            "speak;Ebert;...",
+            "speak;Ebert;A moment, please.{w} The lamp's flame is low.",
+            "move_unit;Ebert (Ebert);4,28",
+            "wait;4000",
+            "move_unit;Ebert (Ebert);5,28",
+            "speak;Ebert;First, let me express my condolences for the loss of your home.",
+            "speak;Simon;Thank you.",
+            "speak;Ebert;As a noble myself, I understand your pain all too well.",
+            "speak;Ebert;Now, on this topic.",
+            "speak;Ebert;The acceptability of this proposal is conditional upon your labor.{w}{br}A local group of pirates have become too ambitious.{w}{br}Eliminating them will solidify this deal.",
+            "speak;Simon;I will see to it.",
+            "speak;Ebert;They operate primarily from Millin's Isle.{w}{br}When you seize their hideout, burn it.{w}{br}It is important to me that an example be set,{w}{br}and that a blaze consumes their fort.",
+            "speak;Simon;I understand.{w} On the matter of transport-",
+            "speak;Ebert;One of my captains should be preparing an expedition.{w}{br}Speak to him, and he will sail you to the isle.",
+            "speak;Simon;Thank you, Lord Ebert.",
+            "move_unit;Simon (Simon);7,27",
+            "sound;Unlock",
+            "show_layer;merchantdooropen",
+            "move_unit;Simon (Simon);7,25",
+            "game_var;EbertState;Met",
+            "add_talk;Simon (Simon);Yusna (Yusna)",
+            "add_talk;Simon (Simon);Rodger (Rodger)"
+        ]
     }
 ]

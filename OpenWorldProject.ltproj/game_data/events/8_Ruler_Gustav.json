@@ -4,15 +4,11 @@
         "trigger": "unit_wait",
         "level_nid": "8",
         "condition": "not any(get_units_in_region('Gustav', nid='Gustav')) and unit.team=='player'",
-        "commands": [
-            [
-                "unit_act",
-                [
-                    "Gustav"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "unit_act;Gustav"
+        ]
     }
 ]

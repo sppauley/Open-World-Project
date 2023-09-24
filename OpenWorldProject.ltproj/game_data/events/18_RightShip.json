@@ -4,67 +4,19 @@
         "trigger": "turn_change",
         "level_nid": "18",
         "condition": "game.turncount == 2",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "23,26"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "rightship"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# add enemies here"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "RightGroup",
-                    "starting",
-                    "fade"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# add dialogue here"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Looks like they're bringing in their real ships.{w}{br}Hold fast, everyone!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;23,26",
+            "show_layer;rightship",
+            "# add enemies here",
+            "add_group;RightGroup;starting;fade",
+            "# add dialogue here",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Right",
+            "speak;Simon;Looks like they're bringing in their real ships.{w}{br}Hold fast, everyone!",
+            "remove_portrait;Simon (Simon)"
+        ]
     }
 ]

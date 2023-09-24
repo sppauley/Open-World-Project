@@ -184,6 +184,10 @@
         true
     ],
     [
+        "direct_attack_selection",
+        true
+    ],
+    [
         "autogenerate_grey_map_sprites",
         true
     ],

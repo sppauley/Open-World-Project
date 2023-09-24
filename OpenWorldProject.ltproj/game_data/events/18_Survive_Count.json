@@ -4,147 +4,31 @@
         "trigger": "turn_change",
         "level_nid": "18",
         "condition": "game.turncount == 10",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "Caylus (Caylus)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Caylus (Caylus)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "Damn, they're putting up a fight.{w}{br}All for you, Mr. Captain!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Rodger (Rodger)",
-                    "Left",
-                    "normal",
-                    "CloseEyes"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Rodger",
-                    "*cough*... *cough*..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "But they ain't got much longer.{w} I can tell."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Rodger",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "What're ya doing with a ship full of mercs, anyway?{w}{br}Cargo that good?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Rodger",
-                    "Hired to...{w} *cough*... destroy the fort..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "W-why didn' ya say that earlier?{w}{br}Attacking Bounty's boys is just what I need.{w}{br}I'm calling this whole thing off,{w}{br}Fates, I oughta thank ya!{w}{br}The Caylus Crew ain't gonna be under his thumb no more!"
-                ]
-            ],
-            [
-                "separate",
-                [
-                    "Caylus (Caylus)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Rodger (Rodger)",
-                    "Caylus (Caylus)",
-                    "fade",
-                    "closest"
-                ]
-            ],
-            [
-                "remove_all_enemies",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "SharedOutroDialogue (18 SharedOutroDialogue)"
-                ]
-            ],
-            [
-                "overworld_cinematic",
-                [
-                    "The Continent (1)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Pirate's Current (49)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Millin's Isle (50)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "49",
-                    "50"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Caylus's Fleet (55)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "49",
-                    "55"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;Caylus (Caylus)",
+            "add_portrait;Caylus (Caylus);Right",
+            "speak;Caylus;Damn, they're putting up a fight.{w}{br}All for you, Mr. Captain!",
+            "add_portrait;Rodger (Rodger);Left;normal;CloseEyes",
+            "speak;Rodger;*cough*... *cough*...",
+            "speak;Caylus;But they ain't got much longer.{w} I can tell.",
+            "speak;Rodger;...",
+            "speak;Caylus;What're ya doing with a ship full of mercs, anyway?{w}{br}Cargo that good?",
+            "speak;Rodger;Hired to...{w} *cough*... destroy the fort...",
+            "speak;Caylus;W-why didn' ya say that earlier?{w}{br}Attacking Bounty's boys is just what I need.{w}{br}I'm calling this whole thing off,{w}{br}Fates, I oughta thank ya!{w}{br}The Caylus Crew ain't gonna be under his thumb no more!",
+            "separate;Caylus (Caylus)",
+            "add_unit;Rodger (Rodger);Caylus (Caylus);fade;closest",
+            "remove_all_enemies",
+            "trigger_script;SharedOutroDialogue (18 SharedOutroDialogue)",
+            "overworld_cinematic;The Continent (1)",
+            "center_cursor;Pirate's Current (49)",
+            "reveal_overworld_node;Millin's Isle (50)",
+            "reveal_overworld_road;49;50",
+            "reveal_overworld_node;Caylus's Fleet (55)",
+            "reveal_overworld_road;49;55",
+            "win_game"
+        ]
     }
 ]

@@ -4,17 +4,11 @@
         "trigger": "turn_change",
         "level_nid": "1",
         "condition": "True",
-        "commands": [
-            [
-                "set_stats",
-                [
-                    "Bordeaux (Bordeaux)",
-                    "MOV,2",
-                    "FLAG(immediate)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "set_stats;Bordeaux (Bordeaux);MOV,2;FLAG(immediate)"
+        ]
     }
 ]

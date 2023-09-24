@@ -4,17 +4,11 @@
         "trigger": "Grave",
         "level_nid": "17",
         "condition": "region.nid== \"Grave2\"",
-        "commands": [
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Here lies Sadie, daughter of Alister.{w}{br}A wise woman but poor accountant.",
-                    "StyleNid=hint"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "speak;Narrator;Here lies Sadie, daughter of Alister.{w}{br}A wise woman but poor accountant.;StyleNid=hint"
+        ]
     }
 ]

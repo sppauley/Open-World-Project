@@ -4,96 +4,25 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# gives a default version of the item to the blacksmith for comparison"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Blacksmith",
-                    "{v:ForgeItem}",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "item_system.is_weapon(game.get_unit('{v:ForgeUnit}'),[item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0])"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "ForgeType",
-                    "Choose a material:",
-                    "{eval:','.join([str(var).replace('WeaponMaterial','')+' ('+str(game.game_vars[var])+')' for var in game.game_vars if 'WeaponMaterial' in str(var)])}",
-                    "102",
-                    "FLAG(backable)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:ForgeType}'!='BACK'"
-                ]
-            ],
-            [
-                "trigger_script_with_args",
-                [
-                    "Forge_Calculate",
-                    "ForgeType,{v:ForgeType}"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "trigger_script_with_args",
-                [
-                    "Forge_PickItem",
-                    "ForgeUnit,{v:ForgeUnit}"
-                ]
-            ],
-            [
-                "unchoice",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "alert",
-                [
-                    "Not Weapon"
-                ]
-            ],
-            [
-                "trigger_script_with_args",
-                [
-                    "Forge_PickItem",
-                    "ForgeUnit,{v:ForgeUnit}"
-                ]
-            ],
-            [
-                "unchoice",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# gives a default version of the item to the blacksmith for comparison",
+            "give_item;Blacksmith;{v:ForgeItem};FLAG(no_banner)",
+            "if;item_system.is_weapon(game.get_unit('{v:ForgeUnit}'),[item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0])",
+            "choice;ForgeType;Choose a material:;{eval:','.join([str(var).replace('WeaponMaterial','')+' ('+str(game.game_vars[var])+')' for var in game.game_vars if 'WeaponMaterial' in str(var)])};102;FLAG(backable)",
+            "if;'{v:ForgeType}'!='BACK'",
+            "trigger_script_with_args;Forge_Calculate;ForgeType,{v:ForgeType}",
+            "else",
+            "trigger_script_with_args;Forge_PickItem;ForgeUnit,{v:ForgeUnit}",
+            "unchoice",
+            "end",
+            "else",
+            "alert;Not Weapon",
+            "trigger_script_with_args;Forge_PickItem;ForgeUnit,{v:ForgeUnit}",
+            "unchoice",
+            "end"
+        ]
     }
 ]

@@ -4,23 +4,12 @@
         "trigger": "level_start",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "game_var",
-                [
-                    "_roam_speed",
-                    "0.60"
-                ]
-            ],
-            [
-                "loop_units",
-                [
-                    "[unit for unit in game.get_all_units()]",
-                    "Reset Poise (Global Reset Poise)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "game_var;_roam_speed;0.60",
+            "loop_units;[unit for unit in game.get_all_units()];Reset Poise (Global Reset Poise)"
+        ]
     }
 ]

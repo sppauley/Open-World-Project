@@ -4,58 +4,24 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# WILL NOT WORK IF PUZZLECRATES GROUP DOES NOT EXIST IN LEVEL"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "not any([skill_system.can_select(u) and not u.finished for u in game.get_player_units()])"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "crate",
-                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
-                ]
-            ],
-            [
-                "reset",
-                [
-                    "{crate}"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "remove_group",
-                [
-                    "PuzzleCrates",
-                    "fade"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "PuzzleCrates",
-                    "starting",
-                    "fade",
-                    "push"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# WILL NOT WORK IF PUZZLECRATES GROUP DOES NOT EXIST IN LEVEL",
+            "if;not any([skill_system.can_select(u) and not u.finished for u in game.get_player_units() if game.board.check_bounds(u.position)])",
+            "for;crate;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]",
+            "reset;{crate}",
+            "endf",
+            "remove_group;PuzzleCrates;fade",
+            "add_group;PuzzleCrates;starting;fade;push",
+            "remove_group;PuzzleCrates2;fade",
+            "add_group;PuzzleCrates2;starting;fade;push",
+            "remove_group;PuzzleCrates3;fade",
+            "add_group;PuzzleCrates3;starting;fade;push",
+            "remove_group;PuzzleCrates4;fade",
+            "add_group;PuzzleCrates4;starting;fade;push",
+            "end"
+        ]
     }
 ]

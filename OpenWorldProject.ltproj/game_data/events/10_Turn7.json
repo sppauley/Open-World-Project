@@ -4,45 +4,15 @@
         "trigger": "turn_change",
         "level_nid": "10",
         "condition": "game.turncount==7",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Larry",
-                    "Right",
-                    "",
-                    "Smile"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Larry",
-                    "If I don't step in now, it'll look bad."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Larry",
-                    "They're putting up more of a fight than I thought..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Larry"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "Larry",
-                    "DefendMapAttack"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Larry;Right;;Smile",
+            "speak;Larry;If I don't step in now, it'll look bad.",
+            "speak;Larry;They're putting up more of a fight than I thought...",
+            "remove_portrait;Larry",
+            "change_ai;Larry;DefendMapAttack"
+        ]
     }
 ]

@@ -4,176 +4,34 @@
         "trigger": "on_talk",
         "level_nid": "FVRoaming",
         "condition": "unit2.nid in [\"101\", \"Flower\"]",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Villager Girl",
-                    "MidRight",
-                    "FLAG(mirror)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Flower (Flower)",
-                    "FarRight",
-                    "FLAG(mirror)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "300"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*sniff* *sniff*"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What's she doing?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Digging!{w} She likes to hide treasure all around."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Treasure? Could be useful."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*happy bark*"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Villager Girl"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Flower! I told you to stop burying skulls!{w}{br}Dad will be so mad if he finds out!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Go put that back where you found it!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*whine*"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Or, just, put it somewhere else!{w}{br}Please!"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Flower (Flower)",
-                    "OffscreenRight"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Villager Girl"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "I hate when she does that."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Does she ever... bring you... the skulls?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "She used to.{w} I had to be very mean to get her to stop."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Flower (Flower)",
-                    "Villager Girl",
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Villager Girl;MidRight;FLAG(mirror)",
+            "add_portrait;Flower (Flower);FarRight;FLAG(mirror)",
+            "wait;300",
+            "add_portrait;Simon (Simon);Left;left",
+            "speak;Flower;*sniff* *sniff*",
+            "speak;Simon;What's she doing?",
+            "speak;Villager Girl;Digging!{w} She likes to hide treasure all around.",
+            "speak;Simon;Treasure? Could be useful.",
+            "mirror_portrait;Flower (Flower)",
+            "speak;Flower;*happy bark*",
+            "bop_portrait;Villager Girl",
+            "speak;Villager Girl;Flower! I told you to stop burying skulls!{w}{br}Dad will be so mad if he finds out!",
+            "speak;Simon;...",
+            "speak;Villager Girl;Go put that back where you found it!",
+            "speak;Flower;*whine*",
+            "speak;Villager Girl;Or, just, put it somewhere else!{w}{br}Please!",
+            "mirror_portrait;Flower (Flower)",
+            "move_portrait;Flower (Flower);OffscreenRight",
+            "mirror_portrait;Villager Girl",
+            "speak;Villager Girl;I hate when she does that.",
+            "speak;Simon;Does she ever... bring you... the skulls?",
+            "speak;Villager Girl;She used to.{w} I had to be very mean to get her to stop.",
+            "speak;Simon;...",
+            "multi_remove_portrait;Flower (Flower);Villager Girl;Simon (Simon)"
+        ]
     }
 ]

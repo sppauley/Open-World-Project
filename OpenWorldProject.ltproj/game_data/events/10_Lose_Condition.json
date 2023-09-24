@@ -4,13 +4,11 @@
         "trigger": "DefendObjective",
         "level_nid": "10",
         "condition": "unit.team=='enemy'",
-        "commands": [
-            [
-                "lose_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "lose_game"
+        ]
     }
 ]

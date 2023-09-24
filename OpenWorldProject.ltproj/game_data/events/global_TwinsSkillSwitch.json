@@ -4,73 +4,19 @@
         "trigger": "turn_change",
         "level_nid": null,
         "condition": "game.get_unit(\"Twins\")",
-        "commands": [
-            [
-                "remove_skill",
-                [
-                    "Tristan (Twins)",
-                    "Dualhearted - DMG (DualheartedDMG)",
-                    "FLAG(no_banner)",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "remove_skill",
-                [
-                    "Tristan (Twins)",
-                    "Dualhearted - STG (DualheartedSTG)",
-                    "FLAG(no_banner)",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.turncount % 2 == 0"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "Tristan (Twins)",
-                    "Dualhearted - DMG (DualheartedDMG)",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "set_name",
-                [
-                    "Twins",
-                    "Trina"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "give_skill",
-                [
-                    "Tristan (Twins)",
-                    "Dualhearted - STG (DualheartedSTG)",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "set_name",
-                [
-                    "Twins",
-                    "Tristan"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "remove_skill;Tristan (Twins);Dualhearted - DMG (DualheartedDMG);FLAG(no_banner);FLAG(no_warn)",
+            "remove_skill;Tristan (Twins);Dualhearted - STG (DualheartedSTG);FLAG(no_banner);FLAG(no_warn)",
+            "if;game.turncount % 2 == 0",
+            "give_skill;Tristan (Twins);Dualhearted - DMG (DualheartedDMG);;FLAG(no_banner)",
+            "set_name;Twins;Trina",
+            "else",
+            "give_skill;Tristan (Twins);Dualhearted - STG (DualheartedSTG);;FLAG(no_banner)",
+            "set_name;Twins;Tristan",
+            "end"
+        ]
     }
 ]

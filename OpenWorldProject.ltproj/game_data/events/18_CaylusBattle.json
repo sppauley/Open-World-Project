@@ -4,29 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "18",
         "condition": "check_default('Caylus', ['Juliet'])",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Caylus (Caylus)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "Harharhar, sailin' into these waters takes gusto!{w}{br}Too bad ya ain't got the brawns to back it up!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Caylus (Caylus)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Caylus (Caylus);Right",
+            "speak;Caylus;Harharhar, sailin' into these waters takes gusto!{w}{br}Too bad ya ain't got the brawns to back it up!",
+            "remove_portrait;Caylus (Caylus)"
+        ]
     }
 ]

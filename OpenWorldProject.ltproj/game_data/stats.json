@@ -4,48 +4,55 @@
         "name": "HP",
         "maximum": 60,
         "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
-        "position": "hidden"
+        "position": "hidden",
+        "growth_colors": false
     },
     {
         "nid": "CON",
         "name": "Con",
         "maximum": 30,
         "desc": "Constitution. Determines ability to use heavy weapons.",
-        "position": "left"
+        "position": "left",
+        "growth_colors": false
     },
     {
         "nid": "MAG",
         "name": "Mag",
         "maximum": 30,
         "desc": "Magic. Determines ability to use magic items and status resistance.",
-        "position": "left"
+        "position": "left",
+        "growth_colors": false
     },
     {
         "nid": "DEX",
         "name": "Dex",
         "maximum": 30,
         "desc": "Dexterity. Determines hit rate, critical rate, and critical avoid.",
-        "position": "left"
+        "position": "left",
+        "growth_colors": false
     },
     {
         "nid": "SPD",
         "name": "Spd",
         "maximum": 30,
         "desc": "Speed. A unit can attack twice if its speed is 4 higher than the opponent's.",
-        "position": "left"
+        "position": "left",
+        "growth_colors": false
     },
     {
         "nid": "PSE",
         "name": "Pse",
         "maximum": 25,
         "desc": "Poise. A unit's resistance to stagger.",
-        "position": "right"
+        "position": "right",
+        "growth_colors": false
     },
     {
         "nid": "MOV",
         "name": "Mov",
         "maximum": 15,
         "desc": "The distance you can move in one turn.",
-        "position": "right"
+        "position": "right",
+        "growth_colors": false
     }
 ]

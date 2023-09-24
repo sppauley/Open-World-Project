@@ -4,31 +4,13 @@
         "trigger": "combat_end",
         "level_nid": "2",
         "condition": "(v('tutorialPopups') == 1  or v('basicTutorials') == 1) and game.get_unit('Vincent').position == (22, 4)",
-        "commands": [
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "The enemy has now been broken.{w}{br}The next attack against a broken enemy will always be a critical.{w}{br}However, if no attack has been made against a broken enemy,{w}{br}they will not be able to act during their turn.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Select Simon and eliminate the enemy.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "speak;Narrator;The enemy has now been broken.{w}{br}The next attack against a broken enemy will always be a critical.{w}{br}However, if no attack has been made against a broken enemy,{w}{br}they will not be able to act during their turn.;StyleNid=hint",
+            "speak;Narrator;Select Simon and eliminate the enemy.;StyleNid=hint",
+            "center_cursor;Simon (Simon)"
+        ]
     }
 ]

@@ -4,26 +4,12 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}"
-                ]
-            ],
-            [
-                "prep",
-                [
-                    "t",
-                    "Combat Preparation",
-                    "Pathways,Difficulty,Exit",
-                    "True,True,{v:freely_exit}",
-                    "PathwayMenu,ChangeDifficulty,ExitMap",
-                    "t"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
+            "prep;t;Combat Preparation;Pathways,Difficulty,Exit;True,True,{v:freely_exit};PathwayMenu,ChangeDifficulty,ExitMap;t"
+        ]
     }
 ]

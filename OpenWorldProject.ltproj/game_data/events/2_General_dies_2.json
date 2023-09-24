@@ -4,387 +4,66 @@
         "trigger": "combat_end",
         "level_nid": "2",
         "condition": "game.check_dead('101') and game.level_vars['SimonReset']==1",
-        "commands": [
-            [
-                "set_game_board_bounds",
-                [
-                    "0",
-                    "0",
-                    "37",
-                    "18"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "layer1"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "layer1"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "layer2"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "108"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "108",
-                    "25,11"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "26,11",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "broken_pillar"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "110"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "110",
-                    "23,9"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "23,7",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "23,8",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "broken_statue"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "111"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "111",
-                    "20,12"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "19,12",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "21,12",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "21,13",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "20,13",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "broken_carpet"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Percy (Percy)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Percy (Percy)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Percy",
-                    "I appreciate the zeal, but let's try not to destroy too much."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Percy",
-                    "We just need to find Verstadt and take the throne."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Percy",
-                    "Try to spare any servants, if possible."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Percy (Percy)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Let's get out of here."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "But our home..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I know..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "But you have to trust me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "If we stay and fight, we're going to die."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "..."
-                ]
-            ],
-            [
-                "change_objective_win",
-                [
-                    "Escape"
-                ]
-            ],
-            [
-                "change_objective_simple",
-                [
-                    "Escape"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Lord Verstadt is correct."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "There is nothing to gain by throwing our lives away."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "I suppose you're right."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Sorry, Simon, I just thought..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Let's just...{w} get out while we can."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "Vincent (Vincent)",
-                    "Luther"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "layer2"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "layer3"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "6,8"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "set_game_board_bounds;0;0;37;18",
+            "hide_layer;layer1",
+            "add_group;layer1",
+            "add_group;layer2",
+            "center_cursor;108",
+            "move_unit;108;25,11",
+            "map_anim;Snag;26,11;FLAG(no_block)",
+            "show_layer;broken_pillar",
+            "wait;1000",
+            "center_cursor;110",
+            "move_unit;110;23,9",
+            "map_anim;Snag;23,7;FLAG(no_block)",
+            "map_anim;Snag;23,8;FLAG(no_block)",
+            "show_layer;broken_statue",
+            "wait;1000",
+            "center_cursor;111",
+            "move_unit;111;20,12",
+            "map_anim;Snag;19,12;FLAG(no_block)",
+            "map_anim;Snag;21,12;FLAG(no_block)",
+            "map_anim;Snag;21,13;FLAG(no_block)",
+            "map_anim;Snag;20,13;FLAG(no_block)",
+            "show_layer;broken_carpet",
+            "wait;1000",
+            "flicker_cursor;Percy (Percy)",
+            "add_portrait;Percy (Percy);Right",
+            "speak;Percy;I appreciate the zeal, but let's try not to destroy too much.",
+            "speak;Percy;We just need to find Verstadt and take the throne.",
+            "speak;Percy;Try to spare any servants, if possible.",
+            "remove_portrait;Percy (Percy)",
+            "wait;500",
+            "flicker_cursor;Simon",
+            "add_portrait;Simon (Simon);Left",
+            "speak;Simon;...",
+            "speak;Simon;Let's get out of here.",
+            "add_portrait;Vincent (Vincent);Right",
+            "speak;Vincent;But our home...",
+            "speak;Simon;...",
+            "speak;Simon;I know...",
+            "speak;Simon;But you have to trust me.",
+            "speak;Simon;If we stay and fight, we're going to die.",
+            "speak;Vincent;...",
+            "change_objective_win;Escape",
+            "change_objective_simple;Escape",
+            "add_portrait;Luther (Luther);FarLeft",
+            "speak;Luther;Lord Verstadt is correct.",
+            "speak;Luther;There is nothing to gain by throwing our lives away.",
+            "speak;Vincent;I suppose you're right.",
+            "speak;Vincent;Sorry, Simon, I just thought...",
+            "speak;Simon;Let's just...{w} get out while we can.",
+            "multi_remove_portrait;Simon (Simon);Vincent (Vincent);Luther",
+            "wait;500",
+            "hide_layer;layer2",
+            "add_group;layer3",
+            "flicker_cursor;6,8",
+            "wait;400",
+            "center_cursor;Simon (Simon)"
+        ]
     }
 ]

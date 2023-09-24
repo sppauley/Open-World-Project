@@ -4,28 +4,13 @@
         "trigger": "turn_change",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "for",
-                [
-                    "voiced_unit",
-                    "[unit.nid for unit in game.get_player_units()]"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "{voiced_unit}",
-                    "SpokeSelectionQuote",
-                    "0"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 23
+        "priority": 23,
+        "_source": [
+            "for;voiced_unit;[unit.nid for unit in game.get_player_units()]",
+            "set_unit_field;{voiced_unit};SpokeSelectionQuote;0",
+            "endf"
+        ]
     }
 ]

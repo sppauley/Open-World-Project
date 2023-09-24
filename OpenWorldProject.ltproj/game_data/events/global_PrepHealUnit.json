@@ -4,58 +4,17 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "add_unit",
-                [
-                    "{var:HealChoice}",
-                    "Simon",
-                    "immediate",
-                    "closest"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "{var:HealTargetChoice}",
-                    "Simon",
-                    "immediate",
-                    "closest"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "{var:HealChoice}",
-                    "{var:HealTargetChoice}",
-                    "hit1,end",
-                    "{var:HealItemChoice}"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "{var:HealChoice}"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{var:HealTargetChoice} != \"Simon\""
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "{var:HealTargetChoice}"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_unit;{var:HealChoice};Simon;immediate;closest",
+            "add_unit;{var:HealTargetChoice};Simon;immediate;closest",
+            "interact_unit;{var:HealChoice};{var:HealTargetChoice};hit1,end;{var:HealItemChoice}",
+            "remove_unit;{var:HealChoice}",
+            "if;{var:HealTargetChoice} != \"Simon\"",
+            "remove_unit;{var:HealTargetChoice}",
+            "end"
+        ]
     }
 ]

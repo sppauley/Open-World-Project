@@ -4,31 +4,14 @@
         "trigger": "Door",
         "level_nid": "9",
         "condition": "game.level_vars['NightPassed']==1",
-        "commands": [
-            [
-                "choice",
-                [
-                    "LeaveMorrisseyCastle",
-                    "Training Grounds",
-                    "Enter Training Grounds,Go Back"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:LeaveMorrisseyCastle}' == 'Enter Training Grounds'"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "choice;LeaveMorrisseyCastle;Training Grounds;Enter Training Grounds,Go Back",
+            "if;'{v:LeaveMorrisseyCastle}' == 'Enter Training Grounds'",
+            "win_game",
+            "end"
+        ]
     }
 ]

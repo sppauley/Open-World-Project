@@ -4,33 +4,14 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.get_stat('CON') < 10"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "MapPoison",
-                    "{unit}"
-                ]
-            ],
-            [
-                "set_current_poise",
-                [
-                    "{unit}",
-                    "1"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;unit.get_stat('CON') < 10",
+            "map_anim;MapPoison;{unit}",
+            "set_current_poise;{unit};1",
+            "end"
+        ]
     }
 ]

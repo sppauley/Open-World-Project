@@ -4,17 +4,11 @@
         "trigger": "enemy_turn_change",
         "level_nid": "8",
         "condition": "not any(get_units_in_region('Gustav', nid='Gustav'))",
-        "commands": [
-            [
-                "set_stats",
-                [
-                    "Gustav",
-                    "MOV,7",
-                    "FLAG(immediate)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "set_stats;Gustav;MOV,7;FLAG(immediate)"
+        ]
     }
 ]

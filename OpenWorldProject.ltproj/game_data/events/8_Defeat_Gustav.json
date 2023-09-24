@@ -4,50 +4,17 @@
         "trigger": "combat_end",
         "level_nid": "8",
         "condition": "(unit2.nid=='Gustav' or unit.nid=='Gustav') and game.check_dead('Gustav')",
-        "commands": [
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It looks like they're retreating..."
-                ]
-            ],
-            [
-                "remove_all_enemies",
-                []
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "t"
-                ]
-            ],
-            [
-                "change_roaming_unit",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "speak;Simon;It looks like they're retreating...",
+            "remove_all_enemies",
+            "wait;500",
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "change_roaming;t",
+            "change_roaming_unit;Simon (Simon)",
+            "center_cursor;Simon (Simon)"
+        ]
     }
 ]

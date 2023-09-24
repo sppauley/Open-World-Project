@@ -4,37 +4,15 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "for",
-                [
-                    "PARTY_UNIT",
-                    "[unit.nid for unit in game.get_units_in_party()]"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "game.get_unit('{PARTY_UNIT}').get_field('PartyMember') == \"Yes\""
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "{PARTY_UNIT}",
-                    "immediate"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "endf",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "for;PARTY_UNIT;[unit.nid for unit in game.get_units_in_party()]",
+            "if;game.get_unit('{PARTY_UNIT}').get_field('PartyMember') == \"Yes\"",
+            "remove_unit;{PARTY_UNIT};immediate",
+            "end",
+            "endf"
+        ]
     }
 ]

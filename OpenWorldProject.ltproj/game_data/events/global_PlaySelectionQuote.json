@@ -4,53 +4,18 @@
         "trigger": "unit_select",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.get_field('SpokeSelectionQuote') != 1"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "(unit.current_hp / unit.get_max_hp()) < 0.4"
-                ]
-            ],
-            [
-                "selection_voice_injured",
-                [
-                    "{e:unit.nid}"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "selection_voice",
-                [
-                    "{e:unit.nid}"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "set_unit_field",
-                [
-                    "{e:unit.nid}",
-                    "SpokeSelectionQuote",
-                    "1"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;unit.get_field('SpokeSelectionQuote') != 1",
+            "if;(unit.current_hp / unit.get_max_hp()) < 0.4",
+            "selection_voice_injured;{e:unit.nid}",
+            "else",
+            "selection_voice;{e:unit.nid}",
+            "end",
+            "end",
+            "set_unit_field;{e:unit.nid};SpokeSelectionQuote;1"
+        ]
     }
 ]

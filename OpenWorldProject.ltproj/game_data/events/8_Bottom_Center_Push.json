@@ -4,55 +4,17 @@
         "trigger": "Push",
         "level_nid": "8",
         "condition": "game.check_alive('BottomCenterCrate') and region.nid == 'BottomCenterCrate'",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "BottomCenterCrate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "BottomCenterCrate",
-                    "9,20"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "9,20",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "BottomCenterCrate"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "BottomCenterSwamp",
-                    "1"
-                ]
-            ],
-            [
-                "has_finished",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;BottomCenterCrate",
+            "move_unit;BottomCenterCrate;9,20",
+            "map_anim;Snag;9,20;FLAG(no_block)",
+            "kill_unit;BottomCenterCrate",
+            "wait;700",
+            "level_var;BottomCenterSwamp;1",
+            "has_finished;{unit}"
+        ]
     }
 ]

@@ -4,86 +4,22 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "change_background",
-                [
-                    "title_background"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "HealChoice",
-                    "Choose a Healer",
-                    "{e:','.join([u.nid for u in game.get_all_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) and item_system.available(u, item) for item in u.items])]) +',Go Back'}",
-                    "",
-                    "v",
-                    "center"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{var:HealChoice}' == 'Go Back'"
-                ]
-            ],
-            [
-                "finish",
-                []
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "choice",
-                [
-                    "HealItemChoice",
-                    "Choose an Item",
-                    "{e:','.join([i.nid for i in game.get_unit('{var:HealChoice}').items if item_funcs.targets_nonself_allies(game.get_unit('{var:HealChoice}'), i)]) + ',Go Back'}",
-                    "",
-                    "v",
-                    "center"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{var:HealItemChoice}' == 'Go Back'"
-                ]
-            ],
-            [
-                "finish",
-                []
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "choice",
-                [
-                    "HealTargetChoice",
-                    "Choose a Target",
-                    "{e:','.join([u.nid for u in game.get_units_in_party() if u.current_hp < u.get_max_hp()]) +',Finish'}",
-                    "",
-                    "v",
-                    "center",
-                    "",
-                    "PrepHealUnit (Global PrepHealUnit)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "change_background;title_background",
+            "choice;HealChoice;Choose a Healer;{e:','.join([u.nid for u in game.get_all_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) and item_system.available(u, item) for item in u.items])]) +',Go Back'};;v;center",
+            "if;'{var:HealChoice}' == 'Go Back'",
+            "finish",
+            "else",
+            "choice;HealItemChoice;Choose an Item;{e:','.join([i.nid for i in game.get_unit('{var:HealChoice}').items if item_funcs.targets_nonself_allies(game.get_unit('{var:HealChoice}'), i)]) + ',Go Back'};;v;center",
+            "if;'{var:HealItemChoice}' == 'Go Back'",
+            "finish",
+            "else",
+            "choice;HealTargetChoice;Choose a Target;{e:','.join([u.nid for u in game.get_units_in_party() if u.current_hp < u.get_max_hp()]) +',Finish'};;v;center;;PrepHealUnit (Global PrepHealUnit)",
+            "end",
+            "end"
+        ]
     }
 ]

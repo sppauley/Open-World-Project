@@ -4,29 +4,13 @@
         "trigger": "turn_change",
         "level_nid": "18",
         "condition": "game.turncount == 5",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# Fliers in the south"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "11,29"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "SouthFliers",
-                    "starting",
-                    "fade"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# Fliers in the south",
+            "center_cursor;11,29",
+            "add_group;SouthFliers;starting;fade"
+        ]
     }
 ]

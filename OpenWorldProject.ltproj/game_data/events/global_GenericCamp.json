@@ -4,65 +4,19 @@
         "trigger": "ActivateGenericCamp",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# healing"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "MapHeal"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "INJURED",
-                    "[unit.nid for unit in game.get_player_units()]"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "{INJURED}",
-                    "{e:game.get_unit('{INJURED}').get_max_hp()}"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#set_current_poise;{INJURED};{e:game.get_unit('{INJURED}').get_max_poise()}"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "# put inspiration here"
-                ]
-            ],
-            [
-                "base",
-                [
-                    "Plains",
-                    "Combat Preparation",
-                    "FLAG(show_map)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# healing",
+            "sound;MapHeal",
+            "wait;400",
+            "for;INJURED;[unit.nid for unit in game.get_player_units()]",
+            "set_current_hp;{INJURED};{e:game.get_unit('{INJURED}').get_max_hp()}",
+            "#set_current_poise;{INJURED};{e:game.get_unit('{INJURED}').get_max_poise()}",
+            "endf",
+            "# put inspiration here",
+            "base;Plains;Combat Preparation;FLAG(show_map)"
+        ]
     }
 ]

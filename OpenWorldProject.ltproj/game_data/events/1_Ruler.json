@@ -4,27 +4,13 @@
         "trigger": "unit_wait",
         "level_nid": "1",
         "condition": "unit.team=='player' and game.check_alive('Bordeaux')",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "Bordeaux (Bordeaux)"
-                ]
-            ],
-            [
-                "unit_act",
-                [
-                    "Bordeaux"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;Bordeaux (Bordeaux)",
+            "unit_act;Bordeaux",
+            "center_cursor;{unit}"
+        ]
     }
 ]

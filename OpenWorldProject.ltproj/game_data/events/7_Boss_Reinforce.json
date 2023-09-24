@@ -4,37 +4,14 @@
         "trigger": "combat_end",
         "level_nid": "7",
         "condition": "unit2.nid=='Dragonlord'",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "Dragonlord"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "Boss",
-                    "",
-                    "warp",
-                    "closest",
-                    "FLAG(create)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1000"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;Dragonlord",
+            "wait;700",
+            "add_group;Boss;;warp;closest;FLAG(create)",
+            "wait;1000"
+        ]
     }
 ]

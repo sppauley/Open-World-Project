@@ -4,49 +4,16 @@
         "trigger": "combat_end",
         "level_nid": "12",
         "condition": "game.get_enemy_units() == []",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "Left",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Milord, we've cleared a route!{w}{br}Let us away!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,5"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "EscapeCourtyard (12 EscapeCourtyard)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Luther (Luther);Left;left",
+            "speak;Luther;Milord, we've cleared a route!{w}{br}Let us away!",
+            "remove_portrait;Luther (Luther)",
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "move_unit;Simon (Simon);14,5",
+            "trigger_script;EscapeCourtyard (12 EscapeCourtyard)"
+        ]
     }
 ]

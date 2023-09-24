@@ -4,65 +4,18 @@
         "trigger": "turn_change",
         "level_nid": "7",
         "condition": "game.turncount==10",
-        "commands": [
-            [
-                "add_group",
-                [
-                    "GreatKnights",
-                    "",
-                    "fade",
-                    "closest",
-                    "FLAG(create)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "1,42"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "33,42"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "19,12"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "Sages",
-                    "",
-                    "warp",
-                    "closest",
-                    "FLAG(create)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "900"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_group;GreatKnights;;fade;closest;FLAG(create)",
+            "center_cursor;1,42",
+            "wait;500",
+            "center_cursor;33,42",
+            "wait;500",
+            "center_cursor;19,12",
+            "add_group;Sages;;warp;closest;FLAG(create)",
+            "wait;900"
+        ]
     }
 ]

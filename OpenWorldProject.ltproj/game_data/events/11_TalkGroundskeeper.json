@@ -4,206 +4,41 @@
         "trigger": "on_talk",
         "level_nid": "11",
         "condition": "unit2.nid == \"115\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "OldMan1",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Ah, a visitor! Welcome to Lord Ebert's gardens."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "He keeps his own gardens?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Lord Ebert prides himself on them.{w}{br}They are, after all, the mark of a great house."
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "14,21"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "14,21"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Are the boxes supposed to be... art?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "They are a novel take on the traditional sculpture garden.{w}{br}Each is a relic of the ancient Lord Vesner's gravity experiments."
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v(\"KajalRecruited\")"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I've heard his name mentioned.{w} What exactly are these relics?"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Lord Ebert invites his guests to see for themselves.{w}{br}Four puzzles lay throughout the garden."
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "4,20"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "4,20"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "15,15"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "15,15"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "4,8"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "4,8"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "6,2"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "6,2"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Soldier (115)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "OldMan1",
-                    "Complete each puzzle, and a marvelous prize awaits."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Hmm.{w} Very well, then.{w}{br}Thank you for your time."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "OldMan1"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;OldMan1;Left",
+            "add_portrait;Simon (Simon);Right;right",
+            "speak;OldMan1;Ah, a visitor! Welcome to Lord Ebert's gardens.",
+            "speak;Simon;He keeps his own gardens?",
+            "speak;OldMan1;Lord Ebert prides himself on them.{w}{br}They are, after all, the mark of a great house.",
+            "center_cursor;14,21",
+            "flicker_cursor;14,21",
+            "wait;800",
+            "center_cursor;Simon (Simon)",
+            "speak;Simon;Are the boxes supposed to be... art?",
+            "speak;OldMan1;They are a novel take on the traditional sculpture garden.{w}{br}Each is a relic of the ancient Lord Vesner's gravity experiments.",
+            "if;v(\"KajalRecruited\")",
+            "speak;Simon;I've heard his name mentioned.{w} What exactly are these relics?",
+            "end",
+            "speak;OldMan1;Lord Ebert invites his guests to see for themselves.{w}{br}Four puzzles lay throughout the garden.",
+            "center_cursor;4,20",
+            "flicker_cursor;4,20",
+            "wait;800",
+            "center_cursor;15,15",
+            "flicker_cursor;15,15",
+            "wait;800",
+            "center_cursor;4,8",
+            "flicker_cursor;4,8",
+            "wait;800",
+            "center_cursor;6,2",
+            "flicker_cursor;6,2",
+            "wait;800",
+            "center_cursor;Soldier (115)",
+            "speak;OldMan1;Complete each puzzle, and a marvelous prize awaits.",
+            "speak;Simon;Hmm.{w} Very well, then.{w}{br}Thank you for your time.",
+            "multi_remove_portrait;Simon (Simon);OldMan1"
+        ]
     }
 ]

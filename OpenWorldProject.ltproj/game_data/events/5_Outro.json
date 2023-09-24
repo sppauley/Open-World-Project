@@ -4,287 +4,50 @@
         "trigger": "level_end",
         "level_nid": "5",
         "condition": "True",
-        "commands": [
-            [
-                "remove_skill",
-                [
-                    "Lupus (Lupus)",
-                    "Evasive (Evasive)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "party_unit",
-                    "[u.nid for u in game.get_units_in_party()]"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "{party_unit}",
-                    "Lupus"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "remove_tag",
-                [
-                    "Lupus (Lupus)",
-                    "Boss"
-                ]
-            ],
-            [
-                "remove_all_units",
-                []
-            ],
-            [
-                "add_unit",
-                [
-                    "Lupus (Lupus)",
-                    "20,33",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Simon (Simon)",
-                    "20,32",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Lupus (Lupus)",
-                    "Right",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Soo...{w} I'm Lupus...{w}{br}And you're..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Doesn't matter.{w}Got you now, thief."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "W-woah, hang on-"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Anuki (Anuki)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Anuki (Anuki)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Anuki",
-                    "19,33",
-                    "normal",
-                    "push"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Anuki",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "Last words? Quick."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "W-w-woah, woah, woah!{w}{br}No justice here, huh?{w}{br}Hang on just a second."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Anuki, please."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Yeah, I'm a thief.{w} Apparently not a good one.{w}{br}But that doesn't mean you gotta kill me!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What are you suggesting?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Let me sign on.{w} You're in an army,{w}{br}I can tell that much.{w}{br}I'd bet you've got plenty of enemies for me to plunder."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "Or stuff of ours for you to make off with."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Not how I work!{w} I mean, all those guys you just fought past?{w}{br}They're my-{w} well, partly-{w} I mean I'm in-{w} they're my allies!{w}{br}On a good day.{w}{br}And I don't steal from them!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Look, give me a chance."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...Fine.{w} But, if I catch you where you shouldn't be..."
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Simon (Simon)",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Anuki?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "Oh, yes."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Got it?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "Crystal clear.{w}{br}A pleasure, Mr..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Lord Verstadt."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Lupus",
-                    "...{w} A pleasure nonetheless."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "Anuki (Anuki)",
-                    "Lupus (Lupus)"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "LupusRecruited",
-                    "True"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "remove_skill;Lupus (Lupus);Evasive (Evasive);FLAG(no_banner)",
+            "for;party_unit;[u.nid for u in game.get_units_in_party()]",
+            "remove_talk;{party_unit};Lupus",
+            "endf",
+            "remove_tag;Lupus (Lupus);Boss",
+            "remove_all_units",
+            "add_unit;Lupus (Lupus);20,33;immediate",
+            "add_unit;Simon (Simon);20,32;immediate",
+            "add_portrait;Lupus (Lupus);Right;FLAG(immediate)",
+            "add_portrait;Simon (Simon);Left;left",
+            "speak;Lupus;Soo...{w} I'm Lupus...{w}{br}And you're...",
+            "speak;Simon;Doesn't matter.{w}Got you now, thief.",
+            "speak;Lupus;W-woah, hang on-",
+            "load_unit;Anuki (Anuki)",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Anuki (Anuki)",
+            "move_unit;Anuki;19,33;normal;push",
+            "add_portrait;Anuki;FarLeft",
+            "speak;Anuki;Last words? Quick.",
+            "speak;Lupus;W-w-woah, woah, woah!{w}{br}No justice here, huh?{w}{br}Hang on just a second.",
+            "speak;Simon;Anuki, please.",
+            "speak;Lupus;Yeah, I'm a thief.{w} Apparently not a good one.{w}{br}But that doesn't mean you gotta kill me!",
+            "speak;Simon;What are you suggesting?",
+            "speak;Lupus;Let me sign on.{w} You're in an army,{w}{br}I can tell that much.{w}{br}I'd bet you've got plenty of enemies for me to plunder.",
+            "speak;Anuki;Or stuff of ours for you to make off with.",
+            "speak;Lupus;Not how I work!{w} I mean, all those guys you just fought past?{w}{br}They're my-{w} well, partly-{w} I mean I'm in-{w} they're my allies!{w}{br}On a good day.{w}{br}And I don't steal from them!",
+            "speak;Simon;...",
+            "speak;Lupus;Look, give me a chance.",
+            "speak;Simon;...Fine.{w} But, if I catch you where you shouldn't be...",
+            "move_portrait;Simon (Simon);MidLeft",
+            "wait;400",
+            "mirror_portrait;Simon (Simon)",
+            "speak;Simon;Anuki?",
+            "speak;Anuki;Oh, yes.",
+            "mirror_portrait;Simon (Simon)",
+            "speak;Simon;Got it?",
+            "speak;Lupus;Crystal clear.{w}{br}A pleasure, Mr...",
+            "speak;Simon;Lord Verstadt.",
+            "speak;Lupus;...{w} A pleasure nonetheless.",
+            "multi_remove_portrait;Simon (Simon);Anuki (Anuki);Lupus (Lupus)",
+            "game_var;LupusRecruited;True"
+        ]
     }
 ]

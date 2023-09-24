@@ -4,162 +4,32 @@
         "trigger": "on_talk",
         "level_nid": "9",
         "condition": "unit2.nid==\"Morrissey\" and game.level_vars['NightPassed']==1",
-        "commands": [
-            [
-                "move_unit",
-                [
-                    "Simon",
-                    "16,6"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Simon",
-                    "Left",
-                    "Morrissey",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Simon, you seem tired."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Were the chambers not to your liking?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "No, the rooms were more than fine."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I just had some trouble sleeping."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Ah, I understand."
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Please, you simply must take your mind off of this."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Why don't you join my daughter Anuki in a skirmish against my guard captain?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "It would be nice to see how you and your companions fight."
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "And perhaps, if I may be forward with you..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "This will spark something between Anuki and yourself as well."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "A union between our houses would be most advantageous."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Especially given the state of yours, if you will excuse my frankness."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Wait, what?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "I only ask that you think on it."
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "The training grounds are on the west side of the main hall."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon",
-                    "Morrissey"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon",
-                    "Morrissey (Morrissey)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;16,6",
+            "multi_add_portrait;Simon;Left;Morrissey;Right",
+            "speak;Morrissey;Simon, you seem tired.",
+            "speak;Morrissey;Were the chambers not to your liking?",
+            "speak;Simon;No, the rooms were more than fine.",
+            "speak;Simon;I just had some trouble sleeping.",
+            "speak;Morrissey;Ah, I understand.",
+            "wait;500",
+            "speak;Morrissey;Please, you simply must take your mind off of this.",
+            "speak;Morrissey;Why don't you join my daughter Anuki in a skirmish against my guard captain?",
+            "speak;Morrissey;It would be nice to see how you and your companions fight.",
+            "wait;700",
+            "speak;Morrissey;And perhaps, if I may be forward with you...",
+            "speak;Morrissey;This will spark something between Anuki and yourself as well.",
+            "speak;Morrissey;A union between our houses would be most advantageous.",
+            "speak;Morrissey;Especially given the state of yours, if you will excuse my frankness.",
+            "speak;Simon;Wait, what?",
+            "speak;Morrissey;I only ask that you think on it.",
+            "wait;500",
+            "speak;Morrissey;The training grounds are on the west side of the main hall.",
+            "multi_remove_portrait;Simon;Morrissey",
+            "remove_talk;Simon;Morrissey (Morrissey)"
+        ]
     }
 ]

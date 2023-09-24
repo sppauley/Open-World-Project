@@ -4,28 +4,12 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "add_unit",
-                [
-                    "{unit}",
-                    "Simon",
-                    "immediate",
-                    "stack"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "{unit}",
-                    "Simon",
-                    "normal",
-                    "closest",
-                    "FLAG(no_follow)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_unit;{unit};Simon;immediate;stack",
+            "move_unit;{unit};Simon;normal;closest;FLAG(no_follow)"
+        ]
     }
 ]

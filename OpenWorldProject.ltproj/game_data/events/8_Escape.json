@@ -4,48 +4,17 @@
         "trigger": "Escape",
         "level_nid": "8",
         "condition": "True",
-        "commands": [
-            [
-                "if",
-                [
-                    "unit.nid=='Simon'"
-                ]
-            ],
-            [
-                "overworld_cinematic",
-                [
-                    "The Continent (1)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Swamp (29)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "29",
-                    "30"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_unit",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;unit.nid=='Simon'",
+            "overworld_cinematic;The Continent (1)",
+            "reveal_overworld_node;Swamp (29)",
+            "reveal_overworld_road;29;30",
+            "win_game",
+            "end",
+            "remove_unit;{unit}"
+        ]
     }
 ]

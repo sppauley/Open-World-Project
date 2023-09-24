@@ -4,281 +4,54 @@
         "trigger": "StartBattle",
         "level_nid": "12",
         "condition": "True",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "CenterRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Milord, to cross this bridge...{w}{br}It will be the point of no return.{w}{br}Are you certain?"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "CrossBridge",
-                    "Cross?",
-                    "Yes,No"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:CrossBridge}' == 'Yes'"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "crossbridge"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,16"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "crossbridge"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Juliet (Juliet)"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Add in things for if you have meat, bad guy response"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:hasMeat}"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Food's up!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Juliet (Juliet)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "15,6"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "W-w-woah, easy! Easy!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "SoldierRed",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "It's gone feral! Someone, help!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "107",
-                    "enemy2"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "106",
-                    "enemy2"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "New Dawn (107)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "21,12"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "New Dawn (106)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Good work. Now, forward!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "center_cursor",
-                [
-                    "New Dawn (105)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierRed",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierRed",
-                    "The little boy's tryin' to run!{w}{br}Make his garden his grave!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SoldierRed"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v(\"tutorialPopups\")"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Monster units, like dogs, wield innate weapons.{w}{br}Bows have an advantage against innate weapons,{w}{br}innate weapons have an advantage against magic,{w}{br}and magic has an advantage against bows.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Luther (Luther);CenterRight",
+            "speak;Luther;Milord, to cross this bridge...{w}{br}It will be the point of no return.{w}{br}Are you certain?",
+            "remove_portrait;Luther (Luther)",
+            "choice;CrossBridge;Cross?;Yes,No",
+            "if;'{v:CrossBridge}' == 'Yes'",
+            "hide_layer;crossbridge",
+            "move_unit;Simon (Simon);14,16",
+            "show_layer;crossbridge",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Luther (Luther)",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Vincent (Vincent)",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Juliet (Juliet)",
+            "change_roaming;f",
+            "set_game_board_bounds;6;5;23;17",
+            "# Add in things for if you have meat, bad guy response",
+            "if;{v:hasMeat}",
+            "add_portrait;Juliet (Juliet);FarRight",
+            "speak;Juliet;Food's up!",
+            "remove_portrait;Juliet (Juliet)",
+            "center_cursor;15,6",
+            "add_portrait;SoldierRed;Left",
+            "speak;SoldierRed;W-w-woah, easy! Easy!",
+            "move_portrait;SoldierRed;FarLeft",
+            "speak;SoldierRed;It's gone feral! Someone, help!",
+            "remove_portrait;SoldierRed",
+            "change_team;107;enemy2",
+            "change_team;106;enemy2",
+            "flicker_cursor;New Dawn (107)",
+            "center_cursor;21,12",
+            "flicker_cursor;New Dawn (106)",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Left",
+            "speak;Simon;Good work. Now, forward!",
+            "remove_portrait;Simon (Simon)",
+            "else",
+            "center_cursor;New Dawn (105)",
+            "add_portrait;SoldierRed;Right",
+            "speak;SoldierRed;The little boy's tryin' to run!{w}{br}Make his garden his grave!",
+            "remove_portrait;SoldierRed",
+            "center_cursor;Simon (Simon)",
+            "end",
+            "if;v(\"tutorialPopups\")",
+            "speak;Narrator;Monster units, like dogs, wield innate weapons.{w}{br}Bows have an advantage against innate weapons,{w}{br}innate weapons have an advantage against magic,{w}{br}and magic has an advantage against bows.;StyleNid=hint",
+            "end",
+            "end"
+        ]
     }
 ]

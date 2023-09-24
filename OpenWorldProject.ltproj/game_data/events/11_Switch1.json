@@ -4,61 +4,13 @@
         "trigger": "Switch1",
         "level_nid": "11",
         "condition": "True",
-        "commands": [
-            [
-                "inc_level_var",
-                [
-                    "NumPuzzlesCompleted"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v(\"NumPuzzlesCompleted\") == 4"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "12,19"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "lowerbarriers"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "inc_level_var;NumPuzzlesCompleted",
+            "sound;Unlock",
+            "trigger_script;11 SwitchDialogue"
+        ]
     }
 ]

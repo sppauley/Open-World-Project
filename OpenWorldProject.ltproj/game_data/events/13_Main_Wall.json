@@ -4,47 +4,16 @@
         "trigger": "unit_death",
         "level_nid": "13",
         "condition": "unit.nid=='MainWall'",
-        "commands": [
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "15,18"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "main_break"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "HiddenEnemies",
-                    "starting"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "darkness"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;15,18",
+            "show_layer;main_break",
+            "wait;500",
+            "add_group;HiddenEnemies;starting",
+            "hide_layer;darkness",
+            "wait;500"
+        ]
     }
 ]

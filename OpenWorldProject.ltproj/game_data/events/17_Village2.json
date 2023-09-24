@@ -4,48 +4,16 @@
         "trigger": "Village",
         "level_nid": "17",
         "condition": "unit.team=='player' and region.nid== \"Village2\"",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "YoungBoy",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "YoungBoy",
-                    "W-wait up, I have this...{w} hrgh...{w} mace for you!{w}{br}It's heavy, but I know you can use it!"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Iron Mace (Iron_Mace)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "YoungBoy"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "Village2"
-                ]
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;YoungBoy;Right",
+            "speak;YoungBoy;W-wait up, I have this...{w} hrgh...{w} mace for you!{w}{br}It's heavy, but I know you can use it!",
+            "give_item;{unit};Iron Mace (Iron_Mace)",
+            "remove_portrait;YoungBoy",
+            "remove_region;Village2",
+            "has_traded;{unit}"
+        ]
     }
 ]

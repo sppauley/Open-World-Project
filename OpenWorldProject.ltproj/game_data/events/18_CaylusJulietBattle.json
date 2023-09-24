@@ -4,117 +4,27 @@
         "trigger": "combat_end",
         "level_nid": "18",
         "condition": "check_pair('Caylus', 'Juliet')",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Caylus (Caylus)",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Juliet",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "Harharha-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Hey, listen up.{w} We're going after your boss, not you.{w}{br}If you've got half a brain, let us pass."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "You're going after Bounty's boys?{w}{br}Damn, why didn' ya say so?{w}{br}I oughta wish ya luck!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "So are we good?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "We sure are! Keep your wits aboutcha!"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "Caylus (Caylus)"
-                ]
-            ],
-            [
-                "remove_all_enemies",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "SharedOutroDialogue (18 SharedOutroDialogue)"
-                ]
-            ],
-            [
-                "overworld_cinematic",
-                [
-                    "The Continent (1)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Pirate's Current (49)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Millin's Isle (50)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "49",
-                    "50"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Caylus's Fleet (55)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "49",
-                    "55"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Caylus (Caylus);Right",
+            "add_portrait;Juliet;Left",
+            "speak;Caylus;Harharha-",
+            "speak;Juliet;Hey, listen up.{w} We're going after your boss, not you.{w}{br}If you've got half a brain, let us pass.",
+            "speak;Caylus;You're going after Bounty's boys?{w}{br}Damn, why didn' ya say so?{w}{br}I oughta wish ya luck!",
+            "speak;Juliet;So are we good?",
+            "speak;Caylus;We sure are! Keep your wits aboutcha!",
+            "multi_remove_portrait;Juliet (Juliet);Caylus (Caylus)",
+            "remove_all_enemies",
+            "trigger_script;SharedOutroDialogue (18 SharedOutroDialogue)",
+            "overworld_cinematic;The Continent (1)",
+            "center_cursor;Pirate's Current (49)",
+            "reveal_overworld_node;Millin's Isle (50)",
+            "reveal_overworld_road;49;50",
+            "reveal_overworld_node;Caylus's Fleet (55)",
+            "reveal_overworld_road;49;55",
+            "win_game"
+        ]
     }
 ]

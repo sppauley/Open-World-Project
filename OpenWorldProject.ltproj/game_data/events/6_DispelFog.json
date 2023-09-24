@@ -4,63 +4,18 @@
         "trigger": "turn_change",
         "level_nid": "6",
         "condition": "not v(\"wallsUp\") and game.turncount > 1",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "Vilge (Vilge)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vilge (Vilge)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vilge",
-                    "Enough of these games."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vilge",
-                    "You will all watch as I tear your friends apart!"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close",
-                    "1500",
-                    "244,247,195"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "_fog_of_war",
-                    "False"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Vilge (Vilge)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 17
+        "priority": 17,
+        "_source": [
+            "center_cursor;Vilge (Vilge)",
+            "add_portrait;Vilge (Vilge);Left",
+            "speak;Vilge;Enough of these games.",
+            "speak;Vilge;You will all watch as I tear your friends apart!",
+            "transition;close;1500;244,247,195",
+            "level_var;_fog_of_war;False",
+            "transition;open",
+            "remove_portrait;Vilge (Vilge)"
+        ]
     }
 ]

@@ -4,27 +4,13 @@
         "trigger": "unit_wait",
         "level_nid": "DEBUG",
         "condition": "v(\"InPuzzle\")",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#trigger_script;PuzzleExit (Global PuzzleExit)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Reset puzzle"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#trigger_script;PuzzleReset (Global PuzzleReset)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "#trigger_script;PuzzleExit (Global PuzzleExit)",
+            "# Reset puzzle",
+            "#trigger_script;PuzzleReset (Global PuzzleReset)"
+        ]
     }
 ]

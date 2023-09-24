@@ -4,125 +4,28 @@
         "trigger": "Village",
         "level_nid": "17",
         "condition": "unit.team=='player' and region.nid== \"Village4\"",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive(\"Flower\")"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Villager Girl",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "{unit}",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Oh, you came to check on us!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Flower (Flower)",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "{unit}"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "Grrr...."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Oh, shh, it's okay!{w}{br}They're friends, Flower!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Easy, girl..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*sniff*... *sniff*"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Flower (Flower)",
-                    "player"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_portrait",
-                [
-                    "Villager Girl",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "*sniff* Flower... why..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Villager Girl"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "has_traded",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive(\"Flower\")",
+            "add_portrait;Villager Girl;Right",
+            "add_portrait;{unit};MidLeft",
+            "speak;Villager Girl;Oh, you came to check on us!",
+            "add_portrait;Flower (Flower);FarLeft",
+            "mirror_portrait;{unit}",
+            "speak;Flower;Grrr....",
+            "speak;Villager Girl;Oh, shh, it's okay!{w}{br}They're friends, Flower!",
+            "speak;Flower;...",
+            "speak;Villager Girl;Easy, girl...",
+            "speak;Flower;*sniff*... *sniff*",
+            "change_team;Flower (Flower);player",
+            "else",
+            "add_portrait;Villager Girl;Right",
+            "speak;Villager Girl;*sniff* Flower... why...",
+            "remove_portrait;Villager Girl",
+            "end",
+            "has_traded;{unit}"
+        ]
     }
 ]

@@ -4,51 +4,17 @@
         "trigger": "turn_change",
         "level_nid": "10",
         "condition": "game.turncount==3",
-        "commands": [
-            [
-                "add_group",
-                [
-                    "Turn3"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "0,24"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "23,24"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "12,26"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_group;Turn3",
+            "flicker_cursor;0,24",
+            "wait;500",
+            "flicker_cursor;23,24",
+            "wait;500",
+            "flicker_cursor;12,26",
+            "wait;500"
+        ]
     }
 ]

@@ -4,21 +4,12 @@
         "trigger": "Door",
         "level_nid": "18",
         "condition": "True",
-        "commands": [
-            [
-                "sound",
-                [
-                    "Unlock"
-                ]
-            ],
-            [
-                "hide_layer",
-                [
-                    "topdoor"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "hide_layer;topdoor"
+        ]
     }
 ]

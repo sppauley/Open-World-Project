@@ -4,55 +4,17 @@
         "trigger": "Push",
         "level_nid": "8",
         "condition": "game.check_alive('TopLeftCrate') and 'TopLeftCrate' in region.nid",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "TopLeftCrate"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "TopLeftCrate",
-                    "4,8"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "4,8",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "TopLeftCrate"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "700"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "TopLeftSwamp",
-                    "1"
-                ]
-            ],
-            [
-                "has_finished",
-                [
-                    "{unit}"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;TopLeftCrate",
+            "move_unit;TopLeftCrate;4,8",
+            "map_anim;Snag;4,8;FLAG(no_block)",
+            "kill_unit;TopLeftCrate",
+            "wait;700",
+            "level_var;TopLeftSwamp;1",
+            "has_finished;{unit}"
+        ]
     }
 ]

@@ -4,22 +4,12 @@
         "trigger": "Chest",
         "level_nid": "7",
         "condition": "'ChestTop' in region.nid",
-        "commands": [
-            [
-                "show_layer",
-                [
-                    "chest_top"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "{unit}",
-                    "Trickster's Boots (TricksterBoots)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "show_layer;chest_top",
+            "give_item;{unit};Trickster's Boots (TricksterBoots)"
+        ]
     }
 ]

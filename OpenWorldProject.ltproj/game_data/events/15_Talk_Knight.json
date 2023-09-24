@@ -4,114 +4,25 @@
         "trigger": "on_talk",
         "level_nid": "15",
         "condition": "unit2.nid=='103'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "SoldierBlue",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Can't believe we overslept again..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What's going on here?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Oh, uh, we were part of a convoy traveling into the swamp."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "But we got left behind..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Well, by chance, I'm headed to the swamp myself."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Ha! Now that's a good one."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Oh, you're serious."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Take some advice: turn around and head on home."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Oh?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "Look, between the miasma, the monsters and the bandits, your sorry band is toast."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "SoldierBlue",
-                    "Simon"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (103)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierBlue;Right",
+            "speak;SoldierBlue;Can't believe we overslept again...",
+            "add_portrait;Simon;OffscreenLeft",
+            "move_portrait;Simon;Left",
+            "speak;Simon;What's going on here?",
+            "speak;SoldierBlue;Oh, uh, we were part of a convoy traveling into the swamp.",
+            "speak;SoldierBlue;But we got left behind...",
+            "speak;Simon;Well, by chance, I'm headed to the swamp myself.",
+            "speak;SoldierBlue;Ha! Now that's a good one.",
+            "speak;SoldierBlue;Oh, you're serious.",
+            "speak;SoldierBlue;Take some advice: turn around and head on home.",
+            "speak;Simon;Oh?",
+            "speak;SoldierBlue;Look, between the miasma, the monsters and the bandits, your sorry band is toast.",
+            "multi_remove_portrait;SoldierBlue;Simon",
+            "remove_talk;Simon (Simon);Soldier (103)"
+        ]
     }
 ]

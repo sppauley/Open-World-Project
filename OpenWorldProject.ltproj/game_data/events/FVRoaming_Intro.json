@@ -4,220 +4,43 @@
         "trigger": "level_start",
         "level_nid": "FVRoaming",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "### Intro setup"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "True"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "overlaytiles",
-                    "immediate"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:FreesHouse1Destroyed}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedright",
-                    "immediate"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "{v:FreesHouse2Destroyed}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedleft",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Bandit (104)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (105)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (106)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (107)"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "CapturedEnemy"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "{v:FreesHouse3Destroyed}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedtop",
-                    "immediate"
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "{v:FreesHouse4Destroyed}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "destroyedtopright",
-                    "immediate"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "{v:OpenedNikasGrave}"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "opengrave"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "not {v:FlowerRecruited}"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (101)",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Flower (Flower)",
-                    "immediate"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "add_unit",
-                [
-                    "Nika",
-                    "18,1",
-                    "immediate",
-                    "push",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Talks:"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (101)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (102)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Soldier (103)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Nika",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "###############"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "### Intro setup",
+            "game_var;freely_exit;True",
+            "show_layer;overlaytiles;immediate",
+            "if;{v:FreesHouse1Destroyed}",
+            "show_layer;destroyedright;immediate",
+            "elif;{v:FreesHouse2Destroyed}",
+            "show_layer;destroyedleft;immediate",
+            "remove_unit;Bandit (104)",
+            "remove_unit;Soldier (105)",
+            "remove_unit;Soldier (106)",
+            "remove_unit;Soldier (107)",
+            "remove_region;CapturedEnemy",
+            "elif;{v:FreesHouse3Destroyed}",
+            "show_layer;destroyedtop;immediate",
+            "elif;{v:FreesHouse4Destroyed}",
+            "show_layer;destroyedtopright;immediate",
+            "end",
+            "if;{v:OpenedNikasGrave}",
+            "show_layer;opengrave",
+            "end",
+            "if;not {v:FlowerRecruited}",
+            "remove_unit;Soldier (101);immediate",
+            "remove_unit;Flower (Flower);immediate",
+            "end",
+            "add_unit;Nika;18,1;immediate;push;FLAG(no_warn)",
+            "# Talks:",
+            "add_talk;Simon (Simon);Soldier (101)",
+            "add_talk;Simon (Simon);Flower (Flower)",
+            "add_talk;Simon (Simon);Soldier (102)",
+            "add_talk;Simon (Simon);Soldier (103)",
+            "add_talk;Simon (Simon);Nika;FLAG(no_warn)",
+            "###############",
+            "center_cursor;Simon (Simon);FLAG(immediate)"
+        ]
     }
 ]

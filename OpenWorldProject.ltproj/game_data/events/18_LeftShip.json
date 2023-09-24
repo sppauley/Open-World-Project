@@ -4,67 +4,19 @@
         "trigger": "turn_change",
         "level_nid": "18",
         "condition": "game.turncount == 7",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "1,12"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "leftship"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# add enemies here"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "LeftGroup",
-                    "starting",
-                    "fade"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# add dialogue here"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "A second ship?{w} They can't have much more than this."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,12",
+            "show_layer;leftship",
+            "# add enemies here",
+            "add_group;LeftGroup;starting;fade",
+            "# add dialogue here",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Right",
+            "speak;Simon;A second ship?{w} They can't have much more than this.",
+            "remove_portrait;Simon (Simon)"
+        ]
     }
 ]

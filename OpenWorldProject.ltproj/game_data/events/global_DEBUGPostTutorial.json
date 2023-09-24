@@ -4,66 +4,18 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "load_unit",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Juliet (Juliet)"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Anuki (Anuki)"
-                ]
-            ],
-            [
-                "change_class",
-                [
-                    "Juliet (Juliet)",
-                    "Archer",
-                    "FLAG(silent)"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Juliet (Juliet)",
-                    "Iron Bow (Iron Bow)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Simon (Simon)",
-                    "Verstadt Ring (VerstadtRing)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Simon (Simon)",
-                    "2",
-                    "random",
-                    "FLAG(hidden)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "load_unit;Luther (Luther)",
+            "load_unit;Vincent (Vincent)",
+            "load_unit;Juliet (Juliet)",
+            "load_unit;Anuki (Anuki)",
+            "change_class;Juliet (Juliet);Archer;FLAG(silent)",
+            "give_item;Juliet (Juliet);Iron Bow (Iron Bow);FLAG(no_banner)",
+            "give_item;Simon (Simon);Verstadt Ring (VerstadtRing);FLAG(no_banner)",
+            "autolevel_to;Simon (Simon);2;random;FLAG(hidden)"
+        ]
     }
 ]

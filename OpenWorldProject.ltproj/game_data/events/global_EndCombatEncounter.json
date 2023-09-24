@@ -4,56 +4,18 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ResetSelectionQuotes (Global ResetSelectionQuotes)"
-                ]
-            ],
-            [
-                "loop_units",
-                [
-                    "[unit.nid for unit in game.get_player_units()]",
-                    "Reset Poise (Global Reset Poise)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Could be a good idea to have another loop_units here that clears inflicted statuses"
-                ]
-            ],
-            [
-                "remove_game_board_bounds",
-                []
-            ],
-            [
-                "change_roaming",
-                [
-                    "t"
-                ]
-            ],
-            [
-                "has_finished",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "reset",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "trigger_script;ResetSelectionQuotes (Global ResetSelectionQuotes)",
+            "loop_units;[unit.nid for unit in game.get_player_units()];Reset Poise (Global Reset Poise)",
+            "# Could be a good idea to have another loop_units here that clears inflicted statuses",
+            "remove_game_board_bounds",
+            "change_roaming;t",
+            "has_finished;Simon (Simon)",
+            "reset;Simon (Simon)"
+        ]
     }
 ]

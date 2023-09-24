@@ -4,17 +4,11 @@
         "trigger": null,
         "level_nid": "DEBUGOverworld",
         "condition": "True",
-        "commands": [
-            [
-                "base",
-                [
-                    "Plains",
-                    "Quiet Burn",
-                    "FLAG(show_map)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "base;Plains;Quiet Burn;FLAG(show_map)"
+        ]
     }
 ]

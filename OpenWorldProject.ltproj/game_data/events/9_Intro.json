@@ -4,61 +4,18 @@
         "trigger": "level_start",
         "level_nid": "9",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#debug"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#actual level"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "top_layer"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "102"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon",
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon",
-                    "109"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "#debug",
+            "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
+            "#actual level",
+            "show_layer;top_layer",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "add_talk;Simon (Simon);102",
+            "add_talk;Simon;Morrissey (Morrissey)",
+            "add_talk;Simon;109"
+        ]
     }
 ]

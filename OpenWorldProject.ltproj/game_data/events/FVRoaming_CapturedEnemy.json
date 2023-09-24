@@ -4,288 +4,51 @@
         "trigger": "CapturedEnemy",
         "level_nid": "FVRoaming",
         "condition": "True",
-        "commands": [
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "6,9"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mercenary1",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Villager Man 5",
-                    "MidLeft",
-                    "FLAG(mirror)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Take that! And that!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "M-mercy, mercy!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What's going on here?"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Villager Man 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "We captured this bandit as he was trying to escape.{w}{br}Now he'll face justice!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "Please, I haven't hurt anyone!{w}{br}I was forced to join!"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Villager Man 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Hah, sure! That's what they all say!{w}{br}Alright boys, fetch the rope!{w}{br}This bastard'll hang!"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "InterveneFreesHanging",
-                    "Intervene?",
-                    "Yes,No",
-                    "120"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:InterveneFreesHanging}' == 'Yes'"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Wait."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Villager Man 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Eh?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Have any of you taken a life before?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "N-no..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "He is not worthy of being your first.{w}{br}Spare him, and yourselves."
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Villager Man 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "He's a bandit!{w} He'll return with even more raiders!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I think he knows that he won't be so lucky next time."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "I-I could help defend..."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Villager Man 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "I could d-defend your village.{w}{br}For free."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Like we'd trust you to do that!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "If tries to betray you, then do what you'd like.{w}{br}But, it may be wise to give him a chance."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Hrm..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Man 5",
-                    "Try anything funny and I'll be happy to cut ya down."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "U-u-understood!"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "104",
-                    "other"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Mercenary1",
-                    "Villager Man 5",
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Villager Man 5",
-                    "Mercenary1"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It would be wrong for me to deny them justice.{w}{br}Who knows how much these villagers have been through.{w}{br}Besides, making an example of him might deter future attacks.",
-                    "",
-                    "",
-                    "thought_bubble"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Bandit (104)"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Bandit (104)"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "Bandit (104)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon (Simon);6,9",
+            "add_portrait;Mercenary1;FarLeft",
+            "add_portrait;Villager Man 5;MidLeft;FLAG(mirror)",
+            "speak;Villager Man 5;Take that! And that!",
+            "speak;Mercenary1;M-mercy, mercy!",
+            "add_portrait;Simon (Simon);Right;right",
+            "speak;Simon;What's going on here?",
+            "mirror_portrait;Villager Man 5",
+            "speak;Villager Man 5;We captured this bandit as he was trying to escape.{w}{br}Now he'll face justice!",
+            "speak;Mercenary1;Please, I haven't hurt anyone!{w}{br}I was forced to join!",
+            "mirror_portrait;Villager Man 5",
+            "speak;Villager Man 5;Hah, sure! That's what they all say!{w}{br}Alright boys, fetch the rope!{w}{br}This bastard'll hang!",
+            "choice;InterveneFreesHanging;Intervene?;Yes,No;120",
+            "if;'{v:InterveneFreesHanging}' == 'Yes'",
+            "speak;Simon;Wait.",
+            "mirror_portrait;Villager Man 5",
+            "speak;Villager Man 5;Eh?",
+            "speak;Simon;Have any of you taken a life before?",
+            "speak;Villager Man 5;N-no...",
+            "speak;Simon;He is not worthy of being your first.{w}{br}Spare him, and yourselves.",
+            "bop_portrait;Villager Man 5",
+            "speak;Villager Man 5;He's a bandit!{w} He'll return with even more raiders!",
+            "speak;Simon;I think he knows that he won't be so lucky next time.",
+            "speak;Mercenary1;I-I could help defend...",
+            "mirror_portrait;Villager Man 5",
+            "speak;Mercenary1;I could d-defend your village.{w}{br}For free.",
+            "speak;Villager Man 5;Like we'd trust you to do that!",
+            "speak;Simon;If tries to betray you, then do what you'd like.{w}{br}But, it may be wise to give him a chance.",
+            "speak;Villager Man 5;Hrm...",
+            "speak;Villager Man 5;Try anything funny and I'll be happy to cut ya down.",
+            "speak;Mercenary1;U-u-understood!",
+            "change_team;104;other",
+            "multi_remove_portrait;Mercenary1;Villager Man 5;Simon (Simon)",
+            "else",
+            "multi_remove_portrait;Villager Man 5;Mercenary1",
+            "speak;Simon;It would be wrong for me to deny them justice.{w}{br}Who knows how much these villagers have been through.{w}{br}Besides, making an example of him might deter future attacks.;;;thought_bubble",
+            "remove_portrait;Simon (Simon)",
+            "center_cursor;Bandit (104)",
+            "flicker_cursor;Bandit (104)",
+            "kill_unit;Bandit (104)",
+            "end"
+        ]
     }
 ]

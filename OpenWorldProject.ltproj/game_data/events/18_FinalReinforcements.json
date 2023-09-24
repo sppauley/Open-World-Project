@@ -4,84 +4,21 @@
         "trigger": "turn_change",
         "level_nid": "18",
         "condition": "game.turncount == 8",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# add enemies and dialogue"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "FinalGroup",
-                    "starting",
-                    "swoosh",
-                    "closest"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Even more?"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Yusna (Yusna)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Yusna",
-                    "Th-there's too many..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Yusna, we can win this battle.{w}{br}Just stay behind me."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Yusna",
-                    "I'll... I'll do my best"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Yusna (Yusna)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# add enemies and dialogue",
+            "add_group;FinalGroup;starting;swoosh;closest",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Right",
+            "speak;Simon;Even more?",
+            "add_portrait;Yusna (Yusna);Left",
+            "speak;Yusna;Th-there's too many...",
+            "speak;Simon;Yusna, we can win this battle.{w}{br}Just stay behind me.",
+            "speak;Yusna;I'll... I'll do my best",
+            "remove_portrait;Yusna (Yusna)",
+            "remove_portrait;Simon (Simon)"
+        ]
     }
 ]

@@ -4,128 +4,29 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Remember to undo these at the end of the puzzle!"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Give players Stunned to make him unselectable"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "unit",
-                    "[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\"]"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "{unit}",
-                    "Stunned (Stunned)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "# Turn crates into player units"
-                ]
-            ],
-            [
-                "for",
-                [
-                    "unit",
-                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "{unit}",
-                    "player"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "for",
-                [
-                    "pos",
-                    "[str(p) for p in v(\"PuzzleTargets\")]"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Square",
-                    "{pos}",
-                    "",
-                    "FLAG(permanent)"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Set game vars"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "InPuzzle",
-                    "True"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_no_end_turn",
-                    "True"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "#",
+            "# Remember to undo these at the end of the puzzle!",
+            "#",
+            "# Give players Stunned to make him unselectable",
+            "for;unit;[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\"]",
+            "give_skill;{unit};Stunned (Stunned);FLAG(no_banner)",
+            "endf",
+            "# Turn crates into player units",
+            "for;unit;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]",
+            "change_team;{unit};player",
+            "endf",
+            "for;pos;[str(p) for p in v(\"PuzzleTargets\")]",
+            "map_anim;Square;{pos};;FLAG(permanent)",
+            "endf",
+            "#",
+            "# Set game vars",
+            "game_var;InPuzzle;True",
+            "game_var;_no_end_turn;True",
+            "change_roaming;f"
+        ]
     }
 ]

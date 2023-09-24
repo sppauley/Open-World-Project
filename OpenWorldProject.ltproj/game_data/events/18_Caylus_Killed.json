@@ -4,68 +4,20 @@
         "trigger": "combat_end",
         "level_nid": "18",
         "condition": "game.check_dead(\"Caylus\")",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Caylus (Caylus)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Caylus",
-                    "N-no... I'm not gonna die..."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Caylus (Caylus)"
-                ]
-            ],
-            [
-                "remove_all_enemies",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "SharedOutroDialogue (18 SharedOutroDialogue)"
-                ]
-            ],
-            [
-                "overworld_cinematic",
-                [
-                    "The Continent (1)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Pirate's Current (49)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Millin's Isle (50)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "49",
-                    "50"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Caylus (Caylus);Right",
+            "speak;Caylus;N-no... I'm not gonna die...",
+            "remove_portrait;Caylus (Caylus)",
+            "remove_all_enemies",
+            "trigger_script;SharedOutroDialogue (18 SharedOutroDialogue)",
+            "overworld_cinematic;The Continent (1)",
+            "center_cursor;Pirate's Current (49)",
+            "reveal_overworld_node;Millin's Isle (50)",
+            "reveal_overworld_road;49;50",
+            "win_game"
+        ]
     }
 ]

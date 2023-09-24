@@ -4,579 +4,92 @@
         "trigger": "level_start",
         "level_nid": "12",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "###### LEVEL SETUP ######"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "fire"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "overlaytiles",
-                    "immediate"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "crossbridge",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_tag",
-                [
-                    "105",
-                    "Boss"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "hasMeat",
-                    "0"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#########################"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Simon (Simon)",
-                    "immediate"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "29,20",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Simon (Simon)",
-                    "29,20"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Vincent (Vincent)",
-                    "29,22"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Luther (Luther)",
-                    "29,21"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "1300"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther (Luther)",
-                    "28,19"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther (Luther)",
-                    "27,19",
-                    "normal",
-                    "closest",
-                    "2000"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther (Luther)",
-                    "28,19"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "FarLeft",
-                    "left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "The path forward is clear, milord.{w}{br}However, they've set fire to parts of the castle.{w}{br}Won't be long until the flames reach us."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "The \"New Dawn\" only care about looting my castle.{w}{br}Bastards."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "You will have your revenge, Lord Verstadt."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We all will."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "26,20",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "26,21",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther (Luther)",
-                    "27,20"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Add more dialogue and introduce Julia here"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "I can see the gate!"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "15,5"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "CenterRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Only a token force has been left in defence.{w}{br}Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w} and his demense is the nearest."
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "15,5"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "14,5"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Then we must all reach the gate."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Nay, only yourself.{w} As our leader, only you must slip from the enemy's grasp."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "But what will happen to you and Vincent?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We will use the ensuing chaos to break through.{w}{br}You need not fear leaving us behind."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Understood."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "Luther (Luther)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Juliet (Juliet)",
-                    "29,15"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Juliet (Juliet)",
-                    "Simon (Simon)",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "FarLeft",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "Vincent!"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Juliet (Juliet)",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Juliet! Are you hurt?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "No, thank the Fates."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Who is this?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "One of your servants, and a close friend of mine."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "You appear unarmed.{w} I have a spare bow, are you proficient?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Juliet",
-                    "I know my way around it.{w}{br}Give it here."
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Luther (Luther)",
-                    "MidRight"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Luther (Luther)",
-                    "FarRight"
-                ]
-            ],
-            [
-                "change_class",
-                [
-                    "Juliet (Juliet)",
-                    "Archer",
-                    "FLAG(silent)"
-                ]
-            ],
-            [
-                "remove_item",
-                [
-                    "Juliet (Juliet)",
-                    "Iron Bow (Iron Bow)",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "give_item",
-                [
-                    "Juliet (Juliet)",
-                    "Iron Bow (Iron Bow)"
-                ]
-            ],
-            [
-                "set_stats",
-                [
-                    "Juliet",
-                    "CON,4,SPD,6,DEX,10,MAG,8",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "It would wise to search the courtyard before we battle.{w}{br}Small advantages are found in unexpected places."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther (Luther)",
-                    "Vincent (Vincent)",
-                    "Juliet (Juliet)"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Juliet",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Luther (Luther)",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "set_unit_field",
-                [
-                    "Vincent (Vincent)",
-                    "PartyMember",
-                    "'Yes'"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "ConsolidateToLeader (Global ConsolidateToLeader)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('basicTutorials')"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Juliet uses bows. Bow units can only attack from range.{w}{br}For Juliet to attack an enemy there must be one tile between her and the target.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "if",
-                [
-                    "v(\"tutorialPopups\")"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Units you control that fall in battle will return after the map ends.{w}{br}Only Simon's death will cause a game over.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "###### LEVEL SETUP ######",
+            "add_weather;fire",
+            "add_weather;night",
+            "show_layer;overlaytiles;immediate",
+            "show_layer;crossbridge;immediate",
+            "add_tag;105;Boss",
+            "level_var;hasMeat;0",
+            "#########################",
+            "remove_unit;Simon (Simon);immediate",
+            "center_cursor;29,20;FLAG(immediate)",
+            "add_unit;Simon (Simon);29,20",
+            "flicker_cursor;Simon (Simon)",
+            "wait;500",
+            "add_unit;Vincent (Vincent);29,22",
+            "add_unit;Luther (Luther);29,21",
+            "wait;1300",
+            "move_unit;Luther (Luther);28,19",
+            "move_unit;Luther (Luther);27,19;normal;closest;2000",
+            "move_unit;Luther (Luther);28,19",
+            "add_portrait;Luther (Luther);FarLeft;left",
+            "add_portrait;Simon;Right",
+            "speak;Luther;The path forward is clear, milord.{w}{br}However, they've set fire to parts of the castle.{w}{br}Won't be long until the flames reach us.",
+            "speak;Simon;The \"New Dawn\" only care about looting my castle.{w}{br}Bastards.",
+            "speak;Luther;You will have your revenge, Lord Verstadt.",
+            "mirror_portrait;Luther (Luther)",
+            "speak;Luther;We all will.",
+            "remove_portrait;Luther (Luther)",
+            "remove_portrait;Simon (Simon)",
+            "move_unit;Simon (Simon);26,20;FLAG(no_block)",
+            "move_unit;Vincent (Vincent);26,21;FLAG(no_block)",
+            "move_unit;Luther (Luther);27,20",
+            "#Add more dialogue and introduce Julia here",
+            "add_portrait;Vincent (Vincent);FarRight;right",
+            "speak;Vincent;I can see the gate!",
+            "center_cursor;15,5",
+            "add_portrait;Luther (Luther);CenterRight;right",
+            "speak;Luther;Only a token force has been left in defence.{w}{br}Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w} and his demense is the nearest.",
+            "flicker_cursor;15,5",
+            "flicker_cursor;14,5",
+            "wait;500",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Left",
+            "speak;Simon;Then we must all reach the gate.",
+            "speak;Luther;Nay, only yourself.{w} As our leader, only you must slip from the enemy's grasp.",
+            "speak;Simon;But what will happen to you and Vincent?",
+            "speak;Luther;We will use the ensuing chaos to break through.{w}{br}You need not fear leaving us behind.",
+            "speak;Simon;Understood.",
+            "multi_remove_portrait;Simon (Simon);Luther (Luther);Vincent (Vincent)",
+            "add_unit;Juliet (Juliet);29,15",
+            "move_unit;Juliet (Juliet);Simon (Simon);normal;closest",
+            "add_portrait;Juliet (Juliet);FarLeft;left",
+            "speak;Juliet;Vincent!",
+            "move_portrait;Juliet (Juliet);MidLeft",
+            "add_portrait;Vincent (Vincent);Right",
+            "speak;Vincent;Juliet! Are you hurt?",
+            "speak;Juliet;No, thank the Fates.",
+            "add_portrait;Simon (Simon);FarRight;right",
+            "speak;Simon;Who is this?",
+            "speak;Vincent;One of your servants, and a close friend of mine.",
+            "remove_portrait;Simon (Simon)",
+            "add_portrait;Luther (Luther);FarRight;right",
+            "speak;Luther;You appear unarmed.{w} I have a spare bow, are you proficient?",
+            "speak;Juliet;I know my way around it.{w}{br}Give it here.",
+            "move_portrait;Luther (Luther);MidRight",
+            "wait;800",
+            "move_portrait;Luther (Luther);FarRight",
+            "change_class;Juliet (Juliet);Archer;FLAG(silent)",
+            "remove_item;Juliet (Juliet);Iron Bow (Iron Bow);FLAG(no_banner)",
+            "give_item;Juliet (Juliet);Iron Bow (Iron Bow)",
+            "set_stats;Juliet;CON,4,SPD,6,DEX,10,MAG,8;FLAG(immediate)",
+            "speak;Luther;It would wise to search the courtyard before we battle.{w}{br}Small advantages are found in unexpected places.",
+            "multi_remove_portrait;Luther (Luther);Vincent (Vincent);Juliet (Juliet)",
+            "set_unit_field;Juliet;PartyMember;'Yes'",
+            "set_unit_field;Luther (Luther);PartyMember;'Yes'",
+            "set_unit_field;Vincent (Vincent);PartyMember;'Yes'",
+            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "if;v('basicTutorials')",
+            "speak;Narrator;Juliet uses bows. Bow units can only attack from range.{w}{br}For Juliet to attack an enemy there must be one tile between her and the target.;StyleNid=hint",
+            "end",
+            "if;v(\"tutorialPopups\")",
+            "speak;Narrator;Units you control that fall in battle will return after the map ends.{w}{br}Only Simon's death will cause a game over.;StyleNid=hint",
+            "end"
+        ]
     }
 ]

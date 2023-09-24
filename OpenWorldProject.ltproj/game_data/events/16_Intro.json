@@ -4,488 +4,74 @@
         "trigger": "level_start",
         "level_nid": "16",
         "condition": "True",
-        "commands": [
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_convoy",
-                    "True"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "False"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "BlackBackground"
-                ]
-            ],
-            [
-                "speak_style",
-                [
-                    "IntroQuote",
-                    "Narrator",
-                    "center",
-                    "190",
-                    "5.0",
-                    "White",
-                    "chapter-white",
-                    "None",
-                    "5",
-                    "f",
-                    "None",
-                    "0.0",
-                    "None"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "The old world is dying, and the new world struggles to be born:                                     now is the time of monsters.",
-                    "StyleNid=IntroQuote",
-                    "FLAG(no_block)",
-                    "FLAG(hold)",
-                    "FLAG(no_sound)"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "3000"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "6"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "3000"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "7"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "3000"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "8"
-                ]
-            ],
-            [
-                "unhold",
-                [
-                    "IntroQuote"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "17,16",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "sound",
-                [
-                    "VillageDestroyed",
-                    "9"
-                ]
-            ],
-            [
-                "music",
-                [
-                    "Burning Ambition"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "17,15",
-                    "2.0",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "17,13",
-                    "2.0",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "18,13",
-                    "2.0",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "16,12",
-                    "2.0",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "Snag",
-                    "16,14",
-                    "2.0"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (101)",
-                    "16,12",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "105",
-                    "15,12",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "New Dawn (106)",
-                    "4"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (102)",
-                    "18,12",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (106)",
-                    "18,11",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "New Dawn (101)",
-                    "New Dawn (105)",
-                    "crit1,end"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "New Dawn (102)",
-                    "New Dawn (106)",
-                    "hit1,end"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (104)",
-                    "16,11",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (104)",
-                    "17,11"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Percy (Percy)",
-                    "16,17"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (101)",
-                    "15,12",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (102)",
-                    "15,11",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (103)",
-                    "19,12",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "New Dawn (104)",
-                    "19,11",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Percy (Percy)",
-                    "17,12",
-                    "normal",
-                    "push",
-                    "700"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Percy (Percy)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Percy",
-                    "The despot's day has come.{w}{br}If you find him, bring him to me!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Percy (Percy)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "By the Fates, they breached the walls...{w}{br}I must find Lord Simon!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Vincent"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Simon (Simon)",
-                    "21,0"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "19,1",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "18,1",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Milord, we've lost the walls!"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Then this is the end..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Not for you- not yet.{w}{br}This castle stands while we do."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Yes...{w} I will not yield so pitifully."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Come, sire, let us enter the fray below."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Vincent (Vincent)",
-                    "14,0",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,1",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "14,0"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "skip_save",
-                [
-                    "t"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_weather;night",
+            "game_var;_convoy;True",
+            "game_var;freely_exit;False",
+            "change_background;BlackBackground",
+            "speak_style;IntroQuote;Narrator;center;190;5.0;White;chapter-white;None;5;f;None;0.0;None",
+            "sound;VillageDestroyed;5",
+            "speak;Narrator;The old world is dying, and the new world struggles to be born:                                     now is the time of monsters.;StyleNid=IntroQuote;FLAG(no_block);FLAG(hold);FLAG(no_sound)",
+            "wait;3000",
+            "sound;VillageDestroyed;6",
+            "wait;3000",
+            "sound;VillageDestroyed;7",
+            "wait;3000",
+            "sound;VillageDestroyed;8",
+            "unhold;IntroQuote",
+            "center_cursor;17,16;FLAG(immediate)",
+            "change_background",
+            "sound;VillageDestroyed;9",
+            "music;Burning Ambition",
+            "map_anim;Snag;17,15;2.0;FLAG(no_block)",
+            "map_anim;Snag;17,13;2.0;FLAG(no_block)",
+            "map_anim;Snag;18,13;2.0;FLAG(no_block)",
+            "map_anim;Snag;16,12;2.0;FLAG(no_block)",
+            "map_anim;Snag;16,14;2.0",
+            "wait;500",
+            "move_unit;New Dawn (101);16,12;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;105;15,12;FLAG(no_block);FLAG(no_follow)",
+            "set_current_hp;New Dawn (106);4",
+            "move_unit;New Dawn (102);18,12;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;New Dawn (106);18,11;FLAG(no_follow)",
+            "interact_unit;New Dawn (101);New Dawn (105);crit1,end",
+            "interact_unit;New Dawn (102);New Dawn (106);hit1,end",
+            "move_unit;New Dawn (104);16,11;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;New Dawn (104);17,11",
+            "add_unit;Percy (Percy);16,17",
+            "move_unit;New Dawn (101);15,12;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;New Dawn (102);15,11;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;New Dawn (103);19,12;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;New Dawn (104);19,11;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Percy (Percy);17,12;normal;push;700",
+            "add_portrait;Percy (Percy);Left",
+            "speak;Percy;The despot's day has come.{w}{br}If you find him, bring him to me!",
+            "remove_portrait;Percy (Percy)",
+            "center_cursor;Vincent (Vincent)",
+            "add_portrait;Vincent (Vincent);Right",
+            "speak;Vincent;By the Fates, they breached the walls...{w}{br}I must find Lord Simon!",
+            "remove_portrait;Vincent",
+            "add_unit;Simon (Simon);21,0",
+            "move_unit;Simon (Simon);19,1;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Vincent (Vincent);18,1;FLAG(no_block)",
+            "add_portrait;Vincent (Vincent);Left",
+            "speak;Vincent;Milord, we've lost the walls!",
+            "add_portrait;Simon (Simon);Right",
+            "speak;Simon;Then this is the end...",
+            "speak;Vincent;Not for you- not yet.{w}{br}This castle stands while we do.",
+            "speak;Simon;Yes...{w} I will not yield so pitifully.",
+            "speak;Vincent;Come, sire, let us enter the fray below.",
+            "multi_remove_portrait;Vincent (Vincent);Simon (Simon)",
+            "move_unit;Vincent (Vincent);14,0;FLAG(no_block)",
+            "move_unit;Simon (Simon);14,1;FLAG(no_follow)",
+            "remove_unit;Vincent (Vincent)",
+            "move_unit;Simon (Simon);14,0",
+            "remove_unit;Simon (Simon)",
+            "skip_save;t",
+            "win_game"
+        ]
     }
 ]

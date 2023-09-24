@@ -4,45 +4,15 @@
         "trigger": "turn_change",
         "level_nid": "1",
         "condition": "game.turncount==6",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Bordeaux (Bordeaux)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bordeaux",
-                    "This has gone on long enough."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Bordeaux",
-                    "Let's raise the stakes, shall we?"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Bordeaux (Bordeaux)"
-                ]
-            ],
-            [
-                "add_group",
-                [
-                    "CavReinforcements",
-                    "CavReinforcements",
-                    "swoosh",
-                    "closest"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bordeaux (Bordeaux);Right",
+            "speak;Bordeaux;This has gone on long enough.",
+            "speak;Bordeaux;Let's raise the stakes, shall we?",
+            "remove_portrait;Bordeaux (Bordeaux)",
+            "add_group;CavReinforcements;CavReinforcements;swoosh;closest"
+        ]
     }
 ]

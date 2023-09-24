@@ -4,16 +4,11 @@
         "trigger": "enemy_turn_change",
         "level_nid": "13",
         "condition": "game.turncount == 7 and game.check_dead('MainWall')",
-        "commands": [
-            [
-                "loop_units",
-                [
-                    "[unit for unit in game.get_all_units() if 'Crate_Wave2' in unit.nid]",
-                    "Reinforcement Crates (13 Reinforcement Crates)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "loop_units;[unit for unit in game.get_all_units() if 'Crate_Wave2' in unit.nid];Reinforcement Crates (13 Reinforcement Crates)"
+        ]
     }
 ]

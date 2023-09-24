@@ -4,29 +4,13 @@
         "trigger": "combat_start",
         "level_nid": "6",
         "condition": "check_default('Vilge', ['Flower', 'Boudica'])",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Vilge (Vilge)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vilge",
-                    "This is all so wrong.{w} You would not rob a child of their mother!{w}{br}What gives you the right to rob the Ascended of their father?{w}{br}I will protect my family from you!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Vilge (Vilge)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Vilge (Vilge);Left",
+            "speak;Vilge;This is all so wrong.{w} You would not rob a child of their mother!{w}{br}What gives you the right to rob the Ascended of their father?{w}{br}I will protect my family from you!",
+            "remove_portrait;Vilge (Vilge)"
+        ]
     }
 ]

@@ -4,130 +4,26 @@
         "trigger": "roaming_interrupt",
         "level_nid": "5",
         "condition": "any_unit_in_region('CombatStart1', nid='Simon')",
-        "commands": [
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "22,17"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "2ndForm1",
-                    "23,17",
-                    "1,1",
-                    "formation"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "2ndForm2",
-                    "22,18",
-                    "1,1",
-                    "formation"
-                ]
-            ],
-            [
-                "add_region",
-                [
-                    "2ndForm3",
-                    "23,18",
-                    "1,1",
-                    "formation"
-                ]
-            ],
-            [
-                "set_game_board_bounds",
-                [
-                    "6",
-                    "19",
-                    "34",
-                    "34"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (101)",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (102)",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (103)",
-                    "immediate"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
-                ]
-            ],
-            [
-                "prep",
-                [
-                    "f",
-                    "Combat Preparation",
-                    "Pathways,Difficulty",
-                    "True,True",
-                    "PathwayMenu,ChangeDifficulty",
-                    "t"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "maxTurns",
-                    "game.turncount + 7"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Lupus (Lupus)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken too before then.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "change_objective_simple",
-                [
-                    "Reach Lupus by Turn {v:maxTurns}"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "maxTurns",
-                    "game.turncount + 7"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon (Simon);22,17",
+            "add_region;2ndForm1;23,17;1,1;formation",
+            "add_region;2ndForm2;22,18;1,1;formation",
+            "add_region;2ndForm3;23,18;1,1;formation",
+            "set_game_board_bounds;6;19;34;34",
+            "remove_unit;Soldier (101);immediate",
+            "remove_unit;Soldier (102);immediate",
+            "remove_unit;Soldier (103);immediate",
+            "change_roaming;f",
+            "prep;f;Combat Preparation;Pathways,Difficulty;True,True;PathwayMenu,ChangeDifficulty;t",
+            "level_var;maxTurns;game.turncount + 7",
+            "center_cursor;Lupus (Lupus)",
+            "speak;Narrator;Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken too before then.;StyleNid=hint",
+            "change_objective_simple;Reach Lupus by Turn {v:maxTurns}",
+            "level_var;maxTurns;game.turncount + 7",
+            "center_cursor;Simon (Simon)"
+        ]
     }
 ]

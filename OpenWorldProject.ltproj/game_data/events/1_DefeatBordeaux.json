@@ -4,1142 +4,175 @@
         "trigger": "unit_death",
         "level_nid": "1",
         "condition": "unit.nid == \"Bordeaux\"",
-        "commands": [
-            [
-                "comment",
-                [
-                    "#change_background;BlackBackground"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "True"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#Fates speak style"
-                ]
-            ],
-            [
-                "speak_style",
-                [
-                    "FatesTalk",
-                    "",
-                    "center",
-                    "160",
-                    "",
-                    "white",
-                    "",
-                    "None",
-                    "",
-                    "f",
-                    "None",
-                    "FLAG(fit)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Simon (Simon)",
-                    "20"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Morrissey (Morrissey)",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Impressively done, Lord Verstadt!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Once you've taken some time to rest, please join me.{w}{br}I would love to discuss our partnership in further detail."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "It seems we passed with flying colors.{w}{br}This bodes well for us."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther (Luther)",
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "change_tilemap",
-                [
-                    "Morrissey Castle"
-                ]
-            ],
-            [
-                "show_layer",
-                [
-                    "top_layer",
-                    "immediate"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Morrissey (Morrissey)",
-                    "other"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Morrissey",
-                    "16,4",
-                    "immediate"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Simon (Simon)",
-                    "16,6",
-                    "immediate"
-                ]
-            ],
-            [
-                "resurrect",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Luther (Luther)",
-                    "17,7"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "make_generic",
-                [
-                    "Guard1",
-                    "Knight (Knight)",
-                    "1",
-                    "other"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Guard1",
-                    "13,4"
-                ]
-            ],
-            [
-                "make_generic",
-                [
-                    "Guard2",
-                    "Knight (Knight)",
-                    "1",
-                    "other"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Guard2",
-                    "13,5"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Morrissey (Morrissey)",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "2000"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "I must say Lord Verstadt, you exceeded every expectation.{w}{br}I am overjoyed to have a friend in you and your house.{w}{br}Now, first, a gift as a gesture of goodwill."
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Feel free to change this later, but some money for now"
-                ]
-            ],
-            [
-                "give_money",
-                [
-                    "1500",
-                    "Simon's Group (Simon)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Thank you, Lord Morrissey. We will use this wisely."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "I have no doubt.{w} Now, I'd like to discuss our next steps."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "As of late, this continent has known nothing but chaos.{w}{br}We nobles are losing control of our own land.{w}{br}Some groups seek a world without us."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "bop_portrait",
-                [
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Worst of all, our own king seems ambivalent to our plight."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Agreed, on all counts.{w} My primary concern, though, is my home."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "As it should be.{w} In regards to that problem,{w}{br}I regret that neither of us have the army needed to defeat the New Dawn."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "My humble advice is to, for now, sidestep your concerns.{w}{br}We can begin to forge alliances with other powers,{w}{br}and eventually raise an army capable of taking back your home."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "What exactly do you suggest?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Port Hull is my primary focus."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Their stranglehold on trade threatens both our economies.{w}{br}I have here a letter for them."
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "16,5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Negotiating the deal within it is paramount to success."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I see."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "I also expect that my daughter will accompany you.{w}{br}As my heir, she will represent the interests of my House."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Understood."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Now, your travels should be as grandiose as possible.{w}{br}Make your station and mission clear.{w}{br}Every person you meet should feel awed by your presence."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Not sure I agree."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "We'd be the obvious target of any assassins or thieves.{w}{br}Something more subtle, like a mercenary group, could be better."
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "...A fine plan too.{w}{br}Either way-"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Assassin Section"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Morrissey (Morrissey)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "make_generic",
-                [
-                    "Assassin1",
-                    "Brigand (Brigand)",
-                    "1",
-                    "enemy",
-                    "Pursue",
-                    "New Dawn (NewDawn)",
-                    "",
-                    "Silver Axe"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Assassin1",
-                    "15,13",
-                    "immediate"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "Assassin1",
-                    "Lost to History (Void Curse)",
-                    "",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "15,13"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mercenary1",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "Death to Morrissey! Death to the tyrants!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Mercenary1"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Assassin1",
-                    "15,6",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "15,5"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "close"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Critical Hit 1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "800"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "Critical Kill"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "400"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "16,5",
-                    "immediate"
-                ]
-            ],
-            [
-                "change_background",
-                [
-                    "BlackBackground"
-                ]
-            ],
-            [
-                "transition",
-                [
-                    "open"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "600"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Your thread continues on.",
-                    "StyleNid=FatesTalk"
-                ]
-            ],
-            [
-                "sound",
-                [
-                    "TurnwheelOut"
-                ]
-            ],
-            [
-                "end_skip",
-                []
-            ],
-            [
-                "move_unit",
-                [
-                    "Assassin1",
-                    "15,13",
-                    "immediate"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "600"
-                ]
-            ],
-            [
-                "change_background",
-                []
-            ],
-            [
-                "center_cursor",
-                [
-                    "15,13"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Mercenary1",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Mercenary1",
-                    "Death to Morrissey! Death to the tyrants!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Mercenary1"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Assassin1",
-                    "15,6",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "15,5"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "Assassin1",
-                    "Simon (Simon)",
-                    "miss1,end"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "Simon (Simon)",
-                    "Assassin1",
-                    "crit1,end"
-                ]
-            ],
-            [
-                "kill_unit",
-                [
-                    "Assassin1",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Guard1",
-                    "15,6",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Guard2",
-                    "16,6",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "SoldierBlue",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "SoldierBlue",
-                    "I-intruders! Spread out and lock down the castle!"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "SoldierBlue"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Guard1",
-                    "15,17",
-                    "FLAG(no_follow)",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Guard2",
-                    "16,17",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Guard1",
-                    "immediate"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Guard2",
-                    "immediate"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Morrissey"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Morrissey (Morrissey)",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "It seems I now owe you my life."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Yet another reason to be thankful for our alliance."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It was nothing.{w} Now, is there anything else?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "Not for you to be concerned over."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Morrissey",
-                    "It seems I must investigate how a brigand strolled into my hall.{w}{br}I apologize, but I must take my leave."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Of course."
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Fates section"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "Morrissey (Morrissey)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Simon (Simon)",
-                    "15,17",
-                    "FLAG(no_block)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther (Luther)",
-                    "16,17",
-                    "FLAG(no_follow)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Left"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Hold for a moment, milord."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Yes?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "You moved... quickly against that assassin."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I do not doubt your reflexes, but you parried his swing before he made it.{w}{br}How?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "This happened as we were escaping the castle, too.{w}{br}My death was... nullified.{w}{br}Both times, I heard a voice as it happened."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I see."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I am not a madman Luther, I swear."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I believe you, though others might not."
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Perhaps you have been granted the blessing of the Fates."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "The Fates? Why would they bless me?"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Luther"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Who can say.{w} The will of a god is not easily understood."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It is a useful tool, either way.{w}{br}Immortality is a powerful gift."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Invincibility.{w} And it is only apparent invincibility.{w}{br}No god can revoke their blessing, but using it rashly can incur their wrath.{w}{br}I know of a shrine to one of the Fates nearby.{w}{br}Perhaps visiting there could yield answers."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Perhaps so.{w} Thank you, Luther."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther (Luther)",
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "overworld_cinematic",
-                [
-                    "The Continent (1)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "House Verstadt (26)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "House Morrissey (27)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "26",
-                    "27",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "House Morrissey (27)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "The Eastern Highway (31)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "27",
-                    "31"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Shrine of Clotho (28)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "27",
-                    "28"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Road to the Swamp (30)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "Road to the Swamp (30)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "28",
-                    "30"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "House Morrissey (27)"
-                ]
-            ],
-            [
-                "reveal_overworld_node",
-                [
-                    "The Royal Garrison (43)"
-                ]
-            ],
-            [
-                "reveal_overworld_road",
-                [
-                    "27",
-                    "43"
-                ]
-            ],
-            [
-                "set_overworld_position",
-                [
-                    "Simon's Group (Simon)",
-                    "House Morrissey (27)",
-                    "FLAG(no_animate)"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "#change_background;BlackBackground",
+            "game_var;freely_exit;True",
+            "#Fates speak style",
+            "speak_style;FatesTalk;;center;160;;white;;None;;f;None;FLAG(fit)",
+            "#",
+            "set_current_hp;Simon (Simon);20",
+            "add_portrait;Morrissey (Morrissey);FarRight",
+            "speak;Morrissey;Impressively done, Lord Verstadt!",
+            "speak;Morrissey;Once you've taken some time to rest, please join me.{w}{br}I would love to discuss our partnership in further detail.",
+            "remove_portrait;Morrissey (Morrissey)",
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);Left",
+            "add_portrait;Luther (Luther);Right",
+            "speak;Luther;It seems we passed with flying colors.{w}{br}This bodes well for us.",
+            "multi_remove_portrait;Luther (Luther);Simon (Simon)",
+            "transition;close",
+            "change_tilemap;Morrissey Castle",
+            "show_layer;top_layer;immediate",
+            "load_unit;Morrissey (Morrissey);other",
+            "add_unit;Morrissey;16,4;immediate",
+            "add_unit;Simon (Simon);16,6;immediate",
+            "resurrect;Luther (Luther)",
+            "add_unit;Luther (Luther);17,7",
+            "center_cursor;Simon (Simon)",
+            "make_generic;Guard1;Knight (Knight);1;other",
+            "add_unit;Guard1;13,4",
+            "make_generic;Guard2;Knight (Knight);1;other",
+            "add_unit;Guard2;13,5",
+            "add_portrait;Morrissey (Morrissey);Right",
+            "add_portrait;Simon (Simon);Left",
+            "wait;2000",
+            "transition;open",
+            "speak;Morrissey;I must say Lord Verstadt, you exceeded every expectation.{w}{br}I am overjoyed to have a friend in you and your house.{w}{br}Now, first, a gift as a gesture of goodwill.",
+            "# Feel free to change this later, but some money for now",
+            "give_money;1500;Simon's Group (Simon)",
+            "#",
+            "speak;Simon;Thank you, Lord Morrissey. We will use this wisely.",
+            "speak;Morrissey;I have no doubt.{w} Now, I'd like to discuss our next steps.",
+            "mirror_portrait;Morrissey (Morrissey)",
+            "speak;Morrissey;As of late, this continent has known nothing but chaos.{w}{br}We nobles are losing control of our own land.{w}{br}Some groups seek a world without us.",
+            "mirror_portrait;Morrissey (Morrissey)",
+            "bop_portrait;Morrissey (Morrissey)",
+            "speak;Morrissey;Worst of all, our own king seems ambivalent to our plight.",
+            "speak;Simon;Agreed, on all counts.{w} My primary concern, though, is my home.",
+            "speak;Morrissey;As it should be.{w} In regards to that problem,{w}{br}I regret that neither of us have the army needed to defeat the New Dawn.",
+            "speak;Morrissey;My humble advice is to, for now, sidestep your concerns.{w}{br}We can begin to forge alliances with other powers,{w}{br}and eventually raise an army capable of taking back your home.",
+            "speak;Simon;What exactly do you suggest?",
+            "speak;Morrissey;Port Hull is my primary focus.",
+            "speak;Morrissey;Their stranglehold on trade threatens both our economies.{w}{br}I have here a letter for them.",
+            "move_unit;Simon (Simon);16,5",
+            "speak;Morrissey;Negotiating the deal within it is paramount to success.",
+            "speak;Simon;I see.",
+            "speak;Morrissey;I also expect that my daughter will accompany you.{w}{br}As my heir, she will represent the interests of my House.",
+            "speak;Simon;Understood.",
+            "speak;Morrissey;Now, your travels should be as grandiose as possible.{w}{br}Make your station and mission clear.{w}{br}Every person you meet should feel awed by your presence.",
+            "speak;Simon;Not sure I agree.",
+            "speak;Simon;We'd be the obvious target of any assassins or thieves.{w}{br}Something more subtle, like a mercenary group, could be better.",
+            "wait;500",
+            "speak;Morrissey;...A fine plan too.{w}{br}Either way-",
+            "#",
+            "#",
+            "# Assassin Section",
+            "#",
+            "#",
+            "remove_portrait;Morrissey (Morrissey);FLAG(immediate)",
+            "remove_portrait;Simon (Simon);FLAG(immediate)",
+            "make_generic;Assassin1;Brigand (Brigand);1;enemy;Pursue;New Dawn (NewDawn);;Silver Axe",
+            "add_unit;Assassin1;15,13;immediate",
+            "give_skill;Assassin1;Lost to History (Void Curse);;FLAG(no_banner)",
+            "center_cursor;15,13",
+            "add_portrait;Mercenary1;Left",
+            "speak;Mercenary1;Death to Morrissey! Death to the tyrants!",
+            "remove_portrait;Mercenary1",
+            "move_unit;Assassin1;15,6;FLAG(no_block)",
+            "move_unit;Simon (Simon);15,5",
+            "transition;close",
+            "sound;Critical Hit 1",
+            "wait;800",
+            "sound;Critical Kill",
+            "wait;400",
+            "move_unit;Simon (Simon);16,5;immediate",
+            "change_background;BlackBackground",
+            "transition;open",
+            "wait;600",
+            "speak;Narrator;Your thread continues on.;StyleNid=FatesTalk",
+            "sound;TurnwheelOut",
+            "end_skip",
+            "move_unit;Assassin1;15,13;immediate",
+            "wait;600",
+            "change_background",
+            "center_cursor;15,13",
+            "add_portrait;Mercenary1;Left",
+            "speak;Mercenary1;Death to Morrissey! Death to the tyrants!",
+            "remove_portrait;Mercenary1",
+            "move_unit;Assassin1;15,6;FLAG(no_block)",
+            "move_unit;Simon (Simon);15,5",
+            "interact_unit;Assassin1;Simon (Simon);miss1,end",
+            "interact_unit;Simon (Simon);Assassin1;crit1,end",
+            "kill_unit;Assassin1;FLAG(no_warn)",
+            "move_unit;Guard1;15,6;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;Guard2;16,6;FLAG(no_follow)",
+            "add_portrait;SoldierBlue;FarLeft",
+            "speak;SoldierBlue;I-intruders! Spread out and lock down the castle!",
+            "remove_portrait;SoldierBlue",
+            "move_unit;Guard1;15,17;FLAG(no_follow);FLAG(no_block)",
+            "move_unit;Guard2;16,17;FLAG(no_follow)",
+            "remove_unit;Guard1;immediate",
+            "remove_unit;Guard2;immediate",
+            "center_cursor;Morrissey",
+            "add_portrait;Morrissey (Morrissey);Right",
+            "add_portrait;Simon (Simon);Left",
+            "speak;Morrissey;It seems I now owe you my life.",
+            "speak;Morrissey;Yet another reason to be thankful for our alliance.",
+            "speak;Simon;It was nothing.{w} Now, is there anything else?",
+            "speak;Morrissey;Not for you to be concerned over.",
+            "speak;Morrissey;It seems I must investigate how a brigand strolled into my hall.{w}{br}I apologize, but I must take my leave.",
+            "speak;Simon;Of course.",
+            "#",
+            "#",
+            "# Fates section",
+            "#",
+            "#",
+            "multi_remove_portrait;Simon (Simon);Morrissey (Morrissey)",
+            "move_unit;Simon (Simon);15,17;FLAG(no_block)",
+            "move_unit;Luther (Luther);16,17;FLAG(no_follow)",
+            "add_portrait;Simon (Simon);Left",
+            "add_portrait;Luther (Luther);Right",
+            "speak;Luther;Hold for a moment, milord.",
+            "speak;Simon;Yes?",
+            "speak;Luther;You moved... quickly against that assassin.",
+            "speak;Simon;...",
+            "speak;Luther;I do not doubt your reflexes, but you parried his swing before he made it.{w}{br}How?",
+            "speak;Simon;This happened as we were escaping the castle, too.{w}{br}My death was... nullified.{w}{br}Both times, I heard a voice as it happened.",
+            "speak;Luther;I see.",
+            "speak;Simon;I am not a madman Luther, I swear.",
+            "speak;Luther;I believe you, though others might not.",
+            "mirror_portrait;Luther (Luther)",
+            "speak;Luther;Perhaps you have been granted the blessing of the Fates.",
+            "speak;Simon;The Fates? Why would they bless me?",
+            "mirror_portrait;Luther",
+            "speak;Luther;Who can say.{w} The will of a god is not easily understood.",
+            "speak;Simon;...",
+            "wait;500",
+            "speak;Simon;It is a useful tool, either way.{w}{br}Immortality is a powerful gift.",
+            "speak;Luther;Invincibility.{w} And it is only apparent invincibility.{w}{br}No god can revoke their blessing, but using it rashly can incur their wrath.{w}{br}I know of a shrine to one of the Fates nearby.{w}{br}Perhaps visiting there could yield answers.",
+            "speak;Simon;Perhaps so.{w} Thank you, Luther.",
+            "multi_remove_portrait;Luther (Luther);Simon (Simon)",
+            "#",
+            "overworld_cinematic;The Continent (1)",
+            "reveal_overworld_node;House Verstadt (26);FLAG(immediate)",
+            "reveal_overworld_node;House Morrissey (27);FLAG(immediate)",
+            "reveal_overworld_road;26;27;FLAG(immediate)",
+            "center_cursor;House Morrissey (27)",
+            "reveal_overworld_node;The Eastern Highway (31)",
+            "reveal_overworld_road;27;31",
+            "reveal_overworld_node;Shrine of Clotho (28)",
+            "reveal_overworld_road;27;28",
+            "center_cursor;Road to the Swamp (30)",
+            "reveal_overworld_node;Road to the Swamp (30)",
+            "reveal_overworld_road;28;30",
+            "center_cursor;House Morrissey (27)",
+            "reveal_overworld_node;The Royal Garrison (43)",
+            "reveal_overworld_road;27;43",
+            "set_overworld_position;Simon's Group (Simon);House Morrissey (27);FLAG(no_animate)",
+            "win_game"
+        ]
     }
 ]

@@ -4,16 +4,11 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "set_current_poise",
-                [
-                    "{unit2}",
-                    "99"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "set_current_poise;{unit2};99"
+        ]
     }
 ]

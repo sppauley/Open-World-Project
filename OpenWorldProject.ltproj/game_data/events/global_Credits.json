@@ -4,291 +4,57 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# Tilesets"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Feaw (Deep Swamp)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# N426 (Improved Castle)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Item icons"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Ironmachine (pikes)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Topazlight (iron and steel mace)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Beansy (silver mace)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Maxim (dexterity ring, poise ring)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Map sprites"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Suloir (axe cav)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Teraspark (sword lord)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Unknown (magus lord)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Primefusion (crate)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# ArcherBias (guerilla)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# ZeroXA (male troubadour)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Alusq, Epicer (female lance unit)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# N426 (Griffon Knight, Supplier, Tomes)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# ShadowAllyX (Boxer)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Leif, MeatofJustice (Tycoon)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# N426 (Mitzi)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Rasdel (Lupus)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# ArcaneEli (Hatshepsut)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Pikmin, L95, Der (Draconic Knight)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Skitty (Anuki)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "#"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Portraits"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Wasdye (Luther)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# amema003 (Juliet)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# CanDy (VillagerWoman, VillagerTeen, OldVillager, OldVillager2, YoungBoy, Flower, Larry, Hatshesput, Ebert)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Armory (Vincent)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# CapibaraInSpace (Boudica)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Edlritch Abomination (FE7 Mugs)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Freefall (Vilge)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Kanna, bwan, Obsydian Daddy (Nika)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Kanna (Mitzi)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# LaurentLacroix (Morrissey)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Tom776 (Twins)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Zeldacrafter (Bounty, Lupus)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Imperial (Forger)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Its Just Jay (Bryce)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Levin64 (Kajal)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# XVI (Titus)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Citrus (Gustav)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# JiroPaiPai (Bordeaux)"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Rammerrush (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# Tilesets",
+            "# Feaw (Deep Swamp)",
+            "# N426 (Improved Castle)",
+            "#",
+            "# Item icons",
+            "# Ironmachine (pikes)",
+            "# Topazlight (iron and steel mace)",
+            "# Beansy (silver mace)",
+            "# Maxim (dexterity ring, poise ring)",
+            "#",
+            "# Map sprites",
+            "# Suloir (axe cav)",
+            "# Teraspark (sword lord)",
+            "# Unknown (magus lord)",
+            "# Primefusion (crate)",
+            "# ArcherBias (guerilla)",
+            "# ZeroXA (male troubadour)",
+            "# Alusq, Epicer (female lance unit)",
+            "# N426 (Griffon Knight, Supplier, Tomes)",
+            "# ShadowAllyX (Boxer)",
+            "# Leif, MeatofJustice (Tycoon)",
+            "# N426 (Mitzi)",
+            "# Rasdel (Lupus)",
+            "# ArcaneEli (Hatshepsut)",
+            "# Pikmin, L95, Der (Draconic Knight)",
+            "# Skitty (Anuki)",
+            "#",
+            "# Portraits",
+            "# Wasdye (Luther)",
+            "# amema003 (Juliet)",
+            "# CanDy (VillagerWoman, VillagerTeen, OldVillager, OldVillager2, YoungBoy, Flower, Larry, Hatshesput, Ebert)",
+            "# Armory (Vincent)",
+            "# CapibaraInSpace (Boudica)",
+            "# Edlritch Abomination (FE7 Mugs)",
+            "# Freefall (Vilge)",
+            "# Kanna, bwan, Obsydian Daddy (Nika)",
+            "# Kanna (Mitzi)",
+            "# LaurentLacroix (Morrissey)",
+            "# Tom776 (Twins)",
+            "# Zeldacrafter (Bounty, Lupus)",
+            "# Imperial (Forger)",
+            "# Its Just Jay (Bryce)",
+            "# Levin64 (Kajal)",
+            "# XVI (Titus)",
+            "# Citrus (Gustav)",
+            "# JiroPaiPai (Bordeaux)",
+            "# Rammerrush (Simon)"
+        ]
     }
 ]

@@ -4,57 +4,18 @@
         "trigger": "on_turnwheel",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "level_var",
-                [
-                    "targetUnit",
-                    "RECORDS.get(\"UnitWhoKilledSimon\")"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "RECORDS.get(\"UnitWhoKilledSimon\") and game.get_unit(RECORDS.get(\"UnitWhoKilledSimon\")).position"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "{e:RECORDS.get(\"UnitWhoKilledSimon\")}"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "{e:RECORDS.get(\"UnitWhoKilledSimon\")}"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "CallOutKillerDialogue (Global CallOutKillerDialogue)"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "update_record",
-                [
-                    "UnitWhoKilledSimon",
-                    "None"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 5
+        "priority": 5,
+        "_source": [
+            "level_var;targetUnit;RECORDS.get(\"UnitWhoKilledSimon\")",
+            "if;RECORDS.get(\"UnitWhoKilledSimon\") and game.get_unit(RECORDS.get(\"UnitWhoKilledSimon\")).position",
+            "center_cursor;{e:RECORDS.get(\"UnitWhoKilledSimon\")}",
+            "flicker_cursor;{e:RECORDS.get(\"UnitWhoKilledSimon\")}",
+            "trigger_script;CallOutKillerDialogue (Global CallOutKillerDialogue)",
+            "center_cursor;Simon",
+            "end",
+            "update_record;UnitWhoKilledSimon;None"
+        ]
     }
 ]

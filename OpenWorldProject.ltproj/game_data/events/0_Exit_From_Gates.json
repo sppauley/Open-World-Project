@@ -4,15 +4,11 @@
         "trigger": "Exit",
         "level_nid": "0",
         "condition": "True",
-        "commands": [
-            [
-                "trigger_script",
-                [
-                    "ExitMap (Global ExitMap)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "trigger_script;ExitMap (Global ExitMap)"
+        ]
     }
 ]

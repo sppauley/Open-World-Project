@@ -4,64 +4,18 @@
         "trigger": null,
         "level_nid": "11",
         "condition": "True",
-        "commands": [
-            [
-                "for",
-                [
-                    "unit",
-                    "[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "{unit}",
-                    "immediate",
-                    "fade",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "endf",
-                []
-            ],
-            [
-                "remove_unit",
-                [
-                    "Soldier (115)",
-                    "immediate"
-                ]
-            ],
-            [
-                "set_game_board_bounds",
-                [
-                    "12",
-                    "0",
-                    "36",
-                    "20"
-                ]
-            ],
-            [
-                "remove_region",
-                [
-                    "SouthEastPuzzle",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "change_roaming",
-                [
-                    "f"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "for;unit;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]",
+            "remove_unit;{unit};immediate;fade;FLAG(no_warn)",
+            "endf",
+            "remove_unit;Soldier (115);immediate",
+            "set_game_board_bounds;12;0;36;20",
+            "remove_region;SouthEastPuzzle;FLAG(no_warn)",
+            "change_roaming;f",
+            "trigger_script;GenericPreps (Global GenericPreps)"
+        ]
     }
 ]

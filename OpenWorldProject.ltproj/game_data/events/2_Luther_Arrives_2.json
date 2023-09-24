@@ -4,137 +4,28 @@
         "trigger": "turn_change",
         "level_nid": "2",
         "condition": "game.level_vars['SimonReset']==1 and game.board.get_unit((15,4)) == None",
-        "commands": [
-            [
-                "add_unit",
-                [
-                    "Luther",
-                    "14,3"
-                ]
-            ],
-            [
-                "flicker_cursor",
-                [
-                    "Luther"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "Left",
-                    "left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Milord! I apologize for the delay."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We must retreat at once."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "Right",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent (Vincent)",
-                    "FarRight",
-                    "right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "I can't speak for Simon, but I'm not going to run."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "We can't let these brigands get away with this!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "I see."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "We must proceed with caution, then."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Just--"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "You knock them down, I follow up. {w}Got it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther (Luther)",
-                    "Simon (Simon)",
-                    "Vincent (Vincent)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Luther",
-                    "15,3"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "500"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_unit;Luther;14,3",
+            "flicker_cursor;Luther",
+            "add_portrait;Luther (Luther);Left;left",
+            "speak;Luther;Milord! I apologize for the delay.",
+            "speak;Luther;We must retreat at once.",
+            "add_portrait;Simon (Simon);Right;right",
+            "speak;Simon;...",
+            "add_portrait;Vincent (Vincent);FarRight;right",
+            "speak;Vincent;I can't speak for Simon, but I'm not going to run.",
+            "speak;Vincent;We can't let these brigands get away with this!",
+            "speak;Luther;I see.",
+            "speak;Luther;We must proceed with caution, then.",
+            "speak;Luther;Just--",
+            "speak;Simon;You knock them down, I follow up. {w}Got it.",
+            "speak;Luther;...",
+            "multi_remove_portrait;Luther (Luther);Simon (Simon);Vincent (Vincent)",
+            "move_unit;Luther;15,3",
+            "wait;500"
+        ]
     }
 ]

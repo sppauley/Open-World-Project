@@ -4,16 +4,11 @@
         "trigger": "level_start",
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "loop_units",
-                [
-                    "[unit for unit in game.get_all_units_in_party()]",
-                    "Reset Poise (Global Reset Poise)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 30
+        "priority": 30,
+        "_source": [
+            "loop_units;[unit for unit in game.get_all_units_in_party()];Reset Poise (Global Reset Poise)"
+        ]
     }
 ]

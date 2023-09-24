@@ -4,56 +4,18 @@
         "trigger": "Visit",
         "level_nid": "8",
         "condition": "region.nid=='BottomVillage'",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive('Gustav')"
-                ]
-            ],
-            [
-                "inc_game_var",
-                [
-                    "DamageWeaponMaterial",
-                    "1"
-                ]
-            ],
-            [
-                "alert",
-                [
-                    "Found Damage forging material!"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It looks like they raided the ruins already."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Gustav')",
+            "inc_game_var;DamageWeaponMaterial;1",
+            "alert;Found Damage forging material!",
+            "else",
+            "add_portrait;Simon;Left",
+            "speak;Simon;It looks like they raided the ruins already.",
+            "remove_portrait;Simon",
+            "end"
+        ]
     }
 ]

@@ -4,32 +4,14 @@
         "trigger": "on_talk",
         "level_nid": "0",
         "condition": "unit2.nid == 'Blacksmith'",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# dialogue"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:tutorialPopups} == 1"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Forging can improve your weapons in powerful ways.{w}{br}Forging costs materials which can be found in battle."
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 24
+        "priority": 24,
+        "_source": [
+            "# dialogue",
+            "if;{v:tutorialPopups} == 1",
+            "speak;Narrator;Forging can improve your weapons in powerful ways.{w}{br}Forging costs materials which can be found in battle.",
+            "end"
+        ]
     }
 ]

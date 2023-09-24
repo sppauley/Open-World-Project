@@ -4,299 +4,53 @@
         "trigger": "level_start",
         "level_nid": "10",
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# Debug commands"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "DEBUGPostTutorial (Global DEBUGPostTutorial)"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Boudica"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Nika"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Kajal"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Flower"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Simon",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Vincent",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Luther",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Flower",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Boudica",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Anuki",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Juliet",
-                    "12"
-                ]
-            ],
-            [
-                "autolevel_to",
-                [
-                    "Nika",
-                    "12"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Actual intro"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "dark"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "purple"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "night"
-                ]
-            ],
-            [
-                "multi_add_portrait",
-                [
-                    "Simon",
-                    "Left",
-                    "Kajal",
-                    "Right"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "Here we are."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It really is in miserable condition..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "It's tragic, isn't it?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "It's the fate of all the noble houses, so they say."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "You don't sound like you believe it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "I don't."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "You might call it blasphemy, but I just can't believe that the noble houses are doomed."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "Lord Vesner proved it."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "With enough strength can cunning, you can wrest control from fate."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "But he still died, didn't he?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "Not quite. He managed to stay alive in an act of defiance."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "But perhaps death would have been kinder."
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Vincent",
-                    "OffscreenLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Simon",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Vincent",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Vincent",
-                    "Sorry interrupt, but it looks like we've got company."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "Bandits? This far into the swamp?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Kajal",
-                    "They've gotten bolder. Or more foolish."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "We can hold them off."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Everyone, prepare for battle."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Vincent",
-                    "Simon",
-                    "Kajal"
-                ]
-            ],
-            [
-                "arrange_formation",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "GenericPreps (Global GenericPreps)"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "freely_exit",
-                    "True"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# Debug commands",
+            "trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
+            "load_unit;Boudica",
+            "load_unit;Nika",
+            "load_unit;Kajal",
+            "load_unit;Flower",
+            "autolevel_to;Simon;12",
+            "autolevel_to;Vincent;12",
+            "autolevel_to;Luther;12",
+            "autolevel_to;Flower;12",
+            "autolevel_to;Boudica;12",
+            "autolevel_to;Anuki;12",
+            "autolevel_to;Juliet;12",
+            "autolevel_to;Nika;12",
+            "# Actual intro",
+            "add_weather;dark",
+            "add_weather;purple",
+            "add_weather;night",
+            "multi_add_portrait;Simon;Left;Kajal;Right",
+            "speak;Kajal;Here we are.",
+            "speak;Simon;It really is in miserable condition...",
+            "speak;Kajal;It's tragic, isn't it?",
+            "speak;Kajal;It's the fate of all the noble houses, so they say.",
+            "speak;Simon;You don't sound like you believe it.",
+            "speak;Kajal;I don't.",
+            "speak;Kajal;You might call it blasphemy, but I just can't believe that the noble houses are doomed.",
+            "speak;Kajal;Lord Vesner proved it.",
+            "speak;Kajal;With enough strength can cunning, you can wrest control from fate.",
+            "speak;Simon;But he still died, didn't he?",
+            "speak;Kajal;Not quite. He managed to stay alive in an act of defiance.",
+            "speak;Kajal;But perhaps death would have been kinder.",
+            "add_portrait;Vincent;OffscreenLeft",
+            "move_portrait;Simon;MidLeft",
+            "move_portrait;Vincent;FarLeft",
+            "speak;Vincent;Sorry interrupt, but it looks like we've got company.",
+            "speak;Kajal;Bandits? This far into the swamp?",
+            "speak;Kajal;They've gotten bolder. Or more foolish.",
+            "speak;Simon;We can hold them off.",
+            "speak;Simon;Everyone, prepare for battle.",
+            "multi_remove_portrait;Vincent;Simon;Kajal",
+            "arrange_formation",
+            "trigger_script;GenericPreps (Global GenericPreps)",
+            "game_var;freely_exit;True"
+        ]
     }
 ]

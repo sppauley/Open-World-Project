@@ -4,33 +4,13 @@
         "trigger": "turn_change",
         "level_nid": "8",
         "condition": "game.turncount==4",
-        "commands": [
-            [
-                "change_ai",
-                [
-                    "112",
-                    "Pursue",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "127",
-                    "Pursue",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "122",
-                    "Pursue",
-                    "FLAG(no_warn)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "change_ai;112;Pursue;FLAG(no_warn)",
+            "change_ai;127;Pursue;FLAG(no_warn)",
+            "change_ai;122;Pursue;FLAG(no_warn)"
+        ]
     }
 ]

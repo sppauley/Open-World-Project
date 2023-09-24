@@ -4,46 +4,17 @@
         "trigger": "combat_end",
         "level_nid": null,
         "condition": "game.level.nid != \"2\" and unit2.nid == \"Simon\" and game.check_dead(\"Simon\")",
-        "commands": [
-            [
-                "create_record",
-                [
-                    "UnitWhoKilledSimon",
-                    "None",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "update_record",
-                [
-                    "UnitWhoKilledSimon",
-                    "unit1.nid"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('_turnwheel') and game.game_vars.get('_current_turnwheel_uses', 0) > 0"
-                ]
-            ],
-            [
-                "activate_turnwheel",
-                []
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "lose_game",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "create_record;UnitWhoKilledSimon;None;FLAG(no_warn)",
+            "update_record;UnitWhoKilledSimon;unit1.nid",
+            "if;v('_turnwheel') and game.game_vars.get('_current_turnwheel_uses', 0) > 0",
+            "activate_turnwheel",
+            "else",
+            "lose_game",
+            "end"
+        ]
     }
 ]

@@ -4,49 +4,16 @@
         "trigger": "level_start",
         "level_nid": "15",
         "condition": "True",
-        "commands": [
-            [
-                "add_weather",
-                [
-                    "sunset"
-                ]
-            ],
-            [
-                "add_weather",
-                [
-                    "purple"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon (Simon)",
-                    "Kajal"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon",
-                    "103"
-                ]
-            ],
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)",
-                    "FLAG(immediate)"
-                ]
-            ],
-            [
-                "add_talk",
-                [
-                    "Simon",
-                    "101"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_weather;sunset",
+            "add_weather;purple",
+            "add_talk;Simon (Simon);Kajal",
+            "add_talk;Simon;103",
+            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "add_talk;Simon;101"
+        ]
     }
 ]

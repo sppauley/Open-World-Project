@@ -4,65 +4,18 @@
         "trigger": "turn_change",
         "level_nid": "2",
         "condition": "game.level_vars['SimonReset']==1 and any_unit_in_region('GroundFloor', team='player')",
-        "commands": [
-            [
-                "change_ai",
-                [
-                    "Percy",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "106",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "107",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "108",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "110",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "111",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "113",
-                    "Pursue"
-                ]
-            ],
-            [
-                "change_ai",
-                [
-                    "109",
-                    "Pursue"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "change_ai;Percy;Pursue",
+            "change_ai;106;Pursue",
+            "change_ai;107;Pursue",
+            "change_ai;108;Pursue",
+            "change_ai;110;Pursue",
+            "change_ai;111;Pursue",
+            "change_ai;113;Pursue",
+            "change_ai;109;Pursue"
+        ]
     }
 ]

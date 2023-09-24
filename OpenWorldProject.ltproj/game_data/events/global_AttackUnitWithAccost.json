@@ -4,58 +4,17 @@
         "trigger": "combat_end",
         "level_nid": null,
         "condition": "'enemy' in unit.team and (unit2.stats['SPD'] > unit.stats['SPD']) and (unit2.get_hp() > unit.get_hp()) and 'Accosted' not in [skill.nid for skill in unit.skills] and 'Accost' in [skill.nid for skill in unit2.skills]",
-        "commands": [
-            [
-                "if",
-                [
-                    "game.check_alive(unit.nid) and game.check_alive(unit2.nid)"
-                ]
-            ],
-            [
-                "map_anim",
-                [
-                    "AOE_Reinforce",
-                    "{unit}"
-                ]
-            ],
-            [
-                "give_skill",
-                [
-                    "{unit}",
-                    "Accosted",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "interact_unit",
-                [
-                    "{unit}",
-                    "{unit2}",
-                    "",
-                    "",
-                    "1"
-                ]
-            ],
-            [
-                "wait",
-                [
-                    "10"
-                ]
-            ],
-            [
-                "remove_skill",
-                [
-                    "{unit}",
-                    "Accosted",
-                    "FLAG(no_banner)"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive(unit.nid) and game.check_alive(unit2.nid)",
+            "map_anim;AOE_Reinforce;{unit}",
+            "give_skill;{unit};Accosted;FLAG(no_banner)",
+            "interact_unit;{unit};{unit2};;;1",
+            "wait;10",
+            "remove_skill;{unit};Accosted;FLAG(no_banner)",
+            "end"
+        ]
     }
 ]

@@ -4,61 +4,18 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# sets up the item to forge"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "ForgeItem",
-                    "Choose an item:",
-                    "{eval:','.join(item.nid for item in game.get_unit('{v:ForgeUnit}').items)}",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "type_game_item",
-                    "FLAG(backable)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:ForgeItem}'!='BACK'"
-                ]
-            ],
-            [
-                "trigger_script_with_args",
-                [
-                    "Forge_PickMaterial",
-                    "ForgeItem,{v:ForgeItem}"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "trigger_script",
-                [
-                    "Forge_Start"
-                ]
-            ],
-            [
-                "unchoice",
-                []
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# sets up the item to forge",
+            "choice;ForgeItem;Choose an item:;{eval:','.join(item.nid for item in game.get_unit('{v:ForgeUnit}').items)};;;;;;type_game_item;FLAG(backable)",
+            "if;'{v:ForgeItem}'!='BACK'",
+            "trigger_script_with_args;Forge_PickMaterial;ForgeItem,{v:ForgeItem}",
+            "else",
+            "trigger_script;Forge_Start",
+            "unchoice",
+            "end"
+        ]
     }
 ]

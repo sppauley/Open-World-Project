@@ -4,485 +4,79 @@
         "trigger": "combat_end",
         "level_nid": "17",
         "condition": "game.get_enemy_units() == []",
-        "commands": [
-            [
-                "center_cursor",
-                [
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Have they retreated?"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "{v:FreesHouse4Destroyed} or not game.get_unit(\"Flower\")"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FlowerRecruited",
-                    "False"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Anuki (Anuki)"
-                ]
-            ],
-            [
-                "resurrect",
-                [
-                    "Anuki (Anuki)",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Anuki",
-                    "{e:game.get_unit(\"Anuki\").get_max_hp()}",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Anuki (Anuki)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Anuki (Anuki)",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Even though the village was destroyed,{w}{br}at least we've brought peace to the region."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "Peace? This reminds me more of a desert."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I tried to save them!{w}{br}It was just - more than I..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Anuki",
-                    "Hey, I'm not holding it against you.{w}{br}You did the right thing by putting our safety first.{w}{br}Besides, the few survivors makes them unattractive to bandits."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "..."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Simon (Simon)",
-                    "Anuki"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "FlowerRecruited",
-                    "True"
-                ]
-            ],
-            [
-                "comment",
-                [
-                    "# Happy ending"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Flower (Flower)",
-                    "Simon (Simon)",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Flower (Flower)",
-                    "MidRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*slobber*... *slobber*..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "W-woah!{w} Down, down!"
-                ]
-            ],
-            [
-                "add_unit",
-                [
-                    "Soldier (115)",
-                    "14,6"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Soldier (115)",
-                    "Simon (Simon)",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Villager Girl",
-                    "FarRight"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Flower!{w} What are you doing?!"
-                ]
-            ],
-            [
-                "load_unit",
-                [
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "resurrect",
-                [
-                    "Luther (Luther)",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "set_current_hp",
-                [
-                    "Luther",
-                    "{e:game.get_unit(\"Luther\").get_max_hp()}",
-                    "FLAG(no_warn)"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "AppearBySimon (Global AppearBySimon)",
-                    "Luther (Luther)"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Luther (Luther)",
-                    "MidLeft"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Is this beast yours?"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "Beast?! It's a doggy!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Err... I don't mean to offend,{w}{br}but your doggy ripped apart a few bandits."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "They deserved it!{w} Flower's a good girl!"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I... concur?"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*whine* *pant*{w} *pantpant*"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "You want to go with them, Flower?{w}{br}Well, I..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Oh, no, it's quite alright.{w}{br}We would not want to-"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "If it's really what you want.{w}{br}Thanks for being my friend...{w}{br}I-I'll miss you..."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*whine*"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "...You really musn't..."
-                ]
-            ],
-            [
-                "change_team",
-                [
-                    "Flower (Flower)",
-                    "player"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Flower (Flower)",
-                    "Luther",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*yipyip*{w} *bark*"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Flower (Flower)",
-                    "Simon (Simon)",
-                    "normal",
-                    "closest"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Flower",
-                    "*happy yip*"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "Flower (Flower)",
-                    "15,7",
-                    "normal",
-                    "push"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "Flower (Flower)"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Villager Girl",
-                    "W-wait, Flower, where are you going?"
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Villager Girl"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "115",
-                    "15,7",
-                    "normal",
-                    "push"
-                ]
-            ],
-            [
-                "remove_unit",
-                [
-                    "115"
-                ]
-            ],
-            [
-                "move_portrait",
-                [
-                    "Luther",
-                    "Right"
-                ]
-            ],
-            [
-                "mirror_portrait",
-                [
-                    "Luther"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "...I don't understand."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "A strange thing indeed.{w}{br}Though, the allegiance of such a beast...{w}{br}It is certainly tempting."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "It does seem intelligent.{w}{br}Very well.{w}{br}So long as it behaves,{w} I will not object."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Luther",
-                    "Strange times do make for strange bedfellows."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Luther",
-                    "Simon (Simon)"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "FlowerRecruited",
-                    "Yes"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "_goto_level",
-                    "FVRoaming"
-                ]
-            ],
-            [
-                "win_game",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "center_cursor;Simon (Simon)",
+            "add_portrait;Simon (Simon);FarLeft",
+            "speak;Simon;Have they retreated?",
+            "if;{v:FreesHouse4Destroyed} or not game.get_unit(\"Flower\")",
+            "game_var;FlowerRecruited;False",
+            "load_unit;Anuki (Anuki)",
+            "resurrect;Anuki (Anuki);FLAG(no_warn)",
+            "set_current_hp;Anuki;{e:game.get_unit(\"Anuki\").get_max_hp()};FLAG(no_warn)",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Anuki (Anuki)",
+            "add_portrait;Anuki (Anuki);Left",
+            "speak;Anuki;...",
+            "speak;Simon;Even though the village was destroyed,{w}{br}at least we've brought peace to the region.",
+            "speak;Anuki;Peace? This reminds me more of a desert.",
+            "speak;Simon;I tried to save them!{w}{br}It was just - more than I...",
+            "speak;Anuki;Hey, I'm not holding it against you.{w}{br}You did the right thing by putting our safety first.{w}{br}Besides, the few survivors makes them unattractive to bandits.",
+            "speak;Simon;...",
+            "multi_remove_portrait;Simon (Simon);Anuki",
+            "else",
+            "game_var;FlowerRecruited;True",
+            "# Happy ending",
+            "move_unit;Flower (Flower);Simon (Simon);normal;closest",
+            "add_portrait;Flower (Flower);MidRight",
+            "speak;Flower;*slobber*... *slobber*...",
+            "speak;Simon;W-woah!{w} Down, down!",
+            "add_unit;Soldier (115);14,6",
+            "move_unit;Soldier (115);Simon (Simon);normal;closest",
+            "add_portrait;Villager Girl;FarRight",
+            "speak;Villager Girl;Flower!{w} What are you doing?!",
+            "load_unit;Luther (Luther)",
+            "resurrect;Luther (Luther);FLAG(no_warn)",
+            "set_current_hp;Luther;{e:game.get_unit(\"Luther\").get_max_hp()};FLAG(no_warn)",
+            "trigger_script;AppearBySimon (Global AppearBySimon);Luther (Luther)",
+            "add_portrait;Luther (Luther);MidLeft",
+            "speak;Luther;Is this beast yours?",
+            "speak;Villager Girl;Beast?! It's a doggy!",
+            "speak;Simon;Err... I don't mean to offend,{w}{br}but your doggy ripped apart a few bandits.",
+            "speak;Villager Girl;They deserved it!{w} Flower's a good girl!",
+            "speak;Simon;I... concur?",
+            "mirror_portrait;Flower (Flower)",
+            "speak;Flower;*whine* *pant*{w} *pantpant*",
+            "speak;Villager Girl;You want to go with them, Flower?{w}{br}Well, I...",
+            "speak;Simon;Oh, no, it's quite alright.{w}{br}We would not want to-",
+            "speak;Villager Girl;If it's really what you want.{w}{br}Thanks for being my friend...{w}{br}I-I'll miss you...",
+            "speak;Flower;*whine*",
+            "speak;Luther;...You really musn't...",
+            "change_team;Flower (Flower);player",
+            "mirror_portrait;Flower (Flower)",
+            "move_unit;Flower (Flower);Luther;normal;closest",
+            "speak;Flower;*yipyip*{w} *bark*",
+            "move_unit;Flower (Flower);Simon (Simon);normal;closest",
+            "speak;Flower;*happy yip*",
+            "remove_portrait;Flower (Flower)",
+            "move_unit;Flower (Flower);15,7;normal;push",
+            "remove_unit;Flower (Flower)",
+            "speak;Villager Girl;W-wait, Flower, where are you going?",
+            "remove_portrait;Villager Girl",
+            "move_unit;115;15,7;normal;push",
+            "remove_unit;115",
+            "move_portrait;Luther;Right",
+            "mirror_portrait;Luther",
+            "speak;Simon;...I don't understand.",
+            "speak;Luther;A strange thing indeed.{w}{br}Though, the allegiance of such a beast...{w}{br}It is certainly tempting.",
+            "speak;Simon;It does seem intelligent.{w}{br}Very well.{w}{br}So long as it behaves,{w} I will not object.",
+            "speak;Luther;Strange times do make for strange bedfellows.",
+            "multi_remove_portrait;Luther;Simon (Simon)",
+            "game_var;FlowerRecruited;Yes",
+            "end",
+            "game_var;_goto_level;FVRoaming",
+            "win_game"
+        ]
     }
 ]

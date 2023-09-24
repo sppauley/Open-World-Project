@@ -4,89 +4,22 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "speak",
-                [
-                    "Narrator",
-                    "Would you like to enable the turnwheel? It will have five uses per map.",
-                    "StyleNid=hint"
-                ]
-            ],
-            [
-                "choice",
-                [
-                    "enableTurnwheel",
-                    "Enable the Turnwheel?",
-                    "Yes,No",
-                    "120"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "'{v:enableTurnwheel}' == 'Yes'"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_turnwheel",
-                    "True"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "TurnwheelEnabled",
-                    "True"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_current_turnwheel_uses",
-                    "5"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_max_turnwheel_uses",
-                    "5"
-                ]
-            ],
-            [
-                "else",
-                []
-            ],
-            [
-                "game_var",
-                [
-                    "_turnwheel",
-                    "False"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_current_turnwheel_uses",
-                    "0"
-                ]
-            ],
-            [
-                "game_var",
-                [
-                    "_max_turnwheel_uses",
-                    "0"
-                ]
-            ],
-            [
-                "end",
-                []
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "speak;Narrator;Would you like to enable the turnwheel? It will have five uses per map.;StyleNid=hint",
+            "choice;enableTurnwheel;Enable the Turnwheel?;Yes,No;120",
+            "if;'{v:enableTurnwheel}' == 'Yes'",
+            "game_var;_turnwheel;True",
+            "game_var;TurnwheelEnabled;True",
+            "game_var;_current_turnwheel_uses;5",
+            "game_var;_max_turnwheel_uses;5",
+            "else",
+            "game_var;_turnwheel;False",
+            "game_var;_current_turnwheel_uses;0",
+            "game_var;_max_turnwheel_uses;0",
+            "end"
+        ]
     }
 ]

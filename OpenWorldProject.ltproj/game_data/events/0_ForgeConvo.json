@@ -4,41 +4,15 @@
         "trigger": "on_talk",
         "level_nid": "0",
         "condition": "unit2.nid == 'Blacksmith'",
-        "commands": [
-            [
-                "comment",
-                [
-                    "# dialogue"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Forger",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Forger",
-                    "Another order?{w}{br}Leave it here."
-                ]
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Forger"
-                ]
-            ],
-            [
-                "trigger_script",
-                [
-                    "Forge_Start (Global Forge_Start)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "# dialogue",
+            "add_portrait;Forger;Left",
+            "speak;Forger;Another order?{w}{br}Leave it here.",
+            "remove_portrait;Forger",
+            "trigger_script;Forge_Start (Global Forge_Start)"
+        ]
     }
 ]

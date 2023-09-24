@@ -4,124 +4,28 @@
         "trigger": null,
         "level_nid": null,
         "condition": "True",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Simon (Simon)",
-                    "FarLeft"
-                ]
-            ],
-            [
-                "level_var",
-                [
-                    "randDiedDialogue",
-                    "random.randint(1, 7)"
-                ]
-            ],
-            [
-                "if",
-                [
-                    "v('randDiedDialogue') == 1"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Damn, I was sloppy.{w}{br}Not this time."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 2"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Careful with that one-{w} he's faster than he looks."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 3"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Kill him. Now."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 4"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "Everyone, pay attention to him.{w}{br}He likes to sneak up on you."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 5"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "You won't be shown any mercy."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 6"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "That was a lucky hit, and I wouldn't try again."
-                ]
-            ],
-            [
-                "elif",
-                [
-                    "v('randDiedDialogue') == 7"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Simon",
-                    "I'm better than you, dammit!"
-                ]
-            ],
-            [
-                "end",
-                []
-            ],
-            [
-                "remove_portrait",
-                [
-                    "Simon (Simon)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": false,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon (Simon);FarLeft",
+            "level_var;randDiedDialogue;random.randint(1, 7)",
+            "if;v('randDiedDialogue') == 1",
+            "speak;Simon;Damn, I was sloppy.{w}{br}Not this time.",
+            "elif;v('randDiedDialogue') == 2",
+            "speak;Simon;Careful with that one-{w} he's faster than he looks.",
+            "elif;v('randDiedDialogue') == 3",
+            "speak;Simon;Kill him. Now.",
+            "elif;v('randDiedDialogue') == 4",
+            "speak;Simon;Everyone, pay attention to him.{w}{br}He likes to sneak up on you.",
+            "elif;v('randDiedDialogue') == 5",
+            "speak;Simon;You won't be shown any mercy.",
+            "elif;v('randDiedDialogue') == 6",
+            "speak;Simon;That was a lucky hit, and I wouldn't try again.",
+            "elif;v('randDiedDialogue') == 7",
+            "speak;Simon;I'm better than you, dammit!",
+            "end",
+            "remove_portrait;Simon (Simon)"
+        ]
     }
 ]

@@ -4,60 +4,17 @@
         "trigger": "on_talk",
         "level_nid": "9",
         "condition": "unit2.nid=='109'",
-        "commands": [
-            [
-                "add_portrait",
-                [
-                    "Man3",
-                    "Right"
-                ]
-            ],
-            [
-                "add_portrait",
-                [
-                    "Simon",
-                    "Left"
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man3",
-                    "Lord Verstadt, your rooms have been prepared."
-                ]
-            ],
-            [
-                "speak",
-                [
-                    "Man3",
-                    "This way, if you please."
-                ]
-            ],
-            [
-                "multi_remove_portrait",
-                [
-                    "Man3",
-                    "Simon"
-                ]
-            ],
-            [
-                "remove_talk",
-                [
-                    "Simon",
-                    "109"
-                ]
-            ],
-            [
-                "move_unit",
-                [
-                    "109",
-                    "30,3",
-                    "FLAG(no_block)",
-                    "FLAG(no_follow)"
-                ]
-            ]
-        ],
+        "commands": [],
         "only_once": true,
-        "priority": 20
+        "priority": 20,
+        "_source": [
+            "add_portrait;Man3;Right",
+            "add_portrait;Simon;Left",
+            "speak;Man3;Lord Verstadt, your rooms have been prepared.",
+            "speak;Man3;This way, if you please.",
+            "multi_remove_portrait;Man3;Simon",
+            "remove_talk;Simon;109",
+            "move_unit;109;30,3;FLAG(no_block);FLAG(no_follow)"
+        ]
     }
 ]
