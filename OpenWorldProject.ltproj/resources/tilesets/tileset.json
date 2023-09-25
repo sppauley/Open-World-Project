@@ -785,5 +785,10 @@
         "nid": "Lava Cave Tiles",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Tower Light",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
