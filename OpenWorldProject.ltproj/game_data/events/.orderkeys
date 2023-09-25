@@ -281,5 +281,6 @@
     "11_EbertBattleLupus.json": 279,
     "11_EbertBattleSimon.json": 280,
     "11_EbertBattleAnuki.json": 281,
-    "11_EbertDeath.json": 282
+    "11_EbertDeath.json": 282,
+    "global_DEBUGEarlyMidGame.json": 283
 }
