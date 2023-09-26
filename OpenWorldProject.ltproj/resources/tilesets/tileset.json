@@ -790,5 +790,10 @@
         "nid": "Tower Light",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Tower Valni",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "19",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;scissors;5,0;permanent;no_block;overlay"
+        ]
+    }
+]

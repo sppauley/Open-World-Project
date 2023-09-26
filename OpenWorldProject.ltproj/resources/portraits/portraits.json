@@ -1090,5 +1090,41 @@
             40
         ],
         "info_offset": 4
+    },
+    {
+        "nid": "{Zeldacrafter} Barbara V1 ToTF",
+        "blinking_offset": [
+            32,
+            24
+        ],
+        "smiling_offset": [
+            32,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Zeldacrafter} Woody ToTF",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "{Zeldacrafter} OC 5",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 6
     }
 ]

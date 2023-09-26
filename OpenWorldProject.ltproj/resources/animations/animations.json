@@ -556,5 +556,14 @@
         "speed": 75,
         "frame_times": "1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "scissors",
+        "frame_x": 1,
+        "frame_y": 8,
+        "num_frames": 8,
+        "speed": 120,
+        "frame_times": "1,1,1,1,1,1,1,1",
+        "use_frame_time": false
     }
 ]
