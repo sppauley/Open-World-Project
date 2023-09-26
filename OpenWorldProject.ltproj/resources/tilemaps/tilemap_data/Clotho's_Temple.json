@@ -2,8 +2,8 @@
     {
         "nid": "Clotho's Temple",
         "size": [
-            18,
-            13
+            21,
+            17
         ],
         "autotile_fps": 29,
         "layers": [
@@ -16,1646 +16,3038 @@
                     "0,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            7
                         ]
                     ],
                     "0,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            7
                         ]
                     ],
                     "0,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            7
                         ]
                     ],
                     "0,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            7
                         ]
                     ],
                     "0,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            7
                         ]
                     ],
                     "0,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            7,
+                            8
                         ]
                     ],
                     "0,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            14,
+                            5
                         ]
                     ],
                     "0,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            14,
+                            7
                         ]
                     ],
                     "0,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "0,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "0,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "0,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "0,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "1,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "1,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "1,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "1,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "1,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "1,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "1,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "1,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "2,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "2,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "2,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "2,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "2,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "2,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "2,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "2,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "3,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "3,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "3,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "3,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "3,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "3,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "3,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "3,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "4,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "4,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "4,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "4,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "4,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "4,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "4,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "4,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "5,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            11,
+                            4
                         ]
                     ],
                     "5,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "5,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            13,
+                            0
                         ]
                     ],
                     "5,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            13,
+                            1
                         ]
                     ],
                     "5,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            6,
+                            2
                         ]
                     ],
                     "5,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            14,
+                            7
                         ]
                     ],
                     "6,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "6,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "6,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "7,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "7,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "7,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "8,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "8,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "8,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "9,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "9,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "9,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "10,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "10,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "10,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "11,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "11,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "11,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "12,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "12,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "12,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "13,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "13,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "13,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "14,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,10": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "14,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            2,
+                            6
                         ]
                     ],
                     "14,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            6
                         ]
                     ],
                     "15,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,6": [
                         "Tower Light",
                         [
                             10,
-                            3
+                            4
                         ]
                     ],
                     "15,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,8": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "15,9": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            13,
+                            2
                         ]
                     ],
                     "15,10": [
                         "Tower Light",
                         [
-                            10,
+                            13,
                             3
                         ]
                     ],
                     "15,11": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            3,
+                            6
                         ]
                     ],
                     "15,12": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            13,
+                            7
                         ]
                     ],
                     "16,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "16,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "16,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "16,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "16,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "16,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "16,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "16,12": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "17,0": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,1": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,2": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,3": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,4": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,5": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            4,
+                            0
                         ]
                     ],
                     "17,6": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            5
                         ]
                     ],
                     "17,7": [
                         "Tower Light",
                         [
-                            10,
-                            3
+                            0,
+                            6
                         ]
                     ],
                     "17,8": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "17,9": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "17,10": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "17,11": [
-                        "Tower Light",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            3
+                            3,
+                            1
                         ]
                     ],
                     "17,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "0,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "2,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "3,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "4,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "4,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "3,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "2,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "3,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "2,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "4,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,13": [
                         "Tower Light",
                         [
+                            4,
+                            0
+                        ]
+                    ],
+                    "9,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "10,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "7,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "6,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "5,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "0,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "0,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "10,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "11,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "12,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "13,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "14,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "15,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "16,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "17,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "12,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "11,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "10,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "11,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "12,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "13,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "14,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "15,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "16,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "17,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "10,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "4,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "3,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "2,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "0,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "1,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "13,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "14,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "15,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "17,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "11,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "12,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "13,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,10": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,10": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,10": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "14,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "15,13": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "16,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "17,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "16,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,5": [
+                        "Tower Light",
+                        [
+                            8,
+                            8
+                        ]
+                    ],
+                    "20,4": [
+                        "Tower Light",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "20,3": [
+                        "Tower Light",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "20,2": [
+                        "Tower Light",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "19,5": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "19,6": [
+                        "Tower Light",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "19,7": [
+                        "Tower Light",
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "19,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "19,4": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "19,3": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "19,2": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "19,1": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "19,0": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,1": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,2": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,3": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,4": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,5": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "18,6": [
+                        "Tower Light",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "18,7": [
+                        "Tower Light",
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "18,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "18,0": [
+                        "Tower Light",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "20,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "20,7": [
+                        "Tower Light",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "20,6": [
+                        "Tower Light",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "20,1": [
+                        "Tower Light",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "20,0": [
+                        "Tower Light",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "20,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "overlay",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "13,13": [
+                        "54728",
+                        [
                             10,
+                            56
+                        ]
+                    ],
+                    "12,13": [
+                        "54728",
+                        [
+                            1,
+                            36
+                        ]
+                    ],
+                    "14,13": [
+                        "54728",
+                        [
+                            11,
+                            58
+                        ]
+                    ],
+                    "11,13": [
+                        "54728",
+                        [
+                            10,
+                            56
+                        ]
+                    ],
+                    "5,11": [
+                        "Tower Light",
+                        [
+                            14,
+                            5
+                        ]
+                    ],
+                    "15,11": [
+                        "Tower Light",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "15,12": [
+                        "Tower Light",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "10,13": [
+                        "54728",
+                        [
+                            9,
+                            56
+                        ]
+                    ],
+                    "14,11": [
+                        "54728",
+                        [
+                            11,
+                            56
+                        ]
+                    ],
+                    "13,11": [
+                        "54728",
+                        [
+                            8,
+                            59
+                        ]
+                    ],
+                    "11,11": [
+                        "54728",
+                        [
+                            10,
+                            56
+                        ]
+                    ],
+                    "10,12": [
+                        "54728",
+                        [
+                            9,
+                            57
+                        ]
+                    ],
+                    "10,11": [
+                        "54728",
+                        [
+                            9,
+                            56
+                        ]
+                    ],
+                    "11,12": [
+                        "54728",
+                        [
+                            10,
+                            57
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "overlay2",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "11,13": [
+                        "54728",
+                        [
+                            10,
+                            58
+                        ]
+                    ],
+                    "10,13": [
+                        "54728",
+                        [
+                            9,
+                            58
+                        ]
+                    ],
+                    "13,13": [
+                        "54728",
+                        [
+                            10,
+                            58
+                        ]
+                    ],
+                    "14,13": [
+                        "54728",
+                        [
+                            6,
+                            58
+                        ]
+                    ],
+                    "5,7": [
+                        "Tower Light",
+                        [
+                            13,
+                            0
+                        ]
+                    ],
+                    "5,8": [
+                        "Tower Light",
+                        [
+                            13,
+                            1
+                        ]
+                    ],
+                    "5,9": [
+                        "Tower Light",
+                        [
+                            14,
+                            5
+                        ]
+                    ],
+                    "5,10": [
+                        "Tower Light",
+                        [
+                            14,
+                            7
+                        ]
+                    ],
+                    "5,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "5,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "6,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "6,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "6,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "7,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "7,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "7,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "8,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "8,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "8,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "9,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "9,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "10,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "10,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "10,11": [
+                        "ExtractedTiles",
+                        [
+                            8,
+                            4
+                        ]
+                    ],
+                    "10,12": [
+                        "ExtractedTiles",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "11,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "11,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "11,11": [
+                        "ExtractedTiles",
+                        [
+                            9,
+                            4
+                        ]
+                    ],
+                    "11,12": [
+                        "ExtractedTiles",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "12,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "12,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "12,11": [
+                        "54728",
+                        [
+                            1,
+                            36
+                        ]
+                    ],
+                    "12,12": [
+                        "54728",
+                        [
+                            1,
+                            37
+                        ]
+                    ],
+                    "12,13": [
+                        "54728",
+                        [
+                            1,
+                            38
+                        ]
+                    ],
+                    "13,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "13,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "13,11": [
+                        "54728",
+                        [
+                            0,
+                            50
+                        ]
+                    ],
+                    "13,12": [
+                        "54728",
+                        [
+                            10,
+                            57
+                        ]
+                    ],
+                    "14,9": [
+                        "Tower Light",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "14,10": [
+                        "Tower Light",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "14,11": [
+                        "54728",
+                        [
+                            1,
+                            50
+                        ]
+                    ],
+                    "14,12": [
+                        "54728",
+                        [
+                            11,
+                            57
+                        ]
+                    ],
+                    "15,7": [
+                        "Tower Light",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "15,8": [
+                        "Tower Light",
+                        [
+                            13,
                             3
+                        ]
+                    ],
+                    "15,9": [
+                        "Tower Light",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "15,10": [
+                        "Tower Light",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "15,11": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "15,12": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "15,13": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            3,
+                            1
                         ]
                     ]
                 }
             }
         ],
         "tilesets": [
-            "Tower Light"
+            "Tower Light",
+            "Tower Valni",
+            "Improved Castle Tileset Palette 2",
+            "ExtractedTiles",
+            "54728"
         ]
     }
 ]
