@@ -8,7 +8,12 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "map_anim;scissors;5,0;permanent;no_block;overlay"
+            "map_anim;scissors;5,0;permanent;no_block;overlay",
+            "show_layer;overlay;immediate;no_warn",
+            "show_layer;overlay2;immediate;no_warn",
+            "",
+            "center_cursor;Simon;immediate",
+            ""
         ]
     }
 ]
