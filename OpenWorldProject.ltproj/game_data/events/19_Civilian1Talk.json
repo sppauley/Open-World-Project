@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Civilian1Talk",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"101\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;OldMan1;Left;immediate",
+            "add_portrait;Villager Girl;Right",
+            "s;OldMan1;Have I told you how Caretaker Annetta rebuilt this temple?",
+            "s;Villager Girl;...Yes...",
+            "s;OldMan1;It was a practical ruin when she found it.{w}{br}She began to rebuild it, but had no money.",
+            "s;Villager Girl;I know. And then she found-",
+            "s;OldMan1;Don't interrupt! And then she found a chest of gold.{w}{br}A freak landslide revealed an old bandit's stash.",
+            "bop_portrait;OldMan1",
+            "s;OldMan1;The work of Lady Clotho herself!",
+            "s;Villager Girl;Grandpa, don't jump, you'll hurt yourself!",
+            "",
+            "multi_remove_portrait;OldMan1;Villager Girl",
+            "",
+            "remove_talk;Simon;101"
+        ]
+    }
+]

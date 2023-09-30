@@ -31,8 +31,8 @@
             "s;Simon;No, I must have answers.{w} It took a god for me to escape the castle-{w}{br}I would like to know why she chose me.",
             "multi_remove_portrait;Simon;Luther",
             "",
-            "add_talk;Simon;Jaegus",
-            "add_talk;Simon;Lucius"
+            "add_talk;Simon;Lucius",
+            "add_talk;Simon;101"
         ]
     }
 ]
