@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "MageEffectiveBand",
+        "name": "Lead Imbuer",
+        "desc": "Holder's weapons are effective against mages, and mages only.",
+        "icon_nid": "{Maxim} Pendant 6",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "MageEffectiveness"
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "value",
+                5000
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        12
+                    ]
+                ]
+            ]
+        ]
+    }
+]

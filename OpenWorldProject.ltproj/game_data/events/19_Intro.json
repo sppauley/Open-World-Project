@@ -5,7 +5,7 @@
         "level_nid": "19",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "#map_anim;scissors;5,0;permanent;no_block;overlay",
@@ -20,7 +20,10 @@
             "s;Luther;Having second thoughts, milord?{w} We can always continue onwards.",
             "mirror_portrait;Simon",
             "move_portrait;Simon;MidRight",
-            "s;Simon;No, I must have answers."
+            "s;Simon;No, I must have answers.{w} It took a god for me to escape the castle-{w}{br}I would like to know why she chose me.",
+            "multi_remove_portrait;Simon;Luther",
+            "",
+            "add_talk;Simon;Jaegus"
         ]
     }
 ]

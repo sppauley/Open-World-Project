@@ -9,7 +9,9 @@
         "turns_into": [
             "Bishop"
         ],
-        "tags": [],
+        "tags": [
+            "Magic"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 18,

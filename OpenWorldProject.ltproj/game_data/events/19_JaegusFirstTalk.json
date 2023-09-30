@@ -1,0 +1,34 @@
+[
+    {
+        "name": "JaegusFirstTalk",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"Jaegus\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Jaegus;Right;immediate",
+            "add_portrait;Simon;Left;left",
+            "move_unit;Simon;12,13",
+            "",
+            "s;Jaegus;Welcome, welcome. Have a look or take a seat.{w}{br}Food and drink is a few gold, weapons are a bit more.",
+            "s;Simon;I'll take a look, then.",
+            "",
+            "expression;Jaegus;CloseEyes",
+            "wait;500",
+            "expression;Jaegus;OpenEyes",
+            "s;Jaegus;I recognize you.{w} Young Lord Verstadt!",
+            "s;Simon;I am he. Though few know me as a lord now.",
+            "s;Jaegus;A shame. I was hoping you could turn your house around-{w}{br}not to speak ill of your da, but...{c:wait;1000} you know.",
+            "s;Simon;Mmm.",
+            "wait;1000",
+            "s;Simon;Do you work for the temple?",
+            "s;Jaegus;With them, never for them.{w} It's a good deal we've both got.{w}{br}The people who stop to buy stop to pray,{w}{br}and the people who stop to pray stop to buy.",
+            "s;Simon;I see.{w} But you don't worship Clotho?",
+            "s;Jaegus;I'm a merchant! A god's nothing more than a way to lose money.",
+            "s;Simon;I suppose you don't have much of a soul for them to take mercy on.",
+            "s;Jaegus;I see you've got a tongue on you.{w}{br}I'm getting impatient."
+        ]
+    }
+]

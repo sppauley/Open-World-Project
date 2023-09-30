@@ -85,5 +85,6 @@
     "CrateReposition.json": 83,
     "CrateRefresh.json": 84,
     "Accost.json": 85,
-    "Accosted.json": 86
+    "Accosted.json": 86,
+    "MageEffectiveness.json": 87
 }

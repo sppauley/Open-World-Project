@@ -83,17 +83,7 @@
                 0,
                 251
             ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
             "Anima": [
-                false,
-                0,
-                251
-            ],
-            "Dark": [
                 false,
                 0,
                 251
@@ -104,6 +94,16 @@
                 251
             ],
             "Default": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
                 false,
                 0,
                 251

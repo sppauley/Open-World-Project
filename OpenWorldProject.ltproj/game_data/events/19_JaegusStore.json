@@ -1,0 +1,20 @@
+[
+    {
+        "name": "JaegusStore",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"Jaegus\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "add_portrait;Jaegus;Right;immediate",
+            "add_portrait;Simon;Left;immediate",
+            "s;Jaegus;Now, why not take a look at my wares?",
+            "choice;OpenJaegusClothoShop;Shop?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "shop;Simon;Hammer,Horseslayer,Armorslayer,MageEffectiveBand;vendor;1,1,1,1;JaegusClothoShop",
+            "end"
+        ]
+    }
+]

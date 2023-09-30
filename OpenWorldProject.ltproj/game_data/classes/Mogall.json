@@ -11,7 +11,8 @@
         ],
         "tags": [
             "Flying",
-            "Monster"
+            "Monster",
+            "Magic"
         ],
         "max_level": 20,
         "bases": {
@@ -91,19 +92,9 @@
                 71,
                 251
             ],
-            "Light": [
-                false,
-                0,
-                251
-            ],
             "Anima": [
                 false,
                 0,
-                251
-            ],
-            "Dark": [
-                true,
-                71,
                 251
             ],
             "Staff": [
@@ -114,6 +105,16 @@
             "Default": [
                 false,
                 0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                true,
+                71,
                 251
             ]
         },

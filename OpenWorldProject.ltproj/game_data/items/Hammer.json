@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                10
+                9
             ],
             [
                 "hit",
@@ -38,22 +38,8 @@
                 "D"
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "weight",
-                15
+                17
             ],
             [
                 "crit",
@@ -76,18 +62,28 @@
                 1
             ],
             [
-                "effective",
-                20
-            ],
-            [
-                "effective_tag",
+                "stat_req",
                 [
-                    "Armor"
+                    [
+                        "CON",
+                        10
+                    ]
                 ]
             ],
             [
-                "effective_multiplier",
-                1
+                "stagger",
+                8
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

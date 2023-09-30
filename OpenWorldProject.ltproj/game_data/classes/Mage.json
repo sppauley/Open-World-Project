@@ -10,7 +10,9 @@
             "Sage",
             "Mage Knight"
         ],
-        "tags": [],
+        "tags": [
+            "Magic"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 16,

@@ -283,5 +283,7 @@
     "11_EbertBattleAnuki.json": 281,
     "11_EbertDeath.json": 282,
     "global_DEBUGEarlyMidGame.json": 283,
-    "19_Intro.json": 284
+    "19_Intro.json": 284,
+    "19_JaegusStore.json": 285,
+    "19_JaegusFirstTalk.json": 286
 }

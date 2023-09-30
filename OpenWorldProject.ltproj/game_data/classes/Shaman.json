@@ -7,7 +7,9 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Magic"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 16,

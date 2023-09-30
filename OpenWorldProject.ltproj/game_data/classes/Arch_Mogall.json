@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Flying",
-            "Monster"
+            "Monster",
+            "Magic"
         ],
         "max_level": 20,
         "bases": {
@@ -79,7 +80,22 @@
                 0,
                 251
             ],
+            "Innate": [
+                true,
+                181,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
             "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
                 false,
                 0,
                 251
@@ -89,22 +105,7 @@
                 0,
                 251
             ],
-            "Anima": [
-                false,
-                0,
-                251
-            ],
             "Dark": [
-                true,
-                181,
-                251
-            ],
-            "Default": [
-                false,
-                0,
-                251
-            ],
-            "Innate": [
                 true,
                 181,
                 251
