@@ -795,5 +795,10 @@
         "nid": "Tower Valni",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "gachagamegraveyard",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

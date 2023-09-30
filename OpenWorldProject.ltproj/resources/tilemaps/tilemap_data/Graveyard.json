@@ -1,0 +1,1638 @@
+[
+    {
+        "nid": "Graveyard",
+        "size": [
+            18,
+            13
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "7,3": "7",
+                    "6,9": "1",
+                    "16,6": "22",
+                    "12,1": "1",
+                    "11,11": "1",
+                    "17,7": "1",
+                    "7,12": "1",
+                    "14,4": "1",
+                    "13,4": "Grave",
+                    "12,12": "1",
+                    "16,9": "1",
+                    "0,7": "1",
+                    "15,1": "1",
+                    "1,6": "1",
+                    "0,10": "22",
+                    "3,7": "1",
+                    "2,5": "1",
+                    "1,11": "22",
+                    "8,5": "1",
+                    "5,8": "1",
+                    "4,0": "1",
+                    "10,8": "1",
+                    "9,0": "7",
+                    "6,7": "Grave",
+                    "5,5": "1",
+                    "11,5": "Grave",
+                    "10,7": "Grave",
+                    "7,6": "1",
+                    "6,10": "1",
+                    "16,3": "22",
+                    "12,6": "1",
+                    "17,2": "22",
+                    "15,11": "1",
+                    "14,1": "1",
+                    "13,7": "1",
+                    "0,4": "1",
+                    "15,4": "1",
+                    "1,1": "1",
+                    "4,10": "1",
+                    "3,2": "1",
+                    "2,6": "9",
+                    "8,2": "7",
+                    "5,11": "1",
+                    "4,5": "1",
+                    "9,3": "7",
+                    "6,0": "1",
+                    "11,0": "1",
+                    "7,5": "Grave",
+                    "16,0": "1",
+                    "12,11": "1",
+                    "14,2": "Grave",
+                    "13,10": "22",
+                    "0,1": "1",
+                    "3,12": "1",
+                    "1,12": "1",
+                    "8,12": "1",
+                    "3,1": "1",
+                    "2,11": "22",
+                    "9,9": "Grave",
+                    "7,8": "1",
+                    "14,8": "22",
+                    "13,0": "Grave",
+                    "12,8": "1",
+                    "17,8": "1",
+                    "3,11": "22",
+                    "2,1": "1",
+                    "8,9": "1",
+                    "4,12": "22",
+                    "2,12": "1",
+                    "9,4": "1",
+                    "5,1": "1",
+                    "10,3": "7",
+                    "7,2": "1",
+                    "16,7": "22",
+                    "12,2": "Grave",
+                    "11,10": "22",
+                    "17,6": "1",
+                    "16,10": "1",
+                    "14,5": "1",
+                    "13,3": "1",
+                    "17,11": "1",
+                    "15,0": "1",
+                    "1,5": "1",
+                    "0,11": "1",
+                    "3,6": "1",
+                    "2,2": "Grave",
+                    "1,10": "22",
+                    "8,6": "1",
+                    "4,1": "1",
+                    "10,9": "1",
+                    "9,7": "1",
+                    "6,4": "1",
+                    "5,4": "Grave",
+                    "11,4": "7",
+                    "10,4": "7",
+                    "7,1": "7",
+                    "6,11": "22",
+                    "16,4": "22",
+                    "12,7": "Grave",
+                    "11,9": "1",
+                    "17,1": "22",
+                    "15,10": "1",
+                    "14,6": "1",
+                    "13,6": "1",
+                    "0,5": "1",
+                    "15,7": "22",
+                    "1,0": "Grave",
+                    "0,8": "1",
+                    "4,11": "22",
+                    "3,5": "1",
+                    "2,7": "9",
+                    "8,3": "7",
+                    "5,10": "1",
+                    "4,6": "1",
+                    "10,10": "22",
+                    "9,2": "7",
+                    "6,1": "1",
+                    "5,7": "1",
+                    "11,3": "7",
+                    "7,4": "7",
+                    "14,12": "1",
+                    "16,1": "1",
+                    "12,4": "1",
+                    "17,12": "1",
+                    "15,9": "1",
+                    "14,3": "1",
+                    "13,9": "22",
+                    "0,2": "Grave",
+                    "1,3": "1",
+                    "4,8": "1",
+                    "3,0": "Grave",
+                    "2,8": "1",
+                    "9,8": "1",
+                    "8,0": "7",
+                    "6,2": "Grave",
+                    "7,11": "22",
+                    "14,9": "22",
+                    "12,9": "1",
+                    "15,12": "1",
+                    "13,12": "1",
+                    "3,10": "1",
+                    "8,10": "1",
+                    "9,11": "22",
+                    "5,0": "Grave",
+                    "10,0": "7",
+                    "12,3": "1",
+                    "17,5": "1",
+                    "16,11": "1",
+                    "14,10": "1",
+                    "13,2": "1",
+                    "17,10": "1",
+                    "15,3": "1",
+                    "1,4": "Grave",
+                    "0,12": "1",
+                    "3,9": "1",
+                    "2,3": "1",
+                    "1,9": "1",
+                    "8,7": "Grave",
+                    "4,2": "Grave",
+                    "9,6": "1",
+                    "6,5": "1",
+                    "5,3": "1",
+                    "11,7": "1",
+                    "10,5": "1",
+                    "7,0": "1",
+                    "6,8": "1",
+                    "16,5": "22",
+                    "12,0": "1",
+                    "11,8": "1",
+                    "17,0": "22",
+                    "16,8": "1",
+                    "14,7": "1",
+                    "13,5": "1",
+                    "0,6": "1",
+                    "15,6": "1",
+                    "1,7": "1",
+                    "0,9": "22",
+                    "3,4": "Grave",
+                    "2,4": "1",
+                    "9,12": "1",
+                    "8,4": "7",
+                    "5,9": "1",
+                    "4,7": "1",
+                    "10,11": "22",
+                    "9,1": "7",
+                    "6,6": "1",
+                    "5,6": "1",
+                    "11,2": "1",
+                    "10,6": "1",
+                    "7,7": "1",
+                    "16,2": "22",
+                    "12,5": "1",
+                    "17,3": "1",
+                    "15,8": "22",
+                    "14,0": "1",
+                    "13,8": "1",
+                    "0,3": "1",
+                    "15,5": "1",
+                    "1,2": "1",
+                    "4,9": "1",
+                    "3,3": "1",
+                    "2,9": "1",
+                    "8,1": "7",
+                    "5,12": "22",
+                    "4,4": "1",
+                    "10,12": "1",
+                    "6,3": "1",
+                    "11,1": "7",
+                    "7,10": "1",
+                    "12,10": "22",
+                    "13,11": "1",
+                    "0,0": "1",
+                    "8,11": "22",
+                    "2,10": "1",
+                    "9,10": "1",
+                    "10,1": "7",
+                    "6,12": "22",
+                    "11,12": "1",
+                    "17,4": "1",
+                    "7,9": "Grave",
+                    "14,11": "1",
+                    "13,1": "1",
+                    "16,12": "1",
+                    "17,9": "1",
+                    "15,2": "1",
+                    "3,8": "1",
+                    "2,0": "1",
+                    "1,8": "1",
+                    "8,8": "1",
+                    "4,3": "1",
+                    "9,5": "Grave",
+                    "5,2": "1",
+                    "11,6": "1",
+                    "10,2": "7"
+                },
+                "sprite_grid": {
+                    "7,3": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            3
+                        ]
+                    ],
+                    "6,9": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            9
+                        ]
+                    ],
+                    "12,1": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            1
+                        ]
+                    ],
+                    "14,4": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            4
+                        ]
+                    ],
+                    "13,4": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            4
+                        ]
+                    ],
+                    "0,7": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            7
+                        ]
+                    ],
+                    "1,6": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            6
+                        ]
+                    ],
+                    "3,7": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            7
+                        ]
+                    ],
+                    "2,5": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "8,5": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            5
+                        ]
+                    ],
+                    "5,8": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            8
+                        ]
+                    ],
+                    "4,0": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "10,8": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            8
+                        ]
+                    ],
+                    "9,0": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            0
+                        ]
+                    ],
+                    "6,7": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "5,5": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    "11,5": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            5
+                        ]
+                    ],
+                    "10,7": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            7
+                        ]
+                    ],
+                    "7,6": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "12,6": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            6
+                        ]
+                    ],
+                    "14,1": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "13,7": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            7
+                        ]
+                    ],
+                    "0,4": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,1": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "3,2": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            2
+                        ]
+                    ],
+                    "2,6": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "8,2": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            2
+                        ]
+                    ],
+                    "4,5": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    "9,3": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            3
+                        ]
+                    ],
+                    "6,0": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            0
+                        ]
+                    ],
+                    "11,0": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            0
+                        ]
+                    ],
+                    "7,5": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            5
+                        ]
+                    ],
+                    "14,2": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "0,1": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "3,1": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            1
+                        ]
+                    ],
+                    "9,9": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            9
+                        ]
+                    ],
+                    "7,8": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            8
+                        ]
+                    ],
+                    "14,8": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            8
+                        ]
+                    ],
+                    "13,0": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            0
+                        ]
+                    ],
+                    "12,8": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            8
+                        ]
+                    ],
+                    "2,1": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            1
+                        ]
+                    ],
+                    "8,9": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            9
+                        ]
+                    ],
+                    "9,4": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            4
+                        ]
+                    ],
+                    "5,1": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            1
+                        ]
+                    ],
+                    "10,3": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            3
+                        ]
+                    ],
+                    "7,2": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            2
+                        ]
+                    ],
+                    "12,2": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            2
+                        ]
+                    ],
+                    "14,5": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            5
+                        ]
+                    ],
+                    "13,3": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            3
+                        ]
+                    ],
+                    "1,5": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            5
+                        ]
+                    ],
+                    "3,6": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "2,2": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "8,6": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            6
+                        ]
+                    ],
+                    "4,1": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            1
+                        ]
+                    ],
+                    "10,9": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            9
+                        ]
+                    ],
+                    "9,7": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            7
+                        ]
+                    ],
+                    "6,4": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            4
+                        ]
+                    ],
+                    "5,4": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            4
+                        ]
+                    ],
+                    "11,4": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            4
+                        ]
+                    ],
+                    "10,4": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            4
+                        ]
+                    ],
+                    "7,1": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            1
+                        ]
+                    ],
+                    "12,7": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            7
+                        ]
+                    ],
+                    "11,9": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "14,6": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            6
+                        ]
+                    ],
+                    "13,6": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            6
+                        ]
+                    ],
+                    "0,5": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "1,0": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "0,8": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            8
+                        ]
+                    ],
+                    "3,5": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            5
+                        ]
+                    ],
+                    "2,7": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "8,3": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            3
+                        ]
+                    ],
+                    "4,6": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "9,2": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            2
+                        ]
+                    ],
+                    "6,1": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            1
+                        ]
+                    ],
+                    "5,7": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            7
+                        ]
+                    ],
+                    "11,3": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            3
+                        ]
+                    ],
+                    "7,4": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            4
+                        ]
+                    ],
+                    "12,4": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            4
+                        ]
+                    ],
+                    "14,3": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            3
+                        ]
+                    ],
+                    "13,9": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            9
+                        ]
+                    ],
+                    "0,2": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            2
+                        ]
+                    ],
+                    "1,3": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            3
+                        ]
+                    ],
+                    "4,8": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "3,0": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            0
+                        ]
+                    ],
+                    "2,8": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            8
+                        ]
+                    ],
+                    "9,8": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            8
+                        ]
+                    ],
+                    "8,0": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            0
+                        ]
+                    ],
+                    "6,2": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            2
+                        ]
+                    ],
+                    "14,9": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            9
+                        ]
+                    ],
+                    "12,9": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            9
+                        ]
+                    ],
+                    "5,0": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            0
+                        ]
+                    ],
+                    "10,0": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            0
+                        ]
+                    ],
+                    "12,3": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            3
+                        ]
+                    ],
+                    "13,2": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "1,4": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            4
+                        ]
+                    ],
+                    "3,9": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            9
+                        ]
+                    ],
+                    "2,3": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            3
+                        ]
+                    ],
+                    "1,9": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            9
+                        ]
+                    ],
+                    "8,7": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "4,2": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            2
+                        ]
+                    ],
+                    "9,6": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            6
+                        ]
+                    ],
+                    "6,5": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            5
+                        ]
+                    ],
+                    "5,3": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            3
+                        ]
+                    ],
+                    "11,7": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            7
+                        ]
+                    ],
+                    "10,5": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            5
+                        ]
+                    ],
+                    "7,0": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            0
+                        ]
+                    ],
+                    "6,8": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            8
+                        ]
+                    ],
+                    "12,0": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            0
+                        ]
+                    ],
+                    "11,8": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            8
+                        ]
+                    ],
+                    "14,7": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            7
+                        ]
+                    ],
+                    "13,5": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            5
+                        ]
+                    ],
+                    "0,6": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            6
+                        ]
+                    ],
+                    "1,7": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            7
+                        ]
+                    ],
+                    "0,9": [
+                        "54728",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "3,4": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            4
+                        ]
+                    ],
+                    "2,4": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            4
+                        ]
+                    ],
+                    "8,4": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            4
+                        ]
+                    ],
+                    "5,9": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            9
+                        ]
+                    ],
+                    "4,7": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "9,1": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            1
+                        ]
+                    ],
+                    "6,6": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    "5,6": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            6
+                        ]
+                    ],
+                    "11,2": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            2
+                        ]
+                    ],
+                    "10,6": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            6
+                        ]
+                    ],
+                    "7,7": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            7
+                        ]
+                    ],
+                    "12,5": [
+                        "gachagamegraveyard",
+                        [
+                            12,
+                            5
+                        ]
+                    ],
+                    "14,0": [
+                        "gachagamegraveyard",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "13,8": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            8
+                        ]
+                    ],
+                    "0,3": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "1,2": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            2
+                        ]
+                    ],
+                    "4,9": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            9
+                        ]
+                    ],
+                    "3,3": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            3
+                        ]
+                    ],
+                    "2,9": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            9
+                        ]
+                    ],
+                    "8,1": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            1
+                        ]
+                    ],
+                    "4,4": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    "6,3": [
+                        "gachagamegraveyard",
+                        [
+                            6,
+                            3
+                        ]
+                    ],
+                    "11,1": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            1
+                        ]
+                    ],
+                    "0,0": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            0
+                        ]
+                    ],
+                    "10,1": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            1
+                        ]
+                    ],
+                    "7,9": [
+                        "gachagamegraveyard",
+                        [
+                            7,
+                            9
+                        ]
+                    ],
+                    "13,1": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            1
+                        ]
+                    ],
+                    "3,8": [
+                        "gachagamegraveyard",
+                        [
+                            3,
+                            8
+                        ]
+                    ],
+                    "2,0": [
+                        "gachagamegraveyard",
+                        [
+                            2,
+                            0
+                        ]
+                    ],
+                    "1,8": [
+                        "gachagamegraveyard",
+                        [
+                            1,
+                            8
+                        ]
+                    ],
+                    "8,8": [
+                        "gachagamegraveyard",
+                        [
+                            8,
+                            8
+                        ]
+                    ],
+                    "4,3": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            3
+                        ]
+                    ],
+                    "9,5": [
+                        "gachagamegraveyard",
+                        [
+                            9,
+                            5
+                        ]
+                    ],
+                    "5,2": [
+                        "gachagamegraveyard",
+                        [
+                            5,
+                            2
+                        ]
+                    ],
+                    "11,6": [
+                        "gachagamegraveyard",
+                        [
+                            11,
+                            6
+                        ]
+                    ],
+                    "10,2": [
+                        "gachagamegraveyard",
+                        [
+                            10,
+                            2
+                        ]
+                    ],
+                    "15,7": [
+                        "54728",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "15,6": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "16,6": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "15,5": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "16,5": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "15,4": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "16,4": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "15,3": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "16,3": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "16,2": [
+                        "54728",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "16,1": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "17,1": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "16,0": [
+                        "54728",
+                        [
+                            12,
+                            11
+                        ]
+                    ],
+                    "17,0": [
+                        "54728",
+                        [
+                            8,
+                            7
+                        ]
+                    ],
+                    "15,0": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "15,1": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "15,2": [
+                        "gachagamegraveyard",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "2,10": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "1,10": [
+                        "54728",
+                        [
+                            10,
+                            12
+                        ]
+                    ],
+                    "10,10": [
+                        "54728",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "9,10": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "11,10": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "17,2": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "16,7": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "15,8": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "13,10": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "12,10": [
+                        "54728",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "8,10": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "4,11": [
+                        "54728",
+                        [
+                            10,
+                            12
+                        ]
+                    ],
+                    "5,11": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "6,11": [
+                        "54728",
+                        [
+                            12,
+                            12
+                        ]
+                    ],
+                    "7,10": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "3,10": [
+                        "54728",
+                        [
+                            11,
+                            12
+                        ]
+                    ],
+                    "4,10": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "5,10": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "6,10": [
+                        "gachagamegraveyard",
+                        [
+                            4,
+                            8
+                        ]
+                    ],
+                    "7,11": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "8,11": [
+                        "54728",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "9,11": [
+                        "54728",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "10,11": [
+                        "54728",
+                        [
+                            12,
+                            13
+                        ]
+                    ],
+                    "3,11": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            9
+                        ]
+                    ],
+                    "4,12": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            9
+                        ]
+                    ],
+                    "5,12": [
+                        "54728",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "6,12": [
+                        "54728",
+                        [
+                            11,
+                            13
+                        ]
+                    ],
+                    "2,11": [
+                        "54728",
+                        [
+                            7,
+                            6
+                        ]
+                    ],
+                    "1,11": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            9
+                        ]
+                    ],
+                    "0,10": [
+                        "gachagamegraveyard",
+                        [
+                            0,
+                            9
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "gachagamegraveyard",
+            "54728"
+        ]
+    }
+]
