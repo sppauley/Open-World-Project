@@ -800,5 +800,10 @@
         "nid": "gachagamegraveyard",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "fog_moon_bg_1",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

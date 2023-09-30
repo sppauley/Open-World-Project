@@ -1,20 +1,20 @@
 [
     {
-        "nid": "Jaegus",
-        "name": "Jaegus",
-        "desc": "",
-        "variant": "",
+        "nid": "Clotho",
+        "name": "Clotho",
+        "desc": "The one who begins and ends your thread.",
+        "variant": "_Clotho",
         "level": 1,
-        "klass": "Shopkeeper",
+        "klass": "Sage",
         "tags": [],
         "bases": {
-            "HP": 0,
+            "HP": 1,
             "CON": 0,
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
             "PSE": 0,
-            "MOV": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 0,
@@ -72,7 +72,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "{Zeldacrafter} OC 5",
+        "portrait_nid": "{DATonDemand} Clotho",
         "affinity": "None",
         "fields": []
     }

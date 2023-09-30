@@ -3,7 +3,7 @@
         "nid": "19",
         "name": "Clotho's Temple",
         "tilemap": "Clotho's Temple",
-        "bg_tilemap": null,
+        "bg_tilemap": "fog_bg",
         "party": "Simon",
         "music": {},
         "objective": {
@@ -143,6 +143,16 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Clotho",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [],
@@ -160,6 +170,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
