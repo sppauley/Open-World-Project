@@ -43,7 +43,7 @@
                     14
                 ],
                 "icon": "cathedral",
-                "level": null,
+                "level": "19",
                 "menu_options": []
             },
             {
@@ -430,7 +430,7 @@
                     18
                 ],
                 "icon": "woods",
-                "level": null,
+                "level": "11",
                 "menu_options": []
             }
         ],
