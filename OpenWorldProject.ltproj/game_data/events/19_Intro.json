@@ -12,8 +12,12 @@
             "show_layer;overlay;immediate;no_warn",
             "show_layer;overlay2;immediate;no_warn",
             "",
+            "if;v(\"YusnaRecruited\") == True",
+            "    add_unit;Yusna;10,8;immediate",
+            "    add_talk;Simon;Yusna",
+            "end",
+            "",
             "center_cursor;Simon;immediate",
-            "wait;3000",
             "add_portrait;Simon;MidLeft",
             "s;Simon;Clotho's temple...",
             "add_portrait;Luther;FarLeft",
@@ -23,7 +27,8 @@
             "s;Simon;No, I must have answers.{w} It took a god for me to escape the castle-{w}{br}I would like to know why she chose me.",
             "multi_remove_portrait;Simon;Luther",
             "",
-            "add_talk;Simon;Jaegus"
+            "add_talk;Simon;Jaegus",
+            "add_talk;Simon;Lucius"
         ]
     }
 ]

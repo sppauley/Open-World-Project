@@ -1,0 +1,23 @@
+[
+    {
+        "name": "LuciusTalk",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"Lucius\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Right",
+            "add_portrait;Lucius;Left;left",
+            "",
+            "s;Lucius;You're in my path, son. Step out of it.",
+            "s;Simon;Excuse me? I'm just looking for information about-",
+            "s;Lucius;Then talk to my wife.{w} I'm just here to keep the riff-raff out.",
+            "",
+            "multi_remove_portrait;Lucius;Simon",
+            "",
+            "remove_talk;Simon;Lucius"
+        ]
+    }
+]

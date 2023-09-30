@@ -17,7 +17,8 @@
             "game_var;LupusRecruited;False",
             "game_var;HatshepsutMet;False",
             "game_var;_convoy;True",
-            "game_var;freely_exit;False"
+            "game_var;freely_exit;False",
+            "game_var;YusnaRecruited;False"
         ]
     }
 ]

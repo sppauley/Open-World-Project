@@ -1,0 +1,42 @@
+[
+    {
+        "name": "YusnaTalk",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"Yusna\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;9,8",
+            "",
+            "add_portrait;Yusna;Right;mirror",
+            "add_portrait;Simon;Left;left",
+            "",
+            "s;Yusna;How magnificent. Right, Simon?",
+            "mirror_portrait;Yusna",
+            "s;Yusna;Some say that a god's temple reflects the health of their community.{w}{br}I never bought that myself, however this is... impressive.",
+            "s;Simon;Think the tiles are solid gold?",
+            "s;Yusna;There's no way!{c:wait;1000} Right?",
+            "s;Simon;Hah, I doubt it.{w} But I agree, this is impressive.",
+            "s;Yusna;Simon... don't trust what Clotho tells you.",
+            "s;Simon;Why's that?",
+            "s;Yusna;The Fates claim to have power over time itself.",
+            "s;Simon;And you doubt that?{w} Yusna, you know that I have their blessing.",
+            "s;Yusna;Luther asked for my advice.{w}{br}Trust me, I've thought a lot about this.",
+            "s;Simon;I'm listening.",
+            "",
+            "s;Yusna;I think that they have some power over time.{w}{br}But you should not trust most gods.",
+            "s;Simon;Even ones who have given you their blessing?",
+            "s;Yusna;Especially those.{w} Just because you have their blessing,{w}{br}doesn't mean they can control you.{w}{br}They can't revoke a blessing,{w}{br}meaning they're desperate to keep you under control.",
+            "s;Simon;...I see. You've given me a lot to think about.",
+            "",
+            "mirror_portrait;Yusna",
+            "s;Yusna;I just hope it helps.",
+            "",
+            "multi_remove_portrait;Yusna;Simon",
+            "",
+            "remove_talk;Simon;Yusna"
+        ]
+    }
+]
