@@ -1937,11 +1937,41 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "seating",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "5,8": [
+                        "128151",
+                        [
+                            8,
+                            33
+                        ]
+                    ],
+                    "6,8": [
+                        "128151",
+                        [
+                            9,
+                            33
+                        ]
+                    ],
+                    "4,8": [
+                        "128151",
+                        [
+                            7,
+                            33
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
             "gachagamegraveyard",
-            "54728"
+            "54728",
+            "128151"
         ]
     }
 ]

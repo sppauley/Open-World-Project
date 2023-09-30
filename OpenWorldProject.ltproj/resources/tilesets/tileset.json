@@ -805,5 +805,10 @@
         "nid": "fog_moon_bg_1",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "128151",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

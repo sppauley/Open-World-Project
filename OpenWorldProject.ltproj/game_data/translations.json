@@ -334,5 +334,13 @@
     {
         "nid": "DEX_desc",
         "text": "Dexterity. Affects hit, avoid, and growth rates."
+    },
+    {
+        "nid": "jaegus_opener",
+        "text": "Don't take too long, there's a queue forming."
+    },
+    {
+        "nid": "jaegus_buy",
+        "text": "I've got a good selection - rare finds."
     }
 ]

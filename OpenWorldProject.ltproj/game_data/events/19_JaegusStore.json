@@ -13,7 +13,7 @@
             "s;Jaegus;Now, why not take a look at my wares?",
             "choice;OpenJaegusClothoShop;Shop?;Yes,No",
             "if;v(\"_last_choice\") == \"Yes\"",
-            "shop;Simon;Hammer,Horseslayer,Armorslayer,MageEffectiveBand;vendor;1,1,1,1;JaegusClothoShop",
+            "shop;Simon;Hammer,Horseslayer,Armorslayer,MageEffectiveBand;jaegus;1,1,1,1;JaegusClothoShop",
             "end"
         ]
     }
