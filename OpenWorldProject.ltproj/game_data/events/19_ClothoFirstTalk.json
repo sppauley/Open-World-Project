@@ -1,0 +1,33 @@
+[
+    {
+        "name": "ClothoFirstTalk",
+        "trigger": "on_talk",
+        "level_nid": "19",
+        "condition": "unit2.nid == \"Clotho\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# TODO",
+            "",
+            "# Transition out",
+            "transition;close;400;255,255,255",
+            "remove_unit;Clotho;immediate",
+            "remove_unit;Simon;immediate",
+            "",
+            "change_tilemap;Clotho's Temple",
+            "show_layer;overlay",
+            "show_layer;overlay2",
+            "show_layer;opendoor",
+            "add_group;DespawnInside;starting;immediate",
+            "center_cursor;10,0",
+            "transition;open",
+            "",
+            "add_unit;Annetta;10,0",
+            "move_unit;Annetta;10,1",
+            "add_unit;Simon;10,0",
+            "move_unit;Simon;10,3;normal;no_block;no_follow",
+            "move_unit;Annetta;10,2;no_follow"
+        ]
+    }
+]
