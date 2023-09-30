@@ -70,5 +70,9 @@
     {
         "nid": "YusnaRecruited",
         "desc": "Has Yusna been recruited?"
+    },
+    {
+        "nid": "ClothoState",
+        "desc": "What is the player's relationship with Clotho?"
     }
 ]

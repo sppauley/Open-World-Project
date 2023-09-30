@@ -1,0 +1,14 @@
+[
+    {
+        "name": "AddAnnettaTalk",
+        "trigger": "level_start",
+        "level_nid": "19",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "add_talk;Simon;Annetta"
+        ]
+    }
+]
