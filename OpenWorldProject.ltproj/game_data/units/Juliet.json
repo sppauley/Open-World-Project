@@ -93,6 +93,10 @@
             [
                 "DeathQuote",
                 "That's it...?{w} Agh, no, not yet.{w}{br}I'm out for now."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

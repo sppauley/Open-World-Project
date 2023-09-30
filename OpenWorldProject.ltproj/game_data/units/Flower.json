@@ -95,6 +95,10 @@
             [
                 "DeathQuote",
                 "*whine*{w} ..."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

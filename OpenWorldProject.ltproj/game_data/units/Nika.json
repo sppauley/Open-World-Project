@@ -102,6 +102,10 @@
             [
                 "DeathQuote",
                 "I have to keep control, I have to!{w}{br}I don't dare push any further.{w}{br}I'll retreat for now."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

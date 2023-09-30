@@ -93,6 +93,10 @@
             [
                 "DeathQuote",
                 "My blood...?{w} That's not how it's supposed to be!{w}{br}Urgh... I'll get you for this!"
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

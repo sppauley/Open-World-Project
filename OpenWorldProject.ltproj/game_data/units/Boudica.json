@@ -93,6 +93,10 @@
             [
                 "DeathQuote",
                 "Hrgh...{w} A lucky blow."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

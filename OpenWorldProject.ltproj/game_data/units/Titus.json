@@ -84,6 +84,15 @@
         "alternate_classes": [],
         "portrait_nid": "XVI_Xavier",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
+            ],
+            [
+                "DeathQuote",
+                "Reminds me of the good ol' days!{w}{br}Have fun, kids!"
+            ]
+        ]
     }
 ]

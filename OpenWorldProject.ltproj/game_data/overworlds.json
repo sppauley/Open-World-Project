@@ -44,7 +44,15 @@
                 ],
                 "icon": "cathedral",
                 "level": "19",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": null,
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "29",
@@ -378,8 +386,16 @@
                     13
                 ],
                 "icon": "woods",
-                "level": null,
-                "menu_options": []
+                "level": "6",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "53",
@@ -431,7 +447,15 @@
                 ],
                 "icon": "woods",
                 "level": "11",
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": null,
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {

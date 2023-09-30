@@ -98,6 +98,10 @@
             [
                 "DeathQuote",
                 "Ah, a shame.{w} This wound will take some time to heal."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

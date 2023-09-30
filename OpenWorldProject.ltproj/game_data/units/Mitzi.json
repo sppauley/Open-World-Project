@@ -87,6 +87,10 @@
             [
                 "DeathQuote",
                 "You would think I'd have learned...{w}{br}I'm moving to the rear.{w}{br}Try to stay out of trouble."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

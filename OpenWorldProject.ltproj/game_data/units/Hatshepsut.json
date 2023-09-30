@@ -90,6 +90,10 @@
             [
                 "DeathQuote",
                 "Lord Horus, must I retreat so soon?{w}{br}....I understand, I will not delay."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

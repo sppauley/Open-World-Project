@@ -97,6 +97,10 @@
             [
                 "DeathQuote",
                 "A shame I can't push further.{w}{br}I apologize."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }

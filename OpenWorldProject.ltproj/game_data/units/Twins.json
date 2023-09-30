@@ -98,6 +98,10 @@
             [
                 "DeathQuote",
                 "This is all your fault!{w}{br}Sorry Simon, I'll give my twin an earful for this one."
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
             ]
         ]
     }
