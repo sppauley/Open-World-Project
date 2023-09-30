@@ -81,7 +81,17 @@
             "move_unit;Simon;10,3;normal;no_block;no_follow",
             "move_unit;Annetta;10,2;no_follow",
             "",
-            "hide_layer;opendoor"
+            "hide_layer;opendoor",
+            "",
+            "load_unit;Luther",
+            "add_unit;Luther;4,13",
+            "move_unit;Luther;Simon;normal;closest;no_follow",
+            "add_portrait;Simon;Right",
+            "add_portrait;Luther;Left;left",
+            "s;Luther;How fare you, milord?",
+            "s;Simon;Well enough. She's given me a lot to think about.{w}{br}I'll recount it to you as we travel.",
+            "multi_remove_portrait;Luther;Simon",
+            "win_game"
         ]
     }
 ]
