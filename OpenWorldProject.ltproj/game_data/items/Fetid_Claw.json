@@ -56,6 +56,10 @@
             [
                 "weapon_type",
                 "Innate"
+            ],
+            [
+                "stagger",
+                8
             ]
         ]
     }
