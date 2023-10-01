@@ -810,5 +810,10 @@
         "nid": "128151",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Updated Village Tileset_1",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
