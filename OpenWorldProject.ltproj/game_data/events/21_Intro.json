@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "21",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;dustcloud;1,1;permanent"
+        ]
+    }
+]

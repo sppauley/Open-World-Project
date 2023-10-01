@@ -565,5 +565,14 @@
         "speed": 120,
         "frame_times": "1,1,1,1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "dustcloud",
+        "frame_x": 1,
+        "frame_y": 5,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]
