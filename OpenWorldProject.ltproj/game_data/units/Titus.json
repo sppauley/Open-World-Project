@@ -92,6 +92,10 @@
             [
                 "DeathQuote",
                 "Reminds me of the good ol' days!{w}{br}Have fun, kids!"
+            ],
+            [
+                "BattlesDeployed",
+                "0"
             ]
         ]
     }

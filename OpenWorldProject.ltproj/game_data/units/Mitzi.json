@@ -90,6 +90,10 @@
             ],
             [
                 "BattlesBeforeLoyaltyTalk",
+                "4"
+            ],
+            [
+                "BattlesDeployed",
                 "0"
             ]
         ]
