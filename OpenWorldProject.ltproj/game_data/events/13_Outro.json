@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "overworld_cinematic;The Continent (1)",
+            "center_cursor;34",
+            "reveal_overworld_node;35",
+            "reveal_overworld_road;34;35"
+        ]
+    }
+]
