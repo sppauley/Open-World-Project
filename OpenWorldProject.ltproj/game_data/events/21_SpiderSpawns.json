@@ -1,0 +1,27 @@
+[
+    {
+        "name": "SpiderSpawns",
+        "trigger": "turn_change",
+        "level_nid": "21",
+        "condition": "game.turncount % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;location;[pos for pos in v(\"spawnlocations\")]",
+            "",
+            "",
+            "level_var;spawnpos;game.get_region(\"SpiderSpawn\" + str({location})).position",
+            "center_cursor;{v:spawnpos}",
+            "flicker_cursor;{v:spawnpos}",
+            "remove_map_anim;dustcloud;{v:spawnpos}",
+            "make_generic;;Spider;8;enemy2;Attack;Monster;;Sharp Claw",
+            "map_anim;Snag;{v:spawnpos};0.5",
+            "add_unit;{created_unit};{v:spawnpos};fade;push;fade",
+            "wait;300",
+            "give_skill;{created_unit};Void Curse;;no_banner",
+            "",
+            "endf"
+        ]
+    }
+]

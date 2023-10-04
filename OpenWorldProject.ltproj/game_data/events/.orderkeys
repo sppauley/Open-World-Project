@@ -294,5 +294,7 @@
     "19_Civilian1Talk.json": 292,
     "21_Intro.json": 293,
     "21_Outro.json": 294,
-    "13_Outro.json": 295
+    "13_Outro.json": 295,
+    "21_SpiderSpawns.json": 296,
+    "21_SpiderWarning.json": 297
 }

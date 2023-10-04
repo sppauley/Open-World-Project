@@ -1,7 +1,7 @@
 [
     {
         "name": "Outro",
-        "trigger": null,
+        "trigger": "level_end",
         "level_nid": "21",
         "condition": "True",
         "commands": [],

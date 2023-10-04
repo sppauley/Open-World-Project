@@ -1,0 +1,24 @@
+[
+    {
+        "name": "SpiderWarning",
+        "trigger": "turn_change",
+        "level_nid": "21",
+        "condition": "(game.turncount + 1) % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;spiderspawnlist;[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",
+            "level_var;spawnlocations;random.sample(v(\"spiderspawnlist\"), 3)",
+            "",
+            "for;location;[pos for pos in v(\"spawnlocations\")]",
+            "",
+            "level_var;spawnpos;game.get_region(\"SpiderSpawn\" + str({location})).position",
+            "center_cursor;{v:spawnpos}",
+            "map_anim;dustcloud;{v:spawnpos};;permanent",
+            "wait;700",
+            "",
+            "endf"
+        ]
+    }
+]
