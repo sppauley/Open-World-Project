@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#map_anim;dustcloud;1,1;permanent"
+            "#map_anim;dustcloud;1,1;permanent",
+            "add_tag;117;Boss",
+            "add_tag;115;Boss",
+            "add_tag;129;Boss",
+            "add_tag;138;Boss"
         ]
     }
 ]

@@ -15,7 +15,7 @@
             "center_cursor;{v:spawnpos}",
             "flicker_cursor;{v:spawnpos}",
             "remove_map_anim;dustcloud;{v:spawnpos}",
-            "make_generic;;Spider;8;enemy2;Attack;Monster;;Sharp Claw",
+            "make_generic;;Spider;8;enemy2;Pursue_Exit;Monster;;Sharp Claw",
             "map_anim;Snag;{v:spawnpos};0.5",
             "add_unit;{created_unit};{v:spawnpos};fade;push;fade",
             "wait;300",
