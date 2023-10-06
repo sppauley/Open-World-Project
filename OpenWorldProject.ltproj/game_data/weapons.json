@@ -188,10 +188,10 @@
                 "defense_speed": 0
             }
         ],
-        "icon_nid": "Neutral",
+        "icon_nid": "wexp_icons",
         "icon_index": [
             0,
-            7
+            9
         ]
     },
     {
