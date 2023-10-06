@@ -1,0 +1,35 @@
+[
+    {
+        "name": "EnterCave",
+        "trigger": "Enter",
+        "level_nid": "21",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};JustEnteredCave;;no_banner",
+            "",
+            "if;region.nid == 'Enter'",
+            "    move_unit;{unit};24,23;fade;push",
+            "elif;region.nid == 'Enter_1'",
+            "    move_unit;{unit};25,23;fade;push",
+            "elif;region.nid == 'Enter_2'",
+            "    move_unit;{unit};26,23;fade;push",
+            "elif;region.nid == 'Enter_4'",
+            "    move_unit;{unit};10,5;fade;push",
+            "elif;region.nid == 'Enter_3'",
+            "    move_unit;{unit};9,5;fade;push",
+            "elif;region.nid == 'Enter_5'",
+            "    move_unit;{unit};11,5;fade;push",
+            "elif;region.nid == 'Enter_6'",
+            "    move_unit;{unit};48,10;fade;push",
+            "elif;region.nid == 'Enter_7'",
+            "    move_unit;{unit};49,10;fade;push",
+            "elif;region.nid == 'Enter_8'",
+            "    move_unit;{unit};50,10;fade;push",
+            "end",
+            "has_traded;{unit}"
+        ]
+    }
+]

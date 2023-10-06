@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "JustEnteredCave",
+        "name": "JustEnteredCave",
+        "desc": "If the unit has this status they will reset as soon as they wait.\nUsed in 21 - Inner Caverns",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

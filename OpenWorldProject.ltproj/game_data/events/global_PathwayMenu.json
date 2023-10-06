@@ -8,21 +8,23 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#choice;PathwayUnitMenu;Choose a unit;{eval:','.join([u.nid for u in game.get_all_units_in_party()])}73;;top_left;;;type_unit;8,3;center;FLAG(scroll_bar)",
-            "change_background;default_background",
-            "choice;PathwayUnitMenu;Choose a unit;{eval:','.join([u.nid for u in game.get_all_units_in_party()])};73;;top_left;;;type_unit;8,3;center;FLAG(backable)",
-            "if;not game.get_unit(\"{v:_last_choice}\").get_field(\"PathwayStage\")",
-            "set_unit_field;{v:_last_choice};PathwayStage;1",
-            "end",
+            "alert;Not implemented",
+            "",
+            "",
+            "#change_background;default_background",
+            "#choice;PathwayUnitMenu;Choose a unit;{eval:','.join([u.nid for u in game.get_all_units_in_party()])};73;;top_left;;;type_unit;8,3;center;FLAG(backable)",
+            "#if;not game.get_unit(\"{v:_last_choice}\").get_field(\"PathwayStage\")",
+            "    #set_unit_field;{v:_last_choice};PathwayStage;1",
+            "#end",
             "# The convo screen section",
-            "level_var;UnitChosenNid;game.get_unit(\"{v:_last_choice}\").nid",
-            "level_var;DataName;\"{v:UnitChosenNid}\" + \"Pathway\"",
-            "level_var;ConvoChosen;\"\"",
-            "level_var;ConvoChosenDesc;\"\"",
+            "#level_var;UnitChosenNid;game.get_unit(\"{v:_last_choice}\").nid",
+            "#level_var;DataName;\"{v:UnitChosenNid}\" + \"Pathway\"",
+            "#level_var;ConvoChosen;\"\"",
+            "#level_var;ConvoChosenDesc;\"\"",
             "# Add desc textbox",
-            "textbox;ConvoDesc;\"{v:ConvoChosenDesc}\";bottom;;3;;0.05;FLAG(expression)",
-            "textbox;ConvoPrereq;\"Prerequisite:|{v:ConvoChosen}\";top_right;113;4;;0.05;FLAG(expression)",
-            "choice;PathwayNodeMenu;Select a convo;{eval:','.join([convo.name for convo in game.get_data(\"{v:DataName}\") if convo.nid[0] == str(game.get_unit(\"{v:UnitChosenNid}\").get_field('PathwayStage'))])};93;vert;top_left;;PathwayConvoPrereq;;3,1;center;FLAG(persist);FLAG(backable)"
+            "#textbox;ConvoDesc;\"{v:ConvoChosenDesc}\";bottom;;3;;0.05;FLAG(expression)",
+            "#textbox;ConvoPrereq;\"Prerequisite:|{v:ConvoChosen}\";top_right;113;4;;0.05;FLAG(expression)",
+            "#choice;PathwayNodeMenu;Select a convo;{eval:','.join([convo.name for convo in game.get_data(\"{v:DataName}\") if convo.nid[0] == str(game.get_unit(\"{v:UnitChosenNid}\").get_field('PathwayStage'))])};93;vert;top_left;;PathwayConvoPrereq;;3,1;center;FLAG(persist);FLAG(backable)"
         ]
     }
 ]

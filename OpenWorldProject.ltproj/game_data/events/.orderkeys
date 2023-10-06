@@ -297,5 +297,8 @@
     "13_Outro.json": 295,
     "21_SpiderSpawns.json": 296,
     "21_SpiderWarning.json": 297,
-    "21_AllBossesDead.json": 298
+    "21_AllBossesDead.json": 298,
+    "21_EnterCave.json": 299,
+    "21_ExitCave.json": 300,
+    "21_JustEnteredCave.json": 301
 }
