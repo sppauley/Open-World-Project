@@ -32,7 +32,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -47,8 +47,8 @@
                 "roam_ai": null,
                 "ai_group": "BR-1",
                 "starting_position": [
-                    34,
-                    16
+                    33,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -56,7 +56,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -72,31 +72,7 @@
                 "ai_group": "BR-1",
                 "starting_position": [
                     32,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 12,
-                "klass": "Spider",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    25,
-                    20
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -104,7 +80,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -128,7 +104,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -152,7 +128,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -176,7 +152,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -200,7 +176,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -224,7 +200,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -248,7 +224,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 12,
+                "level": 4,
                 "klass": "Spider",
                 "faction": "Soldier",
                 "starting_items": [
@@ -272,7 +248,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -300,7 +276,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Thief",
                 "faction": "Bandit",
                 "starting_items": [
@@ -324,7 +300,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -348,7 +324,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -372,7 +348,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -420,7 +396,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 13,
+                "level": 7,
                 "klass": "Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -472,7 +448,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 13,
+                "level": 5,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -496,7 +472,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -520,7 +496,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 13,
+                "level": 7,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -544,7 +520,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 13,
+                "level": 8,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -568,7 +544,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 13,
+                "level": 7,
                 "klass": "Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -592,7 +568,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 13,
+                "level": 7,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -616,7 +592,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -640,7 +616,7 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -664,7 +640,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 13,
+                "level": 8,
                 "klass": "Brigand",
                 "faction": "Bandit",
                 "starting_items": [
@@ -688,7 +664,7 @@
             {
                 "nid": "127",
                 "variant": null,
-                "level": 13,
+                "level": 8,
                 "klass": "Brigand",
                 "faction": "Bandit",
                 "starting_items": [
@@ -712,7 +688,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 13,
+                "level": 4,
                 "klass": "Brigand",
                 "faction": "Bandit",
                 "starting_items": [
@@ -760,7 +736,7 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 13,
+                "level": 4,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -784,7 +760,7 @@
             {
                 "nid": "132",
                 "variant": null,
-                "level": 13,
+                "level": 10,
                 "klass": "Knight",
                 "faction": "Bandit",
                 "starting_items": [
@@ -808,7 +784,7 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 13,
+                "level": 7,
                 "klass": "Archer",
                 "faction": "Bandit",
                 "starting_items": [
@@ -832,7 +808,7 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Soldier",
                 "faction": "Bandit",
                 "starting_items": [
@@ -856,7 +832,7 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 13,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Bandit",
                 "starting_items": [
@@ -880,7 +856,7 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Myrmidon",
                 "faction": "Bandit",
                 "starting_items": [
@@ -904,7 +880,7 @@
             {
                 "nid": "137",
                 "variant": null,
-                "level": 13,
+                "level": 6,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -1598,6 +1574,10 @@
             {
                 "nid": "NGroup",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }
