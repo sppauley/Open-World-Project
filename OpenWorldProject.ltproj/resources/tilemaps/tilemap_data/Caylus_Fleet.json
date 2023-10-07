@@ -8943,6 +8943,295 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "gangplank1RightTop",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "18,19": "6",
+                    "19,19": "6",
+                    "20,19": "6"
+                },
+                "sprite_grid": {
+                    "18,19": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "20,19": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "19,19": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank1RightBottom",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "18,22": "6",
+                    "19,22": "6",
+                    "20,22": "6"
+                },
+                "sprite_grid": {
+                    "18,22": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "20,22": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "19,22": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank1Left",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "8,26": "6",
+                    "9,26": "6",
+                    "10,26": "6",
+                    "11,26": "6"
+                },
+                "sprite_grid": {
+                    "9,26": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "11,26": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "10,26": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank2",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "21,14": "6",
+                    "21,15": "6",
+                    "21,16": "6",
+                    "21,17": "6"
+                },
+                "sprite_grid": {
+                    "21,14": [
+                        "Updated Village Tileset_1",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "21,15": [
+                        "Updated Village Tileset_1",
+                        [
+                            8,
+                            12
+                        ]
+                    ],
+                    "21,16": [
+                        "Updated Village Tileset_1",
+                        [
+                            8,
+                            12
+                        ]
+                    ],
+                    "21,17": [
+                        "Updated Village Tileset_1",
+                        [
+                            9,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank3",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,23": "6",
+                    "4,23": "6"
+                },
+                "sprite_grid": {
+                    "4,23": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "3,23": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank4Top",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "17,5": "6",
+                    "16,5": "6",
+                    "15,5": "6",
+                    "14,5": "6"
+                },
+                "sprite_grid": {
+                    "15,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "14,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "17,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "16,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank4Bottom",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "14,7": "6",
+                    "15,7": "6",
+                    "16,7": "6",
+                    "17,7": "6"
+                },
+                "sprite_grid": {
+                    "15,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ],
+                    "14,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            6,
+                            12
+                        ]
+                    ],
+                    "17,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            12
+                        ]
+                    ],
+                    "16,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            7,
+                            11
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "gangplank5",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,8": "6",
+                    "3,9": "6",
+                    "3,10": "6",
+                    "3,11": "6"
+                },
+                "sprite_grid": {
+                    "3,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "3,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            9,
+                            11
+                        ]
+                    ],
+                    "3,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            9,
+                            12
+                        ]
+                    ],
+                    "3,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            8,
+                            12
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
