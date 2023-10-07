@@ -26,7 +26,7 @@
             "    add_unit;Lupus;35,19",
             "end",
             "",
-            "set_game_board_bounds;12;0;36;16",
+            "set_game_board_bounds;12;0;36;19",
             "remove_region;SouthEastPuzzle;FLAG(no_warn)",
             "change_roaming;f",
             "arrange_formation",
