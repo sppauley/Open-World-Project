@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Sink1",
+        "trigger": "unit_death",
+        "level_nid": "20",
+        "condition": "unit.nid=='Hull1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;12,16",
+            "change_background;BlackBackground",
+            "wait;300",
+            "sound;Wall Attack",
+            "show_layer;boat1sunk",
+            "wait;500",
+            "change_background",
+            ""
+        ]
+    }
+]

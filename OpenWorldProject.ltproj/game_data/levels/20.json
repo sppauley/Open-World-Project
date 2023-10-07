@@ -46,7 +46,7 @@
                 "nid": "Gangplank_1RightTop",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -65,7 +65,7 @@
                 "nid": "Gangplank_1RightBottom",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -84,7 +84,7 @@
                 "nid": "Gangplank_1Left",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -103,7 +103,7 @@
                 "nid": "Gangplank_2",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -122,7 +122,7 @@
                 "nid": "Gangplank_3",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -141,7 +141,7 @@
                 "nid": "Gangplank_4Top",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -160,7 +160,7 @@
                 "nid": "Gangplank_4Bottom",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -179,7 +179,7 @@
                 "nid": "Gangplank_5",
                 "variant": null,
                 "level": 1,
-                "klass": "Gangplank",
+                "klass": "GangplankTile",
                 "faction": "Wall",
                 "starting_items": [],
                 "starting_skills": [],
@@ -213,7 +213,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    5
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -237,7 +237,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    5
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -356,8 +356,27 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
+                    7,
                     31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Hull1",
+                "variant": null,
+                "level": 1,
+                "klass": "Hull",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true

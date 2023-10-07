@@ -300,5 +300,8 @@
     "21_AllBossesDead.json": 298,
     "21_EnterCave.json": 299,
     "21_ExitCave.json": 300,
-    "21_JustEnteredCave.json": 301
+    "21_JustEnteredCave.json": 301,
+    "20_Gangplank1RightTop.json": 302,
+    "20_Gangplank1RightBottom.json": 303,
+    "20_Sink1.json": 304
 }

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Gangplank1RightTop",
+        "trigger": "unit_death",
+        "level_nid": "20",
+        "condition": "unit.nid=='Gangplank_1RightTop'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;18,19",
+            "show_layer;gangplank1RightTop"
+        ]
+    }
+]
