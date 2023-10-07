@@ -11,6 +11,7 @@
             "transition;close",
             "remove_all_units",
             "add_unit;Simon;26,8;immediate",
+            "resurrect;Anuki",
             "add_unit;Anuki;28,1;immediate",
             "wait;3000",
             "transition;open",
