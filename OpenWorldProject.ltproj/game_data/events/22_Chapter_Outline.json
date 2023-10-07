@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Chapter Outline",
+        "trigger": null,
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Lupus's loyalty mission.",
+            "",
+            "#Lupus learns of a party being held by one of the Senators of Pelopos. ",
+            "",
+            "#Asks Simon to help break into the vault, since it'll let Lupus settle his outstanding debt",
+            "",
+            "#Anuki overhears, and volunteers to join them ",
+            "",
+            "#(Hijinks ensue)",
+            "",
+            "#During the party itself Simon must gather the three secret passwords to open the magical vault",
+            "",
+            "#Once inside the vault, the three of them must solve a series of puzzles to reach the treasure",
+            "",
+            "#Once they reach the treasure they silently slip out"
+        ]
+    }
+]
