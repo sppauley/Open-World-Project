@@ -19,7 +19,7 @@
             ],
             [
                 "damage",
-                8
+                5
             ],
             [
                 "hit",
@@ -31,7 +31,7 @@
             ],
             [
                 "uses",
-                5
+                10
             ],
             [
                 "uses_options",
@@ -74,13 +74,12 @@
             [
                 "prf_class",
                 [
-                    "Archer",
-                    "Sniper"
+                    "Ballista"
                 ]
             ],
             [
                 "effective",
-                16
+                10
             ],
             [
                 "effective_tag",

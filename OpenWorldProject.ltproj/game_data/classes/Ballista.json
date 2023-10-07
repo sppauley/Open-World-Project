@@ -1,69 +1,60 @@
 [
     {
-        "nid": "Gangplank",
-        "name": "Gangplank",
+        "nid": "Ballista",
+        "name": "Ballista",
         "desc": "",
         "tier": 1,
-        "movement_group": "Infantry",
+        "movement_group": "Carts",
         "promotes_from": null,
         "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 10,
-            "CON": 0,
+            "HP": 18,
+            "SPD": 4,
+            "MOV": 0,
+            "DEX": 7,
             "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
-            "MOV": 0
+            "PSE": 7,
+            "CON": 4
         },
         "growths": {
-            "HP": 0,
-            "CON": 0,
+            "HP": 70,
+            "SPD": 32,
+            "MOV": 0,
+            "DEX": 40,
             "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
-            "MOV": 0
+            "PSE": 50,
+            "CON": 35
         },
         "growth_bonus": {
             "HP": 0,
-            "CON": 0,
-            "MAG": 0,
-            "DEX": 0,
             "SPD": 0,
+            "MOV": 0,
+            "DEX": 0,
+            "MAG": 0,
             "PSE": 0,
-            "MOV": 0
+            "CON": 0
         },
         "promotion": {
             "HP": 0,
-            "CON": 0,
-            "MAG": 0,
-            "DEX": 0,
             "SPD": 0,
+            "MOV": 0,
+            "DEX": 0,
+            "MAG": 0,
             "PSE": 0,
-            "MOV": 0
+            "CON": 0
         },
         "max_stats": {
             "HP": 60,
-            "CON": 30,
+            "SPD": 20,
+            "MOV": 0,
+            "DEX": 20,
             "MAG": 30,
-            "DEX": 30,
-            "SPD": 30,
-            "PSE": 25,
-            "MOV": 15
+            "PSE": 20,
+            "CON": 20
         },
-        "learned_skills": [
-            [
-                1,
-                "NoAvoid"
-            ],
-            [
-                1,
-                "Void Curse"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -81,8 +72,8 @@
                 251
             ],
             "Bow": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Innate": [
@@ -104,14 +95,24 @@
                 false,
                 0,
                 251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
             ]
         },
-        "icon_nid": null,
+        "icon_nid": "Generic_Portrait_Archer",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": null,
+        "map_sprite_nid": "Ballista FE6 Basic Mounted {IS}-stand",
         "combat_anim_nid": null,
         "fields": []
     }

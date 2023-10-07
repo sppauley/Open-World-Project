@@ -87,12 +87,7 @@
                 0,
                 251
             ],
-            "Staff": [
-                false,
-                0,
-                251
-            ],
-            "Light": [
+            "Innate": [
                 false,
                 0,
                 251
@@ -102,7 +97,7 @@
                 0,
                 251
             ],
-            "Dark": [
+            "Staff": [
                 false,
                 0,
                 251
@@ -112,7 +107,12 @@
                 0,
                 251
             ],
-            "Innate": [
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
                 false,
                 0,
                 251
