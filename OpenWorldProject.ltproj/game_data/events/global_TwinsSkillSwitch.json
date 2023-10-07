@@ -8,14 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;Tristan (Twins);Dualhearted - DMG (DualheartedDMG);FLAG(no_banner);FLAG(no_warn)",
-            "remove_skill;Tristan (Twins);Dualhearted - STG (DualheartedSTG);FLAG(no_banner);FLAG(no_warn)",
+            "remove_skill;Tristan (Twins);DualheartedDMG;no_banner;no_warn",
+            "remove_skill;Tristan (Twins);DualheartedSTG;no_banner;no_warn",
             "if;game.turncount % 2 == 0",
-            "give_skill;Tristan (Twins);Dualhearted - DMG (DualheartedDMG);;FLAG(no_banner)",
-            "set_name;Twins;Trina",
+            "    give_skill;Tristan (Twins);DualheartedSTG;no_banner",
+            "    set_name;Twins;Trina",
             "else",
-            "give_skill;Tristan (Twins);Dualhearted - STG (DualheartedSTG);;FLAG(no_banner)",
-            "set_name;Twins;Tristan",
+            "    give_skill;Tristan (Twins);DualheartedDMG;no_banner",
+            "    set_name;Twins;Tristan",
             "end"
         ]
     }

@@ -656,7 +656,7 @@
                 "ai_group": "",
                 "starting_position": [
                     31,
-                    24
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -679,8 +679,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    33,
-                    22
+                    30,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -703,8 +703,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    23
+                    31,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -723,12 +723,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue_Exit",
+                "ai": "Pursue_Exit_Close",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
-                    23
+                    31,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -747,12 +747,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue_Exit",
+                "ai": "Pursue_Exit_Close",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    38,
-                    24
+                    32,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -848,7 +848,7 @@
                 "ai_group": "",
                 "starting_position": [
                     51,
-                    5
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1125,7 +1125,7 @@
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1203,8 +1203,8 @@
                 "nid": "SpiderSpawn11",
                 "region_type": "normal",
                 "position": [
-                    1,
-                    1
+                    5,
+                    0
                 ],
                 "size": [
                     1,
@@ -1404,6 +1404,57 @@
                 "interrupt_move": false
             },
             {
+                "nid": "Exit_9",
+                "region_type": "event",
+                "position": [
+                    36,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_10",
+                "region_type": "event",
+                "position": [
+                    37,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_11",
+                "region_type": "event",
+                "position": [
+                    38,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
                 "nid": "Enter",
                 "region_type": "event",
                 "position": [
@@ -1555,6 +1606,91 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Enter_9",
+                "region_type": "event",
+                "position": [
+                    30,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Enter_10",
+                "region_type": "event",
+                "position": [
+                    31,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Enter_11",
+                "region_type": "event",
+                "position": [
+                    32,
+                    14
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Enter",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LeftChest",
+                "region_type": "event",
+                "position": [
+                    47,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "RightChest",
+                "region_type": "event",
+                "position": [
+                    50,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Chest",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
@@ -1574,6 +1710,10 @@
             {
                 "nid": "NGroup",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }

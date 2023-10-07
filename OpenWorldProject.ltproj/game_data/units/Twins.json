@@ -19,10 +19,10 @@
         "growths": {
             "HP": 35,
             "CON": 30,
-            "MAG": 40,
+            "MAG": 35,
             "DEX": 25,
-            "SPD": 20,
-            "PSE": 10,
+            "SPD": 45,
+            "PSE": 20,
             "MOV": 0
         },
         "stat_cap_modifiers": {},

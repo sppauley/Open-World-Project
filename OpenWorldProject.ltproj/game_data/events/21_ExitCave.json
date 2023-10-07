@@ -28,8 +28,14 @@
             "    move_unit;{unit};34,7;fade;push",
             "elif;region.nid == 'Exit_8'",
             "    move_unit;{unit};35,7;fade;push",
+            "elif;region.nid == 'Exit_9'",
+            "    move_unit;{unit};30,14;fade;push",
+            "elif;region.nid == 'Exit_10'",
+            "    move_unit;{unit};31,14;fade;push",
+            "elif;region.nid == 'Exit_11'",
+            "    move_unit;{unit};32,14;fade;push",
             "end",
-            "has_traded;{unit}"
+            "has_attacked;{unit}"
         ]
     }
 ]

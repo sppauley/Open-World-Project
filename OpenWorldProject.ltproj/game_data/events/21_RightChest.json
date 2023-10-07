@@ -1,0 +1,17 @@
+[
+    {
+        "name": "RightChest",
+        "trigger": "Chest",
+        "level_nid": "21",
+        "condition": "region.nid == \"RightChest\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;openrightmostchest",
+            "unlock;{unit}",
+            "give_money;2000",
+            "has_attacked;{unit}"
+        ]
+    }
+]

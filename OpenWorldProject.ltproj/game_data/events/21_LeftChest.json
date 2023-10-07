@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LeftChest",
+        "trigger": "Chest",
+        "level_nid": "21",
+        "condition": "region.nid == \"LeftChest\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;openrightchest",
+            "unlock;{unit}",
+            "give_item;{unit};Steel Axe",
+            "has_attacked;{unit}"
+        ]
+    }
+]
