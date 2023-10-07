@@ -435,8 +435,16 @@
                     19
                 ],
                 "icon": "map_node",
-                "level": null,
-                "menu_options": []
+                "level": "20",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "56",
