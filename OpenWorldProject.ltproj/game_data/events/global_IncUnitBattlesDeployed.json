@@ -1,0 +1,21 @@
+[
+    {
+        "name": "IncUnitBattlesDeployed",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 5,
+        "_source": [
+            "for;u;[u for u in game.get_player_units() if u.position]",
+            "    level_var;BattlesDeployed;{f:{u}.BattlesDeployed}",
+            "    if;{v:BattlesDeployed}",
+            "        set_unit_field;{u};BattlesDeployed;{v:int(v(\"BattlesDeployed\")) + 1}",
+            "    else",
+            "        set_unit_field;{u};BattlesDeployed;1",
+            "    end",
+            "endf"
+        ]
+    }
+]

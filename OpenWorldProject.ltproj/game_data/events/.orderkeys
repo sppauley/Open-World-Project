@@ -306,5 +306,6 @@
     "20_Sink1.json": 304,
     "21_LeftChest.json": 305,
     "21_RightChest.json": 306,
-    "22_Chapter_Outline.json": 307
+    "22_Chapter_Outline.json": 307,
+    "global_IncUnitBattlesDeployed.json": 308
 }
