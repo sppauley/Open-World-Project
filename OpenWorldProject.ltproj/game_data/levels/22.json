@@ -2,7 +2,7 @@
     {
         "nid": "22",
         "name": "The Lupus Heist",
-        "tilemap": null,
+        "tilemap": "Gesmen's Manse",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
