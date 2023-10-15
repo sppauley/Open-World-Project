@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ClockLeft",
+        "trigger": "ClockLeft",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;It's 11 o'clock at night.",
+            "add_portrait;Anuki;FarLeft;left",
+            "s;Anuki;Good thing all that schooling led to something.",
+            "remove_portrait;Anuki",
+            "remove_portrait;Simon"
+        ]
+    }
+]

@@ -13,7 +13,10 @@
             "give_skill;Simon;FormalWear;no_banner",
             "give_skill;Anuki;FormalWear;no_banner",
             "show_layer;overlay;immediate;no_warn",
+            "level_var;wordsfound;0",
+            "",
             "add_talk;Simon;106",
+            "",
             "",
             "center_cursor;Simon;immediate"
         ]

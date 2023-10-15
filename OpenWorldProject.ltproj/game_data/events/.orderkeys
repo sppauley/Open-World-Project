@@ -310,5 +310,9 @@
     "global_IncUnitBattlesDeployed.json": 308,
     "22_Intro.json": 309,
     "22_TalkWaiter.json": 310,
-    "22_TalkGuard.json": 311
+    "22_TalkGuard.json": 311,
+    "22_Statue.json": 312,
+    "22_GesmenArrives.json": 313,
+    "22_ClockLeft.json": 314,
+    "22_ClockRight.json": 315
 }

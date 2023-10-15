@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ClockRight",
+        "trigger": "ClockRight",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Anuki;FarLeft;left",
+            "s;Simon;What is this?{w} \"Proposed new measurement of time\"{w}{br}There are ten hours instead of twelve?",
+            "",
+            "s;Anuki;First, they're reinventing government.{w}{br}Now they literally live in a different time.{w}{br}Pelopos sure is something else.",
+            "remove_portrait;Anuki",
+            "remove_portrait;Simon"
+        ]
+    }
+]
