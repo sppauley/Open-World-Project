@@ -22,6 +22,9 @@
             "give_skill;103;Shove (CrateShove);FLAG(no_banner)",
             "give_skill;102;Reposition (CrateReposition);FLAG(no_banner)",
             "",
+            "add_portrait;Simon;Left",
+            "mirror_portrait;Simon;fade",
+            "",
             "give_item;convoy;PoiseRing;no_banner",
             "",
             "trigger_script;Global GenericPreps"
