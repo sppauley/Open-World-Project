@@ -269,6 +269,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "ArmorDisplay",
+                "region_type": "event",
+                "position": [
+                    19,
+                    8
+                ],
+                "size": [
+                    5,
+                    2
+                ],
+                "sub_nid": "ArmorDisplay",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],

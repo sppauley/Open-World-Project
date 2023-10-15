@@ -1,0 +1,29 @@
+[
+    {
+        "name": "ArmorDisplay",
+        "trigger": "ArmorDisplay",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;20,9;no_follow;no_block",
+            "move_unit;Anuki;22,9;no_follow",
+            "add_portrait;Simon;FarLeft",
+            "add_portrait;Anuki;FarRight",
+            "",
+            "s;Simon;\"The armor of a retired Peloponnesian.\"{w}{br}What does the other stand say?",
+            "s;Anuki;\"Captured from one of Lord Bertholdt's...\"",
+            "s;Simon;Huh?",
+            "move_unit;Simon;21,9",
+            "wait;300",
+            "move_unit;Simon;20,9;normal;push;no_block;no_follow",
+            "move_unit;Anuki;21,9;normal;push;no_follow",
+            "wait;400",
+            "s;Anuki;It's just ancient junk. Nothing important.",
+            "",
+            "multi_remove_portrait;Anuki;Simon"
+        ]
+    }
+]
