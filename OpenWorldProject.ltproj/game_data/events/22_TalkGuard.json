@@ -1,0 +1,18 @@
+[
+    {
+        "name": "TalkGuard",
+        "trigger": "on_talk",
+        "level_nid": "22",
+        "condition": "unit2.nid == \"105\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;19,16;normal;push",
+            "add_portrait;SoldierRed;Right",
+            "add_portrait;Simon;Left;left",
+            "s;SoldierRed;I apologize, but past here is Senator Gesman's study. The area's off limits.",
+            "multi_remove_portrait;Simon;SoldierRed"
+        ]
+    }
+]
