@@ -22,12 +22,17 @@
             "give_skill;103;Shove (CrateShove);FLAG(no_banner)",
             "give_skill;102;Reposition (CrateReposition);FLAG(no_banner)",
             "",
-            "add_portrait;Simon;Left",
-            "mirror_portrait;Simon;fade",
-            "",
             "give_item;convoy;PoiseRing;no_banner",
             "",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "add_portrait;Simon;FarLeft",
+            "add_portrait;Anuki;Left",
+            "add_portrait;Luther;MidLeft",
+            "add_portrait;Vincent;MidRight",
+            "add_portrait;Franz;Right",
+            "add_portrait;Seth;FarRight",
+            "s;Simon;Hi"
         ]
     }
 ]

@@ -308,5 +308,6 @@
     "21_RightChest.json": 306,
     "22_Chapter_Outline.json": 307,
     "global_IncUnitBattlesDeployed.json": 308,
-    "22_Intro.json": 309
+    "22_Intro.json": 309,
+    "22_TalkWaiter.json": 310
 }

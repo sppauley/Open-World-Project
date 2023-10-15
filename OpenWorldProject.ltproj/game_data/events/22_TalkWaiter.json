@@ -1,0 +1,33 @@
+[
+    {
+        "name": "TalkWaiter",
+        "trigger": "on_talk",
+        "level_nid": "22",
+        "condition": "unit2.nid == \"106\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;106",
+            "add_portrait;Waiter;Left",
+            "add_portrait;Simon;Right",
+            "add_portrait;Anuki;FarRight",
+            "s;Waiter;Do the esteemed guests desire a drink?",
+            "s;Simon;No, thank you.",
+            "s;Anuki;Are you kidding? Give it here.",
+            "move_portrait;Anuki;CenterLeft",
+            "wait;200",
+            "move_portrait;Anuki;FarRight",
+            "bop_portrait;Anuki",
+            "s;Anuki;... {c:wait;400}Maybe this night won't be so terrible.",
+            "move_portrait;Anuki;CenterLeft",
+            "wait;300",
+            "mirror_portrait;Waiter",
+            "move_portrait;Waiter;OffscreenLeft",
+            "wait;500",
+            "mirror_portrait;Anuki",
+            "s;Anuki;Shut up. It's a party. Sobriety's a faux pas.",
+            "multi_remove_portrait;Simon;Waiter;Anuki"
+        ]
+    }
+]

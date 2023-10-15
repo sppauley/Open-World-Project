@@ -1244,5 +1244,105 @@
         "priority": 20,
         "offense_bias": 2,
         "roam_ai": true
+    },
+    {
+        "nid": "PartyWaiterRoam",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    14,
+                    14
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 2000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    19,
+                    20
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 2000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    7,
+                    19
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 2000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Move_to",
+                "target": "Position",
+                "target_spec": [
+                    10,
+                    14
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            },
+            {
+                "action": "Wait",
+                "target": "Time",
+                "target_spec": 2000,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
     }
 ]
