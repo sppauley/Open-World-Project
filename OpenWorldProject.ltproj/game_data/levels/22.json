@@ -33,7 +33,7 @@
                 "nid": "Anuki",
                 "team": "player",
                 "ai": "None",
-                "roam_ai": null,
+                "roam_ai": "FollowSimonRoam",
                 "ai_group": "",
                 "starting_position": [
                     9,
@@ -127,6 +127,35 @@
                 "starting_position": [
                     22,
                     1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Gesmen",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 1,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true

@@ -1223,5 +1223,26 @@
         "priority": 20,
         "offense_bias": 2,
         "roam_ai": false
+    },
+    {
+        "nid": "FollowSimonRoam",
+        "behaviours": [
+            {
+                "action": "Move_to",
+                "target": "Unit",
+                "target_spec": [
+                    "Name",
+                    "Simon"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 1,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": true
     }
 ]

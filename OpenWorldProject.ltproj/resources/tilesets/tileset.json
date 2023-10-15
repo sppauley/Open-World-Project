@@ -856,5 +856,10 @@
         "nid": "Magitek Armor (Front)",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "GesmenStatue",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

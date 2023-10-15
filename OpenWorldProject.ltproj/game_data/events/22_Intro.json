@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "game_var;freely_exit;False",
+            "give_skill;Simon;FormalWear;no_banner",
+            "give_skill;Anuki;FormalWear;no_banner",
+            "show_layer;overlay;immediate;no_warn"
+        ]
+    }
+]
