@@ -17,7 +17,7 @@
             "s;Bouncer;The host of this evening's festivities!{w}{br}SENATOR GESMEN!",
             "remove_portrait;Bouncer",
             "",
-            "move_unit;Gesmen;12,19;normal;push;2000;no_follow",
+            "move_unit;Gesmen;12,19;normal;push;600;no_follow",
             "move_unit;108;12,21;no_follow",
             "",
             "center_cursor;Simon",

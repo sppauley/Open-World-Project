@@ -1,0 +1,30 @@
+[
+    {
+        "name": "GesmenTalk",
+        "trigger": "on_talk",
+        "level_nid": "22",
+        "condition": "unit2.nid == \"Gesmen\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Gesmen is at 12,19",
+            "",
+            "move_unit;Anuki;16,18;no_block;no_follow",
+            "move_unit;Simon;15,18",
+            "add_portrait;Anuki;Right",
+            "add_portrait;Simon;Left",
+            "s;Anuki;Oh this is such a bad idea!{w}{br}I'm not doing this with you, Simon.",
+            "s;Simon;I understand, but I must do this.{w}{br}I won't be long.",
+            "multi_remove_portrait;Simon;Anuki",
+            "",
+            "move_unit;Simon;13,19",
+            "add_portrait;Gesmen;Left;mirror",
+            "add_portrait;Simon;Right;right",
+            "s;Simon;Senator Gesmen, it's a pleasure to finally meet you.",
+            "mirror_portrait;Gesmen",
+            "s;Gesmen;Lord Verstadt. I hadn't realized you were invited,{w}{br}but a pleasure nonetheless.",
+            ""
+        ]
+    }
+]
