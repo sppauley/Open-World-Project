@@ -5,7 +5,7 @@
         "color": "blue",
         "permadeath_choice": "Casual",
         "growths_choice": "Random",
-        "rng_choice": "True Hit",
+        "rng_choice": "Fates Hit",
         "player_bases": {
             "HP": 0,
             "STR": 0,
