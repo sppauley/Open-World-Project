@@ -1,0 +1,25 @@
+[
+    {
+        "name": "InsideStudy",
+        "trigger": "InsideStudy",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;21,17;no_block",
+            "move_unit;Anuki;21,16",
+            "",
+            "add_portrait;Simon;MidLeft",
+            "add_portrait;Anuki;FarLeft",
+            "s;Simon;Think he has the pass word written somewhere?",
+            "s;Anuki;I hope so. Search the desk.{w}{br}I'll start rifling through his books.",
+            "multi_remove_portrait;Anuki;Simon",
+            "",
+            "move_unit;Simon;24,16;no_block;no_follow",
+            "move_unit;Anuki;22,15;no_follow",
+            ""
+        ]
+    }
+]

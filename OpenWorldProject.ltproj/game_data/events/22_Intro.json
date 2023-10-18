@@ -14,9 +14,11 @@
             "give_skill;Anuki;FormalWear;no_banner",
             "show_layer;overlay;immediate;no_warn",
             "level_var;wordsfound;0",
+            "level_var;talkedtoguard;0",
             "",
             "add_talk;Simon;106",
-            "",
+            "add_talk;Simon;105",
+            "add_talk;Simon;115",
             "",
             "center_cursor;Simon;immediate"
         ]

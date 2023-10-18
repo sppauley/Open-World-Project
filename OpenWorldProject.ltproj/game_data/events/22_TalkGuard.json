@@ -8,11 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_unit;Simon;19,16;normal;push",
+            "move_unit;Simon;19,16;normal",
             "add_portrait;SoldierRed;Right",
             "add_portrait;Simon;Left;left",
             "s;SoldierRed;I apologize, but past here is Senator Gesman's study. The area's off limits.",
-            "multi_remove_portrait;Simon;SoldierRed"
+            "multi_remove_portrait;Simon;SoldierRed",
+            "",
+            "level_var;talkedtoguard;1"
         ]
     }
 ]

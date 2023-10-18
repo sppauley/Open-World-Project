@@ -1,0 +1,36 @@
+[
+    {
+        "name": "DanceFloor",
+        "trigger": "DanceFloor",
+        "level_nid": "22",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;8,14;normal;closest;no_block;no_follow",
+            "move_unit;Anuki;7,14;normal;closest;no_follow",
+            "",
+            "add_portrait;Simon;Right",
+            "add_portrait;Anuki;Left",
+            "",
+            "s;Anuki;Just look at all these cute couples.",
+            "s;Simon;Do you want to join them?",
+            "s;Anuki;In dancing? ",
+            "mirror_portrait;Anuki",
+            "s;Anuki;Oh, please.",
+            "mirror_portrait;Anuki",
+            "s;Anuki;Simon, what do you think our engagement is?",
+            "s;Simon;A political alliance between two houses.{w}{br}I have no delusions about that.",
+            "s;Anuki;Thank the Fates.",
+            "s;Simon;But I promise you that none of those couples are as happy as they seem.",
+            "s;Anuki;Obviously. Comes with the territory.",
+            "s;Simon;So why not join them?{w} Even if our relationship is born of circumstance,{w}{br}why not try to be happy with it?",
+            "s;Anuki;I don't believe for a second that I can fool myself into that.{w}{br}Simon, I don't hate you. Or resent you.{w}{br}But I won't pretend to feel something I don't.",
+            "s;Simon;I understand.{c:wait;1000} Perhaps we should move on.",
+            "s;Anuki;Let's.",
+            "",
+            "multi_remove_portrait;Anuki;Simon"
+        ]
+    }
+]
