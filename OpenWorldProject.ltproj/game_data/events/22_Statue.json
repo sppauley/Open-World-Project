@@ -28,6 +28,7 @@
             "s;Anuki;That is completely idiotic. Let's try it.",
             "level_var;wordsfound;2",
             "",
+            "multi_remove_portrait;Anuki;Simon",
             "move_unit;Anuki;11,2;normal;push;no_block;no_follow",
             "move_unit;Simon;10,3;normal;push",
             "",
@@ -38,6 +39,7 @@
             "s;Simon;You're right. It was just a guess.",
             "s;Anuki;Let's keep looking.",
             "level_var;wordsfound;1",
+            "multi_remove_portrait;Anuki;Simon",
             "",
             "end"
         ]

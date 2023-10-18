@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_unit;Simon;22,19",
-            "move_unit;Anuki;21,19",
+            "move_unit;Simon;22,19;normal;closest",
+            "move_unit;Anuki;21,19;normal;closest",
             "",
             "if;v(\"talkedtoguard\") == 0",
             "",

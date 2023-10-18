@@ -97,6 +97,10 @@
             [
                 "DeathQuote",
                 "I'm... I'm d-dying..."
+            ],
+            [
+                "BattlesDeployed",
+                "0"
             ]
         ]
     }

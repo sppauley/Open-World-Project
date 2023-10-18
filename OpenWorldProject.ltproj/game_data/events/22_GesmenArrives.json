@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "",
             "center_cursor;108",
             "add_unit;Gesmen;12,22;immediate;push",
             "move_unit;108;11,20;no_follow",
@@ -28,7 +29,7 @@
             "s;Anuki;We have the words, so let's hurry up and meet Lupus.",
             "s;Simon;I believe I'd like to speak to him.",
             "s;Anuki;Are you crazy? Have you been killed too many times and finally lost it?{w}{br}We're here to rob his mansion!",
-            "s;Simon;He doesn't know that.{w} It may be risky, but as nobles men like him are our natural enemies.{w}{br}Isn't it worthwhile to try and understand them?",
+            "s;Simon;He doesn't know that.{w} It may be risky, but, as nobles,{w}{br}men like him are our natural enemies.{w}{br}Isn't it worthwhile to try and understand them?",
             "s;Anuki;...No? What are you talking about?",
             "s;Simon;You need not follow me. If I speak with him, I won't be long.",
             "multi_remove_portrait;Simon;Anuki",
