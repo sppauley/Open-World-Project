@@ -5,7 +5,9 @@
         "tilemap": "Gesmen's Manse",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Nocturne"
+        },
         "objective": {
             "simple": "Steal the Treasure",
             "win": "Steal the Treasure",
@@ -13,7 +15,7 @@
         },
         "roam": true,
         "roam_unit": "Simon",
-        "go_to_overworld": true,
+        "go_to_overworld": false,
         "should_record": true,
         "units": [
             {
@@ -619,14 +621,26 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Bouncer",
+                "region_type": "event",
+                "position": [
+                    10,
+                    23
+                ],
+                "size": [
+                    5,
+                    1
+                ],
+                "sub_nid": "Bouncer",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

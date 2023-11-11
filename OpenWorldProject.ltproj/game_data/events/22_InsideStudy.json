@@ -3,7 +3,7 @@
         "name": "InsideStudy",
         "trigger": "roaming_interrupt",
         "level_nid": "22",
-        "condition": "True",
+        "condition": "region.nid == \"InsideStudy\"",
         "commands": [],
         "only_once": false,
         "priority": 20,
