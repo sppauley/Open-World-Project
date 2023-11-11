@@ -34,7 +34,9 @@
             "s;Simon;You need not follow me. If I speak with him, I won't be long.",
             "multi_remove_portrait;Simon;Anuki",
             "",
-            "add_talk;Simon;Gesmen"
+            "add_talk;Simon;Gesmen",
+            "",
+            "level_var;wordsfound;2"
         ]
     }
 ]

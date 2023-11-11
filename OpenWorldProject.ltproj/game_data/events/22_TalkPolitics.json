@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TalkPolitics",
+        "trigger": "on_talk",
+        "level_nid": "22",
+        "condition": "unit2.nid == \"112\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;112",
+            "move_unit;Anuki;15,10;no_block;no_follow",
+            "move_unit;Simon;16,10;no_follow",
+            "add_portrait;VillagerWoman;Left",
+            "add_portrait;KnightGirlGeneric;Right",
+            "s;VillagerWoman;It's a ludicrous policy.{w}{br}It's vindictive and cruel, not preventative.",
+            "s;KnightGirlGeneric;It is a just policy.",
+            "s;VillagerWoman;Just? You'll take the hands off pickpockets-{w}{br}how is that justice? ",
+            "add_portrait;Anuki;FarLeft;left",
+            "s;Anuki;Sounds fine to me.{w}{br}Crime needs to be prevented somehow.",
+            "s;KnightGirlGeneric;Thank you! Justice is doing what is helpful to your friends and harmful to your enemies.{w}{br}Crime is rising throughout the city, and you'd have us do nothing?",
+            "s;VillagerWoman;What you're talking about is a punishment I'd expect in the old regime.{w}{br}Why are you so desperate to repeat their mistakes?",
+            "multi_remove_portrait;VillagerWoman;KnightGirlGeneric;Anuki"
+        ]
+    }
+]
