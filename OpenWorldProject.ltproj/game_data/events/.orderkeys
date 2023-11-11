@@ -323,5 +323,6 @@
     "22_TalkPolitics.json": 321,
     "22_Vault.json": 322,
     "22_Bouncer.json": 323,
-    "global_LoyaltyMissionNotifications.json": 324
+    "global_LoyaltyTutorial.json": 324,
+    "global_LupusLoyaltyNotification.json": 325
 }

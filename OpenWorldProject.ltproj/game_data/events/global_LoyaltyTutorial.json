@@ -1,0 +1,16 @@
+[
+    {
+        "name": "LoyaltyTutorial",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "s;Narrator;Deploying characters in battle will build their loyalty towards Simon.{w}{br}After a certain number of deployments, they may ask to speak to Simon.{w}{br}Completing their request will grant them new weapons or powers.;;;hint",
+            "",
+            "game_var;LoyaltyTutorial;True"
+        ]
+    }
+]

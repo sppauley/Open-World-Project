@@ -19,7 +19,8 @@
             "game_var;_convoy;True",
             "game_var;freely_exit;False",
             "game_var;YusnaRecruited;False",
-            "game_var;ClothoState;\"None\""
+            "game_var;ClothoState;\"None\"",
+            "game_var;LoyaltyTutorial;False"
         ]
     }
 ]

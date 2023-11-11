@@ -74,5 +74,9 @@
     {
         "nid": "ClothoState",
         "desc": "What is the player's relationship with Clotho?"
+    },
+    {
+        "nid": "LoyaltyTutorial",
+        "desc": "Has player seen loyalty mission tutorial?"
     }
 ]
