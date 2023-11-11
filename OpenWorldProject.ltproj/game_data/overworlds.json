@@ -24,7 +24,7 @@
                     18
                 ],
                 "icon": "castle",
-                "level": "9",
+                "level": "MorrisseyCastleRoam",
                 "menu_options": [
                     {
                         "nid": "Roam",

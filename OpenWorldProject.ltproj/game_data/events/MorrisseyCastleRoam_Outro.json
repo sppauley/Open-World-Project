@@ -1,16 +1,16 @@
 [
     {
-        "name": "Intro",
-        "trigger": "level_start",
+        "name": "Outro",
+        "trigger": "level_end",
         "level_nid": "MorrisseyCastleRoam",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "center_cursor;Simon;immediate",
-            "",
-            "level_var;RevealLupusMission;False"
+            "overworld_cinematic;The Continent (1)",
+            "reveal_overworld_node;57",
+            "# REVEAL ROAD"
         ]
     }
 ]
