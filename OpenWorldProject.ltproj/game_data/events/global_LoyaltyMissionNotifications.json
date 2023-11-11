@@ -1,0 +1,20 @@
+[
+    {
+        "name": "LoyaltyMissionNotifications",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"LupusRecruited\") == 1 and game.get_unit(\"Lupus\").get_field(\"BattlesBeforeLoyaltyTalk\") == game.get_unit(\"Lupus\").get_field(\"BattlesDeployed\")",
+            "",
+            "add_portrait;Lupus;Left",
+            "s;Lupus;Uh, hey, Simon. I heard about a little job you might be interested in.{w}{br}Give me a holler next time we're at Morrissey's.{w} I think you'll like it.",
+            "remove_portrait;Lupus",
+            "",
+            "end"
+        ]
+    }
+]

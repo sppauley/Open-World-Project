@@ -322,5 +322,6 @@
     "22_GesmenTalk.json": 320,
     "22_TalkPolitics.json": 321,
     "22_Vault.json": 322,
-    "22_Bouncer.json": 323
+    "22_Bouncer.json": 323,
+    "global_LoyaltyMissionNotifications.json": 324
 }
