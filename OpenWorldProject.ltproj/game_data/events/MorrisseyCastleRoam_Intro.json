@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Simon;immediate"
+        ]
+    }
+]

@@ -464,6 +464,25 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "57",
+                "name": "Gesmen's Manse",
+                "pos": [
+                    22,
+                    12
+                ],
+                "icon": "map_node",
+                "level": "22",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -979,6 +998,16 @@
                 [
                     25,
                     20
+                ]
+            ],
+            "(22, 12)-(24, 12)": [
+                [
+                    22,
+                    12
+                ],
+                [
+                    24,
+                    12
                 ]
             ]
         },

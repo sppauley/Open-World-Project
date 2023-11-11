@@ -324,5 +324,6 @@
     "22_Vault.json": 322,
     "22_Bouncer.json": 323,
     "global_LoyaltyTutorial.json": 324,
-    "global_LupusLoyaltyNotification.json": 325
+    "global_LupusLoyaltyNotification.json": 325,
+    "MorrisseyCastleRoam_Intro.json": 326
 }
