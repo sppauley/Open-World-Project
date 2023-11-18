@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "add_unit;Hull2;23,15",
-            "add_unit;Hull3;5,22"
+            "add_unit;Hull3;5,22",
+            ""
         ]
     }
 ]
