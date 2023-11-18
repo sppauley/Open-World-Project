@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Sink4",
+        "trigger": "unit_death",
+        "level_nid": "20",
+        "condition": "unit.nid=='Hull4'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "map_anim;Snag;18,3",
+            "change_background;BlackBackground",
+            "wait;300",
+            "sound;Wall Attack",
+            "show_layer;boat4sunk",
+            "wait;500",
+            "change_background",
+            "remove_unit;Gangplank_4Top",
+            "remove_unit;Gangplank_4Bottom",
+            "loop_units;[unit for unit in get_units_in_region('boat4') if 'Flying' not in [skill.nid for skill in unit.skills]];kill_unit"
+        ]
+    }
+]

@@ -451,6 +451,38 @@
                 "generic": true
             },
             {
+                "nid": "Hull4",
+                "variant": null,
+                "level": 1,
+                "klass": "Hull",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Hull5",
+                "variant": null,
+                "level": 1,
+                "klass": "Hull",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "109",
                 "variant": null,
                 "level": 1,
@@ -585,6 +617,74 @@
                 "size": [
                     8,
                     19
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "boat2",
+                "region_type": "normal",
+                "position": [
+                    20,
+                    14
+                ],
+                "size": [
+                    10,
+                    22
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "boat3",
+                "region_type": "normal",
+                "position": [
+                    4,
+                    21
+                ],
+                "size": [
+                    6,
+                    13
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "boat4",
+                "region_type": "normal",
+                "position": [
+                    17,
+                    2
+                ],
+                "size": [
+                    6,
+                    13
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "boat5",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    9
+                ],
+                "size": [
+                    4,
+                    16
                 ],
                 "sub_nid": null,
                 "condition": "True",
