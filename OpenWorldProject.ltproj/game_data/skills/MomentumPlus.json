@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "MomentumPlus",
+        "name": "Momentum+",
+        "desc": "Unit has +3 SPD and a 25% chance to gain one point of MOV on level up.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "growth_change",
+                [
+                    [
+                        "MOV",
+                        25
+                    ]
+                ]
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]
