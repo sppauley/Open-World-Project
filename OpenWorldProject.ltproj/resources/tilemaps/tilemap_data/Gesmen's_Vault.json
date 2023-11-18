@@ -625,22 +625,22 @@
                     "1,6": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            4,
+                            19,
                             16
                         ]
                     ],
                     "1,7": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            3,
-                            17
+                            19,
+                            16
                         ]
                     ],
                     "1,8": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
-                            25
+                            18,
+                            14
                         ]
                     ],
                     "1,9": [
@@ -1185,8 +1185,8 @@
                     "7,8": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            10,
-                            14
+                            16,
+                            15
                         ]
                     ],
                     "7,9": [
@@ -2893,8 +2893,8 @@
                     "1,16": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
-                            25
+                            12,
+                            18
                         ]
                     ],
                     "1,17": [
@@ -2921,8 +2921,8 @@
                     "3,16": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            26,
-                            26
+                            13,
+                            18
                         ]
                     ],
                     "3,17": [
@@ -3089,8 +3089,8 @@
                     "1,15": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
-                            25
+                            8,
+                            14
                         ]
                     ],
                     "2,14": [
@@ -3103,8 +3103,8 @@
                     "2,15": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
-                            25
+                            1,
+                            1
                         ]
                     ],
                     "3,14": [
@@ -3117,8 +3117,8 @@
                     "3,15": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            21,
-                            25
+                            9,
+                            14
                         ]
                     ],
                     "4,14": [
@@ -3537,8 +3537,8 @@
                     "13,24": [
                         "Improved Castle Tileset Palette 2",
                         [
-                            4,
-                            15
+                            28,
+                            10
                         ]
                     ],
                     "14,22": [
@@ -3963,6 +3963,28 @@
                         [
                             21,
                             25
+                        ]
+                    ],
+                    "7,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            22,
+                            25
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "middlechestopen",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "2,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            1,
+                            0
                         ]
                     ]
                 }

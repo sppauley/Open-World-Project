@@ -16,6 +16,10 @@
             [
                 "change_variant",
                 "_Formal"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }

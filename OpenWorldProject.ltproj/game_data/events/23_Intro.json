@@ -13,7 +13,10 @@
             "show_layer;statue;no_warn",
             "hide_layer;statueunarmed;no_warn",
             "",
-            ""
+            "give_skill;Simon;FormalWear;;no_banner",
+            "give_skill;Anuki;FormalWear;;no_banner",
+            "",
+            "center_cursor;Simon;immediate"
         ]
     }
 ]
