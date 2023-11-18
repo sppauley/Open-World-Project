@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Combat with Bryce",
+        "trigger": "combat_start",
+        "level_nid": "13",
+        "condition": "unit1.nid == 'Bryce' or unit2.nid == 'Bryce'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bryce;Right;",
+            "s;Bryce;Really full of yourselves thinking you can just walk in here, aren't ye?",
+            "s;Bryce;I'm looking forward to seeing that confidence break.",
+            "remove_portrait;Bryce"
+        ]
+    }
+]
