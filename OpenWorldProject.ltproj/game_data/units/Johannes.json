@@ -2,7 +2,7 @@
     {
         "nid": "Johannes",
         "name": "Johannes",
-        "desc": "",
+        "desc": "A self-proclaimed dragonslayer.",
         "variant": "",
         "level": 3,
         "klass": "Hero",
@@ -90,7 +90,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "Salty OC 1",
         "affinity": "None",
         "fields": [
             [
