@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Destroy End",
+        "trigger": "Destroy",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;{unit};Left",
+            "s;{unit};Time to end this...",
+            "change_background;BlackBackground",
+            "sound;Critical Kill",
+            "wait;700",
+            "s;Kajal;NO!!!",
+            "change_background",
+            "add_portrait;Kajal;Right",
+            "s;Kajal;Traitors...",
+            "s;Kajal;Traitors, scum, villains.",
+            "s;Kajal;You do not know what you've done.",
+            "s;Kajal;I... hope you all perish.",
+            "s;Kajal;Verstadt, you are a contemptable excuse for a lord.",
+            "s;Kajal;May I never see you again.",
+            "remove_portrait;Kajal",
+            "wait;500",
+            "change_team;Kajal;enemy",
+            "win_game"
+        ]
+    }
+]

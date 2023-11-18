@@ -78,5 +78,13 @@
     {
         "nid": "LoyaltyTutorial",
         "desc": "Has player seen loyalty mission tutorial?"
+    },
+    {
+        "nid": "KajalAbsorb",
+        "desc": "Did Kajal absorb Vesner's spirit?"
+    },
+    {
+        "nid": "SimonAbsorb",
+        "desc": "Did Simon absorb Vesner's spirit?"
     }
 ]

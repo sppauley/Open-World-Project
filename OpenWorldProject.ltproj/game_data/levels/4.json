@@ -983,8 +983,8 @@
                 "roam_ai": null,
                 "ai_group": "g",
                 "starting_position": [
-                    20,
-                    9
+                    18,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1007,8 +1007,8 @@
                 "roam_ai": null,
                 "ai_group": "g",
                 "starting_position": [
-                    16,
-                    9
+                    17,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1032,7 +1032,7 @@
                 "ai_group": "g",
                 "starting_position": [
                     19,
-                    9
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1055,8 +1055,8 @@
                 "roam_ai": null,
                 "ai_group": "g",
                 "starting_position": [
-                    17,
-                    9
+                    18,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1539,7 +1539,7 @@
                     4
                 ],
                 "sub_nid": "Destroy",
-                "condition": "True",
+                "condition": "unit.nid!='Kajal'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -1556,7 +1556,7 @@
                     6
                 ],
                 "sub_nid": "Destroy",
-                "condition": "True",
+                "condition": "unit.nid!='Kajal'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
