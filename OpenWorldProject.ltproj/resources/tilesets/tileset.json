@@ -861,5 +861,10 @@
         "nid": "GesmenStatue",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "GesmenStatueUnarmed",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "23",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;base;no_warn",
+            "show_layer;overlay;no_warn",
+            "show_layer;statue;no_warn",
+            "hide_layer;statueunarmed;no_warn",
+            "",
+            ""
+        ]
+    }
+]

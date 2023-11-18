@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ClearPuzzle1",
+        "trigger": null,
+        "level_nid": "23",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ]
+    }
+]
