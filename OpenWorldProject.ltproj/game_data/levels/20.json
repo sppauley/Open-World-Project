@@ -507,30 +507,6 @@
                 "generic": true
             },
             {
-                "nid": "125",
-                "variant": null,
-                "level": 16,
-                "klass": "Pirate",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    15,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "126",
                 "variant": null,
                 "level": 16,
@@ -630,11 +606,11 @@
                 "nid": "121",
                 "variant": null,
                 "level": 16,
-                "klass": "Mercenary",
+                "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Blade",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -644,32 +620,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    24
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
-                "level": 17,
-                "klass": "Wolf",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    25
+                    8,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -746,30 +698,6 @@
                 "starting_position": [
                     23,
                     29
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 17,
-                "klass": "Wolf",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    25,
-                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -856,6 +784,10 @@
                     [
                         "Silver Axe",
                         false
+                    ],
+                    [
+                        "DamageMaterial",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -866,30 +798,6 @@
                 "starting_position": [
                     2,
                     17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 16,
-                "klass": "Pirate",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -936,8 +844,8 @@
                 "roam_ai": null,
                 "ai_group": "b2",
                 "starting_position": [
-                    24,
-                    17
+                    27,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -995,25 +903,29 @@
                 "generic": true
             },
             {
-                "nid": "128",
+                "nid": "110",
                 "variant": null,
-                "level": 17,
-                "klass": "Wolf",
+                "level": 4,
+                "klass": "Guerilla",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "Mend",
+                        true
+                    ],
+                    [
+                        "Silver Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "SupportBoss",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    19,
-                    6
+                    9,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1144,6 +1056,10 @@
         "ai_groups": [
             {
                 "nid": "b2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

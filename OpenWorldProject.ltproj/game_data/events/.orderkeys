@@ -344,5 +344,7 @@
     "23_ClearPuzzle3.json": 342,
     "20_kill_unit.json": 343,
     "20_Allow_Hull_Targeting_2.json": 344,
-    "20_Allow_Hull_Targeting_3.json": 345
+    "20_Allow_Hull_Targeting_3.json": 345,
+    "20_Intro.json": 346,
+    "20_Damage_Material_Enemy.json": 347
 }
