@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Talk Paladin",
+        "trigger": "on_talk",
+        "level_nid": "15",
+        "condition": "unit2.nid=='105'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;SoldierBlue;Right",
+            "s;SoldierBlue;Halt! You there!",
+            "s;SoldierBlue;You're not one of the Wandering Knights.{w}{br}So what are you doing out here?",
+            "s;Simon;We're crossing into the swamp.",
+            "s;SoldierBlue;Are you insane?{w}{br}The road ahead is overrun with bandits!",
+            "s;SoldierBlue;Turn back now if you value your lives.",
+            "s;Simon;I'm sure we can manage just fine.",
+            "s;SoldierBlue;If you say so.",
+            "multi_remove_portrait;Simon;SoldierBlue",
+            "remove_talk;Simon;105"
+        ]
+    }
+]
