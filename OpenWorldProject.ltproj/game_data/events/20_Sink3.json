@@ -13,6 +13,7 @@
             "wait;300",
             "sound;Wall Attack",
             "show_layer;boat3sunk",
+            "hide_layer;gangplank1Left",
             "wait;500",
             "change_background",
             "remove_unit;Gangplank_3",

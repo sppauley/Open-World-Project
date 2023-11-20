@@ -12,6 +12,7 @@
             "change_background;BlackBackground",
             "wait;300",
             "sound;Wall Attack",
+            "hide_layer;gangplank2",
             "show_layer;boat4sunk",
             "wait;500",
             "change_background",

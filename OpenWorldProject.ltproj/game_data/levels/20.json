@@ -45,7 +45,7 @@
             {
                 "nid": "Caylus",
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1035,11 +1035,11 @@
                 "nid": "boat2",
                 "region_type": "normal",
                 "position": [
-                    20,
+                    19,
                     14
                 ],
                 "size": [
-                    10,
+                    12,
                     22
                 ],
                 "sub_nid": null,
@@ -1056,7 +1056,7 @@
                     21
                 ],
                 "size": [
-                    6,
+                    7,
                     13
                 ],
                 "sub_nid": null,
@@ -1074,7 +1074,7 @@
                 ],
                 "size": [
                     6,
-                    13
+                    15
                 ],
                 "sub_nid": null,
                 "condition": "True",
@@ -1104,10 +1104,6 @@
         "ai_groups": [
             {
                 "nid": "b2",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
