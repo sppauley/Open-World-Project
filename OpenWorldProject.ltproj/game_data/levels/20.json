@@ -658,11 +658,11 @@
                 "nid": "114",
                 "variant": null,
                 "level": 16,
-                "klass": "Myrmidon",
+                "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Iron Bow",
                         false
                     ]
                 ],
@@ -679,14 +679,38 @@
                 "generic": true
             },
             {
-                "nid": "113",
+                "nid": "122",
                 "variant": null,
                 "level": 16,
-                "klass": "Myrmidon",
+                "klass": "Archer",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 16,
+                "klass": "Archer",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron Bow",
                         false
                     ]
                 ],
@@ -770,6 +794,30 @@
                 "starting_position": [
                     24,
                     30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 16,
+                "klass": "Archer",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
