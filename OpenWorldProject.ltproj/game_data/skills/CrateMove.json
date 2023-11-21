@@ -10,12 +10,12 @@
         ],
         "components": [
             [
-                "witch_warp_expression",
-                "unit.klass == \"PuzzleCrate\" and unit != target"
-            ],
-            [
                 "class_skill",
                 null
+            ],
+            [
+                "witch_warp_expression_weak_check",
+                "unit.klass == \"PuzzleCrate\" and unit != target"
             ]
         ]
     }
