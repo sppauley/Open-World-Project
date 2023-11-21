@@ -10,6 +10,9 @@
         "_source": [
             "if;v(\"PuzzleCompleted\") and game.board.get_unit((11,23)) and game.board.get_unit((11,23)).nid == \"Simon\"",
             "",
+            "remove_group;PuzzleCrates",
+            "show_layer;bottompuzzlecomplete",
+            "",
             "move_unit;Lupus;14,24",
             "move_unit;Lupus;15,24;swoosh",
             "move_unit;Lupus;16,24;swoosh",

@@ -3992,6 +3992,81 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "bottompuzzlecomplete",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "16,24": "Fence",
+                    "15,24": "Fence"
+                },
+                "sprite_grid": {
+                    "15,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "16,24": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "middlepuzzlecomplete",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "7,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "7,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "7,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "4,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "5,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "6,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
