@@ -32,6 +32,8 @@
             "reset;Anuki",
             "remove_skill;Lupus;HiddenFlying;no_banner",
             "",
+            "level_var;PuzzleCompleted;False",
+            "",
             "end"
         ]
     }

@@ -370,6 +370,149 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    0,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateShove"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 1,
+                "klass": "PuzzleCrate",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [
+                    "CrateReposition"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -385,6 +528,23 @@
                     4
                 ],
                 "sub_nid": "Puzzle2",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
+            },
+            {
+                "nid": "Puzzle3",
+                "region_type": "event",
+                "position": [
+                    8,
+                    8
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "Puzzle3",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -410,8 +570,20 @@
                     "108"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "PuzzleCrates3",
+                "units": [
+                    "109"
+                ],
+                "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

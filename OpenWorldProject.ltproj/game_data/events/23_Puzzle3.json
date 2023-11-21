@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Puzzle3",
+        "trigger": "roaming_interrupt",
+        "level_nid": "23",
+        "condition": "region.nid == \"Puzzle3\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Anuki;9,8",
+            "move_unit;Simon;9,10",
+            "",
+            "map_anim;Snag;7,8;no_block",
+            "map_anim;Snag;11,9;no_block",
+            "show_layer;topwalldestroyed",
+            "",
+            "give_skill;Lupus;HiddenFlying;no_banner",
+            "move_unit;Lupus;7,9",
+            "",
+            "set_game_board_bounds;0;8;18;10",
+            "center_cursor;Anuki",
+            "level_var;PuzzleTargets;[(2,9), (3,9), (1,9), (5,8), (6,8), (7,8)]",
+            "trigger_script;PuzzleSetup (Global PuzzleSetup)",
+            ""
+        ]
+    }
+]
