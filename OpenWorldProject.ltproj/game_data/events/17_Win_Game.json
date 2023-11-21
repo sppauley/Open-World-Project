@@ -73,7 +73,7 @@
             "speak;Simon;It does seem intelligent.{w}{br}Very well.{w}{br}So long as it behaves,{w} I will not object.",
             "speak;Luther;Strange times do make for strange bedfellows.",
             "multi_remove_portrait;Luther;Simon (Simon)",
-            "game_var;FlowerRecruited;Yes",
+            "game_var;FlowerRecruited;1",
             "end",
             "game_var;_goto_level;FVRoaming",
             "win_game"
