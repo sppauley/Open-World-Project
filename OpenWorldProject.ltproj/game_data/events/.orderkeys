@@ -348,5 +348,6 @@
     "20_Intro.json": 346,
     "20_Damage_Material_Enemy.json": 347,
     "20_Win_Condition.json": 348,
-    "15_Talk_Paladin.json": 349
+    "15_Talk_Paladin.json": 349,
+    "9_Check_Statue.json": 350
 }

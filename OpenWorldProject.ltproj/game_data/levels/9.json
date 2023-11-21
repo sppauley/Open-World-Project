@@ -285,6 +285,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Statue1",
+                "region_type": "event",
+                "position": [
+                    25,
+                    21
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "Examine",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
