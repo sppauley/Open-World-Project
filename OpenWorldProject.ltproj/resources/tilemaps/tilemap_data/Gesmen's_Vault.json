@@ -3960,7 +3960,10 @@
                 "nid": "topwalldestroyed",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "7,8": "6",
+                    "11,9": "6"
+                },
                 "sprite_grid": {
                     "11,9": [
                         "Improved Castle Tileset Palette 2",
