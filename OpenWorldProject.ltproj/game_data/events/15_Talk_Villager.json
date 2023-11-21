@@ -3,7 +3,7 @@
         "name": "Talk Villager",
         "trigger": "on_talk",
         "level_nid": "15",
-        "condition": "unit2.nid=='101'",
+        "condition": "unit2.nid=='101' and game.game_vars['SwampOutpostVillager']!=1",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -25,7 +25,8 @@
             "inc_game_var;AccuracyWeaponMaterial;1",
             "alert;Got Accuracy Material!",
             "multi_remove_portrait;Man2;Simon",
-            "remove_talk;Simon (Simon);Soldier (101)"
+            "remove_talk;Simon (Simon);Soldier (101)",
+            "game_var;SwampOutpostVillager;1"
         ]
     }
 ]
