@@ -3,7 +3,7 @@
         "name": "Swamp",
         "trigger": "Swamp",
         "level_nid": "15",
-        "condition": "True",
+        "condition": "game.game_vars['CheckSwamp']!=1",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -17,7 +17,12 @@
             "speak;Simon;You can't be serious.",
             "speak;Vincent;It's probably just a story.",
             "speak;Vincent;But, with everything going on, it's hard to say.",
-            "multi_remove_portrait;Vincent;Simon"
+            "s;Simon;Wait, what's that in the water?",
+            "s;Vincent;It looks like a piece of metal...",
+            "multi_remove_portrait;Vincent;Simon",
+            "inc_game_var;StaggerWeaponMaterial;1",
+            "alert;Found Stagger Material!",
+            "game_var;CheckSwamp;1"
         ]
     }
 ]
