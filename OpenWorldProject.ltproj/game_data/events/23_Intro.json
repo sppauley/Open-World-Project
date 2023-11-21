@@ -16,7 +16,20 @@
             "give_skill;Simon;FormalWear;;no_banner",
             "give_skill;Anuki;FormalWear;;no_banner",
             "",
-            "center_cursor;Simon;immediate"
+            "center_cursor;Simon;immediate",
+            "",
+            "# Dialogue here",
+            "move_unit;Anuki;14,23",
+            "move_unit;Simon;11,23",
+            "give_skill;Anuki;PartofPuzzle;no_banner",
+            "give_skill;Lupus;HiddenFlying;;no_banner",
+            "move_unit;Lupus;13,24",
+            "",
+            "",
+            "set_game_board_bounds;13;22;18;24",
+            "center_cursor;Anuki",
+            "level_var;PuzzleTargets;[(15,24), (16,24), (17,23)]",
+            "trigger_script;PuzzleSetup (Global PuzzleSetup)"
         ]
     }
 ]

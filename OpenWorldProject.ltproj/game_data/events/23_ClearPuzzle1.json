@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "if;v(\"PuzzleCompleted\") and game.board.get_unit((11,23)) and game.board.get_unit((11,23)).nid == \"Simon\"",
+            "",
+            "",
+            "",
+            "end"
         ]
     }
 ]

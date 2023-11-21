@@ -7,7 +7,9 @@
         "movement_group": "Crate",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "PartofPuzzle"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 25,

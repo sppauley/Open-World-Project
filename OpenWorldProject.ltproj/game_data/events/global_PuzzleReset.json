@@ -10,9 +10,11 @@
         "_source": [
             "# WILL NOT WORK IF PUZZLECRATES GROUP DOES NOT EXIST IN LEVEL",
             "if;not any([skill_system.can_select(u) and not u.finished for u in game.get_player_units() if game.board.check_bounds(u.position)])",
-            "for;crate;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]",
+            "",
+            "for;crate;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\" or \"PartofPuzzle\" in u.tags]",
             "reset;{crate}",
             "endf",
+            "",
             "remove_group;PuzzleCrates;fade",
             "add_group;PuzzleCrates;starting;fade;push",
             "remove_group;PuzzleCrates2;fade",
@@ -21,6 +23,10 @@
             "add_group;PuzzleCrates3;starting;fade;push",
             "remove_group;PuzzleCrates4;fade",
             "add_group;PuzzleCrates4;starting;fade;push",
+            "",
+            "",
+            "# Add chapter-specific resets here",
+            "",
             "end"
         ]
     }
