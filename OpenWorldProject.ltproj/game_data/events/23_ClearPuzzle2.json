@@ -1,12 +1,12 @@
 [
     {
         "name": "ClearPuzzle2",
-        "trigger": null,
+        "trigger": "unit_wait",
         "level_nid": "23",
         "condition": "True",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 10,
         "_source": [
             ""
         ]

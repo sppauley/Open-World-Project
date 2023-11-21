@@ -73,3 +73,26 @@ class ForceShove(Shove):
             if new_position:
                 actions.append(action.ForcedMovement(target, new_position))
                 playback.append(pb.ShoveHit(unit, item, target))
+
+class WitchWarpExpressionWeakCheck(SkillComponent):
+    nid = 'witch_warp_expression_weak_check'
+    desc = "Allows unit to witch warp to the units that satisfy the expression. Does NOT check if target terrain is traversable."
+    tag = SkillTags.MOVEMENT
+
+    expose = ComponentType.String
+    value = 'True'
+
+    def witch_warp(self, unit) -> list:
+        from app.engine import evaluate
+        positions = []
+        for target in game.units:
+            if target.position:
+                try:
+                    if evaluate.evaluate(self.value, target, unit, target.position):
+                        positions += [
+                            pos for pos in game.target_system.get_adjacent_positions(target.position) 
+                            if not game.board.get_unit(pos)
+                        ]
+                except Exception as e:
+                    return positions
+        return positions
