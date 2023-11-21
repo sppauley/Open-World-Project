@@ -90,5 +90,7 @@
     "JustEnteredCave.json": 88,
     "FormalWear.json": 89,
     "MomentumPlus.json": 90,
-    "OldCurse.json": 91
+    "OldCurse.json": 91,
+    "PartofPuzzle.json": 92,
+    "HiddenFlying.json": 93
 }

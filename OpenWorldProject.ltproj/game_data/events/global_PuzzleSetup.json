@@ -12,7 +12,7 @@
             "# Remember to undo these at the end of the puzzle!",
             "#",
             "# Give players Stunned to make him unselectable",
-            "for;unit;[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\"]",
+            "for;unit;[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\" and \"PartofPuzzle\" not in u.tags]",
             "give_skill;{unit};Stunned (Stunned);FLAG(no_banner)",
             "endf",
             "# Turn crates into player units",

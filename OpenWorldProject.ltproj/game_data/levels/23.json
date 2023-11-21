@@ -276,7 +276,16 @@
             }
         ],
         "regions": [],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "PuzzleCrates",
+                "units": [
+                    "101",
+                    "102"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     }
 ]
