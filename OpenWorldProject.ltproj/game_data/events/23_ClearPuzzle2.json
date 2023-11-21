@@ -8,7 +8,12 @@
         "only_once": false,
         "priority": 10,
         "_source": [
-            ""
+            "if;v(\"PuzzleCompleted\") and game.board.get_unit((9,18)) and game.board.get_unit((9,18)).nid == \"Simon\"",
+            "",
+            "reset;Anuki",
+            "remove_skill;Lupus;HiddenFlying;no_banner",
+            "",
+            "end"
         ]
     }
 ]
