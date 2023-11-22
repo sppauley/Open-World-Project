@@ -11,7 +11,7 @@
             "add_group;Turn3",
             "flicker_cursor;0,24",
             "wait;500",
-            "flicker_cursor;23,24",
+            "flicker_cursor;24,15",
             "wait;500",
             "flicker_cursor;12,26",
             "wait;500"
