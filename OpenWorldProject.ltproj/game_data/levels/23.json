@@ -520,12 +520,12 @@
                 "nid": "Puzzle2",
                 "region_type": "event",
                 "position": [
-                    8,
-                    14
+                    17,
+                    18
                 ],
                 "size": [
-                    3,
-                    4
+                    1,
+                    1
                 ],
                 "sub_nid": "Puzzle2",
                 "condition": "True",
