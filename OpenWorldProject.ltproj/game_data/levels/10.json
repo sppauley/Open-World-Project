@@ -759,7 +759,7 @@
             {
                 "nid": "138",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Sniper",
                 "faction": "Bandit",
                 "starting_items": [
@@ -772,7 +772,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -780,7 +780,7 @@
             {
                 "nid": "139",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Sniper",
                 "faction": "Bandit",
                 "starting_items": [
@@ -793,7 +793,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -801,7 +801,7 @@
             {
                 "nid": "140",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Hero",
                 "faction": "Bandit",
                 "starting_items": [
@@ -814,7 +814,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -822,7 +822,7 @@
             {
                 "nid": "141",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Hero",
                 "faction": "Bandit",
                 "starting_items": [
@@ -835,7 +835,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -1119,8 +1119,7 @@
                     "118",
                     "117",
                     "120",
-                    "119",
-                    "121"
+                    "119"
                 ],
                 "positions": {
                     "112": [
@@ -1249,18 +1248,15 @@
             {
                 "nid": "Turn8",
                 "units": [
-                    "134",
                     "135",
                     "136",
-                    "137",
                     "138",
                     "139",
                     "140",
                     "141",
                     "142",
                     "143",
-                    "144",
-                    "145"
+                    "144"
                 ],
                 "positions": {
                     "134": [
@@ -1314,6 +1310,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
