@@ -4237,6 +4237,36 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "topleftchestopen",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "9,2": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            1,
+                            0
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "toprightchestopen",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "12,3": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            1,
+                            0
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
