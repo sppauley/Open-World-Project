@@ -1,0 +1,17 @@
+[
+    {
+        "name": "TreasureRoom",
+        "trigger": "roaming_interrupt",
+        "level_nid": "23",
+        "condition": "region.nid == \"TreasureRoom\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "",
+            "win_game"
+        ]
+    }
+]

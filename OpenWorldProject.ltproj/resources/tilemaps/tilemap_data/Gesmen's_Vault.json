@@ -4025,29 +4025,12 @@
                 "nid": "middlepuzzlecomplete",
                 "visible": false,
                 "foreground": false,
-                "terrain_grid": {},
+                "terrain_grid": {
+                    "4,15": "Fence",
+                    "5,15": "Fence",
+                    "6,15": "Fence"
+                },
                 "sprite_grid": {
-                    "7,16": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "7,15": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "7,14": [
-                        "Improved Castle Tileset Palette 2",
-                        [
-                            0,
-                            1
-                        ]
-                    ],
                     "4,15": [
                         "Improved Castle Tileset Palette 2",
                         [
@@ -4063,6 +4046,190 @@
                         ]
                     ],
                     "6,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "middlepuzzlenotop",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "7,15": "Fence",
+                    "7,16": "Fence"
+                },
+                "sprite_grid": {
+                    "7,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "7,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "middlepuzzlenomid",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "7,14": "Fence",
+                    "7,16": "Fence"
+                },
+                "sprite_grid": {
+                    "7,16": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "7,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "middlepuzzlenobottom",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "7,15": "Fence",
+                    "7,14": "Fence"
+                },
+                "sprite_grid": {
+                    "7,15": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "7,14": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            1
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "toppuzzlecomplete",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,9": "Fence",
+                    "2,9": "Fence",
+                    "1,9": "Fence"
+                },
+                "sprite_grid": {
+                    "1,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "2,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "3,9": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "toppuzzlecompletenoleft",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "6,7": "9",
+                    "5,8": "Fence",
+                    "6,8": "Fence"
+                },
+                "sprite_grid": {
+                    "6,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "5,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "toppuzzlecompletenomid",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,8": "Fence",
+                    "7,8": "Fence"
+                },
+                "sprite_grid": {
+                    "5,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "7,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "toppuzzlecompletenoright",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,8": "Fence",
+                    "6,8": "Fence"
+                },
+                "sprite_grid": {
+                    "6,8": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "5,8": [
                         "Improved Castle Tileset Palette 2",
                         [
                             0,

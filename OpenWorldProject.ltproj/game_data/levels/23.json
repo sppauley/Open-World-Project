@@ -549,6 +549,23 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": true
+            },
+            {
+                "nid": "TreasureRoom",
+                "region_type": "event",
+                "position": [
+                    8,
+                    3
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "TreasureRoom",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": true
             }
         ],
         "unit_groups": [
