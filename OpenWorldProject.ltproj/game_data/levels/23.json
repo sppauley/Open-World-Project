@@ -513,6 +513,44 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "TreasureTop",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "TreasureBottom",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Soldier",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -537,12 +575,12 @@
                 "nid": "Puzzle3",
                 "region_type": "event",
                 "position": [
-                    8,
-                    8
+                    18,
+                    16
                 ],
                 "size": [
-                    3,
-                    3
+                    1,
+                    1
                 ],
                 "sub_nid": "Puzzle3",
                 "condition": "True",
@@ -554,12 +592,12 @@
                 "nid": "TreasureRoom",
                 "region_type": "event",
                 "position": [
-                    8,
-                    3
+                    18,
+                    14
                 ],
                 "size": [
-                    3,
-                    2
+                    1,
+                    1
                 ],
                 "sub_nid": "TreasureRoom",
                 "condition": "True",
@@ -596,6 +634,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
