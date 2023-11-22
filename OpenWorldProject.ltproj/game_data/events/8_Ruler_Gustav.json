@@ -3,7 +3,7 @@
         "name": "Ruler_Gustav",
         "trigger": "unit_wait",
         "level_nid": "8",
-        "condition": "not any(get_units_in_region('Gustav', nid='Gustav')) and unit.team=='player'",
+        "condition": "not any(get_units_in_region('Gustav', nid='Gustav')) and unit.team=='player' and not game.check_dead('Gustav')",
         "commands": [],
         "only_once": false,
         "priority": 20,
