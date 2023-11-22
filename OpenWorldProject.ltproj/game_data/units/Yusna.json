@@ -4,7 +4,7 @@
         "name": "Yusna",
         "desc": "A young missionary traveling\nthe world.",
         "variant": "",
-        "level": 1,
+        "level": 3,
         "klass": "Monk",
         "tags": [],
         "bases": {
@@ -17,13 +17,13 @@
             "CON": 5
         },
         "growths": {
-            "HP": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 20,
+            "MAG": 40,
+            "DEX": 25,
+            "SPD": 25,
+            "PSE": 10,
             "MOV": 0,
-            "CON": 0
+            "CON": 10
         },
         "stat_cap_modifiers": {},
         "starting_items": [
