@@ -834,7 +834,7 @@
                         false
                     ],
                     [
-                        "DamageMaterial",
+                        "ForgingBag",
                         true
                     ]
                 ],
@@ -1104,6 +1104,10 @@
         "ai_groups": [
             {
                 "nid": "b2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
