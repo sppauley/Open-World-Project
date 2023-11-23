@@ -20,6 +20,7 @@
             "speak;Villager Girl;Easy, girl...",
             "speak;Flower;*sniff*... *sniff*",
             "change_team;Flower (Flower);player",
+            "set_unit_field;Flower;PartyMember;'Yes'",
             "else",
             "add_portrait;Villager Girl;Right",
             "speak;Villager Girl;*sniff* Flower... why...",

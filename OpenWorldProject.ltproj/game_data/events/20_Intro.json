@@ -8,7 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "trigger_script;Global DEBUGEarlyMidGame",
             "game_var;freely_exit;True",
             "trigger_script;GenericPreps (Global GenericPreps)"
         ]

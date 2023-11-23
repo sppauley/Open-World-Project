@@ -78,8 +78,8 @@
                         false
                     ],
                     [
-                        "DamageMaterial",
-                        true
+                        "ForgingBag",
+                        false
                     ]
                 ],
                 "starting_skills": [],
