@@ -76,7 +76,7 @@
             "move_unit;Simon;11,23",
             "give_skill;Anuki;PartofPuzzle;no_banner",
             "",
-            "",
+            "game_var;freely_exit;False",
             "",
             "set_game_board_bounds;13;22;18;24",
             "center_cursor;Anuki",

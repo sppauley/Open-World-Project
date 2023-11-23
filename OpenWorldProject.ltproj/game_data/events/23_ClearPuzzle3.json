@@ -171,6 +171,8 @@
             "remove_skill;Lupus;Momentum;no_banner",
             "give_skill;Lupus;MomentumPlus",
             "",
+            "win_game",
+            "",
             "end"
         ]
     }

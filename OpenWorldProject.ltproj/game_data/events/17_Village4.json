@@ -26,7 +26,7 @@
             "speak;Villager Girl;*sniff* Flower... why...",
             "remove_portrait;Villager Girl",
             "end",
-            "has_traded;{unit}"
+            "has_finished;{unit}"
         ]
     }
 ]
