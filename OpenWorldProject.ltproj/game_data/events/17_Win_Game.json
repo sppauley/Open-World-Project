@@ -11,6 +11,7 @@
             "center_cursor;Simon (Simon)",
             "add_portrait;Simon (Simon);FarLeft",
             "speak;Simon;Have they retreated?",
+            "",
             "if;{v:FreesHouse4Destroyed} or not game.get_unit(\"Flower\")",
             "game_var;FlowerRecruited;False",
             "load_unit;Anuki (Anuki)",
@@ -75,7 +76,8 @@
             "multi_remove_portrait;Luther;Simon (Simon)",
             "game_var;FlowerRecruited;1",
             "end",
-            "game_var;_goto_level;FVRoaming",
+            "",
+            "game_var;_goto_level;\"FVRoaming\"",
             "win_game"
         ]
     }

@@ -17,6 +17,7 @@
             "game_var;FreesHouse2Destroyed;False",
             "game_var;FreesHouse3Destroyed;False",
             "game_var;FreesHouse4Destroyed;False",
+            "game_var;freely_exit;True",
             "# End intro setup",
             "remove_unit;Bandit (102);immediate",
             "move_unit;Simon (Simon);6,19;immediate",
