@@ -8,7 +8,7 @@
         "klass": "General",
         "tags": [],
         "bases": {
-            "HP": 30,
+            "HP": 24,
             "CON": 0,
             "MAG": 0,
             "DEX": 0,
@@ -27,7 +27,12 @@
         },
         "stat_cap_modifiers": {},
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Void Curse"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

@@ -13,7 +13,7 @@
         },
         "roam": false,
         "roam_unit": "Simon",
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
         "units": [
             {

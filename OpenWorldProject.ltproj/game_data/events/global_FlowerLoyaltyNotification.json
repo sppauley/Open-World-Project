@@ -1,0 +1,30 @@
+[
+    {
+        "name": "FlowerLoyaltyNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"FlowerRecruited\") == True and int(game.get_unit(\"Flower\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Flower\").get_field(\"BattlesDeployed\"))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Flower;Left",
+            "s;Flower;Awooo!!{w}{br}Grr...",
+            "",
+            "add_portrait;Luther;MidRight",
+            "add_portrait;Simon;FarRight",
+            "s;Luther;It seems the beast is agitated by a scent.",
+            "s;Simon;Perhaps he has the trail of the bandits who attacked his village.{w}{br}It might be wise to eliminate them at their source.",
+            "",
+            "s;Flower;Grrr....",
+            "multi_remove_portrait;Simon;Luther",
+            "",
+            "remove_portrait;Flower",
+            "",
+            "reveal_overworld_node;Excavation Ground (52)",
+            "reveal_overworld_road;32;52",
+            "",
+            "trigger_script;Global LoyaltyTutorial"
+        ]
+    }
+]
