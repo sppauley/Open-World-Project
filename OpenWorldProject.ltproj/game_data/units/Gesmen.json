@@ -27,7 +27,12 @@
         },
         "stat_cap_modifiers": {},
         "starting_items": [],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Void Curse"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
