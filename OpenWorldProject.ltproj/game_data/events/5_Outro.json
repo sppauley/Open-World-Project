@@ -20,7 +20,7 @@
             "add_portrait;Lupus (Lupus);Right;FLAG(immediate)",
             "add_portrait;Simon (Simon);Left;left",
             "speak;Lupus;Soo...{w} I'm Lupus...{w}{br}And you're...",
-            "speak;Simon;Doesn't matter.{w}Got you now, thief.",
+            "speak;Simon;Doesn't matter.{w} We've caught you, thief.",
             "speak;Lupus;W-woah, hang on-",
             "",
             "load_unit;Anuki (Anuki)",

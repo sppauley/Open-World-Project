@@ -12,6 +12,7 @@
             "add_unit;Soldier (102);12,15",
             "add_unit;Soldier (103);11,19",
             "remove_group;StartGroup;fade",
+            "",
             "add_portrait;Lupus (Lupus);Right;FLAG(mirror)",
             "wait;500",
             "add_portrait;{unit1};Left",
@@ -25,6 +26,7 @@
             "center_cursor;Simon (Simon)",
             "add_portrait;Simon;Left",
             "speak;Simon;He got away?{w} Not for long.",
+            "",
             "if;\"Mitzi\" in [u.nid for u in game.get_units_in_party()]",
             "add_portrait;Mitzi (Mitzi);Right",
             "speak;Mitzi;Please be careful, milord.{w}{br}The locals know these sewers well.",
@@ -32,6 +34,7 @@
             "remove_portrait;Mitzi (Mitzi)",
             "end",
             "remove_portrait;Simon (Simon)",
+            "",
             "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
             "change_roaming_unit;Simon (Simon)",
             "change_roaming;t"
