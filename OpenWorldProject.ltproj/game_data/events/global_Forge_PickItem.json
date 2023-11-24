@@ -9,11 +9,13 @@
         "priority": 20,
         "_source": [
             "# sets up the item to forge",
-            "choice;ForgeItem;Choose an item:;{eval:','.join(item.nid for item in game.get_unit('{v:ForgeUnit}').items)};;;;;;type_game_item;FLAG(backable)",
+            "level_var;ChoosingUnit;0",
+            "choice;ForgeItem;Item;{eval:','.join([str(item.uid) for item in u('{v:ForgeUnit}').items])};84;v;bottom;menu_bg_base;;type_game_item;4,1;left;backable",
             "if;'{v:ForgeItem}'!='BACK'",
             "trigger_script_with_args;Forge_PickMaterial;ForgeItem,{v:ForgeItem}",
             "else",
-            "trigger_script;Forge_Start",
+            "sound;Select 5",
+            "trigger_script;Forge_PickUnit",
             "unchoice",
             "end"
         ]

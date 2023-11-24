@@ -20,7 +20,8 @@
             "change_item_desc;{v:ForgeUnit};{v:ForgeItem};{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0] +'Doubles weapon triangle.'}",
             "end",
             "end",
-            "remove_item;Blacksmith;{v:ForgeItem};FLAG(no_banner)"
+            "remove_item;Blacksmith;{v:ForgeItem};FLAG(no_banner)",
+            "trigger_script;Forge_PickUnit"
         ]
     }
 ]
