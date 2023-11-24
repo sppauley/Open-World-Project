@@ -10,6 +10,7 @@
         "_source": [
             "# sets up the item to forge",
             "level_var;ChoosingUnit;0",
+            "level_var;ChoosingMaterial;0",
             "choice;ForgeItem;Item;{eval:','.join([str(item.uid) for item in u('{v:ForgeUnit}').items])};84;v;bottom;menu_bg_base;;type_game_item;4,1;left;backable",
             "if;'{v:ForgeItem}'!='BACK'",
             "trigger_script_with_args;Forge_PickMaterial;ForgeItem,{v:ForgeItem}",

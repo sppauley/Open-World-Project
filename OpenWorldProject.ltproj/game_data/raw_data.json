@@ -28,5 +28,53 @@
             "name",
             "desc"
         ]
+    },
+    {
+        "nid": "ForgingTable",
+        "dtype": "list",
+        "svalue": "",
+        "kvvalue": [],
+        "lovalue": [
+            {
+                "nid": "Triangle",
+                "component_name": "double_triangle",
+                "var": "TriangleWeaponMaterial",
+                "": "TriangleWeaponMaterial",
+                "amount": ""
+            },
+            {
+                "nid": "Damage",
+                "component_name": "damage",
+                "var": "DamageWeaponMaterial",
+                "": "DamageWeaponMaterial",
+                "amount": "1"
+            },
+            {
+                "nid": "Accuracy",
+                "component_name": "hit",
+                "var": "AccuracyWeaponMaterial",
+                "": "AccuracyWeaponMaterial",
+                "amount": "5"
+            },
+            {
+                "nid": "Stagger",
+                "component_name": "stagger",
+                "var": "StaggerWeaponMaterial",
+                "": "StaggerWeaponMaterial",
+                "amount": "1"
+            },
+            {
+                "nid": "??",
+                "component_name": "none",
+                "var": "none",
+                "amount": ""
+            }
+        ],
+        "oattrs": [
+            "nid",
+            "component_name",
+            "var",
+            "amount"
+        ]
     }
 ]

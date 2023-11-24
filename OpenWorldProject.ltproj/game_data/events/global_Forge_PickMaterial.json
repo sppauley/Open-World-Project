@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "# gives a default version of the item to the blacksmith for comparison",
+            "level_var;ChoosingMaterial;1",
             "if;not u('Blacksmith')",
             "make_generic;Blacksmith;Citizen;1;other;None;Soldier",
             "end",
