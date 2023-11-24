@@ -40,41 +40,47 @@
                 "component_name": "double_triangle",
                 "var": "TriangleWeaponMaterial",
                 "": "TriangleWeaponMaterial",
-                "amount": ""
+                "amount": "",
+                "add_text": "Doubles weapon triangle"
             },
             {
                 "nid": "Damage",
                 "component_name": "damage",
                 "var": "DamageWeaponMaterial",
                 "": "DamageWeaponMaterial",
-                "amount": "1"
+                "amount": "1",
+                "add_text": ""
             },
             {
                 "nid": "Accuracy",
                 "component_name": "hit",
                 "var": "AccuracyWeaponMaterial",
                 "": "AccuracyWeaponMaterial",
-                "amount": "5"
+                "amount": "5",
+                "add_text": ""
             },
             {
                 "nid": "Stagger",
                 "component_name": "stagger",
                 "var": "StaggerWeaponMaterial",
                 "": "StaggerWeaponMaterial",
-                "amount": "1"
+                "amount": "1",
+                "add_text": ""
             },
             {
                 "nid": "??",
                 "component_name": "none",
                 "var": "none",
-                "amount": ""
+                "amount": "",
+                "add_text": ""
             }
         ],
         "oattrs": [
             "nid",
             "component_name",
             "var",
-            "amount"
+            "amount",
+            "add_text"
         ]
     }
 ]
