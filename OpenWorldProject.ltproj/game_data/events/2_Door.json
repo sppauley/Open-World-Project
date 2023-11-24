@@ -11,7 +11,7 @@
             "remove_unit;{unit}",
             "if;unit.nid=='Simon'",
             "add_portrait;Simon;Left",
-            "speak;Simon;I'll return one day,{w} I swear it.",
+            "speak;Simon;If there's some power watching out for me...{w}{br}Please, grant me your protection just a bit longer.",
             "remove_portrait;Simon",
             "win_game",
             "end",
