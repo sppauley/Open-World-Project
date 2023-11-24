@@ -11,6 +11,7 @@
             "add_portrait;Bandit1;FarRight;FLAG(mirror)",
             "add_portrait;Simon (Simon);FarLeft;left",
             "speak;Bandit1;Heheheh, not a bad find at all.",
+            "",
             "if;v(\"TwinsRecruited\")",
             "add_portrait;Tristan (Twins);Left;left",
             "speak;Twins;Hey, you.",
@@ -29,6 +30,7 @@
             "speak;Bandit1;Phe, you ain't right in the head.{w}{br}Keep yer distance.",
             "remove_portrait;Tristan (Twins)",
             "end",
+            "",
             "multi_remove_portrait;Simon (Simon);Bandit1",
             "remove_talk;Simon (Simon);Cutthroat (116)"
         ]

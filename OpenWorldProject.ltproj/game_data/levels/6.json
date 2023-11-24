@@ -13,7 +13,7 @@
         },
         "roam": true,
         "roam_unit": "Simon",
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
         "units": [
             {
@@ -691,6 +691,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Flower",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": "FollowSimonRoam",
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -704,23 +717,6 @@
                 "size": [
                     1,
                     3
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Form2",
-                "region_type": "formation",
-                "position": [
-                    17,
-                    7
-                ],
-                "size": [
-                    1,
-                    1
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -822,6 +818,10 @@
             },
             {
                 "nid": "VilgeGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

@@ -12,12 +12,14 @@
             "#Village 2 reward",
             "give_item;{unit};Alert Lance (AlertLance)",
             "remove_region;Village2",
+            "",
             "elif;unit.position == (20, 4)",
             "#Village 1 reward",
             "give_item;{unit};Ferocity (Ferocity)",
             "remove_region;Village1",
             "end",
-            "has_traded;{unit}"
+            "",
+            "has_finished;{unit}"
         ]
     }
 ]

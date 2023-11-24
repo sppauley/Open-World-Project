@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Hellfang",
-        "name": "Hellfang",
-        "desc": "",
+        "nid": "HellfangFlower",
+        "name": "Banefang",
+        "desc": "Effective against magic units.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                13
+                5
             ],
             [
                 "hit",
@@ -31,7 +31,7 @@
             ],
             [
                 "weight",
-                8
+                7
             ],
             [
                 "locked",
@@ -59,7 +59,18 @@
             ],
             [
                 "stagger",
-                6
+                8
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Magic"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }
