@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "move_unit;Simon (Simon);10,27",
+            "move_unit;Simon (Simon);9,28",
             "add_region;2ndForm1;9,27;1,1;formation",
             "add_region;2ndForm2;10,27;1,1;formation",
             "add_region;2ndForm3;10,28;1,1;formation",
@@ -17,9 +17,12 @@
             "remove_unit;Soldier (102);immediate",
             "remove_unit;Soldier (103);immediate",
             "change_roaming;f",
-            "prep;f;Combat Preparation;Pathways,Difficulty;True,True;PathwayMenu,ChangeDifficulty;t",
+            "",
+            "arrange_formation",
+            "prep;f;Combat Preparation;Difficulty;True;ChangeDifficulty;t",
+            "",
             "center_cursor;Lupus (Lupus)",
-            "speak;Narrator;Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken too before then.;StyleNid=hint",
+            "speak;Narrator;Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken to before then.;StyleNid=hint",
             "change_objective_simple;Reach Lupus by Turn {v:maxTurns}",
             "level_var;maxTurns;game.turncount + 7",
             "center_cursor;Simon (Simon)"
