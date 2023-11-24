@@ -8,7 +8,7 @@
         "klass": "General",
         "tags": [],
         "bases": {
-            "HP": 30,
+            "HP": 24,
             "CON": 0,
             "MAG": 0,
             "DEX": 0,

@@ -53,7 +53,7 @@
             "s;Lupus;They can be opened from inside without a pass word.",
             "s;Anuki;...We just need to get you past each layer of wards.{w}{br}Good thinking.",
             "s;Simon;I don't understand how that helps. Reaching the other side is already the goal.",
-            "s;Lupus;But not when we can take each layer one at a time.",
+            "s;Lupus;But now we can take each layer one at a time.",
             "",
             "remove_portrait;Anuki",
             "center_cursor;17,22",
