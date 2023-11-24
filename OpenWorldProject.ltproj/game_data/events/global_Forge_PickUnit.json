@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Forge_PickUnit",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# sets a variable for choosing units",
+            "level_var;ChoosingUnit;1",
+            "# sets up unit to forge for, saves to var ForgeUnit",
+            "choice;ForgeUnit;Unit;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};76;v;top_left;menu_bg_base (menu_bg_base);;type_unit;10,1;left;FLAG(backable);scroll_bar",
+            "",
+            "if;'{v:ForgeUnit}'!='BACK'",
+            "# pick forging item",
+            "trigger_script_with_args;Forge_PickItem;ForgeUnit,{v:ForgeUnit}",
+            "else",
+            "sound;Select 5",
+            "unchoice",
+            "end"
+        ]
+    }
+]
