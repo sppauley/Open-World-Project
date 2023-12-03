@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "add_weather;night",
+            "music_clear",
             "game_var;_convoy;True",
             "game_var;freely_exit;False",
             "change_background;BlackBackground",
