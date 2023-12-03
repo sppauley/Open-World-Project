@@ -18,7 +18,9 @@
             "# However, once Thanatos releases Lim, she and Simon keep Nika from going through with it",
             "# Fight ensues with split map - must defeat both other vessel and copied evil Nika",
             "#",
-            ""
+            "",
+            "",
+            "add_weather;night"
         ]
     }
 ]
