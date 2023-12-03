@@ -14,7 +14,7 @@
             "level_var;SimonReset;0",
             "set_game_board_bounds;14;0;37;5",
             "#Fates speak style",
-            "speak_style;FatesTalk;;center;160;;white;;None;;f;None;FLAG(fit)",
+            "speak_style;FatesTalk;;center;160;0.5;white;;None;;f;None;FLAG(fit)",
             "set_stats;101;HP,18;FLAG(immediate)",
             "center_cursor;Simon (Simon);FLAG(immediate)",
             "show_layer;upperdoor;immediate",
