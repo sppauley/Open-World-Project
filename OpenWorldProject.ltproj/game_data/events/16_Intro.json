@@ -13,6 +13,7 @@
             "game_var;_convoy;True",
             "game_var;freely_exit;False",
             "change_background;BlackBackground",
+            "wait;3000",
             "speak_style;IntroQuote;Narrator;center;190;5.0;White;chapter-white;None;5;f;None;0.0;None",
             "sound;VillageDestroyed;5",
             "speak;Narrator;The old world is dying, and the new world struggles to be born:                                     now is the time of monsters.;StyleNid=IntroQuote;FLAG(no_block);FLAG(hold);FLAG(no_sound)",
