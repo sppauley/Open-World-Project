@@ -866,5 +866,10 @@
         "nid": "GesmenStatueUnarmed",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "CrosscodeCave",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

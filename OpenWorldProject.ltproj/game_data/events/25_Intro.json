@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Outline:",
+            "#",
+            "# Nika takes Simon to the shrine where she has possessed",
+            "# They begin to hear Thanatos speak to them as they approach",
+            "# Thanatos needs two vessels in the mortal world - one is an old bandit",
+            "# The other is Lim, Nika's friend who was also captured by bandits",
+            "# Nika agrees to become Thanato's vessel to free her",
+            "# However, once Thanatos releases Lim, she and Simon keep Nika from going through with it",
+            "# Fight ensues with split map - must defeat both other vessel and copied evil Nika",
+            "#",
+            ""
+        ]
+    }
+]

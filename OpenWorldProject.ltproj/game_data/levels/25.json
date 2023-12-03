@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "25",
+        "name": "Tartarus",
+        "tilemap": "ThanatosTemple",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Defeat Both Bosses",
+            "win": "Defeat Both Bosses",
+            "loss": "Simon or Nika die"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Nika",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lim",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]
