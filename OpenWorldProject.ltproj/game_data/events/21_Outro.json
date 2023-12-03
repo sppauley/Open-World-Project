@@ -8,6 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;Simon",
+            "add_portrait;Simon;Left",
+            "s;Simon;Their leaders have been killed.{w} Everyone, retreat!{w}{br}We'll leave the rest to the spiders.",
+            "remove_portrait;Simon",
+            "",
             "overworld_cinematic;The Continent (1)",
             "center_cursor;35",
             "reveal_overworld_node;36",
