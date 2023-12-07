@@ -1,0 +1,21 @@
+[
+    {
+        "name": "MakeNikaThrall",
+        "trigger": "level_start",
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 22,
+        "_source": [
+            "change_class;Thanatos2;{e:game.get_unit(\"Nika\").klass};silent",
+            "set_stats;Thanatos2;HP,{e:game.get_unit(\"Nika\").stats[\"HP\"]};immediate",
+            "set_stats;Thanatos2;CON,{e:game.get_unit(\"Nika\").stats[\"CON\"]};immediate",
+            "set_stats;Thanatos2;MAG,{e:game.get_unit(\"Nika\").stats[\"MAG\"]};immediate",
+            "set_stats;Thanatos2;SPD,{e:game.get_unit(\"Nika\").stats[\"SPD\"]};immediate",
+            "set_stats;Thanatos2;PSE,{e:game.get_unit(\"Nika\").stats[\"PSE\"]};immediate",
+            "set_stats;Thanatos2;DEX,{e:game.get_unit(\"Nika\").stats[\"DEX\"]};immediate",
+            "set_stats;Thanatos2;MOV,{e:game.get_unit(\"Nika\").stats[\"MOV\"]};immediate"
+        ]
+    }
+]
