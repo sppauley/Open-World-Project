@@ -19,7 +19,8 @@
             "# Fight ensues with split map - must defeat both other vessel and copied evil Nika",
             "#",
             "",
-            "",
+            "show_layer;prechaptercutscene;no_warn",
+            "show_layer;overlay;no_warn",
             "add_weather;night"
         ]
     }
