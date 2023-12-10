@@ -45,7 +45,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    16,
+                    16
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -65,21 +68,13 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    21,
-                    17
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
