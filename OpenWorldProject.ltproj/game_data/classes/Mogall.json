@@ -26,12 +26,12 @@
         },
         "growths": {
             "HP": 50,
-            "SPD": 30,
+            "SPD": 45,
             "MOV": 0,
             "DEX": 32,
-            "MAG": 0,
-            "PSE": 0,
-            "CON": 45
+            "MAG": 45,
+            "PSE": 20,
+            "CON": 15
         },
         "growth_bonus": {
             "HP": 0,

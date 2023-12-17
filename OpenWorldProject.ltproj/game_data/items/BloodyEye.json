@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Crimson Eye",
-        "name": "Crimson Eye",
+        "nid": "BloodyEye",
+        "name": "Bloody Eye",
         "desc": "",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
-            15
+            14
         ],
         "components": [
             [
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                12
+                4
             ],
             [
                 "hit",
-                70
+                85
             ],
             [
                 "weapon_type",
@@ -39,7 +39,7 @@
             ],
             [
                 "weight",
-                13
+                7
             ],
             [
                 "locked",
@@ -51,7 +51,7 @@
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "min_range",
@@ -63,7 +63,7 @@
             ],
             [
                 "stagger",
-                4
+                8
             ]
         ]
     }

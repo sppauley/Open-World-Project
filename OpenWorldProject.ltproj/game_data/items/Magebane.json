@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Armorslayer",
-        "name": "Armorslayer",
-        "desc": "Effective against armored units",
+        "nid": "Magebane",
+        "name": "Magebane",
+        "desc": "Effective against magic units",
         "icon_nid": "Sword",
         "icon_index": [
             0,
-            12
+            15
         ],
         "components": [
             [
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                7
+                6
             ],
             [
                 "hit",
@@ -35,11 +35,11 @@
             ],
             [
                 "weapon_rank",
-                "D"
+                "C"
             ],
             [
                 "weight",
-                11
+                7
             ],
             [
                 "crit",
@@ -73,13 +73,13 @@
                 [
                     [
                         "CON",
-                        13
+                        10
                     ]
                 ]
             ],
             [
                 "stagger",
-                6
+                4
             ]
         ]
     }
