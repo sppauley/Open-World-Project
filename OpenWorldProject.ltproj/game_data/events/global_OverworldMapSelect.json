@@ -10,6 +10,7 @@
         "_source": [
             "# Will be used for players to begin the battle map they are on the node of",
             "set_overworld_menu_option_visible;{eval:game.overworld_controller.selected_party_node().nid};Battle (Battle);False",
+            "game_var;CurrentNode;game.overworld_controller.selected_party_node().nid",
             "#I'm gonna try setting roam to true here and hope it silently fails if you can't roam after",
             "set_overworld_menu_option_visible;{eval:game.overworld_controller.selected_party_node().nid};Roam;True;FLAG(no_warn)",
             "set_overworld_menu_option_enabled;{eval:game.overworld_controller.selected_party_node().nid};Roam;True;FLAG(no_warn)",

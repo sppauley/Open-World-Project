@@ -2,7 +2,7 @@
     {
         "nid": "Thanatos",
         "name": "Thanatos",
-        "desc": "Kills user after combat ends.",
+        "desc": "Kills user on hit.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -83,7 +83,7 @@
                 null
             ],
             [
-                "event_after_combat_even_miss",
+                "event_after_combat_on_hit",
                 "Global KillUnit"
             ]
         ]

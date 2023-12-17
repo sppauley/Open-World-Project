@@ -24,6 +24,10 @@
             "hide_layer;destroystatue;immediate;no_warn",
             "add_weather;night",
             "",
+            "game_var;freely_exit;True",
+            "",
+            "remove_group;Enemies;immediate",
+            "",
             "center_cursor;16,20;immediate",
             "add_unit;Nika;16,20",
             "add_unit;Simon;17,20",
@@ -156,6 +160,8 @@
             "wait;300",
             "hide_layer;prechaptercutscene;immediate",
             "",
+            "add_group;Enemies;starting;warp;push",
+            "",
             "multi_add_portrait;Simon;Right;Lim;FarLeft;Nika;MidLeft",
             "s;Simon;W-what has he done?",
             "s;Nika;Split us up.{w} It hasn't changed much.",
@@ -172,6 +178,7 @@
             "s;Simon;To you as well.{w} I'll see you once this is done.",
             "multi_remove_portrait;Nika;Lim;Simon",
             "",
+            "screen_shake_end",
             "trigger_script;Global GenericPreps"
         ]
     }

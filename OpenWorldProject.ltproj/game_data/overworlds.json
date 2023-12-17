@@ -491,6 +491,25 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "58",
+                "name": "Tartarus",
+                "pos": [
+                    20,
+                    23
+                ],
+                "icon": "map_node",
+                "level": "25",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -1016,6 +1035,16 @@
                 [
                     24,
                     12
+                ]
+            ],
+            "(19, 22)-(20, 23)": [
+                [
+                    20,
+                    23
+                ],
+                [
+                    19,
+                    22
                 ]
             ]
         },

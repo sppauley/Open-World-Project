@@ -232,7 +232,7 @@
                 "ai_group": "L1",
                 "starting_position": [
                     8,
-                    13
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -256,7 +256,7 @@
                 "ai_group": "L1",
                 "starting_position": [
                     5,
-                    17
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -279,8 +279,8 @@
                 "roam_ai": null,
                 "ai_group": "L1",
                 "starting_position": [
-                    10,
-                    12
+                    11,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -475,7 +475,7 @@
                 "roam_ai": null,
                 "ai_group": "R1",
                 "starting_position": [
-                    30,
+                    31,
                     19
                 ],
                 "starting_traveler": null,
@@ -499,8 +499,8 @@
                 "roam_ai": null,
                 "ai_group": "R1",
                 "starting_position": [
-                    26,
-                    16
+                    27,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -524,7 +524,7 @@
                 "ai_group": "R1",
                 "starting_position": [
                     23,
-                    14
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -548,7 +548,7 @@
                 "ai_group": "R1",
                 "starting_position": [
                     24,
-                    14
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -748,7 +748,39 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Enemies",
+                "units": [
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123",
+                    "124",
+                    "125"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "TLeft",

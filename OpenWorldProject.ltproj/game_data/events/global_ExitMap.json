@@ -11,6 +11,9 @@
             "for;party_unit;[u.nid for u in game.get_units_in_party()]",
             "change_ai;{party_unit};None",
             "endf",
+            "",
+            "set_overworld_menu_option_visible;{v:CurrentNode};Battle;t",
+            "",
             "win_game"
         ]
     }

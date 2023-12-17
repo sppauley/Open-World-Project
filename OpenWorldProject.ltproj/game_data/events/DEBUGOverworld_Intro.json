@@ -10,9 +10,9 @@
         "_source": [
             "trigger_script;DEBUGLvl3Team (Global DEBUGLvl3Team)",
             "overworld_cinematic;The Continent (1)",
-            "for;node;[str(i) for i in range(26,58)]",
+            "for;node;[str(i) for i in range(26,59)]",
             "    reveal_overworld_node;{node};FLAG(immediate)",
-            "    for;target;[str(i) for i in range(26,58)]",
+            "    for;target;[str(i) for i in range(26,59)]",
             "        reveal_overworld_road;{node};{target};FLAG(immediate)",
             "    endf",
             "endf",
