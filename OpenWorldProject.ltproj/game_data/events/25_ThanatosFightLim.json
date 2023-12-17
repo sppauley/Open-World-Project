@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ThanatosFightLim",
+        "trigger": "combat_start",
+        "level_nid": "25",
+        "condition": "check_pair('Thanatos1', 'Lim') or check_pair('Thanatos2', 'Lim')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lim;Left",
+            "change_background;BlackBackground;keep_portraits",
+            "s;Narrator;You were useful, Lim. Underdeveloped, however.|The bad leg made your body a poor choice.;StyleNid=ThanatosStyle",
+            "change_background;;keep_portraits",
+            "s;Lim;I won't let you take Nika.|I don't ever want to hear you speak again!",
+            "remove_portrait;Lim"
+        ]
+    }
+]

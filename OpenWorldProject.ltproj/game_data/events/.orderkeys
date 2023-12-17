@@ -360,5 +360,10 @@
     "6_Outro.json": 358,
     "global_Forge_PickUnit.json": 359,
     "25_Intro.json": 360,
-    "25_MakeNikaThrall.json": 361
+    "25_MakeNikaThrall.json": 361,
+    "25_BothBossesDead.json": 362,
+    "25_Outro.json": 363,
+    "25_ThanatosFight.json": 364,
+    "25_ThanatosFightNika.json": 365,
+    "25_ThanatosFightLim.json": 366
 }

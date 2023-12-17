@@ -76,7 +76,7 @@
                 "region_type": "formation",
                 "position": [
                     20,
-                    17
+                    18
                 ],
                 "size": [
                     2,
@@ -124,6 +124,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

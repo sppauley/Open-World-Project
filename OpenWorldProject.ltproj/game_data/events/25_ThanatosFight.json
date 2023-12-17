@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ThanatosFight",
+        "trigger": "combat_start",
+        "level_nid": "25",
+        "condition": "check_default('Thanatos1', ['Nika', 'Lim']) or check_default('Thanatos2', ['Nika', 'Lim'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_background;BlackBackground;keep_portraits",
+            "s;Narrator;Wretched beings. Animals.|I am a god. Know your place.;StyleNid=ThanatosStyle",
+            "change_background;;keep_portraits"
+        ]
+    }
+]

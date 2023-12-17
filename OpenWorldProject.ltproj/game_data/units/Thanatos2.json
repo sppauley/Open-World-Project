@@ -26,7 +26,12 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Iron_Pike",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,

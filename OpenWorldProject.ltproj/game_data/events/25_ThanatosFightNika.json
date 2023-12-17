@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ThanatosFightNika",
+        "trigger": "combat_start",
+        "level_nid": "25",
+        "condition": "check_pair('Thanatos1', 'Nika') or check_pair('Thanatos2', 'Nika')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Nika;Left",
+            "s;Nika;I used to fear you.{w} Then, I accepted you.|I thought that if I didn't resist, you would leave me alone.|I'm not that foolish anymore. Lim's here and I...|I won't fail her down again.",
+            "change_background;BlackBackground;keep_portraits",
+            "s;Narrator;Your mistake.;StyleNid=ThanatosStyle",
+            "change_background;;keep_portraits",
+            "remove_portrait;Nika"
+        ]
+    }
+]
