@@ -24,8 +24,6 @@
             "hide_layer;destroystatue;immediate;no_warn",
             "add_weather;night",
             "",
-            "give_skill;Lim;Stunned;no_banner",
-            "",
             "center_cursor;16,20;immediate",
             "add_unit;Nika;16,20",
             "add_unit;Simon;17,20",
