@@ -2,7 +2,7 @@
     {
         "nid": "Thanatos",
         "name": "Thanatos",
-        "desc": "Kills user after use.",
+        "desc": "Kills user after combat ends.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
