@@ -8,12 +8,12 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Luther (Luther);Left;left",
+            "add_portrait;Luther;Left;left",
             "speak;Luther;Milord, we've cleared a route!{w}{br}Let us away!",
-            "remove_portrait;Luther (Luther)",
-            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
-            "move_unit;Simon (Simon);14,5",
-            "trigger_script;EscapeCourtyard (12 EscapeCourtyard)"
+            "remove_portrait;Luther",
+            "trigger_script;Global ConsolidateToLeader",
+            "move_unit;Simon;14,5",
+            "trigger_script;12 EscapeCourtyard"
         ]
     }
 ]

@@ -8,15 +8,15 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "move_unit;Simon (Simon);18,2",
-            "add_portrait;Nika (Nika);MidRight;FLAG(mirror)",
+            "move_unit;Simon;18,2",
+            "add_portrait;Nika;MidRight;mirror",
             "speak;Nika;Here lies Nika...",
-            "add_portrait;Simon (Simon);Left;left",
-            "mirror_portrait;Nika (Nika)",
+            "add_portrait;Simon;Left;left",
+            "mirror_portrait;Nika",
             "speak;Nika;Ever read your own gravestone?{w}{br}Strange feeling.",
             "speak;Simon;No, I can't say I have.{w}{br}I didn't know you were from here.",
             "speak;Nika;Born and raised.{w} And buried, apparently.",
-            "move_unit;Simon (Simon);19,2",
+            "move_unit;Simon;19,2",
             "speak;Simon;It's a lovely epitaph.",
             "speak;Nika;Yeah.",
             "speak;Simon;...",
@@ -35,9 +35,9 @@
             "transition;open",
             "speak;Nika;There.{w} Just try and keep me in the dirt.",
             "speak;Simon;Wait, there's something in here.",
-            "give_item;Nika (Nika);Nika's Teddy (TeddyBear)",
+            "give_item;Nika;TeddyBear",
             "speak;Nika;Hah, no way.{w} They threw my old teddy in.{w}{br}Thanks, Simon. It's good to have this back.",
-            "multi_remove_portrait;Nika (Nika);Simon (Simon)"
+            "multi_remove_portrait;Nika;Simon"
         ]
     }
 ]

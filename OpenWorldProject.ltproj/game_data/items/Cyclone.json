@@ -67,18 +67,10 @@
             ],
             [
                 "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "T",
-                        "Lose uses even on miss"
-                    ],
-                    [
-                        "OneLossPerCombat (T/F)",
-                        "F",
-                        "Doubling doesn't cost extra uses"
-                    ]
-                ]
+                {
+                    "lose_uses_on_miss": true,
+                    "one_loss_per_combat": false
+                }
             ],
             [
                 "stat_req",

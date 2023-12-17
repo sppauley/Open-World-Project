@@ -8,14 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "load_unit;Luther (Luther)",
-            "load_unit;Vincent (Vincent)",
-            "load_unit;Juliet (Juliet)",
-            "load_unit;Anuki (Anuki)",
-            "change_class;Juliet (Juliet);Archer;FLAG(silent)",
-            "give_item;Juliet (Juliet);Iron Bow (Iron Bow);FLAG(no_banner)",
-            "give_item;Simon (Simon);Verstadt Ring (VerstadtRing);FLAG(no_banner)",
-            "autolevel_to;Simon (Simon);2;random;FLAG(hidden)"
+            "load_unit;Luther",
+            "load_unit;Vincent",
+            "load_unit;Juliet",
+            "load_unit;Anuki",
+            "change_class;Juliet;Archer;silent",
+            "give_item;Juliet;Iron Bow;no_banner",
+            "give_item;Simon;VerstadtRing;no_banner",
+            "autolevel_to;Simon;2;random;hidden"
         ]
     }
 ]

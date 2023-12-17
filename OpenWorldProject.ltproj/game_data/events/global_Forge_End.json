@@ -12,7 +12,7 @@
             "inc_game_var;{eval:game.level_vars['MaterialReference']};-game.level_vars['ForgeCost']",
             "alert;Forge completed!",
             "if;game.level_vars['NewComponent']==0",
-            "modify_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount'];FLAG(additive)",
+            "modify_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount'];additive",
             "else",
             "add_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount']",
             "# some new components add non-stat changes. Updates the description to compensate.",
@@ -20,7 +20,7 @@
             "change_item_desc;{v:ForgeUnit};{v:ForgeItem};{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeItem}'][0] +'Doubles weapon triangle.'}",
             "end",
             "end",
-            "remove_item;Blacksmith;{v:ForgeItem};FLAG(no_banner)",
+            "remove_item;Blacksmith;{v:ForgeItem};no_banner",
             "trigger_script;Forge_PickUnit"
         ]
     }

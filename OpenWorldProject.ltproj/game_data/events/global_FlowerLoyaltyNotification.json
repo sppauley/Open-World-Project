@@ -21,7 +21,7 @@
             "",
             "remove_portrait;Flower",
             "",
-            "reveal_overworld_node;Excavation Ground (52)",
+            "reveal_overworld_node;52",
             "reveal_overworld_road;32;52",
             "",
             "trigger_script;Global LoyaltyTutorial"

@@ -8,14 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "center_cursor;Lupus (Lupus)",
-            "add_portrait;Lupus (Lupus);Left",
+            "center_cursor;Lupus",
+            "add_portrait;Lupus;Left",
             "speak;Lupus;Ah, there we are!{w} That boat is my ride!{w}{br}Toodaloo!",
-            "remove_portrait;Lupus (Lupus)",
-            "center_cursor;Simon (Simon)",
-            "add_portrait;Simon (Simon);Left",
+            "remove_portrait;Lupus",
+            "center_cursor;Simon",
+            "add_portrait;Simon;Left",
             "speak;Simon;Dammit!{w} He's gone.",
-            "remove_portrait;Simon (Simon)",
+            "remove_portrait;Simon",
             "lose_game"
         ]
     }

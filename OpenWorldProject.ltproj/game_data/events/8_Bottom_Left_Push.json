@@ -10,7 +10,7 @@
         "_source": [
             "center_cursor;BottomLeftCrate",
             "move_unit;BottomLeftCrate;7,26",
-            "map_anim;Snag;7,26;FLAG(no_block)",
+            "map_anim;Snag;7,26;no_block",
             "kill_unit;BottomLeftCrate",
             "wait;700",
             "if;game.level_vars['BottomRightSwamp']!=1",

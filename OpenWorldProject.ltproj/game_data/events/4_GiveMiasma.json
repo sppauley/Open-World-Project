@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;{unit};Miasma (Miasma);;FLAG(no_banner)"
+            "give_skill;{unit};Miasma;;no_banner"
         ]
     }
 ]

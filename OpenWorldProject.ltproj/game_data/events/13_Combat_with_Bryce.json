@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Bryce;Right;",
+            "add_portrait;Bryce;Right",
             "s;Bryce;Really full of yourselves thinking you can just walk in here, aren't ye?",
             "s;Bryce;I'm looking forward to seeing that confidence break.",
             "remove_portrait;Bryce"

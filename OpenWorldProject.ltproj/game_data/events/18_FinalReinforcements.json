@@ -10,15 +10,15 @@
         "_source": [
             "# add enemies and dialogue",
             "add_group;FinalGroup;starting;swoosh;closest",
-            "center_cursor;Simon (Simon)",
-            "add_portrait;Simon (Simon);Right",
+            "center_cursor;Simon",
+            "add_portrait;Simon;Right",
             "speak;Simon;Even more?",
-            "add_portrait;Yusna (Yusna);Left",
+            "add_portrait;Yusna;Left",
             "speak;Yusna;Th-there's too many...",
             "speak;Simon;Yusna, we can win this battle.{w}{br}Just stay behind me.",
             "speak;Yusna;I'll... I'll do my best",
-            "remove_portrait;Yusna (Yusna)",
-            "remove_portrait;Simon (Simon)"
+            "remove_portrait;Yusna",
+            "remove_portrait;Simon"
         ]
     }
 ]

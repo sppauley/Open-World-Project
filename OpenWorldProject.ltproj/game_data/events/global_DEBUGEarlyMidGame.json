@@ -22,7 +22,7 @@
             "",
             "load_unit;Juliet",
             "autolevel_to;Juliet;4",
-            "change_class;Juliet (Juliet);Archer;FLAG(silent)",
+            "change_class;Juliet;Archer;silent",
             "set_wexp;Juliet;Bow;65;no_banner",
             "",
             "load_unit;Anuki",

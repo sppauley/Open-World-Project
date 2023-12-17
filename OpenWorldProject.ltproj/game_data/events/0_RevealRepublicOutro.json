@@ -8,18 +8,18 @@
         "only_once": true,
         "priority": 17,
         "_source": [
-            "overworld_cinematic;The Continent (1)",
-            "reveal_overworld_node;Pelopos (39)",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;39",
             "reveal_overworld_road;33;39",
             "add_portrait;Luther;Right",
-            "add_portrait;Simon (Simon);Left",
+            "add_portrait;Simon;Left",
             "speak;Luther;Milord, we can travel north to reach Pelopos.",
             "speak;Simon;That... what was it, 'republic'?",
             "speak;Luther;Aye. Groups such as theirs have become common,{w}{br}but Pelopos is the first city to have removed their duke.",
             "speak;Simon;Should we expect hostility?",
             "speak;Luther;Not necessarily.{w} The situation will be tense,{w}{br}but I've heard their leaders are pragmatic.",
             "speak;Simon;I see.{w} Still, I'll tell everyone to prepare, just in case.",
-            "multi_remove_portrait;Simon (Simon);Luther (Luther)"
+            "multi_remove_portrait;Simon;Luther"
         ]
     }
 ]

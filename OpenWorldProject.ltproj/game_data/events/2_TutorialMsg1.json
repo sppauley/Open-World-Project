@@ -10,7 +10,7 @@
         "_source": [
             "speak;Narrator;The enemy has now been broken.{w}{br}The next attack against a broken enemy will always be a critical.{w}{br}However, if no attack has been made against a broken enemy,{w}{br}they will not be able to act during their turn.;StyleNid=hint",
             "speak;Narrator;Select Simon and eliminate the enemy.;StyleNid=hint",
-            "center_cursor;Simon (Simon)"
+            "center_cursor;Simon"
         ]
     }
 ]

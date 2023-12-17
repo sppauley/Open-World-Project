@@ -8,12 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Yusna (Yusna);Left",
+            "add_portrait;Yusna;Left",
             "speak;Yusna;Y-you can walk away.{w} Don't make me...",
             "add_portrait;Bandit1;Right",
             "speak;Bandit1;Hahaha! This one's scared!{w}{br}Just kneel, boy, I'll make it quick.",
             "remove_portrait;Bandit1",
-            "remove_portrait;Yusna (Yusna)"
+            "remove_portrait;Yusna"
         ]
     }
 ]

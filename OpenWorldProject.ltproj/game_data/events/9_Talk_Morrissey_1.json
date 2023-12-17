@@ -29,7 +29,7 @@
             "speak;Simon;... Thank you sir.",
             "speak;Simon;You will not regret giving me this chance.",
             "multi_remove_portrait;Simon;Morrissey",
-            "remove_talk;Simon;Morrissey (Morrissey)",
+            "remove_talk;Simon;Morrissey",
             "add_unit;109;22,15",
             "level_var;TalkMorrissey;1"
         ]

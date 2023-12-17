@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "set_stats;Gustav;MOV,3;FLAG(immediate)"
+            "set_stats;Gustav;MOV,3;immediate"
         ]
     }
 ]

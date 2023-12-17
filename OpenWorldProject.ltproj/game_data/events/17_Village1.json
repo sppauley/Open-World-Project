@@ -10,7 +10,7 @@
         "_source": [
             "add_portrait;OldVillager2;Right",
             "speak;OldVillager2;Bandits, again?{w} Argh, why, now!{w}{br}Here, drink this up.{w} It's swill, but helps a bit.",
-            "give_item;{unit};Vulnerary (Vulnerary)",
+            "give_item;{unit};Vulnerary",
             "remove_portrait;OldVillager2",
             "remove_region;Village1",
             "has_finished;{unit}"

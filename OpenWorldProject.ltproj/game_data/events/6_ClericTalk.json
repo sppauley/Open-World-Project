@@ -8,20 +8,20 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "move_unit;Simon (Simon);8,16",
+            "move_unit;Simon;8,16",
             "add_portrait;Priest;Left",
-            "add_portrait;Simon (Simon);Right",
+            "add_portrait;Simon;Right",
             "speak;Simon;What's this?",
-            "move_unit;Cutthroat (105);8,16;normal;push;FLAG(no_block)",
+            "move_unit;105;8,16;normal;push;no_block",
             "speak;Priest;Hey, stay off of that!",
             "speak;Simon;Didn't mean to cause any trouble.",
             "speak;Priest;Security for Master Vilge.{w}{br}I use it to protect him.",
             "speak;Simon;How does it-",
             "speak;Priest;Enough questions!",
             "speak;Priest;Master Vilge cannot be harmed while I still stand.{w}{br}Now leave me in peace!",
-            "multi_remove_portrait;Priest;Simon (Simon)",
-            "move_unit;Cutthroat (105);7,15",
-            "remove_talk;Simon (Simon);Cutthroat (105)"
+            "multi_remove_portrait;Priest;Simon",
+            "move_unit;105;7,15",
+            "remove_talk;Simon;105"
         ]
     }
 ]

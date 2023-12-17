@@ -25,7 +25,7 @@
             "inc_game_var;AccuracyWeaponMaterial;1",
             "alert;Got Accuracy Material!",
             "multi_remove_portrait;Man2;Simon",
-            "remove_talk;Simon (Simon);Soldier (101)",
+            "remove_talk;Simon;101",
             "game_var;SwampOutpostVillager;1"
         ]
     }

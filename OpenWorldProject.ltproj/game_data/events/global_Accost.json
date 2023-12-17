@@ -10,10 +10,10 @@
         "_source": [
             "if;game.check_alive(unit.nid) and game.check_alive(unit2.nid)",
             "map_anim;AOE_Reinforce;{unit}",
-            "give_skill;{unit};Accosted;FLAG(no_banner)",
+            "give_skill;{unit};Accosted;no_banner",
             "interact_unit;{unit};{unit2};;;1",
             "wait;10",
-            "remove_skill;{unit};Accosted;FLAG(no_banner)",
+            "remove_skill;{unit};Accosted;no_banner",
             "end"
         ]
     }

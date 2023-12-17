@@ -9,7 +9,7 @@
         "priority": 16,
         "_source": [
             "arrange_formation",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

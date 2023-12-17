@@ -45,7 +45,7 @@
             "",
             "s;Nika;Lim! Can you hear me?",
             "",
-            "speak_style;ThanatosStyle;Narrator;center;160;5.0;red;;None;;f;None;FLAG(fit)",
+            "speak_style;ThanatosStyle;Narrator;center;160;5.0;red;;None;;f;None;fit",
             "",
             "sound;Fenrir2",
             "change_background;BlackBackground;keep_portraits",

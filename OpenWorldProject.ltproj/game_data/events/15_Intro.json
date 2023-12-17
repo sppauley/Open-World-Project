@@ -10,9 +10,9 @@
         "_source": [
             "add_weather;sunset",
             "add_weather;purple",
-            "add_talk;Simon (Simon);Kajal",
+            "add_talk;Simon;Kajal",
             "add_talk;Simon;103",
-            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "center_cursor;Simon;immediate",
             "add_talk;Simon;101",
             "add_talk;Simon;105"
         ]

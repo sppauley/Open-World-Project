@@ -43,7 +43,7 @@
             "",
             "end_skip",
             "speak_style;IntroQuote;Narrator;center;190;5.0;White;chapter-white;None;5;f;None;0.0;None",
-            "speak;Narrator;The world is never quite as scary when you've got a best friend.;StyleNid=IntroQuote;FLAG(no_block);FLAG(hold);FLAG(no_sound)",
+            "speak;Narrator;The world is never quite as scary when you've got a best friend.;StyleNid=IntroQuote;no_block;hold;no_sound",
             "wait;6000",
             "unhold;IntroQuote",
             "",

@@ -8,12 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Bandit1;FarRight;FLAG(mirror)",
-            "add_portrait;Simon (Simon);FarLeft;left",
+            "add_portrait;Bandit1;FarRight;mirror",
+            "add_portrait;Simon;FarLeft;left",
             "speak;Bandit1;Heheheh, not a bad find at all.",
             "",
             "if;v(\"TwinsRecruited\")",
-            "add_portrait;Tristan (Twins);Left;left",
+            "add_portrait;Twins;Left;left",
             "speak;Twins;Hey, you.",
             "mirror_portrait;Bandit1",
             "speak;Bandit1;Whassat?",
@@ -21,18 +21,18 @@
             "speak;Bandit1;Some of these pilgrims. Why, you want it?{w}{br}Get yer own!",
             "speak;Twins;Return it, now.",
             "speak;Bandit1;Return it?{w} Har, they've all been ascended!{w}{br}No more 'worldly desires', all that.",
-            "move_portrait;Tristan (Twins);MidLeft",
+            "move_portrait;Twins;MidLeft",
             "speak;Twins;I said-",
             "speak;Simon;Hang on.",
-            "mirror_portrait;Tristan (Twins)",
+            "mirror_portrait;Twins",
             "speak;Simon;We can't attract attention yet.{w}{br}Hold back for now.",
             "speak;Twins;That's what I was trying to tell him!{w}{br}Sorry Simon, he was out of line.",
             "speak;Bandit1;Phe, you ain't right in the head.{w}{br}Keep yer distance.",
-            "remove_portrait;Tristan (Twins)",
+            "remove_portrait;Twins",
             "end",
             "",
-            "multi_remove_portrait;Simon (Simon);Bandit1",
-            "remove_talk;Simon (Simon);Cutthroat (116)"
+            "multi_remove_portrait;Simon;Bandit1",
+            "remove_talk;Simon;116"
         ]
     }
 ]

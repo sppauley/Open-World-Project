@@ -12,7 +12,7 @@
             "add_portrait;Forger;Left",
             "speak;Forger;Another order?{w}{br}Leave it here.",
             "remove_portrait;Forger",
-            "trigger_script;Forge_Start (Global Forge_Start)"
+            "trigger_script;Global Forge_Start"
         ]
     }
 ]

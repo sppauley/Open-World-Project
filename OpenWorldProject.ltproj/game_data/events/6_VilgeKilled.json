@@ -8,10 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Vilge (Vilge);Left",
-            "expression;Vilge (Vilge);CloseEyes",
+            "add_portrait;Vilge;Left",
+            "expression;Vilge;CloseEyes",
             "speak;Vilge;I'm sorry, young ones.{w}{br}I can protect you no longer.",
-            "remove_portrait;Vilge (Vilge)",
+            "remove_portrait;Vilge",
             "win_game"
         ]
     }

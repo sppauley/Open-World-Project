@@ -10,7 +10,7 @@
         "_source": [
             "add_portrait;{unit};Right",
             "speak;{unit};Ransacked.{w}...What's this?",
-            "give_item;{unit};Steel Mace (Steel_Mace)",
+            "give_item;{unit};Steel_Mace",
             "remove_portrait;{unit}",
             "has_traded;{unit}"
         ]

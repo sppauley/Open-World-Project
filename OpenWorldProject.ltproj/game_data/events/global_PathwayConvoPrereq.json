@@ -10,7 +10,7 @@
         "_source": [
             "level_var;ConvoChosen;[convo.Prereq for convo in game.get_data(\"{v:DataName}\") if convo.name == \"{v:PathwayNodeMenu_choice_hover}\"][0]",
             "level_var;ConvoChosenDesc;[convo.desc for convo in game.get_data(\"{v:DataName}\") if convo.name == \"{v:PathwayNodeMenu_choice_hover}\"][0]",
-            "textbox;ConvoPrereq;\"{v:ConvoChosen}\";top_right;;3;;0.25;FLAG(expression)"
+            "textbox;ConvoPrereq;\"{v:ConvoChosen}\";top_right;;3;;0.25;expression"
         ]
     }
 ]

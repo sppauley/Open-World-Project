@@ -15,11 +15,11 @@
             "remove_unit;Simon",
             "remove_unit;Kajal",
             "# intro script",
-            "center_cursor;13,29;FLAG(immediate)",
+            "center_cursor;13,29;immediate",
             "add_unit;Simon;13,29;fade;closest;south",
             "add_unit;Kajal;15,29;fade;closest;south",
-            "move_unit;Simon (Simon);13,27",
-            "move_unit;Kajal (Kajal);15,27",
+            "move_unit;Simon;13,27",
+            "move_unit;Kajal;15,27",
             "wait;300",
             "add_portrait;Simon;Left",
             "add_portrait;Kajal;Right",
@@ -62,7 +62,7 @@
             "end",
             "arrange_formation",
             "game_var;freely_exit;True",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

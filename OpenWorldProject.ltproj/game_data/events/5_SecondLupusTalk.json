@@ -8,13 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Lupus (Lupus);Right",
+            "add_portrait;Lupus;Right",
             "wait;200",
             "add_portrait;{unit1};Left;left",
             "speak;Lupus;Ahah... well, this is awkward.{w}{br}Wanna talk this out?",
-            "remove_portrait;Lupus (Lupus)",
+            "remove_portrait;Lupus",
             "remove_portrait;{unit1}",
-            "remove_skill;Lupus (Lupus);Evasive (Evasive)",
+            "remove_skill;Lupus;Evasive",
             "win_game"
         ]
     }

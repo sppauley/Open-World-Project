@@ -36,7 +36,7 @@
             "speak;Simon;Everyone, prepare for battle.",
             "multi_remove_portrait;Vincent;Simon;Kajal",
             "arrange_formation",
-            "trigger_script;GenericPreps (Global GenericPreps)",
+            "trigger_script;Global GenericPreps",
             "game_var;freely_exit;True"
         ]
     }

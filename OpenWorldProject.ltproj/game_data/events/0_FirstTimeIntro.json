@@ -8,8 +8,8 @@
         "only_once": true,
         "priority": 18,
         "_source": [
-            "add_portrait;Simon (Simon);Left",
-            "add_portrait;Luther (Luther);Right",
+            "add_portrait;Simon;Left",
+            "add_portrait;Luther;Right",
             "speak;Simon;This is Port Hull?",
             "speak;Luther;Aye.{w} You visited once before,{w}{br}during your father's reign.",
             "speak;Simon;I was a boy at the time.{w}{br}I barely remember a moment.",

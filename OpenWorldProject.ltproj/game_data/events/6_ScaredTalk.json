@@ -10,18 +10,18 @@
         "_source": [
             "add_portrait;VillagerTeen;Left",
             "speak;VillagerTeen;I can't do it, I can't do it-{c:wait;500} I can't do it!",
-            "add_portrait;Simon (Simon);Right;right",
+            "add_portrait;Simon;Right;right",
             "speak;Simon;Hello?",
             "speak;VillagerTeen;Ah! P-please, take it away from me!",
             "move_portrait;VillagerTeen;MidRight",
-            "give_item;Simon (Simon);Flux (Flux)",
+            "give_item;Simon;Flux",
             "move_portrait;VillagerTeen;Left",
             "speak;VillagerTeen;I can't use it.{w} I've tried, I know how, but I just can't.",
             "speak;Simon;That's... fine?",
             "speak;VillagerTeen;Forgive me, and tell Master Vilgo that I'm sorry.",
-            "multi_remove_portrait;VillagerTeen;Simon (Simon)",
-            "move_unit;Cutthroat (128);6,24;FLAG(no_follow)",
-            "remove_unit;Cutthroat (128)"
+            "multi_remove_portrait;VillagerTeen;Simon",
+            "move_unit;128;6,24;no_follow",
+            "remove_unit;128"
         ]
     }
 ]

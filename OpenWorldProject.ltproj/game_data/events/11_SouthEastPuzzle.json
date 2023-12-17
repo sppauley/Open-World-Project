@@ -8,10 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_unit;Simon (Simon);16,22;FLAG(no_follow)",
+            "move_unit;Simon;16,22;no_follow",
             "set_game_board_bounds;13;15;16;22",
             "level_var;PuzzleTargets;[(14,18), (15,17), (15,16)]",
-            "trigger_script;PuzzleSetup (Global PuzzleSetup)"
+            "trigger_script;Global PuzzleSetup"
         ]
     }
 ]

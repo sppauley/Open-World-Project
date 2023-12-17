@@ -8,9 +8,9 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "overworld_cinematic;The Continent (1)",
-            "set_overworld_position;Simon's Group (Simon);Frees Village (32)",
-            "reveal_overworld_node;New Location (40)",
+            "overworld_cinematic;1",
+            "set_overworld_position;Simon;32",
+            "reveal_overworld_node;40",
             "reveal_overworld_road;32;40",
             ""
         ]

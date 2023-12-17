@@ -10,7 +10,7 @@
         "_source": [
             "center_cursor;Dragonlord",
             "wait;700",
-            "add_group;Boss;;warp;closest;FLAG(create)",
+            "add_group;Boss;;warp;closest;create",
             "wait;1000"
         ]
     }

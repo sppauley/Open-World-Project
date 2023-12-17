@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "base;Plains;Quiet Burn;FLAG(show_map)"
+            "base;Plains;Quiet Burn;show_map"
         ]
     }
 ]

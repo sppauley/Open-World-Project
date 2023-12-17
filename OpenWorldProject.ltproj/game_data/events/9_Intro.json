@@ -12,9 +12,9 @@
             "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
             "#actual level",
             "show_layer;top_layer",
-            "center_cursor;Simon (Simon);FLAG(immediate)",
-            "add_talk;Simon (Simon);102",
-            "add_talk;Simon;Morrissey (Morrissey)",
+            "center_cursor;Simon;immediate",
+            "add_talk;Simon;102",
+            "add_talk;Simon;Morrissey",
             "add_talk;Simon;109"
         ]
     }

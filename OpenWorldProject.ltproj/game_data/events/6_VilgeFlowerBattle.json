@@ -8,13 +8,13 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Vilge (Vilge);Left",
-            "add_portrait;Flower (Flower);Right",
+            "add_portrait;Vilge;Left",
+            "add_portrait;Flower;Right",
             "speak;Flower;Grrrrrrrrraaah!",
             "speak;Vilge;Stupid mutt.{w} Don't you dare get closer!",
             "speak;Flower;Awwooooo!",
-            "move_portrait;Flower (Flower);MidLeft",
-            "multi_remove_portrait;Flower (Flower);Vilge (Vilge)"
+            "move_portrait;Flower;MidLeft",
+            "multi_remove_portrait;Flower;Vilge"
         ]
     }
 ]

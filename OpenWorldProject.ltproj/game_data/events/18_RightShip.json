@@ -13,10 +13,10 @@
             "# add enemies here",
             "add_group;RightGroup;starting;fade",
             "# add dialogue here",
-            "center_cursor;Simon (Simon)",
-            "add_portrait;Simon (Simon);Right",
+            "center_cursor;Simon",
+            "add_portrait;Simon;Right",
             "speak;Simon;Looks like they're bringing in their real ships.{w}{br}Hold fast, everyone!",
-            "remove_portrait;Simon (Simon)"
+            "remove_portrait;Simon"
         ]
     }
 ]

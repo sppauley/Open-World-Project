@@ -21,7 +21,7 @@
             "set_game_board_bounds;0;8;18;10",
             "center_cursor;Anuki",
             "level_var;PuzzleTargets;[(2,9), (3,9), (1,9), (5,8), (6,8), (7,8)]",
-            "trigger_script;PuzzleSetup (Global PuzzleSetup)",
+            "trigger_script;Global PuzzleSetup",
             ""
         ]
     }

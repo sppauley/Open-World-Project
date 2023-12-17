@@ -22,7 +22,7 @@
             "speak;Simon;Oh?",
             "speak;SoldierBlue;Look, between the miasma, the monsters and the bandits, your sorry band is toast.",
             "multi_remove_portrait;SoldierBlue;Simon",
-            "remove_talk;Simon (Simon);Soldier (103)"
+            "remove_talk;Simon;103"
         ]
     }
 ]

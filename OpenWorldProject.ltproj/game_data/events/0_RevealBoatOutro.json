@@ -8,8 +8,8 @@
         "only_once": true,
         "priority": 18,
         "_source": [
-            "overworld_cinematic;The Continent (1)",
-            "reveal_overworld_node;Pirate's Current (49)",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;49",
             "reveal_overworld_road;33;49"
         ]
     }

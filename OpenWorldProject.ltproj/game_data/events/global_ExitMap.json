@@ -12,7 +12,10 @@
             "change_ai;{party_unit};None",
             "endf",
             "",
-            "set_overworld_menu_option_visible;{v:CurrentNode};Battle;t",
+            "level_var;_level_end_triggered;True",
+            "if;v(\"CurrentNode\")",
+            "    set_overworld_menu_option_visible;{v:CurrentNode};Battle;t",
+            "end",
             "",
             "win_game"
         ]

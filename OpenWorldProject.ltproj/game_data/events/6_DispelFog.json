@@ -8,14 +8,14 @@
         "only_once": true,
         "priority": 17,
         "_source": [
-            "center_cursor;Vilge (Vilge)",
-            "add_portrait;Vilge (Vilge);Left",
+            "center_cursor;Vilge",
+            "add_portrait;Vilge;Left",
             "speak;Vilge;Enough of these games.",
             "speak;Vilge;You will all watch as I tear your friends apart!",
             "transition;close;1500;244,247,195",
             "level_var;_fog_of_war;False",
             "transition;open",
-            "remove_portrait;Vilge (Vilge)"
+            "remove_portrait;Vilge"
         ]
     }
 ]

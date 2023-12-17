@@ -13,10 +13,10 @@
             "# add enemies here",
             "add_group;LeftGroup;starting;fade",
             "# add dialogue here",
-            "center_cursor;Simon (Simon)",
-            "add_portrait;Simon (Simon);Right",
+            "center_cursor;Simon",
+            "add_portrait;Simon;Right",
             "speak;Simon;A second ship?{w} They can't have much more than this.",
-            "remove_portrait;Simon (Simon)"
+            "remove_portrait;Simon"
         ]
     }
 ]

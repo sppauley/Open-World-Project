@@ -11,9 +11,9 @@
             "map_anim;AOE_Reinforce;{unit}",
             "wait;500",
             "if;game.level_vars['Phase']=='Enemy'",
-            "loop_units;[unit for unit in game.get_enemy_units()];Accelerate (7 Accelerate)",
+            "loop_units;[unit for unit in game.get_enemy_units()];7 Accelerate",
             "else",
-            "loop_units;[unit for unit in game.get_player_units()];Accelerate (7 Accelerate)",
+            "loop_units;[unit for unit in game.get_player_units()];7 Accelerate",
             "end"
         ]
     }

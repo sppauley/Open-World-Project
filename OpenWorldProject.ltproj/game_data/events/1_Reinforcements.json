@@ -8,10 +8,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Bordeaux (Bordeaux);Right",
+            "add_portrait;Bordeaux;Right",
             "speak;Bordeaux;This has gone on long enough.",
             "speak;Bordeaux;Let's raise the stakes, shall we?",
-            "remove_portrait;Bordeaux (Bordeaux)",
+            "remove_portrait;Bordeaux",
             "add_group;CavReinforcements;CavReinforcements;swoosh;closest"
         ]
     }

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "overworld_cinematic;The Continent (1)",
+            "overworld_cinematic;1",
             "reveal_overworld_node;57",
             "# REVEAL ROAD"
         ]

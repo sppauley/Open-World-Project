@@ -191,7 +191,7 @@
             "end_skip",
             "",
             "speak_style;IntroQuote;Narrator;center;190;5.0;White;chapter-white;None;5;f;None;0.0;None",
-            "speak;Narrator;Hell hath no fury like a lover scorned.;StyleNid=IntroQuote;FLAG(no_block);FLAG(hold);FLAG(no_sound)",
+            "speak;Narrator;Hell hath no fury like a lover scorned.;StyleNid=IntroQuote;no_block;hold;no_sound",
             "wait;6000",
             "unhold;IntroQuote",
             "",

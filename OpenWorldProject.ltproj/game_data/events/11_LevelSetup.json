@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 23,
         "_source": [
-            "show_layer;overlay;immediate;FLAG(no_warn)",
-            "show_layer;sidedoor;immediate;FLAG(no_warn)",
-            "show_layer;foyerdoor;immediate;FLAG(no_warn)",
+            "show_layer;overlay;immediate;no_warn",
+            "show_layer;sidedoor;immediate;no_warn",
+            "show_layer;foyerdoor;immediate;no_warn",
             "game_var;freely_exit;True",
             "add_talk;Simon;119",
             "level_var;TreasureRaid;False",

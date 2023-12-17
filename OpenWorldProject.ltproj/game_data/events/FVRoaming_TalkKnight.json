@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Simon (Simon);Right",
+            "add_portrait;Simon;Right",
             "add_portrait;VillagerTeen;Left",
             "speak;VillagerTeen;S-sir.",
             "speak;Simon;What is it?",
@@ -16,7 +16,7 @@
             "speak;Simon;In the battle?",
             "speak;VillagerTeen;I just saw the mages and... and I panicked.{w}{br}Burning in my armor is...",
             "speak;Simon;A terrifying thought.{w} You have nothing to apologize for.{w}{br}I'm just sorry we did not arrive sooner.",
-            "multi_remove_portrait;VillagerTeen;Simon (Simon)"
+            "multi_remove_portrait;VillagerTeen;Simon"
         ]
     }
 ]

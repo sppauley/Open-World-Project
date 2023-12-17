@@ -12,10 +12,10 @@
             "for;party_unit;[u.nid for u in game.get_units_in_party()]",
             "reset;{party_unit}",
             "endf",
-            "add_portrait;Simon (Simon);MidLeft",
+            "add_portrait;Simon;MidLeft",
             "speak;Simon;Damn, I lost sight of him.",
-            "trigger_script;AppearBySimon (Global AppearBySimon);Juliet (Juliet)",
-            "add_portrait;Juliet (Juliet);FarLeft",
+            "trigger_script;Global AppearBySimon;Juliet",
+            "add_portrait;Juliet;FarLeft",
             "speak;Juliet;He isn't hiding around here.{w}{br}He must have crossed either here-",
             "center_cursor;9,22",
             "flicker_cursor;9,22",
@@ -26,8 +26,8 @@
             "flicker_cursor;17,17",
             "flicker_cursor;17,18",
             "wait;800",
-            "center_cursor;Simon (Simon)",
-            "move_unit;Soldier (103);10,16",
+            "center_cursor;Simon",
+            "move_unit;103;10,16",
             "add_portrait;OldMan1;Right",
             "speak;OldMan1;Well, perhaps I could help, milord?",
             "speak;Simon;And you are?",
@@ -44,7 +44,7 @@
             "speak;Juliet;Thanks for your help.",
             "speak;OldMan1;Oh, of course.",
             "remove_portrait;OldMan1",
-            "move_unit;103;8,18;FLAG(no_block);FLAG(no_follow)",
+            "move_unit;103;8,18;no_block;no_follow",
             "move_portrait;Juliet;Right",
             "mirror_portrait;Juliet",
             "speak;Juliet;Well, we have our facts.",
@@ -53,8 +53,8 @@
             "speak;Simon;Still... I'm not so sure.{w}{br}This all feels like bribery.",
             "speak;Juliet;Bribery?{w} This is generosity.{w}{br}Remember the difference.",
             "remove_portrait;Juliet",
-            "trigger_script;HidePartyMember (Global HidePartyMember);Juliet (Juliet)",
-            "remove_portrait;Simon (Simon)"
+            "trigger_script;Global HidePartyMember;Juliet",
+            "remove_portrait;Simon"
         ]
     }
 ]

@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_unit;{unit};Simon;immediate;stack",
-            "move_unit;{unit};Simon;normal;closest;FLAG(no_follow)"
+            "move_unit;{unit};Simon;normal;closest;no_follow"
         ]
     }
 ]

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "trigger_script;DEBUGLvl3Team (Global DEBUGLvl3Team)",
+            "trigger_script;Global DEBUGLvl3Team",
             "#",
             "load_unit;Titus",
             "#",
@@ -32,7 +32,7 @@
             "speak;Simon;I believe so too.",
             "speak;Simon;So I will consider your request.",
             "multi_remove_portrait;Simon;Kajal",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

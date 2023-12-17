@@ -18,7 +18,7 @@
             "speak;SoldierBlue;But I'm too old nowadays.",
             "speak;SoldierBlue;And so are you, by the look of you.",
             "add_portrait;Simon;OffscreenLeft",
-            "move_portrait;Simon;FarLeft;FLAG(no_block)",
+            "move_portrait;Simon;FarLeft;no_block",
             "move_portrait;SoldierBlue;MidRight",
             "mirror_portrait;SoldierBlue",
             "speak;Simon;Morning, Luther.",

@@ -28,7 +28,7 @@
             "speak;Simon;No, I'll see him.",
             "speak;Simon;I'll just feel worse if I lie in bed all day.",
             "multi_remove_portrait;Simon;Vincent",
-            "remove_talk;Simon (Simon);Vincent"
+            "remove_talk;Simon;Vincent"
         ]
     }
 ]

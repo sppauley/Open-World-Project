@@ -17,7 +17,7 @@
             "if;'{var:HealItemChoice}' == 'Go Back'",
             "finish",
             "else",
-            "choice;HealTargetChoice;Choose a Target;{e:','.join([u.nid for u in game.get_units_in_party() if u.current_hp < u.get_max_hp()]) +',Finish'};;v;center;;PrepHealUnit (Global PrepHealUnit)",
+            "choice;HealTargetChoice;Choose a Target;{e:','.join([u.nid for u in game.get_units_in_party() if u.current_hp < u.get_max_hp()]) +',Finish'};;v;center;;Global PrepHealUnit",
             "end",
             "end"
         ]

@@ -67,7 +67,7 @@
             "#",
             "#tutorials",
             "wait;700",
-            "flicker_cursor;Dragonlord (Dragonlord)",
+            "flicker_cursor;Dragonlord",
             "wait;700",
             "speak;Narrator;The dragon will blast fire at certain locations on the map.{w}{br}ANY unit hit by the dragon's fire will take 30 damage.;StyleNid=hint",
             "wait;500",
@@ -81,7 +81,7 @@
             "wait;300",
             "# preps",
             "game_var;freely_exit;True",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

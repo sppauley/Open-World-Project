@@ -10,7 +10,7 @@
         "_source": [
             "center_cursor;TopLeftCrate",
             "move_unit;TopLeftCrate;4,8",
-            "map_anim;Snag;4,8;FLAG(no_block)",
+            "map_anim;Snag;4,8;no_block",
             "kill_unit;TopLeftCrate",
             "wait;700",
             "level_var;TopLeftSwamp;1",

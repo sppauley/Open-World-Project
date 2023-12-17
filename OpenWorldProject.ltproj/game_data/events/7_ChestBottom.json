@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "show_layer;chest_bottom",
-            "give_item;{unit};Executioner's Band (ExecutionersBand)"
+            "give_item;{unit};ExecutionersBand"
         ]
     }
 ]

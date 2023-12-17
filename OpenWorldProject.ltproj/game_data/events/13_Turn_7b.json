@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "loop_units;[unit for unit in game.get_all_units() if 'Crate_Wave2' in unit.nid];Reinforcement Crates (13 Reinforcement Crates)"
+            "loop_units;[unit for unit in game.get_all_units() if 'Crate_Wave2' in unit.nid];13 Reinforcement Crates"
         ]
     }
 ]

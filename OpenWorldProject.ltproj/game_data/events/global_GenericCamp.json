@@ -16,7 +16,7 @@
             "#set_current_poise;{INJURED};{e:game.get_unit('{INJURED}').get_max_poise()}",
             "endf",
             "# put inspiration here",
-            "base;Plains;Combat Preparation;FLAG(show_map)"
+            "base;Plains;Combat Preparation;show_map"
         ]
     }
 ]

@@ -8,11 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Bordeaux (Bordeaux);Right",
-            "add_portrait;Anuki (Anuki);Left",
+            "add_portrait;Bordeaux;Right",
+            "add_portrait;Anuki;Left",
             "speak;Bordeaux;Princess.",
             "speak;Anuki;Shut up and swing.{w} You've never held back before.",
-            "multi_remove_portrait;Anuki (Anuki);Bordeaux (Bordeaux)"
+            "multi_remove_portrait;Anuki;Bordeaux"
         ]
     }
 ]

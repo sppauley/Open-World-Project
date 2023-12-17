@@ -9,10 +9,10 @@
         "priority": 20,
         "_source": [
             "if;game.turncount == 2",
-            "center_cursor;Vilge (Vilge)",
-            "add_portrait;Vilge (Vilge);Left",
+            "center_cursor;Vilge",
+            "add_portrait;Vilge;Left",
             "speak;Vilge;The earth shall reclaim you.{w}{br}My Ascended will make sure of that.",
-            "remove_portrait;Vilge (Vilge)",
+            "remove_portrait;Vilge",
             "end",
             "# Just a default value - they should never spawn there",
             "level_var;reinPos;game.get_unit(\"Simon\").position",
@@ -32,9 +32,9 @@
             "elif;v(\"ranNum\") == 7",
             "level_var;reinPos;12,12",
             "end",
-            "create_unit;Cutthroat (123);;5;{e:v(\"reinPos\")};fade;closest",
+            "create_unit;123;;5;{e:v(\"reinPos\")};fade;closest",
             "change_ai;{created_unit};Pursue",
-            "give_skill;{created_unit};Lost to History (Void Curse);FLAG(no_banner)"
+            "give_skill;{created_unit};Void Curse;no_banner"
         ]
     }
 ]

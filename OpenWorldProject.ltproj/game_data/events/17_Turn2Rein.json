@@ -12,7 +12,7 @@
             "add_unit;102;0,0",
             "flicker_cursor;102",
             "wait;500",
-            "center_cursor;Simon (Simon)"
+            "center_cursor;Simon"
         ]
     }
 ]

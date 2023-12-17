@@ -8,13 +8,13 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_group;GreatKnights;;fade;closest;FLAG(create)",
+            "add_group;GreatKnights;;fade;closest;create",
             "center_cursor;1,42",
             "wait;500",
             "center_cursor;33,42",
             "wait;500",
             "center_cursor;19,12",
-            "add_group;Sages;;warp;closest;FLAG(create)",
+            "add_group;Sages;;warp;closest;create",
             "wait;900"
         ]
     }

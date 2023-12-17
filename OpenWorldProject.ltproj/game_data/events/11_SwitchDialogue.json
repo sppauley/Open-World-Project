@@ -13,7 +13,7 @@
             "sound;Unlock",
             "show_layer;lowerbarriers",
             "wait;800",
-            "center_cursor;Simon (Simon)",
+            "center_cursor;Simon",
             "add_portrait;Simon;Left",
             "s;Simon;That's the final switch.",
             "add_portrait;OldMan1;Right",

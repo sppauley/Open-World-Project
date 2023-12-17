@@ -8,13 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "make_generic;;Cleric (Cleric);1;enemy;HideoutBarrier;Cutthroat (Cutthroat);;Heal",
+            "make_generic;;Cleric;1;enemy;HideoutBarrier;Cutthroat;;Heal",
             "add_unit;{created_unit};7,24;fade;closest",
-            "make_generic;;Shaman (Shaman);13;enemy;HideoutBarrierEscort;Cutthroat (Cutthroat);;Thunder",
+            "make_generic;;Shaman;13;enemy;HideoutBarrierEscort;Cutthroat;;Thunder",
             "add_unit;{created_unit};8,24;fade;closest",
-            "make_generic;;Fighter;12;enemy;HideoutBarrierEscort;Cutthroat (Cutthroat);;Steel Axe",
+            "make_generic;;Fighter;12;enemy;HideoutBarrierEscort;Cutthroat;;Steel Axe",
             "add_unit;{created_unit};6,24;fade;closest",
-            "make_generic;;Cavalier;12;enemy;HideoutBarrierEscort;Cutthroat (Cutthroat);;Iron Lance",
+            "make_generic;;Cavalier;12;enemy;HideoutBarrierEscort;Cutthroat;;Iron Lance",
             "add_unit;{created_unit};5,24;fade;closest",
             "center_cursor;7,24",
             "flicker_cursor;8,24",
@@ -22,7 +22,7 @@
             "flicker_cursor;6,24",
             "flicker_cursor;5,24",
             "wait;1000",
-            "center_cursor;Simon (Simon)"
+            "center_cursor;Simon"
         ]
     }
 ]

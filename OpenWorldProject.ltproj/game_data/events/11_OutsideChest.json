@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "show_layer;openoutsidechest",
-            "give_item;Simon (Simon);Killer Bow (Killer Bow)"
+            "give_item;Simon;Killer Bow"
         ]
     }
 ]

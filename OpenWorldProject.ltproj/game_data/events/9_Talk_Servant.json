@@ -14,7 +14,7 @@
             "speak;Man3;This way, if you please.",
             "multi_remove_portrait;Man3;Simon",
             "remove_talk;Simon;109",
-            "move_unit;109;30,3;FLAG(no_block);FLAG(no_follow)"
+            "move_unit;109;30,3;no_block;no_follow"
         ]
     }
 ]

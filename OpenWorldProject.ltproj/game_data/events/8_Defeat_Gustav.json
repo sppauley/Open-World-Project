@@ -11,10 +11,10 @@
             "speak;Simon;It looks like they're retreating...",
             "remove_all_enemies",
             "wait;500",
-            "trigger_script;ConsolidateToLeader (Global ConsolidateToLeader)",
+            "trigger_script;Global ConsolidateToLeader",
             "change_roaming;t",
-            "change_roaming_unit;Simon (Simon)",
-            "center_cursor;Simon (Simon)"
+            "change_roaming_unit;Simon",
+            "center_cursor;Simon"
         ]
     }
 ]

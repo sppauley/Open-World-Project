@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "game_var;freely_exit;True",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

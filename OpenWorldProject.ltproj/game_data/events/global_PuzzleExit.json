@@ -16,7 +16,7 @@
             "remove_game_board_bounds",
             "game_var;InPuzzle;False",
             "for;unit;[u for u in game.get_player_units() if u.klass != \"PuzzleCrate\"]",
-            "remove_skill;{unit};Stunned (Stunned);no_banner;no_warn",
+            "remove_skill;{unit};Stunned;no_banner;no_warn",
             "endf",
             "# Turn crates into player units",
             "for;unit;[u for u in game.get_all_units() if u.klass == \"PuzzleCrate\"]",
@@ -31,7 +31,7 @@
             "level_var;PuzzleCompleted;True",
             "",
             "end",
-            "trigger_script;PuzzleReset (Global PuzzleReset)"
+            "trigger_script;Global PuzzleReset"
         ]
     }
 ]

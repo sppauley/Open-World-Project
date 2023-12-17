@@ -10,7 +10,7 @@
         "_source": [
             "add_portrait;VillagerTeen;Right",
             "speak;VillagerTeen;I'm sorry I can't help, but I'm still hurt.{w}{br}Please, take my ring.{w} It won't stop them from burning through your armor,{w}{br}but it'll keep you on your feet.",
-            "give_item;{unit};Poise Ring (PoiseRing)",
+            "give_item;{unit};PoiseRing",
             "remove_portrait;VillagerTeen",
             "remove_region;Village3",
             "has_finished;{unit}"

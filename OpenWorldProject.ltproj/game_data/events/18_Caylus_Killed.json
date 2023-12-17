@@ -8,14 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Caylus (Caylus);Right",
+            "add_portrait;Caylus;Right",
             "speak;Caylus;N-no... I'm not gonna die...",
-            "remove_portrait;Caylus (Caylus)",
+            "remove_portrait;Caylus",
             "remove_all_enemies",
-            "trigger_script;SharedOutroDialogue (18 SharedOutroDialogue)",
-            "overworld_cinematic;The Continent (1)",
-            "center_cursor;Pirate's Current (49)",
-            "reveal_overworld_node;Millin's Isle (50)",
+            "trigger_script;18 SharedOutroDialogue",
+            "overworld_cinematic;1",
+            "center_cursor;49",
+            "reveal_overworld_node;50",
             "reveal_overworld_road;49;50",
             "win_game"
         ]

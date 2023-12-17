@@ -11,12 +11,12 @@
             "# debug commands",
             "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
             "# chapter intro commands",
-            "center_cursor;Simon (Simon);FLAG(immediate)",
+            "center_cursor;Simon;immediate",
             "show_layer;bars_closed",
             "remove_group;HiddenEnemies",
             "show_layer;darkness",
-            "set_stats;105;MAG,9;FLAG(immediate)",
-            "set_stats;101;SPD,16;FLAG(immediate)",
+            "set_stats;105;MAG,9;immediate",
+            "set_stats;101;SPD,16;immediate",
             "# narration",
             "add_portrait;Simon;Left",
             "s;Simon;So, this is where the bandits are hiding.",
@@ -57,7 +57,7 @@
             "speak;Narrator;Some enemies may be too difficult for your current team.{w}{br}If you feel frustrated, try using the Exit option from the preparations screen.{w}{br}You can always return to a map later.;StyleNid=hint",
             "end",
             "arrange_formation",
-            "trigger_script;GenericPreps (Global GenericPreps)"
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

@@ -10,9 +10,9 @@
         "_source": [
             "if;v(\"PuzzleCompleted\") and game.board.get_unit((14,18)) and game.board.get_unit((15,17)) and game.board.get_unit((15,16))",
             "show_layer;southeastcomplete",
-            "remove_unit;Soldier (101)",
-            "remove_unit;Soldier (102)",
-            "remove_unit;Soldier (106)",
+            "remove_unit;101",
+            "remove_unit;102",
+            "remove_unit;106",
             "level_var;PuzzleCompleted;False",
             "end"
         ]

@@ -12,7 +12,7 @@
             "if;RECORDS.get(\"UnitWhoKilledSimon\") and game.get_unit(RECORDS.get(\"UnitWhoKilledSimon\")).position",
             "center_cursor;{e:RECORDS.get(\"UnitWhoKilledSimon\")}",
             "flicker_cursor;{e:RECORDS.get(\"UnitWhoKilledSimon\")}",
-            "trigger_script;CallOutKillerDialogue (Global CallOutKillerDialogue)",
+            "trigger_script;Global CallOutKillerDialogue",
             "center_cursor;Simon",
             "end",
             "update_record;UnitWhoKilledSimon;None"
