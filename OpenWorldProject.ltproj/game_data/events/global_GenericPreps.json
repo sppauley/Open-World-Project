@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
-            "prep;t;Combat Preparation;Loyalty,Difficulty,Exit;True,True,{v:freely_exit};PathwayMenu,ChangeDifficulty,ExitMap;t"
+            "prep;t;Combat Preparation;Loyalty,Difficulty,Exit;True,True,{v:freely_exit};PathwayMenu,ChangeDifficulty,ExitMap"
         ]
     }
 ]
