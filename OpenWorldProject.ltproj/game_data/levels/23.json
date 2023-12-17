@@ -9,7 +9,7 @@
         "objective": {
             "simple": "Reach the Treasure",
             "win": "Reach the Treasure",
-            "loss": ""
+            "loss": "Simon dies"
         },
         "roam": true,
         "roam_unit": "Simon",

@@ -8,16 +8,6 @@
             9,
             9
         ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "RES",
-                        5
-                    ]
-                ]
-            ]
-        ]
+        "components": []
     }
 ]

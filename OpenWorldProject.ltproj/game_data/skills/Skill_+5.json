@@ -8,16 +8,6 @@
             11,
             7
         ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "SKL",
-                        5
-                    ]
-                ]
-            ]
-        ]
+        "components": []
     }
 ]

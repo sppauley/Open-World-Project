@@ -10,26 +10,8 @@
         ],
         "components": [
             [
-                "stat_change",
-                [
-                    [
-                        "RES",
-                        7
-                    ]
-                ]
-            ],
-            [
                 "time",
                 7
-            ],
-            [
-                "upkeep_stat_change",
-                [
-                    [
-                        "RES",
-                        -1
-                    ]
-                ]
             ]
         ]
     }

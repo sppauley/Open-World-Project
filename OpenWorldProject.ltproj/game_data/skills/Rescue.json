@@ -17,10 +17,6 @@
                 "stat_multiplier",
                 [
                     [
-                        "SKL",
-                        0.5
-                    ],
-                    [
                         "SPD",
                         0.5
                     ]

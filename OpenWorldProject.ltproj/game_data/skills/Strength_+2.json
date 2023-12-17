@@ -10,15 +10,6 @@
         ],
         "components": [
             [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        2
-                    ]
-                ]
-            ],
-            [
                 "hidden",
                 null
             ]

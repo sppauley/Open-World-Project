@@ -10,27 +10,6 @@
         ],
         "components": [
             [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        12
-                    ],
-                    [
-                        "SKL",
-                        12
-                    ],
-                    [
-                        "DEF",
-                        15
-                    ],
-                    [
-                        "RES",
-                        20
-                    ]
-                ]
-            ],
-            [
                 "hidden",
                 null
             ]

@@ -8,16 +8,6 @@
             11,
             6
         ],
-        "components": [
-            [
-                "stat_change",
-                [
-                    [
-                        "STR",
-                        5
-                    ]
-                ]
-            ]
-        ]
+        "components": []
     }
 ]

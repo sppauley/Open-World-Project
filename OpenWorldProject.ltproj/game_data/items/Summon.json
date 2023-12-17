@@ -28,10 +28,6 @@
             [
                 "empty_tile_target_restrict",
                 null
-            ],
-            [
-                "event_on_hit",
-                "Global Summon Phantom"
             ]
         ]
     }

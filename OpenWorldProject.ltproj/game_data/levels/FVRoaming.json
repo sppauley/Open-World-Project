@@ -7,9 +7,9 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "Exit",
-            "loss": ""
+            "simple": "Explore",
+            "win": "Exit the map",
+            "loss": "Simon dies"
         },
         "roam": true,
         "roam_unit": "Simon",
