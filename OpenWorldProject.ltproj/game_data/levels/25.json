@@ -64,7 +64,7 @@
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "TRight",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
@@ -643,8 +643,8 @@
                 "roam_ai": null,
                 "ai_group": "R2",
                 "starting_position": [
-                    22,
-                    8
+                    24,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -670,6 +670,27 @@
                     22,
                     2
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 11,
+                "klass": "Angel",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -755,6 +776,10 @@
             },
             {
                 "nid": "R2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

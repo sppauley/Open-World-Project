@@ -58,22 +58,12 @@
                 "B"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "brave",
                 null
+            ],
+            [
+                "stagger",
+                2
             ]
         ]
     }

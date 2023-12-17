@@ -1,0 +1,23 @@
+[
+    {
+        "name": "SpawnAngel",
+        "trigger": "turn_change",
+        "level_nid": "25",
+        "condition": "game.turncount > 1 and game.get_unit(\"Thanatos2\").position != (27, 2)",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;23,6",
+            "flicker_cursor;23,6",
+            "wait;600",
+            "",
+            "show_layer;destroystatue;fade",
+            "map_anim;Snag;23,6;0.5;no_block",
+            "map_anim;Snag;23,5;0.5;no_block",
+            "add_unit;126;23,6;fade;closest",
+            "wait;1000",
+            ""
+        ]
+    }
+]

@@ -366,5 +366,6 @@
     "25_ThanatosFight.json": 364,
     "25_ThanatosFightNika.json": 365,
     "25_ThanatosFightLim.json": 366,
-    "global_KillUnit.json": 367
+    "global_KillUnit.json": 367,
+    "25_SpawnAngel.json": 368
 }

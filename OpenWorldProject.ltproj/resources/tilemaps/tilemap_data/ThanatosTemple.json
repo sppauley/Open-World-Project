@@ -6378,6 +6378,31 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "destroystatue",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "23,5": "6",
+                    "23,6": "Fence"
+                },
+                "sprite_grid": {
+                    "23,5": [
+                        "Tower Valni",
+                        [
+                            4,
+                            0
+                        ]
+                    ],
+                    "23,6": [
+                        "Tower Valni",
+                        [
+                            17,
+                            5
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

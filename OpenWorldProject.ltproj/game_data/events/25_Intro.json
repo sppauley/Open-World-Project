@@ -21,6 +21,7 @@
             "",
             "show_layer;prechaptercutscene;immediate;no_warn",
             "show_layer;overlay;immediate;no_warn",
+            "hide_layer;destroystatue;immediate;no_warn",
             "add_weather;night",
             "",
             "give_skill;Lim;Stunned;no_banner",
