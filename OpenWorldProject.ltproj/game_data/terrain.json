@@ -583,5 +583,20 @@
         "mtype": "Thicket",
         "opaque": false,
         "status": null
+    },
+    {
+        "nid": "Emptiness",
+        "name": "Emptiness",
+        "color": [
+            0,
+            0,
+            0
+        ],
+        "minimap": "Waste",
+        "platform": "Arena",
+        "background": "None",
+        "mtype": "Cliff",
+        "opaque": false,
+        "status": null
     }
 ]
