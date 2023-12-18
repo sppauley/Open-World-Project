@@ -8,7 +8,25 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "",
+            "show_layer;prechaptercutscene",
+            "change_background;BlackBackground",
+            "",
+            "resurrect;Nika;no_warn",
+            "resurrect;Lim;no_warn",
+            "remove_unit;Nika;immediate;no_warn",
+            "remove_unit;Lim;immediate;no_warn",
+            "add_unit;Nika;11,17;immediate",
+            "",
+            "change_background",
+            "add_unit;Lim;12,17;warp",
+            "move_unit;Lim;12,18;no_follow",
+            "add_portrait;Nika;Left",
+            "add_portrait;Lim;Right",
+            "s;Lim;Nika! Are you okay?",
+            "",
+            "",
+            "screen_shake;1000;default;no_block"
         ]
     }
 ]
