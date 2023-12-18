@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Accelerate",
+        "trigger": null,
+        "level_nid": "24",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};Accelerate;;no_banner"
+        ]
+    }
+]

@@ -215,8 +215,10 @@
     "1_BordeauxFight",
     "1_BordeauxAnukiFight",
     "7_Trigger_Accelerate",
+    "24_Trigger_Accelerate",
     "7_Trigger_Slow",
     "7_Accelerate",
+    "24_Accelerate",
     "7_Slow",
     "7_EnemyTurn",
     "7_PlayerTurn",
@@ -370,5 +372,7 @@
     "25_SpawnAngel",
     "25_SpawnPursuers",
     "24_Intro",
-    "24_Ruler"
+    "24_Ruler",
+    "24_Trigger_Slow",
+    "24_Slow"
 ]
