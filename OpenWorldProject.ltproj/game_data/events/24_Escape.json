@@ -9,6 +9,12 @@
         "priority": 20,
         "_source": [
             "if;unit.nid=='Simon'",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;36;immediate",
+            "set_overworld_position;Simon;36",
+            "center_cursor;36",
+            "reveal_overworld_road;36;38;immediate",
+            "reveal_overworld_node;38;immediate",
             "win_game",
             "else",
             "remove_unit;{unit}",
