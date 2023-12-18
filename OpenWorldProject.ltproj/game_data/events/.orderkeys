@@ -221,7 +221,9 @@
     "24_Accelerate",
     "7_Slow",
     "7_EnemyTurn",
+    "24_EnemyTurn",
     "7_PlayerTurn",
+    "24_PlayerTurn",
     "7_FireballActivate",
     "7_FireballDamage",
     "7_FireballWarn",
@@ -374,5 +376,6 @@
     "24_Intro",
     "24_Ruler",
     "24_Trigger_Slow",
-    "24_Slow"
+    "24_Slow",
+    "24_Escape"
 ]

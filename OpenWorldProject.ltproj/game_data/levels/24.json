@@ -279,7 +279,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -351,7 +351,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Steel Lance",
                         false
                     ]
                 ],
@@ -411,6 +411,130 @@
                 "starting_position": [
                     11,
                     26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    5,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    4,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Swordmaster",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    15,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 1,
+                "klass": "Swordmaster",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    16,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief",
+                "variant": null,
+                "level": 1,
+                "klass": "Thief",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        true
+                    ],
+                    [
+                        "ForgingBag",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Escape",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -484,12 +608,33 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Escape",
+                "region_type": "event",
+                "position": [
+                    8,
+                    0
+                ],
+                "size": [
+                    5,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.nid=='Simon' or unit.nid=='Thief'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
         "ai_groups": [
             {
                 "nid": "a",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "b",
                 "trigger_threshold": 1
             },
             {

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "PlayerTurn",
+        "trigger": "turn_change",
+        "level_nid": "24",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 0,
+        "_source": [
+            "level_var;Phase;'Player'"
+        ]
+    }
+]
