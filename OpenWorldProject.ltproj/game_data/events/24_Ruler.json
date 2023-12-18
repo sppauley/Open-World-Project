@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Ruler",
+        "trigger": "unit_wait",
+        "level_nid": "24",
+        "condition": "game.check_alive('DracoKnight') and unit.team == 'player' and not any(get_units_in_region('Knight', nid='DracoKnight')) ",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unit_act;DracoKnight"
+        ]
+    }
+]

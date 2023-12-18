@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "DracoKnight",
+        "name": "Draconic Knight",
+        "desc": "An ancient knight given new life by a dragonlord.",
+        "variant": null,
+        "level": 20,
+        "klass": "DraconicKnight",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 43,
+            "PSE": 23,
+            "CON": 16,
+            "DEX": 19,
+            "SPD": 9,
+            "MAG": 11,
+            "MOV": 7
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "DraconicAxe",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                251,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -368,5 +368,7 @@
     "25_ThanatosFightLim",
     "global_KillUnit",
     "25_SpawnAngel",
-    "25_SpawnPursuers"
+    "25_SpawnPursuers",
+    "24_Intro",
+    "24_Ruler"
 ]
