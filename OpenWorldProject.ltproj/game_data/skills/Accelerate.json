@@ -3,10 +3,10 @@
         "nid": "Accelerate",
         "name": "Haste",
         "desc": "+3 MOV for 1 turn",
-        "icon_nid": "Skills",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,
-            0
+            21
         ],
         "components": [
             [

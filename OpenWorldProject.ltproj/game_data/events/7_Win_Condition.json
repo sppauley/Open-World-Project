@@ -34,7 +34,16 @@
             "s;Johannes;But look, that can be your job. ",
             "s;Johannes;My job will be slaying the foul beasts that plague the land.",
             "s;Simon;Uh, sure thing.",
-            "",
+            "wait;500",
+            "change_background;GradoCastle",
+            "multi_add_portrait;Simon;Left;Luther;Right",
+            "s;Luther;Well done, milord.",
+            "s;Luther;You truly proved yourself here today.",
+            "s;Luther;Dragons are fearsome foes, especially ones this ancient.",
+            "s;Luther;With this fiend gone, the surrounding lands will be much safer.",
+            "s;Simon;We can only hope.",
+            "s;Simon;With monsters and bandits controlling much of this land,{w}{br}this security is the kind of change we need.",
+            "trigger_script;Global Upgrade Leadership",
             "win_game"
         ]
     }

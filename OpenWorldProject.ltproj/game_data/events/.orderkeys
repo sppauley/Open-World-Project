@@ -378,5 +378,6 @@
     "24_Trigger_Slow",
     "24_Slow",
     "24_Escape",
-    "24_Reinforce"
+    "24_Reinforce",
+    "global_Upgrade_Leadership"
 ]

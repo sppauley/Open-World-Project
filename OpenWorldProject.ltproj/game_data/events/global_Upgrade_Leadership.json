@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Upgrade Leadership",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;Simon;{eval:'Leadership'+str(int([skill.nid for skill in u('Simon').skills if 'Leadership' in skill.nid][0][-1])+1)}",
+            "remove_skill;Simon;{eval:[skill.nid for skill in u('Simon').skills if 'Leadership' in skill.nid][0]};no_banner"
+        ]
+    }
+]

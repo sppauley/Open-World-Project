@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Leadership2",
+        "name": "Leadership 2",
+        "desc": "Grants all allies +6 hit and avoid.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Leadership2_Buff"
+            ],
+            [
+                "aura_range",
+                999
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "hide_aura",
+                null
+            ]
+        ]
+    }
+]
