@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Flashback2",
+        "trigger": "turn_change",
+        "level_nid": "25",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": true,
+        "priority": 22,
+        "_source": [
+            "add_unit;FakeNika;31,6;fade;closest;fade;no_warn",
+            "add_unit;FakeLim;30,6;fade;closest;fade;no_warn",
+            "",
+            "center_cursor;FakeNika",
+            "",
+            "move_unit;FakeLim;FakeNika;fade;closest;no_follow;no_warn",
+            "",
+            "add_portrait;NikaPossessed;Right",
+            "add_portrait;LimPossessed;Left",
+            "",
+            "s;NikaPossessed;Lim! Are you hurt?",
+            "s;LimPossessed;T-the bandits got the others- I couldn't...",
+            "s;NikaPossessed;Dammit!",
+            "",
+            "multi_remove_portrait;NikaPossessed;LimPossessed",
+            "remove_unit;FakeLim;warp",
+            "remove_unit;FakeNika;warp"
+        ]
+    }
+]
