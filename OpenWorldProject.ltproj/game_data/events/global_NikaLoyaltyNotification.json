@@ -1,0 +1,18 @@
+[
+    {
+        "name": "NikaLoyaltyNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"NikaRecruited\") == True and int(game.get_unit(\"Nika\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Nika\").get_field(\"BattlesDeployed\"))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Nika;Left",
+            "s;Nika;Simon, I need to speak with you.{w}{br}Thanatos's power is... growing.{w}{br}Next time we're in Morrissey's Castle, talk to me.",
+            "remove_portrait;Nika",
+            "",
+            "trigger_script;Global LoyaltyTutorial"
+        ]
+    }
+]
