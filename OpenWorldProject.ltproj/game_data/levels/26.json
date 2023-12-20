@@ -213,10 +213,6 @@
                     [
                         "Mend",
                         false
-                    ],
-                    [
-                        "Thunder",
-                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -244,10 +240,6 @@
                     ],
                     [
                         "Mend",
-                        false
-                    ],
-                    [
-                        "Thunder",
                         false
                     ]
                 ],
@@ -277,10 +269,6 @@
                     [
                         "Mend",
                         false
-                    ],
-                    [
-                        "Thunder",
-                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -308,10 +296,6 @@
                     ],
                     [
                         "Mend",
-                        false
-                    ],
-                    [
-                        "Thunder",
                         false
                     ]
                 ],
