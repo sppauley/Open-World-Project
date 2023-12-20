@@ -12,22 +12,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "aura",
-                "Leadership3_Buff"
-            ],
-            [
-                "aura_range",
-                999
-            ],
-            [
-                "aura_target",
-                "ally"
-            ],
-            [
-                "hide_aura",
-                null
             ]
         ]
     }

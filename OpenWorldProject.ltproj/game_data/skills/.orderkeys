@@ -97,7 +97,5 @@
     "Leadership1",
     "Leadership2",
     "Leadership3",
-    "Leadership1_Buff",
-    "Leadership2_Buff",
-    "Leadership3_Buff"
+    "Global_Leadership"
 ]

@@ -34,7 +34,8 @@
             "add_portrait;Vincent;MidRight",
             "add_portrait;Franz;Right",
             "add_portrait;Seth;FarRight",
-            "s;Simon;Hi"
+            "s;Simon;Hi",
+            "trigger_script;Global Upgrade Leadership"
         ]
     }
 ]

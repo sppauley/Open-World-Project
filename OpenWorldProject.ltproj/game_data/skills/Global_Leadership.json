@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Global_Leadership",
+        "name": "Global Leadership",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "dynamic_avoid",
+                "int(u('Simon').get_field('Leadership'))*3"
+            ],
+            [
+                "dynamic_accuracy",
+                "int(u('Simon').get_field('Leadership'))*3"
+            ],
+            [
+                "condition",
+                "unit.team=='player'"
+            ]
+        ]
+    }
+]

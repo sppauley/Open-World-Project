@@ -32,7 +32,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Leadership1"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -101,6 +106,10 @@
             [
                 "BattlesDeployed",
                 "0"
+            ],
+            [
+                "Leadership",
+                "1"
             ]
         ]
     }

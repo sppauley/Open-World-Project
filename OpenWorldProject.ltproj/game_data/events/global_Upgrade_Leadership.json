@@ -8,8 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;Simon;{eval:'Leadership'+str(int([skill.nid for skill in u('Simon').skills if 'Leadership' in skill.nid][0][-1])+1)}",
-            "remove_skill;Simon;{eval:[skill.nid for skill in u('Simon').skills if 'Leadership' in skill.nid][0]};no_banner"
+            "remove_skill;Simon;{eval:'Leadership'+u('Simon').get_field('Leadership')};no_banner",
+            "give_skill;Simon;{eval:'Leadership'+str(int(u('Simon').get_field('Leadership'))+1)}",
+            "set_unit_field;Simon;Leadership;int(u('Simon').get_field('Leadership'))+1"
         ]
     }
 ]
