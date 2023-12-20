@@ -9,8 +9,16 @@
         "priority": 20,
         "_source": [
             "overworld_cinematic;1",
-            "reveal_overworld_node;57",
-            "# REVEAL ROAD"
+            "",
+            "if;v(\"RevealLupusMission\")",
+            "    reveal_overworld_node;57",
+            "    reveal_overworld_road;39;57",
+            "end",
+            "",
+            "if;v(\"RevealNikaMission\")",
+            "    reveal_overworld_node;58",
+            "    reveal_overworld_road;36;58",
+            "end"
         ]
     }
 ]

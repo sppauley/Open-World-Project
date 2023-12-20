@@ -10,7 +10,8 @@
         "_source": [
             "center_cursor;Simon;immediate",
             "",
-            "level_var;RevealLupusMission;False"
+            "level_var;RevealLupusMission;False",
+            "level_var;RevealNikaMission;False"
         ]
     }
 ]

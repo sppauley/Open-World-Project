@@ -66,6 +66,8 @@
             "s;Simon;I find him hard to dislike, to be honest.",
             "s;Anuki;Then you haven't met enough people like him.{w}{br}He'll split the moment he's given the chance- just watch.",
             "",
+            "level_var;RevealLupusMission;True",
+            "",
             "else",
             "",
             "add_portrait;Simon;Left",
