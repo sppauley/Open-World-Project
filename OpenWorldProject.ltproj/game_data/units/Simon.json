@@ -32,12 +32,7 @@
                 false
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Leadership1"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
