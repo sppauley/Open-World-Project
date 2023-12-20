@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Flashback1",
+        "trigger": "turn_change",
+        "level_nid": "25",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;FakeNika;8,13;fade;closest;fade;no_warn",
+            "add_unit;FakeLim;7,13;fade;closest;fade;no_warn",
+            "",
+            "center_cursor;FakeNika",
+            "",
+            "move_unit;FakeLim;FakeNika;fade;closest;no_follow;no_warn",
+            "",
+            "add_portrait;NikaPossessed;Right",
+            "add_portrait;LimPossessed;Left",
+            "",
+            "s;LimPossessed;Y-y-you're the captain? Ma'am?",
+            "s;NikaPossessed;That's what I've been told.{w}{br}I'm Nika, from Frees Village.",
+            "s;LimPossessed;I'm Lim, from Ramm Village.{w} I heard {c:wait;300} that Frees is very beautiful.",
+            "s;NikaPossessed;It's safe. More than most of the border villages.",
+            "wait;800",
+            "s;NikaPossessed;Lim, I need to be honest.{w}{br}I shouldn't be leading.",
+            "s;LimPossessed;But you're a captain?",
+            "s;NikaPossessed;And I was drafted a day before I got that promotion.",
+            "mirror_portrait;NikaPossessed",
+            "s;NikaPossessed;This \"army\" is a sick joke.{w} If we fight a real battle,{w}{br}we won't stand a chance.",
+            "s;LimPossessed;W-what are you saying?",
+            "mirror_portrait;NikaPossessed",
+            "s;NikaPossessed;We need to watch out for each other.{w}{br}That's all.",
+            "",
+            "multi_remove_portrait;NikaPossessed;LimPossessed",
+            "remove_unit;FakeLim;warp",
+            "remove_unit;FakeNika;warp"
+        ]
+    }
+]
