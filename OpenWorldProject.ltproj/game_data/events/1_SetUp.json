@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "set_stats;101;STR,2,SPD,3;immediate",
-            "set_stats;102;STR,2,SPD,3;immediate",
-            "set_stats;103;STR,2,SPD,3;immediate",
+            "set_stats;101;SPD,3;immediate",
+            "set_stats;102;SPD,3;immediate",
+            "set_stats;103;SPD,3;immediate",
             "# More dialogue here could definitely be good",
             "#change_class;Juliet (Juliet);Archer;FLAG(silent)",
             "set_unit_field;Anuki;PartyMember;'Yes'",
