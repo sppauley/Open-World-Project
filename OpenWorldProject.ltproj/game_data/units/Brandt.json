@@ -1,0 +1,40 @@
+[
+    {
+        "nid": "Brandt",
+        "name": "Brandt",
+        "desc": "A general in Morrissey's army.\nSlayer of countless monsters.",
+        "variant": null,
+        "level": 20,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "HP": 48,
+            "PSE": 25,
+            "MOV": 8,
+            "SPD": 19,
+            "DEX": 16,
+            "CON": 13
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Kanna F2E OC 49",
+        "affinity": null,
+        "fields": []
+    }
+]

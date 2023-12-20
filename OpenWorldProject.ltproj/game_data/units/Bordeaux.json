@@ -19,13 +19,13 @@
             "CON": 11
         },
         "growths": {
-            "HP": 0,
+            "HP": 70,
             "MAG": 0,
-            "DEX": 0,
+            "DEX": 20,
             "SPD": 0,
-            "PSE": 0,
+            "PSE": 40,
             "MOV": 0,
-            "CON": 0
+            "CON": 35
         },
         "stat_cap_modifiers": {},
         "starting_items": [
@@ -49,7 +49,7 @@
             ],
             "Lance": [
                 false,
-                121,
+                181,
                 251
             ],
             "Axe": [

@@ -9,7 +9,12 @@
         "priority": 20,
         "_source": [
             "show_layer;overlaytiles",
-            "show_layer;crossbridge"
+            "show_layer;crossbridge",
+            "remove_skill;Bordeaux;Ruler;no_banner",
+            "remove_item;Bordeaux;Horseslayer;;no_banner",
+            "give_item;Bordeaux;Silver_Pike;no_banner",
+            "autolevel_to;Bordeaux;20",
+            "remove_tag;Bordeaux;Boss"
         ]
     }
 ]

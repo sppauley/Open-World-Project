@@ -33,7 +33,7 @@
                 "nid": "131",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
+                "klass": "Halberdier",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -47,7 +47,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
+                    18,
                     5
                 ],
                 "starting_traveler": null,
@@ -57,31 +57,7 @@
                 "nid": "132",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 10,
-                "klass": "General",
+                "klass": "Halberdier",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -102,10 +78,10 @@
                 "generic": true
             },
             {
-                "nid": "134",
+                "nid": "135",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
+                "klass": "Halberdier",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -126,14 +102,38 @@
                 "generic": true
             },
             {
-                "nid": "135",
+                "nid": "136",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
+                "klass": "Great_Knight",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 10,
+                "klass": "Great_Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -150,14 +150,14 @@
                 "generic": true
             },
             {
-                "nid": "136",
+                "nid": "142",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
+                "klass": "Great_Knight",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -167,11 +167,37 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
+                    10,
                     5
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Bordeaux",
+                "team": "other",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Brandt",
+                "team": "other",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
             },
             {
                 "nid": "137",
@@ -209,7 +235,7 @@
                 "nid": "139",
                 "variant": null,
                 "level": 10,
-                "klass": "Sage",
+                "klass": "Valkyrie",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -241,7 +267,7 @@
                 "nid": "140",
                 "variant": null,
                 "level": 10,
-                "klass": "Sage",
+                "klass": "Valkyrie",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
