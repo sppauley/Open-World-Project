@@ -1,0 +1,17 @@
+[
+    {
+        "name": "AddNika",
+        "trigger": "level_start",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "v(\"NikaRecruited\") == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "load_unit;Nika",
+            "add_unit;Nika;7,28;immediate;no_warn",
+            "add_talk;Simon;Nika",
+            ""
+        ]
+    }
+]
