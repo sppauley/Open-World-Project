@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Heartseeker_Loyal",
+        "name": "Heartseeker",
+        "desc": "-20 hit and avoid to enemies within two tiles.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Heartseeker_Effect"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ]
+        ]
+    }
+]

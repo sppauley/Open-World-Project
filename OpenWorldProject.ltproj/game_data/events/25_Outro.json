@@ -84,11 +84,14 @@
             "wait;3000",
             "multi_remove_portrait;Lim;Nika",
             "",
-            "change_background;BlackBackground",
-            "transition;open",
-            "s;Narrator;Is it hope or hate that springs eternal?;StyleNid=ThanatosStyle;no_block;hold;no_sound",
-            "wait;6000",
-            "unhold;ThanatosStyle",
+            "remove_skill;Nika;Heartseeker;no_banner",
+            "give_skill;Nika;Heartseeker_Loyal",
+            "",
+            "#change_background;BlackBackground",
+            "#transition;open",
+            "#s;Narrator;Is it hope or hate that springs eternal?;StyleNid=ThanatosStyle;no_block;hold;no_sound",
+            "#wait;6000",
+            "#unhold;ThanatosStyle",
             ""
         ]
     }

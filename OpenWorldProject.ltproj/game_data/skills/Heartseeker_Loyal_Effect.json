@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Heartseeker_Loyal_Effect",
+        "name": "Heartseeker",
+        "desc": "-20 hit and avoid",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            8
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "avoid",
+                -20
+            ],
+            [
+                "hit",
+                -20
+            ]
+        ]
+    }
+]
