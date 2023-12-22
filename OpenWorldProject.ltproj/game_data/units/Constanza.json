@@ -33,12 +33,7 @@
                 true
             ]
         ],
-        "learned_skills": [
-            [
-                1,
-                "Ruler"
-            ]
-        ],
+        "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
@@ -53,7 +48,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "Its_Just_Jay F2E 6",
         "affinity": null,
         "fields": []
     }

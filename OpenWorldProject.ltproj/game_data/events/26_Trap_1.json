@@ -17,7 +17,13 @@
             "wait;500",
             "add_group;Forest;;;closest",
             "flicker_cursor;8,0",
-            "wait;500"
+            "wait;500",
+            "add_portrait;Constanza;Right",
+            "s;Constanza;Looks like Verstadt walked into our trap.",
+            "s;Constanza;It'll be an honor to end these vermin.",
+            "remove_portrait;Constanza",
+            "give_skill;Constanza;Ruler",
+            "level_var;ForestTrap;1"
         ]
     }
 ]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Ruler Constanza",
+        "trigger": "unit_wait",
+        "level_nid": "26",
+        "condition": "unit.team=='player' and game.level_vars['ForestTrap']==1 and game.check_alive('Constanza')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unit_act;Constanza"
+        ]
+    }
+]

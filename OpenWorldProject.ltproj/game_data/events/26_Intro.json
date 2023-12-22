@@ -15,7 +15,8 @@
             "remove_item;Bordeaux;Horseslayer;;no_banner",
             "give_item;Bordeaux;Silver_Pike;no_banner",
             "autolevel_to;Bordeaux;20",
-            "remove_tag;Bordeaux;Boss"
+            "remove_tag;Bordeaux;Boss",
+            "level_var;ForestTrap;0"
         ]
     }
 ]
