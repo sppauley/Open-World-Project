@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_background;default_background",
             "choice;ViewLoyalty;View Loyalty;[u.nid + '|' + u.name for u in game.get_units_in_party()];Dimensions=8,1;Alignment=left;EventNid=LoyaltyMenuSub1;expression;backable",
             "",
             "#alert;Not implemented",

@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "alert;Not implemented"
+            "table;portrait;u('{v:ViewLoyalty}').portrait_nid;;Alignment=top_right;EntryType=type_portrait;expression",
+            "s;Narrator;Text here;center;180;hint"
         ]
     }
 ]
