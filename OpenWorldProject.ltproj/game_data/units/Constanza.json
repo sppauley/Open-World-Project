@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Constanza",
+        "name": "Constanza",
+        "desc": "A soldier of New Dawn dedicated to ending the noble houses.",
+        "variant": null,
+        "level": 15,
+        "klass": "Ranger",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 42,
+            "CON": 15,
+            "DEX": 19,
+            "SPD": 17,
+            "PSE": 11,
+            "MOV": 7
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Silver Bow",
+                false
+            ],
+            [
+                "Killing Edge",
+                false
+            ],
+            [
+                "Door Key",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Ruler"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                251
+            ],
+            "Bow": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

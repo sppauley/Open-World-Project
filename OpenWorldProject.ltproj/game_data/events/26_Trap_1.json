@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Trap 1",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "any(get_units_in_region('trap1', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Percy;Right",
+            "s;Percy;They're in position.",
+            "s;Percy;Shut the gates!",
+            "remove_portrait;Percy",
+            "show_layer;gate",
+            "center_cursor;14,15",
+            "wait;500",
+            "add_group;Forest;;;closest",
+            "flicker_cursor;8,0",
+            "wait;500"
+        ]
+    }
+]

@@ -1043,6 +1043,79 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Constanza",
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 20,
+                "klass": "Cavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 20,
+                "klass": "Cavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 20,
+                "klass": "Cavalier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1113,9 +1186,54 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "trap1",
+                "region_type": "normal",
+                "position": [
+                    7,
+                    14
+                ],
+                "size": [
+                    17,
+                    13
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Forest",
+                "units": [
+                    "Constanza",
+                    "133",
+                    "134",
+                    "143"
+                ],
+                "positions": {
+                    "Constanza": [
+                        8,
+                        0
+                    ],
+                    "133": [
+                        8,
+                        1
+                    ],
+                    "134": [
+                        9,
+                        0
+                    ],
+                    "143": [
+                        9,
+                        1
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "a",
