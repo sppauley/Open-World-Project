@@ -87,7 +87,7 @@
         "fields": [
             [
                 "BattlesBeforeLoyaltyTalk",
-                "99"
+                "999"
             ],
             [
                 "BattlesDeployed",
@@ -96,6 +96,10 @@
             [
                 "DeathQuote",
                 "I'm falling back...{w} promise me that you'll win."
+            ],
+            [
+                "LoyaltyStatus",
+                "Lim is completely loyal."
             ]
         ]
     }

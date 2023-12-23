@@ -95,6 +95,10 @@
             [
                 "BattlesDeployed",
                 "0"
+            ],
+            [
+                "LoyaltyStatus",
+                "Loyalty mission not yet implemented"
             ]
         ]
     }
