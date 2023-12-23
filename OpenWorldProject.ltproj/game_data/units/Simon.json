@@ -110,6 +110,10 @@
             [
                 "Leadership",
                 "1"
+            ],
+            [
+                "LoyaltyStatus",
+                "Simon is completely loyal."
             ]
         ]
     }
