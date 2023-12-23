@@ -13,6 +13,7 @@
             "s;Percy;Shut the gates!",
             "remove_portrait;Percy",
             "show_layer;gate",
+            "loop_units;[unit for unit in get_units_in_region('Door1')];PushUnit",
             "center_cursor;14,15",
             "wait;500",
             "add_group;Forest;;;closest",

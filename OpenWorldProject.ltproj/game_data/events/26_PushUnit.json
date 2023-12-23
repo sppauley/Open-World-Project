@@ -1,0 +1,15 @@
+[
+    {
+        "name": "PushUnit",
+        "trigger": null,
+        "level_nid": "26",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit};immediate",
+            "add_unit;{unit};15,15;immediate;closest"
+        ]
+    }
+]

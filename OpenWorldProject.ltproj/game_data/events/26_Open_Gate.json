@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Open Gate",
+        "trigger": "Door",
+        "level_nid": "26",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_layer;gate"
+        ]
+    }
+]
