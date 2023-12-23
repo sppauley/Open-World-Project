@@ -8,12 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "table;portrait;u('{v:ViewLoyalty}').portrait_nid;;Alignment=top_right;EntryType=type_portrait;expression",
-            "s;Narrator;{e:u('{v:ViewLoyalty}').get_field(\"LoyaltyStatus\")};center;180;hint",
+            "table;portrait;u('{v:ViewLoyalty}').portrait_nid;;;;Alignment=top_right;EntryType=type_portrait;expression",
+            "s;Narrator;{e:u('{v:ViewLoyalty}').get_field(\"LoyaltyStatus\")};100,100;180;hint",
             "# unit loyalty field is one of:",
             "# {Name} is completely loyal.",
             "# {Name}'s loyalty mission is not yet available. Deploy them on more maps to unlock it.",
-            "# {Name}'s loyalty mission is not yet available. Meet {x} condition to unlock it."
+            "# {Name}'s loyalty mission is not yet available. Meet {x} condition to unlock it.",
+            "remove_table;portrait",
+            "unchoice"
         ]
     }
 ]
