@@ -40,7 +40,8 @@
             "    remove_unit;{party_unit}",
             "endf",
             "change_roaming_unit;Simon",
-            "change_roaming;t"
+            "change_roaming;t",
+            "reset;Simon"
         ]
     }
 ]
