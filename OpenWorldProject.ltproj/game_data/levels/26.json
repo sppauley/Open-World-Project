@@ -1172,6 +1172,210 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 20,
+                "klass": "Halberdier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Silver Lance",
+                        false
+                    ],
+                    [
+                        "AlertBand",
+                        false
+                    ],
+                    [
+                        "SoldierRing",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    3,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 8,
+                "klass": "Swordmaster",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    26,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 8,
+                "klass": "Swordmaster",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    28,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 18,
+                "klass": "Myrmidon",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    25,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 18,
+                "klass": "Myrmidon",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    27,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 18,
+                "klass": "Soldier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    2,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 18,
+                "klass": "Soldier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    3,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 18,
+                "klass": "Soldier",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    4,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

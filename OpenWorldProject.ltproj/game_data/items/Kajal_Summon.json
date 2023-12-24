@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Kajal_Summon",
+        "name": "Summon",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            43
+        ],
+        "components": [
+            [
+                "event_on_hit",
+                "Global KajalSummon"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ]
+        ]
+    }
+]

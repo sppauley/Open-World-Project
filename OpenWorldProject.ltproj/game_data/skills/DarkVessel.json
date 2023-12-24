@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DarkVessel",
+        "name": "Dark Vessel",
+        "desc": "Allows Kajal to summon monsters from nearby empty tiles.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            43
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Kajal_Summon"
+            ]
+        ]
+    }
+]

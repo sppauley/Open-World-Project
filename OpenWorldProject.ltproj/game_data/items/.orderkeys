@@ -186,6 +186,7 @@
     "Summon",
     "Summon_Soldier",
     "MageEffectiveness",
+    "Kajal_Summon",
     "Body_Ring",
     "TeddyBear",
     "AlertBand",
@@ -196,5 +197,6 @@
     "ExecutionersBand",
     "TricksterBoots",
     "MageEffectiveBand",
-    "OldTalisman"
+    "OldTalisman",
+    "SoldierRing"
 ]

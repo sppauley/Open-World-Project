@@ -133,14 +133,14 @@
                 "generic": true
             },
             {
-                "nid": "Johannes",
+                "nid": "Kajal",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    6
+                    5,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -192,6 +192,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

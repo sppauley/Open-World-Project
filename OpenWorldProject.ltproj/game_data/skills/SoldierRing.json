@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SoldierRing",
+        "name": "SoldierRing",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Sword'"
+            ],
+            [
+                "damage",
+                2
+            ]
+        ]
+    }
+]
