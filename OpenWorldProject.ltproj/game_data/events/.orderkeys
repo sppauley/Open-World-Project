@@ -396,5 +396,6 @@
     "global_KajalSummon",
     "14_BanditEscape",
     "5_RefreshDuringRoam",
-    "global_DEBUGCheatItems"
+    "global_DEBUGCheatItems",
+    "global_DEBUGChapterStart"
 ]

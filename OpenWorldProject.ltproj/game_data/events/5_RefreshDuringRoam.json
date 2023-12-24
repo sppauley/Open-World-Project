@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "# So Simon isn't grey for the rest of free roam",
-            "reset;{unit}"
+            "reset;{unit}",
+            "reset;Simon"
         ]
     }
 ]

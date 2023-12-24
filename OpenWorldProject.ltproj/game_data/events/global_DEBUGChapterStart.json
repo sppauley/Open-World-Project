@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DEBUGChapterStart",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "cf.SETTINGS['debug']",
+        "commands": [],
+        "only_once": false,
+        "priority": 23,
+        "_source": [
+            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,None",
+            "if;v(\"_last_choice\") == \"Post-tutorial\"",
+            "    trigger_script;Global DEBUGPostTutorial",
+            "elif;v(\"_last_choice\") == \"Earlymidgame\"",
+            "    trigger_script;Global DEBUGEarlyMidGame",
+            "end",
+            "trigger_script;Global DEBUGCheatItems"
+        ]
+    }
+]
