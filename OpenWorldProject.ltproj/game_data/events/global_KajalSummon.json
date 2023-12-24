@@ -15,6 +15,7 @@
             "    autolevel_to;kajal_summon;{eval:unit.level}",
             "else",
             "    make_generic;kajal_summon;Revenant;{eval:unit.level};enemy2;KajalSummon;Monster;;Sharp Claw",
+            "    give_skill;kajal_summon;Void Curse;no_banner",
             "end",
             "add_unit;kajal_summon;{eval:target_pos};warp",
             "wait;200"
