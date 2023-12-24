@@ -235,6 +235,43 @@
                 "generic": true
             },
             {
+                "nid": "Brandt",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    28,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "109",
                 "variant": null,
                 "level": 1,
@@ -356,8 +393,21 @@
                         15
                     ]
                 }
+            },
+            {
+                "nid": "Brandt",
+                "units": [
+                    "Brandt",
+                    "110"
+                ],
+                "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
