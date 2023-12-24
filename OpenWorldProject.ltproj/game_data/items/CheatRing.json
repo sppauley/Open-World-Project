@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CheatRing",
+        "name": "CheatRing",
+        "desc": "Take very reduced damage",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "CheatSkill"
+            ]
+        ]
+    }
+]

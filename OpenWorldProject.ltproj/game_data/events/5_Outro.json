@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;Lupus;Evasive;no_banner",
+            "remove_skill;Lupus;Evasive;;no_banner",
             "for;party_unit;[u.nid for u in game.get_units_in_party()]",
             "remove_talk;{party_unit};Lupus",
             "endf",
@@ -49,6 +49,7 @@
             "speak;Simon;Lord Verstadt.",
             "speak;Lupus;...{w} A pleasure nonetheless.",
             "multi_remove_portrait;Simon;Anuki;Lupus",
+            "change_team;Lupus;player",
             "game_var;LupusRecruited;True"
         ]
     }

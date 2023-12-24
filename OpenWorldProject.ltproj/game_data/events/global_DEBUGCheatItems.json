@@ -1,0 +1,43 @@
+[
+    {
+        "name": "DEBUGCheatItems",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;convoy;CheatAxe",
+            "give_item;convoy;CheatAxe",
+            "give_item;convoy;CheatAxe",
+            "give_item;convoy;CheatAxe",
+            "give_item;convoy;CheatSword",
+            "give_item;convoy;CheatSword",
+            "give_item;convoy;CheatSword",
+            "give_item;convoy;CheatSword",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatLance",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing",
+            "give_item;convoy;CheatRing"
+        ]
+    }
+]
