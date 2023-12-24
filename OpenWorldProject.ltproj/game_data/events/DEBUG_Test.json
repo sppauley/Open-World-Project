@@ -25,6 +25,7 @@
             "give_skill;102;CrateReposition;no_banner",
             "",
             "give_item;convoy;PoiseRing;no_banner",
+            "give_skill;Kajal;DarkVessel",
             "",
             "#trigger_script;Global GenericPreps",
             "",

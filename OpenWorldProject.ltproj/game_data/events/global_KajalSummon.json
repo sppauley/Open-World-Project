@@ -1,0 +1,23 @@
+[
+    {
+        "name": "KajalSummon",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Phantom will always be the same level as the summoner",
+            "if;game.get_unit('kajal_summon')",
+            "    resurrect;kajal_summon",
+            "    remove_unit;kajal_summon;warp",
+            "    autolevel_to;kajal_summon;{eval:unit.level}",
+            "else",
+            "    make_generic;kajal_summon;Revenant;{eval:unit.level};enemy2;KajalSummon;Monster;;Sharp Claw",
+            "end",
+            "add_unit;kajal_summon;{eval:target_pos};warp",
+            "wait;200"
+        ]
+    }
+]
