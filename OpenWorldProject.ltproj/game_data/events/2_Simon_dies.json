@@ -24,6 +24,7 @@
             "set_unit_level;Vincent;1;no_warn",
             "set_exp;Vincent;0;no_warn",
             "set_stats;Luther;HP,36,CON,5,MAG,0,DEX,16,SPD,5,PSE,18;immediate",
+            "set_current_poise;Luther;18",
             "set_unit_level;Luther;2;no_warn",
             "set_exp;Luther;0;no_warn",
             "#puts the party back at starting points",

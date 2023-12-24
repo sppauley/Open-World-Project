@@ -3,7 +3,7 @@
         "name": "First Fight Dialogue",
         "trigger": "combat_start",
         "level_nid": "12",
-        "condition": "unit1.nid == 'Simon' or unit2.nid == 'Simon'",
+        "condition": "check_default('Simon', ['106', '107'])",
         "commands": [],
         "only_once": true,
         "priority": 20,
