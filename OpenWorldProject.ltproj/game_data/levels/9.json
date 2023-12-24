@@ -469,6 +469,15 @@
                     "110"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "ServantRoom",
+                "units": [
+                    "Juliet",
+                    "112",
+                    "113"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [

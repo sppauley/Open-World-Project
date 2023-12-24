@@ -8,6 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "move_unit;Simon;19,15",
             "add_portrait;Man3;Right",
             "add_portrait;Simon;Left",
             "speak;Man3;Lord Verstadt, your rooms have been prepared.",
