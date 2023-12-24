@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SoldierRing",
+        "name": "Soldier's Ring",
+        "desc": "Holder deals +2 damage against foes with swords.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            16
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "SoldierRing"
+            ]
+        ]
+    }
+]
