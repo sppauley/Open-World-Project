@@ -10,6 +10,19 @@
         "_source": [
             "map_anim;Snag;28,21",
             "show_layer;prison_break",
+            "add_portrait;Nika;Right",
+            "s;Nika;Finally out of that wretched cell.",
+            "s;Nika;To think I'll see Frees Village again...",
+            "s;Nika;And get his damned voice out of my head.",
+            "add_portrait;Simon;Left",
+            "s;Simon;Hey, we're in the middle of storming the bandit hideout.",
+            "s;Simon;Mind lending a hand?",
+            "s;Nika;You're the right kind of insane if you're serious.",
+            "s;Nika;Perhaps a bit too trusting, though.",
+            "s;Simon;An enemy of the bandits can't be that bad.",
+            "s;Simon;But we'll talk more after this is over.",
+            "s;Simon;If we make it out alive.",
+            "multi_remove_portrait;Simon;Nika",
             "change_team;Nika;player",
             "set_unit_field;Nika;PartyMember;'Yes'"
         ]
