@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Check Table",
+        "trigger": "Examine",
+        "level_nid": "9",
+        "condition": "region.nid=='Table1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;Still a bottle left.",
+            "s;Simon;Morrissey's allies must've had a wild night.",
+            "s;Simon;Can't hurt to help clean.",
+            "give_item;Simon;Vulnerary",
+            "remove_portrait;Simon"
+        ]
+    }
+]

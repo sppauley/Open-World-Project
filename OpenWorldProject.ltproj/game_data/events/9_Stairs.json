@@ -34,6 +34,7 @@
             "speak;Simon;Who's there?",
             "wait;500",
             "transition;close",
+            "hide_layer;dirt",
             "show_layer;verstadt",
             "add_unit;Simon;28,2",
             "add_weather;fire",

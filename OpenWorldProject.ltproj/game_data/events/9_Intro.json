@@ -12,11 +12,13 @@
             "#trigger_script;DEBUGPostTutorial (Global DEBUGPostTutorial)",
             "#actual level",
             "show_layer;top_layer",
+            "show_layer;dirt",
             "center_cursor;Simon;immediate",
             "add_talk;Simon;102",
             "add_talk;Simon;Morrissey",
             "add_talk;Simon;109",
-            "add_talk;Simon;Brandt"
+            "add_talk;Simon;Brandt",
+            "add_talk;Simon;Juliet"
         ]
     }
 ]

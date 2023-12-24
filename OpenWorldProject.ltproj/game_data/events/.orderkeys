@@ -361,6 +361,7 @@
     "20_Win_Condition",
     "15_Talk_Paladin",
     "9_Check_Statue",
+    "9_Check_Table",
     "23_Puzzle2",
     "23_Puzzle3",
     "23_TreasureRoom",
@@ -397,5 +398,7 @@
     "14_BanditEscape",
     "5_RefreshDuringRoam",
     "global_DEBUGCheatItems",
-    "global_DEBUGChapterStart"
+    "global_DEBUGChapterStart",
+    "9_Talk_Brandt",
+    "9_Talk_Juliet"
 ]

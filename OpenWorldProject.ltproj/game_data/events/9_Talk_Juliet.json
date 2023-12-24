@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Talk Juliet",
+        "trigger": "on_talk",
+        "level_nid": "9",
+        "condition": "unit2.nid==\"Juliet\" and game.level_vars['NightPassed']!=1",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;6,24",
+            "multi_add_portrait;Simon;Left;Juliet;Right",
+            "s;Juliet;Simon.",
+            "s;Simon;Juliet.",
+            "s;Juliet;I don't really miss this type of work.",
+            "s;Juliet;Cleaning up after messy nobles and all that.",
+            "s;Juliet;No offense.",
+            "center_cursor;2,30",
+            "wait;200",
+            "s;Simon;What do you think happened?",
+            "s;Simon;That's a mess.",
+            "s;Juliet;Oh, I've seen worse.",
+            "s;Juliet;When Luther and Vincent would drink, they'd nearly destroy the main hall.",
+            "s;Juliet;But the servants said Morrissey invited influential merchants to the castle last night.",
+            "s;Juliet;And they clearly got carried away.",
+            "s;Simon;How'd the merchants even get here?",
+            "s;Simon;With monsters roaming everywhere, I can't imagine making the journey just to party.",
+            "s;Juliet;The lands around here seem pretty well protected.",
+            "s;Juliet;Morrissey probably wanted to keep the trade routes secure.",
+            "s;Juliet;He seems like the guy who can't live without imported wine.",
+            "s;Simon;Shhhh. Don't speak so loudly!",
+            "s;Simon;At this rate, negotiations won't go well...",
+            "multi_remove_portrait;Simon;Juliet",
+            "remove_talk;Simon;Juliet"
+        ]
+    }
+]
