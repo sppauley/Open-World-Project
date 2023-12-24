@@ -54,6 +54,7 @@
             "speak;Juliet;Bribery?{w} This is generosity.{w}{br}Remember the difference.",
             "remove_portrait;Juliet",
             "trigger_script;Global HidePartyMember;Juliet",
+            "remove_unit;Juliet;no_warn",
             "remove_portrait;Simon"
         ]
     }
