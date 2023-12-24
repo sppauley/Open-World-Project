@@ -36,6 +36,9 @@
             "remove_portrait;Simon",
             "",
             "trigger_script;Global ConsolidateToLeader",
+            "for;party_unit;[u.nid for u in game.get_units_in_party() if u.nid != \"Simon\"]",
+            "    remove_unit;{party_unit}",
+            "endf",
             "change_roaming_unit;Simon",
             "change_roaming;t"
         ]

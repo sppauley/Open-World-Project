@@ -14,7 +14,7 @@
             "speak;Lupus;Ahah... well, this is awkward.{w}{br}Wanna talk this out?",
             "remove_portrait;Lupus",
             "remove_portrait;{unit1}",
-            "remove_skill;Lupus;Evasive",
+            "remove_skill;Lupus;Evasive;no_banner",
             "win_game"
         ]
     }
