@@ -71,7 +71,7 @@
             "sound;Unlock",
             "show_layer;merchantdooropen",
             "move_unit;Simon;7,25",
-            "game_var;EbertState;Met",
+            "game_var;EbertState;\"Met\"",
             "add_talk;Simon;Yusna",
             "add_talk;Simon;Rodger"
         ]

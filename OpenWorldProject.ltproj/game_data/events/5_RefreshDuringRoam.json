@@ -1,0 +1,15 @@
+[
+    {
+        "name": "RefreshDuringRoam",
+        "trigger": "unit_wait",
+        "level_nid": "5",
+        "condition": "game.is_roam()",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# So Simon isn't grey for the rest of free roam",
+            "reset;{unit}"
+        ]
+    }
+]

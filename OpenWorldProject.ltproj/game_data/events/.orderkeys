@@ -394,5 +394,7 @@
     "26_PushUnit",
     "26_Open_Gate",
     "global_KajalSummon",
-    "14_BanditEscape"
+    "14_BanditEscape",
+    "5_RefreshDuringRoam",
+    "global_DEBUGCheatItems"
 ]

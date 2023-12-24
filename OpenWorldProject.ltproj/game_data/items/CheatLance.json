@@ -1,7 +1,7 @@
 [
     {
-        "nid": "CheatAxe",
-        "name": "CheatAxe",
+        "nid": "CheatLance",
+        "name": "CheatLance",
         "desc": "Always crit",
         "icon_nid": "Axe",
         "icon_index": [
@@ -31,7 +31,7 @@
             ],
             [
                 "weapon_type",
-                "Axe"
+                "Lance"
             ],
             [
                 "weapon_rank",
