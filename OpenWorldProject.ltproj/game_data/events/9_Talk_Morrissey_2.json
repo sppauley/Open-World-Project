@@ -28,6 +28,7 @@
             "speak;Morrissey;I only ask that you think on it.",
             "wait;500",
             "speak;Morrissey;The training grounds are on the west side of the main hall.",
+            "s;Morrissey;We'll talk more after you clear your head.",
             "multi_remove_portrait;Simon;Morrissey",
             "remove_talk;Simon;Morrissey"
         ]
