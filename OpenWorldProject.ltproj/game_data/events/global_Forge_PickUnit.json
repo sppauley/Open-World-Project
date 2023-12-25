@@ -12,7 +12,7 @@
             "level_var;ChoosingUnit;1",
             "level_var;ChoosingMaterial;0",
             "# sets up unit to forge for, saves to var ForgeUnit",
-            "choice;ForgeUnit;Unit;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};76;v;top_left;menu_bg_base;;type_unit;10,1;left;backable;scroll_bar",
+            "choice;ForgeUnit;Unit;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};76;v;top_left;menu_bg_base;;type_unit;5,1;left;-5,-4;backable;scroll_bar",
             "",
             "if;'{v:ForgeUnit}'!='BACK'",
             "# pick forging item",
