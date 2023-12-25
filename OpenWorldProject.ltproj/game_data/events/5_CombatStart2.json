@@ -16,6 +16,8 @@
             "remove_unit;101;immediate",
             "remove_unit;102;immediate",
             "remove_unit;103;immediate",
+            "remove_region;StartFormation1",
+            "remove_region;StartFormation2",
             "change_roaming;f",
             "",
             "arrange_formation",
