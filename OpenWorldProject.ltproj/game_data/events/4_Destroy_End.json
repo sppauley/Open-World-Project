@@ -25,6 +25,7 @@
             "remove_portrait;Kajal",
             "wait;500",
             "change_team;Kajal;enemy",
+            "trigger_script;Global Upgrade Leadership",
             "win_game"
         ]
     }

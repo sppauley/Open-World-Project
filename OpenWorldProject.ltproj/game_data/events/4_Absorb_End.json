@@ -31,6 +31,7 @@
             "remove_portrait;Kajal",
             "give_skill;Kajal;DarkVessel",
             "end",
+            "trigger_script;Global Upgrade Leadership",
             "win_game"
         ]
     }
