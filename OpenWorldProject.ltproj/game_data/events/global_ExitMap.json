@@ -14,7 +14,7 @@
             "",
             "level_var;_level_end_triggered;True",
             "if;v(\"CurrentNode\")",
-            "    set_overworld_menu_option_visible;{v:CurrentNode};Battle;t",
+            "    set_overworld_menu_option_visible;1;{v:CurrentNode};Battle;t",
             "end",
             "",
             "win_game"
