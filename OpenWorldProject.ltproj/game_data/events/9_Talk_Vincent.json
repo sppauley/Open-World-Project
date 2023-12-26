@@ -3,7 +3,7 @@
         "name": "Talk Vincent",
         "trigger": "on_talk",
         "level_nid": "9",
-        "condition": "unit2.nid=='Vincent'",
+        "condition": "unit2.nid=='Vincent' and game.level_vars['NightPassed']==1",
         "commands": [],
         "only_once": true,
         "priority": 20,

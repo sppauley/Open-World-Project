@@ -3,7 +3,7 @@
         "name": "Talk Juliet",
         "trigger": "on_talk",
         "level_nid": "9",
-        "condition": "unit2.nid==\"Juliet\" and game.level_vars['NightPassed']!=1",
+        "condition": "unit2.nid==\"Juliet\" and game.level_vars['TalkMorrissey']!=1",
         "commands": [],
         "only_once": true,
         "priority": 20,
