@@ -901,30 +901,6 @@
                 "generic": true
             },
             {
-                "nid": "126",
-                "variant": null,
-                "level": 15,
-                "klass": "Mercenary",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "b",
-                "starting_position": [
-                    11,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "124",
                 "variant": null,
                 "level": 5,
@@ -968,30 +944,6 @@
                 "starting_position": [
                     20,
                     21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 15,
-                "klass": "Brigand",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "b",
-                "starting_position": [
-                    18,
-                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1796,6 +1748,102 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "171",
+                "variant": null,
+                "level": 11,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "f",
+                "starting_position": [
+                    14,
+                    49
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "173",
+                "variant": null,
+                "level": 11,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "f",
+                "starting_position": [
+                    17,
+                    49
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "174",
+                "variant": null,
+                "level": 11,
+                "klass": "Sniper",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "f",
+                "starting_position": [
+                    9,
+                    50
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "175",
+                "variant": null,
+                "level": 11,
+                "klass": "Sniper",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "f",
+                "starting_position": [
+                    22,
+                    50
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1954,6 +2002,10 @@
             },
             {
                 "nid": "e",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "f",
                 "trigger_threshold": 1
             }
         ]
