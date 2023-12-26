@@ -9,8 +9,7 @@
         "priority": 20,
         "_source": [
             "multi_add_portrait;Luther;FarRight;SoldierBlue;CenterLeft",
-            "speak;Luther;Barston, you absolute bastard.",
-            "speak;Luther;I still can't believe you're working for Morrissey.",
+            "speak;Luther;Barston, I can't believe you're working for Morrissey.",
             "speak;SoldierBlue;Hah, you wish you could land a position like this, you old codger.",
             "speak;Luther;Oh?{w} And do what? Stand in the same spot all day?",
             "speak;Luther;Certainly far from roaming the land, slaying giants like back in the day.",

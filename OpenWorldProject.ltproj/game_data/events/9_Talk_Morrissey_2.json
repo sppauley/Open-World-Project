@@ -18,19 +18,22 @@
             "wait;500",
             "speak;Morrissey;Please, you simply must take your mind off of this.",
             "speak;Morrissey;Why don't you join my daughter Anuki in a skirmish against my guard captain?",
-            "speak;Morrissey;It would be nice to see how you and your companions fight.",
+            "s;Morrissey;I would value the chance to see your tactics and swordsmanship in practice.",
             "wait;700",
-            "speak;Morrissey;And perhaps, if I may be forward with you...",
-            "speak;Morrissey;This will spark something between Anuki and yourself as well.",
-            "speak;Morrissey;A union between our houses would be most advantageous.",
-            "speak;Morrissey;Especially given the state of yours, if you will excuse my frankness.",
-            "speak;Simon;Wait, what?",
-            "speak;Morrissey;I only ask that you think on it.",
+            "s;Morrissey;Oh, and Simon.",
+            "s;Simon;Yes?",
+            "s;Morrissey;I've considered your request.",
+            "s;Morrissey;I do believe our houses would be stronger together than apart.",
+            "s;Morrissey;And a union between yourself and Anuki would certainly be one way to forge a strong alliance.",
+            "s;Morrissey;But I only ask that you think on this.",
+            "s;Simon;Uh, of course. {w}I'll give it some thought.",
             "wait;500",
             "speak;Morrissey;The training grounds are on the west side of the main hall.",
             "s;Morrissey;We'll talk more after you clear your head.",
             "multi_remove_portrait;Simon;Morrissey",
-            "remove_talk;Simon;Morrissey"
+            "remove_talk;Simon;Morrissey",
+            "level_var;SecondMorrisseyTalk;1",
+            "add_talk;Simon;Juliet"
         ]
     }
 ]

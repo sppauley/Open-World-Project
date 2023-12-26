@@ -1,6 +1,6 @@
 [
     {
-        "name": "Talk Juliet",
+        "name": "Talk Juliet 1",
         "trigger": "on_talk",
         "level_nid": "9",
         "condition": "unit2.nid==\"Juliet\" and game.level_vars['TalkMorrissey']!=1",
