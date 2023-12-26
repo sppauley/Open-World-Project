@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Talk Bordeaux",
+        "trigger": "on_talk",
+        "level_nid": "9",
+        "condition": "unit2.nid==\"Bordeaux\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;5,8",
+            "center_cursor;Anuki",
+            "multi_add_portrait;Bordeaux;Left;Anuki;Right",
+            "s;Bordeaux;Lady Anuki, you really should be getting some rest.",
+            "s;Anuki;Don't \"Lady Anuki\" me.",
+            "s;Anuki;And I keep telling you, I'm perfectly fine.",
+            "s;Anuki;Just one more round.",
+            "s;Anuki;Or are you just tired, old man? Want to quit?",
+            "s;Bordeaux;Ha! I barely broke a sweat against you.",
+            "s;Bordeaux;But your dad would demote me to cleaning duty if you got hurt from over-exertion.",
+            "s;Anuki;Yeah, yeah.",
+            "s;Anuki;Rematch tomorrow?",
+            "s;Bordeaux;Of course.",
+            "s;Bordeaux;Another win can't hurt.",
+            "multi_remove_portrait;Anuki;Bordeaux",
+            "remove_talk;Simon;Bordeaux"
+        ]
+    }
+]

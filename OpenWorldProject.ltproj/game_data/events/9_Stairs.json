@@ -44,6 +44,7 @@
             "remove_group;Brandt",
             "remove_group;VincentLuther",
             "remove_group;ServantRoom",
+            "remove_group;BordeauxAnuki",
             "remove_talk;Simon;Brandt",
             "remove_talk;Simon;Juliet",
             "load_unit;Percy",

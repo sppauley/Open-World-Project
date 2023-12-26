@@ -399,5 +399,8 @@
     "global_DEBUGCheatItems",
     "global_DEBUGChapterStart",
     "9_Talk_Brandt",
-    "9_Talk_Juliet"
+    "9_Talk_Juliet",
+    "9_Check_Exit",
+    "9_Talk_Vincent_and_Luther",
+    "9_Talk_Bordeaux"
 ]

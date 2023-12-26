@@ -20,6 +20,8 @@
             "add_talk;Simon;Brandt",
             "add_talk;Simon;Juliet",
             "add_talk;Simon;Vincent",
+            "add_talk;Simon;Bordeaux",
+            "remove_tag;Bordeaux;Boss",
             "# ",
             "# adding some intro context",
             "move_unit;Vincent;16,27;no_block",
