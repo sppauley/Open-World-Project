@@ -76,7 +76,7 @@
             "center_cursor;33",
             "reveal_overworld_node;54",
             "reveal_overworld_road;33;54",
-            "trigger_script;Global ExitMap",
+            "",
             "win_game",
             "end"
         ]

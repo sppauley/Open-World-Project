@@ -9,6 +9,7 @@
         "priority": 18,
         "_source": [
             "overworld_cinematic;1",
+            "center_cursor;Simon",
             "reveal_overworld_node;49",
             "reveal_overworld_road;33;49"
         ]
