@@ -120,5 +120,9 @@
     {
         "nid": "{Maxim} Pendant 6",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} icon 158",
+        "subicon_dict": {}
     }
 ]

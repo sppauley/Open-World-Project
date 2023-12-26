@@ -10,7 +10,9 @@
         "_source": [
             "# Fliers in the south",
             "center_cursor;11,29",
-            "add_group;SouthFliers;starting;fade"
+            "wait;400",
+            "add_group;SouthFliers;starting;fade",
+            "wait;800"
         ]
     }
 ]
