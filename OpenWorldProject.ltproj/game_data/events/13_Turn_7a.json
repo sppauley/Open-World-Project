@@ -3,9 +3,9 @@
         "name": "Turn 7a",
         "trigger": "turn_change",
         "level_nid": "13",
-        "condition": "game.turncount == 7 and game.check_dead('MainWall')",
+        "condition": "game.turncount > 7 and game.check_dead('MainWall')",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_unit;Crate_Wave2a;0,18",
