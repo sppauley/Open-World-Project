@@ -10,7 +10,7 @@
         "_source": [
             "add_portrait;Bordeaux;Right",
             "add_portrait;Anuki;Left",
-            "speak;Bordeaux;Princess.",
+            "speak;Bordeaux;Lady Anuki.",
             "speak;Anuki;Shut up and swing.{w} You've never held back before.",
             "multi_remove_portrait;Anuki;Bordeaux"
         ]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KnightCrest",
+        "name": "Knight Crest",
+        "desc": "Holder gains +4 HP and +2 Poise.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "KnightCrestSkill"
+            ]
+        ]
+    }
+]
