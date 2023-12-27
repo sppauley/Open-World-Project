@@ -12,6 +12,7 @@
             "# actual intro stuff",
             "add_weather;purple",
             "add_weather;sunset",
+            "show_layer;overlay",
             "remove_unit;Simon",
             "remove_unit;Kajal",
             "# intro script",
