@@ -9,6 +9,9 @@
         "priority": 20,
         "_source": [
             "if;unit.nid=='Simon'",
+            "add_portrait;Simon;Left",
+            "s;Simon;Let's get out of this wretched place.",
+            "remove_portrait;Simon",
             "overworld_cinematic;1",
             "reveal_overworld_node;29",
             "reveal_overworld_road;29;30",

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Combat Gustav",
+        "trigger": "combat_start",
+        "level_nid": "8",
+        "condition": "unit.nid=='Gustav' or unit2.nid=='Gustav'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Gustav;Right",
+            "s;Gustav;Nobody else is getting through here alive!",
+            "s;Gustav;May the swamp creatures feast upon your corpse!",
+            "remove_portrait;Gustav"
+        ]
+    }
+]
