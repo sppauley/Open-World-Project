@@ -156,7 +156,7 @@
                     4
                 ],
                 "sub_nid": "Swamp",
-                "condition": "True",
+                "condition": "game.game_vars['CheckSwamp']!=1",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -177,9 +177,65 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Graveyard",
+                "region_type": "event",
+                "position": [
+                    17,
+                    6
+                ],
+                "size": [
+                    4,
+                    6
+                ],
+                "sub_nid": "Graveyard",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Tavern",
+                "region_type": "event",
+                "position": [
+                    2,
+                    7
+                ],
+                "size": [
+                    5,
+                    4
+                ],
+                "sub_nid": "Tavern",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Smithy",
+                "region_type": "event",
+                "position": [
+                    15,
+                    2
+                ],
+                "size": [
+                    4,
+                    2
+                ],
+                "sub_nid": "Smithy",
+                "condition": "game.game_vars['SwampSmithy']!=1",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
