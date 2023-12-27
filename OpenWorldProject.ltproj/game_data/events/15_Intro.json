@@ -10,6 +10,7 @@
         "_source": [
             "add_weather;sunset",
             "add_weather;purple",
+            "show_layer;overlay",
             "add_talk;Simon;Kajal",
             "add_talk;Simon;103",
             "center_cursor;Simon;immediate",
