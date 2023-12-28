@@ -1,0 +1,14 @@
+[
+    {
+        "name": "CenterOnSimonOverworld",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 30,
+        "_source": [
+            "center_cursor;Simon;immediate"
+        ]
+    }
+]

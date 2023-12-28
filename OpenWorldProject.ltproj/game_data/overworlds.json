@@ -466,7 +466,7 @@
                 "menu_options": [
                     {
                         "nid": "Roam",
-                        "event": null,
+                        "event": "OverworldRoamSelect",
                         "option_name": "Roam",
                         "visible": true,
                         "enabled": true

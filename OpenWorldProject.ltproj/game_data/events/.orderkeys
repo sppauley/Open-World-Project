@@ -407,5 +407,6 @@
     "15_Check_Graveyard",
     "15_Check_Tavern",
     "15_Smithy",
-    "8_Combat_Gustav"
+    "8_Combat_Gustav",
+    "global_CenterOnSimonOverworld"
 ]
