@@ -180,7 +180,6 @@
     "Red_Gem",
     "Blue_Gem",
     "White_Gem",
-    "DamageMaterial",
     "Steal",
     "Shove",
     "Reposition",
@@ -203,5 +202,6 @@
     "OldTalisman",
     "SoldierRing",
     "CheatRing",
-    "KnightCrest"
+    "KnightCrest",
+    "NoItem"
 ]
