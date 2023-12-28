@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "27",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background;BlackBackground",
+            "speak_style;LachesisTalk;Narrator;center;;;;text-white;bg_black",
+            "s;Narrator;Some called it chance.{w}{br}A stroke of bad luck.;StyleNid=LachesisTalk",
+            "s;Narrator;But it was played out before it began.;StyleNid=LachesisTalk",
+            "add_weather;sunset",
+            "add_weather;fire",
+            "center_cursor;12,20",
+            "change_background",
+            ""
+        ]
+    }
+]
