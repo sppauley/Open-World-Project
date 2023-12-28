@@ -22,7 +22,7 @@
             "    # checks to see if this is a one-time addition component (has an amount)",
             "    if;'{d:ForgingTable.{eval:'{v:ForgeType}'.split(' ')[0]}.amount}'",
             "        level_var;ForgeAmount;{d:ForgingTable.{eval:'{v:ForgeType}'.split(' ')[0]}.amount}",
-            "        level_var;ForgeCost;{eval:[component.value for component in [item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeNID}'][0].components if component.nid == game.level_vars['ForgeComponent']][0]//game.level_vars['ForgeAmount'] + 1 - [component.value for component in [item for item in game.get_unit('Blacksmith').items if item.nid == '{v:ForgeNID}'][0].components if component.nid == game.level_vars['ForgeComponent']][0]//game.level_vars['ForgeAmount']}",
+            "        level_var;ForgeCost;{eval:[component.value for component in [item for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeNID}'][0].components if component.nid == '{v:ForgeComponent}'][0]//game.level_vars['ForgeAmount'] + 1 - [component.value for component in [item for item in game.get_unit('Blacksmith').items if item.nid == '{v:ForgeNID}'][0].components if component.nid == '{v:ForgeComponent}'][0]//{v:ForgeAmount}}",
             "        level_var;NewComponent;0",
             "    else",
             "        sound;Error",

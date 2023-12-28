@@ -34,6 +34,7 @@
             "    trigger_script_with_args;Forge_PickItem;ForgeUnit,{v:ForgeUnit}",
             "else",
             "    sound;Select 5",
+            "    remove_item;Blacksmith;NoItem;no_banner",
             "    unchoice",
             "end"
         ]
