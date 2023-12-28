@@ -47,6 +47,7 @@
             "    remove_portrait;Simon",
             "end",
             "",
+            "arrange_formation",
             "trigger_script;Global GenericPreps"
         ]
     }

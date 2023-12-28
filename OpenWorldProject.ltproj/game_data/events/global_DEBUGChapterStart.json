@@ -8,11 +8,13 @@
         "only_once": false,
         "priority": 23,
         "_source": [
-            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,None",
+            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,KevPlaytest1,None",
             "if;v(\"_last_choice\") == \"Post-tutorial\"",
             "    trigger_script;Global DEBUGPostTutorial",
             "elif;v(\"_last_choice\") == \"Earlymidgame\"",
             "    trigger_script;Global DEBUGEarlyMidGame",
+            "elif;v(\"_last_choice\") == \"KevPlaytest1\"",
+            "    trigger_script;Global DEBUGKevPlaytest1",
             "end",
             "trigger_script;Global DEBUGCheatItems"
         ]

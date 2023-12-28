@@ -10,24 +10,15 @@
         ],
         "components": [
             [
-                "stat_change",
-                [
-                    [
-                        "SPD",
-                        8
-                    ]
-                ]
-            ],
-            [
                 "hidden",
                 null
             ],
             [
-                "upkeep_stat_change",
+                "stat_change_expression",
                 [
                     [
                         "SPD",
-                        -1
+                        "8 + ((game.turncount - 1) * -1)"
                     ]
                 ]
             ]

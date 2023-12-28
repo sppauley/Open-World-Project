@@ -47,6 +47,10 @@
             [
                 "exp",
                 100
+            ],
+            [
+                "usable_in_base",
+                null
             ]
         ]
     }

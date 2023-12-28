@@ -15,6 +15,7 @@
             "overworld_cinematic;1",
             "reveal_overworld_node;29",
             "reveal_overworld_road;29;30",
+            "set_overworld_menu_option_visible;1;30;Roam;f",
             "win_game",
             "end",
             "remove_unit;{unit}"

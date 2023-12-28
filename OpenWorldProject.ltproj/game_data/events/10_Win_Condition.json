@@ -18,7 +18,7 @@
             "speak;Simon;Think your troops would be willing to lend us a hand?",
             "speak;Titus;We'd certainly help.",
             "speak;Titus;Can't promise too much, though.",
-            "speak;Titus;Seems the Fates have it in for us. Our convoy has been ravaged by bandits and many of our soldiers have disappeared in the night.",
+            "speak;Titus;Seems the Fates have it in for us.{w} Our convoy has been ravaged by bandits,{w}{br}and many of our soldiers have disappeared in the night.",
             "speak;Titus;Only a few paladins and I remain.",
             "speak;Simon;Any idea what happened?",
             "speak;Titus;This place is cursed, it seems.",
