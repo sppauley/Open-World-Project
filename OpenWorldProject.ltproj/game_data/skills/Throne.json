@@ -20,6 +20,10 @@
             [
                 "hidden",
                 null
+            ],
+            [
+                "is_terrain",
+                null
             ]
         ]
     }
