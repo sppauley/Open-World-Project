@@ -37,7 +37,8 @@
             "give_item;convoy;CheatRing;no_banner",
             "give_item;convoy;CheatRing;no_banner",
             "give_item;convoy;CheatRing;no_banner",
-            "give_item;convoy;CheatRing;no_banner"
+            "give_item;convoy;CheatRing;no_banner",
+            "game_var;DamageWeaponMaterial;99"
         ]
     }
 ]
