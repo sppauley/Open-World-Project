@@ -8,14 +8,17 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "# setup for the blacksmith",
+            "if;not u('Blacksmith')",
+            "    make_generic;Blacksmith;Citizen;1;other;None;Soldier",
+            "end",
+            "give_item;Blacksmith;NoItem;no_banner",
             "# table of items",
-            "table;Items;{eval:[str(item.uid) for item in u('Simon').items] if '{v:ForgeUnit_choice_hover}'=='??' else [str(item.uid) for item in u('{v:ForgeUnit_choice_hover}').items]};Items;4,1;120;bottom;menu_bg_base;type_game_item;left;-7,1;expression",
+            "table;Items;{eval:[str(item.uid) for item in u('Simon').items] if '{v:ForgeUnit_choice_hover}'=='??' else [str(item.uid) for item in u('{v:ForgeUnit_choice_hover}').items] if len(u('{v:ForgeUnit_choice_hover}').items)>0 else str(u('Blacksmith').items[0].uid)};Item;4,1;100;bottom;menu_bg_base;type_game_item;left;-0,2;expression",
             "# table of materials",
-            "table;Materials;{eval:[str(var).replace('WeaponMaterial','')+' '+str(game.game_vars[str(var)]) for var in game.game_vars if 'WeaponMaterial' in str(var)]};Materials;10,1;76;top_right;menu_bg_base;;left;expression",
+            "table;Materials;{eval:[str(var).replace('WeaponMaterial','')+' '+str(game.game_vars[str(var)]) for var in game.game_vars if 'WeaponMaterial' in str(var)]};Material;11,1;76;top_right;menu_bg_base;;left;-0,0;expression",
             "# table of units",
-            "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Units;11,1;76;top_left;menu_bg_base;type_unit;left;-0,0",
-            "# unit details",
-            "textbox;ItemDetails;\"{eval:str('Simon' if '{v:ForgeUnit_choice_hover}'=='??' else '{v:ForgeUnit_choice_hover}')+'|CON '+str(u('{v:ForgeUnit_choice_hover}').stats['CON'])+' MAG '+str(u('{v:ForgeUnit_choice_hover}').stats['MAG'])}\";top;132;6;;;;text-white;menu_bg_dark;expression",
+            "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Unit;11,1;76;top_left;menu_bg_base;type_unit;left;-0,0",
             "#",
             "trigger_script;Forge_PickUnit"
         ]

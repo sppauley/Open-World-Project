@@ -41,7 +41,7 @@
                 "var": "TriangleWeaponMaterial",
                 "": "TriangleWeaponMaterial",
                 "amount": "",
-                "add_text": "Doubles weapon triangle"
+                "add_text": "x2 weapon triangle"
             },
             {
                 "nid": "Damage",
