@@ -13,7 +13,7 @@
             "# table of materials",
             "table;Materials;{eval:[str(var).replace('WeaponMaterial','')+' '+str(game.game_vars[str(var)]) for var in game.game_vars if 'WeaponMaterial' in str(var)]};Materials;10,1;76;top_right;menu_bg_base;;left;expression",
             "# table of units",
-            "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Units;11,1;76;top_left;menu_bg_base;type_unit;left;-1,0",
+            "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Units;11,1;76;top_left;menu_bg_base;type_unit;left;-0,0",
             "# unit details",
             "textbox;ItemDetails;\"{eval:str('Simon' if '{v:ForgeUnit_choice_hover}'=='??' else '{v:ForgeUnit_choice_hover}')+'|CON '+str(u('{v:ForgeUnit_choice_hover}').stats['CON'])+' MAG '+str(u('{v:ForgeUnit_choice_hover}').stats['MAG'])}\";top;132;6;;;;text-white;menu_bg_dark;expression",
             "#",
