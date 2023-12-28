@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "NoItem",
+        "name": "No Items",
+        "desc": "A placeholder item used for forging UI",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]
