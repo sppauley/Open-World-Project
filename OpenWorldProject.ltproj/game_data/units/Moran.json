@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "Moran",
+        "name": "Moran",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Morrissey_Lord",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "MOV": 6,
+            "CON": 15,
+            "MAG": 20,
+            "DEX": 17,
+            "SPD": 18,
+            "PSE": 20
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Elfire",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                251,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]
