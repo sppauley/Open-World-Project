@@ -22,10 +22,17 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    3
-                ],
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lachesis",
+                "team": "enemy2",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -713,7 +720,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SlowTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -729,7 +736,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SpeedTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
