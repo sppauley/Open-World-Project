@@ -158,7 +158,7 @@
                 "starting_items": [
                     [
                         "Steel Sword",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],

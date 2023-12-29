@@ -101,14 +101,14 @@
                 "starting_items": [
                     [
                         "Iron Bow",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     6,
                     19
@@ -221,14 +221,14 @@
                 "starting_items": [
                     [
                         "Iron Axe",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     17,
                     13
@@ -293,14 +293,14 @@
                 "starting_items": [
                     [
                         "Iron Lance",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     8,
                     0

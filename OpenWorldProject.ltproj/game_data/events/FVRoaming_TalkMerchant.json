@@ -13,6 +13,7 @@
             "speak;Priest;To use magic for such purposes...{w}{br}Gah! It boils my blood.{w}{br}Please be careful around those men.{w}{br}They draw their power from a strange obelisk to the east.{w}{br}They've also seized a fort nearby.",
             "speak;Simon;We aren't afraid.{w} We beat them here,{w}{br}and we'll rout them again.",
             "speak;Priest;The bandits they sent here were their weakest, I'm afraid.{w}{br}You musn't underestimate Vilge and his lot.",
+            "give_money;1000;Simon",
             "multi_remove_portrait;Simon;Priest"
         ]
     }
