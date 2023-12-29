@@ -180,6 +180,7 @@
     "Red_Gem",
     "Blue_Gem",
     "White_Gem",
+    "NoItem",
     "Steal",
     "Shove",
     "Reposition",
@@ -203,5 +204,5 @@
     "SoldierRing",
     "CheatRing",
     "KnightCrest",
-    "NoItem"
+    "CrusaderRing"
 ]

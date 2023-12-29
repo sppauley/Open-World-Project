@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "NoCrit",
+        "name": "NoCrit",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_crit_avoid",
+                "+999 if unit.get_poise() > 0 else 0"
+            ]
+        ]
+    }
+]

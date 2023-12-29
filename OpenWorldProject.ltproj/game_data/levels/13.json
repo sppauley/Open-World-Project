@@ -78,8 +78,8 @@
                         false
                     ],
                     [
-                        "ForgingBag",
-                        false
+                        "CrusaderRing",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -279,7 +279,7 @@
                 "starting_items": [
                     [
                         "Steel Sword",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -403,7 +403,7 @@
                     ],
                     [
                         "Cripple",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],

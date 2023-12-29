@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "CrusaderRing",
+        "name": "Crusader's Ring",
+        "desc": "If the holder's poise isn't broken, holder cannot be critically hit.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        9
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "NoCrit"
+            ]
+        ]
+    }
+]
