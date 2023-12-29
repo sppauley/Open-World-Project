@@ -13,8 +13,6 @@
             "",
             "center_cursor;FakeNika",
             "",
-            "move_unit;FakeLim;FakeNika;fade;closest;no_follow;no_warn",
-            "",
             "wait;700",
             "",
             "add_portrait;NikaPossessed;Right",

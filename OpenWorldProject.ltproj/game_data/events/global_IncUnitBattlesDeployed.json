@@ -9,9 +9,9 @@
         "priority": 5,
         "_source": [
             "for;u;[u for u in game.get_player_units() if u.position]",
-            "    if;{f:{u}.BattlesDeployed}",
+            "    if;game.get_unit(\"{u}\").get_field(\"BattlesDeployed\")",
             "        level_var;BattlesDeployed;{f:{u}.BattlesDeployed}",
-            "        set_unit_field;{u};BattlesDeployed;{v:int(v(\"BattlesDeployed\")) + 1}",
+            "        set_unit_field;{u};BattlesDeployed;{e:int(v(\"BattlesDeployed\")) + 1}",
             "    else",
             "        set_unit_field;{u};BattlesDeployed;1",
             "    end",
