@@ -519,7 +519,7 @@
             {
                 "nid": "DK_1",
                 "variant": null,
-                "level": 1,
+                "level": 20,
                 "klass": "DraconicKnight",
                 "faction": "Dragon",
                 "starting_items": [
@@ -543,7 +543,7 @@
             {
                 "nid": "DK_2",
                 "variant": null,
-                "level": 1,
+                "level": 20,
                 "klass": "DraconicKnight",
                 "faction": "Dragon",
                 "starting_items": [
@@ -743,6 +743,11 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
