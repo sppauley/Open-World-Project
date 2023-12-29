@@ -193,14 +193,14 @@
                 "starting_items": [
                     [
                         "Iron Axe",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     11,
                     25
@@ -384,15 +384,15 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver_Mace",
-                        false
+                        "Steel_Mace",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     16,
                     17
@@ -1230,6 +1230,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

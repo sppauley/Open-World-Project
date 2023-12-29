@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Sol",
+        "name": "Sol",
+        "desc": "Unit has DEX% chance to deal half of damage dealt.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            38
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "SKILL_HIT"
+            ],
+            [
+                "attack_proc",
+                "Sol_Proc"
+            ]
+        ]
+    }
+]

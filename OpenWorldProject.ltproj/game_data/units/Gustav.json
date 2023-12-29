@@ -31,11 +31,15 @@
         "starting_items": [
             [
                 "Steel Bow",
-                true
+                false
             ],
             [
                 "Steel Sword",
                 false
+            ],
+            [
+                "SolManual",
+                true
             ]
         ],
         "learned_skills": [],

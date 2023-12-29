@@ -559,8 +559,8 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Bow",
-                        false
+                        "Steel Bow",
+                        true
                     ]
                 ],
                 "starting_skills": [],

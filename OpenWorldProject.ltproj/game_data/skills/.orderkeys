@@ -104,5 +104,7 @@
     "DarkVessel",
     "CheatSkill",
     "KnightCrestSkill",
-    "NoCrit"
+    "NoCrit",
+    "Sol",
+    "Sol_Proc"
 ]
