@@ -191,7 +191,28 @@
             "s;Moran;What could the dragonlord want with us?",
             "remove_portrait;Moran",
             "hide_layer;roof",
-            "add_unit;Simon;9,5"
+            "remove_weather;fire",
+            "end_skip",
+            "add_unit;Simon;10,5;immediate",
+            "add_unit;Lachesis;9,5;immediate",
+            "center_cursor;Simon",
+            "wait;300",
+            "add_portrait;Simon;Left",
+            "s;Simon;A vision from the Fates...",
+            "s;Simon;But why?{w} What are you trying to show me?",
+            "add_portrait;Lachesis;Right",
+            "s;Lachesis;I merely aim to show the truth.",
+            "s;Lachesis;You, Simon, do not seem to grasp your circumstances.",
+            "s;Lachesis;Do you truly believe you can restore the noble houses?",
+            "s;Lachesis;Their fall has long been the fated path, even centuries ago.",
+            "s;Lachesis;You mortals behold Atropos's tapestry yet fail to learn.",
+            "s;Simon;What are you talking about?",
+            "s;Lachesis;Perhaps Clotho overestimated you...",
+            "s;Lachesis;Speak with them.{w} Share their last moments.",
+            "s;Lachesis;Speak with me again after you behold this moment.",
+            "multi_remove_portrait;Lachesis;Simon",
+            "add_talk;Simon;Moran",
+            "add_talk;Simon;Lachesis"
         ]
     }
 ]

@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Talk Moran",
+        "trigger": "on_talk",
+        "level_nid": "27",
+        "condition": "unit2.nid=='Moran'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Moran;Right;mirror",
+            "s;Moran;I can hear those cursed knights breaking our fortifications...",
+            "s;Moran;That damned dragon!",
+            "s;Moran;Why did it have to strike now?",
+            "s;Moran;Why is it after us?",
+            "add_portrait;Simon;Left;left",
+            "mirror_portrait;Moran",
+            "s;Moran;Soldier! What are you still doing here?",
+            "s;Moran;Go and join your comrades at the gates!",
+            "s;Moran;This is not the time for cowardice!",
+            "s;Simon;Apologies.",
+            "s;Simon;But, if I might ask, why is this dragon here?",
+            "s;Moran;Who knows?!",
+            "s;Moran;Just move! We're running out of time!",
+            "s;Moran;And by the Fates, what are you doing without any tomes?",
+            "s;Moran;With soldiers like you, no wonder we're in such shambles!",
+            "s;Moran;Just take this and get out of my sight.",
+            "multi_remove_portrait;Simon;Moran",
+            "give_item;Simon;Elfire",
+            "remove_talk;Simon;Moran"
+        ]
+    }
+]
