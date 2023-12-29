@@ -1,7 +1,7 @@
 [
     {
         "nid": "27",
-        "name": "Chapter 27",
+        "name": "Night on the Ridge",
         "tilemap": "Battlements",
         "bg_tilemap": null,
         "party": "Simon",
@@ -743,11 +743,6 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
