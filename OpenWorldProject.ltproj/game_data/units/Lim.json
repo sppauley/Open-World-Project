@@ -4,16 +4,16 @@
         "name": "Lim",
         "desc": "",
         "variant": "_Lim",
-        "level": 1,
+        "level": 4,
         "klass": "Shaman",
         "tags": [],
         "bases": {
             "HP": 18,
-            "CON": 4,
+            "CON": 6,
             "MAG": 8,
-            "DEX": 6,
-            "SPD": 3,
-            "PSE": 9,
+            "DEX": 9,
+            "SPD": 9,
+            "PSE": 10,
             "MOV": 3
         },
         "growths": {
@@ -29,6 +29,10 @@
         "starting_items": [
             [
                 "Gravity",
+                false
+            ],
+            [
+                "Thunder",
                 false
             ]
         ],
