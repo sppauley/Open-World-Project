@@ -666,6 +666,10 @@
                     [
                         "Silver_Mace",
                         false
+                    ],
+                    [
+                        "Master Seal",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1838,6 +1842,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
