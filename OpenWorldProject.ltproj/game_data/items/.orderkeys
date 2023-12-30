@@ -114,6 +114,7 @@
     "Aura",
     "Ivaldi",
     "Fire",
+    "Wind",
     "Thunder",
     "Elfire",
     "Bolting",
@@ -183,6 +184,7 @@
     "White_Gem",
     "NoItem",
     "SolManual",
+    "PerceptiveManual",
     "Steal",
     "Shove",
     "Reposition",
@@ -206,6 +208,5 @@
     "SoldierRing",
     "CheatRing",
     "KnightCrest",
-    "CrusaderRing",
-    "PerceptiveManual"
+    "CrusaderRing"
 ]

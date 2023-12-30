@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Encore",
+        "name": "Encore",
+        "desc": "If unit uses the Wait command, 30% chance to move again.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            34
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]
