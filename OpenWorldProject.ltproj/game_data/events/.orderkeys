@@ -416,5 +416,6 @@
     "global_HullShopUpdate",
     "global_SafeHullShop",
     "global_Teach_Perceptive",
-    "global_EncoreTrigger"
+    "global_EncoreTrigger",
+    "global_Teach_Renewal"
 ]

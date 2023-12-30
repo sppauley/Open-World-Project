@@ -185,6 +185,7 @@
     "NoItem",
     "SolManual",
     "PerceptiveManual",
+    "RenewalManual",
     "Steal",
     "Shove",
     "Reposition",

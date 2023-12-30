@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Renewal",
+        "name": "Renewal",
+        "desc": "Unit restores 25% HP at the start of their turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "regeneration",
+                0.25
+            ]
+        ]
+    }
+]
