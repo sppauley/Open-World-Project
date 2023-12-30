@@ -358,7 +358,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Berserker",
                 "faction": "Bandit",
                 "starting_items": [
@@ -442,7 +442,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 10,
+                "level": 1,
                 "klass": "Warrior",
                 "faction": "Bandit",
                 "starting_items": [
@@ -866,7 +866,7 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Wyvern Lord",
                 "faction": "Bandit",
                 "starting_items": [
@@ -887,7 +887,7 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Wyvern Rider",
                 "faction": "Bandit",
                 "starting_items": [
@@ -1340,6 +1340,40 @@
                 "position": [
                     13,
                     2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "prep_8",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    1
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "prep_9",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    1
                 ],
                 "size": [
                     1,
