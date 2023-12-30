@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_group;Turn4",
-            "flicker_cursor;16,1",
+            "flicker_cursor;16,0",
             "wait;500",
             "add_portrait;Simon;Left",
             "speak;Simon;Monsters?",

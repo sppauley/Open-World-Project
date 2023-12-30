@@ -36,8 +36,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    12,
-                    24
+                    13,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -300,8 +300,32 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    13,
+                    15,
                     23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": [
+                    14,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -322,7 +346,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -330,12 +354,12 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 10,
-                "klass": "Mage",
+                "level": 5,
+                "klass": "Berserker",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Thunder",
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -343,7 +367,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -356,7 +380,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -364,7 +388,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -377,7 +401,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -385,7 +409,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -398,7 +422,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -406,7 +430,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -415,11 +439,15 @@
                 "nid": "118",
                 "variant": null,
                 "level": 10,
-                "klass": "Archer",
+                "klass": "Warrior",
                 "faction": "Bandit",
                 "starting_items": [
                     [
                         "Steel Bow",
+                        false
+                    ],
+                    [
+                        "Silver Axe",
                         false
                     ]
                 ],
@@ -427,7 +455,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -1220,43 +1248,43 @@
                 "positions": {
                     "112": [
                         0,
-                        23
+                        21
                     ],
                     "113": [
                         0,
-                        24
+                        23
                     ],
                     "116": [
                         0,
-                        25
+                        22
                     ],
                     "114": [
                         24,
-                        14
+                        21
                     ],
                     "115": [
                         24,
-                        15
+                        23
                     ],
                     "118": [
                         24,
-                        16
+                        22
                     ],
                     "117": [
-                        10,
-                        26
-                    ],
-                    "120": [
                         11,
-                        26
+                        24
                     ],
                     "119": [
-                        13,
-                        26
+                        15,
+                        24
                     ],
                     "121": [
                         14,
                         26
+                    ],
+                    "120": [
+                        13,
+                        24
                     ]
                 }
             },
@@ -1270,15 +1298,15 @@
                 "positions": {
                     "122": [
                         15,
-                        2
+                        0
                     ],
                     "123": [
-                        17,
-                        2
+                        16,
+                        0
                     ],
                     "124": [
-                        18,
-                        1
+                        17,
+                        0
                     ]
                 }
             },
