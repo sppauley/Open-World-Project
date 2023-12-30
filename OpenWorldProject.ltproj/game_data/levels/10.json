@@ -801,22 +801,64 @@
                 "generic": true
             },
             {
-                "nid": "134",
+                "nid": "152",
                 "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
-                "faction": "Bandit",
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Sharp Claw",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
+                "team": "enemy2",
+                "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 11,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -824,12 +866,12 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
+                "level": 4,
+                "klass": "Wyvern Lord",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -845,33 +887,12 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Wyvern Rider",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendMapAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "137",
-                "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
-                "faction": "Bandit",
-                "starting_items": [
-                    [
-                        "Steel Lance",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -1053,6 +1074,69 @@
                 "generic": true
             },
             {
+                "nid": "147",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 12,
+                "klass": "Cavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": null,
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Titus",
                 "team": "other",
                 "ai": "None",
@@ -1061,6 +1145,90 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 12,
+                "klass": "AxeCavalier",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendMapAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1322,7 +1490,10 @@
                     "129",
                     "127",
                     "130",
-                    "128"
+                    "128",
+                    "147",
+                    "148",
+                    "149"
                 ],
                 "positions": {
                     "125": [
@@ -1348,6 +1519,18 @@
                     "128": [
                         24,
                         22
+                    ],
+                    "147": [
+                        11,
+                        24
+                    ],
+                    "148": [
+                        13,
+                        24
+                    ],
+                    "149": [
+                        15,
+                        24
                     ]
                 }
             },
@@ -1356,7 +1539,10 @@
                 "units": [
                     "131",
                     "132",
-                    "133"
+                    "133",
+                    "152",
+                    "153",
+                    "154"
                 ],
                 "positions": {
                     "131": [
@@ -1370,6 +1556,18 @@
                     "133": [
                         18,
                         7
+                    ],
+                    "152": [
+                        3,
+                        5
+                    ],
+                    "153": [
+                        4,
+                        5
+                    ],
+                    "154": [
+                        4,
+                        4
                     ]
                 }
             },
@@ -1387,10 +1585,6 @@
                     "144"
                 ],
                 "positions": {
-                    "134": [
-                        4,
-                        26
-                    ],
                     "135": [
                         5,
                         24
@@ -1399,45 +1593,73 @@
                         20,
                         24
                     ],
-                    "137": [
-                        20,
-                        26
-                    ],
                     "138": [
                         24,
-                        15
+                        22
                     ],
                     "139": [
                         24,
-                        16
+                        23
                     ],
                     "140": [
                         0,
-                        23
+                        22
                     ],
                     "141": [
                         0,
-                        24
+                        23
                     ],
                     "142": [
-                        10,
-                        26
+                        11,
+                        24
                     ],
                     "143": [
-                        11,
-                        26
+                        13,
+                        24
                     ],
                     "144": [
-                        13,
-                        26
+                        15,
+                        24
                     ],
                     "145": [
                         14,
                         26
                     ]
                 }
+            },
+            {
+                "nid": "Turn7",
+                "units": [
+                    "134",
+                    "137",
+                    "150",
+                    "151"
+                ],
+                "positions": {
+                    "134": [
+                        11,
+                        24
+                    ],
+                    "137": [
+                        12,
+                        24
+                    ],
+                    "150": [
+                        14,
+                        24
+                    ],
+                    "151": [
+                        15,
+                        24
+                    ]
+                }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

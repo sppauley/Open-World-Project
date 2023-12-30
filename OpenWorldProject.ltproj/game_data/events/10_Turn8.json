@@ -9,11 +9,11 @@
         "priority": 20,
         "_source": [
             "add_group;Turn8",
-            "flicker_cursor;0,23",
+            "flicker_cursor;0,22",
             "wait;500",
-            "flicker_cursor;24,16",
+            "flicker_cursor;24,22",
             "wait;500",
-            "flicker_cursor;12,25",
+            "flicker_cursor;13,24",
             "wait;500"
         ]
     }
