@@ -610,12 +610,12 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -631,12 +631,12 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 10,
-                "klass": "Wyvern Rider",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -653,11 +653,11 @@
                 "nid": "129",
                 "variant": null,
                 "level": 10,
-                "klass": "Mage",
+                "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Thunder",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -665,7 +665,7 @@
                 "team": "enemy",
                 "ai": "DefendMapAttack",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
@@ -1323,27 +1323,27 @@
                 "positions": {
                     "125": [
                         5,
-                        26
+                        24
                     ],
                     "126": [
-                        19,
-                        26
+                        20,
+                        24
                     ],
                     "129": [
                         0,
-                        23
+                        21
                     ],
                     "127": [
                         0,
-                        24
+                        22
                     ],
                     "130": [
                         24,
-                        15
+                        21
                     ],
                     "128": [
                         24,
-                        16
+                        22
                     ]
                 }
             },
@@ -1357,14 +1357,14 @@
                 "positions": {
                     "131": [
                         17,
-                        9
+                        7
                     ],
                     "132": [
                         18,
-                        8
+                        6
                     ],
                     "133": [
-                        3,
+                        18,
                         7
                     ]
                 }
@@ -1389,11 +1389,11 @@
                     ],
                     "135": [
                         5,
-                        26
+                        24
                     ],
                     "136": [
-                        19,
-                        26
+                        20,
+                        24
                     ],
                     "137": [
                         20,
@@ -1434,6 +1434,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
