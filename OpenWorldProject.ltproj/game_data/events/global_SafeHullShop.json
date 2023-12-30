@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SafeHullShop",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"HullShop\") is None",
+            "    game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
+            "end"
+        ]
+    }
+]
