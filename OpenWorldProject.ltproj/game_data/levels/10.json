@@ -940,8 +940,8 @@
                 "nid": "prep_1",
                 "region_type": "formation",
                 "position": [
-                    10,
-                    3
+                    12,
+                    2
                 ],
                 "size": [
                     1,
@@ -974,7 +974,7 @@
                 "nid": "prep_3",
                 "region_type": "formation",
                 "position": [
-                    12,
+                    14,
                     2
                 ],
                 "size": [
@@ -991,7 +991,7 @@
                 "nid": "prep_4",
                 "region_type": "formation",
                 "position": [
-                    13,
+                    14,
                     3
                 ],
                 "size": [
@@ -1008,8 +1008,8 @@
                 "nid": "prep_6",
                 "region_type": "formation",
                 "position": [
-                    10,
-                    2
+                    13,
+                    3
                 ],
                 "size": [
                     1,
@@ -1077,7 +1077,7 @@
                 "region_type": "event",
                 "position": [
                     23,
-                    5
+                    3
                 ],
                 "size": [
                     1,
@@ -1094,7 +1094,7 @@
                 "region_type": "event",
                 "position": [
                     1,
-                    15
+                    13
                 ],
                 "size": [
                     1,

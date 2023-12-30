@@ -128,5 +128,18 @@
     {
         "nid": "{Lisandra Brave} (FE5 Recolor) 165 8x8",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Lisandra Brave} (FE5 Recolor) 183 8x8",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Lisandra Brave} (FE5 Recolor) 164 8x8",
+        "subicon_dict": {
+            "{Lisandra Brave} (FE5 Recolor) 164 8x8 0, 0": [
+                0,
+                0
+            ]
+        }
     }
 ]

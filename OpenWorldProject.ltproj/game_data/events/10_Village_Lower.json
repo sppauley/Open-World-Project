@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "give_item;{unit};Horseslayer",
-            "show_layer;Village_Lower"
+            "remove_region;Village_Lower",
+            "has_finished;{unit}"
         ]
     }
 ]
