@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Swamp Camp",
+        "size": [
+            18,
+            13
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {}
+            }
+        ],
+        "tilesets": []
+    }
+]

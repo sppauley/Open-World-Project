@@ -8,9 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "trigger_script;Global DEBUGLvl3Team",
-            "#",
-            "load_unit;Titus",
             "#",
             "multi_add_portrait;Simon;Left;Kajal;Right",
             "flicker_cursor;18,6",

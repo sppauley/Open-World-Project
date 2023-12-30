@@ -30,11 +30,11 @@
                 "generic": false
             },
             {
-                "nid": "Kajal",
+                "nid": "Titus",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     32,
                     40
@@ -1945,6 +1945,10 @@
             },
             {
                 "nid": "tl",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
