@@ -361,110 +361,6 @@
                 "generic": true
             },
             {
-                "nid": "Boudica",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Nika",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Luther",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Vincent",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Yusna",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    43
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Flower",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    43
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Anuki",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
-                    43
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Kajal",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    43
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "101",
                 "variant": null,
                 "level": 15,
@@ -1817,6 +1713,23 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    42
+                ],
+                "size": [
+                    4,
+                    2
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
                 "interrupt_move": false
             }
         ],
