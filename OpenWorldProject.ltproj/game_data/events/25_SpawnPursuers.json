@@ -3,7 +3,7 @@
         "name": "SpawnPursuers",
         "trigger": "turn_change",
         "level_nid": "25",
-        "condition": "game.turncount % 4 == 0",
+        "condition": "game.turncount % 5 == 0",
         "commands": [],
         "only_once": false,
         "priority": 20,

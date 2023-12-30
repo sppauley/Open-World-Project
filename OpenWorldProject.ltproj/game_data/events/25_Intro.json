@@ -187,7 +187,11 @@
             "",
             "screen_shake_end",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "s;Narrator;Against Thanatos and his minions, all of Nika and Lim's attacks will double.;StyleNid=hint",
+            "give_skill;Lim;AntiThanatos;;no_banner",
+            "give_skill;Nika;AntiThanatos;;no_banner"
         ]
     }
 ]

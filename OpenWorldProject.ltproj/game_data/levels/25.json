@@ -222,7 +222,7 @@
                 "starting_items": [
                     [
                         "Magebane",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -562,7 +562,7 @@
                 "starting_items": [
                     [
                         "Killer Lance",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
