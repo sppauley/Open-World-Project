@@ -237,7 +237,7 @@
     ],
     [
         "attack_zero_hit",
-        false
+        true
     ],
     [
         "attack_zero_dam",
