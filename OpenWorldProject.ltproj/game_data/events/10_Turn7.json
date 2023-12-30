@@ -8,6 +8,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "flicker_cursor;Larry",
+            "wait;200",
+            "add_group;Turn7",
+            "wait;300",
             "add_portrait;Larry;Right;;Smile",
             "speak;Larry;If I don't step in now, it'll look bad.",
             "speak;Larry;They're putting up more of a fight than I thought...",

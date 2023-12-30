@@ -9,9 +9,9 @@
         "priority": 20,
         "_source": [
             "add_group;Turn6",
-            "flicker_cursor;17,9",
+            "flicker_cursor;18,6",
             "wait;500",
-            "flicker_cursor;3,7",
+            "flicker_cursor;4,5",
             "wait;500"
         ]
     }
