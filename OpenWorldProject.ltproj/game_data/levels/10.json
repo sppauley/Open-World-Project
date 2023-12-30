@@ -7,9 +7,9 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "Defeat Boss",
-            "win": "Defeat Larry",
-            "loss": "Simon Dies"
+            "simple": "Defend and Defeat Boss",
+            "win": "Defend and Defeat Larry",
+            "loss": "Simon Dies or Bandits Reach Entrance"
         },
         "roam": false,
         "roam_unit": null,
