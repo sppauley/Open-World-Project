@@ -20,7 +20,9 @@
             "game_var;freely_exit;False",
             "game_var;YusnaRecruited;False",
             "game_var;ClothoState;\"None\"",
-            "game_var;LoyaltyTutorial;False"
+            "game_var;LoyaltyTutorial;False",
+            "game_var;HullShop;Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin",
+            "game_var;HullShopNotification;False"
         ]
     }
 ]

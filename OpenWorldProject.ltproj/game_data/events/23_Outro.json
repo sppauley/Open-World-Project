@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "game_var;freely_exit;True"
+            "game_var;freely_exit;True",
+            "",
+            "trigger_script;Global SafeHullShop",
+            "game_var;HullShop;v(\"HullShop\") + \",ThiefSword\"",
+            "game_var;HullShopNotification;True"
         ]
     }
 ]

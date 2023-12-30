@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SpeedMinus4",
+        "name": "Speed -4",
+        "desc": "Grants SPD -4.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            16
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

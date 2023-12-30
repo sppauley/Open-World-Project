@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "ThiefSword",
+        "name": "Thief's Sword",
+        "desc": "Cannot be countered.\nEnemy has -4 SPD until your next turn.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                850
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                90
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "stagger",
+                0
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "status_after_combat_on_hit",
+                "SpeedMinus4"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "DEX",
+                        12
+                    ]
+                ]
+            ]
+        ]
+    }
+]
