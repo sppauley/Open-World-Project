@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Perceptive",
+        "name": "Perceptive",
+        "desc": "When user initiates combat, Avoid +30",
+        "icon_nid": "{Lisandra Brave} (FE5 Recolor) 183 8x8",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "avoid",
+                30
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ]
+        ]
+    }
+]

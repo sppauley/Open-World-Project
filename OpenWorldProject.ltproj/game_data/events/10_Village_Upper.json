@@ -8,8 +8,9 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "give_item;{unit};Killer Bow",
-            "show_layer;Village_Upper"
+            "give_item;{unit};PerceptiveManual",
+            "remove_region;Village_Upper",
+            "has_finished;{unit}"
         ]
     }
 ]
