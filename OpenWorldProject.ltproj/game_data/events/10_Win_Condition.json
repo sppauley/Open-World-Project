@@ -31,6 +31,10 @@
             "move_portrait;Kajal;Left",
             "speak;Kajal;...",
             "remove_portrait;Kajal",
+            "wait;300",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;59",
+            "reveal_overworld_road;29;59",
             "win_game"
         ]
     }

@@ -526,6 +526,28 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "59",
+                "name": "Swamp Encampment",
+                "pos": [
+                    5,
+                    4
+                ],
+                "icon": "map_node",
+                "level": null,
+                "menu_options": []
+            },
+            {
+                "nid": "60",
+                "name": "Submerged Mausoleum",
+                "pos": [
+                    3,
+                    3
+                ],
+                "icon": "castle",
+                "level": null,
+                "menu_options": []
             }
         ],
         "map_paths": {
@@ -1061,6 +1083,34 @@
                 [
                     19,
                     22
+                ]
+            ],
+            "(3, 3)-(5, 4)": [
+                [
+                    3,
+                    3
+                ],
+                [
+                    4,
+                    3
+                ],
+                [
+                    5,
+                    4
+                ]
+            ],
+            "(5, 4)-(6, 7)": [
+                [
+                    5,
+                    4
+                ],
+                [
+                    5,
+                    6
+                ],
+                [
+                    6,
+                    7
                 ]
             ]
         },
