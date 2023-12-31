@@ -2,7 +2,7 @@
     {
         "nid": "24",
         "name": "Albreides Ridge",
-        "tilemap": "Albreides Ridge",
+        "tilemap": "Albreides Ridge_1",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
@@ -36,8 +36,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    8
+                    20,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -290,7 +290,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    28
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -313,8 +313,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    28
+                    22,
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -337,8 +337,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    18,
-                    29
+                    22,
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -362,7 +362,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    29
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -385,8 +385,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    26
+                    15,
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -409,8 +409,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    26
+                    17,
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
