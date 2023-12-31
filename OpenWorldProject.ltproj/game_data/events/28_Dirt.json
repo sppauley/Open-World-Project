@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Dirt",
+        "trigger": "Dirt",
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;A battle axe shoved into the dirt...",
+            "mirror_portrait;Simon",
+            "mirror_portrait;Simon",
+            "s;Simon;Can't hurt to take it along...",
+            "give_item;Simon;Killer Axe",
+            "remove_portrait;Simon"
+        ]
+    }
+]

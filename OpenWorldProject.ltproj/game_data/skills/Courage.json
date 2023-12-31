@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Courage",
+        "name": "Courage",
+        "desc": "",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "-2 if mode=='attack' else 0"
+            ],
+            [
+                "dynamic_damage",
+                "2 if mode=='attack' else 0"
+            ]
+        ]
+    }
+]

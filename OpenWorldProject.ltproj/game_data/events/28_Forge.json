@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Forge",
+        "trigger": "Forge",
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;A large chunk of material...",
+            "remove_portrait;Simon",
+            "alert;Found 4 stagger material!",
+            "inc_game_var;StaggerWeaponMaterial;4"
+        ]
+    }
+]

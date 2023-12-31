@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "CourageMedal",
+        "name": "Medal of Courage",
+        "desc": "Holder deals +2 damage when initiating combat but takes 2 more damage when attacked.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "Courage"
+            ]
+        ]
+    }
+]

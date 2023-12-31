@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Talk Knight",
+        "trigger": "on_talk",
+        "level_nid": "28",
+        "condition": "unit2.nid=='101'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;101",
+            "multi_add_portrait;Simon;Left;SoldierBlue;Right",
+            "s;SoldierBlue;You must be the one Titus told us about.",
+            "s;Simon;That's correct.",
+            "s;Simon;We'd really appreciate your help in Vesner's tomb.",
+            "s;SoldierBlue;We should be thanking you.",
+            "s;SoldierBlue;Those bandits really did a number on our troops.",
+            "s;SoldierBlue;And monsters have been attacking our convoy at night.",
+            "s;SoldierBlue;We've lost some good men and women the past few days.",
+            "s;Simon;Why not retreat and bolster your forces?",
+            "s;SoldierBlue;Retreat! Ha!",
+            "s;SoldierBlue;Courage has really died out nowadays.",
+            "s;SoldierBlue;Look, kid, this is a medal from one of our soldiers who died in a bandit attack two days ago.",
+            "s;SoldierBlue;Think retreat ever crossed his mind?",
+            "s;SoldierBlue;I ask that you take this and think on the meaning of courage before we proceed.",
+            "multi_remove_portrait;Simon;SoldierBlue",
+            "give_item;Simon;CourageMedal",
+            "remove_talk;Simon;101"
+        ]
+    }
+]
