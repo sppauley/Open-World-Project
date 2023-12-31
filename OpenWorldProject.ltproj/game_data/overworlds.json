@@ -536,7 +536,15 @@
                 ],
                 "icon": "map_node",
                 "level": null,
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Raom",
+                        "event": null,
+                        "option_name": "Roam",
+                        "visible": false,
+                        "enabled": false
+                    }
+                ]
             },
             {
                 "nid": "60",
@@ -547,7 +555,15 @@
                 ],
                 "icon": "castle",
                 "level": null,
-                "menu_options": []
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
