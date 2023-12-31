@@ -2,7 +2,7 @@
     {
         "nid": "28",
         "name": "Swamp Encampment",
-        "tilemap": null,
+        "tilemap": "Swamp Camp",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},

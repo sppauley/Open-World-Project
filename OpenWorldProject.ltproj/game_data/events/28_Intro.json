@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Intro",
+        "trigger": null,
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;overlay",
+            "show_layer;overlay2"
+        ]
+    }
+]
