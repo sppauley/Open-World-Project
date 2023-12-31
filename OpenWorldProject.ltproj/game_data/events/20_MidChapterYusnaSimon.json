@@ -1,0 +1,26 @@
+[
+    {
+        "name": "MidChapterYusnaSimon",
+        "trigger": "turn_change",
+        "level_nid": "20",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left;mirror",
+            "add_portrait;Yusna;Right",
+            "s;Yusna;Simon.",
+            "mirror_portrait;Simon",
+            "s;Simon;Yes?",
+            "s;Yusna;I really am sorry about earlier.|I overestimated the blessing.",
+            "s;Simon;Ask first next time.{w} Death isn't painless, Yusna.",
+            "expression;Yusna;CloseEyes",
+            "s;Yusna;I... understand. I didn't mean to hurt you.",
+            "s;Simon;Nevertheless.",
+            "mirror_portrait;Simon",
+            "s;Simon;We need to focus on the battle.",
+            "multi_remove_portrait;Yusna;Simon"
+        ]
+    }
+]
