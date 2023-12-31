@@ -276,7 +276,7 @@
                     1
                 ],
                 "sub_nid": "Dirt",
-                "condition": "True",
+                "condition": "game.game_vars['SwampCampAxe']!=1",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -293,18 +293,13 @@
                     3
                 ],
                 "sub_nid": "Forge",
-                "condition": "True",
+                "condition": "game.game_vars['SwampCampForge']!=1",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

@@ -16,7 +16,9 @@
             "add_talk;Simon;Titus",
             "add_talk;Simon;Kajal",
             "add_talk;Simon;Luther",
-            "add_talk;Simon;101"
+            "if;game.game_vars['CourageKnight']!=1",
+            "    add_talk;Simon;101",
+            "end"
         ]
     }
 ]

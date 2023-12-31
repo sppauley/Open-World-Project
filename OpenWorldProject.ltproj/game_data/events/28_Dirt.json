@@ -14,7 +14,8 @@
             "mirror_portrait;Simon",
             "s;Simon;Can't hurt to take it along...",
             "give_item;Simon;Killer Axe",
-            "remove_portrait;Simon"
+            "remove_portrait;Simon",
+            "game_var;SwampCampAxe;1"
         ]
     }
 ]

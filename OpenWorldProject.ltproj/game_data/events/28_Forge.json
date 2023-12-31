@@ -12,7 +12,8 @@
             "s;Simon;A large chunk of material...",
             "remove_portrait;Simon",
             "alert;Found 4 stagger material!",
-            "inc_game_var;StaggerWeaponMaterial;4"
+            "inc_game_var;StaggerWeaponMaterial;4",
+            "game_var;SwampCampForge;1"
         ]
     }
 ]

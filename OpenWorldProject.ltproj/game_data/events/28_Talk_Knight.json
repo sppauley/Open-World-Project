@@ -25,7 +25,8 @@
             "s;SoldierBlue;I ask that you take this and think on the meaning of courage before we proceed.",
             "multi_remove_portrait;Simon;SoldierBlue",
             "give_item;Simon;CourageMedal",
-            "remove_talk;Simon;101"
+            "remove_talk;Simon;101",
+            "game_var;CourageKnight;1"
         ]
     }
 ]
