@@ -9286,7 +9286,8 @@
         ],
         "tilesets": [
             "54728",
-            "Tower Light"
+            "Tower Light",
+            "Lava Cave Tiles"
         ]
     }
 ]
