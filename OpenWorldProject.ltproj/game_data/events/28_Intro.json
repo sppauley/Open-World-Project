@@ -1,7 +1,7 @@
 [
     {
         "name": "Intro",
-        "trigger": null,
+        "trigger": "level_start",
         "level_nid": "28",
         "condition": "True",
         "commands": [],
@@ -9,7 +9,13 @@
         "priority": 20,
         "_source": [
             "show_layer;overlay",
-            "show_layer;overlay2"
+            "show_layer;overlay2",
+            "add_weather;night",
+            "add_weather;dark",
+            "add_weather;purple",
+            "add_talk;Simon;Titus",
+            "add_talk;Simon;Kajal",
+            "add_talk;Simon;Luther"
         ]
     }
 ]

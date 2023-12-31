@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;Alright...{w} let's do this.",
+            "s;Simon;I'm just not sure how to handle Vesner anymore...",
+            "remove_portrait;Simon",
+            "wait;200",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;60",
+            "reveal_overworld_road;59;60",
+            "win_game"
+        ]
+    }
+]

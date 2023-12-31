@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Bucket",
+        "trigger": "Bucket",
+        "level_nid": "28",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;A bucket of vomit.{w} Lovely.",
+            "s;Simon;I guess the miasma around here affects some more than others.",
+            "remove_portrait;Simon"
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Talk Luther",
+        "trigger": "on_talk",
+        "level_nid": "28",
+        "condition": "unit2.nid == 'Luther'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Vincent;MidLeft;Luther;MidRight;Juliet;FarRight",
+            "s;Luther;This air... it's making it hard to breathe.",
+            "s;Vincent;Agreed. This place is miserable.",
+            "add_portrait;Simon;FarLeft;left",
+            "s;Simon;You all hanging in there?",
+            "s;Juliet;Yes, but these two have been complaining for ages.",
+            "s;Vincent;Have not!",
+            "s;Luther;Simon, the sooner we can get out of here, the better.",
+            "s;Luther;I have no idea how these knights have been out here for so long.",
+            "s;Simon;Well, we're almost there.",
+            "s;Simon;One way or another, we'll resolve this mess.",
+            "wait;600",
+            "s;Juliet;You ever wonder what these lands looked like before Vesner's collapse?",
+            "s;Juliet;I could see the forest and tiny villages around here being nice.",
+            "s;Vincent;Yeah, but nothing compares to the plains back home.",
+            "s;Vincent;I could ride for ages around there...",
+            "s;Vincent;That openness and freedom... I really miss it.",
+            "s;Simon;Yeah, me too.",
+            "s;Simon;I miss the woods by the courtyard where I learned to hunt.{w}{br}And the small lake to the west that I fell in as a kid.",
+            "s;Simon;I just miss...{w} home.",
+            "s;Luther;I miss it too.",
+            "s;Luther;And we'll return soon, Simon.{w} Mark my words.",
+            "multi_remove_portrait;Simon;Luther;Vincent;Juliet",
+            "remove_talk;Simon;Luther"
+        ]
+    }
+]
