@@ -535,7 +535,7 @@
                     4
                 ],
                 "icon": "map_node",
-                "level": null,
+                "level": "28",
                 "menu_options": [
                     {
                         "nid": "Roam",
@@ -554,7 +554,7 @@
                     3
                 ],
                 "icon": "castle",
-                "level": null,
+                "level": "4",
                 "menu_options": [
                     {
                         "nid": "Battle",
