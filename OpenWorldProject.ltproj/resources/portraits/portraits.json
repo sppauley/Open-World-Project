@@ -1342,5 +1342,17 @@
             48
         ],
         "info_offset": 7
+    },
+    {
+        "nid": "{AmBrosiac} OC Ervin",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 3
     }
 ]

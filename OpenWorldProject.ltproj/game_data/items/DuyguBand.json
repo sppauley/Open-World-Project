@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "DuyguBand",
+        "name": "Heirloom Band",
+        "desc": "When attacking, +8 damage.",
+        "icon_nid": "{Maxim} Knuckle Discpline",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        20
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "Canto"
+            ]
+        ]
+    }
+]

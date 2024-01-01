@@ -1,0 +1,114 @@
+[
+    {
+        "nid": "Duygu",
+        "name": "Duygu",
+        "desc": "One day, he will be the strongest man alive.",
+        "variant": "",
+        "level": 8,
+        "klass": "Fighter",
+        "tags": [],
+        "bases": {
+            "HP": 27,
+            "CON": 8,
+            "MAG": 3,
+            "DEX": 6,
+            "SPD": 7,
+            "PSE": 13,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 20,
+            "CON": 100,
+            "MAG": 25,
+            "DEX": 25,
+            "SPD": 20,
+            "PSE": 40,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Steel Axe",
+                false
+            ],
+            [
+                "Halberd",
+                false
+            ],
+            [
+                "DuyguBand",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Zeal"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Innate": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{AmBrosiac} OC Ervin",
+        "affinity": "None",
+        "fields": [
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "0"
+            ],
+            [
+                "DeathQuote",
+                "I am stronger... stronger than this!{w}{br}Do not fear, I will return."
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "LoyaltyStatus",
+                "Reach 20 CON to unlock his loyalty."
+            ]
+        ]
+    }
+]
