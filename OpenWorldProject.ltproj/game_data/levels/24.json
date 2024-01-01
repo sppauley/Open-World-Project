@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    28
+                    14,
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -47,7 +47,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SpeedTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -55,8 +55,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    26
+                    19,
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -66,7 +66,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SpeedTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -74,8 +74,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    15
+                    6,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -85,7 +85,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SpeedTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -93,8 +93,65 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    6
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_4",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_5",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_6",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -104,7 +161,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SlowTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -112,8 +169,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    10
+                    14,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -123,7 +180,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SlowTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -131,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    26
+                    11,
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -142,7 +199,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SlowTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -151,7 +208,7 @@
                 "ai_group": "",
                 "starting_position": [
                     17,
-                    9
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -161,7 +218,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "SlowTome",
-                "faction": "Dragon",
+                "faction": "Tome",
                 "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
@@ -169,8 +226,46 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    4
+                    7,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_5",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_6",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -193,8 +288,8 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    8,
-                    17
+                    4,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -217,7 +312,7 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    12,
+                    5,
                     17
                 ],
                 "starting_traveler": null,
@@ -241,8 +336,32 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    9,
-                    17
+                    5,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 1,
+                "klass": "Hero",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    6,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -251,7 +370,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Halberdier",
+                "klass": "General",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -265,8 +384,56 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    11,
-                    17
+                    13,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 1,
+                "klass": "General",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    15,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    14,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -392,6 +559,54 @@
                 "generic": true
             },
             {
+                "nid": "122",
+                "variant": null,
+                "level": 13,
+                "klass": "Knight",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 13,
+                "klass": "Knight",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "113",
                 "variant": null,
                 "level": 13,
@@ -409,8 +624,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    29
+                    18,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -418,7 +633,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Berserker",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -433,8 +648,8 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    5,
-                    9
+                    10,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -442,7 +657,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Berserker",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -457,8 +672,8 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    4,
-                    10
+                    9,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -466,7 +681,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Swordmaster",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -481,8 +696,8 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    15,
-                    8
+                    19,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -490,7 +705,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 1,
+                "level": 5,
                 "klass": "Swordmaster",
                 "faction": "Cutthroat",
                 "starting_items": [
@@ -505,36 +720,8 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    16,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Thief",
-                "variant": null,
-                "level": 1,
-                "klass": "Thief",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Silver Blade",
-                        true
-                    ],
-                    [
-                        "ForgingBag",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Escape",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    19
+                    20,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -542,12 +729,12 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 10,
-                "klass": "General",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -565,12 +752,12 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 10,
-                "klass": "General",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -588,12 +775,12 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 10,
-                "klass": "General",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver_Mace",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -611,12 +798,12 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 10,
-                "klass": "General",
+                "level": 1,
+                "klass": "Wyvern Lord",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver_Mace",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -630,6 +817,91 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 5,
+                "klass": "Wyvern Rider",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Melodie",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -637,8 +909,8 @@
                 "nid": "prep1",
                 "region_type": "formation",
                 "position": [
-                    8,
-                    28
+                    12,
+                    31
                 ],
                 "size": [
                     2,
@@ -654,8 +926,8 @@
                 "nid": "prep2",
                 "region_type": "formation",
                 "position": [
-                    11,
-                    28
+                    15,
+                    31
                 ],
                 "size": [
                     2,
@@ -671,8 +943,8 @@
                 "nid": "prep3",
                 "region_type": "formation",
                 "position": [
-                    10,
-                    29
+                    14,
+                    32
                 ],
                 "size": [
                     1,
@@ -688,8 +960,8 @@
                 "nid": "Knight",
                 "region_type": "normal",
                 "position": [
-                    10,
-                    8
+                    20,
+                    22
                 ],
                 "size": [
                     1,
@@ -702,18 +974,18 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Escape",
+                "nid": "Arrive",
                 "region_type": "event",
                 "position": [
-                    8,
-                    0
+                    4,
+                    7
                 ],
                 "size": [
-                    5,
+                    2,
                     1
                 ],
-                "sub_nid": "Escape",
-                "condition": "unit.nid=='Simon' or unit.nid=='Thief'",
+                "sub_nid": "Arrive",
+                "condition": "unit.nid=='Simon'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
@@ -730,20 +1002,20 @@
                 ],
                 "positions": {
                     "115": [
-                        0,
-                        28
+                        1,
+                        31
                     ],
                     "117": [
-                        0,
-                        29
+                        1,
+                        32
                     ],
                     "116": [
-                        19,
-                        28
+                        23,
+                        32
                     ],
                     "118": [
-                        19,
-                        29
+                        23,
+                        31
                     ]
                 }
             }
@@ -755,6 +1027,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

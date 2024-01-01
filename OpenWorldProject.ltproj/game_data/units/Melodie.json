@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Melodie",
+        "name": "Melodie",
+        "desc": "",
+        "variant": null,
+        "level": 7,
+        "klass": "Archer",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "CON": 13,
+            "PSE": 14,
+            "MAG": 1,
+            "SPD": 5,
+            "MOV": 5,
+            "DEX": 10
+        },
+        "growths": {
+            "HP": 60,
+            "CON": 35,
+            "PSE": 40,
+            "MAG": 15,
+            "SPD": 20,
+            "DEX": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                71,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

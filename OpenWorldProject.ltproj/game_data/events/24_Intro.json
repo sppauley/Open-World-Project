@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "",
+            "show_layer;overlay",
             "# intro",
             "multi_add_portrait;Simon;Left;Luther;MidRight;Juliet;FarRight",
             "s;Simon;The mythical Albreides Ridge in the heart of the mountains...",
