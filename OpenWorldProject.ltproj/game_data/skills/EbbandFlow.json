@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "EbbandFlow",
+        "name": "Ebb and Flow",
+        "desc": "On odd turns, +3 CON. On even turns, +3 MAG.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "CON",
+                        "3 if game.turncount % 2 == 1 else 0"
+                    ],
+                    [
+                        "MAG",
+                        "3 if game.turncount % 2 == 0 else 0"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

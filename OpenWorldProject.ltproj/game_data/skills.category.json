@@ -1,1 +1,19 @@
-{}
+{
+    "Accost": "Personal Skills",
+    "Accosted": "Personal Skills",
+    "DualheartedDMG": "Personal Skills",
+    "DualheartedSTG": "Personal Skills",
+    "EbbandFlow": "Random Pull Skills",
+    "Encore": "Personal Skills",
+    "Forester": "Personal Skills",
+    "Heartseeker": "Personal Skills",
+    "Heartseeker_Effect": "Personal Skills",
+    "Heartseeker_Loyal": "Personal Skills",
+    "Heartseeker_Loyal_Effect": "Personal Skills",
+    "HitandRun": "Random Pull Skills",
+    "HitandRunMov2": "Random Pull Skills",
+    "SunLight": "Personal Skills",
+    "SunLightProc": "Personal Skills",
+    "WitchWarp": "Personal Skills",
+    "Zeal": "Personal Skills"
+}

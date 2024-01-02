@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HitandRun",
+        "name": "Hit and Run",
+        "desc": "After staggering an enemy, gain +2 MOV during your next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            7,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "event_after_staggering",
+                "Global HitandRunProc"
+            ]
+        ]
+    }
+]

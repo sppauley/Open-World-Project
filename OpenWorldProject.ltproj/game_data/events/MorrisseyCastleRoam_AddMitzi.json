@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AddMitzi",
+        "trigger": "level_start",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "v(\"NikaRecruited\") == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "add_unit;Mitzi;11,11;immediate;no_warn",
+            "add_talk;Simon;Mitzi",
+            ""
+        ]
+    }
+]
