@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "DistractingPresenceChild",
+        "name": "Distracted",
+        "desc": "-3 DEX for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            15
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEX",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

@@ -1,11 +1,11 @@
 [
     {
-        "nid": "RallyMov",
-        "name": "Rally Movement",
-        "desc": "All units in two tiles gain +3 MOV for one turn.",
+        "nid": "RallyCrit",
+        "name": "Rally Crit",
+        "desc": "All units in two tiles gain +15 Crit for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            7,
+            2,
             2
         ],
         "components": [
@@ -15,7 +15,7 @@
             ],
             [
                 "ability",
-                "so_RallyMov"
+                "so_RallyCrit"
             ]
         ]
     }

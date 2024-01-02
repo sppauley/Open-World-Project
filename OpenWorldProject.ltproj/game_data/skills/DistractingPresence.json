@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "DistractingPresence",
+        "name": "Distracting Presence",
+        "desc": "At the start of this unit's turn, adjacent enemies gain -3 DEX for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "DistractingPresenceChild",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "enemy"
+                }
+            ]
+        ]
+    }
+]

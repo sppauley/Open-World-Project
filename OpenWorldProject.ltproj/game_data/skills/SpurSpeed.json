@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SpurSpeed",
+        "name": "Spur Speed",
+        "desc": "At the start of this unit's turn, adjacent allies gain +3 speed for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            16
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "SpurSpeedChild",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "ally"
+                }
+            ]
+        ]
+    }
+]
