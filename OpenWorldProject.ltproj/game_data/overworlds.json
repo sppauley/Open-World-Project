@@ -202,12 +202,12 @@
                     22
                 ],
                 "icon": "map_node",
-                "level": "24",
+                "level": "27",
                 "menu_options": [
                     {
-                        "nid": "Battle",
-                        "event": "OverworldMapSelect",
-                        "option_name": "Battle",
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
                         "visible": true,
                         "enabled": true
                     }

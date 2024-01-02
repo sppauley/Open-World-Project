@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Atropos",
+        "name": "Atropos",
+        "desc": "The one who weaves the tapestry of history.",
+        "variant": "",
+        "level": 1,
+        "klass": "Sage",
+        "tags": [],
+        "bases": {
+            "HP": 1,
+            "PSE": 0,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "atropos",
+        "affinity": null,
+        "fields": []
+    }
+]
