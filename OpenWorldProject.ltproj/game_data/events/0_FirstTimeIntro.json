@@ -28,6 +28,7 @@
             "speak;Simon;I understand.{w} I'll be certain to speak with him before we depart.",
             "",
             "move_unit;Simon;7,15;no_block",
+            "move_unit;Mitzi;8,11;normal;push;no_block;no_follow",
             "move_unit;Luther;6,16;normal;no_follow",
             "",
             "s;Luther;There are also the city forges, to our north.|I cannot overemphasize their importance.",
