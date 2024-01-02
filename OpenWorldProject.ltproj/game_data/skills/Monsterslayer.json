@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Monsterslayer",
+        "name": "Monsterslayer",
+        "desc": "Against monster-allied units, +3 damage.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.faction == \"Monster\""
+            ],
+            [
+                "damage",
+                3
+            ]
+        ]
+    }
+]

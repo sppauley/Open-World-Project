@@ -1,12 +1,12 @@
 [
     {
-        "nid": "RallyMov",
-        "name": "Rally Movement",
-        "desc": "All allies within two tiles gain +3 MOV for one turn.",
+        "nid": "Hardened",
+        "name": "Hardened",
+        "desc": "Unless staggered, this unit cannot be critically hit.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            7,
-            2
+            6,
+            9
         ],
         "components": [
             [
@@ -14,8 +14,8 @@
                 null
             ],
             [
-                "ability",
-                "so_RallyMov"
+                "dynamic_crit_avoid",
+                "+999 if unit.get_poise() > 0 else 0"
             ]
         ]
     }

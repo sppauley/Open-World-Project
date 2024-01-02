@@ -2,7 +2,7 @@
     {
         "nid": "RallyCrit",
         "name": "Rally Crit",
-        "desc": "All units in two tiles gain +15 Crit for one turn.",
+        "desc": "All allies within two tiles gain +15 Crit for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

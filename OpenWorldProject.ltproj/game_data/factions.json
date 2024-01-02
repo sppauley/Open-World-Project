@@ -12,7 +12,7 @@
     {
         "nid": "Cutthroat",
         "name": "Cutthroat",
-        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "desc": "A ne'er-do-well who threatens peace and stability.",
         "icon_nid": "BanditEmblem",
         "icon_index": [
             0,
@@ -22,7 +22,7 @@
     {
         "nid": "Bandit",
         "name": "Bandit",
-        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "desc": "A member of a more organized bandit group.",
         "icon_nid": "NeutralEmblem",
         "icon_index": [
             0,
