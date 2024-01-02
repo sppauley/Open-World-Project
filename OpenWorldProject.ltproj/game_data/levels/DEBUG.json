@@ -146,17 +146,28 @@
                 "generic": false
             },
             {
-                "nid": "Alina",
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "Valkyrie",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Wall",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    9
+                    8
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
             }
         ],
         "regions": [
@@ -205,6 +216,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

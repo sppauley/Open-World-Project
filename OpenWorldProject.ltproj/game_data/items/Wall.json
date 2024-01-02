@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "Creates player-passable walls for three tiles.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            11
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Wall Staff"
+            ]
+        ]
+    }
+]

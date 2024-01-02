@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Wall Staff",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;unit_pos;unit.position",
+            "level_var;region_pos;region",
+            "",
+            "if;v(\"unit_pos\")[1] < v(\"region_pos\")[1]",
+            "    # Facing North",
+            "    alert;Facing North",
+            "",
+            "elif;v(\"unit_pos\")[1] > v(\"region_pos\")[1]",
+            "    # Facing South",
+            "    alert;Facing South",
+            "",
+            "elif;v(\"unit_pos\")[0] < v(\"region_pos\")[0]",
+            "    # Facing East",
+            "    alert;Facing East",
+            "",
+            "elif;v(\"unit_pos\")[0] > v(\"region_pos\")[0]",
+            "    # Facing West",
+            "    alert;Facing West",
+            "",
+            "end"
+        ]
+    }
+]

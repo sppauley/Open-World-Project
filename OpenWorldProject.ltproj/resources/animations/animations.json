@@ -574,5 +574,14 @@
         "speed": 75,
         "frame_times": "1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "LightRune",
+        "frame_x": 1,
+        "frame_y": 3,
+        "num_frames": 3,
+        "speed": 130,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]
