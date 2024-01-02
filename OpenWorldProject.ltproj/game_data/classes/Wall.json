@@ -64,6 +64,10 @@
             [
                 1,
                 "Void Curse"
+            ],
+            [
+                1,
+                "LowAITargetingPriority"
             ]
         ],
         "wexp_gain": {

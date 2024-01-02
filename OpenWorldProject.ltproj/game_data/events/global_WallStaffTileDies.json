@@ -1,7 +1,7 @@
 [
     {
         "name": "WallStaffTileDies",
-        "trigger": "unit_wait",
+        "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.klass == \"Wall\"",
         "commands": [],
