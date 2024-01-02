@@ -434,5 +434,9 @@
     "global_WallStaffTileDies",
     "8_Combat_Kajal",
     "global_Skill_HitandRunProc",
-    "global_Skill_LungingBlow"
+    "global_Skill_LungingBlow",
+    "27_Books",
+    "27_Stairs",
+    "27_Talk_Atropos",
+    "27_Talk_Servant"
 ]
