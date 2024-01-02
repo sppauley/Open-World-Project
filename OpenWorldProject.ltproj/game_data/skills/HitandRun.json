@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "HitandRun",
+        "name": "Hit and Run",
+        "desc": "After staggering an enemy, gain +2 MOV during your next turn.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

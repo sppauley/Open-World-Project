@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "HitandRunMov2",
+        "name": "HitandRunMov2",
+        "desc": "MOV +2.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            21
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

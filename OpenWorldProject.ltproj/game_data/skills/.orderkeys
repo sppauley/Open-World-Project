@@ -115,5 +115,7 @@
     "Courage",
     "DuyguBand",
     "Zeal",
-    "LowAITargetingPriority"
+    "LowAITargetingPriority",
+    "HitandRun",
+    "HitandRunMov2"
 ]

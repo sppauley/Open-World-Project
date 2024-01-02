@@ -1,4 +1,5 @@
 from __future__ import annotations
+from pickle import FALSE
 
 from app.data.database.components import ComponentType
 from app.data.database.database import DB
@@ -96,3 +97,21 @@ class WitchWarpExpressionWeakCheck(SkillComponent):
                 except Exception as e:
                     return positions
         return positions
+    
+class EventAfterStaggering(SkillComponent):
+    nid = 'event_after_staggering'
+    desc = 'calls event after user staggers an enemy'
+    tag = SkillTags.ADVANCED
+
+    expose = ComponentType.Event
+    value = ''
+
+    _did_stagger = False
+
+    def on_stagger(self, playback, unit, target, item):
+        self._did_stagger = True
+
+    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, mode):
+        if self._did_stagger and mode == 'attack':
+            game.events.trigger_specific_event(self.value, unit, target, unit.position, {'item': item, 'mode': mode})
+        self._did_stagger = False
