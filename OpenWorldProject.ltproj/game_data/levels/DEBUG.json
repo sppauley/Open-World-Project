@@ -159,7 +159,7 @@
                 ],
                 "starting_skills": [
                     "SpurSpeed",
-                    "DistractingPresence"
+                    "Smite"
                 ],
                 "team": "player",
                 "ai": "None",
@@ -219,6 +219,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

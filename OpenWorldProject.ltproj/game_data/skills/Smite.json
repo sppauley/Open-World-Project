@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Smite",
+        "name": "Smite",
+        "desc": "Can push an adjacent ally two spaces away.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            34
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Smite"
+            ]
+        ]
+    }
+]

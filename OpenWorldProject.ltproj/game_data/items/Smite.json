@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Smite",
+        "name": "Smite",
+        "desc": "Shove adjacent ally two tiles.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            34
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "shove_target_restrict",
+                2
+            ],
+            [
+                "shove",
+                2
+            ]
+        ]
+    }
+]
