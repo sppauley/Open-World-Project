@@ -127,5 +127,9 @@
     "SoulVoice",
     "Miracle",
     "RallyMov",
-    "RallyMovChild"
+    "RallyMovChild",
+    "SpurSpeed",
+    "SpurSpeedChild",
+    "DistractingPresence",
+    "DistractingPresenceChild"
 ]

@@ -33,7 +33,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    14
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -158,15 +158,16 @@
                     ]
                 ],
                 "starting_skills": [
-                    "RallyMov"
+                    "SpurSpeed",
+                    "DistractingPresence"
                 ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    14
+                    1,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true

@@ -106,7 +106,12 @@
     },
     {
         "nid": "{ZessDynamite, Rainlash} All Icons",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "{ZessDynamite, Rainlash} All Icons 1, 16": [
+                1,
+                16
+            ]
+        }
     },
     {
         "nid": "Accost",

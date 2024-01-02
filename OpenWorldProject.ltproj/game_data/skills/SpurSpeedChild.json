@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SpurSpeedChild",
+        "name": "Speed Spurred",
+        "desc": "+3 SPD for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            16
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

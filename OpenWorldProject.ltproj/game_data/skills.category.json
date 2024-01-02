@@ -1,6 +1,8 @@
 {
     "Accost": "Personal Skills",
     "Accosted": "Personal Skills",
+    "DistractingPresence": "Random Pull Skills",
+    "DistractingPresenceChild": "Random Pull Skills",
     "DualheartedDMG": "Personal Skills",
     "DualheartedSTG": "Personal Skills",
     "EbbandFlow": "Random Pull Skills",
@@ -20,6 +22,8 @@
     "RallyMov": "Random Pull Skills",
     "RallyMovChild": "Random Pull Skills",
     "SoulVoice": "Random Pull Skills",
+    "SpurSpeed": "Random Pull Skills",
+    "SpurSpeedChild": "Random Pull Skills",
     "SunLight": "Personal Skills",
     "SunLightProc": "Personal Skills",
     "WitchWarp": "Personal Skills",
