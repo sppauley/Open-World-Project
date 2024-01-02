@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Hardened",
+        "name": "Hardened",
+        "desc": "Unless staggered, this unit cannot be critically hit.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_crit_avoid",
+                "+999 if unit.get_poise() > 0 else 0"
+            ]
+        ]
+    }
+]
