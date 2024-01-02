@@ -117,6 +117,8 @@
     "Courage",
     "DuyguBand",
     "LowAITargetingPriority",
+    "RallyMov",
+    "RallyMovChild",
     "HitandRun",
     "HitandRunMov2",
     "EbbandFlow",
@@ -126,8 +128,6 @@
     "LungingBlow",
     "SoulVoice",
     "Miracle",
-    "RallyMov",
-    "RallyMovChild",
     "SpurSpeed",
     "SpurSpeedChild",
     "DistractingPresence",
@@ -137,5 +137,6 @@
     "AgileFighter",
     "Smite",
     "Bearer",
-    "BearerChild"
+    "BearerChild",
+    "Desperation"
 ]

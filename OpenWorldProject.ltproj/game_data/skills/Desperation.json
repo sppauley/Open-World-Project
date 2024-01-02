@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Desperation",
+        "name": "Desperation",
+        "desc": "If unit initiates combat with 50% HP or less, unit's follow up attack (if possible) occurs before foe's counterattack.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            32
+        ],
+        "components": [
+            [
+                "desperation",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_hp() <= unit.get_max_hp() // 2 and mode == \"attack\""
+            ]
+        ]
+    }
+]
