@@ -1,0 +1,43 @@
+[
+    {
+        "name": "TargetingUpdate",
+        "trigger": "enemy_turn_change",
+        "level_nid": "20",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "if;any(get_units_in_region('boat1', team='player')) and game.check_alive('Hull1')",
+            "    change_team;Hull1;enemy2",
+            "else",
+            "    change_team;Hull1;enemy",
+            "end",
+            "",
+            "if;any(get_units_in_region('boat2', team='player')) and game.check_alive('Hull2')",
+            "    change_team;Hull2;enemy2",
+            "else",
+            "    change_team;Hull2;enemy",
+            "end",
+            "",
+            "if;any(get_units_in_region('boat3', team='player')) and game.check_alive('Hull3')",
+            "    change_team;Hull3;enemy2",
+            "else",
+            "    change_team;Hull3;enemy",
+            "end",
+            "",
+            "if;any(get_units_in_region('boat4', team='player')) and game.check_alive('Hull4')",
+            "    change_team;Hull4;enemy2",
+            "else",
+            "    change_team;Hull4;enemy",
+            "end",
+            "",
+            "if;any(get_units_in_region('boat5', team='player')) and game.check_alive('Hull5')",
+            "    change_team;Hull5;enemy2",
+            "else",
+            "    change_team;Hull5;enemy",
+            "end"
+        ]
+    }
+]

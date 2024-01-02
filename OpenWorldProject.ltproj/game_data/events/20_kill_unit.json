@@ -8,7 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "kill_unit;{unit}"
+            "kill_unit;{unit}",
+            "if;unit.nid=='Simon'",
+            "    lose_game",
+            "end"
         ]
     }
 ]

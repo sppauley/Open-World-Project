@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "add_unit;Hull4;18,3",
-            "add_unit;Hull5;2,10"
+            "add_unit;Hull5;2,10",
+            "trigger_script;20 TargetingUpdate"
         ]
     }
 ]
