@@ -1366,5 +1366,29 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "{DATonDemand} F2E OC Vera (FE6 colours) _1",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "atropos",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 0
     }
 ]

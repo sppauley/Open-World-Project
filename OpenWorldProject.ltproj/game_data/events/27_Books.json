@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Books",
+        "trigger": "Books",
+        "level_nid": "27",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "s;Simon;All these books... ",
+            "s;Simon;So much knowledge could be lost here.",
+            "s;Simon;Well, if this'll collapse anyway...",
+            "remove_portrait;Simon",
+            "give_item;Simon;KnowledgeScroll"
+        ]
+    }
+]
