@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "20",
+        "condition": "game.turncount>5 and game.turncount % 2 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# reinforce on even turns (turn 6+)",
+            "add_group;Reinforcements;;swoosh;closest;create",
+            "center_cursor;29,1",
+            "wait;500",
+            "center_cursor;1,34",
+            "wait;500"
+        ]
+    }
+]

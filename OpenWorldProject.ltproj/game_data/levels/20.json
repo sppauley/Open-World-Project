@@ -991,6 +991,90 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Lord",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Lord",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Lord",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 1,
+                "klass": "Wyvern Lord",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1158,6 +1242,33 @@
                     "Hull1"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Reinforcements",
+                "units": [
+                    "125",
+                    "128",
+                    "131",
+                    "132"
+                ],
+                "positions": {
+                    "125": [
+                        28,
+                        1
+                    ],
+                    "128": [
+                        29,
+                        2
+                    ],
+                    "131": [
+                        1,
+                        33
+                    ],
+                    "132": [
+                        2,
+                        34
+                    ]
+                }
             }
         ],
         "ai_groups": [
