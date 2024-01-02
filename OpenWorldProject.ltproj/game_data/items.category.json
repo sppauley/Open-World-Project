@@ -214,5 +214,6 @@
     "Wind Sword": "Swords",
     "Wretched Air": "Monster",
     "Zanbato": "Swords",
-    "so_Rally": "SkillItems"
+    "so_RallyCrit": "SkillItems",
+    "so_RallyMov": "SkillItems"
 }

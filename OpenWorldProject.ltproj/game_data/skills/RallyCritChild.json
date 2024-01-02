@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "RallyCritChild",
+        "name": "Rallied - Crit",
+        "desc": "+15 crit for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    104,
+                    52,
+                    0
+                ]
+            ],
+            [
+                "crit",
+                15
+            ]
+        ]
+    }
+]

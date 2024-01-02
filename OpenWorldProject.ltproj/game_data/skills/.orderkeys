@@ -131,5 +131,7 @@
     "SpurSpeed",
     "SpurSpeedChild",
     "DistractingPresence",
-    "DistractingPresenceChild"
+    "DistractingPresenceChild",
+    "RallyCrit",
+    "RallyCritChild"
 ]

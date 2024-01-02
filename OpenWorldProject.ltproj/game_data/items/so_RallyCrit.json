@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "so_RallyCrit",
+        "name": "Rally Crit",
+        "desc": "All allies within two tiles gain +3 MOV for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "status_on_hit",
+                "RallyCritChild"
+            ],
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "map_cast_anim",
+                "AOE_Rally"
+            ],
+            [
+                "map_hit_sfx",
+                "Rally"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    104,
+                    52,
+                    0
+                ]
+            ]
+        ]
+    }
+]
