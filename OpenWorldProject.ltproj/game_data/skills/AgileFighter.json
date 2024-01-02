@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AgileFighter",
+        "name": "Agile Fighter",
+        "desc": "Unit's DEX is used instead of SPD when determing attack speed.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "alternate_attack_speed_formula",
+                "DEXTERITY"
+            ],
+            [
+                "alternate_defense_speed_formula",
+                "DEXTERITY"
+            ]
+        ]
+    }
+]

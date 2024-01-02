@@ -106,5 +106,9 @@
     {
         "nid": "SKILL_HIT",
         "expression": "DEX"
+    },
+    {
+        "nid": "DEXTERITY",
+        "expression": "DEX"
     }
 ]
