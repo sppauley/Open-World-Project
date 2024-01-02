@@ -206,7 +206,7 @@
                 "team": "enemy2",
                 "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     8,
                     29
@@ -463,7 +463,7 @@
                 "starting_items": [
                     [
                         "Silver_Pike",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -536,6 +536,10 @@
                     [
                         "Silver_Mace",
                         false
+                    ],
+                    [
+                        "Master Seal",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1070,6 +1074,10 @@
                 "starting_items": [
                     [
                         "Heavy Spear",
+                        true
+                    ],
+                    [
+                        "Silver Lance",
                         false
                     ]
                 ],
@@ -1945,6 +1953,10 @@
             },
             {
                 "nid": "tl",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
