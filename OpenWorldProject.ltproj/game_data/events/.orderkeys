@@ -429,5 +429,6 @@
     "28_Talk_Knight",
     "28_Forge",
     "20_Outro",
-    "global_Wall_Staff"
+    "global_Wall_Staff",
+    "global_WallStaffTileDies"
 ]

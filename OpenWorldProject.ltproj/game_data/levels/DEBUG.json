@@ -6,7 +6,7 @@
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
-            "player_phase": "Shadow of the Enemy",
+            "player_phase": null,
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,

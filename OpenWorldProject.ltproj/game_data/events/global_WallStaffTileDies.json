@@ -1,0 +1,14 @@
+[
+    {
+        "name": "WallStaffTileDies",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.klass == \"Wall\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_map_anim;LightRune;{e:unit.position};no_warn"
+        ]
+    }
+]

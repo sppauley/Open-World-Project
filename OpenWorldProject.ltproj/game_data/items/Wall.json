@@ -69,7 +69,7 @@
                 null
             ],
             [
-                "event_after_combat_on_hit",
+                "event_on_hit",
                 "Global Wall Staff"
             ]
         ]
