@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RallyMov",
+        "name": "Rally Movement",
+        "desc": "All units in two tiles gain +3 MOV for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "so_Rally"
+            ]
+        ]
+    }
+]

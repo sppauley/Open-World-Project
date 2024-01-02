@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "RallyMovChild",
+        "name": "Rallied - MOV",
+        "desc": "+3 MOV for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            7,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    104,
+                    52,
+                    0
+                ]
+            ]
+        ]
+    }
+]
