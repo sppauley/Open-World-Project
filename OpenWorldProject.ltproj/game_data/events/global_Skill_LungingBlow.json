@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Skill_LungingBlow",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;UserLungingBlowPos;unit.position",
+            "level_var;TargetLungingBlowPos;unit2.position",
+            "",
+            "remove_unit;{unit};swoosh",
+            "remove_unit;{unit2};swoosh",
+            "add_unit;{unit};{e:v(\"TargetLungingBlowPos\")};swoosh",
+            "add_unit;{unit2};{e:v(\"UserLungingBlowPos\")};swoosh"
+        ]
+    }
+]

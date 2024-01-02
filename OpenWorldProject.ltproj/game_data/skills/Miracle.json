@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Miracle",
+        "name": "Miracle",
+        "desc": "Once per chapter, survive an attack with 1 HP.\nUnit takes 7 damage at the start of their turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "miracle",
+                null
+            ],
+            [
+                "drain_charge",
+                1
+            ],
+            [
+                "upkeep_damage",
+                7
+            ]
+        ]
+    }
+]

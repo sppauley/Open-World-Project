@@ -119,5 +119,11 @@
     "LowAITargetingPriority",
     "HitandRun",
     "HitandRunMov2",
-    "EbbandFlow"
+    "EbbandFlow",
+    "Pass",
+    "Lifetaker",
+    "Mighty",
+    "LungingBlow",
+    "SoulVoice",
+    "Miracle"
 ]

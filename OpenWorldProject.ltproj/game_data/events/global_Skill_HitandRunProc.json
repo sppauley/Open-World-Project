@@ -1,6 +1,6 @@
 [
     {
-        "name": "HitandRunProc",
+        "name": "Skill_HitandRunProc",
         "trigger": null,
         "level_nid": null,
         "condition": "True",

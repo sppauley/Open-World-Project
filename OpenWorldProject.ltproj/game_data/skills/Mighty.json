@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Mighty",
+        "name": "Mighty",
+        "desc": "Deal +5 damage, but cannot double.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

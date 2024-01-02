@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    6
+                    2,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -74,11 +74,11 @@
                 "nid": "101",
                 "variant": null,
                 "level": 1,
-                "klass": "Mage",
+                "klass": "Brigand",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Thanatos",
+                        "Iron_Mace",
                         false
                     ]
                 ],
@@ -88,8 +88,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    4
+                    1,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -163,8 +163,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    8
+                    3,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -216,11 +216,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
