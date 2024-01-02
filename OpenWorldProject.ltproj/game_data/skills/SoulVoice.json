@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SoulVoice",
+        "name": "Soul Voice",
+        "desc": "On player phase, heal adjacent allies for 50% of unit's damage dealt.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "ally_lifelink",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "mode == \"attack\""
+            ]
+        ]
+    }
+]
