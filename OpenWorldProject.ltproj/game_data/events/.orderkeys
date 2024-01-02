@@ -433,5 +433,6 @@
     "global_Wall_Staff",
     "global_WallStaffTileDies",
     "8_Combat_Kajal",
-    "global_HitandRunProc"
+    "global_Skill_HitandRunProc",
+    "global_Skill_LungingBlow"
 ]

@@ -41,8 +41,9 @@
             "trigger_script;Global Upgrade Leadership",
             "",
             "give_skill;Titus;HitandRun;no_banner",
-            "give_skill;Simon;Lifetaker;no_banner",
-            "set_current_hp;101;1",
+            "",
+            "give_item;Simon;Iron Sword;no_banner",
+            "give_skill;Simon;LungingBlow;no_banner",
             "set_current_hp;Simon;10"
         ]
     }
