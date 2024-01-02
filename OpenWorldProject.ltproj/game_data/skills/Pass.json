@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pass",
+        "name": "Pass",
+        "desc": "Unit can move through tiles occupied by enemies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "pass",
+                null
+            ]
+        ]
+    }
+]
