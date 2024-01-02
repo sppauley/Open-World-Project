@@ -2,8 +2,8 @@
     {
         "nid": "Melodie",
         "name": "Melodie",
-        "desc": "",
-        "variant": null,
+        "desc": "A member of a primitivist group.\nBelieves civilization will destroy itself.",
+        "variant": "",
         "level": 7,
         "klass": "Archer",
         "tags": [],
@@ -29,6 +29,10 @@
             [
                 "Tradition",
                 false
+            ],
+            [
+                "Vulnerary",
+                false
             ]
         ],
         "learned_skills": [
@@ -46,7 +50,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "",
+        "portrait_nid": "{Kanna} [F2E] OC 4",
         "affinity": null,
         "fields": []
     }

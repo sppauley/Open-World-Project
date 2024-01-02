@@ -902,6 +902,34 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 7,
+                "klass": "Warrior",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Silver Bow",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
