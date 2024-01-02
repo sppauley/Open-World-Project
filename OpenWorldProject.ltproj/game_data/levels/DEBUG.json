@@ -73,12 +73,12 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 1,
-                "klass": "Brigand",
+                "level": 20,
+                "klass": "Swordmaster",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron_Mace",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -88,8 +88,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    14
+                    4,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -149,25 +149,28 @@
                 "nid": "104",
                 "variant": null,
                 "level": 1,
-                "klass": "Valkyrie",
+                "klass": "Sage",
                 "faction": "Soldier",
                 "starting_items": [
                     [
                         "Wall",
                         false
+                    ],
+                    [
+                        "Fire",
+                        false
                     ]
                 ],
                 "starting_skills": [
-                    "Bearer",
-                    "Smite"
+                    "CloseandPersonal"
                 ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    12
+                    4,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -219,6 +222,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

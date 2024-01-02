@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CloseandPersonal",
+        "name": "Close and Personal",
+        "desc": "Against adjacent enemies, +30 hit.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            3,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hit",
+                30
+            ],
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) == 1"
+            ]
+        ]
+    }
+]

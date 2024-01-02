@@ -2,7 +2,7 @@
     {
         "nid": "RallyMov",
         "name": "Rally Movement",
-        "desc": "All units in two tiles gain +3 MOV for one turn.",
+        "desc": "All allies within two tiles gain +3 MOV for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             7,
