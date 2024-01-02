@@ -38,7 +38,9 @@
             "#add_portrait;Franz;Right",
             "#add_portrait;Seth;FarRight",
             "#s;Simon;Hi",
-            "trigger_script;Global Upgrade Leadership"
+            "trigger_script;Global Upgrade Leadership",
+            "",
+            "give_skill;Titus;HitandRun;no_banner"
         ]
     }
 ]

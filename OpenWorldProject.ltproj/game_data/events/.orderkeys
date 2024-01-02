@@ -431,5 +431,6 @@
     "20_Outro",
     "global_Wall_Staff",
     "global_WallStaffTileDies",
-    "8_Combat_Kajal"
+    "8_Combat_Kajal",
+    "global_HitandRunProc"
 ]
