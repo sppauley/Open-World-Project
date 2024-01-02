@@ -9,7 +9,9 @@
         "priority": 20,
         "_source": [
             "level_var;unit_pos;unit.position",
-            "level_var;region_pos;region",
+            "level_var;region_pos;position",
+            "alert;{eval:v(\"unit_pos\")}",
+            "alert;{eval:v(\"target_pos\")}",
             "",
             "if;v(\"unit_pos\")[1] < v(\"region_pos\")[1]",
             "    # Facing North",
