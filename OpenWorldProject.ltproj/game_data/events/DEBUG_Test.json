@@ -43,7 +43,7 @@
             "give_skill;Titus;HitandRun;no_banner",
             "",
             "give_item;Simon;Iron Sword;no_banner",
-            "give_skill;Simon;Desperation;;no_banner",
+            "give_skill;Simon;Recalcitrant;;no_banner",
             "set_current_hp;Simon;6",
             "#set_current_hp;101;1"
         ]

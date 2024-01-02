@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Looter",
+        "name": "Looter",
+        "desc": "Deal +3 damage if enemy holds a droppable item.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            3,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "any([item.droppable for item in target.items])"
+            ],
+            [
+                "damage",
+                3
+            ]
+        ]
+    }
+]
