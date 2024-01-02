@@ -43,9 +43,9 @@
             "give_skill;Titus;HitandRun;no_banner",
             "",
             "give_item;Simon;Iron Sword;no_banner",
-            "give_skill;Simon;SoulVoice;no_banner",
+            "give_skill;101;Miracle;;no_banner",
             "set_current_hp;Simon;10",
-            "set_current_hp;104;1"
+            "#set_current_hp;101;1"
         ]
     }
 ]
