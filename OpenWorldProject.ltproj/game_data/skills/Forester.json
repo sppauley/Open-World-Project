@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Forester",
+        "name": "Forester",
+        "desc": "Move across different terrain easily.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "movement_type",
+                "Forester"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Combat Kajal",
+        "trigger": "combat_start",
+        "level_nid": "8",
+        "condition": "unit.faction == 'Monster' and unit2.nid == 'Kajal'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kajal;Left",
+            "s;Kajal;Wait, why are you approaching me like that?",
+            "s;Kajal;I'm Lord Vesner's faithful disciple!",
+            "remove_portrait;Kajal"
+        ]
+    }
+]

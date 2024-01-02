@@ -821,12 +821,12 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 5,
-                "klass": "Wyvern Rider",
+                "level": 10,
+                "klass": "Knight",
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -836,7 +836,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
+                    7,
                     25
                 ],
                 "starting_traveler": null,
@@ -850,7 +850,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -874,7 +874,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -1027,6 +1027,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

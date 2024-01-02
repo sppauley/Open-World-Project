@@ -2,7 +2,7 @@
     {
         "nid": "Reinforce",
         "name": "Reinforce",
-        "desc": "Target gains +5 PSE until their next turn.",
+        "desc": "Target gains +10 PSE until their next turn.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
