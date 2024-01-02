@@ -5,8 +5,8 @@
         "desc": "Upon staggering an enemy, swap places with them.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            4,
-            6
+            5,
+            36
         ],
         "components": [
             [

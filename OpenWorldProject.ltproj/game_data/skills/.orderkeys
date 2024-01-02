@@ -135,5 +135,7 @@
     "RallyCrit",
     "RallyCritChild",
     "AgileFighter",
-    "Smite"
+    "Smite",
+    "Bearer",
+    "BearerChild"
 ]

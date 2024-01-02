@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Bearer",
+        "name": "Cursebearer",
+        "desc": "Adjacent units lose 5 HP at the beginning of their turn. This effect can kill.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "BearerChild"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    }
+]
