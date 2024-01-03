@@ -1974,6 +1974,258 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "179",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "180",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "181",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "182",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "183",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "184",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "185",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "186",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "187",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "188",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "189",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "190",
+                "variant": null,
+                "level": 6,
+                "klass": "Ranger",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2095,6 +2347,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "trap3",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    43
+                ],
+                "size": [
+                    30,
+                    10
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [
@@ -2179,6 +2448,73 @@
                     "138"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Stairs",
+                "units": [
+                    "179",
+                    "180",
+                    "181",
+                    "182",
+                    "183",
+                    "184",
+                    "185",
+                    "186",
+                    "187",
+                    "188",
+                    "189",
+                    "190"
+                ],
+                "positions": {
+                    "179": [
+                        0,
+                        48
+                    ],
+                    "180": [
+                        0,
+                        49
+                    ],
+                    "181": [
+                        0,
+                        50
+                    ],
+                    "182": [
+                        29,
+                        48
+                    ],
+                    "183": [
+                        29,
+                        49
+                    ],
+                    "184": [
+                        29,
+                        50
+                    ],
+                    "185": [
+                        0,
+                        38
+                    ],
+                    "186": [
+                        0,
+                        39
+                    ],
+                    "187": [
+                        0,
+                        40
+                    ],
+                    "188": [
+                        29,
+                        38
+                    ],
+                    "189": [
+                        29,
+                        39
+                    ],
+                    "190": [
+                        29,
+                        40
+                    ]
+                }
             }
         ],
         "ai_groups": [

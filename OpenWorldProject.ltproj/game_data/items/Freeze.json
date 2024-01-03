@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Cripple",
-        "name": "Cripple",
-        "desc": "Enemy loses 5 CON and 2 MOV for one turn. Cannot hit enemies with higher MAG.",
-        "icon_nid": "Staff",
+        "nid": "Freeze",
+        "name": "Freeze",
+        "desc": "Prevents foe from moving and gives them -30 Avoid for 1 turn. Cannot hit enemies with higher MAG.",
+        "icon_nid": "{LordGlenn} Staff 1",
         "icon_index": [
             0,
-            8
+            0
         ],
         "components": [
             [
@@ -14,20 +14,28 @@
                 null
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "D"
+                "target_enemy",
+                null
             ],
             [
                 "magic",
                 null
             ],
             [
+                "hit",
+                70
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -38,31 +46,23 @@
             ],
             [
                 "wexp",
-                5
+                6
             ],
             [
                 "exp",
-                30
+                40
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "status_on_hit",
-                "Crippled"
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
                 "max_range",
-                8
+                6
             ],
             [
-                "hit",
-                75
+                "status_on_hit",
+                "Frozen"
             ]
         ]
     }

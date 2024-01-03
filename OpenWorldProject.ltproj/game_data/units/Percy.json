@@ -9,12 +9,12 @@
         "tags": [],
         "bases": {
             "HP": 60,
-            "MAG": 5,
-            "DEX": 20,
-            "SPD": 19,
+            "MAG": 11,
+            "DEX": 22,
+            "SPD": 25,
             "PSE": 30,
             "MOV": 5,
-            "CON": 15
+            "CON": 18
         },
         "growths": {
             "HP": 0,
@@ -29,6 +29,10 @@
         "starting_items": [
             [
                 "Silver Sword",
+                false
+            ],
+            [
+                "Silver Axe",
                 false
             ]
         ],

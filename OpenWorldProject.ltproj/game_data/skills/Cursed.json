@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Cursed",
+        "name": "Cursed",
+        "desc": "Unit has halved Poised",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            39
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "PSE",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ]
+        ]
+    }
+]

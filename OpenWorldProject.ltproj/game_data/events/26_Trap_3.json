@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Trap 3",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "any(get_units_in_region('trap3', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Percy;Right",
+            "s;Percy;They're closing in!{w} Stop them!",
+            "remove_portrait;Percy",
+            "add_group;Stairs;;;closest",
+            "center_cursor;0,49",
+            "wait;500",
+            "center_cursor;29,50",
+            "wait;500",
+            "center_cursor;0,39",
+            "wait;500",
+            "center_cursor;29,39",
+            "wait;500"
+        ]
+    }
+]

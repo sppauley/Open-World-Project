@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Cripple",
-        "name": "Cripple",
-        "desc": "Enemy loses 5 CON and 2 MOV for one turn. Cannot hit enemies with higher MAG.",
-        "icon_nid": "Staff",
+        "nid": "CursingRod",
+        "name": "Cursing Rod",
+        "desc": "Enemy's Poise is halved. Cannot hit enemies with higher MAG.",
+        "icon_nid": "{Celice} Staff 7",
         "icon_index": [
             0,
-            8
+            0
         ],
         "components": [
             [
@@ -14,20 +14,28 @@
                 null
             ],
             [
-                "weapon_type",
-                "Staff"
-            ],
-            [
-                "weapon_rank",
-                "D"
+                "target_enemy",
+                null
             ],
             [
                 "magic",
                 null
             ],
             [
+                "hit",
+                60
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
                 "uses",
-                5
+                3
             ],
             [
                 "uses_options",
@@ -38,31 +46,23 @@
             ],
             [
                 "wexp",
-                5
+                7
             ],
             [
                 "exp",
-                30
+                45
             ],
             [
                 "min_range",
                 1
             ],
             [
-                "status_on_hit",
-                "Crippled"
-            ],
-            [
-                "target_enemy",
-                null
-            ],
-            [
                 "max_range",
                 8
             ],
             [
-                "hit",
-                75
+                "status_on_hit",
+                "Cursed"
             ]
         ]
     }

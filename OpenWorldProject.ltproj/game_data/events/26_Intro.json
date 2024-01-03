@@ -10,6 +10,7 @@
         "_source": [
             "show_layer;overlaytiles",
             "show_layer;crossbridge",
+            "add_tag;Percy;Boss",
             "show_layer;trees2",
             "remove_skill;Bordeaux;Ruler;no_banner",
             "remove_item;Bordeaux;Horseslayer;;no_banner",

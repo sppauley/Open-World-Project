@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Frozen",
+        "name": "Frozen",
+        "desc": "Unit is frozen for one turn. Cannot move and suffers -30 avoid.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -30
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    170,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]

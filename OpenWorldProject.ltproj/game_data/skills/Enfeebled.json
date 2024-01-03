@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Enfeebled",
+        "name": "Enfeebled",
+        "desc": "-4 to all stats except HP and MOV for one turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            4
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        -4
+                    ],
+                    [
+                        "MAG",
+                        -4
+                    ],
+                    [
+                        "DEX",
+                        -4
+                    ],
+                    [
+                        "SPD",
+                        -4
+                    ],
+                    [
+                        "PSE",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "end_time",
+                1
+            ]
+        ]
+    }
+]
