@@ -45,6 +45,7 @@
             "wait;100",
             "s;Narrator;If units stand on both pressure plates, the door will open.;StyleNid=hint",
             "s;Narrator;But, if a unit steps off the pressure plate, the door will close again.;StyleNid=hint",
+            "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"
         ]
     }
