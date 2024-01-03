@@ -9,6 +9,12 @@
         "priority": 20,
         "_source": [
             "center_cursor;Dragonlord",
+            "s;Dragonlord;RARGHHHHHH!",
+            "wait;300",
+            "add_portrait;Simon;Left",
+            "s;Simon;Is it... calling for help?",
+            "s;Simon;Uh oh...",
+            "remove_portrait;Simon",
             "wait;700",
             "add_group;Boss;;warp;closest;create",
             "wait;1000"

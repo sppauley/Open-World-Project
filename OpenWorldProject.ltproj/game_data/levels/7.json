@@ -1546,6 +1546,48 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 12,
+                "klass": "Sage",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1789,12 +1831,14 @@
                     "147",
                     "148",
                     "149",
-                    "150"
+                    "150",
+                    "151",
+                    "152"
                 ],
                 "positions": {
                     "146": [
-                        10,
-                        4
+                        21,
+                        12
                     ],
                     "147": [
                         11,
@@ -1811,6 +1855,14 @@
                     "150": [
                         19,
                         12
+                    ],
+                    "151": [
+                        25,
+                        10
+                    ],
+                    "152": [
+                        10,
+                        7
                     ]
                 }
             }
