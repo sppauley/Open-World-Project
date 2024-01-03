@@ -459,13 +459,13 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 12,
+                "level": 15,
                 "klass": "Cleric",
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Cripple",
-                        false
+                        "Enfeeble",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -812,7 +812,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Cripple",
+                        "Enfeeble",
                         false
                     ]
                 ],
@@ -1004,7 +1004,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Cripple",
+                        "Enfeeble",
                         false
                     ]
                 ],
@@ -1056,7 +1056,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Cripple",
+                        "HexingRod",
                         false
                     ],
                     [
@@ -1894,6 +1894,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

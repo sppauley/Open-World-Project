@@ -373,6 +373,34 @@
                 "generic": true
             },
             {
+                "nid": "191",
+                "variant": null,
+                "level": 5,
+                "klass": "Bishop",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ],
+                    [
+                        "Enfeeble",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "103",
                 "variant": null,
                 "level": 5,
@@ -2226,6 +2254,110 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "193",
+                "variant": null,
+                "level": 5,
+                "klass": "Cleric",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Freeze",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "194",
+                "variant": null,
+                "level": 5,
+                "klass": "Cleric",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Freeze",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "195",
+                "variant": null,
+                "level": 10,
+                "klass": "Bishop",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ],
+                    [
+                        "HexingRod",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    35
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "196",
+                "variant": null,
+                "level": 10,
+                "klass": "Bishop",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Elfire",
+                        false
+                    ],
+                    [
+                        "Mend",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SupportBossGuard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    51
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2540,6 +2672,10 @@
             },
             {
                 "nid": "f",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

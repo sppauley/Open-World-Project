@@ -198,8 +198,8 @@
                         false
                     ],
                     [
-                        "Cripple",
-                        false
+                        "Freeze",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1417,7 +1417,7 @@
                         false
                     ],
                     [
-                        "Cripple",
+                        "HexingRod",
                         false
                     ]
                 ],
@@ -1517,7 +1517,7 @@
                         false
                     ],
                     [
-                        "Cripple",
+                        "CursingRod",
                         false
                     ]
                 ],
@@ -1953,6 +1953,10 @@
             },
             {
                 "nid": "tl",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
