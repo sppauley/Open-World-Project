@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Win Condition",
+        "trigger": "combat_end",
+        "level_nid": "26",
+        "condition": "game.check_dead('Percy')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ]
+    }
+]

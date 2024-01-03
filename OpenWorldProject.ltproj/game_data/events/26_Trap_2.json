@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Trap 2",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "any(get_units_in_region('trap2', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Percy;Right",
+            "s;Percy;They're approaching the castle.",
+            "s;Percy;Reinforcements! Now's your time!",
+            "remove_portrait;Percy",
+            "add_group;Courtyard;;;closest",
+            "center_cursor;0,25",
+            "wait;500",
+            "center_cursor;28,22",
+            "wait;500"
+        ]
+    }
+]

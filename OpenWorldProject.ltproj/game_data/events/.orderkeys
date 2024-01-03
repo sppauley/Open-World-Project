@@ -392,6 +392,7 @@
     "26_Brandt_Dies",
     "global_LoyaltyMenuSub1",
     "26_Trap_1",
+    "26_Trap_2",
     "26_Ruler_Constanza",
     "26_PushUnit",
     "26_Open_Gate",
@@ -440,5 +441,6 @@
     "27_Talk_Atropos",
     "27_Talk_Servant",
     "20_TargetingUpdate",
-    "20_Reinforcements"
+    "20_Reinforcements",
+    "26_Win_Condition"
 ]
