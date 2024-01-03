@@ -457,7 +457,7 @@
                 "starting_items": [
                     [
                         "Silver Sword",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1542,7 +1542,7 @@
                     ],
                     [
                         "Hand Axe",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -2672,10 +2672,6 @@
             },
             {
                 "nid": "f",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]

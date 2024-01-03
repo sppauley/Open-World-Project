@@ -84,15 +84,23 @@
         "desc": "Did Kajal absorb Vesner's spirit?"
     },
     {
-        "nid": "SimonAbsorb",
-        "desc": "Did Simon absorb Vesner's spirit?"
-    },
-    {
         "nid": "HullShop",
         "desc": "Inventory of Port Hull store"
     },
     {
         "nid": "HullShopNotification",
         "desc": "Tell player that there are new items at Hull"
+    },
+    {
+        "nid": "MorrisseySupport",
+        "desc": "Has Morrissey sent troops to Castle Verstadt?"
+    },
+    {
+        "nid": "SwampCleared",
+        "desc": "Has the player cleared Submerged Mausoleum?"
+    },
+    {
+        "nid": "DragonCleared",
+        "desc": "Has the player cleared Dragon's Lair?"
     }
 ]

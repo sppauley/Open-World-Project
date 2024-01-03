@@ -136,7 +136,9 @@
             "multi_remove_portrait;Yusna;Simon",
             "",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "game_var;freely_exit;True",
+            "trigger_script;Global GenericPreps",
+            ""
         ]
     }
 ]
