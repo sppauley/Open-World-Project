@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Resilience",
+        "name": "Resilience",
+        "desc": "Unit heals 50% of damage dealt by critical hits",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "crit_lifelink",
+                0.5
+            ]
+        ]
+    }
+]
