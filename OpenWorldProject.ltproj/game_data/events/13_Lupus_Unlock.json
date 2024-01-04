@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Lupus Unlock",
+        "trigger": "Door",
+        "level_nid": "13",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lupus;Left",
+            "s;Lupus;Going through the front door typically isn't my style,{w}{br}but the bandits won't be expecting it.",
+            "s;Lupus;Let's get this open.",
+            "remove_portrait;Lupus",
+            "show_layer;front_door",
+            "wait;500",
+            "add_group;HiddenEnemies;starting",
+            "hide_layer;darkness",
+            "wait;500",
+            "multi_add_portrait;Lupus;Left;Simon;Right",
+            "s;Simon;Nice work, Lupus. We're in.",
+            "s;Simon;But the bandits have likely been alerted to our presense.",
+            "s;Simon;We should move quickly and try to stop their leader.",
+            "multi_remove_portrait;Simon;Lupus",
+            "flicker_cursor;21,2",
+            "wait;300"
+        ]
+    }
+]
