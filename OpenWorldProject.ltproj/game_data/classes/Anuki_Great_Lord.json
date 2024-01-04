@@ -1,33 +1,31 @@
 [
     {
-        "nid": "Archer",
-        "name": "Irregular",
-        "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
-        "tier": 1,
+        "nid": "Anuki_Great_Lord",
+        "name": "Great Lord",
+        "desc": "A noble axefighter focused on strength above all.",
+        "tier": 2,
         "movement_group": "Infantry",
-        "promotes_from": null,
-        "turns_into": [
-            "Guerilla"
-        ],
+        "promotes_from": "Anuki_Lord",
+        "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
-            "HP": 18,
+            "HP": 20,
             "SPD": 4,
-            "MOV": 5,
-            "DEX": 7,
+            "MOV": 6,
+            "DEX": 6,
             "MAG": 0,
-            "PSE": 7,
-            "CON": 4
+            "PSE": 11,
+            "CON": 7
         },
         "growths": {
-            "HP": 70,
-            "SPD": 32,
+            "HP": 85,
+            "SPD": 30,
             "MOV": 0,
-            "DEX": 40,
+            "DEX": 35,
             "MAG": 0,
             "PSE": 50,
-            "CON": 35
+            "CON": 40
         },
         "growth_bonus": {
             "HP": 0,
@@ -39,13 +37,13 @@
             "CON": 0
         },
         "promotion": {
-            "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
-            "DEX": 0,
+            "HP": 5,
+            "SPD": 2,
+            "MOV": -99,
+            "DEX": 1,
             "MAG": 0,
-            "PSE": 0,
-            "CON": 0
+            "PSE": 4,
+            "CON": 4
         },
         "max_stats": {
             "HP": 60,
@@ -69,13 +67,13 @@
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
-                true,
-                31,
+                false,
+                0,
                 251
             ],
             "Innate": [
@@ -109,12 +107,12 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Archer",
+        "icon_nid": "Generic_Portrait_Citizen",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Archer",
+        "map_sprite_nid": "Mercenary (F) Axe {Pushwall, Argo, Flasuban, ArcherBias}-stand",
         "combat_anim_nid": null,
         "fields": []
     }

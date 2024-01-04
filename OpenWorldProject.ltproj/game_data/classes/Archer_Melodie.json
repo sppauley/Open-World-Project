@@ -1,13 +1,13 @@
 [
     {
-        "nid": "Archer",
+        "nid": "Archer_Melodie",
         "name": "Irregular",
         "desc": "Lightly armored soldiers armed with bows. Can attack from a distance.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
-            "Guerilla"
+            "Ranger"
         ],
         "tags": [],
         "max_level": 20,

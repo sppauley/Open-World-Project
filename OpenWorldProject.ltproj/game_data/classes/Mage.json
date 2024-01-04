@@ -7,8 +7,7 @@
         "movement_group": "Mages",
         "promotes_from": null,
         "turns_into": [
-            "Sage",
-            "Mage Knight"
+            "Sage"
         ],
         "tags": [
             "Magic"

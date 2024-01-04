@@ -1,7 +1,7 @@
 [
     {
         "nid": "Guerilla",
-        "name": "Guerilla",
+        "name": "Guerrilla",
         "desc": "Devotees of the bow. Possess incredible range.",
         "tier": 2,
         "movement_group": "Infantry",

@@ -5,7 +5,7 @@
         "desc": "A member of a primitivist group.\nBelieves civilization will destroy itself.",
         "variant": "",
         "level": 7,
-        "klass": "Archer",
+        "klass": "Archer_Melodie",
         "tags": [],
         "bases": {
             "HP": 25,
