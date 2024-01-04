@@ -445,5 +445,7 @@
     "20_Reinforcements",
     "26_Win_Condition",
     "MorrisseyCastleRoam_MorrisseyTroops",
-    "13_Lupus_Unlock"
+    "13_Lupus_Unlock",
+    "global_IncreaseMitziProgress",
+    "global_MitziSkillUnlockNotification"
 ]

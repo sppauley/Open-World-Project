@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MitziSkillUnlockNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"MAXMapsToSkillUnlock\") and v(\"MapsToSkillUnlock\") == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "s;Narrator;Mitzi may have found something of interest...|Speak to her when you next visit Morrissey's Castle.;StyleNid=hint"
+        ]
+    }
+]

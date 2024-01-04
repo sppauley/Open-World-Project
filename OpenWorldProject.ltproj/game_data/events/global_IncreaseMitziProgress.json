@@ -1,0 +1,20 @@
+[
+    {
+        "name": "IncreaseMitziProgress",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Only occurs in a debug situation",
+            "if;v(\"MAXMapsToSkillUnlock\") == None",
+            "    game_var;MAXMapsToSkillUnlock;3",
+            "    game_var;MapsToSkillUnlock;v(\"MAXMapsToSkillUnlock\")",
+            "end",
+            "",
+            "game_var;MapsToSkillUnlock;v(\"MapsToSkillUnlock\") - 1"
+        ]
+    }
+]
