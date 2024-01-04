@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "center_cursor;Simon;immediate",
+            "show_layer;top_layer",
             "",
             "level_var;RevealLupusMission;False",
             "level_var;RevealNikaMission;False",
