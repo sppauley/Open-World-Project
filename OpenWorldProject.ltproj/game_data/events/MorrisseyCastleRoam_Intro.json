@@ -11,7 +11,12 @@
             "center_cursor;Simon;immediate",
             "",
             "level_var;RevealLupusMission;False",
-            "level_var;RevealNikaMission;False"
+            "level_var;RevealNikaMission;False",
+            "",
+            "# condition for getting Morrissey's support",
+            "if;(v(\"DragonCleared\")==1 or v(\"SwampCleared\")==1) and v(\"PortHullVisited\")==1",
+            "    add_talk;Simon;Morrissey",
+            "end"
         ]
     }
 ]
