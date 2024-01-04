@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "Gains +50 crit when unit's HP is half or less",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            35
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "50 if unit.get_hp() <= unit.get_max_hp() / 2 else 0"
+            ]
+        ]
+    }
+]
