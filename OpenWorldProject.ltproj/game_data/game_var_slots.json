@@ -102,5 +102,9 @@
     {
         "nid": "DragonCleared",
         "desc": "Has the player cleared Dragon's Lair?"
+    },
+    {
+        "nid": "PortHullVisited",
+        "desc": "For Morrissey, has player been to Port Hull?"
     }
 ]
