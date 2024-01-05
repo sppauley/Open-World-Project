@@ -28,6 +28,17 @@
             [
                 "eval_target_restrict_2",
                 "len([skill for skill in unit.skills if any([component.nid == 'feat' for component in skill.components])]) < 3"
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }
