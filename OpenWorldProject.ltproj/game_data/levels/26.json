@@ -739,7 +739,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 3,
+                "level": 5,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -763,7 +763,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 3,
+                "level": 5,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -787,7 +787,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 3,
+                "level": 5,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -811,7 +811,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 3,
+                "level": 5,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -835,7 +835,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -859,7 +859,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -883,7 +883,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "Hero",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -931,7 +931,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 7,
+                "level": 9,
                 "klass": "Berserker",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1104,7 +1104,7 @@
             {
                 "nid": "144",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Warrior",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1132,7 +1132,7 @@
             {
                 "nid": "145",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Warrior",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1196,7 +1196,7 @@
             {
                 "nid": "147",
                 "variant": null,
-                "level": 8,
+                "level": 9,
                 "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1220,7 +1220,7 @@
             {
                 "nid": "148",
                 "variant": null,
-                "level": 8,
+                "level": 9,
                 "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1364,7 +1364,7 @@
             {
                 "nid": "154",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Berserker",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1388,7 +1388,7 @@
             {
                 "nid": "155",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1412,7 +1412,7 @@
             {
                 "nid": "156",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1436,7 +1436,7 @@
             {
                 "nid": "157",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1460,7 +1460,7 @@
             {
                 "nid": "158",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1484,7 +1484,7 @@
             {
                 "nid": "159",
                 "variant": null,
-                "level": 8,
+                "level": 11,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1508,7 +1508,7 @@
             {
                 "nid": "160",
                 "variant": null,
-                "level": 8,
+                "level": 11,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1532,7 +1532,7 @@
             {
                 "nid": "161",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Berserker",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1616,7 +1616,7 @@
             {
                 "nid": "164",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1640,7 +1640,7 @@
             {
                 "nid": "165",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1664,7 +1664,7 @@
             {
                 "nid": "166",
                 "variant": null,
-                "level": 8,
+                "level": 10,
                 "klass": "Halberdier",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1832,7 +1832,7 @@
             {
                 "nid": "174",
                 "variant": null,
-                "level": 11,
+                "level": 12,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1856,7 +1856,7 @@
             {
                 "nid": "175",
                 "variant": null,
-                "level": 11,
+                "level": 12,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1880,7 +1880,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1901,7 +1901,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1922,7 +1922,7 @@
             {
                 "nid": "172",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "GriffonKnight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1943,7 +1943,7 @@
             {
                 "nid": "176",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1964,7 +1964,7 @@
             {
                 "nid": "177",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -1985,7 +1985,7 @@
             {
                 "nid": "178",
                 "variant": null,
-                "level": 4,
+                "level": 6,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2006,7 +2006,7 @@
             {
                 "nid": "179",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2027,7 +2027,7 @@
             {
                 "nid": "180",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2048,7 +2048,7 @@
             {
                 "nid": "181",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2069,7 +2069,7 @@
             {
                 "nid": "182",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2090,7 +2090,7 @@
             {
                 "nid": "183",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2111,7 +2111,7 @@
             {
                 "nid": "184",
                 "variant": null,
-                "level": 5,
+                "level": 8,
                 "klass": "General",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2132,7 +2132,7 @@
             {
                 "nid": "185",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2153,7 +2153,7 @@
             {
                 "nid": "186",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2174,7 +2174,7 @@
             {
                 "nid": "187",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2195,7 +2195,7 @@
             {
                 "nid": "188",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2216,7 +2216,7 @@
             {
                 "nid": "189",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2237,7 +2237,7 @@
             {
                 "nid": "190",
                 "variant": null,
-                "level": 6,
+                "level": 10,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2306,7 +2306,7 @@
             {
                 "nid": "195",
                 "variant": null,
-                "level": 10,
+                "level": 13,
                 "klass": "Bishop",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2334,7 +2334,7 @@
             {
                 "nid": "196",
                 "variant": null,
-                "level": 10,
+                "level": 12,
                 "klass": "Bishop",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2672,6 +2672,14 @@
             },
             {
                 "nid": "f",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "10",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
