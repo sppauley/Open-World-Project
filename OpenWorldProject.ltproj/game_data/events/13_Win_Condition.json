@@ -50,6 +50,7 @@
             "reveal_overworld_node;35;immediate",
             "reveal_overworld_road;34;35;immediate",
             "#",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

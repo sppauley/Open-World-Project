@@ -21,7 +21,7 @@
             "    ",
             "end",
             "",
-            "",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

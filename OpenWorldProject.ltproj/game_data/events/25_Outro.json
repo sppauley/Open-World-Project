@@ -92,7 +92,8 @@
             "#s;Narrator;Is it hope or hate that springs eternal?;StyleNid=ThanatosStyle;no_block;hold;no_sound",
             "#wait;6000",
             "#unhold;ThanatosStyle",
-            ""
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

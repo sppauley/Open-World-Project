@@ -46,7 +46,9 @@
             "s;Simon;I'm glad he will be reasonable.{w}{br}Thank you for your support.{w}{br}This felt... good.",
             "s;Anuki;Good? This was spectacular.",
             "multi_remove_portrait;Simon;Anuki",
-            "transition;close;4000"
+            "transition;close;4000",
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

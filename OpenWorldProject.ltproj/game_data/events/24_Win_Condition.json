@@ -46,6 +46,8 @@
             "overworld_cinematic;1",
             "reveal_overworld_node;38;immediate",
             "reveal_overworld_road;36;38;immediate",
+            "",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

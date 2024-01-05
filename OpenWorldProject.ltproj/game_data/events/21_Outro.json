@@ -18,7 +18,9 @@
             "reveal_overworld_node;36",
             "reveal_overworld_road;35;36",
             "reveal_overworld_node;37",
-            "reveal_overworld_road;35;37"
+            "reveal_overworld_road;35;37",
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

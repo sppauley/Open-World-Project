@@ -48,7 +48,8 @@
             "#unhold;IntroQuote",
             "",
             "# Add new Flower ability",
-            "give_item;Flower;HellfangFlower"
+            "give_item;Flower;HellfangFlower",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

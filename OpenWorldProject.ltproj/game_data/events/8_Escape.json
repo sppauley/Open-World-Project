@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "if;unit.nid=='Simon'",
+            "",
             "add_portrait;Simon;Left",
             "s;Simon;Let's get out of this wretched place.",
             "remove_portrait;Simon",
@@ -16,7 +17,9 @@
             "reveal_overworld_node;29",
             "reveal_overworld_road;29;30",
             "set_overworld_menu_option_visible;1;30;Roam;f",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game",
+            "",
             "end",
             "remove_unit;{unit}"
         ]

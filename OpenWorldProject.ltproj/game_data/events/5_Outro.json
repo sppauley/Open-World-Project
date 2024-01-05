@@ -50,7 +50,8 @@
             "speak;Lupus;...{w} A pleasure nonetheless.",
             "multi_remove_portrait;Simon;Anuki;Lupus",
             "change_team;Lupus;player",
-            "game_var;LupusRecruited;True"
+            "game_var;LupusRecruited;True",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

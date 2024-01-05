@@ -49,6 +49,7 @@
             "give_skill;Titus;Canto5",
             "#",
             "trigger_script;Global Upgrade Leadership",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

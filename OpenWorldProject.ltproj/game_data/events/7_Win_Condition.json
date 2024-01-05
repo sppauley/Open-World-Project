@@ -55,6 +55,8 @@
             "s;Simon;We can only hope.",
             "s;Simon;With monsters and bandits controlling much of this land,{w}{br}this security is the kind of change we need.",
             "trigger_script;Global Upgrade Leadership",
+            "",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

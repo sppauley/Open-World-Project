@@ -49,7 +49,9 @@
             "multi_remove_portrait;Simon;Rodger;Yusna",
             "",
             "transition;close;800",
-            "transition;open;1"
+            "transition;open;1",
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

@@ -12,7 +12,9 @@
             "",
             "trigger_script;Global SafeHullShop",
             "game_var;HullShop;v(\"HullShop\") + \",ThiefSword\"",
-            "game_var;HullShopNotification;True"
+            "game_var;HullShopNotification;True",
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]

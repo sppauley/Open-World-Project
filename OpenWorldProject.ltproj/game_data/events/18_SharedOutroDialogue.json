@@ -36,7 +36,8 @@
             "speak;Vincent;I wouldn't worry, milord.{w} Surprised by meeting a Duke, I guess.",
             "speak;Simon;He'll have to get used to that.{w} Now, help me take stock of the ship.{w}{br}I want to make sure we're ready to make landfall.",
             "speak;Vincent;Right away.",
-            "multi_remove_portrait;Vincent;Simon;Yusna"
+            "multi_remove_portrait;Vincent;Simon;Yusna",
+            "trigger_script;Global IncreaseMitziProgress"
         ]
     }
 ]
