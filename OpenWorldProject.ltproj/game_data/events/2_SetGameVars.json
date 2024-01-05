@@ -26,7 +26,8 @@
             "game_var;HullShopNotification;False",
             "",
             "game_var;MAXMapsToSkillUnlock;3",
-            "game_var;MapsToSkillUnlock;v(\"MAXMapsToSkillUnlock\")"
+            "game_var;MapsToSkillUnlock;v(\"MAXMapsToSkillUnlock\")",
+            "game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))"
         ]
     }
 ]
