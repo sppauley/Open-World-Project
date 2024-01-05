@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "ClawBreaker",
+        "name": "Claw Breaker",
+        "desc": "Hit and avoid +50 if foe is equipped with an innate weapon",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            30
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Innate'\n"
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "avoid",
+                50
+            ]
+        ]
+    }
+]
