@@ -152,3 +152,8 @@ class UpkeepAOESkillGain(SkillComponent):
 
         if self.value.get('affect_self'):
             action.do(action.AddSkill(unit, self.value.get('skill'), unit))
+
+class PersonalSkill(SkillComponent):
+    nid = 'personal_skill'
+    desc = "[This project specific] Skill will show up in the personal skill slot of the help menu"
+    tag = SkillTags.ATTRIBUTE

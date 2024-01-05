@@ -12,6 +12,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }
