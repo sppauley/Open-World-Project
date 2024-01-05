@@ -8,6 +8,20 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_background;InsideCastle",
+            "",
+            "# Brandt and Bordeaux survival condition",
+            "if;game.check_alive('Bordeaux') and game.check_alive('Brandt')",
+            "    multi_add_portrait;Morrissey;Right;Simon;Left",
+            "    s;Morrissey;Simon, I commend you on your strategy today.    ",
+            "    s;Morrissey;Not only have you retaken your home, but both of my commanders survived under your leadership.",
+            "    s;Morrissey;Take this as a gesture of thanks.",
+            "    give_item;Simon;Brave Sword",
+            "    multi_remove_portrait;Simon;Morrissey",
+            "    ",
+            "end",
+            "",
+            "",
             "win_game"
         ]
     }

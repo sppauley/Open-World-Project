@@ -2673,14 +2673,6 @@
             {
                 "nid": "f",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "10",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

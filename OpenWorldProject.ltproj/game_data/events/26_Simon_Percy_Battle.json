@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Simon Percy Battle",
+        "trigger": "combat_start",
+        "level_nid": "26",
+        "condition": "check_pair('Simon', 'Percy')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Percy;FarRight",
+            "s;Percy;Verstadt, I'm surprised you'd return.",
+            "s;Percy;The Fates blessed you with a chance to live.",
+            "s;Percy;To think you'd squander that chance in pursuit of power...",
+            "s;Percy;Well, you won't be so lucky this time.",
+            "remove_portrait;Percy"
+        ]
+    }
+]
