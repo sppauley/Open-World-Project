@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "BowBreaker",
+        "name": "Bow Breaker",
+        "desc": "Hit and avoid +50 if foe is equipped with a bow",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            3,
+            30
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Bow'\n"
+            ],
+            [
+                "hit",
+                50
+            ],
+            [
+                "avoid",
+                50
+            ]
+        ]
+    }
+]
