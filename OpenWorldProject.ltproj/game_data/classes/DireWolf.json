@@ -1,30 +1,28 @@
 [
     {
-        "nid": "Wolf",
-        "name": "Wolf",
+        "nid": "DireWolf",
+        "name": "Dire Wolf",
         "desc": "A monstrous beast",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Infantry",
-        "promotes_from": null,
-        "turns_into": [
-            "DireWolf"
-        ],
+        "promotes_from": "Wolf",
+        "turns_into": [],
         "tags": [
             "Monster"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 21,
-            "SPD": 5,
-            "MOV": 5,
-            "DEX": 9,
-            "MAG": 2,
-            "PSE": 5,
-            "CON": 3
+            "HP": 27,
+            "SPD": 9,
+            "MOV": 6,
+            "DEX": 13,
+            "MAG": 5,
+            "PSE": 6,
+            "CON": 5
         },
         "growths": {
-            "HP": 60,
-            "SPD": 40,
+            "HP": 70,
+            "SPD": 50,
             "MOV": 0,
             "DEX": 60,
             "MAG": 30,
@@ -43,11 +41,11 @@
         "promotion": {
             "HP": 2,
             "SPD": 4,
-            "MOV": 0,
+            "MOV": -99,
             "DEX": 3,
             "MAG": 0,
             "PSE": 0,
-            "CON": 2
+            "CON": 1
         },
         "max_stats": {
             "HP": 60,
@@ -116,7 +114,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Wolf",
+        "map_sprite_nid": "Wolf (U) Mauthe Doog T3 {EldritchAbomination}-stand",
         "combat_anim_nid": null,
         "fields": []
     }
