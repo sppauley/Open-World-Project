@@ -26,8 +26,8 @@
                 100
             ],
             [
-                "event_on_hit",
-                "Global Reset Poise"
+                "eval_target_restrict_2",
+                "len([skill for skill in unit.skills if any([component.nid == 'feat' for component in skill.components])]) < 3"
             ]
         ]
     }

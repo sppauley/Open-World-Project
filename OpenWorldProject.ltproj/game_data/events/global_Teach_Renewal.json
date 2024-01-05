@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;{unit};Renewal"
+            "give_skill;{unit};Renewal",
+            "add_skill_component;{unit};Renewal;feat;None"
         ]
     }
 ]

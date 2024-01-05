@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;{unit};Perceptive"
+            "give_skill;{unit};Perceptive",
+            "add_skill_component;{unit};Perceptive;feat;None"
         ]
     }
 ]
