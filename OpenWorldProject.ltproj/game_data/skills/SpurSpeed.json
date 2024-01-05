@@ -21,6 +21,10 @@
                     "affect_self": false,
                     "target": "ally"
                 }
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

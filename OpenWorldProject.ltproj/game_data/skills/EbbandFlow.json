@@ -25,6 +25,10 @@
                         "3 if game.turncount % 2 == 0 else 0"
                     ]
                 ]
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

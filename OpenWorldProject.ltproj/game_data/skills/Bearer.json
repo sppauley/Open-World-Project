@@ -24,6 +24,10 @@
             [
                 "aura_target",
                 "unit"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

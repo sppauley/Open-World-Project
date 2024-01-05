@@ -16,6 +16,10 @@
             [
                 "event_after_staggering",
                 "Global Skill_HitandRunProc"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

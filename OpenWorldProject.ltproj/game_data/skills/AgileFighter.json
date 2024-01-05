@@ -20,6 +20,10 @@
             [
                 "alternate_defense_speed_formula",
                 "DEXTERITY"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

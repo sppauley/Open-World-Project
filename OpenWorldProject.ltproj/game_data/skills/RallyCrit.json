@@ -16,6 +16,10 @@
             [
                 "ability",
                 "so_RallyCrit"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

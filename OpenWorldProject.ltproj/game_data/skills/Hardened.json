@@ -16,6 +16,10 @@
             [
                 "dynamic_crit_avoid",
                 "+999 if unit.get_poise() > 0 else 0"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

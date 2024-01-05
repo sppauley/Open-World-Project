@@ -174,5 +174,9 @@
     {
         "nid": "{Celice} Staff 8",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Pikmin} Blank Skill Book",
+        "subicon_dict": {}
     }
 ]

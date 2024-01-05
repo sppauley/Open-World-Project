@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "\"Boss\" in target.tags"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

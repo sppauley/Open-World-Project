@@ -16,6 +16,10 @@
             [
                 "ability",
                 "Smite"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

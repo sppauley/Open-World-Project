@@ -20,6 +20,10 @@
             [
                 "cannot_double",
                 null
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

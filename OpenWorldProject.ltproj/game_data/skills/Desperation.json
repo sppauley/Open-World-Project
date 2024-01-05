@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "unit.get_hp() <= unit.get_max_hp() // 2 and mode == \"attack\""
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

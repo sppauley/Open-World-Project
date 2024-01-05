@@ -16,7 +16,8 @@
             "elif;v(\"_last_choice\") == \"KevPlaytest1\"",
             "    trigger_script;Global DEBUGKevPlaytest1",
             "end",
-            "trigger_script;Global DEBUGCheatItems"
+            "trigger_script;Global DEBUGCheatItems",
+            "game_var;MapsToSkillUnlock;0"
         ]
     }
 ]

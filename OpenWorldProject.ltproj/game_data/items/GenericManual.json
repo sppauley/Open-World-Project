@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "GenericManual",
+        "name": "GenericManual",
+        "desc": "Replace this on make",
+        "icon_nid": "{Pikmin} Blank Skill Book",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "value",
+                100
+            ],
+            [
+                "event_on_hit",
+                "Global Reset Poise"
+            ]
+        ]
+    }
+]

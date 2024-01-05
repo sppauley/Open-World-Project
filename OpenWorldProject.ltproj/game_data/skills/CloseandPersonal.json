@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "utils.calculate_distance(unit.position, target.position) == 1"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }
