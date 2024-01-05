@@ -151,5 +151,10 @@
     "Hexed",
     "Cursed",
     "Resilience",
-    "Wrath"
+    "Wrath",
+    "AxeBreaker",
+    "SwordBreaker",
+    "LanceBreaker",
+    "TomeBreaker",
+    "BowBreaker"
 ]
