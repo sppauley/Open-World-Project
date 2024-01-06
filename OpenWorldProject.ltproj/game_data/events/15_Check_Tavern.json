@@ -12,8 +12,7 @@
             "s;Simon;Looks like an old tavern.",
             "s;Simon;The bandits were ruthless when ransacking this place.",
             "add_portrait;Luther;Right;right",
-            "s;Luther;The unfortunate fate of Vesner's lands.",
-            "s;Luther;House Vesner's lands had a reputation for being neglected, but it's all a ruin now.",
+            "s;Luther;The unfortunate fate of Vesner's lands.{w}{br}House Vesner's lands had a reputation for being neglected, but it's all a ruin now.",
             "s;Simon;I just hope we can reclaim our land before it meets a similar fate...",
             "s;Luther;We will, Lord Verstadt.",
             "multi_remove_portrait;Simon;Luther"
