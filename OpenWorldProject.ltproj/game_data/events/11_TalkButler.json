@@ -61,6 +61,7 @@
             "    s;Ebert;Do I deny...",
             "    s;Ebert;...",
             "    wait;1000",
+            "    music;BurningAmbition",
             "    s;Ebert;I suppose I needn't bother.{w} You would eventually uncover further evidence anyway.",
             "    s;Simon;How could you?",
             "",

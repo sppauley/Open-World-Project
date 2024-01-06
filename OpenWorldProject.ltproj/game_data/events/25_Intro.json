@@ -47,6 +47,7 @@
             "",
             "speak_style;ThanatosStyle;Narrator;center;160;5.0;red;;None;;f;None;fit",
             "",
+            "music;BurningAmbition",
             "sound;Fenrir2",
             "change_background;BlackBackground;keep_portraits",
             "wait;300",
