@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CovertFighter",
+        "name": "Covert Fighter",
+        "desc": "Hit +30 when unit is in forest or thicket terrain",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            37
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) in ('2' , '3')"
+            ],
+            [
+                "hit",
+                30
+            ]
+        ]
+    }
+]

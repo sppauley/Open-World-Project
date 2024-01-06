@@ -16,6 +16,10 @@
             [
                 "canter",
                 5
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }
