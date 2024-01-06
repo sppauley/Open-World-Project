@@ -5,7 +5,11 @@
         "tilemap": "Albreides Ridge_1",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Cauldros-Night",
+            "enemy_phase": "Cauldros-Night",
+            "enemy2_phase": "Cauldros-Night"
+        },
         "objective": {
             "simple": "Arrive with Simon",
             "win": "Arrive with Simon",
