@@ -5,7 +5,9 @@
         "tilemap": "Gesmen's Vault",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Infiltration44100"
+        },
         "objective": {
             "simple": "Reach the Treasure",
             "win": "Reach the Treasure",

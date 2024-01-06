@@ -5,7 +5,9 @@
         "tilemap": "Swamp Camp",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "ManonShipNight"
+        },
         "objective": {
             "simple": "",
             "win": "",
