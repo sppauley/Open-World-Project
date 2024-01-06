@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "(unit.stats['SPD'] > unit2.stats['SPD']) and (unit.get_hp() > unit2.get_hp()) and ('Accosted' not in [skill.nid for skill in unit.skills])"
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

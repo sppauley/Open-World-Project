@@ -20,6 +20,10 @@
             [
                 "crit_avoid",
                 -15
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

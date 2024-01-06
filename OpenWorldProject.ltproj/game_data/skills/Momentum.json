@@ -21,6 +21,10 @@
                         10
                     ]
                 ]
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

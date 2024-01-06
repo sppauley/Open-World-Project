@@ -16,6 +16,10 @@
             [
                 "witch_warp",
                 null
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

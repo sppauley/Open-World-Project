@@ -1,0 +1,18 @@
+[
+    {
+        "name": "ForceAddSkill",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"SkillNidToForce\") != None and len([skill for skill in unit.skills if any([component.nid == 'feat' for component in skill.components])]) > 2",
+            "",
+            "",
+            "",
+            "end"
+        ]
+    }
+]

@@ -20,6 +20,10 @@
             [
                 "attack_proc",
                 "SunLightProc"
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

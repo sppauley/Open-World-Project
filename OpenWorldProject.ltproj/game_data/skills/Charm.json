@@ -24,6 +24,10 @@
             [
                 "aura_target",
                 "ally"
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

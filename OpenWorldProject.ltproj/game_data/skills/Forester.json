@@ -16,6 +16,10 @@
             [
                 "movement_type",
                 "Forester"
+            ],
+            [
+                "personal_skill",
+                null
             ]
         ]
     }

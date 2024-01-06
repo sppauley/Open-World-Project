@@ -449,5 +449,6 @@
     "global_IncreaseMitziProgress",
     "global_MitziSkillUnlockNotification",
     "MorrisseyCastleRoam_MitziSkillTalk",
-    "26_Simon_Percy_Battle"
+    "26_Simon_Percy_Battle",
+    "global_ForceAddSkill"
 ]
