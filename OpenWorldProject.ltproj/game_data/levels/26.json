@@ -5,7 +5,12 @@
         "tilemap": "Return",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "LitFuse",
+            "enemy_phase": "LitFuse",
+            "enemy2_phase": "LitFuse",
+            "other_phase": "LitFuse"
+        },
         "objective": {
             "simple": "Defeat Percy",
             "win": "Defeat Percy",

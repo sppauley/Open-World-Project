@@ -5,7 +5,12 @@
         "tilemap": "SumbergedMausoleum2",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "LitFuse",
+            "enemy_phase": "LitFuse",
+            "enemy2_phase": "LitFuse",
+            "other_phase": "LitFuse"
+        },
         "objective": {
             "simple": "Reach the tomb",
             "win": "Reach the tomb",
