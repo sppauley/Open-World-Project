@@ -5,7 +5,9 @@
         "tilemap": "Clotho's Temple",
         "bg_tilemap": "fog_bg",
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "OctopathSad"
+        },
         "objective": {
             "simple": "Explore the Area",
             "win": "Explore the Area",

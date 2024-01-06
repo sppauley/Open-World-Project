@@ -11,7 +11,7 @@
             "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
             "level_var;_prep_formation;True",
             "if;v(\"PrepMusic\") == None",
-            "    level_var;PrepMusic;\"Combat Preparation\"",
+            "    level_var;PrepMusic;\"Briefing\"",
             "end",
             "prep;t;{v:PrepMusic};Loyalty,Difficulty,Exit;True,True,{v:freely_exit};PathwayMenu,ChangeDifficulty,ExitMap"
         ]
