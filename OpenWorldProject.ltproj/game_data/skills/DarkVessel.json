@@ -20,6 +20,10 @@
             [
                 "personal_skill",
                 null
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }
