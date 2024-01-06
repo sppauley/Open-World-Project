@@ -9,15 +9,9 @@
         "priority": 20,
         "_source": [
             "multi_add_portrait;Man2;Left;Man3;Right",
-            "s;Man3;We're really under seige...",
-            "s;Man3;Lady Moran was supposed to protect us.",
-            "s;Man3;What'll happen to our families?",
-            "s;Man2;Maybe we still have a chance.",
-            "s;Man2;Lady Moran's armies are still fighting.",
-            "s;Man3;Borris, you gotta face reality here.",
-            "s;Man3;A dragon is attacking.{w} There's no way we survive this...",
-            "s;Man3;There's nowhere to run.",
-            "s;Man3;All we can do now is pray.",
+            "s;Man3;We're really under seige...{w}{br}Lady Moran was supposed to protect us.{w}{br}What'll happen to our families?",
+            "s;Man2;Maybe we still have a chance.{w}{br}Lady Moran's armies are still fighting.",
+            "s;Man3;Borris, you gotta face reality here.{w}{br}A dragon is attacking.{w} There's no way we survive this...{w}{br}There's nowhere to run.{w}{br}All we can do now is pray.",
             "multi_remove_portrait;Man2;Man3",
             "remove_talk;Simon;Servant"
         ]

@@ -10,8 +10,7 @@
         "_source": [
             "multi_add_portrait;Simon;Left;Atropos;Right",
             "s;Atropos;Do you finally understand?",
-            "s;Simon;So, this is one of the previous houses?",
-            "s;Simon;I assume you're trying to say that we'll all meet the same fate?",
+            "s;Simon;So, this is one of the previous houses?{w}{br}I assume you're trying to say that we'll all meet the same fate?",
             "s;Atropos;They said House Moran had unparalleled might,{w} but it fell nonetheless.",
             "s;Atropos;They said House Vesner could defy the cycle,{w} but it fell nonetheless.",
             "s;Atropos;The houses now are no different.",
