@@ -5,7 +5,12 @@
         "tilemap": "Hideout Entry",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "UnderseaEncounters",
+            "enemy_phase": "UnderseaEncounters",
+            "enemy2_phase": "UnderseaEncounters",
+            "other_phase": "UnderseaEncounters"
+        },
         "objective": {
             "simple": "Defeat the boss",
             "win": "Defeat the boss",

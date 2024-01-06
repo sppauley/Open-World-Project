@@ -5,7 +5,9 @@
         "tilemap": "Frees",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "ManonShipNight"
+        },
         "objective": {
             "simple": "Explore",
             "win": "Exit the map",
