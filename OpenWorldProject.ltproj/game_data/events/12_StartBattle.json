@@ -11,8 +11,10 @@
             "add_portrait;Luther;CenterRight",
             "speak;Luther;Milord, to cross this bridge...{w}{br}It will be the point of no return.{w}{br}Are you certain?",
             "remove_portrait;Luther",
+            "",
             "choice;CrossBridge;Cross?;Yes,No",
             "if;'{v:CrossBridge}' == 'Yes'",
+            "",
             "hide_layer;crossbridge",
             "move_unit;Simon;14,16",
             "show_layer;crossbridge",
@@ -56,8 +58,10 @@
             "end",
             "",
             "if;v(\"tutorialPopups\")",
+            "",
             "speak;Narrator;Monster units, like dogs, wield innate weapons.{w}{br}Bows have an advantage against innate weapons,{w}{br}innate weapons have an advantage against magic,{w}{br}and magic has an advantage against bows.;StyleNid=hint",
             "end",
+            "",
             "end"
         ]
     }

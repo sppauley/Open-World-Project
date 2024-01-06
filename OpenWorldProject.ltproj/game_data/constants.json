@@ -237,11 +237,11 @@
     ],
     [
         "attack_zero_hit",
-        true
+        false
     ],
     [
         "attack_zero_dam",
-        false
+        true
     ],
     [
         "zero_move",
