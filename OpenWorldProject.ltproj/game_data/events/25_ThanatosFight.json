@@ -10,7 +10,8 @@
         "_source": [
             "change_background;BlackBackground;keep_portraits",
             "s;Narrator;Wretched beings. Animals.|I am a god. Know your place.;StyleNid=ThanatosStyle",
-            "change_background;;keep_portraits"
+            "change_background;;keep_portraits",
+            "trigger_script;25 ChangeMusic"
         ]
     }
 ]

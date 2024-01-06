@@ -15,7 +15,8 @@
             "speak;Boudica;You tread dangerously, knave.",
             "speak;Vilge;Absolute, undying love for your offspring.{w}{br}I have heard tales of your battles, Boudica.{w}{br}You understand my position, I'm sure.",
             "speak;Boudica;I have heard enough of your ramblings.{w}{br}You will sour this earth no longer!",
-            "multi_remove_portrait;Boudica;Vilge"
+            "multi_remove_portrait;Boudica;Vilge",
+            "trigger_script;6 ChangeMusic"
         ]
     }
 ]

@@ -5,7 +5,12 @@
         "tilemap": "Inner Caverns",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Chaos",
+            "enemy_phase": "Chaos",
+            "enemy2_phase": "Chaos",
+            "other_phase": "Chaos"
+        },
         "objective": {
             "simple": "Arrive",
             "win": "Arrive",

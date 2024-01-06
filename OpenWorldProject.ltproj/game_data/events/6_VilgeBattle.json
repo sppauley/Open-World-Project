@@ -10,7 +10,8 @@
         "_source": [
             "add_portrait;Vilge;Left",
             "speak;Vilge;This is all so wrong.{w} You would not rob a child of their mother!{w}{br}What gives you the right to rob the Ascended of their father?{w}{br}I will protect my family from you!",
-            "remove_portrait;Vilge"
+            "remove_portrait;Vilge",
+            "trigger_script;6 ChangeMusic"
         ]
     }
 ]

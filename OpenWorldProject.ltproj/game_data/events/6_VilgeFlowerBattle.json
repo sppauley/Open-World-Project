@@ -14,7 +14,8 @@
             "speak;Vilge;Stupid mutt.{w} Don't you dare get closer!",
             "speak;Flower;Awwooooo!",
             "move_portrait;Flower;MidLeft",
-            "multi_remove_portrait;Flower;Vilge"
+            "multi_remove_portrait;Flower;Vilge",
+            "trigger_script;6 ChangeMusic"
         ]
     }
 ]

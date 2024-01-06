@@ -5,7 +5,11 @@
         "tilemap": "ThanatosTemple",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Chaos",
+            "enemy_phase": "Chaos",
+            "enemy2_phase": "Chaos"
+        },
         "objective": {
             "simple": "Defeat Both Bosses",
             "win": "Defeat Both Bosses",

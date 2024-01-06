@@ -13,7 +13,8 @@
             "change_background;BlackBackground;keep_portraits",
             "s;Narrator;Your mistake.;StyleNid=ThanatosStyle",
             "change_background;;keep_portraits",
-            "remove_portrait;Nika"
+            "remove_portrait;Nika",
+            "trigger_script;25 ChangeMusic"
         ]
     }
 ]

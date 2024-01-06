@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ChangeMusic",
+        "trigger": null,
+        "level_nid": "25",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_music;player_phase;Chaos-Ablaze",
+            "change_music;enemy_phase;Chaos-Ablaze",
+            "change_music;enemy2_phase;Chaos-Ablaze"
+        ]
+    }
+]

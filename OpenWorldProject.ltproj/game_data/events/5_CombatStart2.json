@@ -28,7 +28,11 @@
             "speak;Narrator;Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken to before then.;StyleNid=hint",
             "change_objective_simple;Reach Lupus by Turn {v:maxTurns}",
             "level_var;maxTurns;game.turncount + 7",
-            "center_cursor;Simon"
+            "center_cursor;Simon",
+            "",
+            "change_music;player_phase;Chaos-Ablaze",
+            "change_music;enemy_phase;Chaos-Ablaze",
+            "change_music;enemy2_phase;Chaos-Ablaze"
         ]
     }
 ]

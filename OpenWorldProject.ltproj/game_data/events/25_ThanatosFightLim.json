@@ -13,7 +13,8 @@
             "s;Narrator;You were useful, Lim. Underdeveloped, however.|The bad leg made your body a poor choice.;StyleNid=ThanatosStyle",
             "change_background;;keep_portraits",
             "s;Lim;I won't let you take Nika.|I don't ever want to hear you speak again!",
-            "remove_portrait;Lim"
+            "remove_portrait;Lim",
+            "trigger_script;25 ChangeMusic"
         ]
     }
 ]

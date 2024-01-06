@@ -5,7 +5,10 @@
         "tilemap": "Mage's Hideout",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Chaos",
+            "enemy_battle": "Chaos"
+        },
         "objective": {
             "simple": "Defeat Boss",
             "win": "Defeat Boss",
