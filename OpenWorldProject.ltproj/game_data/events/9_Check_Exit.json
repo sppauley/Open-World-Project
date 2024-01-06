@@ -9,11 +9,9 @@
         "priority": 20,
         "_source": [
             "add_portrait;Simon;Left",
-            "s;Simon;I can hardly believe we survived.",
-            "s;Simon;Honestly, I'm not even sure if I did.",
+            "s;Simon;I can hardly believe we survived.{w}{br}Honestly, I'm not even sure if I did.",
             "s;Simon;I can't shake the feeling that I... {w}died{w} back there.",
-            "s;Simon;But I can't turn back now.",
-            "s;Simon;Lord Morrissey is the best chance we have.",
+            "s;Simon;But I can't turn back now.{w}{br}Lord Morrissey is the best chance we have.",
             "remove_portrait;Simon"
         ]
     }

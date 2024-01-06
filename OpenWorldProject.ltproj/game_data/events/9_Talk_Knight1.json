@@ -10,9 +10,7 @@
         "_source": [
             "add_portrait;Simon;Left",
             "add_portrait;SoldierBlue;Right",
-            "speak;SoldierBlue;You must be Lord Verstadt.",
-            "speak;SoldierBlue;His Lordship will see you now.",
-            "speak;SoldierBlue;Continue straight to the lord's study. He awaits your arrival.",
+            "speak;SoldierBlue;You must be Lord Verstadt.{w}{br}His Lordship will see you now.{w}{br}Continue straight to the lord's study. He awaits your arrival.",
             "multi_remove_portrait;Simon;SoldierBlue",
             "remove_talk;Simon;102"
         ]
