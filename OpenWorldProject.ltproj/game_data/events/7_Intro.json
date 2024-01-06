@@ -37,6 +37,7 @@
             "s;???;Alone, maybe.",
             "move_portrait;Simon;MidLeft;no_block",
             "add_portrait;Johannes;FarLeft;left",
+            "music;Route10",
             "s;Johannes;But I've spent years preparing for this moment.",
             "s;Johannes;I must say thank you for clearing out those bandits.{w}{br}With that, I could finally breach this cavern.",
             "s;Juliet;Uh, who are you?",
@@ -58,6 +59,7 @@
             "speak;Narrator;The dragon can also break the MOV tomes.{w}{br}This will bestow the tome's bonus to the enemy forces.;StyleNid=hint",
             "# preps",
             "game_var;freely_exit;True",
+            "level_var;PrepMusic;\"Route10\"",
             "trigger_script;Global GenericPreps"
         ]
     }

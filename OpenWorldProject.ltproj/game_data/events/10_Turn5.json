@@ -17,6 +17,7 @@
             "wait;500",
             "flicker_cursor;20,24",
             "wait;1000",
+            "music;Route10",
             "speak;???;Hey, you lot!",
             "speak;???;Looks like you could use some help!",
             "add_portrait;Simon;Left",
