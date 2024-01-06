@@ -10,8 +10,7 @@
         "_source": [
             "add_portrait;Simon;Left",
             "s;Simon;These armor sets are certainly imposing.",
-            "s;Simon;Wait, there's a chunk of metal by the armor's feet.",
-            "s;Simon;Maybe this will be useful later?",
+            "s;Simon;Wait, there's a chunk of metal by the armor's feet.{w}{br}Maybe this will be useful later?",
             "inc_game_var;DamageWeaponMaterial;1",
             "alert;Found Damage Material!",
             "remove_portrait;Simon"
