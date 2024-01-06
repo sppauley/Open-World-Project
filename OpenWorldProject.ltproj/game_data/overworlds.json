@@ -13,8 +13,16 @@
                     22
                 ],
                 "icon": "castle",
-                "level": "2",
-                "menu_options": []
+                "level": "26",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "27",
