@@ -45,6 +45,7 @@
             "center_cursor;Vilge",
             "move_unit;Vilge;10,2",
             "add_portrait;Vilge;Right",
+            "music;StalkingMenace",
             "speak;Vilge;What a slum.{w} Have any asked to join us?",
             "add_portrait;GenericMage;Left",
             "speak;GenericMage;None.{w} They maintain defiance.",

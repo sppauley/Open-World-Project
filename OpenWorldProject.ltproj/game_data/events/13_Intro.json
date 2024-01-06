@@ -25,6 +25,7 @@
             "s;Luther;Shall we strike, milord?",
             "move_portrait;Luther;MidRight;no_block",
             "add_portrait;Vincent;FarRight;right",
+            "music;MoveOut",
             "s;Vincent;Lord Morrissey will probably thank us for rooting them out.",
             "s;Vincent;At this rate, the area will be safe enough that he'll be able to spare the troops.",
             "s;Vincent;He'll help us reclaim House Verstadt yet.",

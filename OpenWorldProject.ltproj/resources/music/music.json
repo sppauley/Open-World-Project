@@ -153,5 +153,20 @@
         "Route10",
         false,
         false
+    ],
+    [
+        "MoveOut",
+        false,
+        false
+    ],
+    [
+        "StalkingMenace",
+        false,
+        false
+    ],
+    [
+        "59Silence",
+        false,
+        false
     ]
 ]

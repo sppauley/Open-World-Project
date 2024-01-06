@@ -34,6 +34,7 @@
             "wait;200",
             "move_unit;Simon;13,6",
             "wait;800",
+            "music;AtroposFinal",
             "move_unit;Vilge;9,6;immediate",
             "move_unit;Vilge;10,6",
             "add_portrait;Vilge;Left",
