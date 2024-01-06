@@ -76,6 +76,8 @@
             "speak;Vincent;Good. Then let's move.",
             "speak;Vincent;You won't die under my watch.",
             "speak;Simon;Yeah...",
+            "change_music;player_phase;ThisEndsHereFinal",
+            "change_music;enemy_phase;ThisEndsHereFinal",
             "multi_remove_portrait;Simon;Vincent"
         ]
     }

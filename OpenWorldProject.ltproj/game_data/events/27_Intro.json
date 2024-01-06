@@ -15,6 +15,7 @@
             "",
             "change_background;BlackBackground",
             "speak_style;AtroposTalk;Narrator;center;;;;text-white;bg_black",
+            "music;AtroposFinal",
             "s;Narrator;For centuries, the same story has played out.{w}{br}Yet, you mortals fail to learn.;StyleNid=AtroposTalk",
             "s;Narrator;Collapse is inevitable.{w}{br}A repeating pattern on my tapestry.;StyleNid=AtroposTalk",
             "add_weather;night",

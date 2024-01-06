@@ -5,7 +5,9 @@
         "tilemap": "PortHull",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "NewDawnFinal"
+        },
         "objective": {
             "simple": "--",
             "win": "--",

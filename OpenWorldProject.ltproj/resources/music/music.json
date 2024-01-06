@@ -10,16 +10,6 @@
         false
     ],
     [
-        "Quiet Burn",
-        false,
-        true
-    ],
-    [
-        "Shadow of the Enemy",
-        false,
-        false
-    ],
-    [
         "Main Theme",
         false,
         false
@@ -86,6 +76,26 @@
     ],
     [
         "Nocturne",
+        false,
+        false
+    ],
+    [
+        "PercyArrivesFinal",
+        false,
+        false
+    ],
+    [
+        "ThisEndsHereFinal",
+        false,
+        false
+    ],
+    [
+        "NewDawnFinal",
+        false,
+        false
+    ],
+    [
+        "AtroposFinal",
         false,
         false
     ]
