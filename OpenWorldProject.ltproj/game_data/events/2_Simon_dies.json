@@ -57,6 +57,7 @@
             "hide_layer;broken_pillar;immediate",
             "hide_layer;broken_carpet;immediate",
             "#opens",
+            "music;SimonFleesFinal",
             "change_background;BlackBackground",
             "transition;open",
             "wait;600",
@@ -75,8 +76,10 @@
             "speak;Simon;...{w}{br}Yeah, I'm fine.",
             "speak;Vincent;Good. Then let's move.{w}{br}You won't die under my watch.",
             "speak;Simon;Yeah...",
-            "change_music;player_phase;ThisEndsHereFinal",
-            "change_music;enemy_phase;ThisEndsHereFinal",
+            "",
+            "#change_music;player_phase;ThisEndsHereFinal",
+            "#change_music;enemy_phase;ThisEndsHereFinal",
+            "",
             "multi_remove_portrait;Simon;Vincent"
         ]
     }

@@ -11,6 +11,7 @@
             "#",
             "reset;{unit}",
             "flicker_cursor;Simon",
+            "music;ThisEndsHereFinal",
             "add_portrait;Simon;Left",
             "speak;Simon;This ends here.",
             "remove_portrait;Simon",
