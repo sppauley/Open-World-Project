@@ -11,11 +11,11 @@
             "move_unit;Simon;5,8",
             "center_cursor;Anuki",
             "multi_add_portrait;Bordeaux;Left;Anuki;Right",
-            "s;Bordeaux;Lady Anuki, you really should be getting some rest.",
-            "s;Anuki;Don't \"Lady Anuki\" me.{w}{br}And I keep telling you, I'm perfectly fine.{w}{br}Just one more round.{w}{br}Or are you just tired, old man? Want to quit?",
-            "s;Bordeaux;Ha! I barely broke a sweat against you.{w}{br}But your dad would demote me to cleaning duty if you got hurt from over-exertion.",
-            "s;Anuki;Yeah, yeah.{w}{br}Rematch tomorrow?",
-            "s;Bordeaux;Of course.{w}{br}Another win can't hurt.",
+            "s;Bordeaux;Pathetic as always, Lady Anuki.",
+            "s;Anuki;Quiet, Bordeaux. Just shut up.{w}{br}Just one more round.{w}{br}Or are you just tired, old man?",
+            "s;Bordeaux;Ha! I barely broke a sweat against you.{w}{br}But I've spent enough years trying to teach you discipline.",
+            "s;Anuki;Yeah, yeah.{w}{br}Watch your back.",
+            "s;Bordeaux;You haven't the brain to kill me.|Good night, Lady Anuki.",
             "multi_remove_portrait;Anuki;Bordeaux",
             "remove_talk;Simon;Bordeaux"
         ]

@@ -17,7 +17,9 @@
             "    trigger_script;Global DEBUGKevPlaytest1",
             "end",
             "trigger_script;Global DEBUGCheatItems",
-            "game_var;MapsToSkillUnlock;0"
+            "",
+            "# Disabling this for now because it interferes too heavily with full game tests",
+            "#game_var;MapsToSkillUnlock;0"
         ]
     }
 ]
