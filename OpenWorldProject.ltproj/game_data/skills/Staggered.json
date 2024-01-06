@@ -2,11 +2,11 @@
     {
         "nid": "Staggered",
         "name": "Staggered",
-        "desc": "This unit's poise has been broken. and it cannot move for the turn. The next attack against it will be a guaranteed critical hit,  but will refresh the unit's poise.",
-        "icon_nid": "Skills",
+        "desc": "This unit's poise has been broken. and it cannot move for the turn. The next attack against it will be a guaranteed critical hit, but will refresh the unit's poise.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            4,
-            8
+            3,
+            42
         ],
         "components": [
             [
@@ -57,6 +57,10 @@
                     126,
                     170
                 ]
+            ],
+            [
+                "damage",
+                -99
             ]
         ]
     }

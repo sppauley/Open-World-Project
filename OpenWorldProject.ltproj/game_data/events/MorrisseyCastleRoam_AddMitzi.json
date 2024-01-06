@@ -3,7 +3,7 @@
         "name": "AddMitzi",
         "trigger": "level_start",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "v(\"NikaRecruited\") == True",
+        "condition": "v(\"MitziRecruited\") == True",
         "commands": [],
         "only_once": false,
         "priority": 18,
