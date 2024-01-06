@@ -33,9 +33,7 @@
             "wait;1000",
             "flicker_cursor;Percy",
             "add_portrait;Percy;Right",
-            "speak;Percy;I appreciate the zeal, but let's try not to destroy too much.",
-            "speak;Percy;We just need to find Verstadt and take the throne.",
-            "speak;Percy;Try to spare any servants, if possible.",
+            "speak;Percy;I appreciate the zeal, but let's try not to destroy too much.{w}{br}We just need to find Verstadt and take the throne.{w}{br}Try to spare any servants, if possible.",
             "remove_portrait;Percy",
             "wait;500",
             "flicker_cursor;Simon",
@@ -44,10 +42,8 @@
             "add_portrait;Luther;Right",
             "speak;Luther;If I may interject, milord, we must keep level heads.",
             "add_portrait;Vincent;FarLeft",
-            "speak;Vincent;We can't just stand around, though.",
-            "speak;Vincent;The castle will be a ruin if we don't do something.",
-            "speak;Simon;We'll push forward.",
-            "speak;Simon;They won't stand a chance."
+            "speak;Vincent;We can't just stand around, though.{w}{br}The castle will be a ruin if we don't do something.",
+            "speak;Simon;We'll push forward.{w}{br}They won't stand a chance."
         ]
     }
 ]
