@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pavise",
+        "name": "Pavise",
+        "desc": "Unit takes -1 damage from adjacent enemies",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "1 if utils.calculate_distance(unit.position, target.position) == 1 else 0"
+            ]
+        ]
+    }
+]
