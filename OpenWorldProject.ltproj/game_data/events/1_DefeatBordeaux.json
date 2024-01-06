@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music_clear",
+            "",
             "if;game.turncount<=6",
             "multi_add_portrait;Bordeaux;Right;Simon;Left",
             "s;Bordeaux;Well done, Lord Verstadt.{w}{br}I hate to admit it, but your little group is strong.{w}{br}And a deal's a deal. Take this.",
