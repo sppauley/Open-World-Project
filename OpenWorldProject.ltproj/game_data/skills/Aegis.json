@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Aegis",
+        "name": "Aegis",
+        "desc": "Unit takes -1 damage from non-adjacent enemies",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            9
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_resist",
+                "1 if utils.calculate_distance(unit.position, target.position) > 1 else 0"
+            ]
+        ]
+    }
+]

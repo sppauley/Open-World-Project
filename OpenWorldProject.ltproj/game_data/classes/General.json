@@ -56,7 +56,12 @@
             "PSE": 25,
             "CON": 22
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Pavise"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
