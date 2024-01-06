@@ -450,5 +450,6 @@
     "global_MitziSkillUnlockNotification",
     "MorrisseyCastleRoam_MitziSkillTalk",
     "26_Simon_Percy_Battle",
-    "global_ForceAddSkill"
+    "global_ForceAddSkill",
+    "MorrisseyCastleRoam_MitziFirstTimeTalk"
 ]

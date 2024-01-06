@@ -62,6 +62,8 @@
             "move_unit;Mitzi;0,15",
             "remove_unit;Mitzi",
             "",
+            "game_var;MitziRecruited;True",
+            "",
             "trigger_script;Global ConsolidateToSimon;Luther"
         ]
     }

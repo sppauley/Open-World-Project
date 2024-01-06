@@ -10,8 +10,6 @@
         "_source": [
             "# Make sure this isn't abusable",
             "",
-            "# Add first time dialogue and such",
-            "",
             "if;v(\"MapsToSkillUnlock\") > 0",
             "    add_portrait;Simon;Left",
             "    add_portrait;Mitzi;Right;mirror",

@@ -22,7 +22,7 @@
             "game_var;ClothoState;\"None\"",
             "game_var;LoyaltyTutorial;False",
             "",
-            "game_var;HullShop;Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin",
+            "game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
             "game_var;HullShopNotification;False",
             "",
             "game_var;MAXMapsToSkillUnlock;3",
