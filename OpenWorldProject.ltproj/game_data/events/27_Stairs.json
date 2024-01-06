@@ -9,8 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Simon;Left",
-            "s;Simon;I can hear the sounds of battle far below...",
-            "s;Simon;They'll likely reach us soon.",
+            "s;Simon;I can hear the sounds of battle far below...{w}{br}They'll likely reach us soon.",
             "s;Simon;These dragon followers, especially those large knights,{w}{br}I doubt anyone could face them and prevail.",
             "remove_portrait;Simon"
         ]
