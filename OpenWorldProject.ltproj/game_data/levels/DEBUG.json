@@ -71,30 +71,6 @@
                 "generic": true
             },
             {
-                "nid": "101",
-                "variant": null,
-                "level": 20,
-                "klass": "Swordmaster",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Attack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "102",
                 "variant": null,
                 "level": 1,
@@ -189,7 +165,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -259,6 +235,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

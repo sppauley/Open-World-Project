@@ -17,7 +17,7 @@
             "s;Mitzi;As will you, if I have my way.",
             "s;Simon;Sorry?",
             "mirror_portrait;Mitzi",
-            "s;Mitzi;Purely for your benefit.{w} Archives often contain old tomes,|founts of knowledge rarely remembered today.|Any of your men who studies them will be certain to learn new skills.",
+            "s;Mitzi;Purely for your benefit.{w} Archives often contain old tomes,|founts of knowledge rarely remembered today.|Any of your men who study them will be certain to learn new skills.",
             "s;Simon;I'm grateful for your help, though I'm afraid only a few can read.|Vincent and Juliet are illiterate, and Luther...{w} struggles with his letters.",
             "s;Mitzi;On Thanatos, then read it to them!|Baby them, if you must.|Though I will need time, I promise dividends.",
             "multi_remove_portrait;Mitzi;Simon"

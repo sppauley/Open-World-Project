@@ -15,6 +15,7 @@
             "    add_portrait;Mitzi;Right;mirror",
             "    s;Mitzi;Hmm... what is it?{w} Yes, yes, I'll be done soon.|Now, if you'll let me return to my reading...",
             "    move_portrait;Mitzi;OffscreenRight",
+            "",
             "else",
             "",
             "    add_portrait;Simon;Left",
@@ -51,8 +52,7 @@
             "    game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))",
             "    game_var;MapsToSkillUnlock;v(\"MAXMapsToSkillUnlock\")",
             "",
-            "end",
-            ""
+            "end"
         ]
     }
 ]

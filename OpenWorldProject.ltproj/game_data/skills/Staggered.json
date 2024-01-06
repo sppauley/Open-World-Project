@@ -61,6 +61,10 @@
             [
                 "damage",
                 -99
+            ],
+            [
+                "limit_maximum_range",
+                0
             ]
         ]
     }
