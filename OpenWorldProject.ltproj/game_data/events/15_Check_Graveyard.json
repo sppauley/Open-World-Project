@@ -10,11 +10,9 @@
         "_source": [
             "multi_add_portrait;Simon;Left;Vincent;Right",
             "s;Vincent;It absolutely reeks over here.",
-            "s;Simon;The graves seem disturbed.",
-            "s;Simon;That's a bit strange...{w} and unsettling.",
+            "s;Simon;The graves seem disturbed.{w}{br}That's a bit strange...{w} and unsettling.",
             "s;Vincent;Think the bandits around here have resorted to grave robbing?",
-            "s;Simon;I'm really not sure.",
-            "s;Simon; But let's, uh, back away from here.",
+            "s;Simon;I'm really not sure.{w}{br}But let's, uh, back away from here.",
             "s;Simon;I'm about to pass out from the stench.",
             "multi_remove_portrait;Simon;Vincent"
         ]
