@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "center_cursor;Simon",
+            "music_clear",
             "add_portrait;Simon;Right",
             "speak;Simon;Hufh... are we clear?",
             "add_portrait;Vincent;FarLeft",

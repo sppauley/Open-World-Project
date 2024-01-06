@@ -34,7 +34,7 @@
             "add_unit;Boudica;3,0",
             "move_unit;Boudica;4,2",
             "add_portrait;Boudica;Right;right",
-            "music;StalkingMenace",
+            "music;ThraciaFate",
             "speak;Boudica;Hiiya!",
             "move_portrait;Anuki;MidLeft",
             "speak;Anuki;First on the menu?",

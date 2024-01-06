@@ -19,6 +19,7 @@
             "game_var;FreesHouse4Destroyed;False",
             "game_var;freely_exit;True",
             "# End intro setup",
+            "music;ThraciaFate",
             "remove_unit;102;immediate",
             "move_unit;Simon;6,19;immediate",
             "move_unit;Simon;8,18",

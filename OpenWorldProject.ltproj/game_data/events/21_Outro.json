@@ -10,6 +10,7 @@
         "_source": [
             "center_cursor;Simon",
             "add_portrait;Simon;Left",
+            "music_clear",
             "s;Simon;Their leaders have been killed.{w} Everyone, retreat!{w}{br}We'll leave the rest to the spiders.",
             "remove_portrait;Simon",
             "",

@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Simon;Left",
+            "music_clear",
             "s;Simon;We made it...",
             "s;Simon;Time to head deeper into the mountains.",
             "wait;300",

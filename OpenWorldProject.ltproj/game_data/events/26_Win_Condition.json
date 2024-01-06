@@ -10,6 +10,8 @@
         "_source": [
             "change_background;InsideCastle",
             "",
+            "music_clear",
+            "",
             "# Brandt and Bordeaux survival condition",
             "if;game.check_alive('Bordeaux') and game.check_alive('Brandt')",
             "    multi_add_portrait;Morrissey;Right;Simon;Left",

@@ -95,7 +95,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "Sean write this later"
+                "Yo, write this later"
             ],
             [
                 "BattlesBeforeLoyaltyTalk",
@@ -107,7 +107,7 @@
             ],
             [
                 "LoyaltyStatus",
-                "Loyalty mission not yet implemented"
+                "Slay the dragon."
             ]
         ]
     }

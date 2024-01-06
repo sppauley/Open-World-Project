@@ -61,6 +61,7 @@
             "move_unit;Simon;20,0;no_follow",
             "remove_unit;Simon",
             "",
+            "music_clear;2000",
             "win_game"
         ]
     }

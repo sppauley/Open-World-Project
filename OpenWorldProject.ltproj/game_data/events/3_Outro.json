@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "game_var;EbertState;\"TookIsle\"",
+            "music_clear",
             "remove_all_units",
             "transition;close",
             "change_tilemap;Ship",

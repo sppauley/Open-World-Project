@@ -10,6 +10,7 @@
         "_source": [
             "center_cursor;Simon",
             "add_portrait;Simon;FarLeft",
+            "music_clear",
             "speak;Simon;Have they retreated?",
             "",
             "if;{v:FreesHouse4Destroyed} or not game.get_unit(\"Flower\")",

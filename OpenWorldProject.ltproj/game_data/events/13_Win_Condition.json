@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Mercenary1;FarRight",
+            "music_clear",
             "s;Mercenary1;They've gotten the boss!",
             "s;Mercenary1;Scatter! They can't get all of us!",
             "remove_portrait;Mercenary1",

@@ -106,6 +106,8 @@
             "",
             "remove_portrait;Lupus",
             "",
+            "music_clear",
+            "",
             "center_cursor;9,2",
             "add_unit;Gesmen;9,19;immediate",
             "move_unit;Gesmen;9,3;normal;closest;200;no_follow",

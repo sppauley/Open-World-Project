@@ -13,6 +13,7 @@
             "add_unit;Simon;5,7;immediate",
             "add_unit;Flower;6,6;immediate",
             "",
+            "music_clear",
             "",
             "add_portrait;Flower;MidLeft",
             "add_portrait;Simon;FarRight",
