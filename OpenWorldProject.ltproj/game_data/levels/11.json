@@ -5,7 +5,9 @@
         "tilemap": "Ebert's Mansion",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "NewDawnFinal"
+        },
         "objective": {
             "simple": "Defeat Ebert",
             "win": "Defeat Ebert",

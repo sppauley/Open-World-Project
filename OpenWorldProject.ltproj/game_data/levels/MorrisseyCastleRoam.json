@@ -5,7 +5,9 @@
         "tilemap": "Morrissey Castle",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Improvising48000"
+        },
         "objective": {
             "simple": "Explore",
             "win": "Exit",
