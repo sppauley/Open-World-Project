@@ -5,7 +5,12 @@
         "tilemap": "Frees",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "EndlessBattle",
+            "enemy_phase": "EndlessBattle",
+            "enemy2_phase": "EndlessBattle",
+            "other_phase": "EndlessBattle"
+        },
         "objective": {
             "simple": "Rout the Enemy",
             "win": "Rout the Enemy",

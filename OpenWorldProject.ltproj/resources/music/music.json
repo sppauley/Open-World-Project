@@ -118,5 +118,10 @@
         "LitFuse",
         false,
         false
+    ],
+    [
+        "EndlessBattle",
+        false,
+        false
     ]
 ]
