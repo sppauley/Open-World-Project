@@ -6,8 +6,9 @@
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
-            "player_phase": "Chaos",
-            "enemy_battle": "Chaos"
+            "player_phase": "ManonShipNight",
+            "enemy_battle": null,
+            "enemy_phase": "ManonShipNight"
         },
         "objective": {
             "simple": "Defeat Boss",
