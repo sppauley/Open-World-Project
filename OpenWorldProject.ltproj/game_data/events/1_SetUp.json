@@ -13,6 +13,8 @@
             "set_stats;103;SPD,3;immediate",
             "# More dialogue here could definitely be good",
             "#change_class;Juliet (Juliet);Archer;FLAG(silent)",
+            "change_team;Anuki;player",
+            "change_team;Bordeaux;enemy",
             "set_unit_field;Anuki;PartyMember;'Yes'",
             "center_cursor;Simon;immediate",
             "center_cursor;Bordeaux",

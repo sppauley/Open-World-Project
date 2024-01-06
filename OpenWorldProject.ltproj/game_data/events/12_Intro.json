@@ -15,6 +15,7 @@
             "show_layer;crossbridge;immediate",
             "add_tag;105;Boss",
             "level_var;hasMeat;0",
+            "music;Chaos",
             "#########################",
             "remove_unit;Simon;immediate",
             "center_cursor;29,20;immediate",

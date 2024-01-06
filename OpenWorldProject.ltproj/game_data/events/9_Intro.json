@@ -22,6 +22,7 @@
             "add_talk;Simon;Vincent",
             "add_talk;Simon;Bordeaux",
             "remove_tag;Bordeaux;Boss",
+            "game_var;freely_exit;False",
             "# ",
             "# adding some intro context",
             "move_unit;Vincent;16,27;no_block",

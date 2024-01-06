@@ -10,6 +10,7 @@
         "_source": [
             "choice;LeaveMorrisseyCastle;Training Grounds;Enter Training Grounds,Go Back",
             "if;'{v:LeaveMorrisseyCastle}' == 'Enter Training Grounds'",
+            "music_clear",
             "win_game",
             "end"
         ]

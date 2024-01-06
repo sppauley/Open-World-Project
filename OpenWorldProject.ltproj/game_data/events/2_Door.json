@@ -12,6 +12,7 @@
             "if;unit.nid=='Simon'",
             "add_portrait;Simon;Left",
             "speak;Simon;If there's some power watching out for me...{w}{br}Please, grant me your protection just a bit longer.",
+            "music_clear;600",
             "remove_portrait;Simon",
             "win_game",
             "end",
