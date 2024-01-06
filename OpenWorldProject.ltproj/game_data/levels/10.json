@@ -5,7 +5,12 @@
         "tilemap": "SwampDefense",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "DarkWastes",
+            "enemy_phase": "DarkWastes",
+            "enemy2_phase": "DarkWastes",
+            "other_phase": "DarkWastes"
+        },
         "objective": {
             "simple": "Defend and Defeat Boss",
             "win": "Defend and Defeat Larry",
