@@ -15,6 +15,7 @@
             "#change_class;Juliet (Juliet);Archer;FLAG(silent)",
             "change_team;Anuki;player",
             "change_team;Bordeaux;enemy",
+            "change_ai;Bordeaux;Pursue",
             "set_unit_field;Anuki;PartyMember;'Yes'",
             "center_cursor;Simon;immediate",
             "center_cursor;Bordeaux",
