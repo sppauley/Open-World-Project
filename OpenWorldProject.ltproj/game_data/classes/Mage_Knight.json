@@ -57,11 +57,16 @@
             "PSE": 25,
             "CON": 25
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Focus"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Lance": [
@@ -90,8 +95,8 @@
                 251
             ],
             "Staff": [
-                2,
-                31,
+                false,
+                0,
                 251
             ],
             "Default": [

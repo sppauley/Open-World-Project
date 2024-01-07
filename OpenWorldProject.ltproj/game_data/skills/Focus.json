@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Focus",
+        "name": "Focus",
+        "desc": "Critical +10 when no allies in a 3 tile radius",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 3) == 0\n"
+            ],
+            [
+                "crit",
+                10
+            ]
+        ]
+    }
+]
