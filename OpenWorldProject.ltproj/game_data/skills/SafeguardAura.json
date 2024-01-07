@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SafeguardAura",
+        "name": "Safeguard",
+        "desc": "+15 crit avoid",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            47
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "crit_avoid",
+                15
+            ]
+        ]
+    }
+]

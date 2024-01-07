@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Safeguard",
+        "name": "Safeguard",
+        "desc": "Grants allies within 3 spaces +15 crit avoid",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "SafeguardAura"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ]
+        ]
+    }
+]

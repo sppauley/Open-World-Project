@@ -2,7 +2,7 @@
     {
         "nid": "Prescience",
         "name": "Prescience",
-        "desc": "Unit gains +15 hit and avoid when attacking",
+        "desc": "Unit gains +15 hit and avoid when initiating combat",
         "icon_nid": "Skills",
         "icon_index": [
             1,

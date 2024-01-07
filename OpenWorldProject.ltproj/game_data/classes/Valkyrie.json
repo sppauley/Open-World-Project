@@ -58,7 +58,12 @@
             "PSE": 25,
             "CON": 25
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Safeguard"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
@@ -86,8 +91,8 @@
                 251
             ],
             "Anima": [
-                false,
-                0,
+                true,
+                1,
                 251
             ],
             "Staff": [
