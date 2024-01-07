@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Tantivy",
+        "name": "Tantivy",
+        "desc": "SPD +3 when no allies in a 3 tile radius",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit_funcs.check_focus(unit, 3) == 0\n"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

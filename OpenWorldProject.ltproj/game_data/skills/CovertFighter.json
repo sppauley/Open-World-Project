@@ -2,7 +2,7 @@
     {
         "nid": "CovertFighter",
         "name": "Covert Fighter",
-        "desc": "Hit +30 when unit is in forest or thicket terrain",
+        "desc": "Hit +40 when unit is in forest or thicket terrain",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,
@@ -19,7 +19,7 @@
             ],
             [
                 "hit",
-                30
+                40
             ]
         ]
     }
