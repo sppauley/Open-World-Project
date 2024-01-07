@@ -23,6 +23,8 @@
             "",
             "if;v(\"_last_choice\") == \"Yes\"",
             "",
+            "change_ai;Flower;None",
+            "",
             "remove_region;VilgeArea",
             "#Dialogue",
             "remove_portrait;Simon;immediate",

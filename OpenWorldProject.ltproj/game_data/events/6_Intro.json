@@ -24,6 +24,8 @@
             "add_talk;Simon;128",
             "change_ai;Vilge;Defend",
             "change_ai_group;Vilge;VilgeGroup",
+            "",
+            "change_ai;Flower;FollowSimonRoam",
             "#",
             "# Start event narration",
             "center_cursor;Simon;immediate",
