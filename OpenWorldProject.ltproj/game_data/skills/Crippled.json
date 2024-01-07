@@ -29,6 +29,10 @@
             [
                 "end_time",
                 1
+            ],
+            [
+                "negative",
+                null
             ]
         ]
     }

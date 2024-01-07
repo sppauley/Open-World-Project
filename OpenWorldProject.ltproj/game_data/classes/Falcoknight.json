@@ -65,8 +65,8 @@
         ],
         "wexp_gain": {
             "Sword": [
-                true,
-                1,
+                false,
+                0,
                 251
             ],
             "Lance": [
@@ -96,7 +96,7 @@
             ],
             "Staff": [
                 false,
-                0,
+                1,
                 251
             ],
             "Default": [
