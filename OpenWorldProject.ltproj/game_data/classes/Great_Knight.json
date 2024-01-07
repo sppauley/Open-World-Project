@@ -58,11 +58,16 @@
             "PSE": 25,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "ArmoredBlow"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
-                true,
-                1,
+                false,
+                0,
                 251
             ],
             "Lance": [
