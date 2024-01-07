@@ -10,7 +10,7 @@
         "_source": [
             "# Debug commands",
             "# Actual intro",
-            "show_layer;overlay",
+            "show_layer;overlay;immediate",
             "add_weather;dark",
             "add_weather;purple",
             "add_weather;night",

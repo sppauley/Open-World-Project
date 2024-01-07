@@ -12,6 +12,8 @@
             "s;Nika;Simon, I need to speak with you.{w}{br}Thanatos's power is... growing.{w}{br}Next time we're in Morrissey's Castle, talk to me.",
             "remove_portrait;Nika",
             "",
+            "set_unit_field;Nika;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "",
             "trigger_script;Global LoyaltyTutorial"
         ]
     }

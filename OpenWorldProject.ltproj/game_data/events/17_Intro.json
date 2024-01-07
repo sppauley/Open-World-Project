@@ -46,6 +46,7 @@
             "trigger_script;Global ConsolidateToSimon;Boudica",
             "",
             "wait;500",
+            "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",
             "add_unit;Vilge;10,0",

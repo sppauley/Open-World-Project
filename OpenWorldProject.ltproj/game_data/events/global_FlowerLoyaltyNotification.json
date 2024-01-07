@@ -21,6 +21,8 @@
             "",
             "remove_portrait;Flower",
             "",
+            "set_unit_field;Flower;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "",
             "reveal_overworld_node;52",
             "reveal_overworld_road;32;52",
             "",

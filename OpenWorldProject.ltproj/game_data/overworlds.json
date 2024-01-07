@@ -422,7 +422,7 @@
                 "menu_options": [
                     {
                         "nid": "Battle",
-                        "event": null,
+                        "event": "OverworldMapSelect",
                         "option_name": "Battle",
                         "visible": true,
                         "enabled": true

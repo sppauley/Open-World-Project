@@ -15,7 +15,7 @@
             "speak;VillagerTeen;I'm... truly sorry... that I did not join you.",
             "speak;Simon;In the battle?",
             "speak;VillagerTeen;I just saw the mages and... and I panicked.{w}{br}Burning in my armor is...",
-            "speak;Simon;A terrifying thought.{w} You have nothing to apologize for.{w}{br}I'm just sorry we did not arrive sooner.",
+            "speak;Simon;A terrifying thought.{w}{br}I'm just sorry we did not arrive sooner.",
             "multi_remove_portrait;VillagerTeen;Simon"
         ]
     }

@@ -12,6 +12,8 @@
             "s;Lupus;Uh, hey, Simon. I heard about a little job you might be interested in.{w}{br}Give me a holler next time we're at Morrissey's.{w} I think you'll like it.",
             "remove_portrait;Lupus",
             "",
+            "set_unit_field;Lupus;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "",
             "trigger_script;Global LoyaltyTutorial"
         ]
     }
