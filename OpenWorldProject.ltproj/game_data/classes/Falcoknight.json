@@ -61,6 +61,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Confidence"
             ]
         ],
         "wexp_gain": {

@@ -56,7 +56,12 @@
             "PSE": 25,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Prescience"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 2,

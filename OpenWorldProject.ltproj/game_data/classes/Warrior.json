@@ -54,7 +54,12 @@
             "PSE": 25,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "CorneredBeast"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,
