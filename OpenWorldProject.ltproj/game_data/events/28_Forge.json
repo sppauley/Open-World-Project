@@ -11,8 +11,8 @@
             "add_portrait;Simon;Left",
             "s;Simon;A large chunk of material...",
             "remove_portrait;Simon",
-            "alert;Found 4 stagger material!",
-            "inc_game_var;StaggerWeaponMaterial;4",
+            "alert;Found 3 critical material!",
+            "inc_game_var;CriticalWeaponMaterial;3",
             "game_var;SwampCampForge;1"
         ]
     }

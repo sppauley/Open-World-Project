@@ -73,6 +73,13 @@
                 "var": "none",
                 "amount": "",
                 "add_text": ""
+            },
+            {
+                "nid": "Critical",
+                "component_name": "crit",
+                "var": "CriticalWeaponMaterial",
+                "amount": "5",
+                "add_text": ""
             }
         ],
         "oattrs": [

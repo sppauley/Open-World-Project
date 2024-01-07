@@ -106,5 +106,9 @@
     {
         "nid": "PortHullVisited",
         "desc": "For Morrissey, has player been to Port Hull?"
+    },
+    {
+        "nid": "CriticalWeaponMaterial",
+        "desc": "Used for forging weapons"
     }
 ]
