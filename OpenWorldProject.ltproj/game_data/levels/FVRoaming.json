@@ -200,6 +200,74 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Exit",
+                "region_type": "event",
+                "position": [
+                    0,
+                    19
+                ],
+                "size": [
+                    20,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_1",
+                "region_type": "event",
+                "position": [
+                    19,
+                    1
+                ],
+                "size": [
+                    1,
+                    18
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_2",
+                "region_type": "event",
+                "position": [
+                    0,
+                    1
+                ],
+                "size": [
+                    1,
+                    18
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_3",
+                "region_type": "event",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    20,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],

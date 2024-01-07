@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "### Intro setup",
-            "game_var;freely_exit;True",
+            "game_var;freely_exit;False",
             "show_layer;overlaytiles;immediate",
             "if;{v:FreesHouse1Destroyed}",
             "show_layer;destroyedright;immediate",

@@ -6,7 +6,7 @@
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
-            "player_phase": "Attack",
+            "player_phase": null,
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
@@ -138,15 +138,15 @@
                     ]
                 ],
                 "starting_skills": [
-                    "CloseandPersonal"
+                    "SpurSpeed"
                 ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    6
+                    5,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -183,7 +183,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    13
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
