@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Village2",
+        "trigger": "Village",
+        "level_nid": "6",
+        "condition": "unit.team=='player' and region.nid== \"Village2\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "#Village 2 reward",
+            "give_item;{unit};AlertLance",
+            "remove_region;Village2",
+            "",
+            "has_finished;{unit}"
+        ]
+    }
+]

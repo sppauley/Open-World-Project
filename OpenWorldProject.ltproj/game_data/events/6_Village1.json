@@ -1,23 +1,19 @@
 [
     {
-        "name": "Villages",
+        "name": "Village1",
         "trigger": "Village",
         "level_nid": "6",
-        "condition": "True",
+        "condition": "unit.team=='player' and region.nid== \"Village1\"",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            "if;unit.position == (13, 10)",
-            "#Village 2 reward",
-            "give_item;{unit};AlertLance",
-            "remove_region;Village2",
             "",
-            "elif;unit.position == (20, 4)",
+            "",
             "#Village 1 reward",
             "give_item;{unit};Ferocity",
             "remove_region;Village1",
-            "end",
+            "",
             "",
             "has_finished;{unit}"
         ]

@@ -198,7 +198,7 @@
     "4_Right1Reinforce",
     "4_TopLeft1Reinforce",
     "4_TopRight1Reinforce",
-    "6_Villages",
+    "6_Village1",
     "6_VilgeKilled",
     "0_FirstTimeIntro",
     "18_Yusna_First_Kill",
@@ -461,5 +461,6 @@
     "4_Outro",
     "10_Outro",
     "17_Outro",
-    "FVRoaming_Exit"
+    "FVRoaming_Exit",
+    "6_Village2"
 ]
