@@ -56,7 +56,12 @@
             "PSE": 20,
             "CON": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "SealMagic"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

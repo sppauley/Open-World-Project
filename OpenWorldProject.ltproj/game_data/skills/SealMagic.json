@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SealMagic",
+        "name": "Seal Magic",
+        "desc": "If unit hits the enemy, foe suffers -4 MAG for 1 turn after combat",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            29
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "SealedMagic"
+            ]
+        ]
+    }
+]

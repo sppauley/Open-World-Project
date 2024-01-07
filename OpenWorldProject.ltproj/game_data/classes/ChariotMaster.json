@@ -1,35 +1,34 @@
 [
     {
-        "nid": "Falcoknight",
-        "name": "Falcoknight",
-        "desc": "Veteran pegasus knights.",
+        "nid": "ChariotMaster",
+        "name": "Chariot Master",
+        "desc": "Adept warriors atop chariots.",
         "tier": 2,
-        "movement_group": "Fliers",
-        "promotes_from": "Pegasus_Knight",
+        "movement_group": "Carts",
+        "promotes_from": "Iceni",
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted",
-            "Flying"
+            "Mounted"
         ],
         "max_level": 20,
         "bases": {
-            "HP": 20,
-            "SPD": 7,
-            "MOV": 8,
-            "DEX": 7,
+            "HP": 22,
+            "SPD": 8,
+            "MOV": 12,
+            "DEX": 8,
             "MAG": 0,
-            "PSE": 6,
-            "CON": 3
+            "PSE": 12,
+            "CON": 8
         },
         "growths": {
-            "HP": 60,
+            "HP": 75,
             "SPD": 30,
             "MOV": 0,
-            "DEX": 30,
+            "DEX": 40,
             "MAG": 0,
             "PSE": 50,
-            "CON": 15
+            "CON": 50
         },
         "growth_bonus": {
             "HP": 0,
@@ -42,18 +41,18 @@
         },
         "promotion": {
             "HP": 5,
-            "SPD": 2,
+            "SPD": 1,
             "MOV": -99,
             "DEX": 0,
             "MAG": 0,
-            "PSE": 1,
+            "PSE": 5,
             "CON": 1
         },
         "max_stats": {
             "HP": 60,
-            "SPD": 28,
+            "SPD": 20,
             "MOV": 15,
-            "DEX": 25,
+            "DEX": 20,
             "MAG": 30,
             "PSE": 25,
             "CON": 20
@@ -61,27 +60,23 @@
         "learned_skills": [
             [
                 1,
-                "Flying"
-            ],
-            [
-                1,
-                "Confidence"
+                "PathToVictory"
             ]
         ],
         "wexp_gain": {
             "Sword": [
                 false,
-                0,
+                1,
                 251
             ],
             "Lance": [
                 true,
-                40,
+                31,
                 251
             ],
             "Axe": [
-                false,
-                0,
+                true,
+                31,
                 251
             ],
             "Bow": [
@@ -101,7 +96,7 @@
             ],
             "Staff": [
                 false,
-                1,
+                0,
                 251
             ],
             "Default": [
@@ -120,12 +115,12 @@
                 251
             ]
         },
-        "icon_nid": "Generic_Portrait_Falcoknight",
+        "icon_nid": "Generic_Portrait_Cavalier",
         "icon_index": [
             0,
             0
         ],
-        "map_sprite_nid": "Falcoknight",
+        "map_sprite_nid": "Placeholder Chariot",
         "combat_anim_nid": null,
         "fields": []
     }

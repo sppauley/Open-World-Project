@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PathToVictory",
+        "name": "Path to Victory",
+        "desc": "Stagger +3 when unit is on road terrain",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) == '7'"
+            ],
+            [
+                "stagger_bonus",
+                3
+            ]
+        ]
+    }
+]

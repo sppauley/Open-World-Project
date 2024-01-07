@@ -56,7 +56,12 @@
             "PSE": 20,
             "CON": 20
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "SealMovement"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 2,

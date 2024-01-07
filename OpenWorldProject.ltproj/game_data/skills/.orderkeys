@@ -161,11 +161,17 @@
     "Aegis",
     "Pavise",
     "CovertFighter",
+    "PathToVictory",
     "ArmoredBlow",
     "SealSpeed",
     "SealedSpeed",
+    "SealMovement",
+    "SealedMovement",
+    "SealMagic",
+    "SealedMagic",
     "CorneredBeast",
     "Confidence",
     "Prescience",
-    "Focus"
+    "Focus",
+    "Trample"
 ]

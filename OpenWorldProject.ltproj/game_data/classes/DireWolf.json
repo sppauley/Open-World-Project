@@ -8,6 +8,7 @@
         "promotes_from": "Wolf",
         "turns_into": [],
         "tags": [
+            "Horse",
             "Monster"
         ],
         "max_level": 20,

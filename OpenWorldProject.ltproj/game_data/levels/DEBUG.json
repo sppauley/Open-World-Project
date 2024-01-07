@@ -122,36 +122,6 @@
                 "generic": false
             },
             {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "Sage",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Wall",
-                        false
-                    ],
-                    [
-                        "RenewalManual",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "SpurSpeed"
-                ],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "105",
                 "variant": null,
                 "level": 1,
@@ -176,14 +146,14 @@
                 "generic": true
             },
             {
-                "nid": "Luther",
+                "nid": "Boudica",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    10
+                    3,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -235,6 +205,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

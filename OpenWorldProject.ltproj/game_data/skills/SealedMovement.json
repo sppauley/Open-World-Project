@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SealedMovement",
+        "name": "Sealed Movement",
+        "desc": "-2 MOV for one turn",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            22
+        ],
+        "components": [
+            [
+                "end_time",
+                1
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

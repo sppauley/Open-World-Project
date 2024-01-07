@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Trample",
+        "name": "Trample",
+        "desc": "Unit deals +2 damage to non-mounted enemies",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            10
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "'Mounted' not in target.tags"
+            ],
+            [
+                "damage",
+                2
+            ]
+        ]
+    }
+]

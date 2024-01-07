@@ -7,7 +7,7 @@
         "movement_group": "Carts",
         "promotes_from": null,
         "turns_into": [
-            "Great_Knight"
+            "ChariotMaster"
         ],
         "tags": [
             "Horse",
@@ -17,7 +17,7 @@
         "bases": {
             "HP": 20,
             "SPD": 6,
-            "MOV": 7,
+            "MOV": 11,
             "DEX": 8,
             "MAG": 0,
             "PSE": 9,
@@ -42,13 +42,13 @@
             "CON": 0
         },
         "promotion": {
-            "HP": 0,
-            "SPD": 0,
-            "MOV": 0,
+            "HP": 5,
+            "SPD": 1,
+            "MOV": -99,
             "DEX": 0,
             "MAG": 0,
-            "PSE": 0,
-            "CON": 0
+            "PSE": 5,
+            "CON": 1
         },
         "max_stats": {
             "HP": 60,

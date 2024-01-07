@@ -62,6 +62,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Trample"
             ]
         ],
         "wexp_gain": {

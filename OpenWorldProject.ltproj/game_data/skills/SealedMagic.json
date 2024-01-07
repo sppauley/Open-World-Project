@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SealedMagic",
+        "name": "Sealed Magic",
+        "desc": "-4 MAG for one turn",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            14
+        ],
+        "components": [
+            [
+                "end_time",
+                1
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        -4
+                    ]
+                ]
+            ]
+        ]
+    }
+]
