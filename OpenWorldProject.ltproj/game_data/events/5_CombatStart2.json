@@ -21,6 +21,7 @@
             "change_roaming;f",
             "",
             "arrange_formation",
+            "level_var;PrepMusic;\"Chaos\"",
             "trigger_script;Global GenericPreps",
             "level_var;maxTurns;game.turncount + 7",
             "",

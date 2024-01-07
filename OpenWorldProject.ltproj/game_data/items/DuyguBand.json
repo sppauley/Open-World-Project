@@ -25,6 +25,12 @@
             [
                 "status_on_hold",
                 "Canto"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Duygu"
+                ]
             ]
         ]
     }

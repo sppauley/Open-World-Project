@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "10",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Do Nothing"
+        ]
+    }
+]

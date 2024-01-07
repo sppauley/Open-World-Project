@@ -2,7 +2,7 @@
     {
         "nid": "Axereaver",
         "name": "Axereaver",
-        "desc": "Reverses the weapon triangle.",
+        "desc": "Reverses the weapon triangle and doubles its effects.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                10
+                6
             ],
             [
                 "hit",
@@ -38,23 +38,12 @@
                 "C"
             ],
             [
-                "uses",
-                15
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "reaver",
                 null
             ],
             [
                 "weight",
-                11
+                10
             ],
             [
                 "wexp",
@@ -62,7 +51,7 @@
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "value",
@@ -75,6 +64,19 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "stagger",
+                6
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        8
+                    ]
+                ]
             ]
         ]
     }

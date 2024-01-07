@@ -5,15 +5,15 @@
         "desc": "One day, he will be the strongest man alive.",
         "variant": "",
         "level": 8,
-        "klass": "Fighter",
+        "klass": "Knight",
         "tags": [],
         "bases": {
             "HP": 27,
             "CON": 8,
-            "MAG": 3,
-            "DEX": 6,
+            "MAG": 0,
+            "DEX": 8,
             "SPD": 7,
-            "PSE": 13,
+            "PSE": 15,
             "MOV": 5
         },
         "growths": {
@@ -28,11 +28,11 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Steel Axe",
+                "Axereaver",
                 false
             ],
             [
-                "Halberd",
+                "Steel Lance",
                 false
             ],
             [
@@ -55,12 +55,12 @@
             ],
             "Lance": [
                 false,
-                0,
+                71,
                 251
             ],
             "Axe": [
                 false,
-                71,
+                0,
                 251
             ],
             "Bow": [
