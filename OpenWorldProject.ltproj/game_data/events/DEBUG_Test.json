@@ -29,19 +29,12 @@
             "",
             "#trigger_script;Global GenericPreps",
             "",
-            "map_anim;LightRune;3,6;permanent",
-            "",
-            "speak;Percy;Are you afraid to die again?;TextSpeed=6.0;FontType=text-red",
-            "",
-            "trigger_script;Global Upgrade Leadership",
-            "",
-            "give_skill;Titus;HitandRun;no_banner",
-            "",
             "give_item;Simon;Iron Sword;no_banner",
             "give_skill;Simon;Monsterslayer;;no_banner",
             "set_current_hp;Simon;6",
             "#promote;Simon",
-            "#set_current_hp;101;1"
+            "#set_current_hp;101;1",
+            "change_item_icon;Simon;Parizitis;rally book 0, 0"
         ]
     }
 ]

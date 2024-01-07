@@ -178,5 +178,14 @@
     {
         "nid": "{Pikmin} Blank Skill Book",
         "subicon_dict": {}
+    },
+    {
+        "nid": "rally book",
+        "subicon_dict": {
+            "rally book 0, 0": [
+                0,
+                0
+            ]
+        }
     }
 ]
