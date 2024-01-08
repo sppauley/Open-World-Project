@@ -2,7 +2,7 @@
     {
         "nid": "Percy",
         "name": "Percy",
-        "desc": "",
+        "desc": "The leader of New Dawn.\nDreams of a better future.",
         "variant": "",
         "level": 15,
         "klass": "Hero",
@@ -91,7 +91,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Eirika",
+        "portrait_nid": "{Kanna} [F2E] OC 67",
         "affinity": "None",
         "fields": []
     }
