@@ -219,5 +219,21 @@
     {
         "nid": "Pass_book",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Hardened_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Looter_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Smite_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Looter_book_1",
+        "subicon_dict": {}
     }
 ]
