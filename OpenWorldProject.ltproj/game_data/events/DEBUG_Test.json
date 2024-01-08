@@ -35,17 +35,9 @@
             "set_current_hp;Simon;6",
             "#promote;Simon",
             "#set_current_hp;101;1",
-            "level_var;SkillNid;game.get_unit(\"109\").skills[-1].nid",
-            "level_var;SkillName;game.get_unit(\"109\").skills[-1].name",
-            "level_var;SkillDesc;\"Grants \" + v(\"SkillName\") + \":\\n\" + game.get_unit(\"109\").skills[-1].desc",
-            "level_var;SkillIcon;'{v:SkillNid}'+'_book'",
             "",
-            "give_item;109;GenericManual;Simon;no_banner",
-            "",
-            "change_item_name;109;GenericManual;{v:SkillName}",
-            "change_item_desc;109;GenericManual;{v:SkillDesc}",
-            "change_item_icon;109;GenericManual;{v:SkillIcon}",
-            "add_item_component;109;GenericManual;status_on_hit;v(\"SkillNid\")"
+            "set_unit_field;Mitzi;PartyMember;'Yes'",
+            "trigger_script;Global ConsolidateToLeader"
         ]
     }
 ]

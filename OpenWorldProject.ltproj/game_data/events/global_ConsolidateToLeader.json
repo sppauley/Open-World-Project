@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "for;PARTY_UNIT;[unit.nid for unit in game.get_units_in_party()]",
+            "for;PARTY_UNIT;[unit.nid for unit in game.get_units_in_party() if unit in game.get_player_units()]",
             "if;game.get_unit('{PARTY_UNIT}').get_field('PartyMember') == \"Yes\"",
             "move_unit;{PARTY_UNIT};Simon;normal;stack;no_follow",
             "remove_unit;{PARTY_UNIT};immediate",
