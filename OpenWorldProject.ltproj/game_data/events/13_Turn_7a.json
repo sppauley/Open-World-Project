@@ -11,12 +11,13 @@
             "add_unit;Crate_Wave2a;0,18",
             "add_unit;Crate_Wave2b;0,20",
             "add_unit;Crate_Wave2c;0,22",
-            "center_cursor;1,19",
+            "center_cursor;Crate_Wave2b",
             "wait;500",
             "move_unit;Crate_Wave2a;4,18;;closest;no_block;no_follow",
             "move_unit;Crate_Wave2b;2,20;;closest;no_block;no_follow",
             "move_unit;Crate_Wave2c;5,22;;closest;no_block;no_follow",
-            "wait;500"
+            "wait;500",
+            "level_var;TrapTriggered;1"
         ]
     }
 ]

@@ -10,7 +10,7 @@
         "_source": [
             "add_unit;Crate_Wave1a;23,26",
             "add_unit;Crate_Wave1b;17,26",
-            "center_cursor;23,25",
+            "center_cursor;Crate_Wave1b",
             "wait;500",
             "move_unit;Crate_Wave1a;25,25;;closest;no_block;no_follow",
             "move_unit;Crate_Wave1b;20,25;;closest;no_block;no_follow",

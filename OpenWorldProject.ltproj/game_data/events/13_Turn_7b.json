@@ -3,7 +3,7 @@
         "name": "Turn 7b",
         "trigger": "enemy_turn_change",
         "level_nid": "13",
-        "condition": "game.turncount > 7 and game.check_dead('MainWall') and any(get_units_in_region('trap', team='player'))",
+        "condition": "game.turncount > 7 and game.check_dead('MainWall') and game.level_vars['TrapTriggered'] == 1",
         "commands": [],
         "only_once": true,
         "priority": 20,
