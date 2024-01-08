@@ -187,5 +187,21 @@
                 0
             ]
         }
+    },
+    {
+        "nid": "Bearer_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Miracle_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "AgileFighter_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "RallyCrit_book",
+        "subicon_dict": {}
     }
 ]
