@@ -8,12 +8,15 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "if;game.check_alive('Gustav')",
-            "give_item;{unit};Steel Bow",
+            "if;unit.team=='enemy'",
+            "    map_anim;Snag;21,5",
+            "    remove_region;TopVillage",
+            "elif;game.check_alive('Gustav')",
+            "    give_item;{unit};Lancereaver",
             "else",
-            "add_portrait;Simon;Left",
-            "speak;Simon;It looks like they raided the ruins already.",
-            "remove_portrait;Simon",
+            "    add_portrait;Simon;Left",
+            "    speak;Simon;It looks like they raided the ruins already.",
+            "    remove_portrait;Simon",
             "end"
         ]
     }

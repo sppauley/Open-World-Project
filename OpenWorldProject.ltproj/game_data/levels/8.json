@@ -216,7 +216,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -224,7 +224,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     7,
                     5
@@ -823,6 +823,69 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyRuins",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 5,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyRuins",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 5,
+                "klass": "Brigand",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DestroyRuins",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -854,7 +917,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "Investigate",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -871,7 +934,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "Investigate",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -888,7 +951,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "Investigate",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -1221,6 +1284,28 @@
                         18
                     ]
                 }
+            },
+            {
+                "nid": "Brigands",
+                "units": [
+                    "106",
+                    "107",
+                    "108"
+                ],
+                "positions": {
+                    "106": [
+                        14,
+                        0
+                    ],
+                    "107": [
+                        0,
+                        10
+                    ],
+                    "108": [
+                        24,
+                        25
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -1230,6 +1315,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

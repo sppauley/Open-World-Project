@@ -1,20 +1,23 @@
 [
     {
         "name": "Top Village",
-        "trigger": "Visit",
+        "trigger": "Investigate",
         "level_nid": "8",
         "condition": "region.nid=='TopVillage'",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "if;game.check_alive('Gustav')",
-            "inc_game_var;TriangleWeaponMaterial;1",
-            "alert;Found Triangle forging material!",
+            "if;unit.team=='enemy'",
+            "    map_anim;Snag;21,5",
+            "    remove_region;TopVillage",
+            "elif;game.check_alive('Gustav')",
+            "    inc_game_var;TriangleWeaponMaterial;1",
+            "    alert;Found Triangle forging material!",
             "else",
-            "add_portrait;Simon;Left",
-            "speak;Simon;It looks like they raided the ruins already.",
-            "remove_portrait;Simon",
+            "    add_portrait;Simon;Left",
+            "    speak;Simon;It looks like they raided the ruins already.",
+            "    remove_portrait;Simon",
             "end"
         ]
     }

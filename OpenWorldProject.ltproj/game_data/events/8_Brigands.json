@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Brigands",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "game.turncount==5",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;Brigands;;;closest",
+            "flicker_cursor;106",
+            "wait;500",
+            "flicker_cursor;107",
+            "wait;500",
+            "flicker_cursor;108",
+            "wait;500",
+            "add_portrait;Simon;Left",
+            "s;Simon;Brigands.{w} It looks like they're after the ruins.{w}{br}If there's anything left in there, those thugs look prepared to loot it.",
+            "s;Simon;We should get there first if we want to investigate.",
+            "remove_portrait;Simon",
+            ""
+        ]
+    }
+]

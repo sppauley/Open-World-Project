@@ -8,13 +8,16 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "if;game.check_alive('Gustav')",
-            "inc_game_var;DamageWeaponMaterial;1",
-            "alert;Found Damage forging material!",
+            "if;unit.team=='enemy'",
+            "    map_anim;Snag;22,19",
+            "    remove_region;BottomVillage",
+            "elif;game.check_alive('Gustav')",
+            "    inc_game_var;DamageWeaponMaterial;1",
+            "    alert;Found Damage forging material!",
             "else",
-            "add_portrait;Simon;Left",
-            "speak;Simon;It looks like they raided the ruins already.",
-            "remove_portrait;Simon",
+            "    add_portrait;Simon;Left",
+            "    speak;Simon;It looks like they raided the ruins already.",
+            "    remove_portrait;Simon",
             "end"
         ]
     }

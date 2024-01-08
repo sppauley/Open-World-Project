@@ -1693,5 +1693,43 @@
         "priority": 20,
         "offense_bias": 2,
         "roam_ai": false
+    },
+    {
+        "nid": "DestroyRuins",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Investigate",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "None",
+                "target": "None",
+                "target_spec": null,
+                "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
     }
 ]

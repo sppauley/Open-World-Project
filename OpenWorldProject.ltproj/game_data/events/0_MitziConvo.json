@@ -46,6 +46,7 @@
             "multi_remove_portrait;Simon;Mitzi",
             "game_var;MitziRecruited;True",
             "change_team;Mitzi;player",
+            "set_unit_field;Mitzi;PartyMember;'Yes'",
             "move_unit;Mitzi;18,0;no_follow",
             "remove_unit;Mitzi",
             "if;{v:tutorialPopups}",
