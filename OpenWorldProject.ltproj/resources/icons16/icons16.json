@@ -203,5 +203,21 @@
     {
         "nid": "RallyCrit_book",
         "subicon_dict": {}
+    },
+    {
+        "nid": "EbbandFlow_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "HitandRun_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "LungingBlow_book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Pass_book",
+        "subicon_dict": {}
     }
 ]
