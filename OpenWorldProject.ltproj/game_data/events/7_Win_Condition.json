@@ -38,6 +38,7 @@
             "if;unit.nid=='Johannes' or unit2.nid=='Johannes'",
             "    game_var;SkillNidToForce;\"DartingBlow\"",
             "    trigger_script;Global ForceAddSkill;Johannes",
+            "    add_skill_component;{unit};DartingBlow;feat;None",
             "end",
             "",
             "wait;500",
