@@ -5,7 +5,7 @@
         "desc": "",
         "tier": 2,
         "movement_group": "Infantry",
-        "promotes_from": "Thief",
+        "promotes_from": "Myrmidon",
         "turns_into": [],
         "tags": [
             "Sword"

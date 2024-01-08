@@ -3,7 +3,7 @@
         "name": "Turn 7a",
         "trigger": "turn_change",
         "level_nid": "13",
-        "condition": "game.turncount > 7 and game.check_dead('MainWall')",
+        "condition": "game.turncount > 7 and game.check_dead('MainWall') and any(get_units_in_region('trap', team='player'))",
         "commands": [],
         "only_once": true,
         "priority": 20,

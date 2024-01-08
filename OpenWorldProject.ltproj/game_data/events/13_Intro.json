@@ -51,6 +51,7 @@
             "speak;Narrator;Some enemies may be too difficult for your current team.{w}{br}If you feel frustrated, try using the Exit option from the preparations screen.{w}{br}You can always return to a map later.;StyleNid=hint",
             "end",
             "arrange_formation",
+            "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"
         ]
     }
