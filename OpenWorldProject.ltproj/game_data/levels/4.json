@@ -217,7 +217,7 @@
             {
                 "nid": "163",
                 "variant": null,
-                "level": 10,
+                "level": 1,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
@@ -243,7 +243,7 @@
             {
                 "nid": "164",
                 "variant": null,
-                "level": 10,
+                "level": 1,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
@@ -269,7 +269,7 @@
             {
                 "nid": "165",
                 "variant": null,
-                "level": 10,
+                "level": 1,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
@@ -295,7 +295,7 @@
             {
                 "nid": "166",
                 "variant": null,
-                "level": 10,
+                "level": 1,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
@@ -314,6 +314,84 @@
                 "starting_position": [
                     20,
                     13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "167",
+                "variant": null,
+                "level": 1,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    32,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "168",
+                "variant": null,
+                "level": 1,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "169",
+                "variant": null,
+                "level": 1,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -734,11 +812,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
