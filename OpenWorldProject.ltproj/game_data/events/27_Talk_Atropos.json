@@ -15,6 +15,9 @@
             "s;Atropos;They said House Vesner could defy the cycle,{w} but it fell nonetheless.",
             "s;Atropos;The houses now are no different.",
             "game_var;RidgeScene;1",
+            "set_overworld_menu_option_visible;1;36;Battle;t",
+            "set_overworld_menu_option_enabled;1;36;Battle;t",
+            "set_overworld_menu_option_visible;1;36;Roam;f",
             "win_game"
         ]
     }

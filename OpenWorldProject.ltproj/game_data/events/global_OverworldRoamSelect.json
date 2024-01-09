@@ -45,7 +45,7 @@
             "    # Swamp Encampment",
             "    level_var;NextLevel;\"28\"",
             "elif;'{v:CurrentNode}' == '36'",
-            "    # Lupus Heist",
+            "    # Ridge",
             "    level_var;NextLevel;\"27\"",
             "else",
             "end",

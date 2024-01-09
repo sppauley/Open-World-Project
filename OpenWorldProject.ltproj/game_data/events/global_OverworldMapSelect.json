@@ -18,7 +18,12 @@
             "set_overworld_menu_option_visible;1;{eval:game.overworld_controller.selected_party_node().nid};Roam;True;no_warn",
             "set_overworld_menu_option_enabled;1;{eval:game.overworld_controller.selected_party_node().nid};Roam;True;no_warn",
             "# Loads into the map",
-            "enter_level_from_overworld;{eval:game.overworld_controller.selected_party_node().prefab.level}"
+            "# quick exception for the ridge",
+            "if;game.overworld_controller.selected_party_node().nid == '36'",
+            "enter_level_from_overworld;24",
+            "else",
+            "enter_level_from_overworld;{eval:game.overworld_controller.selected_party_node().prefab.level}",
+            "end"
         ]
     }
 ]

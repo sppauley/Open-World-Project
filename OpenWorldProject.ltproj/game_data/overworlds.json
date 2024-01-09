@@ -218,6 +218,13 @@
                         "option_name": "Roam",
                         "visible": true,
                         "enabled": true
+                    },
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": false,
+                        "enabled": true
                     }
                 ]
             },
