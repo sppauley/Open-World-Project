@@ -1,9 +1,9 @@
-name: OpenWorldProject Mac Build
-run-name: ${{ github.actor }} is creating a OpenWorldProject mac build
+name: OpenWorldProject Linux Build
+run-name: ${{ github.actor }} is creating a OpenWorldProject linux build
 on: [workflow_dispatch]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -23,7 +23,7 @@ jobs:
           cp -R ../OpenWorldProject.ltproj/ OpenWorldProject.ltproj/
           chmod -R 777 ./*
           ls
-          perl -pi -e 's/\r\n|\n|\r/\n/g' ./utilities/build_tools/engine_build.sh
+          find ./ -type f -print0 | xargs -0 dos2unix --
           ./utilities/build_tools/engine_build.sh OpenWorldProject
     - uses: actions/upload-artifact@v2
       with:
