@@ -11,15 +11,15 @@ jobs:
       with:
         python-version: 3.11.7
       
-    - run: git clone https://gitlab.com/kdports/lt-maker.git
-    - run: cd lt-maker
-    - run: git checkout openworldgamebranch
-    - run: python -m pip install -r requirements_engine.txt
-    - run: python -m pip install setuptools --upgrade
-    - run: cp -R ../OpenWorldProject.ltproj/ OpenWorldProject/
-    - run: chmod -R 777 ./*
-    - run: ./utilities/build_tools/engine_build.sh OpenWorldProject
-    - run: cd ..
+    - run: |
+          git clone https://gitlab.com/kdports/lt-maker.git
+          cd lt-maker
+          git checkout openworldgamebranch
+          python -m pip install -r requirements_engine.txt
+          python -m pip install setuptools --upgrade
+          cp -R ../OpenWorldProject.ltproj/ OpenWorldProject/
+          chmod -R 777 ./*
+          ./utilities/build_tools/engine_build.sh OpenWorldProject
     - uses: actions/upload-artifact@v2
       with:
         path: OpenWorldProject/*
