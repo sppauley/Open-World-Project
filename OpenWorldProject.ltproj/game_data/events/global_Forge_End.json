@@ -17,7 +17,7 @@
             "add_item_component;{v:ForgeUnit};{v:ForgeItem};{eval:game.level_vars['ForgeComponent']};game.level_vars['ForgeAmount']",
             "# some new components add non-stat changes. Updates the description to compensate.",
             "if;game.level_vars['ForgeComponent']=='double_triangle'",
-            "    change_item_desc;{v:ForgeUnit};{v:ForgeNID};{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeNID}'][0] +'Doubles weapon triangle.'}",
+            "    change_item_desc;{v:ForgeUnit};{v:ForgeNID};{eval:[item.desc for item in game.get_unit('{v:ForgeUnit}').items if item.nid == '{v:ForgeNID}'][0] +' Doubles weapon triangle.'}",
             "end",
             "end",
             "remove_item;Blacksmith;{v:ForgeNID};no_banner",
