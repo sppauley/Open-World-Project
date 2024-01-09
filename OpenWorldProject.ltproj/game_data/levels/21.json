@@ -12,8 +12,8 @@
             "other_phase": "Chaos"
         },
         "objective": {
-            "simple": "Arrive",
-            "win": "Arrive",
+            "simple": "Defeat Bosses",
+            "win": "Defeat Bosses",
             "loss": "Simon dies"
         },
         "roam": false,
@@ -39,7 +39,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -63,7 +63,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -87,7 +87,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -111,7 +111,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -135,7 +135,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -159,7 +159,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -183,7 +183,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -207,7 +207,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",
@@ -231,7 +231,7 @@
                 "variant": null,
                 "level": 4,
                 "klass": "Spider",
-                "faction": "Soldier",
+                "faction": "Monster",
                 "starting_items": [
                     [
                         "Sharp Claw",

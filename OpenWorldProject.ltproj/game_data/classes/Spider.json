@@ -2,7 +2,7 @@
     {
         "nid": "Spider",
         "name": "Giant Spider",
-        "desc": "",
+        "desc": "A monstrous spider that lurks deep within caves.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,
