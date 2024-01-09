@@ -20,8 +20,9 @@ jobs:
           pip install pygame-ce==2.3.2
           python -m pip install -r requirements_engine.txt
           python -m pip install setuptools --upgrade
-          cp -R ../OpenWorldProject.ltproj/ OpenWorldProject/
+          cp -R ../OpenWorldProject.ltproj/ OpenWorldProject.ltproj/
           chmod -R 777 ./*
+          ls
           perl -pi -e 's/\r\n|\n|\r/\n/g' ./utilities/build_tools/engine_build.sh
           ./utilities/build_tools/engine_build.sh OpenWorldProject
     - uses: actions/upload-artifact@v2
