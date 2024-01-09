@@ -37,7 +37,8 @@
             "speak;Simon;Wait, there's something in here.",
             "give_item;Nika;TeddyBear",
             "speak;Nika;Hah, no way.{w} They threw my old teddy in.{w}{br}Thanks, Simon. It's good to have this back.",
-            "multi_remove_portrait;Nika;Simon"
+            "multi_remove_portrait;Nika;Simon",
+            "remove_talk;Simon;Nika"
         ]
     }
 ]
