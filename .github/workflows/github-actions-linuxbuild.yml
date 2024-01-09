@@ -22,8 +22,7 @@ jobs:
           python -m pip install setuptools --upgrade
           cp -R ../OpenWorldProject.ltproj/ OpenWorldProject.ltproj/
           chmod -R 777 ./*
-          ls
-          find ./ -type f -print0 | xargs -0 dos2unix --
+          dos2unix ./utilities/build_tools/engine_build.sh
           ./utilities/build_tools/engine_build.sh OpenWorldProject
     - uses: actions/upload-artifact@v2
       with:
