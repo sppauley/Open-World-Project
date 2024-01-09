@@ -4,7 +4,7 @@
         "name": "Mage",
         "desc": "Curious practioners of anima magic.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Sage"

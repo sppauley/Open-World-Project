@@ -4,7 +4,7 @@
         "name": "Cleric",
         "desc": "Members of the clergy who wield sacred staves to aid allies.",
         "tier": 1,
-        "movement_group": "Mages",
+        "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [
             "Bishop"

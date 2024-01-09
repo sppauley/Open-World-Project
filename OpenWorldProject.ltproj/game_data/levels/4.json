@@ -28,8 +28,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    48
+                    11,
+                    47
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -41,21 +41,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    34,
-                    47
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Phantom",
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    48
+                    32,
+                    46
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -67,6 +54,19 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Phantom",
+                "team": "enemy2",
+                "ai": "KajalSummon",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -265,6 +265,58 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "165",
+                "variant": null,
+                "level": 10,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    26,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "166",
+                "variant": null,
+                "level": 10,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -272,7 +324,7 @@
                 "nid": "Destroy1",
                 "region_type": "event",
                 "position": [
-                    15,
+                    17,
                     5
                 ],
                 "size": [
@@ -289,7 +341,7 @@
                 "nid": "Destroy2",
                 "region_type": "event",
                 "position": [
-                    16,
+                    18,
                     4
                 ],
                 "size": [
@@ -306,7 +358,7 @@
                 "nid": "Absorb",
                 "region_type": "event",
                 "position": [
-                    15,
+                    17,
                     5
                 ],
                 "size": [
@@ -323,7 +375,7 @@
                 "nid": "Absorb_1",
                 "region_type": "event",
                 "position": [
-                    16,
+                    18,
                     4
                 ],
                 "size": [
@@ -340,7 +392,7 @@
                 "nid": "door_upper1",
                 "region_type": "normal",
                 "position": [
-                    3,
+                    5,
                     6
                 ],
                 "size": [
@@ -357,7 +409,7 @@
                 "nid": "door_upper2",
                 "region_type": "normal",
                 "position": [
-                    33,
+                    35,
                     6
                 ],
                 "size": [
@@ -374,8 +426,8 @@
                 "nid": "door_upper3",
                 "region_type": "normal",
                 "position": [
-                    18,
-                    9
+                    20,
+                    15
                 ],
                 "size": [
                     1,
@@ -391,8 +443,8 @@
                 "nid": "door_left1",
                 "region_type": "normal",
                 "position": [
-                    2,
-                    27
+                    3,
+                    35
                 ],
                 "size": [
                     1,
@@ -409,7 +461,7 @@
                 "region_type": "normal",
                 "position": [
                     17,
-                    31
+                    36
                 ],
                 "size": [
                     1,
@@ -425,8 +477,8 @@
                 "nid": "door_left3",
                 "region_type": "normal",
                 "position": [
-                    9,
-                    20
+                    11,
+                    28
                 ],
                 "size": [
                     1,
@@ -442,8 +494,8 @@
                 "nid": "door_right1",
                 "region_type": "normal",
                 "position": [
-                    15,
-                    28
+                    19,
+                    40
                 ],
                 "size": [
                     1,
@@ -459,8 +511,8 @@
                 "nid": "door_right2",
                 "region_type": "normal",
                 "position": [
-                    35,
-                    32
+                    37,
+                    40
                 ],
                 "size": [
                     1,
@@ -476,8 +528,8 @@
                 "nid": "door_right3",
                 "region_type": "normal",
                 "position": [
-                    23,
-                    24
+                    25,
+                    32
                 ],
                 "size": [
                     1,
@@ -493,8 +545,8 @@
                 "nid": "door_left",
                 "region_type": "normal",
                 "position": [
-                    8,
-                    22
+                    10,
+                    30
                 ],
                 "size": [
                     3,
@@ -510,8 +562,8 @@
                 "nid": "door_right",
                 "region_type": "normal",
                 "position": [
-                    22,
-                    26
+                    24,
+                    34
                 ],
                 "size": [
                     3,
@@ -527,8 +579,8 @@
                 "nid": "door_upper",
                 "region_type": "normal",
                 "position": [
-                    17,
-                    11
+                    19,
+                    19
                 ],
                 "size": [
                     3,
@@ -544,8 +596,8 @@
                 "nid": "prep_left",
                 "region_type": "formation",
                 "position": [
-                    5,
-                    40
+                    8,
+                    48
                 ],
                 "size": [
                     4,
@@ -561,14 +613,99 @@
                 "nid": "prep_right",
                 "region_type": "formation",
                 "position": [
-                    33,
-                    40
+                    32,
+                    47
                 ],
                 "size": [
                     2,
                     2
                 ],
                 "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "light_tomb",
+                "region_type": "vision",
+                "position": [
+                    16,
+                    0
+                ],
+                "size": [
+                    9,
+                    11
+                ],
+                "sub_nid": "0",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "light_left1",
+                "region_type": "vision",
+                "position": [
+                    3,
+                    35
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "3",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "light_left2",
+                "region_type": "vision",
+                "position": [
+                    17,
+                    36
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "3",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "light_right1",
+                "region_type": "vision",
+                "position": [
+                    19,
+                    40
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "3",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "light_right2",
+                "region_type": "vision",
+                "position": [
+                    37,
+                    40
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "3",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -598,30 +735,6 @@
             }
         ],
         "ai_groups": [
-            {
-                "nid": "g",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "l",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "r",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "p",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "tr",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "tl",
-                "trigger_threshold": 1
-            },
             {
                 "nid": "",
                 "trigger_threshold": 1

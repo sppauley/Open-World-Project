@@ -4,7 +4,7 @@
         "name": "Druid",
         "desc": "Advanced wielders of the natural magics.",
         "tier": 2,
-        "movement_group": "Mages",
+        "movement_group": "Infantry",
         "promotes_from": "Shaman",
         "turns_into": [],
         "tags": [
