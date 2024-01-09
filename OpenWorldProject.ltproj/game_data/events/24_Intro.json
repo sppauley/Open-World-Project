@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;ThraciaFate",
             "show_layer;overlay",
             "# intro",
             "add_portrait;Simon;Left",
@@ -83,6 +84,7 @@
             "wait;300",
             "speak;Narrator;Slow tomes will reduce enemies' MOV by 3 when destroyed.;StyleNid=hint",
             "wait;300",
+            "music_clear",
             "# preps",
             "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"

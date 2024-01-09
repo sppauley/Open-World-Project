@@ -325,8 +325,8 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 1,
-                "klass": "Hero",
+                "level": 15,
+                "klass": "Mercenary",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -349,8 +349,8 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 1,
-                "klass": "Hero",
+                "level": 15,
+                "klass": "Mercenary",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -373,8 +373,8 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 1,
-                "klass": "General",
+                "level": 20,
+                "klass": "Knight",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -397,8 +397,8 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 1,
-                "klass": "General",
+                "level": 20,
+                "klass": "Knight",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
@@ -428,6 +428,10 @@
                     [
                         "Steel_Pike",
                         false
+                    ],
+                    [
+                        "Master Seal",
+                        true
                     ]
                 ],
                 "starting_skills": [],
