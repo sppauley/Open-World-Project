@@ -9,6 +9,14 @@
         "priority": 20,
         "_source": [
             "#",
+            "level_var;_fog_of_war;True",
+            "level_var;_fog_of_war_type;2",
+            "level_var;_fog_of_war_radius;3",
+            "level_var;_ai_fog_of_war_radius;3",
+            "",
+            "#",
+            "alert;{eval:game.board.in_vision((9,40),'enemy2')}",
+            "#",
             "multi_add_portrait;Simon;Left;Kajal;Right",
             "flicker_cursor;18,6",
             "wait;500",
@@ -39,8 +47,7 @@
             "wait;100",
             "flicker_cursor;17,31",
             "wait;100",
-            "s;Narrator;If units stand on both pressure plates, the door will open.;StyleNid=hint",
-            "s;Narrator;But, if a unit steps off the pressure plate, the door will close again.;StyleNid=hint",
+            "s;Narrator;If units stand on both pressure plates, the door will open.{w}{br}But, if a unit steps off the pressure plate, the door will close again.;StyleNid=hint",
             "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"
         ]

@@ -2,7 +2,7 @@
     {
         "nid": "Arch_Mogall",
         "name": "Arch Mogall",
-        "desc": "A summoned phantom.",
+        "desc": "Perilous floating orbs filled with\nblighting dark magic.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Mogall",

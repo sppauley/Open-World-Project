@@ -29,7 +29,7 @@
                 "ai_group": null,
                 "starting_position": [
                     9,
-                    40
+                    48
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -41,9 +41,32 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    40
+                    34,
+                    47
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Phantom",
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    48
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Kajal",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -65,8 +88,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    39
+                    8,
+                    47
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -89,8 +112,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    7,
-                    39
+                    9,
+                    47
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -113,8 +136,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    30,
-                    41
+                    31,
+                    46
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -137,8 +160,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    30,
-                    40
+                    31,
+                    47
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -161,8 +184,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    30,
-                    39
+                    31,
+                    48
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -185,1368 +208,63 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    39
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "101",
-                "variant": null,
-                "level": 5,
-                "klass": "Bishop",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Fimbulvetr",
-                        false
-                    ],
-                    [
-                        "Freeze",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    29
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    14,
-                    35
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    11,
-                    34
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    17,
-                    40
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    19,
-                    39
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    1,
-                    35
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "143",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    3,
-                    34
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "139",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    25,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "140",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    26,
-                    34
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "142",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    9,
-                    28
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "144",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    7,
-                    29
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "113",
-                "variant": null,
-                "level": 11,
-                "klass": "General",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "l",
-                "starting_position": [
-                    2,
-                    29
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "114",
-                "variant": null,
-                "level": 7,
-                "klass": "Knight",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "l",
-                "starting_position": [
-                    1,
-                    30
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "115",
-                "variant": null,
-                "level": 7,
-                "klass": "Knight",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "l",
-                "starting_position": [
-                    3,
-                    30
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "116",
-                "variant": null,
-                "level": 11,
-                "klass": "Berserker",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Mace",
-                        false
-                    ],
-                    [
-                        "Master Seal",
-                        true
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    33,
-                    32
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "117",
-                "variant": null,
-                "level": 7,
-                "klass": "Brigand",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    32,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "119",
-                "variant": null,
-                "level": 12,
-                "klass": "Swordmaster",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    19,
-                    33
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 7,
-                "klass": "Brigand",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    33,
-                    34
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 5,
-                "klass": "Sage",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Cyclone",
-                        false
-                    ],
-                    [
-                        "Fimbulvetr",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "124",
-                "variant": null,
-                "level": 5,
-                "klass": "Sage",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Cyclone",
-                        false
-                    ],
-                    [
-                        "Fimbulvetr",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    23,
-                    30
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "131",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "134",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "156",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "157",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "158",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "159",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "160",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "161",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "162",
-                "variant": null,
-                "level": 5,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "125",
-                "variant": null,
-                "level": 5,
-                "klass": "Sage",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Cyclone",
-                        false
-                    ],
-                    [
-                        "Fimbulvetr",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "126",
-                "variant": null,
-                "level": 5,
-                "klass": "Sage",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Cyclone",
-                        false
-                    ],
-                    [
-                        "Fimbulvetr",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    19,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "135",
-                "variant": null,
-                "level": 15,
-                "klass": "General",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "g",
-                "starting_position": [
-                    18,
-                    15
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "136",
-                "variant": null,
-                "level": 15,
-                "klass": "General",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "g",
-                "starting_position": [
-                    17,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "137",
-                "variant": null,
-                "level": 15,
-                "klass": "General",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "g",
-                "starting_position": [
-                    19,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "138",
-                "variant": null,
-                "level": 15,
-                "klass": "General",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "g",
-                "starting_position": [
-                    18,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "120",
-                "variant": null,
-                "level": 12,
-                "klass": "Paladin",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Heavy Spear",
-                        true
-                    ],
-                    [
-                        "Silver Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "p",
-                "starting_position": [
-                    23,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 15,
-                "klass": "Cavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "p",
-                "starting_position": [
-                    22,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "122",
-                "variant": null,
-                "level": 15,
-                "klass": "Cavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "p",
-                "starting_position": [
-                    24,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 15,
-                "klass": "Cavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "p",
-                "starting_position": [
-                    22,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 15,
-                "klass": "Cavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "p",
-                "starting_position": [
-                    24,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 12,
-                "klass": "Ranger",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    9,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 15,
-                "klass": "AxeCavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    8,
-                    19
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "141",
-                "variant": null,
-                "level": 15,
-                "klass": "AxeCavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
-                    7,
-                    19
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "145",
-                "variant": null,
-                "level": 15,
-                "klass": "AxeCavalier",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "r",
-                "starting_position": [
                     10,
-                    19
+                    47
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "146",
+                "nid": "163",
                 "variant": null,
-                "level": 15,
-                "klass": "AxeCavalier",
+                "level": 10,
+                "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Crimson Eye",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
                 "team": "enemy2",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "r",
+                "ai_group": "",
                 "starting_position": [
-                    11,
-                    19
+                    9,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "147",
+                "nid": "164",
                 "variant": null,
-                "level": 14,
-                "klass": "Hero",
+                "level": 10,
+                "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver Blade",
+                        "Crimson Eye",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
                 "team": "enemy2",
-                "ai": "Defend",
+                "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "tr",
-                "starting_position": [
-                    31,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "148",
-                "variant": null,
-                "level": 14,
-                "klass": "Hero",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver Blade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tr",
-                "starting_position": [
-                    35,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "150",
-                "variant": null,
-                "level": 14,
-                "klass": "Fighter",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tr",
+                "ai_group": "",
                 "starting_position": [
                     33,
-                    8
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "151",
-                "variant": null,
-                "level": 14,
-                "klass": "Fighter",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tr",
-                "starting_position": [
-                    32,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "149",
-                "variant": null,
-                "level": 12,
-                "klass": "Guerilla",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver Bow",
-                        false
-                    ],
-                    [
-                        "HexingRod",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    34,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "152",
-                "variant": null,
-                "level": 14,
-                "klass": "Warrior",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tl",
-                "starting_position": [
-                    2,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "153",
-                "variant": null,
-                "level": 14,
-                "klass": "Warrior",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tl",
-                "starting_position": [
-                    4,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "154",
-                "variant": null,
-                "level": 14,
-                "klass": "Archer",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "tl",
-                "starting_position": [
-                    3,
-                    7
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "155",
-                "variant": null,
-                "level": 12,
-                "klass": "Guerilla",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Silver Bow",
-                        false
-                    ],
-                    [
-                        "CursingRod",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Kajal",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
             }
         ],
         "regions": [
@@ -1860,89 +578,23 @@
         "unit_groups": [
             {
                 "nid": "Right1",
-                "units": [
-                    "131",
-                    "133"
-                ],
-                "positions": {
-                    "131": [
-                        36,
-                        40
-                    ],
-                    "133": [
-                        35,
-                        41
-                    ],
-                    "132": [
-                        27,
-                        28
-                    ],
-                    "134": [
-                        26,
-                        22
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "Left1",
-                "units": [
-                    "132",
-                    "134"
-                ],
-                "positions": {
-                    "132": [
-                        6,
-                        41
-                    ],
-                    "134": [
-                        9,
-                        41
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "TopLeft",
-                "units": [
-                    "156",
-                    "157",
-                    "158"
-                ],
-                "positions": {
-                    "156": [
-                        1,
-                        14
-                    ],
-                    "157": [
-                        1,
-                        15
-                    ],
-                    "158": [
-                        1,
-                        16
-                    ]
-                }
+                "units": [],
+                "positions": {}
             },
             {
                 "nid": "TopRight",
-                "units": [
-                    "159",
-                    "160",
-                    "161"
-                ],
-                "positions": {
-                    "159": [
-                        35,
-                        18
-                    ],
-                    "160": [
-                        33,
-                        22
-                    ],
-                    "161": [
-                        32,
-                        23
-                    ]
-                }
+                "units": [],
+                "positions": {}
             }
         ],
         "ai_groups": [
@@ -1968,6 +620,10 @@
             },
             {
                 "nid": "tl",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

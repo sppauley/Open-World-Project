@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Phantom AI",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# gets available tiles NEAR player/other units",
+            "# checks to see if they're in range",
+            "# game.board.in_vision((9,40),'enemy2')",
+            "# moves the phantom",
+            "",
+            "for;PLAYER_UNIT;[unit.nid for unit in game.get_player_units()]",
+            "    add_region;PhantomSpawn;{PLAYER_UNIT};7,7;normal",
+            "    for;PLAYER_POS;[game.get_region('PhantomSpawn').get_all_positions()[i] for i in [0,1,2,4,5,6,7,8,12,13,14,20,28,34,35,36,40,41,42,43,44,46,47,48]]",
+            "        if;DB.terrain.get(game.tilemap.get_terrain({PLAYER_POS})).name in ['Floor','Stairs','Carpet'] and not game.board.in_vision({PLAYER_POS},'player')",
+            "            alert;{PLAYER_POS}",
+            "            map_anim;Warp;Phantom;no_block",
+            "            move_unit;Phantom;{PLAYER_POS};immediate;closest;no_block",
+            "            wait;500",
+            "            finish",
+            "        end",
+            "    endf",
+            "    remove_region;PhantomSpawn",
+            "endf"
+        ]
+    }
+]

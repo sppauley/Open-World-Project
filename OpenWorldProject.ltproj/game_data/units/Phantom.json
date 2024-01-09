@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "Phantom",
+        "name": "Phantom",
+        "desc": "A phantom haunting Vesner's tomb.",
+        "variant": null,
+        "level": 15,
+        "klass": "Druid",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 60,
+            "PSE": 15,
+            "MOV": 6,
+            "CON": 9,
+            "MAG": 25,
+            "SPD": 5,
+            "DEX": 15
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Gleipnir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                251,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

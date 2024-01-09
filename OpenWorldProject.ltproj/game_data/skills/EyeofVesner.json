@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "EyeofVesner",
+        "name": "Eye of Vesner",
+        "desc": "Grants +10 sight radius",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "sight_range_bonus",
+                10
+            ]
+        ]
+    }
+]
