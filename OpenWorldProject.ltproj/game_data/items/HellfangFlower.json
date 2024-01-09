@@ -71,6 +71,15 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        0
+                    ]
+                ]
             ]
         ]
     }
