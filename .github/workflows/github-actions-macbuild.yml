@@ -15,6 +15,7 @@ jobs:
           git clone https://gitlab.com/kdports/lt-maker.git
           cd lt-maker
           git checkout openworldgamebranch
+          pip install pygame-ce==2.3.2
           python -m pip install -r requirements_engine.txt
           python -m pip install setuptools --upgrade
           cp -R ../OpenWorldProject.ltproj/ OpenWorldProject/
