@@ -13,6 +13,8 @@ jobs:
       
     - run: |
           git clone https://gitlab.com/kdports/lt-maker.git
+          ls
+          ls ../
           cd lt-maker
           git checkout openworldgamebranch
           pip install pygame-ce==2.3.2
