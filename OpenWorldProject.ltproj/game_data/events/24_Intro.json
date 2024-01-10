@@ -30,7 +30,7 @@
             "s;Simon;Yeah, sorry.{w} I just feel like I've seen this all before.",
             "s;Anuki;A vision or something?",
             "s;Simon;Actually, yes.{w} I think I saw a vision of this place from the past.{w}{br}Something from one of the Fates.",
-            "s;Anuki;Father said he had something similar once.{w}{br}A vision from Atropos about the fall of previous houses on Morrissey land... {w}{br}or something like that.",
+            "s;Anuki;Father said he had something similar once.{w}{br}A vision from Atropos about the fall of previous houses on Morrissey land... {w}{br}...something like that.",
             "s;Anuki;He's been trying to see something like it ever since.{w}{br}A few years ago, he even made a pilgrimage to Atropos's shrine.",
             "s;Anuki;Those were the worst weeks of my life.{w}{br}Brandt was in charge, and he ran the place like a prison.",
             "s;Simon;I can't say I'd like to see a vision like that again though.{w}{br}Pretty unpleasant stuff.",
@@ -60,9 +60,10 @@
             "end_skip",
             "flicker_cursor;Melodie",
             "add_portrait;Melodie;Left",
-            "s;Melodie;These damn bandits.{w}{br}Try to do some good and restore this dump to a more natural state, and they try to kill you.",
+            "s;Melodie;These damn bandits.{w}{br}Try to do some good and restore this dump, and they look to kill you.",
             "mirror_portrait;Melodie",
-            "s;Melodie;But hey, maybe that group down there might be a bit more reasonable...",
+            "s;Melodie;But hey, maybe that group down there is a bit more reasonable...",
+            "move_unit;Melodie;10,25;no_follow",
             "wait;200",
             "s;Melodie;HEY!{w} YOU THERE!",
             "move_portrait;Melodie;Right;no_block",
@@ -73,6 +74,8 @@
             "s;Simon;Uh, sure? {w}We could really use the help too.",
             "s;Melodie;Perfect. Let's cause some chaos, shall we?",
             "multi_remove_portrait;Simon;Melodie",
+            "",
+            "move_unit;Melodie;10,24;no_follow",
             "",
             "# tutorial",
             "wait;500",
@@ -87,6 +90,7 @@
             "music_clear",
             "# preps",
             "game_var;freely_exit;True",
+            "arrange_formation",
             "trigger_script;Global GenericPreps"
         ]
     }
