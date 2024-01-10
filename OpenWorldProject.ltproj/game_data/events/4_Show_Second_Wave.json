@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Show Second Wave",
+        "trigger": "unit_wait",
+        "level_nid": "4",
+        "condition": "any(get_units_in_region('phase2', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kajal;Left",
+            "s;Kajal;We're getting close.{w}{br}We just need to get to the next set of pressure plates.",
+            "remove_portrait;Kajal",
+            "add_region;light_top1;5,6;1,1;vision;3",
+            "add_region;light_top2;35,6;1,1;vision;3",
+            "flicker_cursor;5,6",
+            "wait;500",
+            "flicker_cursor;35,6",
+            "wait;500"
+        ]
+    }
+]

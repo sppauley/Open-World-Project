@@ -190,6 +190,7 @@
     "0_LupusConvo",
     "0_Exit_From_Gates",
     "4_CheckDoors",
+    "4_Doors_Tutorial",
     "4_PushUnit",
     "3_Outro",
     "2_SetGameVars",
@@ -467,5 +468,8 @@
     "4_Druid_120",
     "4_Druid_119",
     "4_Druid_121",
-    "4_Druid_122"
+    "4_Druid_122",
+    "4_Druid_135",
+    "4_Druid_136",
+    "4_Show_Second_Wave"
 ]

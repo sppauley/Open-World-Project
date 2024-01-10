@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Doors Tutorial",
+        "trigger": "unit_wait",
+        "level_nid": "4",
+        "condition": "(any(get_units_in_region('door_left1')) and any(get_units_in_region('door_left2'))) or (any(get_units_in_region('door_right1')) and any(get_units_in_region('door_right2')))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kajal;Left",
+            "s;Kajal;Now we just need to find the pressure plate behind the door.{w}{br}If one of us holds that down, we can step off the plates in front of the door.{w}{br}That should get us all through.",
+            "remove_portrait;Kajal"
+        ]
+    }
+]
