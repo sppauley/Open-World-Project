@@ -1,7 +1,7 @@
 [
     {
         "name": "Bottom Village",
-        "trigger": "Visit",
+        "trigger": "Investigate",
         "level_nid": "8",
         "condition": "region.nid=='BottomVillage'",
         "commands": [],
