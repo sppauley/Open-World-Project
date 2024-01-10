@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MelodieConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == 'Melodie'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Melodie;Right",
+            "s;Melodie;Simon, you owe me.{w} Big time.",
+            "s;Simon;Wait, what?{w} Why?",
+            "s;Melodie;This place is giving me the biggest urge to break something.{w}{br}For your sake, I'm holding back,{w}{br}but you owe me for this.",
+            "s;Simon;Okay?{w} Well, thanks for not damaging anything, I guess.",
+            "multi_remove_portrait;Melodie;Simon"
+        ]
+    }
+]

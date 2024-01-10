@@ -1,0 +1,20 @@
+[
+    {
+        "name": "JohannesConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == 'Johannes'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Johannes;Right",
+            "s;Johannes;Even the training grounds look beautiful...",
+            "s;Simon;You alright, Johannes?",
+            "s;Johannes;Ah, Simon. Sorry, I guess I'm just not used to all this luxury.{w}{br}Back home, we'd just train in a dusty field under the blazing sun.",
+            "s;Johannes;I could get used to a life like this, though.",
+            "multi_remove_portrait;Johannes;Simon"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AddMelodie",
+        "trigger": "level_start",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "v(\"MelodieRecruited\") == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Melodie",
+            "add_unit;Melodie;1,14;immediate",
+            "add_talk;Simon;Melodie"
+        ]
+    }
+]

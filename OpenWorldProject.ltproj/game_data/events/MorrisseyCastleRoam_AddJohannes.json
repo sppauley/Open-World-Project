@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AddJohannes",
+        "trigger": "level_start",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "v(\"JohannesRecruited\") == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Johannes",
+            "add_unit;Johannes;3,3;immediate",
+            "add_talk;Simon;Johannes"
+        ]
+    }
+]

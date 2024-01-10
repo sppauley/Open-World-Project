@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "change_team;Melodie;player",
-            "set_unit_field;Melodie;PartyMember;'Yes'"
+            "set_unit_field;Melodie;PartyMember;'Yes'",
+            "game_var;MelodieRecruited;1"
         ]
     }
 ]
