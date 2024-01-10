@@ -215,6 +215,102 @@
                 "generic": true
             },
             {
+                "nid": "101",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    44
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    45
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    28,
+                    46
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    47
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "163",
                 "variant": null,
                 "level": 1,
@@ -236,6 +332,32 @@
                 "starting_position": [
                     9,
                     41
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "171",
+                "variant": null,
+                "level": 1,
+                "klass": "Arch_Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "EyeofVesner"
+                ],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -392,6 +514,198 @@
                 "starting_position": [
                     6,
                     3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    38
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    37
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    35
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -790,28 +1104,12 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [
+        "unit_groups": [],
+        "ai_groups": [
             {
-                "nid": "Right1",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "Left1",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "TopLeft",
-                "units": [],
-                "positions": {}
-            },
-            {
-                "nid": "TopRight",
-                "units": [],
-                "positions": {}
+                "nid": "",
+                "trigger_threshold": 1
             }
-        ],
-        "ai_groups": []
+        ]
     }
 ]
