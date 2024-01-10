@@ -2,7 +2,7 @@
     {
         "nid": "ArmoredBlow",
         "name": "Armored Blow",
-        "desc": "Unit receives -2 damage when attacking",
+        "desc": "Unit receives -2 damage when attacking.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

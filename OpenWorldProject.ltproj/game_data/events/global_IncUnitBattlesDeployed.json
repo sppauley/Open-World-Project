@@ -1,9 +1,9 @@
 [
     {
         "name": "IncUnitBattlesDeployed",
-        "trigger": "level_start",
+        "trigger": "enemy_turn_change",
         "level_nid": null,
-        "condition": "True",
+        "condition": "game.turncount == 1",
         "commands": [],
         "only_once": false,
         "priority": 5,
