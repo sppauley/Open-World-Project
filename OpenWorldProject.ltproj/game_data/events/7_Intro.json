@@ -13,6 +13,8 @@
             "autolevel_to;{PLAYER_UNIT};16",
             "endf",
             "#story",
+            "center_cursor;Dragonlord",
+            "music;ThraciaFate",
             "multi_add_portrait;Simon;Left;Juliet;FarRight;Luther;MidRight",
             "s;Luther;So it is a dragon after all...{w}{br}To think I'd see one again after all this time.",
             "s;Juliet;You've fought a dragon before, Luther?",
@@ -60,6 +62,7 @@
             "# preps",
             "game_var;freely_exit;True",
             "level_var;PrepMusic;\"Route10\"",
+            "arrange_formation",
             "trigger_script;Global GenericPreps"
         ]
     }
