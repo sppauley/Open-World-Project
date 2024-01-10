@@ -434,6 +434,10 @@
                     [
                         "Iron Blade",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],

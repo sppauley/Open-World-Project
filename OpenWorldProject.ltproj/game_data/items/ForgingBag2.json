@@ -1,8 +1,8 @@
 [
     {
-        "nid": "ForgingBag",
+        "nid": "ForgingBag2",
         "name": "Forging Materials",
-        "desc": "A bag of damage and stagger forging materials",
+        "desc": "A bag of accuracy and critical forging materials",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -42,7 +42,7 @@
             ],
             [
                 "event_on_hit",
-                "Global OpenForgingBag"
+                "Global OpenForgingBag2"
             ],
             [
                 "target_unit",

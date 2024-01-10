@@ -1,0 +1,19 @@
+[
+    {
+        "name": "OpenForgingBag2",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;BagHITReward;random.randint(1,3)",
+            "level_var;BagCRITReward;random.randint(1,2)",
+            "inc_game_var;AccuracyWeaponMaterial;v('BagHITReward')",
+            "inc_game_var;CriticalWeaponMaterial;v('BagCRITReward')",
+            "alert;Recieved {v:BagHITReward} accuracy materials!",
+            "alert;Recieved {v:BagCRITReward} critical materials!"
+        ]
+    }
+]

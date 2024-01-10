@@ -624,6 +624,10 @@
                     [
                         "Steel_Pike",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -836,6 +840,10 @@
                     [
                         "Steel_Pike",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1063,6 +1071,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

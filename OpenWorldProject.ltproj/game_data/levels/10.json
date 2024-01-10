@@ -157,6 +157,10 @@
                     [
                         "Iron Sword",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -205,6 +209,10 @@
                     [
                         "Iron Bow",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1694,6 +1702,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
