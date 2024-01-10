@@ -10,8 +10,9 @@
         "_source": [
             "add_portrait;Simon;Left",
             "s;Simon;Alright...{w} let's do this.",
-            "s;Simon;I'm just not sure how to handle Vesner anymore...",
-            "remove_portrait;Simon",
+            "add_portrait;Titus;Right",
+            "s;Titus;Just be careful, Simon.{w}{br}It's pitch black down there...",
+            "multi_remove_portrait;Simon;Titus",
             "wait;200",
             "overworld_cinematic;1",
             "reveal_overworld_node;60",
