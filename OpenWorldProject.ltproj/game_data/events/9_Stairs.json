@@ -81,7 +81,7 @@
             "remove_talk;Simon;102",
             "add_unit;Simon;28,0",
             "add_unit;Vincent;26,6",
-            "add_unit;Morrissey;16,4",
+            "add_unit;Morrissey;16,4;;closest",
             "add_talk;Simon;Vincent",
             "add_unit;Luther;18,15",
             "add_talk;Simon;Luther",
