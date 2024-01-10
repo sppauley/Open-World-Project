@@ -12,6 +12,7 @@
             "show_layer;leftship",
             "# add enemies here",
             "add_group;LeftGroup;starting;fade",
+            "wait;2000",
             "# add dialogue here",
             "center_cursor;Simon",
             "add_portrait;Simon;Right",

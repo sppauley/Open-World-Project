@@ -22,8 +22,8 @@
             "center_cursor;49",
             "reveal_overworld_node;50",
             "reveal_overworld_road;49;50",
-            "reveal_overworld_node;55",
-            "reveal_overworld_road;49;55",
+            "#reveal_overworld_node;55",
+            "#reveal_overworld_road;49;55",
             "win_game"
         ]
     }

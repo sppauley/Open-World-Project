@@ -19,6 +19,7 @@
             "music;SimonFleesFinal",
             "#",
             "",
+            "music;PercyArrivesFinal",
             "speak_style;FatesTalk;;center;160;0.5;white;;None;;f;None;fit",
             "set_stats;101;HP,18;immediate",
             "center_cursor;Simon;immediate",
@@ -34,7 +35,6 @@
             "wait;500",
             "add_portrait;Vincent;Right",
             "speak;Vincent;The rebels have already reached the corridor?{w}{br}Sire, let me take the lead.{w}{br}You won't die under my watch.",
-            "music_clear;1500",
             "remove_portrait;Vincent",
             "end_skip",
             "speak;Narrator;Would you to see basic tutorial messages?{w}{br}They are likely unneeded for veteran tactics players.;StyleNid=hint",
@@ -52,11 +52,13 @@
             "else",
             "game_var;tutorialPopups;0",
             "end",
+            "",
             "if;v('basicTutorials') == 1",
             "# TODO: Figure out how to turn below into the actual key",
             "speak;Narrator;Use the directional buttons to move the cursor.{w}{br}Press {e:chr(cf.SETTINGS['key_SELECT'])} to select a unit.;StyleNid=hint",
             "# Add more in following events - how to move a selected unit, opening info screen",
             "end",
+            "",
             "if;v('tutorialPopups') == 1 or v('basicTutorials') == 1",
             "speak;Narrator;Units have both a health and poise bar.{w}{br}During your turn, your attacks with some weapons will deal stagger damage.{w}{br}Stagger damage reduces a target's poise.;StyleNid=hint",
             "center_cursor;Vincent",
@@ -67,7 +69,15 @@
             "flicker_cursor;22,4",
             "wait;800",
             "# Doing so will trigger tutorialmsg1",
-            "end"
+            "else",
+            "",
+            "center_cursor;22,4",
+            "flicker_cursor;22,4",
+            "",
+            "end",
+            "",
+            "music_clear;800",
+            "wait;1500"
         ]
     }
 ]
