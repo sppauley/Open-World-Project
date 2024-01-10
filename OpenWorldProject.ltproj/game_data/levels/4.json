@@ -676,7 +676,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -700,7 +700,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -724,7 +724,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -748,7 +748,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -848,8 +848,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    40
+                    37,
+                    39
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -868,7 +868,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -896,36 +896,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     21,
                     40
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "128",
-                "variant": null,
-                "level": 3,
-                "klass": "Entombed",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    36,
-                    41
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -948,17 +924,17 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    35,
-                    40
+                    37,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "131",
+                "nid": "127",
                 "variant": null,
-                "level": 3,
-                "klass": "Entombed",
+                "level": 15,
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -974,6 +950,30 @@
                 "starting_position": [
                     36,
                     39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    36,
+                    40
                 ],
                 "starting_traveler": null,
                 "generic": true
