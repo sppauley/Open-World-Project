@@ -2,7 +2,7 @@
     {
         "nid": "Miasma",
         "name": "Miasma",
-        "desc": "Unit has -1 SPD. Stackable.",
+        "desc": "Unit has -1 SPD. Stackable. Clears all stacks when defeating an enemy.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
@@ -25,6 +25,14 @@
             [
                 "stack",
                 999
+            ],
+            [
+                "remove_skill_after_kill",
+                "Miasma"
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
             ]
         ]
     }

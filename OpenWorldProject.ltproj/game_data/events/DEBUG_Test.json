@@ -37,7 +37,14 @@
             "#set_current_hp;101;1",
             "",
             "set_unit_field;Mitzi;PartyMember;'Yes'",
-            "trigger_script;Global ConsolidateToLeader"
+            "trigger_script;Global ConsolidateToLeader",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner",
+            "give_skill;Simon;Miasma;no_banner"
         ]
     }
 ]
