@@ -89,6 +89,8 @@
             "set_overworld_position;Simon;49",
             "reveal_overworld_node;56",
             "reveal_overworld_road;33;56",
+            "reveal_overworld_node;55",
+            "reveal_overworld_road;49;55",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }
