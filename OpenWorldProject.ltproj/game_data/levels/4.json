@@ -537,7 +537,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    38
+                    43
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -561,7 +561,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    37
+                    42
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -584,8 +584,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    34
+                    13,
+                    41
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -608,21 +608,21 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    34
+                    15,
+                    42
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "113",
+                "nid": "123",
                 "variant": null,
-                "level": 10,
-                "klass": "General",
+                "level": 15,
+                "klass": "Revenant",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Sharp Claw",
                         false
                     ]
                 ],
@@ -632,21 +632,45 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    36
+                    20,
+                    46
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "114",
+                "nid": "124",
                 "variant": null,
-                "level": 10,
+                "level": 15,
+                "klass": "Revenant",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    45
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 3,
                 "klass": "General",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -657,6 +681,30 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 3,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
                     35
                 ],
                 "starting_traveler": null,
@@ -665,12 +713,36 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 10,
+                "level": 3,
                 "klass": "General",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver_Mace",
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    36
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 3,
+                "klass": "General",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
                         false
                     ]
                 ],
@@ -681,20 +753,116 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    36
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "118",
+                "nid": "119",
                 "variant": null,
                 "level": 10,
-                "klass": "General",
+                "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver_Mace",
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    35
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 10,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    34
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 10,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 10,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    36,
+                    40
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 3,
+                "klass": "Assassin",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Blade",
                         false
                     ]
                 ],
@@ -704,8 +872,108 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    37
+                    20,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 3,
+                "klass": "Assassin",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ],
+                    [
+                        "Master Seal",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    40
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 3,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    36,
+                    41
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 3,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    35,
+                    40
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 3,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    36,
+                    39
                 ],
                 "starting_traveler": null,
                 "generic": true

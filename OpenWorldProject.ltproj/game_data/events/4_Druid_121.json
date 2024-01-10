@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Druid 121",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "game.check_dead('121')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_region;illuminate_right1;19,38;9,5;vision;4"
+        ]
+    }
+]
