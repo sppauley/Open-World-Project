@@ -487,7 +487,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 10,
+                "level": 6,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -515,7 +515,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 10,
+                "level": 6,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -591,7 +591,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "Sniper",
                 "faction": "Dragon",
                 "starting_items": [
@@ -615,7 +615,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 11,
+                "level": 5,
                 "klass": "Hero",
                 "faction": "Dragon",
                 "starting_items": [
@@ -663,7 +663,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 12,
+                "level": 5,
                 "klass": "Berserker",
                 "faction": "Dragon",
                 "starting_items": [
@@ -715,7 +715,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "General",
                 "faction": "Dragon",
                 "starting_items": [
@@ -739,7 +739,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "General",
                 "faction": "Dragon",
                 "starting_items": [
@@ -763,7 +763,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -835,7 +835,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 11,
+                "level": 5,
                 "klass": "Paladin",
                 "faction": "Dragon",
                 "starting_items": [
@@ -859,7 +859,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 11,
+                "level": 5,
                 "klass": "Paladin",
                 "faction": "Dragon",
                 "starting_items": [
@@ -931,7 +931,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 12,
+                "level": 5,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -955,7 +955,7 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 12,
+                "level": 5,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1027,7 +1027,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 13,
+                "level": 4,
                 "klass": "Bishop",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1055,7 +1055,7 @@
             {
                 "nid": "143",
                 "variant": null,
-                "level": 13,
+                "level": 4,
                 "klass": "Bishop",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1107,7 +1107,7 @@
             {
                 "nid": "144",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "General",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1131,7 +1131,7 @@
             {
                 "nid": "145",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "General",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1179,7 +1179,7 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 7,
+                "level": 4,
                 "klass": "Great_Knight",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1203,7 +1203,7 @@
             {
                 "nid": "132",
                 "variant": null,
-                "level": 7,
+                "level": 4,
                 "klass": "Great_Knight",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1227,7 +1227,7 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "Warrior",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1850,7 +1850,7 @@
                     ],
                     "148": [
                         20,
-                        12
+                        13
                     ],
                     "149": [
                         24,
@@ -1898,6 +1898,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
