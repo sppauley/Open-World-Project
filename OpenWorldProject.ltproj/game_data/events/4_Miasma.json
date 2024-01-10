@@ -6,7 +6,7 @@
         "condition": "game.turncount > 1",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 18,
         "_source": [
             "center_cursor;20,6",
             "wait;500",

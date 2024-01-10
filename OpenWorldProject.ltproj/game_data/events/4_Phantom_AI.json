@@ -3,10 +3,10 @@
         "name": "Phantom AI",
         "trigger": "turn_change",
         "level_nid": "4",
-        "condition": "game.check_alive('Phantom')",
+        "condition": "game.check_alive('Phantom') and game.turncount>2",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 19,
         "_source": [
             "# gets available tiles NEAR player/other units",
             "# checks to see if they're in range",
