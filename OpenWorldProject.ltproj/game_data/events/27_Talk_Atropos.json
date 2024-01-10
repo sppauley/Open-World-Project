@@ -8,12 +8,16 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "choice;AtroposEnd;Talk to Atropos and end the vision?;Yes,No",
+            "",
+            "if;'{v:AtroposEnd}' == 'Yes'",
             "multi_add_portrait;Simon;Left;Atropos;Right",
             "s;Atropos;Do you finally understand?",
             "s;Simon;So, this is one of the previous houses?{w}{br}I assume you're trying to say that we'll all meet the same fate?",
             "s;Atropos;They said House Moran had unparalleled might,{w} but it fell nonetheless.",
             "s;Atropos;They said House Vesner could defy the cycle,{w} but it fell nonetheless.",
             "s;Atropos;The houses now are no different.",
+            "multi_remove_portrait;Simon;Atropos",
             "",
             "transition;close;2500",
             "",
@@ -25,7 +29,10 @@
             "set_overworld_menu_option_visible;1;36;Battle;t",
             "set_overworld_menu_option_enabled;1;36;Battle;t",
             "set_overworld_menu_option_visible;1;36;Roam;f",
-            "win_game"
+            "",
+            "win_game",
+            "",
+            "end"
         ]
     }
 ]
