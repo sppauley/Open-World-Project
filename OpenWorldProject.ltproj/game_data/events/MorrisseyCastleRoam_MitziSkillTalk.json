@@ -10,6 +10,10 @@
         "_source": [
             "# Make sure this isn't abusable",
             "",
+            "if;v(\"SkillIdx\") is None",
+            "    game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))",
+            "end",
+            "",
             "if;v(\"MapsToSkillUnlock\") > 0",
             "    add_portrait;Simon;Left",
             "    add_portrait;Mitzi;Right;mirror",

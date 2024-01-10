@@ -52,6 +52,15 @@
         "alternate_classes": [],
         "portrait_nid": "{Kanna} [F2E] OC 4",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "LoyaltyStatus",
+                "Loyalty mission not yet implemented"
+            ],
+            [
+                "DeathQuote",
+                "Backwards fools! You fight against history...|Yet, I must retreat for now."
+            ]
+        ]
     }
 ]

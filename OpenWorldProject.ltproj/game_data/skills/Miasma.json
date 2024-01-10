@@ -27,10 +27,6 @@
                 999
             ],
             [
-                "remove_skill_after_kill",
-                "Miasma"
-            ],
-            [
                 "unit_anim",
                 "MapStatDecrease"
             ]
