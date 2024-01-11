@@ -63,7 +63,8 @@
             "game_var;freely_exit;True",
             "level_var;PrepMusic;\"Route10\"",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "change_team;Johannes;player"
         ]
     }
 ]

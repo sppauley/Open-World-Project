@@ -124,8 +124,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    6,
-                    9
+                    10,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -140,16 +140,20 @@
                     [
                         "Iron Blade",
                         false
+                    ],
+                    [
+                        "KnowledgeScroll",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
-                    4,
-                    7
+                    6,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -634,8 +638,8 @@
                 "nid": "Tavern",
                 "region_type": "event",
                 "position": [
-                    6,
-                    9
+                    10,
+                    10
                 ],
                 "size": [
                     1,

@@ -8,9 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "transition;close;1000",
             "music_clear",
+            "transition;close;3000",
+            "",
             "remove_all_units",
+            "wait;2000",
             "",
             "add_unit;Rodger;13,8;immediate",
             "add_portrait;Rodger;Right",

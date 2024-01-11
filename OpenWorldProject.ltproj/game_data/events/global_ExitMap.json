@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music_clear;1000",
+            "",
             "for;party_unit;[u.nid for u in game.get_units_in_party()]",
             "change_ai;{party_unit};None",
             "endf",

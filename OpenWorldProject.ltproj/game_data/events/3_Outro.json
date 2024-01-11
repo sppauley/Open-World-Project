@@ -17,7 +17,7 @@
             "add_unit;Simon;12,7;immediate",
             "load_unit;Luther",
             "add_unit;Luther;13,6;immediate",
-            "load_unit;Rodger",
+            "load_unit;Rodger;other",
             "add_unit;Rodger;11,6;immediate",
             "load_unit;Vincent",
             "add_unit;Vincent;12,5",
