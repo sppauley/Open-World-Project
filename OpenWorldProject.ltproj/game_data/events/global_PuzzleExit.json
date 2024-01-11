@@ -29,6 +29,7 @@
             "",
             "change_roaming;t",
             "level_var;PuzzleCompleted;True",
+            "game_var;_no_end_turn;False",
             "",
             "end",
             "trigger_script;Global PuzzleReset"
