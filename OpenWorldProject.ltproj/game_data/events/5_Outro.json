@@ -57,6 +57,7 @@
             "multi_remove_portrait;Simon;Anuki;Lupus",
             "change_team;Lupus;player",
             "game_var;LupusRecruited;True",
+            "set_unit_field;Lupus;PartyMember;'Yes'",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }
