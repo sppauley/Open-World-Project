@@ -75,7 +75,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "c",
+                "ai_group": "",
                 "starting_position": [
                     30,
                     30
@@ -99,7 +99,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "b",
+                "ai_group": "",
                 "starting_position": [
                     3,
                     24
@@ -123,7 +123,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "d",
+                "ai_group": "",
                 "starting_position": [
                     9,
                     11
@@ -147,7 +147,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "e",
+                "ai_group": "",
                 "starting_position": [
                     31,
                     14
@@ -1898,6 +1898,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
