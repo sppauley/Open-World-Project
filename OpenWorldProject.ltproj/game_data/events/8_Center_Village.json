@@ -1,7 +1,7 @@
 [
     {
         "name": "Center Village",
-        "trigger": "Visit",
+        "trigger": "Investigate",
         "level_nid": "8",
         "condition": "region.nid=='CenterVillage'",
         "commands": [],
@@ -10,7 +10,7 @@
         "_source": [
             "if;unit.team=='enemy'",
             "    map_anim;Snag;21,5",
-            "    remove_region;TopVillage",
+            "    remove_region;CenterVillage",
             "elif;game.check_alive('Gustav')",
             "    give_item;{unit};Lancereaver",
             "else",

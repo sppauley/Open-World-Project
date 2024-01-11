@@ -9,8 +9,6 @@
         "priority": 20,
         "_source": [
             "add_group;Brigands;;;closest",
-            "flicker_cursor;106",
-            "wait;500",
             "flicker_cursor;107",
             "wait;500",
             "flicker_cursor;108",

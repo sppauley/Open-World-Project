@@ -75,18 +75,15 @@
                 ]
             ],
             [
-                "effective",
-                10
-            ],
-            [
-                "effective_tag",
-                [
-                    "Flying"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                1
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

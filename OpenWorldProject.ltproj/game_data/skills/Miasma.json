@@ -29,6 +29,10 @@
             [
                 "unit_anim",
                 "MapStatDecrease"
+            ],
+            [
+                "remove_skill_after_kill",
+                "Miasma"
             ]
         ]
     }

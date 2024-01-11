@@ -9,7 +9,11 @@
         "priority": 20,
         "_source": [
             "add_portrait;{unit};Right",
-            "speak;{unit};Ransacked.{w}...What's this?",
+            "if;unit.nid != 'Flower'",
+            "    speak;{unit};Ransacked.{w}...What's this?",
+            "else",
+            "    s;Flower;Grrr....",
+            "end",
             "give_item;{unit};Steel_Mace",
             "remove_portrait;{unit}",
             "has_traded;{unit}"

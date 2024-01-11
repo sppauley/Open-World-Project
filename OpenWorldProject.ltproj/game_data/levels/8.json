@@ -829,27 +829,6 @@
                 "generic": true
             },
             {
-                "nid": "106",
-                "variant": null,
-                "level": 5,
-                "klass": "Brigand",
-                "faction": "Cutthroat",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DestroyRuins",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "107",
                 "variant": null,
                 "level": 5,
@@ -1292,15 +1271,10 @@
             {
                 "nid": "Brigands",
                 "units": [
-                    "106",
                     "107",
                     "108"
                 ],
                 "positions": {
-                    "106": [
-                        14,
-                        0
-                    ],
                     "107": [
                         0,
                         10
