@@ -33,6 +33,10 @@
             [
                 "remove_skill_after_kill",
                 "Miasma"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }
