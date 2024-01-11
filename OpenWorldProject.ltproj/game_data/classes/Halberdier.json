@@ -37,13 +37,13 @@
             "CON": 0
         },
         "promotion": {
-            "HP": 0,
-            "SPD": 0,
+            "HP": 2,
+            "SPD": 3,
             "MOV": 0,
-            "DEX": 0,
-            "MAG": 0,
-            "PSE": 0,
-            "CON": 0
+            "DEX": 3,
+            "MAG": 1,
+            "PSE": 4,
+            "CON": 3
         },
         "max_stats": {
             "HP": 60,

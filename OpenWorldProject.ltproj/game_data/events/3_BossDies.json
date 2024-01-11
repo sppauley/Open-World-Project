@@ -14,6 +14,7 @@
             "speak;Bounty;Respect...",
             "remove_portrait;Bounty",
             "remove_all_enemies",
+            "music_clear;1000",
             "center_cursor;Simon",
             "move_unit;Simon;7,16",
             "add_portrait;Simon;MidRight",
