@@ -408,12 +408,12 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 5,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -432,12 +432,12 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 5,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -557,7 +557,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Axe",
+                        "Steel Axe",
                         false
                     ]
                 ],
@@ -581,7 +581,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Axe",
+                        "Hammer",
                         false
                     ]
                 ],
@@ -840,12 +840,12 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 8,
+                "level": 18,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -864,12 +864,12 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 8,
+                "level": 18,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -1393,12 +1393,12 @@
             {
                 "nid": "155",
                 "variant": null,
-                "level": 10,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -1417,12 +1417,12 @@
             {
                 "nid": "156",
                 "variant": null,
-                "level": 10,
+                "level": 15,
                 "klass": "Sniper",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -2677,6 +2677,10 @@
             },
             {
                 "nid": "f",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
