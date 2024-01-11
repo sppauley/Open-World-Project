@@ -33,6 +33,7 @@
             "            map_anim;Warp;Phantom;no_block",
             "            move_unit;Phantom;{PLAYER_POS};immediate;closest;no_block",
             "            wait;500",
+            "            remove_region;PhantomSpawn",
             "            finish",
             "        end",
             "    endf",
