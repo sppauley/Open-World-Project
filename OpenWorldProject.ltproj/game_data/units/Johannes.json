@@ -4,16 +4,16 @@
         "name": "Johannes",
         "desc": "A self-proclaimed dragonslayer.",
         "variant": "",
-        "level": 3,
+        "level": 6,
         "klass": "Hero",
         "tags": [],
         "bases": {
-            "HP": 32,
+            "HP": 41,
             "CON": 16,
             "MAG": 1,
             "DEX": 12,
             "SPD": 16,
-            "PSE": 14,
+            "PSE": 16,
             "MOV": 6
         },
         "growths": {
@@ -95,7 +95,7 @@
         "fields": [
             [
                 "DeathQuote",
-                "Yo, write this later"
+                "A worthy adversary...{w}{br}All that training, and I'm still easily bested."
             ],
             [
                 "BattlesBeforeLoyaltyTalk",
