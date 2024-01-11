@@ -32,7 +32,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    3,
                     13
                 ],
                 "starting_traveler": null,
@@ -146,19 +146,6 @@
                 "generic": true
             },
             {
-                "nid": "Boudica",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "109",
                 "variant": null,
                 "level": 1,
@@ -185,17 +172,52 @@
                 "generic": true
             },
             {
-                "nid": "Mitzi",
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Ballista",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Ballista",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    14
+                    7,
+                    10
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 1,
+                "klass": "GriffonKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Rapier",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -244,6 +266,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

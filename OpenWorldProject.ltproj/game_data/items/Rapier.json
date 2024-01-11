@@ -51,7 +51,10 @@
             ],
             [
                 "effective_tag",
-                []
+                [
+                    "Armor",
+                    "Horse"
+                ]
             ],
             [
                 "crit",
@@ -73,18 +76,6 @@
                         3
                     ]
                 ]
-            ],
-            [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Horse",
-                        "Armor"
-                    ],
-                    "effective_multiplier": 3,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true
-                }
             ]
         ]
     }
