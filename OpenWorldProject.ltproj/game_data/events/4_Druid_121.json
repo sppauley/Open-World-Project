@@ -8,7 +8,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;illuminate_right1;19,38;9,5;vision;4"
+            "add_region;illuminate_right1;19,38;9,5;vision;4",
+            "add_group;RightDruid1"
         ]
     }
 ]

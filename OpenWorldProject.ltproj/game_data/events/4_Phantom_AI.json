@@ -25,7 +25,7 @@
             "# else targets normally",
             "else",
             "for;PLAYER_UNIT;static_random.shuffle([unit.nid for unit in game.get_player_units()])",
-            "    add_region;PhantomSpawn;{eval:u('{PLAYER_UNIT}').position[0] - 4,u('{PLAYER_UNIT}').position[1]-4};7,7;normal",
+            "    add_region;PhantomSpawn;{eval:u('{PLAYER_UNIT}').position[0] - 3,u('{PLAYER_UNIT}').position[1]-3};7,7;normal",
             "    for;PLAYER_POS;static_random.shuffle([game.get_region('PhantomSpawn').get_all_positions()[i] for i in [0,1,2,4,5,6,7,8,12,13,14,20,28,34,35,36,40,41,42,43,44,46,47,48]])",
             "        if;DB.terrain.get(game.tilemap.get_terrain({PLAYER_POS})).name in ['Floor','Stairs','Carpet'] and not game.board.in_vision({PLAYER_POS},'player')",
             "            if;game.board.in_vision(u('Phantom').position, 'player')         ",
