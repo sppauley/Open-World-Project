@@ -39,6 +39,7 @@
             "remove_skill;Titus;Canto2",
             "give_skill;Titus;Canto5",
             "#",
+            "game_var;SwampCleared;1",
             "trigger_script;Global Upgrade Leadership",
             "trigger_script;Global IncreaseMitziProgress",
             "win_game"

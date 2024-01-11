@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "MoransLegacy_proc",
+        "name": "Moran's Legacy",
+        "desc": "+3 MOV for 2 turns",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            21
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "end_time",
+                2
+            ]
+        ]
+    }
+]

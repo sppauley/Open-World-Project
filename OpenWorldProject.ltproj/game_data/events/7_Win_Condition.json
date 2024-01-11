@@ -48,7 +48,11 @@
             "s;Luther;Dragons are fearsome foes, especially ones this ancient.{w}{br}With this fiend gone, the surrounding lands will be much safer.",
             "s;Simon;We can only hope.{w}{br}With monsters and bandits controlling much of this land,{w}{br}this security is the kind of change we need.",
             "trigger_script;Global Upgrade Leadership",
-            "",
+            "s;Simon;Now, dragons are rumored to hoard treasure.{w}{br}Let's see what we can find...",
+            "multi_remove_portrait;Simon;Luther",
+            "give_money;5000",
+            "give_item;convoy;MoransLegacy",
+            "game_var;DragonCleared;1",
             "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]

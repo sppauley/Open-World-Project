@@ -54,6 +54,7 @@
             "s;Simon;Well, we'll appreciate your help moving forward.",
             "multi_remove_portrait;Simon;Kajal",
             "#",
+            "game_var;SwampCleared;1",
             "trigger_script;Global Upgrade Leadership",
             "win_game"
         ]
