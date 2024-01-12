@@ -615,7 +615,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 15,
+                "level": 11,
                 "klass": "Cleric",
                 "faction": "Dragon",
                 "starting_items": [
@@ -639,7 +639,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -667,7 +667,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 6,
+                "level": 5,
                 "klass": "Ranger",
                 "faction": "Dragon",
                 "starting_items": [
@@ -688,30 +688,6 @@
                 "starting_position": [
                     20,
                     12
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 15,
-                "klass": "Mercenary",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "b",
-                "starting_position": [
-                    3,
-                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -767,12 +743,12 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 4,
+                "level": 3,
                 "klass": "Hero",
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver Blade",
+                        "Steel Blade",
                         false
                     ]
                 ],
@@ -791,7 +767,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 16,
+                "level": 15,
                 "klass": "Fighter",
                 "faction": "Dragon",
                 "starting_items": [
@@ -843,7 +819,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 16,
+                "level": 15,
                 "klass": "Fighter",
                 "faction": "Dragon",
                 "starting_items": [
@@ -915,7 +891,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 5,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1035,7 +1011,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 15,
+                "level": 12,
                 "klass": "Myrmidon",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1059,7 +1035,7 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 15,
+                "level": 12,
                 "klass": "Myrmidon",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1403,7 +1379,7 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 15,
+                "level": 12,
                 "klass": "Fighter",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1559,7 +1535,7 @@
             {
                 "nid": "139",
                 "variant": null,
-                "level": 7,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1580,7 +1556,7 @@
             {
                 "nid": "140",
                 "variant": null,
-                "level": 7,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1994,15 +1970,15 @@
                 "positions": {
                     "146": [
                         21,
-                        12
+                        13
                     ],
                     "147": [
-                        11,
+                        8,
                         7
                     ],
                     "148": [
                         20,
-                        13
+                        14
                     ],
                     "149": [
                         24,
@@ -2010,15 +1986,15 @@
                     ],
                     "150": [
                         19,
-                        12
+                        13
                     ],
                     "151": [
                         25,
                         10
                     ],
                     "152": [
-                        10,
-                        7
+                        9,
+                        6
                     ]
                 }
             }
