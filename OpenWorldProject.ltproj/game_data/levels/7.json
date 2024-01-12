@@ -225,8 +225,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
-                    25
+                    13,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -251,6 +251,101 @@
                 "generic": true
             },
             {
+                "nid": "Slo_6",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_7",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    39
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_8",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    33,
+                    35
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_9",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    33,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Slo_10",
+                "variant": null,
+                "level": 1,
+                "klass": "SlowTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "Acc_1",
                 "variant": null,
                 "level": 1,
@@ -263,8 +358,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    39
+                    15,
+                    38
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -360,6 +455,63 @@
                 "starting_position": [
                     18,
                     7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_7",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_8",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Acc_9",
+                "variant": null,
+                "level": 1,
+                "klass": "SpeedTome",
+                "faction": "Tome",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    32,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -492,11 +644,11 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ],
                     [
-                        "Killing Edge",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -520,11 +672,11 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ],
                     [
-                        "Killing Edge",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -596,7 +748,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -615,7 +767,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 5,
+                "level": 4,
                 "klass": "Hero",
                 "faction": "Dragon",
                 "starting_items": [
@@ -840,7 +992,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -864,7 +1016,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -1232,7 +1384,7 @@
                 "faction": "Dragon",
                 "starting_items": [
                     [
-                        "Silver Axe",
+                        "Steel_Mace",
                         false
                     ]
                 ],
@@ -1898,6 +2050,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

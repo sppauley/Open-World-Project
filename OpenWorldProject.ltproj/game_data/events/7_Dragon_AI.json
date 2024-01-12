@@ -62,7 +62,7 @@
             "inc_level_var;FireballCount;1",
             "end",
             "# determines whether the dragon will go after the tomes",
-            "if;game.level_vars['FireballCount']<game.turncount and game.turncount%3==0",
+            "if;game.level_vars['FireballCount']<game.turncount and game.turncount%3==0 and (any([u.nid for u in game.get_enemy_units() if 'Acc' in u.nid]) or any([u.nid for u in game.get_enemy_units() if 'Slo' in u.nid]))",
             "# prioritizes slows",
             "# goes for the slow if players are in tight regions",
             "if;len(get_units_in_region('Zone3', team='player'))>0 or len(get_units_in_region('Zone5', team='player'))>0 or len(get_units_in_region('Zone6', team='player'))>0 or len(get_units_in_region('Zone8', team='player'))>0",
