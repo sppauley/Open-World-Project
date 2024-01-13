@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    6
+                    0,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -118,16 +118,20 @@
                     [
                         "BloodyEye",
                         false
+                    ],
+                    [
+                        "Iron Sword",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    14
+                    3,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -235,6 +239,30 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 1,
+                "klass": "Paladin",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -283,6 +311,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

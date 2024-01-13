@@ -483,6 +483,11 @@
     "MorrisseyCastleRoam_AddMelodie",
     "19_Exit",
     "29_Intro",
-    "4_Vesner_tome_to_convoy",
-    "DEBUG_CursebearerTest"
+    "4_Item_to_Convoy",
+    "DEBUG_CursebearerTest",
+    "DEBUG_Test_Drop",
+    "DEBUG_Flag_Items",
+    "4_Flag_Item",
+    "26_Flag_Item",
+    "26_Item_to_Convoy"
 ]
