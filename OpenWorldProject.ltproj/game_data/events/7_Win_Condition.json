@@ -8,9 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Dragonlord;Right",
             "s;Dragonlord;RARGHHHHH!",
-            "remove_portrait;Dragonlord",
             "music_clear",
             "wait;600",
             "add_portrait;Simon;Left",

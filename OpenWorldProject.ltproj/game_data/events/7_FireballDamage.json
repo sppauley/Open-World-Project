@@ -10,6 +10,7 @@
         "_source": [
             "set_current_hp;{unit};{eval: unit.get_hp()-30}",
             "if;unit.get_hp()<=0",
+            "sound;Critical Kill",
             "kill_unit;{unit}",
             "end"
         ]
