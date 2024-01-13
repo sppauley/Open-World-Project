@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    13
+                    1,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -115,8 +115,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    9
+                    6,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -139,7 +139,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    0,
                     14
                 ],
                 "starting_traveler": null,
@@ -165,8 +165,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    14
+                    5,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -183,7 +183,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "SpurSpeed"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -266,6 +268,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

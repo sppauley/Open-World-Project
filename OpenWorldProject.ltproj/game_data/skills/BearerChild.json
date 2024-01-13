@@ -2,7 +2,7 @@
     {
         "nid": "BearerChild",
         "name": "Cursed",
-        "desc": "Lose 5 HP at the beginning of their turn. This effect can kill.",
+        "desc": "Until the next player phase, -4 CON.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
@@ -10,12 +10,17 @@
         ],
         "components": [
             [
-                "negative",
-                null
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        -4
+                    ]
+                ]
             ],
             [
-                "upkeep_damage",
-                5
+                "time",
+                1
             ]
         ]
     }

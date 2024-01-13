@@ -34,6 +34,8 @@
             "give_skill;Simon;Monsterslayer;;no_banner",
             "set_current_hp;Simon;6",
             "set_stats;109;MAG,20,CON,20;immediate",
+            "",
+            "set_current_hp;105;4",
             "#promote;Simon",
             "#set_current_hp;101;1"
         ]

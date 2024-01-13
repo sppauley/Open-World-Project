@@ -2,7 +2,7 @@
     {
         "nid": "Bearer",
         "name": "Cursebearer",
-        "desc": "Adjacent units lose 5 HP at the beginning of their turn. This effect can kill.",
+        "desc": "At the start of this unit's turn, all adjacent units lose 4 CON for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
@@ -14,16 +14,13 @@
                 null
             ],
             [
-                "aura",
-                "BearerChild"
-            ],
-            [
-                "aura_range",
-                1
-            ],
-            [
-                "aura_target",
-                "unit"
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "BearerChild",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "any"
+                }
             ],
             [
                 "feat",
