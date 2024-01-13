@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MelodieLupusTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Melodie;21,21;immediate",
+            "add_unit;Lupus;22,21;immediate",
+            "add_talk;Simon;Melodie",
+            "add_talk;Simon;Lupus",
+            "",
+            "if;v(\"MelodiePartners\").remove(\"Lupus\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Melodie",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Lupus",
+            "level_var;MelodieLupusConversation;True"
+        ]
+    }
+]

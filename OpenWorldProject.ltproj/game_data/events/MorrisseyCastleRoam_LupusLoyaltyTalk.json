@@ -1,0 +1,19 @@
+[
+    {
+        "name": "LupusLoyaltyTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "load_unit;Lupus",
+            "add_unit;Lupus;29,22;immediate;no_warn",
+            "add_talk;Simon;Lupus",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Lupus",
+            "set_unit_field;Lupus;LoyaltyTalkComplete;False"
+        ]
+    }
+]

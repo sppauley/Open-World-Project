@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MarkInConversation",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_unit_field;{unit};InConversation;True"
+        ]
+    }
+]

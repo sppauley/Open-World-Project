@@ -1,17 +1,18 @@
 [
     {
-        "name": "AddNika",
-        "trigger": "level_start",
+        "name": "NikaLoyaltyTalk",
+        "trigger": null,
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "v(\"NikaRecruited\") == True",
+        "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 18,
         "_source": [
-            "load_unit;Nika",
             "add_unit;Nika;7,28;immediate;no_warn",
             "add_talk;Simon;Nika",
-            ""
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Nika",
+            "set_unit_field;Nika;LoyaltyTalkComplete;False"
         ]
     }
 ]

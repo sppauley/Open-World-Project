@@ -1,0 +1,27 @@
+[
+    {
+        "name": "NikaNormalConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Nika\" and game.get_unit(\"Nika\").get_field(\"IntroductionTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Nika;Left;immediate",
+            "expression;Nika;CloseEyes",
+            "add_portrait;Simon;Right",
+            "s;Simon;Good morning, Nika.",
+            "s;Nika;Simon.",
+            "wait;800",
+            "s;Simon;Are your... eyes hurt?",
+            "s;Nika;No. I'm taking a moment to relax.{w}{br}It helps.",
+            "s;Simon;With Thanatos?",
+            "s;Nika;With everything.{w}{br}Was there something you needed?",
+            "s;Simon;Not particularly.",
+            "s;Nika;Mmm.",
+            "wait;700",
+            "multi_remove_portrait;Nika;Simon"
+        ]
+    }
+]

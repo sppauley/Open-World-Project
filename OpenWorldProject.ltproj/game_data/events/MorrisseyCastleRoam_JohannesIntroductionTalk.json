@@ -1,0 +1,16 @@
+[
+    {
+        "name": "JohannesIntroductionTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Johannes;3,3;immediate;no_warn",
+            "add_talk;Simon;Johannes;no_warn",
+            "set_unit_field;Johannes;IntroductionTalkComplete;False"
+        ]
+    }
+]

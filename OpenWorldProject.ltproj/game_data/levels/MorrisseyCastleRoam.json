@@ -258,19 +258,6 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    12,
-                    16
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Mitzi",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false

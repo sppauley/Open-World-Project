@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AnukiBoudicaTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Anuki;20,19;immediate",
+            "add_unit;Boudica;20,21;immediate",
+            "add_talk;Simon;Anuki",
+            "add_talk;Simon;Boudica",
+            "",
+            "if;v(\"AnukiPartners\").remove(\"Boudica\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Anuki",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Boudica",
+            "level_var;AnukiBoudicaConversation;True"
+        ]
+    }
+]

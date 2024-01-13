@@ -1,0 +1,21 @@
+[
+    {
+        "name": "MelodieLupusConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Melodie\" or unit2.nid == \"Lupus\") and v(\"MelodieLupusConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lupus;Right",
+            "s;Lupus;Woah, hey there! Really planning on slipping on by?",
+            "add_portrait;Melodie;Left",
+            "s;Melodie;Is there reason to speak?",
+            "",
+            "multi_remove_portrait;Melodie;Lupus",
+            "",
+            "level_var;MelodieLupusConversation;False"
+        ]
+    }
+]
