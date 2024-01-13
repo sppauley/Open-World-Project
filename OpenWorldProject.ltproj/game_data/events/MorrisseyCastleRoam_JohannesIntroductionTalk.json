@@ -10,6 +10,8 @@
         "_source": [
             "add_unit;Johannes;3,3;immediate;no_warn",
             "add_talk;Simon;Johannes;no_warn",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Johannes",
             "set_unit_field;Johannes;IntroductionTalkComplete;False"
         ]
     }

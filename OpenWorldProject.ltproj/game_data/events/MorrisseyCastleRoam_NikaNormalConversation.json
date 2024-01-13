@@ -21,7 +21,9 @@
             "s;Simon;Not particularly.",
             "s;Nika;Mmm.",
             "wait;700",
-            "multi_remove_portrait;Nika;Simon"
+            "multi_remove_portrait;Nika;Simon",
+            "",
+            "set_unit_field;Nika;IntroductionTalkComplete;True"
         ]
     }
 ]

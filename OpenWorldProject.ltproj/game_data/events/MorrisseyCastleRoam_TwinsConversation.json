@@ -1,0 +1,42 @@
+[
+    {
+        "name": "TwinsConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Twins\" and game.get_unit(\"Twins\").get_field(\"IntroductionTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "add_portrait;Simon;Right",
+            "add_portrait;Twins;Left",
+            "s;Twins;Simon. Or... Lord Verstadt?",
+            "s;Simon;Simon is fine. Unless other nobility is nearby.",
+            "s;Twins;I understand.",
+            "s;Simon;Who am I speaking to right now?|I'm afraid I don't understand...|Your situation.",
+            "s;Twins;Right. It is a strange one.",
+            "move_portrait;Twins;MidLeft",
+            "wait;300",
+            "s;Twins;I'm Trina.",
+            "move_portrait;Twins;Left",
+            "wait;300",
+            "s;Twins;When you first met us, you spoke to Tristan.",
+            "",
+            "s;Simon;Is he here too?",
+            "s;Twins;In my mind. Sleeping, I think.",
+            "wait;700",
+            "s;Twins;No, not sleeping.",
+            "s;Twins;Regardless, we were victims of a particular sorceress.|Sacrifices were demanded of our village, and we were young enough to be chosen.",
+            "s;Simon;That's terrible. I'm surprised you lived.",
+            "s;Twins;As were we! When she saw that her experiments failed, she let us go.|We've wandered since then.",
+            "s;Simon;I'm sorry that the Fates have been so cruel.|I hope things turn around.",
+            "s;Twins;They already have!{w} This place has been great,|and ever since we met I've been light on my feet!",
+            "s;Simon;Is this Tristan?",
+            "s;Twins;You catch on fast.{w} I'm a bit more energetic than Trina, hah.|Now, I'm gonna go raid the wine pantry.|Catch you later.",
+            "",
+            "multi_remove_portrait;Twins;Simon",
+            "",
+            "set_unit_field;Twins;IntroductionTalkComplete;True"
+        ]
+    }
+]
