@@ -19,7 +19,7 @@
         "growths": {
             "HP": 50,
             "CON": 35,
-            "MAG": 0,
+            "MAG": 15,
             "DEX": 25,
             "SPD": 20,
             "PSE": 0,
