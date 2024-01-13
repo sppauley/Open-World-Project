@@ -18,10 +18,6 @@
                 "SealedMagic"
             ],
             [
-                "unit_anim",
-                "MapStatDecrease"
-            ],
-            [
                 "combat_condition",
                 "target.team != 'player'"
             ]

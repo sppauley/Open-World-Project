@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Item to Convoy",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "(unit.team == 'other' and game.check_dead(unit2.nid)) or (unit2.team == 'other' and game.check_dead(unit.nid))",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;convoy;{v:DroppableItem}"
+        ]
+    }
+]

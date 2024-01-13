@@ -25,6 +25,10 @@
                         -4
                     ]
                 ]
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
             ]
         ]
     }
