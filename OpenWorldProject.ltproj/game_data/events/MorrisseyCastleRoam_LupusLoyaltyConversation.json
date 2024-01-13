@@ -1,15 +1,13 @@
 [
     {
-        "name": "LupusConversation",
+        "name": "LupusLoyaltyConversation",
         "trigger": "on_talk",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "unit2.nid == \"Lupus\"",
+        "condition": "unit2.nid == \"Lupus\" and game.get_unit(\"Lupus\").get_field(\"LoyaltyTalkComplete\") == False",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;int(game.get_unit(\"Lupus\").get_field(\"BattlesBeforeLoyaltyTalk\")) <= int(game.get_unit(\"Lupus\").get_field(\"BattlesDeployed\"))",
-            "",
             "move_unit;Simon;28,22",
             "add_portrait;Simon;Left",
             "add_portrait;Lupus;Right",
@@ -67,16 +65,7 @@
             "s;Anuki;Then you haven't met enough people like him.{w}{br}He'll split the moment he's given the chance- just watch.",
             "",
             "level_var;RevealLupusMission;True",
-            "",
-            "else",
-            "",
-            "add_portrait;Simon;Left",
-            "add_portrait;Lupus;Right",
-            "s;Lupus;Pretty nice armor, huh?",
-            "s;Simon;Don't get any ideas.",
-            "multi_remove_portrait;Lupus;Simon",
-            "",
-            "end"
+            "set_unit_field;Lupus;LoyaltyTalkComplete;True"
         ]
     }
 ]

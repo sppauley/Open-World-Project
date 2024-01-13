@@ -3,14 +3,12 @@
         "name": "NikaConversation",
         "trigger": "on_talk",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "unit2.nid == \"Nika\"",
+        "condition": "unit2.nid == \"Nika\" and game.get_unit(\"Nika\").get_field(\"LoyaltyTalkComplete\") == False",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
             "move_unit;Simon;Nika;normal;closest;no_follow",
-            "",
-            "if;int(game.get_unit(\"Nika\").get_field(\"BattlesBeforeLoyaltyTalk\")) <= int(game.get_unit(\"Nika\").get_field(\"BattlesDeployed\"))",
             "",
             "add_portrait;Nika;Left",
             "add_portrait;Simon;Right",
@@ -33,25 +31,7 @@
             "multi_remove_portrait;Nika;Simon",
             "",
             "level_var;RevealNikaMission;True",
-            "",
-            "else",
-            "",
-            "add_portrait;Nika;Left;immediate",
-            "expression;Nika;CloseEyes",
-            "add_portrait;Simon;Right",
-            "s;Simon;Good morning, Nika.",
-            "s;Nika;Simon.",
-            "wait;800",
-            "s;Simon;Are your... eyes hurt?",
-            "s;Nika;No. I'm taking a moment to relax.{w}{br}It helps.",
-            "s;Simon;With Thanatos?",
-            "s;Nika;With everything.{w}{br}Was there something you needed?",
-            "s;Simon;Not particularly.",
-            "s;Nika;Mmm.",
-            "wait;700",
-            "multi_remove_portrait;Nika;Simon",
-            "",
-            "end"
+            "set_unit_field;Nika;LoyaltyTalkComplete;True"
         ]
     }
 ]

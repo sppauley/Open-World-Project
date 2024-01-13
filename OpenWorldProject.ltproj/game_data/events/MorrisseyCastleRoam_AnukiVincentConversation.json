@@ -1,0 +1,20 @@
+[
+    {
+        "name": "AnukiVincentConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Vincent\" or unit2.nid == \"Anuki\") and v(\"AnukiVincentConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Anuki;Right;mirror",
+            "add_portrait;Vincent;Left;left",
+            "s;Vincent;Lady Anuki, I'm glad I found you.|Are you planning on going into town?|Do you need an escort?",
+            "",
+            "multi_remove_portrait;Anuki;Vincent",
+            "",
+            "level_var;AnukiVincentConversation;False"
+        ]
+    }
+]

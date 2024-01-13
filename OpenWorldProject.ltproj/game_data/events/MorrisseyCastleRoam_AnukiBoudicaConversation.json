@@ -1,0 +1,30 @@
+[
+    {
+        "name": "AnukiBoudicaConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Boudica\" or unit2.nid == \"Anuki\") and v(\"AnukiBoudicaConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Anuki;Right",
+            "add_portrait;Boudica;Left",
+            "s;Boudica;Even on a poorly kept road, my speed would overwhelm you.",
+            "s;Anuki;Stick one up yours! Doesn't matter how fast you're going,|an axe can take your head all the same.",
+            "s;Boudica;Only if swung in the right window.|A short window, against me.",
+            "add_portrait;Simon;FarLeft",
+            "s;Anuki;Then I'll just wait until you need to turn.|I've seen how long that takes,|and your speed won't help much there.",
+            "mirror_portrait;Boudica",
+            "s;Boudica;Simon, reform her misconceptions.",
+            "s;Anuki;No, Simon agrees with me. Right?",
+            "wait;500",
+            "s;Simon;I... have an urgent meeting with Luther.",
+            "remove_portrait;Simon",
+            "",
+            "multi_remove_portrait;Anuki;Boudica",
+            "",
+            "level_var;AnukiBoudicaConversation;False"
+        ]
+    }
+]

@@ -8,6 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "for;u;[u.nid for u in game.get_all_units_in_party()]",
+            "    set_unit_field;{u};InConversation;False",
+            "endf",
+            "",
             "overworld_cinematic;1",
             "",
             "if;v(\"RevealLupusMission\")",

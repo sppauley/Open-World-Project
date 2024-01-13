@@ -3,7 +3,7 @@
         "name": "JohannesConversation",
         "trigger": "on_talk",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "unit2.nid == 'Johannes'",
+        "condition": "unit2.nid == \"Johannes\" and game.get_unit(\"Johannes\").get_field(\"IntroductionTalkComplete\")",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -14,7 +14,10 @@
             "s;Simon;You alright, Johannes?",
             "s;Johannes;Ah, Simon. Sorry, I guess I'm just not used to all this luxury.{w}{br}Back home, we'd just train in a dusty field under the blazing sun.",
             "s;Johannes;I could get used to a life like this, though.",
-            "multi_remove_portrait;Johannes;Simon"
+            "multi_remove_portrait;Johannes;Simon",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Johannes",
+            "set_unit_field;Johannes;IntroductionTalkComplete;True"
         ]
     }
 ]

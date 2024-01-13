@@ -1,0 +1,18 @@
+[
+    {
+        "name": "MelodieIntroductionTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Melodie;1,14;immediate;no_warn",
+            "add_talk;Simon;Melodie;no_warn",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Melodie",
+            "set_unit_field;Melodie;IntroductionTalkComplete;False"
+        ]
+    }
+]
