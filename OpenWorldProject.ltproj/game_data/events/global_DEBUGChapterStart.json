@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 23,
         "_source": [
-            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,KDPlaytest1,KDPlaytest2,None",
+            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,KDPlaytest1,KDPlaytest2,SPPlaytest1,None",
             "if;v(\"_last_choice\") == \"Post-tutorial\"",
             "    trigger_script;Global DEBUGPostTutorial",
             "elif;v(\"_last_choice\") == \"Earlymidgame\"",
@@ -17,6 +17,8 @@
             "    trigger_script;Global DEBUGKevPlaytest1",
             "elif;v(\"_last_choice\") == \"KDPlaytest2\"",
             "    trigger_script;Global DEBUGKevPlaytest2",
+            "elif;v(\"_last_choice\") == \"SPPlaytest1\"",
+            "    trigger_script;Global DEBUGSeanPlaytest1",
             "end",
             "trigger_script;Global DEBUGCheatItems",
             "",
