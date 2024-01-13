@@ -346,5 +346,9 @@
     {
         "nid": "jaegus_leave",
         "text": "Well then, I have customers waiting."
+    },
+    {
+        "nid": "_attribution",
+        "text": "By SP & KD"
     }
 ]
