@@ -12,22 +12,22 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 16,
+            "HP": 20,
             "SPD": 9,
             "MOV": 6,
-            "DEX": 1,
-            "MAG": 0,
+            "DEX": 7,
+            "MAG": 3,
             "PSE": 7,
-            "CON": 1
+            "CON": 5
         },
         "growths": {
             "HP": 50,
             "SPD": 35,
             "MOV": 0,
             "DEX": 45,
-            "MAG": 0,
-            "PSE": 50,
-            "CON": 5
+            "MAG": 35,
+            "PSE": 30,
+            "CON": 30
         },
         "growth_bonus": {
             "HP": 0,
@@ -40,7 +40,7 @@
         },
         "promotion": {
             "HP": 2,
-            "SPD": 0,
+            "SPD": 5,
             "MOV": -99,
             "DEX": 1,
             "MAG": 0,

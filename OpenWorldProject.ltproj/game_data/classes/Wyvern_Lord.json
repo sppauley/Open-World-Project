@@ -19,7 +19,7 @@
             "MOV": 8,
             "DEX": 7,
             "MAG": 0,
-            "PSE": 11,
+            "PSE": 9,
             "CON": 6
         },
         "growths": {
@@ -27,7 +27,7 @@
             "SPD": 20,
             "MOV": 0,
             "DEX": 30,
-            "MAG": 0,
+            "MAG": 10,
             "PSE": 50,
             "CON": 60
         },
@@ -47,7 +47,7 @@
             "DEX": 2,
             "MAG": 0,
             "PSE": 1,
-            "CON": 0
+            "CON": 3
         },
         "max_stats": {
             "HP": 60,
@@ -55,7 +55,7 @@
             "MOV": 15,
             "DEX": 26,
             "MAG": 30,
-            "PSE": 25,
+            "PSE": 27,
             "CON": 22
         },
         "learned_skills": [

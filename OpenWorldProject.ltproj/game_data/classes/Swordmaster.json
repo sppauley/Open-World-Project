@@ -16,18 +16,18 @@
             "SPD": 12,
             "MOV": 6,
             "DEX": 11,
-            "MAG": 0,
+            "MAG": 3,
             "PSE": 9,
             "CON": 4
         },
         "growths": {
-            "HP": 65,
-            "SPD": 30,
+            "HP": 55,
+            "SPD": 50,
             "MOV": 0,
             "DEX": 40,
-            "MAG": 0,
-            "PSE": 50,
-            "CON": 17
+            "MAG": 15,
+            "PSE": 25,
+            "CON": 25
         },
         "growth_bonus": {
             "HP": 0,
@@ -40,7 +40,7 @@
         },
         "promotion": {
             "HP": 5,
-            "SPD": 0,
+            "SPD": 3,
             "MOV": -99,
             "DEX": 1,
             "MAG": 0,

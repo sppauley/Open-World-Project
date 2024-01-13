@@ -27,9 +27,9 @@
             "SPD": 40,
             "MOV": 0,
             "DEX": 40,
-            "MAG": 0,
+            "MAG": 5,
             "PSE": 0,
-            "CON": 17
+            "CON": 20
         },
         "growth_bonus": {
             "HP": 0,
