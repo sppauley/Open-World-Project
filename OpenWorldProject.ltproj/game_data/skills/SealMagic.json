@@ -16,6 +16,14 @@
             [
                 "give_status_after_combat_on_hit",
                 "SealedMagic"
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ],
+            [
+                "combat_condition",
+                "target.team != 'player'"
             ]
         ]
     }

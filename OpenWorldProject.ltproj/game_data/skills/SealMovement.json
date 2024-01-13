@@ -16,6 +16,14 @@
             [
                 "give_status_after_combat_on_hit",
                 "SealedMovement"
+            ],
+            [
+                "combat_condition",
+                "target.team != 'player'"
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
             ]
         ]
     }
