@@ -1414,5 +1414,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Dragon (FE8 Colours) {L95}",
+        "blinking_offset": [
+            24,
+            48
+        ],
+        "smiling_offset": [
+            24,
+            64
+        ],
+        "info_offset": 0
     }
 ]
