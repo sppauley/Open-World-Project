@@ -5,7 +5,7 @@
         "desc": "A possessed prisoner and\nformer soldier.",
         "variant": "_Nika",
         "level": 4,
-        "klass": "Soldier",
+        "klass": "NikaSoldier",
         "tags": [],
         "bases": {
             "HP": 17,
@@ -76,7 +76,7 @@
             ],
             "Anima": [
                 false,
-                0,
+                71,
                 251
             ],
             "Dark": [

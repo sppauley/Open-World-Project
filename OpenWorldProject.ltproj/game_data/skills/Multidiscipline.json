@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Multidiscipline",
+        "name": "Multidiscipline",
+        "desc": "If holding both a magical and physical weapon, +3 MAG and +3 CON.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            48
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "CON",
+                        "3 if len([item for item in unit.items if not item.magic and not item.accessory]) > 0 and len([item for item in unit.items if item.magic and not item.accessory]) > 0 else 0"
+                    ],
+                    [
+                        "MAG",
+                        "3 if len([item for item in unit.items if not item.magic and not item.accessory]) > 0 and len([item for item in unit.items if item.magic and not item.accessory]) > 0 else 0"
+                    ]
+                ]
+            ]
+        ]
+    }
+]
