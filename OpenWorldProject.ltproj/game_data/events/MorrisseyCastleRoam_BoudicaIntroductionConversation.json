@@ -1,0 +1,33 @@
+[
+    {
+        "name": "BoudicaIntroductionConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Boudica\" and game.get_unit(\"Boudica\").get_field(\"IntroductionTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Boudica;Right",
+            "s;Simon;How are you settling in?",
+            "s;Boudica;The cobblestones have damaged my wheels.|I long to sleep under the open sky.|All is well.",
+            "s;Simon;Do you... want help?",
+            "s;Boudica;No. My weapons are my duty to maintain.",
+            "move_portrait;Simon;FarLeft",
+            "wait;300",
+            "s;Simon;I'll be going, then.",
+            "s;Boudica;Simon.",
+            "s;Simon;Yes?",
+            "s;Boudica;Thank you for sheltering me and my horses.|I have lived in danger for far too long.",
+            "s;Simon;I'm glad I could help. Though I regret that danger still lies ahead.",
+            "s;Boudica;I am well aware.{w} My eldest, however once assured me:|All told, most danger has passed.",
+            "s;Simon;I hope that's true.",
+            "wait;400",
+            "multi_remove_portrait;Boudica;Simon",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Johannes",
+            "set_unit_field;Boudica;IntroductionTalkComplete;True"
+        ]
+    }
+]

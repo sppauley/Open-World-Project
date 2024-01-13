@@ -6,7 +6,7 @@
         "condition": "unit2.nid == \"Lupus\" and game.get_unit(\"Lupus\").get_field(\"IntroductionTalkComplete\") == False",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 21,
         "_source": [
             "add_portrait;Simon;Left",
             "add_portrait;Lupus;Right",

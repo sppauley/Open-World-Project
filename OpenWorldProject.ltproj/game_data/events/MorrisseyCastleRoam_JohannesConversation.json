@@ -3,7 +3,7 @@
         "name": "JohannesConversation",
         "trigger": "on_talk",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "unit2.nid == \"Johannes\" and game.get_unit(\"Johannes\").get_field(\"IntroductionTalkComplete\")",
+        "condition": "unit2.nid == \"Johannes\" and game.get_unit(\"Johannes\").get_field(\"IntroductionTalkComplete\") == False",
         "commands": [],
         "only_once": false,
         "priority": 20,

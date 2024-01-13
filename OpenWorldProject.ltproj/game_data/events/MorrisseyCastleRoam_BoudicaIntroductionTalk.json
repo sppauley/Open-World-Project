@@ -1,0 +1,16 @@
+[
+    {
+        "name": "BoudicaIntroductionTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Boudica;3,3;immediate;no_warn",
+            "add_talk;Simon;Boudica;no_warn",
+            "set_unit_field;Boudica11,32;IntroductionTalkComplete;False"
+        ]
+    }
+]
