@@ -14,6 +14,7 @@
             "s;Simon;Don't get any ideas.",
             "multi_remove_portrait;Lupus;Simon",
             "",
+            "remove_talk;Simon;Lupus",
             "set_unit_field;Lupus;IntroductionTalkComplete;True"
         ]
     }

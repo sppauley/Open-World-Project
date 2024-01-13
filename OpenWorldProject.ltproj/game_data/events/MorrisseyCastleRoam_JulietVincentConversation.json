@@ -1,0 +1,34 @@
+[
+    {
+        "name": "JulietVincentConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Vincent\" or unit2.nid == \"Juliet\") and v(\"JulietVincentConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Vincent;Right",
+            "add_portrait;Juliet;Left",
+            "expression;Juliet;CloseEyes",
+            "",
+            "s;Vincent;Have you heard from your sister?",
+            "s;Juliet;Haven't heard from anyone. Not sure how they would find me...|Or if they know I'm alive.",
+            "s;Vincent;Damn.{w} Once we reclaim the castle I'm sure Simon-|Lord Verstadt would-",
+            "expression;Juliet;OpenEyes",
+            "s;Juliet;That's too far ahead.|Do your parents know you survived?",
+            "s;Vincent;No one's told them, but I'm sure they know.",
+            "s;Juliet;I'm gonna to send a letter with the next caravan.|It's a tough shot, but they might see it.",
+            "s;Vincent;But, what about what Luther said?|If an enemy finds it, they'll know our position!",
+            "s;Juliet;Luther can go choke on one.{w} What's he scared of?|That they'll realize we're hiding in our ally's castle?|Who cares? I bet they already know.",
+            "s;Vincent;I guess...",
+            "s;Juliet;Merchant won't charge more for two letters to the same village.|Give it a thought, Vincent.",
+            "",
+            "multi_remove_portrait;Juliet;Vincent",
+            "",
+            "remove_talk;Simon;Juliet",
+            "remove_talk;Simon;Vincent",
+            "level_var;JulietVincentConversation;False"
+        ]
+    }
+]

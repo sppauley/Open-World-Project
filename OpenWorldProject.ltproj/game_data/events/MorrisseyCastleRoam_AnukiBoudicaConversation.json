@@ -24,6 +24,8 @@
             "",
             "multi_remove_portrait;Anuki;Boudica",
             "",
+            "remove_talk;Simon;Boudica",
+            "remove_talk;Simon;Anuki",
             "level_var;AnukiBoudicaConversation;False"
         ]
     }

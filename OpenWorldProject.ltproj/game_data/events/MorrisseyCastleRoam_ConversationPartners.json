@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "game_var;AnukiPartners;[\"Vincent\", \"Boudica\"]",
-            "game_var;MelodiePartners;[\"Lupus\"]"
+            "game_var;MelodiePartners;[\"Lupus\"]",
+            "game_var;JulietPartners;[\"Vincent\"]"
         ]
     }
 ]

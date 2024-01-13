@@ -20,6 +20,8 @@
             "mirror_portrait;Melodie",
             "multi_remove_portrait;Melodie;Lupus",
             "",
+            "remove_talk;Simon;Melodie",
+            "remove_talk;Simon;Lupus",
             "level_var;MelodieLupusConversation;False"
         ]
     }

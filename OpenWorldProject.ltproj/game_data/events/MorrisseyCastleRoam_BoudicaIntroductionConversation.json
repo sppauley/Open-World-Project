@@ -26,7 +26,7 @@
             "wait;400",
             "multi_remove_portrait;Boudica;Simon",
             "",
-            "trigger_script;MorrisseyCastleRoam MarkInConversation;Johannes",
+            "remove_talk;Simon;Boudica",
             "set_unit_field;Boudica;IntroductionTalkComplete;True"
         ]
     }

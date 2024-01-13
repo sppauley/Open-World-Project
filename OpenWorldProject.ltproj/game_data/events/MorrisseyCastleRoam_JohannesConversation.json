@@ -16,7 +16,7 @@
             "s;Johannes;I could get used to a life like this, though.",
             "multi_remove_portrait;Johannes;Simon",
             "",
-            "trigger_script;MorrisseyCastleRoam MarkInConversation;Johannes",
+            "remove_talk;Simon;Johannes",
             "set_unit_field;Johannes;IntroductionTalkComplete;True"
         ]
     }

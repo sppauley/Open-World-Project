@@ -15,6 +15,8 @@
             "s;Melodie;This place is giving me the biggest urge to break something.{w}{br}For your sake, I'm holding back,{w}{br}but you owe me for this.",
             "s;Simon;Okay?{w} Well, thanks for not damaging anything, I guess.",
             "multi_remove_portrait;Melodie;Simon",
+            "",
+            "remove_talk;Simon;Melodie",
             "set_unit_field;Melodie;IntroductionTalkComplete;True"
         ]
     }

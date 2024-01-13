@@ -23,6 +23,7 @@
             "wait;700",
             "multi_remove_portrait;Nika;Simon",
             "",
+            "remove_talk;Simon;Nika",
             "set_unit_field;Nika;IntroductionTalkComplete;True"
         ]
     }

@@ -17,6 +17,8 @@
             "s;Simon;...I'm listening.",
             "s;Lupus;So Pelopos, right. Great little republic run by a bunch of creepy old senators.",
             "",
+            "level_var;AnukiPosition;game.get_unit(\"Anuki\").position",
+            "",
             "remove_unit;Anuki;immediate;;no_warn",
             "add_unit;Anuki;31,22",
             "add_portrait;Anuki;FarRight;Right",
@@ -64,7 +66,14 @@
             "s;Simon;I find him hard to dislike, to be honest.",
             "s;Anuki;Then you haven't met enough people like him.{w}{br}He'll split the moment he's given the chance- just watch.",
             "",
+            "remove_unit;Anuki",
+            "if;v(\"AnukiPosition\")",
+            "    add_unit;Anuki;{v:AnukiPosition};immediate;no_warn",
+            "end",
+            "",
             "level_var;RevealLupusMission;True",
+            "",
+            "remove_talk;Simon;Lupus",
             "set_unit_field;Lupus;LoyaltyTalkComplete;True"
         ]
     }

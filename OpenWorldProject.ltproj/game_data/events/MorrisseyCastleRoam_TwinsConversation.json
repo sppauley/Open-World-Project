@@ -36,6 +36,7 @@
             "",
             "multi_remove_portrait;Twins;Simon",
             "",
+            "remove_talk;Simon;Twins",
             "set_unit_field;Twins;IntroductionTalkComplete;True"
         ]
     }
