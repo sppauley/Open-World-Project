@@ -50,7 +50,11 @@
             "flicker_cursor;20,6",
             "wait;600",
             "s;Narrator;Vesner's tomb will slowly fill with miasma, though.{w}{br}Units will gain miasma every turn, lowering their speed.{w}{br}But, defeating an enemy will clear all miasma.;StyleNid=hint",
+            "center_cursor;Simon",
+            "music;Briefing",
+            "wait;1500",
             "game_var;freely_exit;True",
+            "arrange_formation",
             "trigger_script;Global GenericPreps"
         ]
     }

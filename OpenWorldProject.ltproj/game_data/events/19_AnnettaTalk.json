@@ -10,7 +10,7 @@
         "_source": [
             "move_unit;Simon;10,3",
             "",
-            "if;v(\"ClothoState\") == \"None\"",
+            "if;v(\"ClothoState\") == \"None\" or v(\"ClothoState\") is None",
             "",
             "add_portrait;Annetta;Right",
             "add_portrait;Simon;Left;left",
