@@ -175,6 +175,7 @@
             "multi_remove_portrait;Luther;Simon",
             "#",
             "overworld_cinematic;1",
+            "center_cursor;Simon;immediate",
             "reveal_overworld_node;26;immediate",
             "reveal_overworld_node;27;immediate",
             "reveal_overworld_road;26;27;immediate",
