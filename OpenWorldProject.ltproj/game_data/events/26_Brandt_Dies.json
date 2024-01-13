@@ -9,8 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Brandt;FarRight",
-            "speak;Brandt;Out of all the battles I've survived...",
-            "s;Brandt;To think I'd lose like this.{w}{br}Disgraceful.",
+            "speak;Brandt;Out of all the battles I've survived...{w}{br}To think I'd lose like this.{w}{br}Disgraceful.",
             "expression;Brandt;CloseEyes",
             "remove_portrait;Brandt"
         ]

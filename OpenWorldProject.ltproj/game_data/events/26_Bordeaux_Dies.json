@@ -9,8 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Bordeaux;FarRight",
-            "speak;Bordeaux;Apologies, milord.",
-            "s;Bordeaux;I hoped this would have gone better...",
+            "speak;Bordeaux;Apologies, milord.{w}{br}I hoped this would have gone better...",
             "s;Bordeaux;Looks like I won't be getting that promotion after all.",
             "expression;Bordeaux;CloseEyes",
             "remove_portrait;Bordeaux"

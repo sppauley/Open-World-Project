@@ -15,7 +15,7 @@
         "bases": {
             "HP": 21,
             "SPD": 7,
-            "MOV": 7,
+            "MOV": 8,
             "DEX": 6,
             "MAG": 2,
             "PSE": 9,
