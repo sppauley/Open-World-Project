@@ -1885,8 +1885,8 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 6,
-                "klass": "GriffonKnight",
+                "level": 3,
+                "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
@@ -1906,8 +1906,8 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 6,
-                "klass": "GriffonKnight",
+                "level": 3,
+                "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
@@ -1927,8 +1927,8 @@
             {
                 "nid": "172",
                 "variant": null,
-                "level": 6,
-                "klass": "GriffonKnight",
+                "level": 3,
+                "klass": "Swordmaster",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
@@ -1948,12 +1948,12 @@
             {
                 "nid": "176",
                 "variant": null,
-                "level": 6,
-                "klass": "Ranger",
+                "level": 3,
+                "klass": "Halberdier",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Silver_Pike",
                         false
                     ]
                 ],
@@ -1969,12 +1969,12 @@
             {
                 "nid": "177",
                 "variant": null,
-                "level": 6,
-                "klass": "Ranger",
+                "level": 3,
+                "klass": "Halberdier",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Silver_Pike",
                         false
                     ]
                 ],
@@ -1990,12 +1990,12 @@
             {
                 "nid": "178",
                 "variant": null,
-                "level": 6,
-                "klass": "Ranger",
+                "level": 3,
+                "klass": "Halberdier",
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Silver_Pike",
                         false
                     ]
                 ],
@@ -2137,7 +2137,7 @@
             {
                 "nid": "185",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2158,7 +2158,7 @@
             {
                 "nid": "186",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2179,7 +2179,7 @@
             {
                 "nid": "187",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2200,7 +2200,7 @@
             {
                 "nid": "188",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2221,7 +2221,7 @@
             {
                 "nid": "189",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2242,7 +2242,7 @@
             {
                 "nid": "190",
                 "variant": null,
-                "level": 10,
+                "level": 4,
                 "klass": "Ranger",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2788,6 +2788,10 @@
             },
             {
                 "nid": "f",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
