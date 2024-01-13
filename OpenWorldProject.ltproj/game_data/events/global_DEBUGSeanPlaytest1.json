@@ -20,6 +20,7 @@
             "game_var;MelodieRecruited;1",
             "game_var;ClothoState;\"None\"",
             "game_var;LoyaltyTutorial;True",
+            "game_var;MorrisseySupport;1",
             "",
             "game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
             "game_var;HullShopNotification;False",

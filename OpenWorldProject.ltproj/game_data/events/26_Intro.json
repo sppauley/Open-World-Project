@@ -47,6 +47,7 @@
             "#",
             "",
             "# intro writing",
+            "change_background;Forest",
             "multi_add_portrait;Simon;Left;Luther;Right",
             "s;Simon;Castle Verstadt...",
             "s;Luther;Yes milord, I can hardly believe it myself.",

@@ -11,10 +11,14 @@
             "if;unit.team == 'other'",
             "    if;any([item.nid for item in unit2.items if item.droppable==True])",
             "        level_var;DroppableItem;[item.nid for item in unit2.items if item.droppable==True][0]",
+            "    else",
+            "        level_var;DroppableItem;None",
             "    end",
             "else",
             "    if;any([item.nid for item in unit.items if item.droppable==True])",
             "        level_var;DroppableItem;[item.nid for item in unit.items if item.droppable==True][0]",
+            "    else",
+            "        level_var;DroppableItem;None    ",
             "    end",
             "end"
         ]
