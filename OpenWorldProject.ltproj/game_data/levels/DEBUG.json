@@ -109,7 +109,7 @@
                 "generic": true
             },
             {
-                "nid": "Titus",
+                "nid": "Duygu",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -268,11 +268,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
