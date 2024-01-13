@@ -10,6 +10,7 @@
         "_source": [
             "center_cursor;Simon;immediate",
             "show_layer;top_layer;immediate",
+            "hide_layer;dirt;immediate;no_warn",
             "",
             "level_var;RevealLupusMission;False",
             "level_var;RevealNikaMission;False",
