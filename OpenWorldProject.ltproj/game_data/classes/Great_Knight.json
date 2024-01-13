@@ -27,9 +27,9 @@
             "SPD": 20,
             "MOV": 0,
             "DEX": 25,
-            "MAG": 0,
+            "MAG": 5,
             "PSE": 50,
-            "CON": 15
+            "CON": 65
         },
         "growth_bonus": {
             "HP": 0,
@@ -42,12 +42,12 @@
         },
         "promotion": {
             "HP": 3,
-            "SPD": 2,
+            "SPD": 1,
             "MOV": -99,
-            "DEX": 1,
-            "MAG": 0,
+            "DEX": 2,
+            "MAG": 1,
             "PSE": 4,
-            "CON": 1
+            "CON": 4
         },
         "max_stats": {
             "HP": 60,

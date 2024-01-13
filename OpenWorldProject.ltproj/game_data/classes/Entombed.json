@@ -12,12 +12,12 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 38,
+            "HP": 13,
             "SPD": 4,
             "MOV": 6,
             "DEX": 10,
             "MAG": 0,
-            "PSE": 14,
+            "PSE": 10,
             "CON": 6
         },
         "growths": {

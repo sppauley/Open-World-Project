@@ -4,7 +4,7 @@
         "name": "Valkyrie",
         "desc": "Kind-hearted healers.",
         "tier": 2,
-        "movement_group": "Heavy Cav",
+        "movement_group": "Mounted",
         "promotes_from": "Troubadour",
         "turns_into": [],
         "tags": [
@@ -18,17 +18,17 @@
             "SPD": 5,
             "MOV": 7,
             "DEX": 3,
-            "MAG": 0,
+            "MAG": 4,
             "PSE": 6,
-            "CON": 4
+            "CON": 0
         },
         "growths": {
             "HP": 45,
             "SPD": 45,
             "MOV": 0,
             "DEX": 25,
-            "MAG": 0,
-            "PSE": 30,
+            "MAG": 55,
+            "PSE": 20,
             "CON": 35
         },
         "growth_bonus": {
@@ -41,12 +41,12 @@
             "CON": 0
         },
         "promotion": {
-            "HP": 0,
-            "SPD": 0,
+            "HP": 4,
+            "SPD": 3,
             "MOV": 0,
-            "DEX": 0,
-            "MAG": 0,
-            "PSE": 0,
+            "DEX": 2,
+            "MAG": 5,
+            "PSE": 3,
             "CON": 0
         },
         "max_stats": {

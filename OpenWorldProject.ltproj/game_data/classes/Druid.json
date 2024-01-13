@@ -43,8 +43,8 @@
             "SPD": 0,
             "MOV": -99,
             "DEX": 1,
-            "MAG": 0,
-            "PSE": 1,
+            "MAG": 3,
+            "PSE": 4,
             "CON": 1
         },
         "max_stats": {

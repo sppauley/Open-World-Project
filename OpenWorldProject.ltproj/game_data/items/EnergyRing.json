@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Angelic Robe",
-        "name": "Angelic Robe",
-        "desc": "Permanently raises maximum HP by 7 points.",
+        "nid": "EnergyRing",
+        "name": "Energy Ring",
+        "desc": "Permanently raises Constitution by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [
@@ -32,8 +32,8 @@
                 "permanent_stat_change",
                 [
                     [
-                        "HP",
-                        5
+                        "CON",
+                        2
                     ]
                 ]
             ],
@@ -44,6 +44,10 @@
             [
                 "value",
                 8000
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

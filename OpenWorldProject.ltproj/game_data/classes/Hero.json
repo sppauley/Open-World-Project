@@ -21,13 +21,13 @@
             "CON": 4
         },
         "growths": {
-            "HP": 75,
-            "SPD": 32,
+            "HP": 70,
+            "SPD": 30,
             "MOV": 0,
-            "DEX": 40,
-            "MAG": 0,
-            "PSE": 50,
-            "CON": 20
+            "DEX": 30,
+            "MAG": 20,
+            "PSE": 45,
+            "CON": 45
         },
         "growth_bonus": {
             "HP": 0,
@@ -45,7 +45,7 @@
             "DEX": 2,
             "MAG": 0,
             "PSE": 2,
-            "CON": 0
+            "CON": 3
         },
         "max_stats": {
             "HP": 60,

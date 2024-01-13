@@ -2,7 +2,7 @@
     {
         "nid": "GriffonKnight",
         "name": "Griffon Knight",
-        "desc": "",
+        "desc": "An unorthodox sky knight riding a griffin.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Pegasus_Knight",
@@ -28,7 +28,7 @@
             "MOV": 0,
             "DEX": 35,
             "MAG": 5,
-            "PSE": 50,
+            "PSE": 40,
             "CON": 35
         },
         "growth_bonus": {
@@ -42,12 +42,12 @@
         },
         "promotion": {
             "HP": 3,
-            "SPD": 3,
+            "SPD": 4,
             "MOV": -99,
             "DEX": 2,
-            "MAG": 0,
-            "PSE": 0,
-            "CON": 0
+            "MAG": 1,
+            "PSE": 2,
+            "CON": 1
         },
         "max_stats": {
             "HP": 60,
