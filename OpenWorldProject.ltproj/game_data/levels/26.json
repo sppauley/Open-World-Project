@@ -1170,7 +1170,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Short Spear",
                         false
                     ],
                     [
@@ -2263,7 +2263,7 @@
             {
                 "nid": "193",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Cleric",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2287,7 +2287,7 @@
             {
                 "nid": "194",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Cleric",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -2361,6 +2361,90 @@
                     15,
                     51
                 ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "192",
+                "variant": null,
+                "level": 10,
+                "klass": "AxeCavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "197",
+                "variant": null,
+                "level": 10,
+                "klass": "AxeCavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "198",
+                "variant": null,
+                "level": 10,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "199",
+                "variant": null,
+                "level": 10,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -2465,7 +2549,7 @@
                 "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             },
             {
@@ -2496,7 +2580,7 @@
                     30,
                     10
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -2650,6 +2734,33 @@
                     "190": [
                         29,
                         40
+                    ]
+                }
+            },
+            {
+                "nid": "Turn3",
+                "units": [
+                    "192",
+                    "197",
+                    "198",
+                    "199"
+                ],
+                "positions": {
+                    "192": [
+                        0,
+                        4
+                    ],
+                    "197": [
+                        0,
+                        5
+                    ],
+                    "198": [
+                        29,
+                        8
+                    ],
+                    "199": [
+                        29,
+                        9
                     ]
                 }
             }
