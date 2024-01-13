@@ -14,10 +14,6 @@
                 null
             ],
             [
-                "feat",
-                null
-            ],
-            [
                 "upkeep_aoe_skill_gain",
                 {
                     "skill": "BearerChild",
@@ -25,6 +21,10 @@
                     "affect_self": false,
                     "target": "any"
                 }
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }

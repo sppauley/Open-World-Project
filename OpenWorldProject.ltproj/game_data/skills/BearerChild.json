@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "negative",
-                null
-            ],
-            [
                 "stat_change",
                 [
                     [
@@ -24,7 +20,7 @@
             ],
             [
                 "time",
-                2
+                1
             ]
         ]
     }

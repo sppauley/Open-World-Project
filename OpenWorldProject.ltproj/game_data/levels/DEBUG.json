@@ -115,7 +115,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    6,
                     4
                 ],
                 "starting_traveler": null,
@@ -166,7 +166,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    5
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -183,7 +183,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "SpurSpeed"
+                ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

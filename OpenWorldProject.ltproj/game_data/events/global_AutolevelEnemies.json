@@ -12,7 +12,7 @@
             "",
             "for;enemy_unit;[u.nid for u in game.units if u.team.startswith('enemy')];no_warn",
             "",
-            "if;game.get_unit(\"{enemy_unit}\").level < v('AvgPlayerLvl') and game.get_unit(\"{enemy_unit}\").klass.tier == 1",
+            "if;game.get_unit(\"{enemy_unit}\").level < v('AvgPlayerLvl') and game.get_klass(\"{enemy_unit}\").tier == 1",
             "    autolevel_to;{enemy_unit};{v:AvgPlayerLvl};fixed",
             "end",
             "",
