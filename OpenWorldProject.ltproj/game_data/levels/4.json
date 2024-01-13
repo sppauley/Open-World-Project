@@ -1000,10 +1000,6 @@
                     [
                         "Steel Sword",
                         false
-                    ],
-                    [
-                        "Master Seal",
-                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1662,7 +1658,7 @@
                         false
                     ],
                     [
-                        "Heal",
+                        "Master Seal",
                         true
                     ]
                 ],
