@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_item;convoy;{v:DroppableItem}"
+            "if;v('DroppableItem') != 'Door Key'",
+            "    give_item;convoy;{v:DroppableItem}",
+            "else",
+            "    give_item;Simon;Door Key",
+            "end"
         ]
     }
 ]
