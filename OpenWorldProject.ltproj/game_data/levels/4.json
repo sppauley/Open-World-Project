@@ -513,7 +513,7 @@
                 "ai_group": "",
                 "starting_position": [
                     32,
-                    3
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -617,7 +617,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    3
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -974,7 +974,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Steel Blade",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -998,7 +998,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Steel Sword",
                         false
                     ],
                     [
@@ -1136,7 +1136,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
+                    0,
                     13
                 ],
                 "starting_traveler": null,
@@ -1160,56 +1160,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    6,
                     19
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "132",
-                "variant": null,
-                "level": 15,
-                "klass": "Mogall",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Crimson Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "133",
-                "variant": null,
-                "level": 15,
-                "klass": "Mogall",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Crimson Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    0,
-                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1305,7 +1257,7 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    5
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1329,7 +1281,7 @@
                 "ai_group": "",
                 "starting_position": [
                     35,
-                    5
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1353,7 +1305,7 @@
                 "ai_group": "",
                 "starting_position": [
                     34,
-                    6
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1377,7 +1329,7 @@
                 "ai_group": "",
                 "starting_position": [
                     36,
-                    6
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1401,7 +1353,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    6
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1425,7 +1377,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    6
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1448,8 +1400,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    12
+                    3,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1472,8 +1424,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    13
+                    4,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1720,8 +1672,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    11
+                    37,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1774,30 +1726,6 @@
                 "starting_position": [
                     32,
                     22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "158",
-                "variant": null,
-                "level": 10,
-                "klass": "Cleric",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Grasp",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2281,7 +2209,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -2344,7 +2272,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -2474,7 +2402,7 @@
                 "region_type": "normal",
                 "position": [
                     5,
-                    6
+                    15
                 ],
                 "size": [
                     1,
@@ -2491,7 +2419,7 @@
                 "region_type": "normal",
                 "position": [
                     35,
-                    6
+                    11
                 ],
                 "size": [
                     1,
@@ -2904,15 +2832,15 @@
                 "positions": {
                     "188": [
                         0,
-                        26
+                        27
                     ],
                     "189": [
                         0,
-                        25
+                        26
                     ],
                     "190": [
                         0,
-                        27
+                        28
                     ]
                 }
             },
@@ -2939,6 +2867,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
