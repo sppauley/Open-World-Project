@@ -50,13 +50,13 @@
             "CON": 3
         },
         "max_stats": {
-            "HP": 60,
+            "HP": 50,
             "SPD": 24,
             "MOV": 15,
             "DEX": 26,
-            "MAG": 30,
+            "MAG": 22,
             "PSE": 27,
-            "CON": 22
+            "CON": 23
         },
         "learned_skills": [
             [
