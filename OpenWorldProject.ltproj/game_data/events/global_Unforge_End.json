@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Unforge_End",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "alert;Forge refunded!"
+        ]
+    }
+]

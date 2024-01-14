@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Unforge_Start",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# setup for the blacksmith",
+            "if;not u('Blacksmith')",
+            "    make_generic;Blacksmith;Citizen;1;other;None;Soldier",
+            "end",
+            "give_item;Blacksmith;NoItem;no_banner",
+            "table;Items;{eval:[str(item.uid) for item in u('Simon').items] if '{v:ForgeUnit_choice_hover}'=='??' else [str(item.uid) for item in u('{v:ForgeUnit_choice_hover}').items] if len(u('{v:ForgeUnit_choice_hover}').items)>0 else str(u('Blacksmith').items[0].uid)};Item;4,1;100;bottom;menu_bg_base;type_game_item;left;-0,2;expression",
+            "# table of units",
+            "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Unit;11,1;76;top_left;menu_bg_base;type_unit;left;-0,0",
+            "# money",
+            "textbox;GoldDisplay;game.get_money();top_right;60;2;;;;;funds_display;expression",
+            "#",
+            "trigger_script;Unforge_PickUnit"
+        ]
+    }
+]

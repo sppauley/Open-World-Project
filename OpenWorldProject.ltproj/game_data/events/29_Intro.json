@@ -9,7 +9,14 @@
         "priority": 20,
         "_source": [
             "show_layer;overlay",
-            "show_layer;overlay2"
+            "show_layer;overlay2",
+            "",
+            "# forge debugging",
+            "give_money;5000;Simon",
+            "modify_item_component;Simon;Parizitis;damage;7",
+            "add_item_component;Simon;Parizitis;double_triangle",
+            "game_var;TriangleWeaponMaterial;1",
+            "give_item;Simon;Iron Sword"
         ]
     }
 ]

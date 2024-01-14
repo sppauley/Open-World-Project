@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Unforge_PickItem",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# sets up the item to forge",
+            "level_var;ChoosingUnit;0",
+            "textbox;ItemDetails;\"{eval:str('Simon' if '{v:ForgeUnit_choice_hover}'=='??' else '{v:ForgeUnit_choice_hover}')+'|CON '+str(u('{v:ForgeUnit_choice_hover}').stats['CON'])+' MAG '+str(u('{v:ForgeUnit_choice_hover}').stats['MAG'])+ '| |'+str(' ' if '{v:ForgeItem_choice_hover}'=='??' or {v:ChoosingUnit}==1 else [item.name for item in u('{v:ForgeUnit}').items if str(item.uid) == '{v:ForgeItem_choice_hover}'][0]+'|'+str('Cannot forge' if not item_system.is_weapon(u('{v:ForgeUnit_choice_hover}'),[item for item in u('{v:ForgeUnit_choice_hover}').items if str(item.uid) == '{v:ForgeItem_choice_hover}'][0]) else 'Requires '+str([component.value for component in [item for item in u('{v:ForgeUnit_choice_hover}').items if str(item.uid) == '{v:ForgeItem_choice_hover}'][0].components if component.nid == 'stat_req'][0][0][1]) + ' '+ str([component.value for component in [item for item in u('{v:ForgeUnit_choice_hover}').items if str(item.uid) == '{v:ForgeItem_choice_hover}'][0].components if component.nid == 'stat_req'][0][0][0])))}\";92,7;100;6;;;;text-white;menu_bg_dark;expression",
+            "",
+            "choice;ForgeItem;Item;{eval:','.join([str(item.uid) for item in u('{v:ForgeUnit}').items])};94;v;bottom;menu_bg_base;;type_game_item;4,1;left;3,8;backable",
+            "",
+            "if;'{v:ForgeItem}'!='BACK'",
+            "    if;item_system.is_weapon(u('{ForgeUnit}'), [item for item in game.get_unit('{v:ForgeUnit}').items if item.uid == {v:ForgeItem}][0])",
+            "        rmtable;ItemDetails",
+            "        trigger_script;Unforge_Calculate",
+            "    else",
+            "        sound;Error",
+            "        alert;Not Weapon",
+            "        rmtable;ItemDetails",
+            "        trigger_script;Unforge_PickItem",
+            "        unchoice",
+            "    end",
+            "else",
+            "    sound;Select 5",
+            "    rmtable;ItemDetails",
+            "    trigger_script;Unforge_PickUnit",
+            "    unchoice",
+            "end"
+        ]
+    }
+]

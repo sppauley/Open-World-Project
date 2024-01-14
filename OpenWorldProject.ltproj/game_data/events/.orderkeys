@@ -508,5 +508,11 @@
     "4_Flag_Item",
     "26_Flag_Item",
     "26_Item_to_Convoy",
-    "26_Turn_3"
+    "26_Turn_3",
+    "29_Unforge",
+    "global_Unforge_Start",
+    "global_Unforge_PickUnit",
+    "global_Unforge_PickItem",
+    "global_Unforge_Calculate",
+    "global_Unforge_End"
 ]

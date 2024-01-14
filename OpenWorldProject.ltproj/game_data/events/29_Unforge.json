@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Unforge",
+        "trigger": "Unforge",
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "trigger_script;Global Unforge_Start"
+        ]
+    }
+]

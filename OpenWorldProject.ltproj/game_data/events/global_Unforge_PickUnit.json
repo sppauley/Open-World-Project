@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Unforge_PickUnit",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# sets up the unit detail textbox",
+            "textbox;UnitDetails;\"{eval:str('Simon' if '{v:ForgeUnit_choice_hover}'=='??' else '{v:ForgeUnit_choice_hover}')+'|CON '+str(u('{v:ForgeUnit_choice_hover}').stats['CON'])+' MAG '+str(u('{v:ForgeUnit_choice_hover}').stats['MAG'])}\";92,7;100;6;;;;text-white;menu_bg_dark;expression",
+            "# sets a variable for choosing units",
+            "level_var;ChoosingUnit;1",
+            "# sets up unit to forge for, saves to var ForgeUnit",
+            "if;len(game.get_units_in_party())>11",
+            "    level_var;UnitWidth;54",
+            "else",
+            "    level_var;UnitWidth;70",
+            "end",
+            "",
+            "choice;ForgeUnit;Unit;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};{v:UnitWidth};v;top_left;menu_bg_base;;type_unit;11,1;left;-2,-4;backable;scroll_bar",
+            "",
+            "# choices",
+            "if;len(u('{v:ForgeUnit}').items)<1",
+            "    sound;Error",
+            "    alert;No items to forge",
+            "    rmtable;UnitDetails",
+            "    trigger_script;Global Unforge_PickUnit",
+            "elif;'{v:ForgeUnit}'!='BACK'",
+            "    # pick forging item",
+            "    rmtable;UnitDetails",
+            "    trigger_script_with_args;Unforge_PickItem;ForgeUnit,{v:ForgeUnit}",
+            "else",
+            "    sound;Select 5",
+            "    remove_item;Blacksmith;NoItem;no_banner",
+            "    unchoice",
+            "end"
+        ]
+    }
+]
