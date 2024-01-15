@@ -2,7 +2,7 @@
     {
         "nid": "Master Seal",
         "name": "Master Seal",
-        "desc": "Promotes all normal classes",
+        "desc": "Promotes all normal classes.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -34,7 +34,7 @@
             ],
             [
                 "value",
-                20000
+                9000
             ],
             [
                 "prf_class",

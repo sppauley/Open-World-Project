@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Talk Collector",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == '103'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "shop;Simon;{v:PeloposShop};armory;{v:PeloposInventory}"
+        ]
+    }
+]

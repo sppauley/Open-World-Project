@@ -24,6 +24,8 @@
             "",
             "game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
             "game_var;HullShopNotification;False",
+            "game_var;PeloposShop;\"Angelic Robe, Speedwing, Talisman, Secret Book, EnergyRing, Master Seal\"",
+            "game_var;PeloposInventory;\"1, 1, 1, 1, 1, 3\"",
             "",
             "game_var;MAXMapsToSkillUnlock;3",
             "game_var;MapsToSkillUnlock;int(v(\"MAXMapsToSkillUnlock\"))",

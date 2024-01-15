@@ -2,7 +2,7 @@
     {
         "nid": "Talisman",
         "name": "Talisman",
-        "desc": "Permanently raises Magic by 2 points.",
+        "desc": "Permanently raises MAG by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -43,7 +43,7 @@
             ],
             [
                 "value",
-                8000
+                5000
             ],
             [
                 "accessory",

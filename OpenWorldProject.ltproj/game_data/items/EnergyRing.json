@@ -2,7 +2,7 @@
     {
         "nid": "EnergyRing",
         "name": "Energy Ring",
-        "desc": "Permanently raises Constitution by 2 points.",
+        "desc": "Permanently raises CON by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -43,7 +43,7 @@
             ],
             [
                 "value",
-                8000
+                5000
             ],
             [
                 "accessory",

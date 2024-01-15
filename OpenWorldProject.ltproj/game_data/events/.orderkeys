@@ -514,5 +514,6 @@
     "global_Unforge_PickUnit",
     "global_Unforge_PickItem",
     "global_Unforge_Calculate",
-    "global_Unforge_End"
+    "global_Unforge_End",
+    "29_Talk_Collector"
 ]

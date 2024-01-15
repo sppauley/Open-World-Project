@@ -2,7 +2,7 @@
     {
         "nid": "Speedwing",
         "name": "Speedwing",
-        "desc": "Permanently raises Speed by 2 points.",
+        "desc": "Permanently raises SPD by 2 points.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -43,7 +43,7 @@
             ],
             [
                 "value",
-                8000
+                5000
             ],
             [
                 "accessory",
