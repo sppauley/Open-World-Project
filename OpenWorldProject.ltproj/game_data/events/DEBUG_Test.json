@@ -34,6 +34,7 @@
             "change_item_icon;Simon;Parizitis;Bearer_book",
             "",
             "give_item;Simon;Iron Sword;no_banner",
+            "promote;Simon;Great_Lord",
             "give_skill;Simon;Monsterslayer;;no_banner",
             "set_current_hp;Simon;6",
             "set_stats;109;MAG,20,CON,20;immediate",
