@@ -2,7 +2,7 @@
     {
         "nid": "General",
         "name": "General",
-        "desc": "",
+        "desc": "Heavily armored knights with poor movement.",
         "tier": 2,
         "movement_group": "Infantry",
         "promotes_from": "Knight",

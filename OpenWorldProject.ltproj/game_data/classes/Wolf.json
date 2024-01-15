@@ -2,7 +2,7 @@
     {
         "nid": "Wolf",
         "name": "Wolf",
-        "desc": "A monstrous beast",
+        "desc": "A monstrous beast.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,

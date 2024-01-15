@@ -2,7 +2,7 @@
     {
         "nid": "Basara",
         "name": "Basara",
-        "desc": "A tome and lance-wielding fighter",
+        "desc": "A tome and lance-wielding fighter.",
         "tier": 2,
         "movement_group": "Infantry",
         "promotes_from": "NikaSoldier",

@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Rider",
         "name": "Wyvern Rider",
-        "desc": "",
+        "desc": "Knights who ride wyverns, decendents of the ancient dragons.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,

@@ -2,7 +2,7 @@
     {
         "nid": "Dragon",
         "name": "Dragon",
-        "desc": "",
+        "desc": "An ancient dragon that possesses immense power and cunning.",
         "tier": 1,
         "movement_group": "Fliers",
         "promotes_from": null,

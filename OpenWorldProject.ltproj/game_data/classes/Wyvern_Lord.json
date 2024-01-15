@@ -2,7 +2,7 @@
     {
         "nid": "Wyvern Lord",
         "name": "Wyvern Lord",
-        "desc": "",
+        "desc": "High-ranking wyvern riders who wield axes and lances.",
         "tier": 2,
         "movement_group": "Fliers",
         "promotes_from": "Wyvern Rider",

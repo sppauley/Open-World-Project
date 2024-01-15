@@ -2,7 +2,7 @@
     {
         "nid": "Mage Knight",
         "name": "Mage Knight",
-        "desc": "",
+        "desc": "Knights that use tomes and swords to dominate the battlefield.",
         "tier": 2,
         "movement_group": "Mounted",
         "promotes_from": "Mage",
