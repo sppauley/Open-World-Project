@@ -196,7 +196,7 @@
                     6
                 ],
                 "sub_nid": "CapturedEnemy",
-                "condition": "True",
+                "condition": "game.game_vars['FreesIntervene'] not in ['Yes', 'No']",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

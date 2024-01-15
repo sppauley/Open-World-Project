@@ -25,7 +25,8 @@
             "s;Simon;If we make it out alive.",
             "multi_remove_portrait;Simon;Nika",
             "change_team;Nika;player",
-            "set_unit_field;Nika;PartyMember;'Yes'"
+            "set_unit_field;Nika;PartyMember;'Yes'",
+            "game_var;NikaRecruited;1"
         ]
     }
 ]

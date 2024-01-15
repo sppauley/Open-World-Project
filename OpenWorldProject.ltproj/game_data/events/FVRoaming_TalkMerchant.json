@@ -3,7 +3,7 @@
         "name": "TalkMerchant",
         "trigger": "on_talk",
         "level_nid": "FVRoaming",
-        "condition": "unit2.nid == \"103\"",
+        "condition": "unit2.nid == \"103\" and game.game_vars['FreesMerchant'] != 1",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -14,7 +14,9 @@
             "speak;Simon;We aren't afraid.{w} We beat them here,{w}{br}and we'll rout them again.",
             "speak;Priest;The bandits they sent here were their weakest, I'm afraid.{w}{br}You musn't underestimate Vilge and his lot.",
             "give_money;1000;Simon",
-            "multi_remove_portrait;Simon;Priest"
+            "multi_remove_portrait;Simon;Priest",
+            "game_var;FreesMerchant;1",
+            "remove_talk;Simon;103"
         ]
     }
 ]
