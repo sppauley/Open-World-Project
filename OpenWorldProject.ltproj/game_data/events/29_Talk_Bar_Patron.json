@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Talk Bar Patron",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == '106'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;SoldierBlue;Right;Simon;Left",
+            "s;SoldierBlue;Oi, back of the line, boy.{w}{br}Been waiting all shift for a drink.{w}{br}You can wait a few minutes.",
+            "multi_remove_portrait;Simon;SoldierBlue"
+        ]
+    }
+]

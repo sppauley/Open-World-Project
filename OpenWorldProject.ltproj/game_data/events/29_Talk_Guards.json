@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Talk Guards",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == '102'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;SoldierBlue;Left;SoldierRed;Right",
+            "s;SoldierBlue;Damn, I thought joining the city guard would be a better gig.{w}{br}But patrols are so boring.{w} Nothing ever happens.",
+            "s;SoldierRed;Aye, but I'd rather be standing around all day than out there fighting for my life.",
+            "s;SoldierBlue;Suppose you're right.{w}{br}But you won't mind covering for me if I leave shift early?{w}{br}I'm meeting a lass this evening.",
+            "s;SoldierRed;Oh look at you.{w}{br}Find yourself a girl now you're too good for guard duty?",
+            "s;SoldierBlue;Bah, nevermind.",
+            "mirror_portrait;SoldierRed",
+            "wait;300",
+            "s;SoldierBlue;Damned bastard.",
+            "multi_remove_portrait;SoldierRed;SoldierBlue",
+            "remove_talk;Simon;102"
+        ]
+    }
+]

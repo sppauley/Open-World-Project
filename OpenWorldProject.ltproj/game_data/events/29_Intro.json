@@ -19,13 +19,9 @@
             "",
             "# talk setup",
             "add_talk;Simon;103",
-            "",
-            "# forge debugging",
-            "give_money;5000;Simon",
-            "modify_item_component;Simon;Parizitis;damage;7",
-            "add_item_component;Simon;Parizitis;double_triangle",
-            "game_var;TriangleWeaponMaterial;1",
-            "give_item;Simon;Iron Sword"
+            "add_talk;Simon;102",
+            "add_talk;Simon;106",
+            "add_talk;Simon;108"
         ]
     }
 ]

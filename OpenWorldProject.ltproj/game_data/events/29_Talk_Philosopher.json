@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Talk Philosopher",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == '108'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;30,18",
+            "flicker_cursor;29,16",
+            "add_portrait;philosopher;Right",
+            "s;philosopher;...while they say it is \"justice,\" they merely aim to quash dissent.",
+            "add_portrait;VillagerTeen;Left;left",
+            "s;VillagerTeen;So, you mean to say there is no justice, then?!{w}{br}What about the laws of Pelopos?",
+            "s;philosopher;Your inexperience leads you astray, young man.{w}{br}The laws are mere tools, created by a group of weak men to protect themselves from the strong.",
+            "s;philosopher;Pelopos's \"laws\" simply constrain the strong from exercising their will.",
+            "s;philosopher;Like the ancient dragons of old, the strong would have the power to satisfy their appetites with force.{w}{br}But their force is constrained by those too weak to survive without laws.",
+            "s;VillagerTeen;So you advocate for lawlessness?!",
+            "mirror_portrait;VillagerTeen",
+            "s;VillagerTeen;Can you believe this lunatic?",
+            "mirror_portrait;VillagerTeen",
+            "s;philosopher;All I mean to suggest is that strength rules above all.{w}{br}You all have seen it.{w} The laws of this land are crumbling away.{w}{br}And what matters without the laws to protect you?{w}{br}One's own power, one's strength.",
+            "s;philosopher;I merely seek to benefit you all.{w}{br}Train your body and mind, learn to fight.{w}{br}This, and this alone, will keep you safe.",
+            "multi_remove_portrait;philosopher;VillagerTeen",
+            "remove_talk;Simon;108"
+        ]
+    }
+]

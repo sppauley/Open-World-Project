@@ -8,6 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "add_portrait;Villager Man 5;Left",
+            "s;Villager Man 5;I'll break your item down into bare materials.{w}{br}Just 150 gold pieces.",
+            "remove_portrait;Villager Man 5",
             "trigger_script;Global Unforge_Start"
         ]
     }
