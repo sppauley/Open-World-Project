@@ -19,12 +19,11 @@
             "    level_var;_level_end_triggered;True",
             "end",
             "",
+            "win_game",
             "",
             "if;v(\"CurrentNode\")",
-            "    set_overworld_menu_option_visible;1;{v:CurrentNode};Battle;t",
-            "end",
-            "",
-            "win_game"
+            "    game_var;NodeToShowBattleOption;v(\"CurrentNode\")",
+            "end"
         ]
     }
 ]

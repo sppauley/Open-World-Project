@@ -8,7 +8,12 @@
         "only_once": false,
         "priority": 30,
         "_source": [
-            "center_cursor;Simon;immediate"
+            "center_cursor;Simon;immediate",
+            "",
+            "if;v(\"NodeToShowBattleOption\")",
+            "    set_overworld_menu_option_visible;1;{v:NodeToShowBattleOption};Battle;t",
+            "    game_var;NodeToShowBattleOption;None",
+            "end"
         ]
     }
 ]
