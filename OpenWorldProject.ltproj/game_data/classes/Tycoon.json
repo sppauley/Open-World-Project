@@ -2,7 +2,7 @@
     {
         "nid": "Tycoon",
         "name": "Tycoon",
-        "desc": "",
+        "desc": "An extremely wealthy merchant, both famous and infamous.",
         "tier": 0,
         "movement_group": "Infantry",
         "promotes_from": null,

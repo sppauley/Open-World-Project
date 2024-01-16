@@ -2,7 +2,7 @@
     {
         "nid": "Soldier",
         "name": "Soldier",
-        "desc": "The army of Grado, the largest nation on the entire continent",
+        "desc": "A professional soldier within a strict command structure.",
         "icon_nid": "KnightEmblem",
         "icon_index": [
             0,
