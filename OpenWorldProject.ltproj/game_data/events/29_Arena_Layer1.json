@@ -13,6 +13,11 @@
             "change_tilemap;Arena",
             "show_layer;overlay",
             "add_region;prep;10,13;5,1;formation",
+            "",
+            "# adding enemies",
+            "add_unit;Lysander;12,2;immediate",
+            "",
+            "# prep",
             "level_var;_prep_formation;True",
             "prep;t"
         ]
