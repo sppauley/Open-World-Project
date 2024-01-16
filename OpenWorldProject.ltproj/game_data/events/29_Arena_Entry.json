@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Arena Entry",
+        "trigger": "Arena",
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "trigger_script;29 Arena_Layer1"
+        ]
+    }
+]

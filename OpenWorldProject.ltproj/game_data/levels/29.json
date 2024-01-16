@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    30,
-                    30
+                    7,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -304,7 +304,27 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "PeloposStarting",
+                "units": [
+                    "Simon",
+                    "101",
+                    "102",
+                    "Blacksmith",
+                    "103",
+                    "104",
+                    "105",
+                    "107",
+                    "106",
+                    "108",
+                    "109",
+                    "110",
+                    "111"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": []
     }
 ]

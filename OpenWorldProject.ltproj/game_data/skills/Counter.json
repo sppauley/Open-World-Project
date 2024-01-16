@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Counter",
+        "name": "Counter",
+        "desc": "Damage taken from adjacent enemies is reflected.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "proc_rate",
+                "ALWAYS"
+            ],
+            [
+                "defense_proc",
+                "CounterAura"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CounterDebuff",
+        "name": "CounterDebuff",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "lifelink",
+                -1.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

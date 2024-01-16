@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Lysander",
+        "name": "Lysander",
+        "desc": "A cocky arena fighter who believes he's destined to win every fight.",
+        "variant": "",
+        "level": 5,
+        "klass": "Sniper",
+        "tags": [],
+        "bases": {
+            "HP": 46,
+            "CON": 14,
+            "MAG": 2,
+            "DEX": 17,
+            "PSE": 14,
+            "MOV": 6,
+            "SPD": 6
+        },
+        "growths": {
+            "HP": 70,
+            "PSE": 35,
+            "DEX": 30,
+            "SPD": 15,
+            "MAG": 15,
+            "CON": 30
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Greatbow",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Counter"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Smokeyguy77_Samurai",
+        "affinity": null,
+        "fields": []
+    }
+]

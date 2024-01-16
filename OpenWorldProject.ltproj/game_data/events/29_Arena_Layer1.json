@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Arena_Layer1",
+        "trigger": null,
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_roaming;f",
+            "remove_group;PeloposStarting",
+            "change_tilemap;Arena",
+            "show_layer;overlay",
+            "add_region;prep;10,13;5,1;formation",
+            "level_var;_prep_formation;True",
+            "prep;t"
+        ]
+    }
+]

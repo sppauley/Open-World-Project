@@ -181,5 +181,8 @@
     "EyeofVesner",
     "Phantasm",
     "MoransLegacy_proc",
-    "Multidiscipline"
+    "Multidiscipline",
+    "Counter",
+    "CounterDebuff",
+    "CounterAura"
 ]
