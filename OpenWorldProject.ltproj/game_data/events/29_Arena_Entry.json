@@ -10,6 +10,8 @@
         "_source": [
             "if;v('ArenaLayer') == 1",
             "    trigger_script;29 Arena_Layer1",
+            "elif;v('ArenaLayer') == 2",
+            "    trigger_script;29 Arena_Layer2",
             "end"
         ]
     }

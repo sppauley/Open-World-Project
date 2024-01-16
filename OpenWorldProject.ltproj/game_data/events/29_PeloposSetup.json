@@ -1,0 +1,35 @@
+[
+    {
+        "name": "PeloposSetup",
+        "trigger": null,
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;overlay",
+            "show_layer;overlay2",
+            "",
+            "# variable setup",
+            "if;v(\"PeloposShop\") == None",
+            "    game_var;PeloposShop;\"Angelic Robe, Speedwing, Talisman, Secret Book, EnergyRing, Master Seal\"",
+            "    game_var;PeloposInventory;\"1, 1, 1, 1, 1, 3\"",
+            "end",
+            "",
+            "if;v(\"ArenaLayer\") == None",
+            "    game_var;ArenaLayer;1",
+            "end",
+            "",
+            "# region setup",
+            "add_region;Arena;6,4;1,3;event;Arena",
+            "add_region;Unforge;26,11;3,3;event;Unforge",
+            "",
+            "# talk setup",
+            "add_talk;Simon;103",
+            "add_talk;Simon;102",
+            "add_talk;Simon;106",
+            "add_talk;Simon;108"
+        ]
+    }
+]

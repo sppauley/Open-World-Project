@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Reset Unit",
+        "trigger": null,
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# resurrects and fixes HP and Poise",
+            "resurrect;{unit}",
+            "set_current_poise;{unit};99",
+            "set_current_hp;{unit};99",
+            "",
+            "# removes status skills",
+            "for;SKILL;[skill.nid for skill in unit.skills if 'class_skill' not in [component.nid for component in skill.components]]",
+            "    remove_skill;{unit};{SKILL};no_banner",
+            "endf"
+        ]
+    }
+]

@@ -385,23 +385,6 @@
         ],
         "regions": [
             {
-                "nid": "Arena",
-                "region_type": "event",
-                "position": [
-                    6,
-                    4
-                ],
-                "size": [
-                    1,
-                    3
-                ],
-                "sub_nid": "Arena",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
                 "nid": "Unforge",
                 "region_type": "event",
                 "position": [

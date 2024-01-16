@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ArenaCleanup",
+        "trigger": null,
+        "level_nid": "29",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# resets units",
+            "loop_units;[unit for unit in game.get_all_units_in_party()];29 Reset Unit",
+            "remove_all_units",
+            "change_tilemap;Pelopos",
+            "trigger_script;29 PeloposSetup",
+            "add_group;PeloposStarting;starting;immediate",
+            "move_unit;Simon;6,6;immediate",
+            "change_roaming;t"
+        ]
+    }
+]

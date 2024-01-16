@@ -3,7 +3,7 @@
         "name": "DefeatLysander",
         "trigger": "combat_end",
         "level_nid": "29",
-        "condition": "game.check_dead('Lysander')",
+        "condition": "game.check_dead('Lysander') and v('ArenaLayer') == 1",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -23,7 +23,10 @@
             "alert;Lysander has joined your party.",
             "set_unit_field;Lysander;PartyMember;'Yes'",
             "change_team;Lysander;player",
-            "game_var;ArenaLayer;2"
+            "game_var;ArenaLayer;2",
+            "game_var;LysanderRecruited;1",
+            "",
+            "trigger_script;29 ArenaCleanup"
         ]
     }
 ]
