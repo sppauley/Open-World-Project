@@ -2,7 +2,7 @@
     {
         "nid": "Arena",
         "name": "Arena",
-        "tilemap": null,
+        "tilemap": "Arena",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
