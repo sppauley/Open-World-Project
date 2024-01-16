@@ -16,7 +16,7 @@
             "    trigger_script;29 Arena_Layer3",
             "else",
             "    add_portrait;Bandit1;Right",
-            "    s;Bandit1;Sorry, champ. Everyone's too nervous to face you in combat.{w}{br}You've built a real reputation!",
+            "    s;Bandit1;Sorry, champ. Everyone's too nervous to face you in combat.{w}{br}You have quite the reputation!",
             "    remove_portrait;Bandit1",
             "end"
         ]

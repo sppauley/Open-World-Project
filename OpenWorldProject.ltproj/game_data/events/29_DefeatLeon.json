@@ -9,6 +9,9 @@
         "priority": 20,
         "_source": [
             "game_var;ArenaLayer;4",
+            "add_portrait;Leon;Right",
+            "s;Leon;I suppose I simply wasn't strong enough.{w}{br}What an embarassment...",
+            "remove_portrait;Leon",
             "",
             "give_money;1000;Simon",
             "",
