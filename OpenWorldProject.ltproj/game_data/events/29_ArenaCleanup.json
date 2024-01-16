@@ -9,13 +9,16 @@
         "priority": 20,
         "_source": [
             "# resets units",
+            "transition;close;700",
             "loop_units;[unit for unit in game.get_all_units_in_party()];29 Reset Unit",
             "remove_all_units",
             "change_tilemap;Pelopos",
             "trigger_script;29 PeloposSetup",
             "add_group;PeloposStarting;starting;immediate",
             "move_unit;Simon;6,6;immediate",
-            "change_roaming;t"
+            "change_roaming;t",
+            "change_objective_simple;--;no_warn",
+            "transition;open;200"
         ]
     }
 ]

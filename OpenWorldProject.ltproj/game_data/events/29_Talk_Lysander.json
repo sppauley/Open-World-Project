@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Talk Lysander",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == 'Lysander'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Simon;Left;Lysander;Right",
+            "s;Lysander;Oh, Simon.{w} Going to the arena anytime soon?{w} I'm itching for a fight.",
+            "s;Simon;I'll let you know.",
+            "multi_remove_portrait;Simon;Lysander"
+        ]
+    }
+]

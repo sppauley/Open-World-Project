@@ -26,6 +26,8 @@
             "game_var;ArenaLayer;2",
             "game_var;LysanderRecruited;1",
             "",
+            "give_money;750;Simon",
+            "",
             "trigger_script;29 ArenaCleanup"
         ]
     }

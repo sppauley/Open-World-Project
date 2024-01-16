@@ -8,6 +8,21 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "# intro dialogue",
+            "add_portrait;Bandit1;Right",
+            "s;Bandit1;Welcome to the arena, warrior!{w}{br}If you're here to fight, you'll be facing Lysander's group.{w}{br}He's undefeated, but manage to best him, and you may just win yourself some gold.",
+            "s;Bandit1;So, what do you say? Want to enter the arena?",
+            "",
+            "choice;EnterArena;Enter the arena?;Yes, No",
+            "",
+            "if;'{v:EnterArena}' == 'Yes'",
+            "",
+            "s;Bandit1;That's the spirit!{w} Just stand over there and get ready.{w}{br}I'll call in Lysander and his group now.",
+            "mirror_portrait;Bandit1",
+            "move_portrait;Bandit1;OffscreenRight",
+            "remove_portrait;Bandit1",
+            "",
+            "# setup",
             "change_roaming;f",
             "remove_group;PeloposStarting;immediate",
             "change_tilemap;Arena",
@@ -34,7 +49,14 @@
             "",
             "# prep",
             "level_var;_prep_formation;True",
-            "prep;t"
+            "prep;t",
+            "",
+            "else",
+            "",
+            "s;Bandit1;Ah, too bad then.",
+            "remove_portrait;Bandit1",
+            "",
+            "end"
         ]
     }
 ]
