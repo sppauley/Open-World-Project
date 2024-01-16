@@ -3,7 +3,7 @@
         "nid": "Simon",
         "name": "Simon",
         "desc": "A young lord in an \nuncertain world.",
-        "variant": "_Simon",
+        "variant": null,
         "level": 1,
         "klass": "Simon_Lord",
         "tags": [],
