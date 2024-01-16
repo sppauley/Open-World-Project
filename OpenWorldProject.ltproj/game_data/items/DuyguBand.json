@@ -2,7 +2,7 @@
     {
         "nid": "DuyguBand",
         "name": "Heirloom Band",
-        "desc": "When attacking, +8 damage.",
+        "desc": "Duygu only. When attacking, +8 damage.",
         "icon_nid": "{Maxim} Knuckle Discpline",
         "icon_index": [
             0,

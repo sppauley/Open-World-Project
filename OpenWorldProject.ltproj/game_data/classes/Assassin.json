@@ -2,7 +2,7 @@
     {
         "nid": "Assassin",
         "name": "Assassin",
-        "desc": "",
+        "desc": "Deadly assassins who lurk in the shadows.",
         "tier": 2,
         "movement_group": "Infantry",
         "promotes_from": "Myrmidon",

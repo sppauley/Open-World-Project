@@ -2,7 +2,7 @@
     {
         "nid": "Monk",
         "name": "Monk",
-        "desc": "Kind-hearted healers.",
+        "desc": "Faithful practicioners of magic.",
         "tier": 1,
         "movement_group": "Infantry",
         "promotes_from": null,
