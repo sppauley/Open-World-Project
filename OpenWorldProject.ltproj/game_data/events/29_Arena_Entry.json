@@ -8,7 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "trigger_script;29 Arena_Layer1"
+            "if;v('ArenaLayer') == 1",
+            "    trigger_script;29 Arena_Layer1",
+            "end"
         ]
     }
 ]
