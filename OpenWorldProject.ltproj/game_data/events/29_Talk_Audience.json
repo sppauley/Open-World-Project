@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Talk Audience",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid=='109'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;VillagerTeen;FarRight;Man1;Left;Man3;MidRight",
+            "s;Man1;These damned sophists need to be barred from Pelopos.{w}{br}They're a danger to everyone.",
+            "s;VillagerTeen;Aye! They preach law-breaking and violence.{w}{br}They're likely here to destroy Pelopos from the inside.",
+            "s;Man3;At the next assembly, we should motion for stricter controls of Pelopos's borders.{w}{br}These sophists are not welcome within our walls.",
+            "multi_remove_portrait;Man1;VillagerTeen;Man3",
+            "",
+            "remove_talk;Simon;109"
+        ]
+    }
+]

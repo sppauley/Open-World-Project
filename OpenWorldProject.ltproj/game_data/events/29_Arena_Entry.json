@@ -12,6 +12,12 @@
             "    trigger_script;29 Arena_Layer1",
             "elif;v('ArenaLayer') == 2",
             "    trigger_script;29 Arena_Layer2",
+            "elif;v('ArenaLayer') == 3",
+            "    trigger_script;29 Arena_Layer3",
+            "else",
+            "    add_portrait;Bandit1;Right",
+            "    s;Bandit1;Sorry, champ. Everyone's too nervous to face you in combat.{w}{br}You've built a real reputation!",
+            "    remove_portrait;Bandit1",
             "end"
         ]
     }

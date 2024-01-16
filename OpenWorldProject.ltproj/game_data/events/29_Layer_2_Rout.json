@@ -11,7 +11,7 @@
             "game_var;ArenaLayer;3",
             "",
             "add_portrait;Bandit1;Right",
-            "s;Bandit1;Well done!{w}{br}Well, here's your prize.",
+            "s;Bandit1;Well done!{w}{br}Here's your prize.",
             "remove_portrait;Simon",
             "",
             "give_money;750;Simon",

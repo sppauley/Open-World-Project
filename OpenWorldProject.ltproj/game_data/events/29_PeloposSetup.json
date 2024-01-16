@@ -34,6 +34,13 @@
             "if;v('LysanderRecruited') == 1",
             "    add_unit;Lysander;19,2;immediate",
             "    add_talk;Simon;Lysander",
+            "end",
+            "",
+            "if;game.game_vars['ArenaLayer'] > 2",
+            "    remove_unit;108;immediate",
+            "    remove_talk;Simon;108",
+            "    move_unit;109;28,17;immediate",
+            "    add_talk;Simon;109",
             "end"
         ]
     }

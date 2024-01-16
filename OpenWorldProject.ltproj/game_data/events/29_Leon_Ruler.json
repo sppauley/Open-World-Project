@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Leon_Ruler",
+        "trigger": "unit_wait",
+        "level_nid": "29",
+        "condition": "game.game_vars['ArenaLayer'] == 3 and unit.team == 'player' and game.check_alive('Leon')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unit_act;Leon"
+        ]
+    }
+]

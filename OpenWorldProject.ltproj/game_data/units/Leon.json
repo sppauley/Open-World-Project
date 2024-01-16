@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Leon",
+        "name": "Leon",
+        "desc": "A traveling philosopher who believes in strength above all.",
+        "variant": null,
+        "level": 8,
+        "klass": "Sage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 45,
+            "CON": 12,
+            "MAG": 18,
+            "DEX": 15,
+            "SPD": 14,
+            "PSE": 22,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Cyclone",
+                false
+            ],
+            [
+                "Fimbulvetr",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Ruler"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                181,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "philosopher",
+        "affinity": null,
+        "fields": []
+    }
+]
