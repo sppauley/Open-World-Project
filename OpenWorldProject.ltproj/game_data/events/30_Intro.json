@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Simon;immediate",
+            "show_layer;overlay;immediate;no_warn",
+            "show_layer;overlay2;immediate;no_warn"
+        ]
+    }
+]

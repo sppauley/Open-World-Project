@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Ignis",
+        "name": "Ignis",
+        "desc": "A wild messenger of the Sorceress.\nDisliked mostly by his allies.",
+        "variant": null,
+        "level": 1,
+        "klass": "Charioteer",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "CON": 5,
+            "MAG": 2,
+            "SPD": 7,
+            "MOV": 10,
+            "PSE": 12,
+            "DEX": 4
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Steel Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "IgnoredByAI"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                31,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Cultist (Version 4) {RandomWizard}",
+        "affinity": null,
+        "fields": []
+    }
+]

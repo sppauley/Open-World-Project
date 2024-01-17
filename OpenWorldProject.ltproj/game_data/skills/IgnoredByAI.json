@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "IgnoredByAI",
+        "name": "IgnoredByAI",
+        "desc": "Unit will never be targeted by AI",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

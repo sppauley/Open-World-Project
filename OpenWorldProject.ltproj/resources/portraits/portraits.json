@@ -1450,5 +1450,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Cultist (Version 4) {RandomWizard}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 6
     }
 ]

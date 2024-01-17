@@ -185,5 +185,6 @@
     "Multidiscipline",
     "Counter",
     "CounterDebuff",
-    "CounterAura"
+    "CounterAura",
+    "IgnoredByAI"
 ]
