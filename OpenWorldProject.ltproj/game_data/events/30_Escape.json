@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == \"Simon\"",
+            "    add_portrait;Simon;Right",
+            "    s;Simon;This nonsense is over.{w} Will you honor your word?",
+            "    add_portrait;Ignis;Left",
+            "    s;Ignis;Argh!{w} You cheated!|You... ARGH!|Fine! Fine! Fine!",
+            "    multi_remove_portrait;Ignis;Simon",
+            "    remove_unit;Ignis",
+            "    remove_region;Escape",
+            "elif;unit.nid == \"Ignis\"",
+            "    add_portrait;Ignis;Right",
+            "    s;Ignis;Hah, told you so!{w} You're not getting anything from me!",
+            "    remove_portrait;Ignis",
+            "    remove_unit;Ignis;fade;north",
+            "    remove_region;Escape",
+            "end"
+        ]
+    }
+]

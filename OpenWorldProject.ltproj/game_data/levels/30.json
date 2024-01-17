@@ -275,9 +275,9 @@
                     1
                 ],
                 "sub_nid": "Escape",
-                "condition": "True",
+                "condition": "unit.nid == \"Simon\" or unit.nid == \"Ignis\"",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             }
         ],
