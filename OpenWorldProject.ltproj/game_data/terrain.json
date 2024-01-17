@@ -540,6 +540,21 @@
         "status": "AvoidDown10"
     },
     {
+        "nid": "Mud",
+        "name": "Mud",
+        "color": [
+            154,
+            171,
+            98
+        ],
+        "minimap": "Sand",
+        "platform": "Cliff",
+        "background": "Cliff",
+        "mtype": "Dirt",
+        "opaque": false,
+        "status": "AvoidDown10"
+    },
+    {
         "nid": "Grave",
         "name": "Grave",
         "color": [
