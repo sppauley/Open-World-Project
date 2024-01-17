@@ -200,7 +200,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "PursuePlayerOnly",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -282,6 +282,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
