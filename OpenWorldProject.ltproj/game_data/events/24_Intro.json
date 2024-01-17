@@ -94,7 +94,8 @@
             "# preps",
             "game_var;freely_exit;True",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "change_team;Melodie;player"
         ]
     }
 ]
