@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "PromotionZeal",
+        "name": "Promotion Zeal",
+        "desc": "If promoted, +1 MOV. Against promoted enemies, +15 hit.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MOV",
+                        "1 if game.unit_registry.get(unit.nid) and game.get_klass(unit.nid).tier > 1 else 0"
+                    ]
+                ]
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if game.get_klass(target.nid).tier > 1 else 0"
+            ]
+        ]
+    }
+]
