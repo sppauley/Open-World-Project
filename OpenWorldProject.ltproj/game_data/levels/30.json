@@ -178,7 +178,7 @@
                 "team": "other",
                 "ai": "EscapeNoAttack",
                 "roam_ai": null,
-                "ai_group": "ThisIsBullshit",
+                "ai_group": "",
                 "starting_position": [
                     8,
                     3
@@ -202,7 +202,7 @@
                 "team": "enemy",
                 "ai": "Pursue",
                 "roam_ai": null,
-                "ai_group": "ThisIsBullshit",
+                "ai_group": "",
                 "starting_position": [
                     4,
                     9
@@ -282,11 +282,6 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "ThisIsBullshit",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]
