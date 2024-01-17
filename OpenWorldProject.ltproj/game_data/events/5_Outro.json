@@ -58,6 +58,7 @@
             "change_team;Lupus;player",
             "game_var;LupusRecruited;True",
             "set_unit_field;Lupus;PartyMember;'Yes'",
+            "remove_tag;Lupus;Boss",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }

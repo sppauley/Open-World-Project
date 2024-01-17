@@ -49,6 +49,8 @@
             "multi_remove_portrait;Simon;Anuki",
             "transition;close;4000",
             "",
+            "game_var;EbertState;\"Killed\"",
+            "",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }

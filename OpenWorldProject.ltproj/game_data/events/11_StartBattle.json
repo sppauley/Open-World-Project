@@ -21,6 +21,7 @@
             "remove_unit;Anuki;immediate",
             "",
             "add_tag;Ebert;Boss",
+            "game_var;EbertState;\"Fought\"",
             "",
             "if;v(\"TreasureRaid\")",
             "    add_unit;Lupus;35,19",
