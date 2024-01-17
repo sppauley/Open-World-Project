@@ -178,13 +178,37 @@
                 "team": "other",
                 "ai": "EscapeNoAttack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "ThisIsBullshit",
                 "starting_position": [
                     8,
                     3
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 3,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "ThisIsBullshit",
+                "starting_position": [
+                    4,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -260,7 +284,7 @@
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
+                "nid": "ThisIsBullshit",
                 "trigger_threshold": 1
             }
         ]
