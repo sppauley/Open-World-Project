@@ -41,7 +41,7 @@
         "promotion": {
             "HP": 5,
             "SPD": 1,
-            "MOV": -99,
+            "MOV": 0,
             "DEX": 2,
             "MAG": 0,
             "PSE": 4,

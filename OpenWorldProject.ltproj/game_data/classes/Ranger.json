@@ -40,9 +40,9 @@
             "CON": 0
         },
         "promotion": {
-            "HP": 3,
-            "SPD": 4,
-            "MOV": -99,
+            "HP": 2,
+            "SPD": 2,
+            "MOV": 3,
             "DEX": 2,
             "MAG": 0,
             "PSE": 3,
