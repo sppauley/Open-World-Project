@@ -64,7 +64,10 @@
             "level_var;PrepMusic;\"Route10\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
-            "change_team;Johannes;player"
+            "",
+            "change_team;Johannes;player",
+            "set_unit_field;Johannes;PartyMember;'Yes'",
+            "game_var;JohannesRecruited;1"
         ]
     }
 ]

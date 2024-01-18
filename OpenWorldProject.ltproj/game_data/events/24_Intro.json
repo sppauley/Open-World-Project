@@ -95,7 +95,10 @@
             "game_var;freely_exit;True",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
-            "change_team;Melodie;player"
+            "",
+            "change_team;Melodie;player",
+            "set_unit_field;Melodie;PartyMember;'Yes'",
+            "game_var;MelodieRecruited;1"
         ]
     }
 ]
