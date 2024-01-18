@@ -1,14 +1,25 @@
 [
     {
         "name": "ShamanDies",
-        "trigger": "combat_end",
+        "trigger": "unit_death",
         "level_nid": "30",
         "condition": "unit.klass == \"Shaman\"",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Show mud terrain"
+            "# Show mud terrain",
+            "if;unit.nid == \"102\"",
+            "    show_layer;mud1;fade",
+            "elif;unit.nid == \"103\"",
+            "    show_layer;mud2;fade",
+            "elif;unit.nid == \"104\"",
+            "    show_layer;mud3;fade",
+            "elif;unit.nid == \"105\"",
+            "    show_layer;mud4;fade",
+            "elif;unit.nid == \"106\"",
+            "    show_layer;mud5;fade",
+            "end"
         ]
     }
 ]
