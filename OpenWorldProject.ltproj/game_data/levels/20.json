@@ -1138,12 +1138,12 @@
                 "nid": "boat2",
                 "region_type": "normal",
                 "position": [
-                    19,
-                    14
+                    20,
+                    15
                 ],
                 "size": [
-                    12,
-                    22
+                    10,
+                    21
                 ],
                 "sub_nid": null,
                 "condition": "True",
@@ -1177,7 +1177,7 @@
                 ],
                 "size": [
                     6,
-                    15
+                    13
                 ],
                 "sub_nid": null,
                 "condition": "True",

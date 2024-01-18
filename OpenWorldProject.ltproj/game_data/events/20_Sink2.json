@@ -15,6 +15,7 @@
             "show_layer;boat2sunk",
             "hide_layer;gangplank1RightTop",
             "hide_layer;gangplank1RightBottom",
+            "hide_layer;gangplank2",
             "wait;500",
             "change_background",
             "remove_unit;Gangplank_2",
