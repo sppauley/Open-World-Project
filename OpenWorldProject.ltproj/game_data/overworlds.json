@@ -266,8 +266,16 @@
                     12
                 ],
                 "icon": "castle",
-                "level": null,
-                "menu_options": []
+                "level": "29",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": false,
+                        "enabled": false
+                    }
+                ]
             },
             {
                 "nid": "40",

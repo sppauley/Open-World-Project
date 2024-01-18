@@ -28,6 +28,7 @@
             "# region setup",
             "add_region;Arena;6,4;1,3;event;Arena",
             "add_region;Unforge;26,11;3,3;event;Unforge",
+            "add_region;Exit;31,29;1,3;event;Exit",
             "",
             "# talk setup",
             "add_talk;Simon;103",

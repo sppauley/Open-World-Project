@@ -3,7 +3,7 @@
         "name": "Talk Euclid",
         "trigger": "on_talk",
         "level_nid": "29",
-        "condition": "unit2.nid == 'Euclid'",
+        "condition": "unit2.nid == 'Euclid' and game.game_vars['EuclidRecruited']!=1",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -34,11 +34,11 @@
             "",
             "multi_remove_portrait;Euclid;Simon",
             "",
+            "remove_talk;Simon;Euclid",
+            "",
             "game_var;EuclidRecruited;1",
             "change_team;Euclid;player",
-            "set_unit_field;Euclid;PartyMember;'Yes'",
-            "",
-            "remove_talk;Simon;Euclid"
+            "set_unit_field;Euclid;PartyMember;'Yes'"
         ]
     }
 ]
