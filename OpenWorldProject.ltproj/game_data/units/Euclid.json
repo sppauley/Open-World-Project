@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "Euclid",
+        "name": "Euclid",
+        "desc": "A prominent scholar of Pelopos.\nBelieves all can be explained through equations.",
+        "variant": "",
+        "level": 10,
+        "klass": "Shaman",
+        "tags": [],
+        "bases": {
+            "HP": 26,
+            "CON": 15,
+            "PSE": 18,
+            "MAG": 6,
+            "SPD": 10,
+            "DEX": 9,
+            "MOV": 5
+        },
+        "growths": {
+            "CON": 35,
+            "PSE": 35,
+            "HP": 50,
+            "MAG": 20,
+            "SPD": 30,
+            "DEX": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Tetractys",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                71,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{SirNicee} F2E OC 8",
+        "affinity": null,
+        "fields": []
+    }
+]
