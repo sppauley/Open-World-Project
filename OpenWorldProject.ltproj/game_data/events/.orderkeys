@@ -535,5 +535,6 @@
     "30_Boss_Killed",
     "30_ShamanDies",
     "29_Talk_Euclid",
-    "29_Exit"
+    "29_Exit",
+    "30_Shamans1HP"
 ]

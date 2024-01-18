@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shamans1HP",
+        "trigger": "turn_change",
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 2,
+        "_source": [
+            "for;u;[u.nid for u in game.get_enemy_units() if u.klass == \"Shaman\"]",
+            "    set_current_hp;{u};1",
+            "endf"
+        ]
+    }
+]
