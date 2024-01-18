@@ -3,7 +3,7 @@
         "name": "Reinforcements",
         "trigger": "turn_change",
         "level_nid": "20",
-        "condition": "game.turncount>5 and game.turncount % 2 == 0",
+        "condition": "game.turncount == 6 or game.turncount == 9",
         "commands": [],
         "only_once": false,
         "priority": 20,
