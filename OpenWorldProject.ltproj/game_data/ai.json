@@ -739,6 +739,27 @@
         "roam_ai": false
     },
     {
+        "nid": "DefendPlayerOnly",
+        "behaviours": [
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Team",
+                    "player"
+                ],
+                "view_range": -2,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "SupportBossGuard",
         "behaviours": [
             {

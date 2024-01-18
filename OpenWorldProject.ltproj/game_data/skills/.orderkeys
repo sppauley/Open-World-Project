@@ -186,5 +186,7 @@
     "Counter",
     "CounterDebuff",
     "CounterAura",
-    "IgnoredByAI"
+    "IgnoredByAI",
+    "FinalTouches",
+    "FinalTouchesChild"
 ]

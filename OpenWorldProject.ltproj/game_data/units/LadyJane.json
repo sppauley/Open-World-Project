@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "LadyJane",
+        "name": "Lady Jane",
+        "desc": "A powerful sorceress and transmuter.\nThe mind is hers to explore.",
+        "variant": null,
+        "level": 1,
+        "klass": "Transmuter",
+        "tags": [],
+        "bases": {
+            "HP": 32,
+            "CON": 4,
+            "MAG": 12,
+            "DEX": 11,
+            "SPD": 7,
+            "PSE": 16,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Gravity",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                121,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Kanna} [F2E] OC 76",
+        "affinity": null,
+        "fields": []
+    }
+]

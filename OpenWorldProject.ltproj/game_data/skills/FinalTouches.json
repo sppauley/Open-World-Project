@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "FinalTouches",
+        "name": "Final Touches",
+        "desc": "Allies who begin their turn next to this unit gain +1 in CON, MAG, DEX, and SPD for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "FinalTouchesChild",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "ally"
+                }
+            ]
+        ]
+    }
+]

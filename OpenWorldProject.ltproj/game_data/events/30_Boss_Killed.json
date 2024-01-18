@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Boss Killed",
+        "trigger": "combat_end",
+        "level_nid": "30",
+        "condition": "game.check_dead(\"108\") == True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bandit1;Right",
+            "expression;Bandit1;CloseEyes",
+            "s;Bandit1;Tell the Sorceress... they're too strong...",
+            "remove_portrait;Bandit1",
+            "win_game"
+        ]
+    }
+]

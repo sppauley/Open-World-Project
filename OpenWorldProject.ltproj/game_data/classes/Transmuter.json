@@ -1,0 +1,126 @@
+[
+    {
+        "nid": "Transmuter",
+        "name": "Transmuter",
+        "desc": "One who meddles with the human body.",
+        "tier": 2,
+        "movement_group": "Infantry",
+        "promotes_from": null,
+        "turns_into": [],
+        "tags": [
+            "Magic"
+        ],
+        "max_level": 20,
+        "bases": {
+            "HP": 22,
+            "SPD": 4,
+            "MOV": 6,
+            "DEX": 6,
+            "MAG": 5,
+            "PSE": 8,
+            "CON": 6
+        },
+        "growths": {
+            "HP": 45,
+            "SPD": 25,
+            "MOV": 0,
+            "DEX": 30,
+            "MAG": 35,
+            "PSE": 30,
+            "CON": 45
+        },
+        "growth_bonus": {
+            "HP": 0,
+            "SPD": 0,
+            "MOV": 0,
+            "DEX": 0,
+            "MAG": 0,
+            "PSE": 0,
+            "CON": 0
+        },
+        "promotion": {
+            "HP": 4,
+            "SPD": 0,
+            "MOV": 1,
+            "DEX": 1,
+            "MAG": 3,
+            "PSE": 4,
+            "CON": 1
+        },
+        "max_stats": {
+            "HP": 50,
+            "SPD": 22,
+            "MOV": 15,
+            "DEX": 22,
+            "MAG": 27,
+            "PSE": 25,
+            "CON": 26
+        },
+        "learned_skills": [
+            [
+                1,
+                "FinalTouches"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Innate": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                true,
+                62,
+                251
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                true,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ]
+        },
+        "icon_nid": "Generic_Portrait_Sage",
+        "icon_index": [
+            0,
+            0
+        ],
+        "map_sprite_nid": "Summoner (F) {VelvetKitsune}-stand",
+        "combat_anim_nid": null,
+        "fields": []
+    }
+]

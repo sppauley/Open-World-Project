@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "FinalTouchesChild",
+        "name": "Modified",
+        "desc": "Until this unit's next turn, +1 CON/MAG/DEX/SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            3
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ],
+                    [
+                        "DEX",
+                        1
+                    ],
+                    [
+                        "SPD",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

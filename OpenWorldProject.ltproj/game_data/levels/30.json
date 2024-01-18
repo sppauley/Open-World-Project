@@ -7,8 +7,8 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "Win the Race",
-            "win": "Win the Race",
+            "simple": "Win Race or Defeat Boss",
+            "win": "Win Race or Defeat Boss",
             "loss": "Ignis Wins"
         },
         "roam": false,
@@ -209,6 +209,102 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 1,
+                "klass": "Warrior",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Swordslayer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendPlayerOnly",
+                "roam_ai": null,
+                "ai_group": "BossGroup",
+                "starting_position": [
+                    24,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendPlayerOnly",
+                "roam_ai": null,
+                "ai_group": "BossGroup",
+                "starting_position": [
+                    23,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 1,
+                "klass": "Iceni",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendPlayerOnly",
+                "roam_ai": null,
+                "ai_group": "SouthGroup",
+                "starting_position": [
+                    12,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Iceni",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendPlayerOnly",
+                "roam_ai": null,
+                "ai_group": "SouthGroup",
+                "starting_position": [
+                    15,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -282,6 +378,15 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "BossGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "SouthGroup",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

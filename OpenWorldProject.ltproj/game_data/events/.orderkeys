@@ -531,5 +531,7 @@
     "29_DefeatLeon",
     "29_Talk_Audience",
     "30_Intro",
-    "30_Escape"
+    "30_Escape",
+    "30_Boss_Killed",
+    "30_ShamanDies"
 ]

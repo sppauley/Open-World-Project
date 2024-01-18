@@ -1462,5 +1462,17 @@
             40
         ],
         "info_offset": 6
+    },
+    {
+        "nid": "{Kanna} [F2E] OC 76",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

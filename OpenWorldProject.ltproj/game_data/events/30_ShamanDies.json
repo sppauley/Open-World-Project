@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ShamanDies",
+        "trigger": "combat_end",
+        "level_nid": "30",
+        "condition": "unit.klass == \"Shaman\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Show mud terrain"
+        ]
+    }
+]

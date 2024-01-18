@@ -149,15 +149,16 @@
                     ]
                 ],
                 "starting_skills": [
-                    "PromotionZeal"
+                    "PromotionZeal",
+                    "SpurSpeed"
                 ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    4
+                    1,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -263,6 +264,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "LadyJane",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -311,6 +325,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

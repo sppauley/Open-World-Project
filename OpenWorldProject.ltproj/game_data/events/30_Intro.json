@@ -11,9 +11,28 @@
             "center_cursor;Simon;immediate",
             "show_layer;overlay;immediate;no_warn",
             "show_layer;overlay2;immediate;no_warn",
+            "add_tag;108;Boss",
+            "level_var;RaceWon;False",
             "",
             "# Note: reveal this map on a port hull exit check of Twins' team == player",
-            "# That way we can use them in dialogue freely"
+            "# That way we can use them in dialogue freely",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps",
+            "",
+            "s;Narrator;Ignis's items will be sent to your convoy only if you beat him in the race.;StyleNid=hint",
+            "",
+            "center_cursor;18,3",
+            "flicker_cursor;18,3",
+            "wait;500",
+            "",
+            "s;Narrator;To beat Ignis, Simon must reach this tile before he does.;StyleNid=hint",
+            "",
+            "center_cursor;7,5",
+            "flicker_cursor;7,5",
+            "wait;500",
+            "",
+            "s;Narrator;Defeating the dark mages will create muddy terrain in their area.;StyleNid=hint"
         ]
     }
 ]
