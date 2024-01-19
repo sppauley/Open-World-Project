@@ -1,0 +1,27 @@
+[
+    {
+        "name": "TwinsReflection",
+        "trigger": "turn_change",
+        "level_nid": "30",
+        "condition": "game.turncount == 2 and game.get_unit(\"Twins\").position",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Twins;Left",
+            "s;Twins;It really is home...",
+            "",
+            "center_cursor;7,13",
+            "flicker_cursor;7,13",
+            "wait;500",
+            "",
+            "s;Twins;Mom's home is a ruin now, but I still remember.",
+            "",
+            "wait;600",
+            "",
+            "s;Twins;There's nothing left here, Trina.|We should keep moving.",
+            "",
+            "remove_portrait;Twins"
+        ]
+    }
+]
