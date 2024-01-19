@@ -550,7 +550,7 @@
         "minimap": "Sand",
         "platform": "Cliff",
         "background": "Cliff",
-        "mtype": "Dirt",
+        "mtype": "Mud",
         "opaque": false,
         "status": "AvoidDown10"
     },

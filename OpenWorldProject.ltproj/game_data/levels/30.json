@@ -286,7 +286,7 @@
                 "nid": "111",
                 "variant": null,
                 "level": 5,
-                "klass": "Iceni",
+                "klass": "Charioteer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -300,8 +300,8 @@
                 "roam_ai": null,
                 "ai_group": "SouthGroup",
                 "starting_position": [
-                    15,
-                    31
+                    22,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -675,11 +675,11 @@
                 "nid": "Escape",
                 "region_type": "event",
                 "position": [
-                    18,
+                    17,
                     3
                 ],
                 "size": [
-                    1,
+                    3,
                     1
                 ],
                 "sub_nid": "Escape",
@@ -697,10 +697,6 @@
             },
             {
                 "nid": "SouthGroup",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             },
             {

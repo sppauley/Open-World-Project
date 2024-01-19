@@ -18,6 +18,8 @@
             "elif;unit.nid == \"105\"",
             "    show_layer;mud4;fade",
             "elif;unit.nid == \"106\"",
+            "    show_layer;mud6;fade",
+            "elif;unit.nid == \"107\"",
             "    show_layer;mud5;fade",
             "end"
         ]
