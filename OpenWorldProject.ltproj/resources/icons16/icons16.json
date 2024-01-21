@@ -243,5 +243,13 @@
     {
         "nid": "{Batima} Goetia",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Celice} Item 2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Celice} Item 2_1",
+        "subicon_dict": {}
     }
 ]

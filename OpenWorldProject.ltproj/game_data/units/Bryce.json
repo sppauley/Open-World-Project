@@ -3,7 +3,7 @@
         "nid": "Bryce",
         "name": "Bryce",
         "desc": "A cunning bandit assassin whose troops use speed and trickery to gain an upper hand.",
-        "variant": null,
+        "variant": "",
         "level": 3,
         "klass": "Assassin",
         "tags": [

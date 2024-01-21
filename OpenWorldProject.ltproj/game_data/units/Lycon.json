@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Lycon",
+        "name": "Lycon",
+        "desc": "A commander in New Dawn's army.\nTasked with defending the Maligned Fort.",
+        "variant": null,
+        "level": 1,
+        "klass": "Swordmaster",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 29,
+            "PSE": 10,
+            "MOV": 6,
+            "CON": 9,
+            "MAG": 5,
+            "DEX": 13,
+            "SPD": 16
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Killing Edge",
+                false
+            ],
+            [
+                "PursuitBand",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{AmBrosiac} OC 1",
+        "affinity": null,
+        "fields": []
+    }
+]

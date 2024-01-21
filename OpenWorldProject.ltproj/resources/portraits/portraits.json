@@ -1486,5 +1486,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "{AmBrosiac} OC 1",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

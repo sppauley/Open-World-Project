@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "PursuitBand",
+        "name": "Pursuit Band",
+        "desc": "When initiating combat, holder suffers -3 SPD but gains doubled crit on follow up attacks.",
+        "icon_nid": "{Celice} Item 2_1",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "PursuitCritical"
+            ]
+        ]
+    }
+]
