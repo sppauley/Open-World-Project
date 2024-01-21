@@ -11,6 +11,7 @@
             "if;v(\"SimonJaneTalkCount\") == 0",
             "    s;Simon;Blah blah blah",
             "    inc_level_var;SimonJaneTalkCount",
+            "    has_finished;Simon",
             "else",
             "    win_game",
             "end"

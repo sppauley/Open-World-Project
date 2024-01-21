@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ObjectiveCountdown",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount > 1 and v(\"maxTurns\") != -1",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns."
+        ]
+    }
+]

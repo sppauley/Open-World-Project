@@ -18,7 +18,7 @@
             "multi_remove_portrait;Priest;LadyJane",
             "",
             "level_var;maxTurns;game.turncount + {v:turnLeeway}",
-            "speak;Narrator;{v(\"turnLeeway\")} turns from now, Lady Jane will retreat.|Surviving those turns will result in a victory.|However, additional awards are available if you approach her.;StyleNid=hint",
+            "speak;Narrator;{e:v(\"turnLeeway\")} turns from now, Lady Jane will retreat.|Surviving those turns will result in a victory.|However, additional awards are available if you approach her.;StyleNid=hint",
             "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns."
         ]
     }

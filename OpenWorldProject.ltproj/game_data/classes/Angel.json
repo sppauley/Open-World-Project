@@ -8,7 +8,9 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "Dragon"
+            "Dragon",
+            "Flying",
+            "Monster"
         ],
         "max_level": 20,
         "bases": {
