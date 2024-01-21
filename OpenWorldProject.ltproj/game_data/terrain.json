@@ -613,5 +613,20 @@
         "mtype": "Cliff",
         "opaque": false,
         "status": null
+    },
+    {
+        "nid": "Ballista",
+        "name": "Ballista",
+        "color": [
+            85,
+            255,
+            0
+        ],
+        "minimap": "Grass",
+        "platform": "Arena",
+        "background": "None",
+        "mtype": "Dirt",
+        "opaque": false,
+        "status": "Ballista"
     }
 ]

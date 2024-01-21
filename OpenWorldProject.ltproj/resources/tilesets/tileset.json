@@ -871,5 +871,10 @@
         "nid": "CrosscodeCave",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "ballista",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
