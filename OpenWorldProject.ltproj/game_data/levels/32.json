@@ -1335,10 +1335,6 @@
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "JaneGroup",
                 "trigger_threshold": 2
             },
