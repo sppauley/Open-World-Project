@@ -539,7 +539,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "IgnoredByAI"
+                ],
                 "team": "enemy2",
                 "ai": "None",
                 "roam_ai": null,
@@ -1364,6 +1366,10 @@
             },
             {
                 "nid": "LeftCorner",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

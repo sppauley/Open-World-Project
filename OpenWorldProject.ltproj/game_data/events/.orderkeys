@@ -555,5 +555,6 @@
     "32_RightBallistaDies",
     "32_LeftBallistaDies",
     "32_SpawnIgnis",
-    "32_ObjectiveCountdown"
+    "32_ObjectiveCountdown",
+    "30_Outro"
 ]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "overworld_cinematic;1",
+            "center_cursor;Simon;immediate",
+            "reveal_overworld_node;51",
+            "reveal_overworld_road;61;51"
+        ]
+    }
+]
