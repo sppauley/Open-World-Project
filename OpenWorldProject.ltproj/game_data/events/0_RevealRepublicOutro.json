@@ -11,6 +11,7 @@
             "music;EnterTheWoods",
             "overworld_cinematic;1",
             "center_cursor;Simon;immediate",
+            "reveal_overworld_node;33;immediate",
             "reveal_overworld_node;39",
             "reveal_overworld_road;33;39",
             "add_portrait;Luther;Right",
