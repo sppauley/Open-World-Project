@@ -2,7 +2,7 @@
     {
         "nid": "Short Spear",
         "name": "Short Spear",
-        "desc": "",
+        "desc": "Cannot double.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

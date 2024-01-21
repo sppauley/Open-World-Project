@@ -54,7 +54,9 @@
             "transition;close;800",
             "transition;open;1",
             "",
-            "trigger_script;Global IncreaseMitziProgress"
+            "trigger_script;Global IncreaseMitziProgress",
+            "",
+            "win_game"
         ]
     }
 ]

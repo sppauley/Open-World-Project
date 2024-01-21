@@ -257,7 +257,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Killing Edge",
                         false
                     ]
                 ],
@@ -267,7 +267,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
+                    8,
                     16
                 ],
                 "starting_traveler": null,
@@ -281,7 +281,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Killing Edge",
                         false
                     ]
                 ],
@@ -291,8 +291,152 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
+                    18,
                     16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 9,
+                "klass": "Cleric",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 7,
+                "klass": "Archer",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 7,
+                "klass": "Fighter",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    25,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 3,
+                "klass": "Journeyman",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 7,
+                "klass": "Knight",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 7,
+                "klass": "Knight",
+                "faction": "NewDawn",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -310,7 +454,7 @@
                     1,
                     2
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -352,6 +496,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

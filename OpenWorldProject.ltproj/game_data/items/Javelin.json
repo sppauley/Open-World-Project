@@ -2,7 +2,7 @@
     {
         "nid": "Javelin",
         "name": "Javelin",
-        "desc": "",
+        "desc": "Cannot double.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

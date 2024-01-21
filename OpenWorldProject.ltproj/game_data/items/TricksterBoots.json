@@ -2,7 +2,7 @@
     {
         "nid": "TricksterBoots",
         "name": "Trickster's Boots",
-        "desc": "Holder gains +1 MOV during the first 7 turns",
+        "desc": "Holder gains +2 MOV during the first 7 turns",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
