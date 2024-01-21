@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Ballista",
+        "name": "Ballista",
+        "desc": "Can attack targets in range for low damage.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "ability",
+                "MapBallista"
+            ]
+        ]
+    }
+]

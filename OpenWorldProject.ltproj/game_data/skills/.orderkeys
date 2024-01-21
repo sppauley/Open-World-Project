@@ -188,5 +188,6 @@
     "CounterAura",
     "IgnoredByAI",
     "FinalTouches",
-    "FinalTouchesChild"
+    "FinalTouchesChild",
+    "Ballista"
 ]
