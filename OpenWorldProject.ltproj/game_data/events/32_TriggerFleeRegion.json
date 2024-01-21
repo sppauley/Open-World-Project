@@ -1,0 +1,14 @@
+[
+    {
+        "name": "TriggerFleeRegion",
+        "trigger": "unit_wait",
+        "level_nid": "32",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ]
+    }
+]

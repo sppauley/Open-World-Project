@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Wall dies",
+        "trigger": "unit_death",
+        "level_nid": "32",
+        "condition": "unit.klass == \"Wall\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == \"wallfarleft\"",
+            "    map_anim;Snag;3,4;no_block",
+            "    show_layer;wallfarleftdestroyed;fade",
+            "elif;unit.nid == \"wallmidleft\"",
+            "    map_anim;Snag;5,2;no_block",
+            "    show_layer;wallmidleftdestroyed;fade",
+            "elif;unit.nid == \"wallmidright\"",
+            "    map_anim;Snag;21,3;no_block",
+            "    show_layer;wallmidrightdestroyed;fade",
+            "elif;unit.nid == \"wallfarright\"",
+            "    map_anim;Snag;23,4;no_block",
+            "    show_layer;wallfarrightdestroyed;fade",
+            "end"
+        ]
+    }
+]

@@ -9,12 +9,12 @@
         "tags": [],
         "bases": {
             "HP": 25,
-            "CON": 5,
+            "CON": 8,
             "MAG": 2,
-            "SPD": 7,
+            "SPD": 9,
             "MOV": 9,
             "PSE": 12,
-            "DEX": 4
+            "DEX": 6
         },
         "growths": {},
         "stat_cap_modifiers": {},

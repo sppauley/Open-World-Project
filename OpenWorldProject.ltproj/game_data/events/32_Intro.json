@@ -10,9 +10,20 @@
         "_source": [
             "add_weather;rain",
             "show_layer;southdoor;immediate",
+            "hide_layer;ballista;immediate",
             "",
+            "remove_item;Ignis;Silver Lance;no_banner;no_warn",
+            "remove_item;Ignis;KnowledgeScroll;no_banner;no_warn",
+            "remove_item;Ignis;Master Seal;no_banner;no_warn",
+            "give_item;Ignis;Steel_Pike;no_banner;no_warn",
             "",
-            "show_layer;ballista"
+            "set_current_hp;wallfarleft;5",
+            "set_current_hp;wallmidleft;5",
+            "set_current_hp;wallmidright;5",
+            "set_current_hp;wallfarright;5",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

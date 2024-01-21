@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Unlock Southdoor",
+        "trigger": "Door",
+        "level_nid": "32",
+        "condition": "region.nid == \"SouthDoor\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "hide_layer;southdoor",
+            "has_attacked;{unit}"
+        ]
+    }
+]

@@ -543,5 +543,9 @@
     "32_Intro",
     "31_WinCondition",
     "31_Reinforce_Warning",
-    "31_Reinforce"
+    "31_Reinforce",
+    "32_Wall_dies",
+    "32_Unlock_Southdoor",
+    "32_Jane_dies",
+    "32_TriggerFleeRegion"
 ]
