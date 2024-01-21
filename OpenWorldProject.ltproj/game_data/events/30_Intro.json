@@ -11,6 +11,7 @@
             "center_cursor;Simon;immediate",
             "show_layer;overlay;immediate;no_warn",
             "show_layer;overlay2;immediate;no_warn",
+            "add_weather;night",
             "add_tag;108;Boss",
             "level_var;RaceWon;False",
             "",

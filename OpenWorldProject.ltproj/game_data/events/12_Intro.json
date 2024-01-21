@@ -85,11 +85,14 @@
             "set_unit_field;Luther;PartyMember;'Yes'",
             "set_unit_field;Vincent;PartyMember;'Yes'",
             "trigger_script;Global ConsolidateToLeader",
+            "",
             "if;v('basicTutorials')",
             "speak;Narrator;Juliet uses bows. Bow units can only attack from range.{w}{br}For Juliet to attack an enemy there must be one tile between her and the target.;StyleNid=hint",
             "end",
+            "",
             "if;v(\"tutorialPopups\")",
             "speak;Narrator;Units you control that fall in battle will return after the map ends.{w}{br}Only Simon's death will cause a game over.;StyleNid=hint",
+            "speak;Narrator;During roaming sections, Simon can explore freely.|Hold the B button to run, and press START to open a pause menu.;StyleNid=hint",
             "end"
         ]
     }
