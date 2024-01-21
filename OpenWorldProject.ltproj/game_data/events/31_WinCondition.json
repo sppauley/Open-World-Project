@@ -8,7 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "",
+            "multi_add_portrait;Simon;Left;Luther;Right",
+            "s;Simon;We won...{w} We really did it.{w}{br}Victory like this seemed impossible after what happened at home.",
+            "s;Luther;I felt the same, milord.{w} But it's good to know that New Dawn is not unbeatable.{w}{br}We should hold this feeling close as we continue to retake control of the region.",
+            "s;Simon;Aye. We'll take Castle Verstadt back yet.",
+            "multi_remove_portrait;Simon;Luther",
             "",
             "win_game"
         ]

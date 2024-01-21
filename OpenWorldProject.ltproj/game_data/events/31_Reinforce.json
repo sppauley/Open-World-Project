@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Reinforce",
+        "trigger": "turn_change",
+        "level_nid": "31",
+        "condition": "game.turncount > 5 and game.turncount % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Reinforce;create",
+            "center_cursor;0,24",
+            "wait;400",
+            "center_cursor;26,24",
+            "wait;400"
+        ]
+    }
+]

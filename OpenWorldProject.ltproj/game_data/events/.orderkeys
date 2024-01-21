@@ -541,5 +541,7 @@
     "30_TwinsReflection",
     "31_Intro",
     "32_Intro",
-    "31_WinCondition"
+    "31_WinCondition",
+    "31_Reinforce_Warning",
+    "31_Reinforce"
 ]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Reinforce Warning",
+        "trigger": "turn_change",
+        "level_nid": "31",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lycon;Right",
+            "add_portrait;SoldierRed;Left;left",
+            "s;SoldierRed;Commander Lycon! Percy prevailed at Castle Verstadt!",
+            "s;Lycon;That's fantastic news. A monumental step in liberating these lands!",
+            "s;SoldierRed;Aye. And he sends reinforcements back to help defend the fort.",
+            "s;Lycon;Good timing, seeing a group of loyalists is attacking.{w}{br}We'll continue defending awhile longer, but we'll appreciate the help.",
+            "multi_remove_portrait;SoldierRed;Lycon"
+        ]
+    }
+]
