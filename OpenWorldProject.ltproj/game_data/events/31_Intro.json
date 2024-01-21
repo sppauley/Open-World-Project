@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "show_layer;overlay"
+            "show_layer;overlay",
+            "",
+            "arrange_formation",
+            "game_var;freely_exit;True",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]
