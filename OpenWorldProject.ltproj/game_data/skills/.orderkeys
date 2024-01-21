@@ -189,5 +189,6 @@
     "IgnoredByAI",
     "FinalTouches",
     "FinalTouchesChild",
-    "Ballista"
+    "Ballista",
+    "PursuitCritical"
 ]
