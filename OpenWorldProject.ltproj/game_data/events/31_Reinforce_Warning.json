@@ -3,7 +3,7 @@
         "name": "Reinforce Warning",
         "trigger": "turn_change",
         "level_nid": "31",
-        "condition": "game.turncount == 5",
+        "condition": "game.turncount == 6",
         "commands": [],
         "only_once": true,
         "priority": 20,
