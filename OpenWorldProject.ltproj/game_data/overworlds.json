@@ -272,8 +272,8 @@
                         "nid": "Roam",
                         "event": "OverworldRoamSelect",
                         "option_name": "Roam",
-                        "visible": false,
-                        "enabled": false
+                        "visible": true,
+                        "enabled": true
                     }
                 ]
             },
