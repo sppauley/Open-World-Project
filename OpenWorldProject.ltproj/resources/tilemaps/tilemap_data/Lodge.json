@@ -5849,7 +5849,7 @@
                 }
             },
             {
-                "nid": "ballista",
+                "nid": "rightballista",
                 "visible": true,
                 "foreground": false,
                 "terrain_grid": {
@@ -5857,27 +5857,6 @@
                     "17,7": "Ballista"
                 },
                 "sprite_grid": {
-                    "8,7": [
-                        "ballista",
-                        [
-                            0,
-                            1
-                        ]
-                    ],
-                    "9,6": [
-                        "ballista",
-                        [
-                            1,
-                            0
-                        ]
-                    ],
-                    "9,7": [
-                        "ballista",
-                        [
-                            1,
-                            1
-                        ]
-                    ],
                     "8,6": [
                         "ballista",
                         [
@@ -6012,6 +5991,35 @@
                         [
                             2,
                             2
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "leftballista",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "9,6": [
+                        "ballista",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "9,7": [
+                        "ballista",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "8,7": [
+                        "ballista",
+                        [
+                            0,
+                            1
                         ]
                     ]
                 }

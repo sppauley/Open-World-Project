@@ -1,0 +1,25 @@
+[
+    {
+        "name": "FleeObjectiveUpdate",
+        "trigger": null,
+        "level_nid": "32",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;LadyJane",
+            "add_portrait;LadyJane;Right",
+            "s;LadyJane;The battle has turned against us.|Send for my chariot.",
+            "add_portrait;Priest;Left",
+            "s;Priest;A-ah are you sure?{w} Many of your experiments will be lost.",
+            "s;LadyJane;I have no choice.{w} The skill of their commander is...|Impressive.{w} Hah, truth be told, I would join him if I could.|But alas, we must start anew.{w} Somewhere else.|Somewhere more... hospitable.",
+            "s;Priest;I understand, milady.{w} I will send for our escape.",
+            "multi_remove_portrait;Priest;LadyJane",
+            "",
+            "level_var;maxTurns;game.turncount + {v:turnLeeway}",
+            "speak;Narrator;{v(\"turnLeeway\")} turns from now, Lady Jane will retreat.|Surviving those turns will result in a victory.|However, additional awards are available if you approach her.;StyleNid=hint",
+            "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns."
+        ]
+    }
+]

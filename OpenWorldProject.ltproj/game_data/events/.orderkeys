@@ -547,5 +547,12 @@
     "32_Wall_dies",
     "32_Unlock_Southdoor",
     "32_Jane_dies",
-    "32_TriggerFleeRegion"
+    "32_TriggerFleeRegion",
+    "32_FleeObjectiveUpdate",
+    "32_WinOnTime",
+    "32_Outro",
+    "32_SimonJaneTalk",
+    "32_RightBallistaDies",
+    "32_LeftBallistaDies",
+    "32_SpawnIgnis"
 ]

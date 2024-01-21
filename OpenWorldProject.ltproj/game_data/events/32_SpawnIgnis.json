@@ -1,0 +1,28 @@
+[
+    {
+        "name": "SpawnIgnis",
+        "trigger": null,
+        "level_nid": "32",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Ignis;13,1;fade;closest",
+            "add_unit;IgnisTeam1;12,0;fade;closest",
+            "add_unit;IgnisTeam2;14,0;fade;closest",
+            "add_unit;IgnisTeam3;13,0;fade;closest",
+            "",
+            "center_cursor;Ignis",
+            "flicker_cursor;Ignis",
+            "wait;400",
+            "",
+            "add_portrait;Ignis;Left",
+            "s;Ignis;Men, h-hear me! We can't just abandon our lady!|At least, not right now!|Now... ride! And... cut them down!",
+            "remove_portrait;Ignis",
+            "",
+            "level_var;turnLeeway;14",
+            "trigger_script;32 FleeObjectiveUpdate"
+        ]
+    }
+]

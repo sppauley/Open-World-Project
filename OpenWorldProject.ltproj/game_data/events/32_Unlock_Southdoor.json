@@ -10,7 +10,8 @@
         "_source": [
             "sound;Unlock",
             "hide_layer;southdoor",
-            "has_attacked;{unit}"
+            "has_attacked;{unit}",
+            "trigger_script;32 FleeObjectiveUpdate"
         ]
     }
 ]

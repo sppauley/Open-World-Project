@@ -3,11 +3,15 @@
         "name": "Jane dies",
         "trigger": "combat_end",
         "level_nid": "32",
-        "condition": "game.check_dead(\"\")",
+        "condition": "game.check_dead(\"LadyJane\")",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
+            "add_portrait;LadyJane;Right",
+            "expression;LadyJane;CloseEyes",
+            "s;LadyJane;I didn't think...{w} I didn't understand...|Quite the error...",
+            "remove_portrait;LadyJane",
             "win_game"
         ]
     }

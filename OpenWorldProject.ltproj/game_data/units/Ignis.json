@@ -4,9 +4,11 @@
         "name": "Ignis",
         "desc": "A wild messenger of the Sorceress.\nDisliked mostly by his allies.",
         "variant": null,
-        "level": 1,
+        "level": 7,
         "klass": "Charioteer",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 25,
             "CON": 8,

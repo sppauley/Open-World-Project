@@ -1,0 +1,19 @@
+[
+    {
+        "name": "SimonJaneTalk",
+        "trigger": "on_talk",
+        "level_nid": "32",
+        "condition": "unit1.nid == \"Simon\" and unit2.nid == \"LadyJane\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"SimonJaneTalkCount\") == 0",
+            "    s;Simon;Blah blah blah",
+            "    inc_level_var;SimonJaneTalkCount",
+            "else",
+            "    win_game",
+            "end"
+        ]
+    }
+]

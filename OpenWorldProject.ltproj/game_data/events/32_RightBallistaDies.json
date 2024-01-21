@@ -1,0 +1,15 @@
+[
+    {
+        "name": "RightBallistaDies",
+        "trigger": "combat_end",
+        "level_nid": "32",
+        "condition": "game.check_dead(\"101\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "show_layer;rightballista",
+            "trigger_script;32 SpawnIgnis"
+        ]
+    }
+]

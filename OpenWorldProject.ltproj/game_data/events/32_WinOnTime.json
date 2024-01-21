@@ -1,0 +1,31 @@
+[
+    {
+        "name": "WinOnTime",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == {v:maxTurns}",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;LadyJane",
+            "flicker_cursor;LadyJane",
+            "wait;500",
+            "",
+            "add_portrait;LadyJane;Right",
+            "s;LadyJane;Too late, Verstadt. Too late.|We shall both have our peace.|I hope you can abide by such an outcome.",
+            "",
+            "make_generic;;Iceni;1;enemy;None;Bandit;;Iron Sword;no_warn",
+            "add_unit;{created_unit};13,26;fade;closest",
+            "move_unit;{created_unit};LadyJane;normal;closest",
+            "move_unit;LadyJane;{created_unit};normal;push",
+            "pair_up;LadyJane;{created_unit}",
+            "move_unit;{created_unit};13,26;normal;closest",
+            "remove_unit;{created_unit};fade",
+            "",
+            "wait;600",
+            "",
+            "win_game"
+        ]
+    }
+]

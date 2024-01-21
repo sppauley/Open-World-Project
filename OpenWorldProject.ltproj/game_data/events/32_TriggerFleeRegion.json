@@ -3,12 +3,12 @@
         "name": "TriggerFleeRegion",
         "trigger": "unit_wait",
         "level_nid": "32",
-        "condition": "True",
+        "condition": "any(get_units_in_region('TriggerFlee', team='player')) or any(get_units_in_region('TriggerFlee_1', team='player')) or any(get_units_in_region('TriggerFlee', team='enemy2')) or any(get_units_in_region('TriggerFlee_1', team='enemy2'))",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
-            ""
+            "trigger_script;32 FleeObjectiveUpdate"
         ]
     }
 ]
