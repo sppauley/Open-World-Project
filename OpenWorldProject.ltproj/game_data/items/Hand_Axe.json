@@ -2,7 +2,7 @@
     {
         "nid": "Hand Axe",
         "name": "Hand Axe",
-        "desc": "",
+        "desc": "Cannot double.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

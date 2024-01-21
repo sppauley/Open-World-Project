@@ -8,8 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "# setup",
             "show_layer;overlay",
             "",
+            "# intro dialogue",
+            "# summary:",
+            "# 1. New Dawn sent most of their forces to take castle Verstadt",
+            "# 2. They had taken the fort previously, and stationed a small force",
+            "# 3. Simon's group looks to take them on (revenge + control of area)",
+            "",
+            "# formation",
             "arrange_formation",
             "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"
