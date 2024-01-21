@@ -45,7 +45,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -69,7 +69,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 6,
+                "level": 4,
                 "klass": "Soldier",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -217,7 +217,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -241,7 +241,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -341,7 +341,7 @@
             {
                 "nid": "113",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -365,7 +365,7 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 7,
+                "level": 6,
                 "klass": "Fighter",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -441,7 +441,7 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -465,7 +465,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Knight",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -613,7 +613,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -637,7 +637,7 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -661,7 +661,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -731,7 +731,7 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 11,
+                "level": 8,
                 "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [
@@ -754,7 +754,7 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 11,
+                "level": 8,
                 "klass": "Archer",
                 "faction": "NewDawn",
                 "starting_items": [

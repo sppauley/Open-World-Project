@@ -10,8 +10,8 @@
             "Boss"
         ],
         "bases": {
-            "HP": 29,
-            "PSE": 10,
+            "HP": 24,
+            "PSE": 7,
             "MOV": 6,
             "CON": 9,
             "MAG": 5,

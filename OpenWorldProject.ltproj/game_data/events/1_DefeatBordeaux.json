@@ -190,6 +190,9 @@
             "center_cursor;27",
             "reveal_overworld_node;43",
             "reveal_overworld_road;27;43",
+            "reveal_overworld_node;62",
+            "center_cursor;62",
+            "reveal_overworld_road;27;62",
             "set_overworld_position;Simon;27;no_animate",
             "win_game"
         ]

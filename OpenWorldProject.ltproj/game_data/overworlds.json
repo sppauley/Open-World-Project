@@ -279,12 +279,12 @@
             },
             {
                 "nid": "40",
-                "name": "Maligned Fort",
+                "name": "Mage School",
                 "pos": [
                     20,
                     14
                 ],
-                "icon": "fort",
+                "icon": "tower",
                 "level": null,
                 "menu_options": []
             },
@@ -601,6 +601,25 @@
                     {
                         "nid": "Battle",
                         "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
+            },
+            {
+                "nid": "62",
+                "name": "Maligned Fort",
+                "pos": [
+                    12,
+                    21
+                ],
+                "icon": "fort",
+                "level": "31",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
                         "option_name": "Battle",
                         "visible": true,
                         "enabled": true
@@ -1151,6 +1170,20 @@
                 [
                     24,
                     21
+                ]
+            ],
+            "(11, 18)-(12, 21)": [
+                [
+                    12,
+                    21
+                ],
+                [
+                    12,
+                    19
+                ],
+                [
+                    11,
+                    18
                 ]
             ]
         },
