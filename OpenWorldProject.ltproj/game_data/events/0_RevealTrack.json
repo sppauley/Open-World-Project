@@ -1,0 +1,19 @@
+[
+    {
+        "name": "RevealTrack",
+        "trigger": "level_end",
+        "level_nid": "0",
+        "condition": "v(\"TwinsRecruited\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 16,
+        "_source": [
+            "music;EnterTheWoods",
+            "overworld_cinematic;1",
+            "center_cursor;Simon;immediate",
+            "center_cursor;61",
+            "reveal_overworld_node;61",
+            "reveal_overworld_road;33;61"
+        ]
+    }
+]
