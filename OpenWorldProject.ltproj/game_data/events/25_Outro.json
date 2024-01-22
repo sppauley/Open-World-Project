@@ -98,6 +98,8 @@
             "#wait;6000",
             "#unhold;ThanatosStyle",
             "",
+            "set_unit_field;Nika;LoyaltyStatus;Nika is completely loyal.",
+            "",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }

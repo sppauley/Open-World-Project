@@ -3,7 +3,7 @@
         "nid": "LadyJane",
         "name": "Lady Jane",
         "desc": "A powerful sorceress and transmuter.\nThe mind is hers to explore.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Transmuter",
         "tags": [],
@@ -41,6 +41,23 @@
         "alternate_classes": [],
         "portrait_nid": "{Kanna} [F2E] OC 76",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "999"
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "DeathQuote",
+                "I will melt your flesh from your bones...|I will tear you apart...|Oh yes, I'll have fun with you."
+            ],
+            [
+                "LoyaltyStatus",
+                "No loyalty options are available."
+            ]
+        ]
     }
 ]

@@ -9,10 +9,21 @@
         "priority": 20,
         "_source": [
             "if;v(\"SimonJaneTalkCount\") == 0",
-            "    s;Simon;Blah blah blah",
+            "    add_portrait;Simon;Right",
+            "    s;Simon;Sorceress! Do you yield?",
+            "    add_portrait;LadyJane;Left",
+            "    s;LadyJane;Yield? Under what conditions?",
+            "    s;Simon;Unconditional. I won't make promises yet.",
+            "    s;LadyJane;Hah! Then no.{w} Only on condition of my well-being.|Think on those terms, while my magic crushes your spine.",
             "    inc_level_var;SimonJaneTalkCount",
             "    has_finished;Simon",
             "else",
+            "    music;Route10",
+            "    add_portrait;Simon;Right",
+            "    add_portrait;LadyJane;Left",
+            "    s;Simon;I accept your terms. Tell your men to lay down their arms.",
+            "    s;LadyJane;I am glad we could come to an arrangement.|I look forward to serving your cause.",
+            "    multi_remove_portrait;Simon;LadyJane",
             "    win_game",
             "end"
         ]

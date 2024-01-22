@@ -8,7 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "trigger_script;Global IncreaseMitziProgress",
+            "",
+            "remove_skill;Twins;DualheartedDMG;no_banner",
+            "give_skill;Twins;DualheartedDMGLoyal",
+            "set_unit_field;Twins;LoyaltyStatus;The Twins are completely loyal."
         ]
     }
 ]

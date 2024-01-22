@@ -14,7 +14,9 @@
             "game_var;HullShop;v(\"HullShop\") + \",ThiefSword\"",
             "game_var;HullShopNotification;True",
             "",
-            "trigger_script;Global IncreaseMitziProgress"
+            "trigger_script;Global IncreaseMitziProgress",
+            "",
+            "set_unit_field;Lupus;LoyaltyStatus;Lupus is completely loyal."
         ]
     }
 ]

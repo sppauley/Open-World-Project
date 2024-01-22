@@ -54,6 +54,8 @@
             "#wait;6000",
             "#unhold;IntroQuote",
             "",
+            "set_unit_field;Flower;LoyaltyStatus;Flower is completely loyal.",
+            "",
             "# Add new Flower ability",
             "give_item;Flower;HellfangFlower",
             "trigger_script;Global IncreaseMitziProgress"
