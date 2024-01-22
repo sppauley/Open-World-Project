@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "DualheartedSTGLoyal",
+        "name": "Dualhearted - STG",
+        "desc": "This turn, deal +6 stagger damage. Next turn, deal +6 damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stagger_bonus",
+                6
+            ],
+            [
+                "display_skill_icon_in_combat",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ]
+        ]
+    }
+]

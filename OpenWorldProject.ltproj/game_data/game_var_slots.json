@@ -110,5 +110,9 @@
     {
         "nid": "CriticalWeaponMaterial",
         "desc": "Used for forging weapons"
+    },
+    {
+        "nid": "TwinsLoyal",
+        "desc": "Are the Twins loyal?"
     }
 ]
