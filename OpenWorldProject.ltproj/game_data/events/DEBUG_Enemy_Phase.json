@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Enemy Phase",
+        "trigger": "enemy_turn_change",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "alert;{e:game.get_unit(\"Simon\").get_stat(\"SPD\")}"
+        ]
+    }
+]

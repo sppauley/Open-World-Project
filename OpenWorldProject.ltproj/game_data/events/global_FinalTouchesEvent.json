@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FinalTouchesEvent",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "game.get_unit(\"LadyJane\") and game.get_unit(\"LadyJane\").position",
+        "commands": [],
+        "only_once": false,
+        "priority": 15,
+        "_source": [
+            "for;n;[n.nid for n in target_system.get_adj_units(game.get_unit(\"LadyJane\")) if n.team == game.get_unit(\"LadyJane\").team]",
+            "    give_skill;{n};FinalTouchesChild;no_banner",
+            "endf"
+        ]
+    }
+]

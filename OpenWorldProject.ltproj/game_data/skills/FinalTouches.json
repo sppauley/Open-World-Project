@@ -12,15 +12,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "upkeep_aoe_skill_gain",
-                {
-                    "skill": "FinalTouchesChild",
-                    "range": 1,
-                    "affect_self": false,
-                    "target": "ally"
-                }
             ]
         ]
     }

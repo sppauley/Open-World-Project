@@ -14,15 +14,6 @@
                 null
             ],
             [
-                "upkeep_aoe_skill_gain",
-                {
-                    "skill": "SpurSpeedChild",
-                    "range": 1,
-                    "affect_self": false,
-                    "target": "ally"
-                }
-            ],
-            [
                 "feat",
                 null
             ]

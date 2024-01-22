@@ -23,6 +23,8 @@
             "autolevel_to;Nika;10",
             "give_item;Nika;Master Seal",
             "",
+            "give_skill;Simon;SpurSpeed;no_banner",
+            "",
             "#trigger_script;GenericPreps (Global GenericPreps)",
             "give_skill;103;CrateShove;no_banner",
             "give_skill;102;CrateReposition;no_banner",

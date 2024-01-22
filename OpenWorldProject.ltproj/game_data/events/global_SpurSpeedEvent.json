@@ -1,0 +1,18 @@
+[
+    {
+        "name": "SpurSpeedEvent",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "any([u.get_skill(\"SpurSpeed\") != None for u in game.get_player_units()])",
+        "commands": [],
+        "only_once": false,
+        "priority": 15,
+        "_source": [
+            "for;u;[u.nid for u in game.get_player_units() if u.get_skill(\"SpurSpeed\") and u.position]",
+            "    for;n;[n.nid for n in target_system.get_adj_units(game.get_unit(\"{u}\")) if n.team == \"player\"]",
+            "        give_skill;{n};SpurSpeedChild;no_banner",
+            "    endf",
+            "endf"
+        ]
+    }
+]

@@ -556,5 +556,8 @@
     "32_LeftBallistaDies",
     "32_SpawnIgnis",
     "32_ObjectiveCountdown",
-    "30_Outro"
+    "30_Outro",
+    "DEBUG_Enemy_Phase",
+    "global_SpurSpeedEvent",
+    "global_FinalTouchesEvent"
 ]
