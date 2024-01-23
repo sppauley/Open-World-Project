@@ -11,11 +11,23 @@
             "add_weather;sunset",
             "add_weather;purple",
             "show_layer;overlay",
-            "add_talk;Simon;Kajal",
-            "add_talk;Simon;103",
             "center_cursor;Simon;immediate",
-            "add_talk;Simon;101",
-            "add_talk;Simon;105"
+            "",
+            "if;not v(\"KajalRecruited\")",
+            "    add_talk;Simon;Kajal",
+            "end",
+            "",
+            "if;not v(\"Swamp103Talk\")",
+            "    add_talk;Simon;103",
+            "end",
+            "",
+            "if;not v(\"SwampOutpostVillager\")",
+            "    add_talk;Simon;101",
+            "end",
+            "",
+            "if;not v(\"Swamp105Talk\")",
+            "    add_talk;Simon;105",
+            "end"
         ]
     }
 ]

@@ -18,7 +18,8 @@
             "s;Simon;I'm sure we can manage just fine.",
             "s;SoldierBlue;If you say so.",
             "multi_remove_portrait;Simon;SoldierBlue",
-            "remove_talk;Simon;105"
+            "remove_talk;Simon;105",
+            "game_var;Swamp105Talk;True"
         ]
     }
 ]
