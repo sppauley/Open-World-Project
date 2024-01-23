@@ -61,7 +61,7 @@
             "game_var;LupusRecruited;True",
             "set_unit_field;Lupus;PartyMember;'Yes'",
             "remove_tag;Lupus;Boss",
-            "",
+            "set_overworld_menu_option_visible;1;54;Battle;f",
             "",
             "trigger_script;Global IncreaseMitziProgress"
         ]

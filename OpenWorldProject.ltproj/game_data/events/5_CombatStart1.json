@@ -12,7 +12,7 @@
             "add_region;2ndForm1;23,17;1,1;formation",
             "add_region;2ndForm2;22,18;1,1;formation",
             "add_region;2ndForm3;23,18;1,1;formation",
-            "set_game_board_bounds;6;19;34;34",
+            "set_game_board_bounds;6;16;34;34",
             "remove_unit;101;immediate",
             "remove_unit;102;immediate",
             "remove_unit;103;immediate",

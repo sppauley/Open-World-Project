@@ -36,12 +36,16 @@
             "remove_portrait;Simon",
             "",
             "trigger_script;Global ConsolidateToLeader",
+            "has_finished;{unit}",
+            "reset;{unit}",
             "for;party_unit;[u.nid for u in game.get_units_in_party() if u.nid != \"Simon\"]",
             "    remove_unit;{party_unit}",
             "endf",
             "change_roaming_unit;Simon",
             "change_roaming;t",
-            "reset;Simon"
+            "reset;Simon",
+            "",
+            "add_group;SecondGroup;starting;immediate;no_warn"
         ]
     }
 ]
