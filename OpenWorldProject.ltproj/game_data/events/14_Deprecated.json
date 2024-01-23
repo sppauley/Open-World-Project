@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Deprecated",
+        "trigger": null,
+        "level_nid": "14",
+        "condition": "unit.nid == \"101\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ]
+    }
+]

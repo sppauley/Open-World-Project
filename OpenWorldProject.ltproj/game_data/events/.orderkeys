@@ -71,7 +71,7 @@
     "8_Escape",
     "13_Intro",
     "14_Intro",
-    "14_Defeat_Boss",
+    "14_Deprecated",
     "14_BanditsFlee",
     "global_DEBUGPostTutorial",
     "14_Outro",
@@ -560,5 +560,6 @@
     "DEBUG_Enemy_Phase",
     "global_SpurSpeedEvent",
     "global_FinalTouchesEvent",
-    "5_ChangeObjectiveSimple"
+    "5_ChangeObjectiveSimple",
+    "14_DefeatBossEndCombat"
 ]

@@ -11,6 +11,7 @@
             "music;MoveOut",
             "",
             "add_tag;101;Boss",
+            "",
             "remove_unit;Boudica;immediate",
             "remove_unit;Simon",
             "add_unit;Simon;0,3",
