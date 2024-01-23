@@ -279,14 +279,22 @@
             },
             {
                 "nid": "40",
-                "name": "Mage School",
+                "name": "Mage's School",
                 "pos": [
                     20,
                     14
                 ],
                 "icon": "tower",
-                "level": null,
-                "menu_options": []
+                "level": "33",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "41",
@@ -451,17 +459,6 @@
                         "enabled": true
                     }
                 ]
-            },
-            {
-                "nid": "53",
-                "name": "Mage's School",
-                "pos": [
-                    21,
-                    11
-                ],
-                "icon": "town",
-                "level": null,
-                "menu_options": []
             },
             {
                 "nid": "54",
@@ -1008,20 +1005,6 @@
                 [
                     16,
                     15
-                ]
-            ],
-            "(21, 11)-(24, 12)": [
-                [
-                    21,
-                    11
-                ],
-                [
-                    23,
-                    11
-                ],
-                [
-                    24,
-                    12
                 ]
             ],
             "(27, 21)-(28, 19)": [
