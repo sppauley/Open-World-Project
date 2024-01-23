@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ChangeObjectiveSimple",
+        "trigger": "turn_change",
+        "level_nid": "5",
+        "condition": "game.get_unit(\"Simon\").position[1] > 12",
+        "commands": [],
+        "only_once": false,
+        "priority": 15,
+        "_source": [
+            "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns."
+        ]
+    }
+]

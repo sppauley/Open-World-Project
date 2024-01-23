@@ -559,5 +559,6 @@
     "30_Outro",
     "DEBUG_Enemy_Phase",
     "global_SpurSpeedEvent",
-    "global_FinalTouchesEvent"
+    "global_FinalTouchesEvent",
+    "5_ChangeObjectiveSimple"
 ]

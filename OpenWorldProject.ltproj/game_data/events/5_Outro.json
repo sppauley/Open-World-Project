@@ -55,10 +55,14 @@
             "speak;Simon;Lord Verstadt.",
             "speak;Lupus;...{w} A pleasure nonetheless.",
             "multi_remove_portrait;Simon;Anuki;Lupus",
+            "",
+            "change_ai;Lupus;None",
             "change_team;Lupus;player",
             "game_var;LupusRecruited;True",
             "set_unit_field;Lupus;PartyMember;'Yes'",
             "remove_tag;Lupus;Boss",
+            "",
+            "",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }

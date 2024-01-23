@@ -14,6 +14,7 @@
             "add_weather;night",
             "add_tag;108;Boss",
             "level_var;RaceWon;False",
+            "game_var;freely_exit;True",
             "",
             "remove_unit;Ignis",
             "",

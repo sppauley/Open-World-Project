@@ -45,7 +45,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    2,
                     4
                 ],
                 "starting_traveler": null,
@@ -220,7 +220,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    2
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -234,6 +234,10 @@
                 "starting_items": [
                     [
                         "Iron Blade",
+                        false
+                    ],
+                    [
+                        "Lancereaver",
                         false
                     ]
                 ],
@@ -320,11 +324,6 @@
                 "positions": {}
             }
         ],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

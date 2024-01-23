@@ -14,6 +14,8 @@
             "level_var;maxTurns;-1",
             "show_layer;overlaytiles;immediate;no_warn",
             "set_game_board_bounds;0;0;14;9",
+            "change_ai;Lupus;Guard",
+            "",
             "###",
             "move_unit;Simon;12,0;immediate",
             "add_portrait;Simon;CenterRight",
