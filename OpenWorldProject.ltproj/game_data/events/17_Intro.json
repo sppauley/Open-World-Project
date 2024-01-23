@@ -45,6 +45,7 @@
             "multi_remove_portrait;Boudica;Simon",
             "trigger_script;Global ConsolidateToSimon;Boudica",
             "",
+            "set_overworld_menu_option_visible;1;32;Roam;f;no_warn",
             "wait;500",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
