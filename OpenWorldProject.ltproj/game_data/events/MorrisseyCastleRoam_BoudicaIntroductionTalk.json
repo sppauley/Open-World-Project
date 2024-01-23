@@ -8,11 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_unit;Boudica;3,3;immediate;no_warn",
+            "add_unit;Boudica;11,32;immediate;no_warn",
             "add_talk;Simon;Boudica;no_warn",
             "",
             "trigger_script;MorrisseyCastleRoam MarkInConversation;Boudica",
-            "set_unit_field;Boudica11,32;IntroductionTalkComplete;False"
+            "set_unit_field;Boudica;IntroductionTalkComplete;False"
         ]
     }
 ]
