@@ -64,6 +64,8 @@
             "if;v(\"LupusLvlUnlocked\") == True",
             "    show_layer;sewersentranceopen;immediate",
             "end",
+            "",
+            "add_talk;Simon;101",
             "#",
             "# Add stuff here for changing Simon's starting position depending on where he loaded into the map",
             "#",

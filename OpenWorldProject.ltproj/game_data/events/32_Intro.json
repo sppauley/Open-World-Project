@@ -21,6 +21,7 @@
             "remove_item;Ignis;KnowledgeScroll;no_banner;no_warn",
             "remove_item;Ignis;Master Seal;no_banner;no_warn",
             "give_item;Ignis;Steel_Pike;no_banner;no_warn",
+            "change_team;Ignis;enemy",
             "change_ai;Ignis;Pursue",
             "",
             "set_current_hp;wallfarleft;5",
