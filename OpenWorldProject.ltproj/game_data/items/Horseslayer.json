@@ -2,7 +2,7 @@
     {
         "nid": "Horseslayer",
         "name": "Horseslayer",
-        "desc": "Effective against horseback units",
+        "desc": "Effective against horseback units, including pegasi.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

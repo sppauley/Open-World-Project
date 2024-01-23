@@ -61,7 +61,7 @@
                 "effective_damage",
                 {
                     "effective_tags": [
-                        "Magic"
+                        "Armor"
                     ],
                     "effective_multiplier": 3,
                     "effective_bonus_damage": 0,
