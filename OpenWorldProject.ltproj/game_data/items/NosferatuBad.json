@@ -1,21 +1,17 @@
 [
     {
-        "nid": "Nosferatu",
-        "name": "Nosferatu",
-        "desc": "Heal half damage dealt. Cannot double.",
-        "icon_nid": "TacticsOgre_Items",
+        "nid": "NosferatuBad",
+        "name": "NosferatuBad",
+        "desc": "User recovers HP equal to damage dealt.",
+        "icon_nid": "Dark",
         "icon_index": [
-            7,
-            9
+            0,
+            2
         ],
         "components": [
             [
                 "weapon",
                 null
-            ],
-            [
-                "value",
-                560
             ],
             [
                 "target_enemy",
@@ -31,11 +27,11 @@
             ],
             [
                 "damage",
-                8
+                10
             ],
             [
                 "hit",
-                90
+                70
             ],
             [
                 "crit",
@@ -43,7 +39,7 @@
             ],
             [
                 "weight",
-                10
+                14
             ],
             [
                 "level_exp",
@@ -55,14 +51,14 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "C"
             ],
             [
                 "map_hit_add_blend",
                 [
-                    224,
-                    96,
-                    0
+                    72,
+                    0,
+                    65
                 ]
             ],
             [
@@ -70,25 +66,23 @@
                 null
             ],
             [
-                "stagger",
-                2
+                "value",
+                3200
             ],
             [
-                "stat_req",
-                [
-                    [
-                        "MAG",
-                        0
-                    ]
-                ]
+                "uses",
+                20
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ],
             [
                 "lifelink",
-                0.5
-            ],
-            [
-                "no_double",
-                null
+                1.0
             ]
         ]
     }
