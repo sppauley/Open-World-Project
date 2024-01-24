@@ -563,5 +563,7 @@
     "5_ChangeObjectiveSimple",
     "14_DefeatBossEndCombat",
     "34_Intro",
-    "34_Talk_Heretic"
+    "34_Talk_Heretic",
+    "33_Intro",
+    "33_CenterRoomBook"
 ]

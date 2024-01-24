@@ -10,6 +10,7 @@
         "_source": [
             "if;static_random.get_randint(0, 99) < 30",
             "    sound;RefreshDanceMap",
+            "    add_unit_map_anim;StatUpSpark;{unit}",
             "    reset;{unit}",
             "    wait;100",
             "end"

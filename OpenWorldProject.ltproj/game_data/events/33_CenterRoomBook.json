@@ -1,0 +1,18 @@
+[
+    {
+        "name": "CenterRoomBook",
+        "trigger": "Read",
+        "level_nid": "33",
+        "condition": "region.nid == \"CenterRoom\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "remove_region;CenterRoom;no_warn",
+            "remove_map_anim;Square;{position};no_warn",
+            "",
+            "give_item;{unit};Cyclone",
+            "has_traded;{unit}"
+        ]
+    }
+]

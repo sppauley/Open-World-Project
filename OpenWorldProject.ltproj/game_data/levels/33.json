@@ -22,7 +22,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    16,
+                    16
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -32,12 +35,50 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    16,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    15,
+                    17
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "CenterRoom",
+                "region_type": "event",
+                "position": [
+                    16,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Read",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     }

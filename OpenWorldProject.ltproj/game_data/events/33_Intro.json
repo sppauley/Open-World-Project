@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "33",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Alina;other",
+            "",
+            "# Spawn anim squares",
+            "map_anim;Square;16,9;permanent",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps",
+            "",
+            "change_team;Alina;player"
+        ]
+    }
+]
