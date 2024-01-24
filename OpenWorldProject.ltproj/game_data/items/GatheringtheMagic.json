@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Poker",
-        "name": "Poker For Dummies",
+        "nid": "GatheringtheMagic",
+        "name": "Gathering: The Magic",
         "desc": "On hit, swap user and target.\nLibrary loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
