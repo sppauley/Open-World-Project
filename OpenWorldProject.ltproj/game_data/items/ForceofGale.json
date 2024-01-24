@@ -2,7 +2,7 @@
     {
         "nid": "ForceofGale",
         "name": "Force of Gale",
-        "desc": "Once per turn, staggering an opponent grants an extra action.",
+        "desc": "Once per turn, staggering an opponent grants an extra action.\nLibrary loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             8,
