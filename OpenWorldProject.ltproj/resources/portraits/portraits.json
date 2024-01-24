@@ -1510,5 +1510,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "Cultist (Version 1) {RandomWizard}",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 0
     }
 ]

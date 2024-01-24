@@ -1,0 +1,45 @@
+[
+    {
+        "nid": "Professor",
+        "name": "Dr. Williams",
+        "desc": "He is committed to the learning environment.\nObviously.",
+        "variant": null,
+        "level": 5,
+        "klass": "Druid",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "CON": 7,
+            "MAG": 11,
+            "DEX": 14,
+            "SPD": 12,
+            "PSE": 20,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Fimbulvetr",
+                false
+            ],
+            [
+                "Nosferatu",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                121,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Cultist (Version 1) {RandomWizard}",
+        "affinity": null,
+        "fields": []
+    }
+]
