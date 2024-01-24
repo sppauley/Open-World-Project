@@ -85,6 +85,10 @@
             [
                 "stagger",
                 4
+            ],
+            [
+                "reaver",
+                null
             ]
         ]
     }

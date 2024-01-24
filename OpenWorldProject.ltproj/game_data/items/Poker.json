@@ -1,11 +1,11 @@
 [
     {
-        "nid": "ForceofGale",
-        "name": "Force of Gale",
-        "desc": "Staggering an opponent grants an extra action.\nLibrary loan.",
+        "nid": "Poker",
+        "name": "Poker For Dummies",
+        "desc": "On hit, swap user and target.\nLibrary loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
-            8,
+            4,
             9
         ],
         "components": [
@@ -31,11 +31,11 @@
             ],
             [
                 "damage",
-                3
+                5
             ],
             [
                 "hit",
-                90
+                80
             ],
             [
                 "crit",
@@ -43,7 +43,7 @@
             ],
             [
                 "weight",
-                2
+                6
             ],
             [
                 "level_exp",
@@ -83,8 +83,8 @@
                 ]
             ],
             [
-                "status_on_equip",
-                "StaggerGaleforce"
+                "swap",
+                null
             ]
         ]
     }

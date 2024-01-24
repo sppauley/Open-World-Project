@@ -205,7 +205,7 @@
                 "nid": "104",
                 "variant": null,
                 "level": 1,
-                "klass": "Halberdier",
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -229,15 +229,15 @@
                 "nid": "106",
                 "variant": null,
                 "level": 20,
-                "klass": "Mercenary",
+                "klass": "Sage",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Blade",
+                        "ForceofGale",
                         false
                     ],
                     [
-                        "Lancereaver",
+                        "Poker",
                         false
                     ]
                 ],
@@ -324,6 +324,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
