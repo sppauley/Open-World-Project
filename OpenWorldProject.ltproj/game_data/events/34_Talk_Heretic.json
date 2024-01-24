@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Talk Heretic",
+        "trigger": "on_talk",
+        "level_nid": "34",
+        "condition": "unit2.nid == 'Raymond'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Raymond;Right;mirror",
+            "add_portrait;Simon;Left;left",
+            "s;Raymond;Blast!",
+            "s;Simon;Something wrong?",
+            "mirror_portrait;Raymond",
+            "s;Raymond;Who're you?{w}{br}Go away.",
+            "s;Simon;Calm down.{w} I'm just looking to investigate the shrine.",
+            "s;Raymond;Bah! Of course you'd like that.{w}{br}Not happening.{w}{br}See these seals?",
+            "multi_remove_portrait;Simon;Raymond",
+            "flicker_cursor;Seal_2",
+            "wait;500",
+            "multi_add_portrait;Simon;Left;Raymond;Right",
+            "s;Simon;Yes?",
+            "s;Raymond;They're put here to protect the shrine.{w}{br}Damned Fates putting up a fight.",
+            "s;Simon;I see. Any way to disable them?",
+            "s;Raymond;I'm in the middle of trying to find out.{w}{br}So buzz off.",
+            "multi_remove_portrait;Simon;Raymond",
+            "",
+            "remove_talk;Simon;Raymond"
+        ]
+    }
+]

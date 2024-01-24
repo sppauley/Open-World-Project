@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Raymond",
+        "name": "Raymond",
+        "desc": "A heretic.",
+        "variant": null,
+        "level": 1,
+        "klass": "Rogue",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "CON": 18,
+            "DEX": 21,
+            "SPD": 8,
+            "PSE": 11,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{AmBrosiac} OC Gray",
+        "affinity": null,
+        "fields": []
+    }
+]
