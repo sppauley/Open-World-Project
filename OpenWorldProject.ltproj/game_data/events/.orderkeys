@@ -561,5 +561,7 @@
     "global_SpurSpeedEvent",
     "global_FinalTouchesEvent",
     "5_ChangeObjectiveSimple",
-    "14_DefeatBossEndCombat"
+    "14_DefeatBossEndCombat",
+    "34_Intro",
+    "34_Talk_Heretic"
 ]
