@@ -251,5 +251,13 @@
     {
         "nid": "{Celice} Item 2_1",
         "subicon_dict": {}
+    },
+    {
+        "nid": "TacticsOgre_Items",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "CalamityGate",
+        "subicon_dict": {}
     }
 ]

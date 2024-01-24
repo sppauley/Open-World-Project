@@ -11,7 +11,7 @@
             "remove_region;CenterRoom;no_warn",
             "remove_map_anim;Square;{position};no_warn",
             "",
-            "give_item;{unit};Cyclone",
+            "give_item;{unit};ForceofGale",
             "has_traded;{unit}"
         ]
     }
