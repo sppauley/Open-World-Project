@@ -10,7 +10,7 @@
         "_source": [
             "#alert;{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}",
             "",
-            "level_var;LevelPlayerPhaseMusic;game.level.music[\"player_phase\"]",
+            "level_var;LevelPlayerPhaseMusic;game.level.music.get(\"player_phase\")",
             "",
             "prep;f;{v:LevelPlayerPhaseMusic};Loyalty,Difficulty,Exit;True,True,{v:freely_exit};PathwayMenu,ChangeDifficulty,ExitMap",
             "#{e:not any([u.nid for u in game.get_units_in_party() if any([item_funcs.targets_nonself_allies(u, item) for item in u.items])])}"
