@@ -11,7 +11,8 @@
             "# setup",
             "show_layer;overlay",
             "",
-            "add_talk;Simon;Raymond"
+            "add_talk;Simon;Raymond",
+            "add_talk;Simon;101"
         ]
     }
 ]

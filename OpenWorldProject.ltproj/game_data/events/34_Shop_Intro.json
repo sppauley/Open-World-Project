@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Shop Intro",
+        "trigger": "on_talk",
+        "level_nid": "34",
+        "condition": "unit2.nid == '101'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Simon;Left;Villager Man 6;Right",
+            "s;Simon;What are you doing hiding in the trees? Is everything alright?",
+            "s;Villager Man 6;I-is he gone?",
+            "s;Simon;Who?",
+            "s;Villager Man 6;The heretic.{w} He came into the temple where I was selling my wares.{w}{br}He had this crazed look in his eyes. {w}He started smashing things near the shrine.{w}{br}I ran before he could get to me.",
+            "s;Simon;Do you know who this heretic is?",
+            "s;Villager Man 6;No.{w} But he kept cursing the Fates. In Lachesis's temple no less!{w}{br}I hope Lachesis curses him with great misfortune!",
+            "wait;300",
+            "s;Villager Man 6;Oh, and while you're here... looking to buy something?",
+            "multi_remove_portrait;Simon;Villager Man 6"
+        ]
+    }
+]

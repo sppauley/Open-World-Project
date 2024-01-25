@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "PreciseAxe",
+        "name": "Precise Axe",
+        "desc": "Grants +30 hit when attacking.",
+        "icon_nid": "{Celice} Axe 9",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "weight",
+                9
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "wexp",
+                1
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        6
+                    ]
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Precise"
+            ],
+            [
+                "value",
+                350
+            ]
+        ]
+    }
+]

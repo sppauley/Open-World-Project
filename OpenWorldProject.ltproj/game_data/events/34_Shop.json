@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Shop",
+        "trigger": "on_talk",
+        "level_nid": "34",
+        "condition": "unit2.nid == '101'",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "shop;Simon;PreciseAxe;armory"
+        ]
+    }
+]
