@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "33",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;u;[u.nid for u in game.get_all_units_in_party()]",
+            "    for;item;[item.uid for item in game.get_unit(\"{u}\").items]",
+            "        if;\"Library Loan\" in game.get_item(\"{item}\").desc",
+            "            remove_item;{u};{item};no_banner",
+            "        end",
+            "    endf",
+            "endf",
+            "",
+            "# TODO: Need to remove from convoy still"
+        ]
+    }
+]
