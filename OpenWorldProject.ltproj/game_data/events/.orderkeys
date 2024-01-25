@@ -575,5 +575,8 @@
     "33_Left3",
     "33_Left4",
     "34_Shop_Intro",
-    "34_Shop"
+    "34_Shop",
+    "33_CloseDoors",
+    "33_AlinaDies",
+    "33_StudentDies"
 ]

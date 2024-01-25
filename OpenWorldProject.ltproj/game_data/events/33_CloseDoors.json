@@ -1,0 +1,35 @@
+[
+    {
+        "name": "CloseDoors",
+        "trigger": "unit_wait",
+        "level_nid": "33",
+        "condition": "any([u.nid != \"Alina\" for u in get_units_in_region('TooCloseLeft', team='player')]) or any([u.nid != \"Alina\" for u in get_units_in_region('TooCloseRight', team='player')])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Professor;Right",
+            "s;Professor;Rrghh... that's close enough!{w} You!|Seal the gate!",
+            "remove_portrait;Professor",
+            "",
+            "show_layer;Walls",
+            "",
+            "center_cursor;16,19",
+            "add_tag;101;Boss",
+            "add_unit;101;16,19;fade;push",
+            "move_unit;101;16,16;normal;push;no_block",
+            "# Add more reinforcements here",
+            "",
+            "add_portrait;Student;Right",
+            "s;Student;I'll guard you with my life, Professor!",
+            "remove_portrait;Student",
+            "flicker_cursor;101",
+            "wait;500",
+            "",
+            "center_cursor;Alina",
+            "add_portrait;Alina;Left",
+            "s;Alina;Stop it!{w} Stop hiding behind your students!",
+            "remove_portrait;Alina"
+        ]
+    }
+]

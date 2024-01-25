@@ -88,5 +88,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Pelopos",
+        "name": "Pelopos",
+        "desc": "A revolutionary city that \notherthrew their noble lords.",
+        "icon_nid": "TemplarEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

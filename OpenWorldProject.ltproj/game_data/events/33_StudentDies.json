@@ -1,0 +1,26 @@
+[
+    {
+        "name": "StudentDies",
+        "trigger": "combat_end",
+        "level_nid": "33",
+        "condition": "game.check_dead(\"101\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Student;Right;immediate",
+            "expression;Student;HalfCloseEyes",
+            "s;Student;I'm... sorry... Professor...",
+            "remove_portrait;Student",
+            "",
+            "center_cursor;Professor",
+            "",
+            "add_portrait;Professor;Right",
+            "s;Professor;No... NO!{w} An upstart, killing...|You harlot! I'll have your head!",
+            "remove_portrait;Professor",
+            "",
+            "hide_layer;Walls",
+            "change_ai;Professor;Pursue"
+        ]
+    }
+]

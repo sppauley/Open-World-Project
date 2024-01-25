@@ -23,7 +23,7 @@
             "map_anim;Square;{e:game.get_region(\"Left4\").position};permanent",
             "",
             "change_team;Professor;enemy",
-            "change_ai;Professor;Defend",
+            "change_ai;Professor;Guard",
             "",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
