@@ -1,9 +1,9 @@
 [
     {
-        "name": "Right1",
+        "name": "Left1",
         "trigger": "Read",
         "level_nid": "33",
-        "condition": "region.nid == \"Right1\"",
+        "condition": "region.nid == \"Left1\"",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -19,7 +19,7 @@
             "map_anim;Snag;{e:(region.position[0] + 1, region.position[1] - 3)};no_block",
             "show_layer;{e:region.nid};fade",
             "",
-            "give_item;{unit};Nosferatu",
+            "give_item;{unit};Lightning",
             "has_traded;{unit}"
         ]
     }

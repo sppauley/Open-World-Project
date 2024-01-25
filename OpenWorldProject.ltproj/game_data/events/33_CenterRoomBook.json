@@ -11,6 +11,10 @@
             "remove_region;CenterRoom;no_warn",
             "remove_map_anim;Square;{position};no_warn",
             "",
+            "map_anim;Snag;{e:(region.position[0], region.position[1] - 1)};no_block",
+            "map_anim;Snag;{e:(region.position[0], region.position[1] - 2)};no_block",
+            "show_layer;{e:region.nid};immediate",
+            "",
             "give_item;{unit};ForceofGale",
             "has_traded;{unit}"
         ]
