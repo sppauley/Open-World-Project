@@ -2,7 +2,7 @@
     {
         "nid": "SunLight",
         "name": "Sun's Light",
-        "desc": "After hit, MAG% for target to have -50% hit until their next turn.",
+        "desc": "Vision range +3.\nAfter hit, MAG% for target to have -50% hit until their next turn.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -24,6 +24,10 @@
             [
                 "personal_skill",
                 null
+            ],
+            [
+                "sight_range_bonus",
+                3
             ]
         ]
     }
