@@ -1,7 +1,7 @@
 [
     {
         "name": "StudentDies",
-        "trigger": "combat_end",
+        "trigger": "turn_change",
         "level_nid": "33",
         "condition": "game.check_dead(\"101\")",
         "commands": [],
