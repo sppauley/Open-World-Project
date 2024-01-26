@@ -1,0 +1,30 @@
+[
+    {
+        "name": "DuyguLoyalty",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.nid == \"Duygu\" and unit.stats['CON'] == 20",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Duygu",
+            "add_portrait;Duygu;Left",
+            "s;Duygu;Hahah.... HAHAHAH!|Yes! After so many years...|YES!",
+            "remove_portrait;Duygu;immediate",
+            "add_portrait;Duygu;Right",
+            "s;Duygu;I am strong!",
+            "remove_portrait;Duygu;immediate",
+            "add_portrait;Duygu;Left",
+            "s;Duygu;I am powerful!",
+            "remove_portrait;Duygu;immediate",
+            "add_portrait;Duygu;Right",
+            "s;Duygu;I am... unstoppable!",
+            "s;Duygu;Simon, I will remember the strength you have given me!|When cities sing my praises, your name will be known too!",
+            "remove_portrait;Duygu",
+            "",
+            "alert;Duygu's Heirloom Band can now be used.",
+            "set_unit_field;Duygu;LoyaltyStatus;Duygu is completely loyal."
+        ]
+    }
+]

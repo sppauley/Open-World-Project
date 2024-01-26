@@ -579,5 +579,6 @@
     "33_CloseDoors",
     "33_AlinaDies",
     "33_StudentDies",
-    "33_Outro"
+    "33_Outro",
+    "global_DuyguLoyalty"
 ]

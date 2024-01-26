@@ -137,7 +137,7 @@
                 "generic": true
             },
             {
-                "nid": "LadyJane",
+                "nid": "Duygu",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -324,6 +324,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
