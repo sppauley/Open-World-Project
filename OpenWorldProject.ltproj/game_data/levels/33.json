@@ -159,6 +159,30 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 1,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "CollectBooks",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
