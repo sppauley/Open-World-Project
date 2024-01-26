@@ -28,7 +28,16 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Renewal"
+            ],
+            [
+                1,
+                "Crit +30"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Anima": [

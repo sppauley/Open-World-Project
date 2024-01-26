@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Historymaker_child",
+        "name": "Historymaker",
+        "desc": "This player phase, this unit's attacks are brave.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ]
+        ]
+    }
+]

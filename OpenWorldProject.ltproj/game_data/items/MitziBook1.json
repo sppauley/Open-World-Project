@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "MitziBook1",
+        "name": "Seven Kings of Pelopos",
+        "desc": "The early history of Pelopos.\nUser gains +3 HP.",
+        "icon_nid": "TacticsOgre_Items",
+        "icon_index": [
+            9,
+            9
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                4000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "accessory",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "permanent_stat_change",
+                [
+                    [
+                        "HP",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

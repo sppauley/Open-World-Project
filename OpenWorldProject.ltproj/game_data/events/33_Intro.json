@@ -39,6 +39,18 @@
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",
+            "center_cursor;2,4",
+            "flicker_cursor;2,4",
+            "wait;600",
+            "",
+            "center_cursor;29,4",
+            "flicker_cursor;29,4",
+            "wait;600",
+            "",
+            "add_portrait;Mitzi;FarLeft",
+            "s;Mitzi;Could it be...?{w} What a turn of fortune!|I must have those tomes!|Forget the girl if needed,|I see original manuscripts!",
+            "remove_portrait;Mitzi",
+            "",
             "change_team;Alina;player"
         ]
     }

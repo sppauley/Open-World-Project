@@ -143,8 +143,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    7
+                    2,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -162,14 +162,14 @@
                     ]
                 ],
                 "starting_skills": [
-                    "PromotionZeal"
+                    "Historymaker"
                 ],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    1,
                     7
                 ],
                 "starting_traveler": null,
@@ -324,6 +324,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

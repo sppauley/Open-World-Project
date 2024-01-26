@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Historymaker",
+        "name": "Historymaker",
+        "desc": "At the start of the turn, adjacent allies gain\n\"This player phase, this unit's attacks are brave\"",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "upkeep_aoe_skill_gain",
+                {
+                    "skill": "Historymaker_child",
+                    "range": 1,
+                    "affect_self": false,
+                    "target": "ally"
+                }
+            ]
+        ]
+    }
+]

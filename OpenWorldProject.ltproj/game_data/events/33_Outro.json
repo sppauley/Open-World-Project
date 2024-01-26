@@ -16,7 +16,21 @@
             "    endf",
             "endf",
             "",
-            "# TODO: Need to remove from convoy still"
+            "# TODO: Need to remove from convoy still",
+            "",
+            "if;game.check_dead(\"107\") and game.check_dead(\"108\")",
+            "    add_portrait;Mitzi;Right",
+            "    s;Mitzi;After all these years, to finally hold these tomes!|Well, rest assured, they're much better served with us,|rather than some barbaric rebel library.",
+            "    add_portrait;Simon;Left",
+            "    wait;300",
+            "    s;Mitzi;Simon, I cannot thank you enough.|Possessing these tomes has been a lifelong dream.",
+            "    s;Simon;I think the librarian will want them back.|Aren't these originals?{w} I know they're crucial to Pelopos' history.",
+            "    s;Mitzi;Well, one cannot always get what they wish for.|Now, I believe you have earned coauthorship on my next paper.",
+            "    multi_remove_portrait;Mitzi;Simon",
+            "",
+            "    set_unit_field;Mitzi;LoyaltyStatus;Mitzi is completely loyal.",
+            "    give_skill;Mitzi;Historymaker",
+            "end"
         ]
     }
 ]
