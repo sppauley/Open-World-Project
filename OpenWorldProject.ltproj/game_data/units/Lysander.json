@@ -48,6 +48,11 @@
         "alternate_classes": [],
         "portrait_nid": "Smokeyguy77_Samurai",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "LoyaltyStatus",
+                "Complete the arena."
+            ]
+        ]
     }
 ]
