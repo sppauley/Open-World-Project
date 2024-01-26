@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "change_team;Alina;other",
+            "show_layer;overlay;immediate",
             "",
             "# Spawn anim squares",
             "map_anim;Square;16,9;permanent",
