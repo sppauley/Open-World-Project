@@ -2,7 +2,7 @@
     {
         "nid": "GatheringtheMagic",
         "name": "Gathering: The Magic",
-        "desc": "On hit, swap user and target.\nLibrary loan.",
+        "desc": "On hit, swap user and target. Cannot double.\nLibrary loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             4,
@@ -31,7 +31,7 @@
             ],
             [
                 "damage",
-                5
+                10
             ],
             [
                 "hit",
@@ -84,6 +84,10 @@
             ],
             [
                 "swap",
+                null
+            ],
+            [
+                "no_double",
                 null
             ]
         ]

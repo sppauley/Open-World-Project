@@ -8,12 +8,12 @@
         "klass": "Druid",
         "tags": [],
         "bases": {
-            "HP": 40,
+            "HP": 30,
             "CON": 7,
             "MAG": 11,
             "DEX": 14,
             "SPD": 12,
-            "PSE": 20,
+            "PSE": 15,
             "MOV": 6
         },
         "growths": {},

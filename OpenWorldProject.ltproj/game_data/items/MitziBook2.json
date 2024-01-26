@@ -1,8 +1,8 @@
 [
     {
         "nid": "MitziBook2",
-        "name": "Two Founding Brothers",
-        "desc": "The foundation of Pelopos.\nUser gains +1 CON.",
+        "name": "Two Brothers",
+        "desc": "The founders of Pelopos.\nUser gains +1 CON.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             9,
