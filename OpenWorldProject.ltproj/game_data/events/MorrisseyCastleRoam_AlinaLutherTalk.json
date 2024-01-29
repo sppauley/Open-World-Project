@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AlinaLutherTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Alina;0,21;immediate",
+            "add_unit;Luther;2,21;immediate",
+            "add_talk;Simon;Alina",
+            "add_talk;Simon;Luther",
+            "",
+            "if;v(\"AlinaPartners\").remove(\"Luther\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Alina",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Luther",
+            "level_var;AlinaLutherConversation;True"
+        ]
+    }
+]

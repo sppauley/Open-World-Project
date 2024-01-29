@@ -10,7 +10,8 @@
         "_source": [
             "game_var;AnukiPartners;[\"Vincent\", \"Boudica\"]",
             "game_var;MelodiePartners;[\"Lupus\"]",
-            "game_var;JulietPartners;[\"Vincent\"]"
+            "game_var;JulietPartners;[\"Vincent\"]",
+            "game_var;AlinaPartners;[\"Luther\"]"
         ]
     }
 ]
