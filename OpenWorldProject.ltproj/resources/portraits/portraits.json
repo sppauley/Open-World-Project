@@ -1534,5 +1534,17 @@
             48
         ],
         "info_offset": 3
+    },
+    {
+        "nid": "Librarian",
+        "blinking_offset": [
+            16,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
+        ],
+        "info_offset": 7
     }
 ]
