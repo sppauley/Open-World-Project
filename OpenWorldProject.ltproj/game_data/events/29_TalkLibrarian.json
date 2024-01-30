@@ -1,0 +1,36 @@
+[
+    {
+        "name": "TalkLibrarian",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == \"127\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Luther;FarRight",
+            "add_portrait;Simon;MidRight;mirror",
+            "s;Luther;Milord, I've heard tales of the Mage's School outside Pelopos.",
+            "s;Simon;What about it interests you?{w} Do you have a secret talent for it?",
+            "add_portrait;Librarian;FarLeft;left",
+            "s;Luther;Ha, if only.{w} No, only that many students later become mercenaries.",
+            "s;Simon;I see. Recruiting a powerful mage could be a major boon.",
+            "move_portrait;Librarian;Left",
+            "s;Librarian;The Mage's School!?!{w} Are you a student, young sir?",
+            "mirror_portrait;Simon",
+            "s;Simon;I am not. Are you familiar with it?",
+            "s;Librarian;Why, I am the head librarian! Our collection there is unparalleled.",
+            "s;Luther;A tour would be deeply appreciated.|We are deeply interested in your...|Learning.",
+            "s;Librarian;Of course, of course.|It lies just southwest of the city.|Meet me at the school's outer gates,|at your earliest convenience!",
+            "remove_portrait;Librarian",
+            "wait;800",
+            "mirror_portrait;Simon",
+            "s;Simon;Good thinking, Luther.{w} His guidance will be invaluable.",
+            "s;Luther;The rest may be up to you, milord.|Convincing a Peloponnesian to fight for a lord,|well, that will be no easy task.",
+            "multi_remove_portrait;Simon;Luther",
+            "",
+            "game_var;LibrarianMet;True",
+            "remove_talk;Simon;127"
+        ]
+    }
+]

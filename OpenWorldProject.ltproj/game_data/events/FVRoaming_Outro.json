@@ -8,11 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "# Commenting this out so the player can't skip Port Hull to reach Pelopos",
             "overworld_cinematic;1",
             "set_overworld_position;Simon;32",
             "center_cursor;Simon;immediate",
-            "reveal_overworld_node;40",
-            "reveal_overworld_road;32;40",
+            "#reveal_overworld_node;40",
+            "#reveal_overworld_road;32;40",
             ""
         ]
     }
