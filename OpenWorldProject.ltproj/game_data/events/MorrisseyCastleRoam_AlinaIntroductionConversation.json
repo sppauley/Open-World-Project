@@ -1,0 +1,33 @@
+[
+    {
+        "name": "AlinaIntroductionConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Alina\" and game.get_unit(\"Alina\").get_field(\"IntroductionTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Alina;Left;mirror",
+            "add_portrait;Simon;Right;right",
+            "s;Alina;That was really something, huh?|A poor first impression, I know.",
+            "mirror_portrait;Alina",
+            "s;Alina;Give me a chance to introduce myself.|I am Ms. Alina Kruggetz.",
+            "bop_portrait;Alina",
+            "s;Alina;Formerly a traveling songstress.|...Formerly, a student.|Now, I hear I'm a mercenary.",
+            "s;Simon;Yes. Of a sort.|But, if I may, I don't understand what happened at the school.|I thought nobility had been abolished in Pelopos,|so why did he call you a lowborn?",
+            "s;Alina;His tongue slipped.{w} The correct term, now,|is \"lacking revolutionary heritage\".|My mother was a songstress, and travelled.|Neither of us took part in the revolution,|and are therefore thought to be untrustworthy.",
+            "s;Simon;I see. So you have nothing against nobility?",
+            "s;Alina;Against certain nobles, sure.{w} But as to the institution,|Pelopos oddly taught me fondness for it.",
+            "s;Simon;I'm relieved to hear it.|My story is a long one, but I am the scion of House Verstadt.",
+            "s;Alina;Let me find you a chair.{w} I want to hear it, from the start.",
+            "transition;close;1000",
+            "multi_remove_portrait;Alina;Simon",
+            "wait;700",
+            "transition;open;1",
+            "",
+            "remove_talk;Simon;Alina",
+            "set_unit_field;Alina;IntroductionTalkComplete;True"
+        ]
+    }
+]
