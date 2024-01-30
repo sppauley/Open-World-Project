@@ -1,0 +1,21 @@
+[
+    {
+        "name": "BoudicaMelodieTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Boudica;27,32;immediate",
+            "add_unit;Melodie;28,32;immediate",
+            "add_talk;Simon;Boudica",
+            "add_talk;Simon;Melodie",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Boudica",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Melodie",
+            "level_var;BoudicaMelodieConversation;True"
+        ]
+    }
+]

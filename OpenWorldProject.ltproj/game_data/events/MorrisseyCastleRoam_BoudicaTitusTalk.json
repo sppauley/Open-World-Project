@@ -1,0 +1,21 @@
+[
+    {
+        "name": "BoudicaTitusTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Titus;28,24;immediate",
+            "add_unit;Boudica;30,25;immediate",
+            "add_talk;Simon;Titus",
+            "add_talk;Simon;Boudica",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Titus",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Boudica",
+            "level_var;BoudicaTitusConversation;True"
+        ]
+    }
+]

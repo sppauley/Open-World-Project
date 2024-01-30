@@ -1,0 +1,26 @@
+[
+    {
+        "name": "BoudicaTitusConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Titus\" or unit2.nid == \"Boudica\") and v(\"BoudicaTitusConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# From my notes:",
+            "# This is a follow-up to Boudica/Melodie 2",
+            "# Spend some time on this one - Boudica is starting to realize",
+            "# that Melodie really isn't her daughter, and is sinking back",
+            "# into grief. Titus talks about his experience with grief,",
+            "# and asks for Boudica to share some happy memories of her daughters",
+            "# It ends with Boudica inviting Titus to visit their grave",
+            "# Unlocks a small roam-only map near eastern path ",
+            "#",
+            "",
+            "remove_talk;Simon;Boudica",
+            "remove_talk;Simon;Titus",
+            "level_var;BoudicaTitusConversation;False"
+        ]
+    }
+]
