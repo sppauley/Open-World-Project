@@ -2,7 +2,7 @@
     {
         "nid": "Resist+",
         "name": "Resist+",
-        "desc": "Grants additional RES.",
+        "desc": "For 4 turns, reduces damage from magic attacks and increases MAG by 4.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -11,7 +11,20 @@
         "components": [
             [
                 "time",
-                7
+                4
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "dynamic_resist",
+                "4 if target.get_weapon() and 'magic' in [component.nid for component in target.get_weapon().components] else 0"
             ]
         ]
     }
