@@ -2,7 +2,7 @@
     {
         "nid": "Pure Water",
         "name": "Pure Water",
-        "desc": "Temporarily raises resistance.",
+        "desc": "Temporarily raises MAG and reduces damage from magic attacks by 4 for 4 turns.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -22,17 +22,6 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     0,
@@ -47,6 +36,17 @@
             [
                 "accessory",
                 null
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
             ]
         ]
     }

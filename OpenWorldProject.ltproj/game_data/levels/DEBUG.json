@@ -205,11 +205,11 @@
                 "nid": "104",
                 "variant": null,
                 "level": 1,
-                "klass": "Soldier",
+                "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Axereaver",
+                        "Fire",
                         false
                     ]
                 ],
@@ -233,11 +233,11 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "EclipseLibrary",
+                        "Fire",
                         false
                     ],
                     [
-                        "Fortify",
+                        "Pure Water",
                         false
                     ]
                 ],
@@ -324,6 +324,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
