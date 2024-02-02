@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "BoudicaGraveyard",
+        "name": "Small Graveyard",
+        "tilemap": "BoudicaGraveyard",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Explore",
+            "win": "Explore",
+            "loss": "N/A"
+        },
+        "roam": true,
+        "roam_unit": "Boudica",
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Boudica",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Titus",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]
