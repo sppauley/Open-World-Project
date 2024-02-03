@@ -75,7 +75,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "a",
                 "starting_position": [
                     3,
                     17
@@ -103,7 +103,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "a",
                 "starting_position": [
                     1,
                     17
@@ -131,7 +131,7 @@
                 "team": "enemy",
                 "ai": "Attack",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "a",
                 "starting_position": [
                     2,
                     18
@@ -179,7 +179,7 @@
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
+                "nid": "a",
                 "trigger_threshold": 1
             }
         ]

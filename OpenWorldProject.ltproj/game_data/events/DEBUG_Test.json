@@ -42,7 +42,8 @@
             "",
             "set_current_hp;105;4",
             "#promote;Simon",
-            "#set_current_hp;101;1"
+            "#set_current_hp;101;1",
+            "give_skill;Luther;CrushingMight"
         ]
     }
 ]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "CrushingMight",
+        "name": "Crushing Might",
+        "desc": "Unit deals +6 stagger damage if unit's HP > foe's HP",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            7,
+            45
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_hp() > target.get_hp()"
+            ],
+            [
+                "stagger_bonus",
+                6
+            ]
+        ]
+    }
+]
