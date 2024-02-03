@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "35",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "",
+            "",
+            "",
+            "# prep",
+            "arrange_formation",
+            "game_var;freely_exit;True",
+            "trigger_script;Global GenericPreps"
+        ]
+    }
+]
