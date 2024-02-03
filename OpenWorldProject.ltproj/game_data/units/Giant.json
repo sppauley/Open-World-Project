@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Giant",
+        "name": "Giant",
+        "desc": "One of the last remaining giants.",
+        "variant": null,
+        "level": 30,
+        "klass": "Giant",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 90,
+            "CON": 23,
+            "MAG": 2,
+            "DEX": 21,
+            "SPD": 7,
+            "PSE": 30,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Titan_Hammer",
+                true
+            ],
+            [
+                "RottingMaw",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Ruler"
+            ],
+            [
+                1,
+                "Renewal"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Innate": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "",
+        "affinity": null,
+        "fields": []
+    }
+]

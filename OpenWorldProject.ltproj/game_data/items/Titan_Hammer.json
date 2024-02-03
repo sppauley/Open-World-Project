@@ -1,0 +1,82 @@
+[
+    {
+        "nid": "Titan_Hammer",
+        "name": "Titan Hammer",
+        "desc": "Giants and Luther only. A massive hammer that can break any foe.",
+        "icon_nid": "{FuriousHaunter} Mjolnir",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                60
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "weight",
+                30
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "stagger",
+                20
+            ],
+            [
+                "prf_unit",
+                [
+                    "Luther",
+                    "Giant"
+                ]
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        6
+                    ]
+                ]
+            ]
+        ]
+    }
+]

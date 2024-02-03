@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "RottingMaw",
+        "name": "Rotting Maw",
+        "desc": "If the target's CON is less than 10, sets their poise to 1.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            12
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "weight",
+                8
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Innate"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "stagger",
+                0
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global LarryElixir"
+            ]
+        ]
+    }
+]

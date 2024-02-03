@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Giant Ruler",
+        "trigger": "unit_wait",
+        "level_nid": "35",
+        "condition": "not any(get_units_in_region('Giant', nid='Giant')) and unit.team=='player' and not game.check_dead('Giant')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "unit_act;Giant"
+        ]
+    }
+]

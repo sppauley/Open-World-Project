@@ -267,5 +267,9 @@
     {
         "nid": "{LordGlenn} Sword 36",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{FuriousHaunter} Mjolnir",
+        "subicon_dict": {}
     }
 ]

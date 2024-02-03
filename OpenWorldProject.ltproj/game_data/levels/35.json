@@ -41,6 +41,19 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "Giant",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -56,6 +69,23 @@
                     3
                 ],
                 "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Giant",
+                "region_type": "normal",
+                "position": [
+                    12,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
