@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lose Condition",
+        "trigger": "GiantEscape",
+        "level_nid": "35",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Luther;Left",
+            "s;Luther;Damn! It got away.{w}{br}Who knows how much damage it will cause now.",
+            "remove_portrait;Luther",
+            "lose_game"
+        ]
+    }
+]

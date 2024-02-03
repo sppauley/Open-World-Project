@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Giant AI Change",
+        "trigger": "turn_change",
+        "level_nid": "35",
+        "condition": "game.turncount == 15",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_ai;Giant;GiantEscape",
+            "",
+            "flicker_cursor;Giant",
+            "wait;500",
+            "flicker_cursor;20,0",
+            "wait;500",
+            "add_portrait;Luther;Left",
+            "s;Luther;It's getting ready to escape.{w}{br}We need to strike immediately or block its path.",
+            "remove_portrait;Luther"
+        ]
+    }
+]

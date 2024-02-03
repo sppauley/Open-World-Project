@@ -7,13 +7,13 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defeat Giant",
+            "win": "Defeat Giant",
+            "loss": "Simon dies or Giant escapes"
         },
         "roam": false,
         "roam_unit": null,
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
         "units": [
             {
@@ -171,6 +171,23 @@
                 ],
                 "sub_nid": null,
                 "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "GiantEscape",
+                "region_type": "event",
+                "position": [
+                    19,
+                    0
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "GiantEscape",
+                "condition": "unit.nid == 'Giant'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
