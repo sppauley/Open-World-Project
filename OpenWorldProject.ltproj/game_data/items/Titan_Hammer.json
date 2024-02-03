@@ -2,7 +2,7 @@
     {
         "nid": "Titan_Hammer",
         "name": "Titan Hammer",
-        "desc": "Giants and Luther only. A massive hammer that can break any foe.",
+        "desc": "Giants only. A massive hammer that can break any foe.",
         "icon_nid": "{FuriousHaunter} Mjolnir",
         "icon_index": [
             0,
@@ -64,7 +64,6 @@
             [
                 "prf_unit",
                 [
-                    "Luther",
                     "Giant"
                 ]
             ],
