@@ -271,5 +271,9 @@
     {
         "nid": "{FuriousHaunter} Mjolnir",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} icon 073",
+        "subicon_dict": {}
     }
 ]

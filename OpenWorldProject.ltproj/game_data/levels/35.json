@@ -138,6 +138,34 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 12,
+                "klass": "DireWolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ],
+                    [
+                        "HurricaneAxe",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -197,6 +225,10 @@
         "ai_groups": [
             {
                 "nid": "a",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

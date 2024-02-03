@@ -1,0 +1,90 @@
+[
+    {
+        "nid": "HurricaneAxe",
+        "name": "Hurricane Axe",
+        "desc": "Effective against fliers.",
+        "icon_nid": "{Zelix} icon 073",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                9
+            ],
+            [
+                "hit",
+                65
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                18
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "stagger",
+                2
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        8
+                    ]
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
+            ]
+        ]
+    }
+]
