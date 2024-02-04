@@ -322,6 +322,162 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 12,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 12,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 12,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 18,
+                "klass": "Gargoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    4,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 15,
+                "klass": "Gargoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    3,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 15,
+                "klass": "Gargoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ],
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    5,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -389,6 +545,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "d",
                 "trigger_threshold": 1
             }
         ]
