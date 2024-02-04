@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Opportunist",
+        "name": "Opportunist",
+        "desc": "Unit deals +1 damage for each negative status the target has.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            3,
+            39
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "len([skill.nid for skill in target.skills if skill.negative])"
+            ]
+        ]
+    }
+]

@@ -1,14 +1,12 @@
 [
     {
-        "nid": "Gargoyle",
-        "name": "Gargoyle",
-        "desc": "Flying monsters who use spears along with their claws.",
-        "tier": 1,
+        "nid": "Margoyle",
+        "name": "Margoyle",
+        "desc": "Powerful flying monsters who use spears along with their claws.",
+        "tier": 2,
         "movement_group": "Fliers",
-        "promotes_from": null,
-        "turns_into": [
-            "Margoyle"
-        ],
+        "promotes_from": "Gargoyle",
+        "turns_into": [],
         "tags": [
             "Flying",
             "Monster"
@@ -16,21 +14,21 @@
         "max_level": 20,
         "bases": {
             "HP": 20,
-            "SPD": 5,
+            "SPD": 6,
             "MOV": 7,
-            "DEX": 5,
-            "MAG": 0,
+            "DEX": 6,
+            "MAG": 2,
             "PSE": 10,
-            "CON": 5
+            "CON": 6
         },
         "growths": {
             "HP": 80,
-            "SPD": 30,
+            "SPD": 32,
             "MOV": 0,
-            "DEX": 35,
+            "DEX": 37,
             "MAG": 5,
             "PSE": 50,
-            "CON": 55
+            "CON": 60
         },
         "growth_bonus": {
             "HP": 0,
@@ -63,6 +61,10 @@
             [
                 1,
                 "Flying"
+            ],
+            [
+                1,
+                "Opportunist"
             ]
         ],
         "wexp_gain": {
@@ -122,7 +124,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Goyle (U) T1 Lance Resize {Pikmin}-stand",
+        "map_sprite_nid": "Goyle (U) T2 Lance Resize {Pikmin}-stand",
         "combat_anim_nid": null,
         "fields": []
     }

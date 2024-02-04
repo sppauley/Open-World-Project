@@ -33,7 +33,7 @@
                 "ai_group": "",
                 "starting_position": [
                     0,
-                    7
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -256,35 +256,11 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    1,
                     3
                 ],
                 "starting_traveler": null,
                 "generic": false
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "DireWolf",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    3,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": true
             }
         ],
         "regions": [
