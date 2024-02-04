@@ -63,12 +63,8 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Javelin",
-                        false
-                    ],
-                    [
-                        "Sharp Claw",
-                        false
+                        "Toxin Lance",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -78,7 +74,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     3,
-                    17
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -91,11 +87,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Javelin",
-                        false
-                    ],
-                    [
-                        "Sharp Claw",
+                        "Toxin Lance",
                         false
                     ]
                 ],
@@ -106,7 +98,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     1,
-                    17
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -114,8 +106,8 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 18,
-                "klass": "Gargoyle",
+                "level": 3,
+                "klass": "Margoyle",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -134,7 +126,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     2,
-                    18
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -331,7 +323,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "WoundingClaw",
                         false
                     ]
                 ],
@@ -355,7 +347,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "WoundingClaw",
                         false
                     ]
                 ],
@@ -379,7 +371,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "WoundingClaw",
                         false
                     ]
                 ],
@@ -549,6 +541,10 @@
             },
             {
                 "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

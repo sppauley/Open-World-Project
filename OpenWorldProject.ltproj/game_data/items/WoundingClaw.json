@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Toxin Lance",
-        "name": "Toxin Lance",
-        "desc": "Poisons on contact.",
-        "icon_nid": "Lance",
+        "nid": "WoundingClaw",
+        "name": "Wounding Claw",
+        "desc": "On hit, target suffers -5 MOV.",
+        "icon_nid": "Neutral",
         "icon_index": [
             0,
-            4
+            9
         ],
         "components": [
             [
@@ -27,27 +27,23 @@
             ],
             [
                 "hit",
-                65
-            ],
-            [
-                "weapon_type",
-                "Lance"
-            ],
-            [
-                "weapon_rank",
-                "D"
+                75
             ],
             [
                 "weight",
-                10
+                5
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                1
             ],
             [
                 "crit",
                 0
-            ],
-            [
-                "status_on_hit",
-                "Poisoned"
             ],
             [
                 "min_range",
@@ -58,21 +54,25 @@
                 1
             ],
             [
-                "stat_req",
-                [
-                    [
-                        "CON",
-                        6
-                    ]
-                ]
+                "weapon_type",
+                "Innate"
             ],
             [
                 "stagger",
                 2
             ],
             [
-                "value",
-                500
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Wounded"
             ]
         ]
     }
