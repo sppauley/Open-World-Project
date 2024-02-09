@@ -641,6 +641,25 @@
                 "icon": "map_node",
                 "level": null,
                 "menu_options": []
+            },
+            {
+                "nid": "63",
+                "name": "Graveyard",
+                "pos": [
+                    17,
+                    18
+                ],
+                "icon": "map_node",
+                "level": "BoudicaGraveyard",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -1203,6 +1222,16 @@
                 ],
                 [
                     11,
+                    18
+                ]
+            ],
+            "(17, 18)-(18, 18)": [
+                [
+                    17,
+                    18
+                ],
+                [
+                    18,
                     18
                 ]
             ]
