@@ -8,7 +8,12 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_weather;sunset"
+            "add_weather;sunset",
+            "show_layer;overlay;immediate",
+            "show_layer;overlay2;immediate",
+            "game_var;freely_exit;False",
+            "",
+            "set_overworld_menu_option_visible;1;63;Roam;f"
         ]
     }
 ]

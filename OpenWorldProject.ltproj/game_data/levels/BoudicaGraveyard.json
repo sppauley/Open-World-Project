@@ -43,7 +43,25 @@
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Graves",
+                "region_type": "event",
+                "position": [
+                    5,
+                    5
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "Graves",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     }
