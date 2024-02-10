@@ -1,0 +1,1661 @@
+[
+    {
+        "nid": "Ramm",
+        "size": [
+            18,
+            13
+        ],
+        "autotile_fps": 29,
+        "layers": [
+            {
+                "nid": "base",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "0,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "0,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "1,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "2,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "3,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "4,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "5,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "6,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "7,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "8,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "9,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "10,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "11,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "12,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "13,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "14,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "15,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "16,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,0": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,1": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,2": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,3": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,4": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,5": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,6": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,7": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,8": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,9": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,10": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,11": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "17,12": [
+                        "Updated Village Tileset_1",
+                        [
+                            0,
+                            4
+                        ]
+                    ]
+                }
+            }
+        ],
+        "tilesets": [
+            "Updated Village Tileset_1"
+        ]
+    }
+]

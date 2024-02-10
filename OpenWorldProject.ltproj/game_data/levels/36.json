@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "36",
+        "name": "Ramm Village",
+        "tilemap": "Ramm",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Rescue Everyone",
+            "win": "Rescue Everyone",
+            "loss": "Villages Destroyed; Simon dies"
+        },
+        "roam": false,
+        "roam_unit": "Eirika",
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    }
+]
