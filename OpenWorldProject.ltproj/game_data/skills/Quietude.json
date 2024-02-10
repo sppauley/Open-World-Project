@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Quietude",
+        "name": "Quietude",
+        "desc": "If this unit has moved five or more tiles on their turn, +10 poise until their next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ]
+        ]
+    }
+]

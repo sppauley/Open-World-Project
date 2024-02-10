@@ -598,5 +598,7 @@
     "35_Win_Condition",
     "35_Lose_Condition",
     "35_Giant_AI_Change",
-    "BoudicaGraveyard_Graves"
+    "BoudicaGraveyard_Graves",
+    "global_QuietudeEvent2",
+    "global_QuietudeEvent"
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Solemn",
+        "name": "Solemn",
+        "desc": "Until your next turn, +10 Poise.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            1,
+            46
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "PSE",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "event_on_remove",
+                "Global Reset Poise"
+            ]
+        ]
+    }
+]

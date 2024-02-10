@@ -137,13 +137,13 @@
                 "generic": true
             },
             {
-                "nid": "Duygu",
+                "nid": "Boudica",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
+                    1,
                     6
                 ],
                 "starting_traveler": null,

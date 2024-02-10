@@ -47,7 +47,7 @@
             "change_background;BlackBackground",
             "transition;open;1",
             "",
-            "# TODO: Make loyalty reward",
+            "give_skill;Boudica;Quietude",
             "set_unit_field;Boudica;LoyaltyStatus;Boudica is completely loyal.",
             "win_game"
         ]

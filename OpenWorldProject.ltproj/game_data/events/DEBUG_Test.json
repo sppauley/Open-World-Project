@@ -43,7 +43,9 @@
             "set_current_hp;105;4",
             "#promote;Simon",
             "#set_current_hp;101;1",
-            "give_skill;Simon;Opportunist"
+            "give_skill;Simon;Opportunist",
+            "",
+            "give_skill;Boudica;Quietude;no_banner"
         ]
     }
 ]

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "alert;{e:game.get_unit(\"Simon\").get_stat(\"SPD\")}"
+            "#alert;{e:game.get_unit(\"Simon\").get_stat(\"SPD\")}"
         ]
     }
 ]

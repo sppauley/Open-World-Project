@@ -1,0 +1,18 @@
+[
+    {
+        "name": "QuietudeEvent",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;quietudepos;None",
+            "if;game.get_unit(\"Boudica\") and game.get_unit(\"Boudica\").get_skill(\"Quietude\")",
+            "    level_var;quietudepos;game.get_unit(\"Boudica\").position",
+            "    trigger_script;Global Reset Poise;Boudica",
+            "end"
+        ]
+    }
+]
