@@ -47,7 +47,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "d",
                 "starting_position": [
                     12,
                     2
@@ -167,7 +167,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Sharp Claw",
+                        "RottingMaw",
                         false
                     ]
                 ],
@@ -255,34 +255,6 @@
                 "starting_position": [
                     21,
                     16
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 18,
-                "klass": "Gargoyle",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Killer Lance",
-                        false
-                    ],
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    17,
-                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -390,8 +362,8 @@
             {
                 "nid": "114",
                 "variant": null,
-                "level": 18,
-                "klass": "Gargoyle",
+                "level": 5,
+                "klass": "Margoyle",
                 "faction": "Monster",
                 "starting_items": [
                     [
@@ -410,7 +382,7 @@
                 "ai_group": "d",
                 "starting_position": [
                     4,
-                    2
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -423,22 +395,18 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Javelin",
-                        false
-                    ],
-                    [
-                        "Sharp Claw",
+                        "WoundingClaw",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
                     3,
-                    1
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -451,9 +419,77 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "WoundingClaw",
                         false
-                    ],
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    5,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 15,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Poison Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    18,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 15,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Poison Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    17,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 5,
+                "klass": "DireWolf",
+                "faction": "Monster",
+                "starting_items": [
                     [
                         "Sharp Claw",
                         false
@@ -461,12 +497,268 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
+                    18,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 3,
+                "klass": "Margoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 3,
+                "klass": "Margoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 16,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "WoundingClaw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 16,
+                "klass": "Wolf",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "WoundingClaw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    30
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 15,
+                "klass": "Gargoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 15,
+                "klass": "Gargoyle",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 2,
+                "klass": "Guerilla",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ],
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
                     5,
-                    1
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 2,
+                "klass": "Guerilla",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ],
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Guerilla",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "HexingRod",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 3,
+                "klass": "Guerilla",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Enfeeble",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -541,6 +833,10 @@
             },
             {
                 "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
