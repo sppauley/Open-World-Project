@@ -604,5 +604,7 @@
     "36_Intro",
     "36_UpdateObjectiveDisplay",
     "36_LoseOnTime",
-    "36_OpenDoor"
+    "36_OpenDoor",
+    "35_Reinforcements",
+    "35_Escape_Warning"
 ]

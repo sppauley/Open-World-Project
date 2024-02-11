@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "35",
+        "condition": "game.turncount == 5 or game.turncount == 8 or game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Rangers;Rangers;;closest;create",
+            "center_cursor;0,29",
+            "wait;700"
+        ]
+    }
+]

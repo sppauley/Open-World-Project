@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Escape Warning",
+        "trigger": "turn_change",
+        "level_nid": "35",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;Giant",
+            "wait;500",
+            "add_portrait;Luther;Left",
+            "s;Luther;The giant looks restless.{w}{br} We should move quickly before it escapes.",
+            "remove_portrait;Luther"
+        ]
+    }
+]

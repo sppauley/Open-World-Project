@@ -74,7 +74,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     3,
-                    18
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -98,7 +98,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     1,
-                    18
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -126,7 +126,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     2,
-                    16
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -254,7 +254,7 @@
                 "ai_group": "c",
                 "starting_position": [
                     21,
-                    16
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -282,31 +282,7 @@
                 "ai_group": "c",
                 "starting_position": [
                     20,
-                    17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
-                "variant": null,
-                "level": 12,
-                "klass": "Wolf",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "WoundingClaw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    5,
-                    23
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -621,8 +597,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    26
+                    20,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -645,8 +621,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    27
+                    21,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -671,10 +647,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "b",
                 "starting_position": [
-                    5,
-                    20
+                    19,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -762,6 +738,84 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 2,
+                "klass": "Guerilla",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ],
+                    [
+                        "Cripple",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    21,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 7,
+                "klass": "ChariotMaster",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 7,
+                "klass": "ChariotMaster",
+                "faction": "Cutthroat",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -817,7 +871,25 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Rangers",
+                "units": [
+                    "110",
+                    "131"
+                ],
+                "positions": {
+                    "110": [
+                        0,
+                        29
+                    ],
+                    "131": [
+                        0,
+                        30
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "a",
@@ -833,6 +905,10 @@
             },
             {
                 "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
