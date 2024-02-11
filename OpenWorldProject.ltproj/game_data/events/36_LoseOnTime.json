@@ -1,0 +1,19 @@
+[
+    {
+        "name": "LoseOnTime",
+        "trigger": "turn_change",
+        "level_nid": "36",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Juliet;Right",
+            "s;Juliet;No, no!",
+            "add_portrait;Vincent;Left",
+            "s;Vincent;We were supposed to save them...|I... we... failed.",
+            "multi_remove_portrait;Juliet;Vincent",
+            "lose_game"
+        ]
+    }
+]
