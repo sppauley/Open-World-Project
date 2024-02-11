@@ -1,0 +1,16 @@
+[
+    {
+        "name": "OpenDoor",
+        "trigger": "Door",
+        "level_nid": "36",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;opendoor;fade",
+            "has_attacked;{unit}"
+        ]
+    }
+]

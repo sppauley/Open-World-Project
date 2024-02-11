@@ -603,5 +603,6 @@
     "global_QuietudeEvent",
     "36_Intro",
     "36_UpdateObjectiveDisplay",
-    "36_LoseOnTime"
+    "36_LoseOnTime",
+    "36_OpenDoor"
 ]
