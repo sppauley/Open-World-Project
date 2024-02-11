@@ -16,6 +16,8 @@
             "level_var;_fog_of_war_radius;3",
             "level_var;_ai_fog_of_war_radius;3",
             "",
+            "hide_layer;opendoor;immediate;no_warn",
+            "",
             "give_skill;Juliet;Homesight",
             "give_skill;Vincent;Homesight",
             "",
