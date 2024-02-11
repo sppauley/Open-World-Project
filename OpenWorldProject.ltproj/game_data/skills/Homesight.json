@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Homesight",
+        "name": "Homesight",
+        "desc": "This unit was raised in Ramm Village.\nUntil end of chapter, +3 vision range.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "sight_range_bonus",
+                3
+            ]
+        ]
+    }
+]
