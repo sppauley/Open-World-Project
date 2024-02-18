@@ -3,7 +3,7 @@
         "name": "LoseOnTime",
         "trigger": "turn_change",
         "level_nid": "36",
-        "condition": "game.turncount == 10",
+        "condition": "game.turncount == 15",
         "commands": [],
         "only_once": false,
         "priority": 20,

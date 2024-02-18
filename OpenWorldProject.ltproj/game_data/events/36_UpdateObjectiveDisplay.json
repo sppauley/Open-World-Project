@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 18,
         "_source": [
-            "change_objective_simple;{e:10 - game.turncount} turns remain."
+            "change_objective_simple;{e:15 - game.turncount} turns remain."
         ]
     }
 ]

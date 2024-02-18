@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "Abel",
+        "name": "Abel",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "HP": 35,
+            "SPD": 12,
+            "DEX": 16,
+            "CON": 11,
+            "MAG": 4,
+            "PSE": 22,
+            "MOV": 7
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                181,
+                null
+            ],
+            "Sword": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Armour {CanDy}",
+        "affinity": null,
+        "fields": []
+    }
+]

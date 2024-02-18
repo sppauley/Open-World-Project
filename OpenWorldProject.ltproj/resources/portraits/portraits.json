@@ -1546,5 +1546,17 @@
             48
         ],
         "info_offset": 7
+    },
+    {
+        "nid": "Armour {CanDy}",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
     }
 ]
