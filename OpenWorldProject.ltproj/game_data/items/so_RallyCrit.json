@@ -2,7 +2,7 @@
     {
         "nid": "so_RallyCrit",
         "name": "Rally Crit",
-        "desc": "All allies within two tiles gain +3 MOV for one turn.",
+        "desc": "All allies within two tiles gain +15 Critical Chance for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,
