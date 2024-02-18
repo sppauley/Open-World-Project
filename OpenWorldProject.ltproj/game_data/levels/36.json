@@ -226,6 +226,10 @@
                     [
                         "Thunder",
                         false
+                    ],
+                    [
+                        "KnowledgeScroll",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -699,16 +703,39 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Enemies",
+                "units": [
+                    "Abel",
+                    "101",
+                    "102",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "AbelGrooup",
-                "trigger_threshold": 1
-            },
             {
                 "nid": "AbelGroup",
                 "trigger_threshold": 1
@@ -719,6 +746,10 @@
             },
             {
                 "nid": "S2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
