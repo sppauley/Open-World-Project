@@ -2,7 +2,7 @@
     {
         "nid": "Shine",
         "name": "Shine",
-        "desc": "",
+        "desc": "On hit, targets suffer -10% hit for one turn.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                6
+                4
             ],
             [
                 "hit",
@@ -47,7 +47,7 @@
             ],
             [
                 "crit",
-                8
+                0
             ],
             [
                 "wexp",
@@ -71,6 +71,23 @@
                     255,
                     255,
                     0
+                ]
+            ],
+            [
+                "stagger",
+                2
+            ],
+            [
+                "status_after_combat_on_hit",
+                "HitDown10"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        6
+                    ]
                 ]
             ]
         ]

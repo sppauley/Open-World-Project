@@ -2,23 +2,34 @@
     {
         "nid": "Abel",
         "name": "Abel",
-        "desc": "",
+        "desc": "A paladin loyal to Percy and the New Dawn.",
         "variant": null,
-        "level": 1,
+        "level": 5,
         "klass": "Paladin",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 35,
             "SPD": 12,
             "DEX": 16,
-            "CON": 11,
+            "CON": 14,
             "MAG": 4,
             "PSE": 22,
             "MOV": 7
         },
         "growths": {},
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Silver_Pike",
+                true
+            ],
+            [
+                "Steel Blade",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

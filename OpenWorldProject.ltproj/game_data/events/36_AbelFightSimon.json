@@ -1,0 +1,26 @@
+[
+    {
+        "name": "AbelFightSimon",
+        "trigger": "combat_start",
+        "level_nid": "36",
+        "condition": "check_pair('Simon', 'Abel')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Abel;Right",
+            "",
+            "if;v(\"LiberatedVerstadt\") == True",
+            "    s;Abel;Dastard! I've been waiting for this moment.|I will have revenge for Lord Percy!|The New Dawn yet shines while I do!",
+            "    s;Simon;Shines? Shines in the dark, burning my villages?|Villain, I will hang you next to your lord!",
+            "else",
+            "    s;Abel;So this is where you have taken shelter, \"Lord\" Verstadt.|I am honored to be the knight that finally traps the rat.",
+            "    s;Simon;We were just passing through, although it makes little difference.|You would have put this village to the torch regardless.",
+            "    s;Abel;Just so. We knew that collaborators had infiltrated here.|Liberating the village from your ilk required drastic measures.|Destruction is the only way to save it.",
+            "end",
+            "",
+            "multi_remove_portrait;Abel;Simon"
+        ]
+    }
+]

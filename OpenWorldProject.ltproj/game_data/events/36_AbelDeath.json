@@ -1,0 +1,17 @@
+[
+    {
+        "name": "AbelDeath",
+        "trigger": "unit_death",
+        "level_nid": "36",
+        "condition": "unit.nid == \"Abel\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Abel;Right",
+            "expression;Abel;CloseEyes",
+            "s;Abel;Lord Percy... onwards and upwards...",
+            "remove_portrait;Abel"
+        ]
+    }
+]

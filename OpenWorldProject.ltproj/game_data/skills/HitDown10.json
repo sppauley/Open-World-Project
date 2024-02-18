@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "HitDown10",
+        "name": "Hit -10",
+        "desc": "Hit -10%.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            2
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    179,
+                    86,
+                    40
+                ]
+            ]
+        ]
+    }
+]

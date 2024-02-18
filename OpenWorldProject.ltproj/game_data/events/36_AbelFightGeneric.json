@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AbelFightGeneric",
+        "trigger": "combat_start",
+        "level_nid": "36",
+        "condition": "check_default('Abel', ['Simon'])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Abel;Right",
+            "s;Abel;As I suspected- Verstadt collaborators.|You'll get no mercy from us,|you backwards cretins!",
+            "remove_portrait;Abel"
+        ]
+    }
+]

@@ -606,5 +606,9 @@
     "36_LoseOnTime",
     "36_OpenDoor",
     "35_Reinforcements",
-    "35_Escape_Warning"
+    "35_Escape_Warning",
+    "36_Win_Game",
+    "36_AbelFightGeneric",
+    "36_AbelFightSimon",
+    "36_AbelDeath"
 ]

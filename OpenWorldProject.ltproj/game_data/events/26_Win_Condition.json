@@ -11,6 +11,8 @@
             "change_background;InsideCastle",
             "music_clear",
             "",
+            "game_var;LiberatedVerstadt;True",
+            "",
             "# NEEDS MUSIC",
             "",
             "# Intial victory",
