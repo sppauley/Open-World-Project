@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "36",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_all_enemies",
+            "",
+            "give_skill;Vincent;VincentTogether",
+            "give_skill;Juliet;JulietTogether",
+            "",
+            "trigger_script;Global IncreaseMitziProgress"
+        ]
+    }
+]

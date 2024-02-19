@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "JulietTogetherEffect",
+        "name": "Supported",
+        "desc": "Until your next turn, +4 stagger and +2 MOV.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            44
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "stagger_bonus",
+                4
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "JulietTogether",
+        "name": "Together As One",
+        "desc": "If starting turn within two tiles of Vincent,\n+4 stagger and +2 mov for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            44
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

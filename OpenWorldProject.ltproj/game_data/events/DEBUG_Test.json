@@ -45,7 +45,10 @@
             "#set_current_hp;101;1",
             "give_skill;Simon;Opportunist",
             "",
-            "give_skill;Boudica;Quietude;no_banner"
+            "give_skill;Boudica;Quietude;no_banner",
+            "",
+            "#give_skill;Vincent;VincentTogether",
+            "#give_skill;Juliet;JulietTogether"
         ]
     }
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "VincentTogether",
+        "name": "Together As One",
+        "desc": "If starting turn within two tiles of Juliet,\n+4 damage and +2 speed for one turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            44
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

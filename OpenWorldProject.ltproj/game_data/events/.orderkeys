@@ -610,5 +610,7 @@
     "36_Win_Game",
     "36_AbelFightGeneric",
     "36_AbelFightSimon",
-    "36_AbelDeath"
+    "36_AbelDeath",
+    "global_TogetherAsOneEvent",
+    "36_Outro"
 ]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "VincentTogetherEffect",
+        "name": "Supported",
+        "desc": "Until your next turn, +4 damage and +2 SPD.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            44
+        ],
+        "components": [
+            [
+                "time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "damage",
+                4
+            ]
+        ]
+    }
+]

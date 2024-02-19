@@ -747,10 +747,6 @@
             {
                 "nid": "S2",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "TogetherAsOneEvent",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 15,
+        "_source": [
+            "if;game.get_unit(\"Vincent\") and game.get_unit(\"Juliet\") and game.get_unit(\"Vincent\").get_skill(\"VincentTogether\") and game.get_unit(\"Juliet\").get_skill(\"JulietTogether\")",
+            "",
+            "    if;utils.calculate_distance(game.get_unit(\"Vincent\").position, game.get_unit(\"Juliet\").position) < 3",
+            "        give_skill;Juliet;JulietTogetherEffect;no_banner",
+            "        give_skill;Vincent;VincentTogetherEffect;no_banner",
+            "    end",
+            "",
+            "end"
+        ]
+    }
+]
