@@ -8,7 +8,7 @@
         "klass": "Anuki_Lord",
         "tags": [],
         "bases": {
-            "HP": 29,
+            "HP": 25,
             "MAG": 1,
             "DEX": 9,
             "SPD": 6,
@@ -17,9 +17,9 @@
             "CON": 8
         },
         "growths": {
-            "HP": 75,
+            "HP": 50,
             "MAG": 10,
-            "DEX": 30,
+            "DEX": 15,
             "SPD": 25,
             "PSE": 25,
             "MOV": 0,
