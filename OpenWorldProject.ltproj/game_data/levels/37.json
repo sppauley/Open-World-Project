@@ -2,7 +2,7 @@
     {
         "nid": "37",
         "name": "Royal Garrison",
-        "tilemap": null,
+        "tilemap": "Royal Garrison",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
@@ -22,18 +22,16 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    29
+                ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": [
-            {
-                "nid": "",
-                "trigger_threshold": 1
-            }
-        ]
+        "ai_groups": []
     }
 ]

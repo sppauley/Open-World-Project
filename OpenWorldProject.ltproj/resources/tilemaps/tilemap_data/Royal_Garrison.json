@@ -51,22 +51,22 @@
                     "0,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "0,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "0,7": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            9,
+                            28
                         ]
                     ],
                     "0,8": [
@@ -268,22 +268,22 @@
                     "1,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "1,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "1,7": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "1,8": [
@@ -310,22 +310,22 @@
                     "1,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            27
                         ]
                     ],
                     "1,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "1,13": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "1,14": [
@@ -378,10 +378,10 @@
                         ]
                     ],
                     "1,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "1,22": [
@@ -427,10 +427,10 @@
                         ]
                     ],
                     "1,28": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "1,29": [
@@ -485,22 +485,22 @@
                     "2,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "2,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            28
                         ]
                     ],
                     "2,7": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            11,
+                            28
                         ]
                     ],
                     "2,8": [
@@ -527,22 +527,22 @@
                     "2,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "2,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "2,13": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "2,14": [
@@ -588,17 +588,17 @@
                         ]
                     ],
                     "2,20": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            4,
+                            25
                         ]
                     ],
                     "2,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            4,
+                            25
                         ]
                     ],
                     "2,22": [
@@ -616,24 +616,24 @@
                         ]
                     ],
                     "2,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "2,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            26
                         ]
                     ],
                     "2,26": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            30
                         ]
                     ],
                     "2,27": [
@@ -667,15 +667,15 @@
                     "3,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            27
                         ]
                     ],
                     "3,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
-                            25
+                            28
                         ]
                     ],
                     "3,2": [
@@ -744,22 +744,22 @@
                     "3,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "3,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "3,13": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            9,
+                            28
                         ]
                     ],
                     "3,14": [
@@ -819,10 +819,10 @@
                         ]
                     ],
                     "3,22": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            4,
+                            25
                         ]
                     ],
                     "3,23": [
@@ -833,24 +833,24 @@
                         ]
                     ],
                     "3,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "3,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            26
                         ]
                     ],
                     "3,26": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            30
                         ]
                     ],
                     "3,27": [
@@ -877,50 +877,50 @@
                     "3,30": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "4,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            25
                         ]
                     ],
                     "4,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            4,
-                            27
-                        ]
-                    ],
-                    "4,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            3,
-                            28
-                        ]
-                    ],
-                    "4,3": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "4,4": [
+                    "4,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             3,
                             26
                         ]
                     ],
-                    "4,5": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                    "4,3": [
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
+                        ]
+                    ],
+                    "4,4": [
+                        "main",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "4,5": [
+                        "main",
+                        [
+                            16,
+                            22
                         ]
                     ],
                     "4,6": [
@@ -961,22 +961,22 @@
                     "4,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "4,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            28
                         ]
                     ],
                     "4,13": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            11,
+                            28
                         ]
                     ],
                     "4,14": [
@@ -1050,24 +1050,24 @@
                         ]
                     ],
                     "4,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            28
                         ]
                     ],
                     "4,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            26
                         ]
                     ],
                     "4,26": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            30
                         ]
                     ],
                     "4,27": [
@@ -1094,43 +1094,43 @@
                     "4,30": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "5,0": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "5,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "5,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             25
                         ]
                     ],
-                    "5,3": [
+                    "5,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "5,4": [
+                    "5,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "5,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "5,4": [
+                        "main",
+                        [
+                            16,
+                            22
                         ]
                     ],
                     "5,5": [
@@ -1253,17 +1253,17 @@
                         ]
                     ],
                     "5,22": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "5,23": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "5,24": [
@@ -1288,10 +1288,10 @@
                         ]
                     ],
                     "5,27": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "5,28": [
@@ -1318,36 +1318,36 @@
                     "6,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "6,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "6,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "6,3": [
+                    "6,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "6,4": [
+                    "6,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             8,
                             31
+                        ]
+                    ],
+                    "6,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "6,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "6,5": [
@@ -1365,45 +1365,45 @@
                         ]
                     ],
                     "6,7": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "6,8": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            27
                         ]
                     ],
                     "6,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            30
                         ]
                     ],
                     "6,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            30
                         ]
                     ],
                     "6,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "6,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "6,13": [
@@ -1421,10 +1421,10 @@
                         ]
                     ],
                     "6,15": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "6,16": [
@@ -1498,10 +1498,10 @@
                         ]
                     ],
                     "6,26": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "6,27": [
@@ -1514,8 +1514,8 @@
                     "6,28": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "6,29": [
@@ -1535,36 +1535,36 @@
                     "7,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "7,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "7,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "7,3": [
+                    "7,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "7,4": [
+                    "7,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             8,
                             31
+                        ]
+                    ],
+                    "7,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "7,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "7,5": [
@@ -1591,36 +1591,36 @@
                     "7,8": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "7,9": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            2,
-                            2
+                            3,
+                            13
                         ]
                     ],
                     "7,10": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "Improved Castle Tileset Palette 2",
                         [
-                            2,
-                            2
+                            3,
+                            13
                         ]
                     ],
                     "7,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "7,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "7,13": [
@@ -1738,8 +1738,8 @@
                     "7,29": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "7,30": [
@@ -1752,36 +1752,36 @@
                     "8,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "8,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "8,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "8,3": [
+                    "8,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "8,4": [
+                    "8,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "8,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "8,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "8,5": [
@@ -1808,36 +1808,36 @@
                     "8,8": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "8,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            30
                         ]
                     ],
                     "8,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            30
                         ]
                     ],
                     "8,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            28
                         ]
                     ],
                     "8,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            11,
+                            28
                         ]
                     ],
                     "8,13": [
@@ -1848,10 +1848,10 @@
                         ]
                     ],
                     "8,14": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "8,15": [
@@ -1897,10 +1897,10 @@
                         ]
                     ],
                     "8,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "8,22": [
@@ -1941,8 +1941,8 @@
                     "8,27": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "8,28": [
@@ -1955,8 +1955,8 @@
                     "8,29": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "8,30": [
@@ -1969,36 +1969,36 @@
                     "9,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "9,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "9,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "9,3": [
+                    "9,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "9,4": [
+                    "9,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "9,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "9,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "9,5": [
@@ -2172,8 +2172,8 @@
                     "9,29": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "9,30": [
@@ -2200,22 +2200,22 @@
                     "10,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "10,3": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            25,
-                            26
+                            17,
+                            12
                         ]
                     ],
                     "10,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            25,
-                            27
+                            17,
+                            12
                         ]
                     ],
                     "10,5": [
@@ -2256,15 +2256,15 @@
                     "10,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,12": [
@@ -2298,29 +2298,29 @@
                     "10,16": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,17": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "10,18": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            25,
-                            26
+                            2,
+                            2
                         ]
                     ],
                     "10,19": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            25,
-                            27
+                            2,
+                            2
                         ]
                     ],
                     "10,20": [
@@ -2333,15 +2333,15 @@
                     "10,21": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,22": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,23": [
@@ -2368,8 +2368,8 @@
                     "10,26": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "10,27": [
@@ -2417,29 +2417,29 @@
                     "11,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "11,3": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            26,
-                            26
+                            17,
+                            12
                         ]
                     ],
                     "11,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            23,
-                            27
+                            17,
+                            12
                         ]
                     ],
                     "11,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,6": [
@@ -2459,8 +2459,8 @@
                     "11,8": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,9": [
@@ -2480,8 +2480,8 @@
                     "11,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,12": [
@@ -2501,15 +2501,15 @@
                     "11,14": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,15": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,16": [
@@ -2522,36 +2522,36 @@
                     "11,17": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "11,18": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            26,
-                            26
+                            2,
+                            2
                         ]
                     ],
                     "11,19": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            23,
-                            27
+                            2,
+                            2
                         ]
                     ],
                     "11,20": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,21": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,22": [
@@ -2571,22 +2571,22 @@
                     "11,24": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,25": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,26": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "11,27": [
@@ -2604,10 +2604,10 @@
                         ]
                     ],
                     "11,29": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "11,30": [
@@ -2634,22 +2634,22 @@
                     "12,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "12,3": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            27,
-                            26
+                            2,
+                            2
                         ]
                     ],
                     "12,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            27,
-                            27
+                            17,
+                            12
                         ]
                     ],
                     "12,5": [
@@ -2669,15 +2669,15 @@
                     "12,7": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,8": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,9": [
@@ -2704,15 +2704,15 @@
                     "12,12": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,13": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,14": [
@@ -2739,22 +2739,22 @@
                     "12,17": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            2,
+                            2
                         ]
                     ],
                     "12,18": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            27,
-                            26
+                            2,
+                            2
                         ]
                     ],
                     "12,19": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            27,
-                            27
+                            2,
+                            2
                         ]
                     ],
                     "12,20": [
@@ -2781,15 +2781,15 @@
                     "12,23": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,24": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            17,
+                            12
                         ]
                     ],
                     "12,25": [
@@ -2814,10 +2814,10 @@
                         ]
                     ],
                     "12,28": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "12,29": [
@@ -2837,36 +2837,36 @@
                     "13,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "13,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "13,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "13,3": [
+                    "13,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "13,4": [
+                    "13,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "13,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "13,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "13,5": [
@@ -3054,36 +3054,36 @@
                     "14,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "14,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "14,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "14,3": [
+                    "14,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "14,4": [
+                    "14,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "14,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "14,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "14,5": [
@@ -3157,10 +3157,10 @@
                         ]
                     ],
                     "14,15": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "14,16": [
@@ -3199,10 +3199,10 @@
                         ]
                     ],
                     "14,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "14,22": [
@@ -3220,10 +3220,10 @@
                         ]
                     ],
                     "14,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "14,25": [
@@ -3271,36 +3271,36 @@
                     "15,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "15,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "15,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "15,3": [
+                    "15,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "15,4": [
+                    "15,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "15,3": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
+                        ]
+                    ],
+                    "15,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "15,5": [
@@ -3318,10 +3318,10 @@
                         ]
                     ],
                     "15,7": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "15,8": [
@@ -3334,22 +3334,22 @@
                     "15,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            27
                         ]
                     ],
                     "15,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "15,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "15,12": [
@@ -3367,17 +3367,17 @@
                         ]
                     ],
                     "15,14": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "15,15": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "15,16": [
@@ -3444,10 +3444,10 @@
                         ]
                     ],
                     "15,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "15,26": [
@@ -3465,17 +3465,17 @@
                         ]
                     ],
                     "15,28": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            1,
+                            28
                         ]
                     ],
                     "15,29": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            1,
+                            29
                         ]
                     ],
                     "15,30": [
@@ -3488,36 +3488,36 @@
                     "16,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "16,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "16,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "16,3": [
+                    "16,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "16,4": [
+                    "16,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "16,3": [
+                        "main",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "16,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            2,
+                            2
                         ]
                     ],
                     "16,5": [
@@ -3551,22 +3551,22 @@
                     "16,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "16,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "16,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "16,12": [
@@ -3682,17 +3682,17 @@
                         ]
                     ],
                     "16,28": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
                             2,
-                            2
+                            28
                         ]
                     ],
                     "16,29": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
                             2,
-                            2
+                            29
                         ]
                     ],
                     "16,30": [
@@ -3705,36 +3705,36 @@
                     "17,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
-                        ]
-                    ],
-                    "17,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            2,
-                            2
-                        ]
-                    ],
-                    "17,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
                             4,
                             25
                         ]
                     ],
-                    "17,3": [
+                    "17,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "17,4": [
+                    "17,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             4,
                             26
+                        ]
+                    ],
+                    "17,3": [
+                        "main",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "17,4": [
+                        "main",
+                        [
+                            16,
+                            22
                         ]
                     ],
                     "17,5": [
@@ -3768,22 +3768,22 @@
                     "17,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "17,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "17,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            12,
+                            28
                         ]
                     ],
                     "17,12": [
@@ -3857,10 +3857,10 @@
                         ]
                     ],
                     "17,22": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "17,23": [
@@ -3922,50 +3922,50 @@
                     "18,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            25
                         ]
                     ],
                     "18,1": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            3,
-                            27
-                        ]
-                    ],
-                    "18,2": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-                        [
-                            4,
-                            28
-                        ]
-                    ],
-                    "18,3": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             16,
                             30
                         ]
                     ],
-                    "18,4": [
+                    "18,2": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
                             5,
                             26
                         ]
                     ],
+                    "18,3": [
+                        "main",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "18,4": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            3,
+                            27
+                        ]
+                    ],
                     "18,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            28
                         ]
                     ],
                     "18,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "18,7": [
@@ -3985,22 +3985,22 @@
                     "18,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "18,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "18,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            9,
+                            28
                         ]
                     ],
                     "18,12": [
@@ -4067,10 +4067,10 @@
                         ]
                     ],
                     "18,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "18,22": [
@@ -4081,24 +4081,24 @@
                         ]
                     ],
                     "18,23": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            25
                         ]
                     ],
                     "18,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            29
                         ]
                     ],
                     "18,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            30
                         ]
                     ],
                     "18,26": [
@@ -4139,15 +4139,15 @@
                     "19,0": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "19,1": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            4,
-                            25
+                            3,
+                            28
                         ]
                     ],
                     "19,2": [
@@ -4167,22 +4167,22 @@
                     "19,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "19,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "19,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "19,7": [
@@ -4202,22 +4202,22 @@
                     "19,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "19,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "19,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            12,
+                            28
                         ]
                     ],
                     "19,12": [
@@ -4242,10 +4242,10 @@
                         ]
                     ],
                     "19,15": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "19,16": [
@@ -4298,24 +4298,24 @@
                         ]
                     ],
                     "19,23": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            25
                         ]
                     ],
                     "19,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            29
                         ]
                     ],
                     "19,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            30
                         ]
                     ],
                     "19,26": [
@@ -4384,22 +4384,22 @@
                     "20,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "20,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "20,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            9,
+                            28
                         ]
                     ],
                     "20,7": [
@@ -4419,22 +4419,22 @@
                     "20,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "20,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "20,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "20,12": [
@@ -4459,10 +4459,10 @@
                         ]
                     ],
                     "20,15": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "20,16": [
@@ -4515,24 +4515,24 @@
                         ]
                     ],
                     "20,23": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            25
                         ]
                     ],
                     "20,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            29
                         ]
                     ],
                     "20,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            9,
+                            30
                         ]
                     ],
                     "20,26": [
@@ -4557,17 +4557,17 @@
                         ]
                     ],
                     "20,29": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "20,30": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "21,0": [
@@ -4601,22 +4601,22 @@
                     "21,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            3,
+                            29
                         ]
                     ],
                     "21,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            29
                         ]
                     ],
                     "21,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            12,
+                            28
                         ]
                     ],
                     "21,7": [
@@ -4636,22 +4636,22 @@
                     "21,9": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "21,10": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            28
                         ]
                     ],
                     "21,11": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            11,
+                            28
                         ]
                     ],
                     "21,12": [
@@ -4711,24 +4711,24 @@
                         ]
                     ],
                     "21,20": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            28
                         ]
                     ],
                     "21,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            29
                         ]
                     ],
                     "21,22": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            7,
+                            27
                         ]
                     ],
                     "21,23": [
@@ -4760,10 +4760,10 @@
                         ]
                     ],
                     "21,27": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "21,28": [
@@ -4774,10 +4774,10 @@
                         ]
                     ],
                     "21,29": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "21,30": [
@@ -4818,22 +4818,22 @@
                     "22,4": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            27
                         ]
                     ],
                     "22,5": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            4,
+                            28
                         ]
                     ],
                     "22,6": [
                         "FF2 Town 2.0 Tileset - OG {WAve, N426}",
                         [
-                            2,
-                            2
+                            11,
+                            28
                         ]
                     ],
                     "22,7": [
@@ -4886,10 +4886,10 @@
                         ]
                     ],
                     "22,14": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            16,
+                            22
                         ]
                     ],
                     "22,15": [
@@ -4928,24 +4928,24 @@
                         ]
                     ],
                     "22,20": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            28
                         ]
                     ],
                     "22,21": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            8,
+                            29
                         ]
                     ],
                     "22,22": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            10,
+                            28
                         ]
                     ],
                     "22,23": [
@@ -4956,24 +4956,24 @@
                         ]
                     ],
                     "22,24": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "22,25": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "22,26": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ],
                     "22,27": [
@@ -4998,19 +4998,168 @@
                         ]
                     ],
                     "22,30": [
-                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        "main",
                         [
-                            2,
-                            2
+                            14,
+                            24
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "gatewalls",
+                "visible": true,
+                "foreground": true,
+                "terrain_grid": {},
+                "sprite_grid": {
+                    "10,17": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "10,18": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            25,
+                            26
+                        ]
+                    ],
+                    "10,19": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            25,
+                            27
+                        ]
+                    ],
+                    "11,17": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "11,18": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            26,
+                            26
+                        ]
+                    ],
+                    "11,19": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            23,
+                            27
+                        ]
+                    ],
+                    "12,17": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "12,18": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            27,
+                            26
+                        ]
+                    ],
+                    "12,19": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            27,
+                            27
+                        ]
+                    ],
+                    "10,0": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "10,1": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            25,
+                            26
+                        ]
+                    ],
+                    "10,2": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            25,
+                            27
+                        ]
+                    ],
+                    "11,0": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "11,1": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            26,
+                            26
+                        ]
+                    ],
+                    "11,2": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            23,
+                            27
+                        ]
+                    ],
+                    "12,0": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            4,
+                            25
+                        ]
+                    ],
+                    "12,1": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            27,
+                            26
+                        ]
+                    ],
+                    "12,2": [
+                        "FF2 Town 2.0 Tileset - OG {WAve, N426}",
+                        [
+                            27,
+                            27
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "southgateopen",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {}
+            },
+            {
+                "nid": "northgateopen",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {},
+                "sprite_grid": {}
             }
         ],
         "tilesets": [
             "main",
             "FF2 Town 2.0 Tileset - OG {WAve, N426}",
-            "54728"
+            "54728",
+            "Improved Castle Tileset Palette 2"
         ]
     }
 ]
