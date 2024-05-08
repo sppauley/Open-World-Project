@@ -2,7 +2,7 @@
     {
         "nid": "Resilience",
         "name": "Resilience",
-        "desc": "Unit heals 50% of damage dealt by critical hits",
+        "desc": "When initiating combat, unit heals 50% of damage dealt by critical hits",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,
@@ -16,6 +16,10 @@
             [
                 "crit_lifelink",
                 0.5
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack'"
             ]
         ]
     }
