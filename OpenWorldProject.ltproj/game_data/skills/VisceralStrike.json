@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "VisceralStrike",
+        "name": "Visceral Strike",
+        "desc": "When this unit crits, has a CRIT% chance of tripling critical mutliplier",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            48
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_pre_proc",
+                "VisceralStrike_Proc"
+            ],
+            [
+                "proc_rate",
+                "CRIT_HIT"
+            ]
+        ]
+    }
+]
