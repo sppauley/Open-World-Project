@@ -9,7 +9,9 @@
         "priority": 20,
         "_source": [
             "show_layer;overlay",
-            "show_layer;overlay2"
+            "show_layer;overlay2",
+            "trigger_script;Global DEBUGSeanPlaytest1",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]
