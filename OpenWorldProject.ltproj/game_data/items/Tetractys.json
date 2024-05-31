@@ -81,7 +81,8 @@
             [
                 "prf_unit",
                 [
-                    "Euclid"
+                    "Euclid",
+                    "Euclid_Boss"
                 ]
             ]
         ]

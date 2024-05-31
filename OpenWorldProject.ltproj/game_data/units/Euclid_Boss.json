@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Euclid_Boss",
+        "name": "Euclid",
+        "desc": "A prominent scholar of Pelopos.\nBelieves all can be explained through equations.",
+        "variant": "",
+        "level": 5,
+        "klass": "Druid",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 48,
+            "CON": 16,
+            "PSE": 25,
+            "MAG": 12,
+            "SPD": 15,
+            "DEX": 14,
+            "MOV": 6
+        },
+        "growths": {
+            "CON": 35,
+            "PSE": 35,
+            "HP": 50,
+            "MAG": 20,
+            "SPD": 30,
+            "DEX": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Tetractys",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                181,
+                251
+            ],
+            "Staff": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{SirNicee} F2E OC 8",
+        "affinity": null,
+        "fields": []
+    }
+]

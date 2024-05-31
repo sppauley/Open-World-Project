@@ -42,7 +42,6 @@
     "Annetta",
     "Lucius",
     "Jaegus",
-    "Clotho",
     "Lachesis",
     "Gesmen",
     "Thanatos1",
@@ -51,6 +50,7 @@
     "Constanza",
     "Moran",
     "Atropos",
+    "Clotho",
     "Phantom",
     "Leon",
     "Raymond",
@@ -58,5 +58,6 @@
     "LadyJane",
     "Professor",
     "Giant",
-    "Abel"
+    "Abel",
+    "Euclid_Boss"
 ]
