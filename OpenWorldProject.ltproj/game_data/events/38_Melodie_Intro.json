@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Melodie Intro",
+        "trigger": null,
+        "level_nid": "38",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_objective_simple;Defeat bosses",
+            "change_objective_win;Defeat the two bosses",
+            "change_objective_loss;Simon or Melodie dies",
+            "add_tag;101;Boss",
+            "add_tag;102;Boss",
+            "change_team;101;enemy",
+            "change_team;102;enemy"
+        ]
+    }
+]

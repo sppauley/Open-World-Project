@@ -1,7 +1,7 @@
 [
     {
         "nid": "38",
-        "name": "Chapter 38",
+        "name": "The Pelopos Senate",
         "tilemap": "Senate Chambers",
         "bg_tilemap": null,
         "party": "Simon",
@@ -733,10 +733,6 @@
             },
             {
                 "nid": "b",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
