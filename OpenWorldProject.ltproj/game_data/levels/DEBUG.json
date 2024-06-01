@@ -153,24 +153,22 @@
                 "nid": "109",
                 "variant": null,
                 "level": 1,
-                "klass": "Halberdier",
+                "klass": "Sniper",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "MoransLegacy",
+                        "Pocketpoacher",
                         false
                     ]
                 ],
-                "starting_skills": [
-                    "Historymaker"
-                ],
+                "starting_skills": [],
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    7
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -309,6 +307,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

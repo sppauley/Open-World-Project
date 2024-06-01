@@ -8,7 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "add_portrait;Man1;MidLeft",
+            "add_portrait;Woman1;Right",
+            "add_portrait;Villager Girl;FarRight",
+            "",
+            "wait;300",
+            "",
+            "add_portrait;Simon;FarLeft;left"
         ]
     }
 ]

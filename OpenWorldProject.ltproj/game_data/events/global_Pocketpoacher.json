@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Pocketpoacher",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit2.dead or unit2.is_dying",
+            "    give_money;75",
+            "end"
+        ]
+    }
+]

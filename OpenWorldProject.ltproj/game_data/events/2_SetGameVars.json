@@ -33,7 +33,8 @@
             "",
             "game_var;ArmsDealerUnlocked;False",
             "game_var;MAXMapsToArmsDealerUnlock;4",
-            "game_var;ArmsDealerMapsLeft;int(v(\"MAXMapsToArmsDealerUnlock\"))"
+            "game_var;ArmsDealerMapsLeft;int(v(\"MAXMapsToArmsDealerUnlock\"))",
+            "game_var;ArmsDealerGone;False"
         ]
     }
 ]

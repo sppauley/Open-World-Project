@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Pocketpoacher",
+        "name": "Pocketpoacher",
+        "desc": "On kill, gain 75 gold.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                540
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                85
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "effective",
+                8
+            ],
+            [
+                "effective_tag",
+                [
+                    "Flying"
+                ]
+            ],
+            [
+                "effective_multiplier",
+                3.0
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Pocketpoacher"
+            ]
+        ]
+    }
+]
