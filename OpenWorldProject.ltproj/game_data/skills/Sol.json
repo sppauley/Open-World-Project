@@ -2,7 +2,7 @@
     {
         "nid": "Sol",
         "name": "Sol",
-        "desc": "When attacking, unit has DEX% chance to deal half of damage dealt.",
+        "desc": "Unit has DEX% chance to deal half of damage dealt.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
@@ -20,10 +20,6 @@
             [
                 "attack_proc",
                 "Sol_Proc"
-            ],
-            [
-                "combat_condition",
-                "mode == 'attack'"
             ]
         ]
     }
