@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Turn 2",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.game_vars[\"SenateSide\"]==\"Melodie\"",
+            "    change_ai;110;Pursue",
+            "    change_ai;111;Pursue",
+            "    change_ai;109;Pursue",
+            "end"
+        ]
+    }
+]
