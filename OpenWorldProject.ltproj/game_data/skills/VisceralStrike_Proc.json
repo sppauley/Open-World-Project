@@ -2,7 +2,7 @@
     {
         "nid": "VisceralStrike_Proc",
         "name": "Visceral Strike",
-        "desc": "When this unit crits, has a CRIT% chance of tripling total damage",
+        "desc": "",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             5,
@@ -19,7 +19,7 @@
             ],
             [
                 "damage_multiplier",
-                3.0
+                2.0
             ]
         ]
     }
