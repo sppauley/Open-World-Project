@@ -265,12 +265,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Guard",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "f",
                 "starting_position": [
                     13,
-                    22
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -289,12 +289,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "f",
                 "starting_position": [
                     14,
-                    22
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -313,12 +313,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "f",
                 "starting_position": [
                     12,
-                    22
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -609,9 +609,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "g",
                 "starting_position": [
                     20,
                     18
@@ -633,9 +633,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "g",
                 "starting_position": [
                     19,
                     18
@@ -657,9 +657,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "g",
                 "starting_position": [
                     20,
                     19
@@ -681,9 +681,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "g",
                 "starting_position": [
                     7,
                     18
@@ -705,9 +705,9 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "g",
                 "starting_position": [
                     8,
                     17
@@ -1067,6 +1067,18 @@
             },
             {
                 "nid": "e",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "f",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "g",
                 "trigger_threshold": 1
             }
         ]
