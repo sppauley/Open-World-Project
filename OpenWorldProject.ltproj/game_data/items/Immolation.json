@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Elfire",
-        "name": "Elfire",
-        "desc": "",
+        "nid": "Immolation",
+        "name": "Immolation",
+        "desc": "A famously volatile tome.\nAfter combat, user suffers eight non-lethal damage.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                8
+                12
             ],
             [
                 "hit",
-                85
+                80
             ],
             [
                 "crit",
@@ -51,7 +51,7 @@
             ],
             [
                 "weapon_rank",
-                "C"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -67,7 +67,7 @@
             ],
             [
                 "value",
-                800
+                2000
             ],
             [
                 "wexp",
@@ -78,13 +78,17 @@
                 [
                     [
                         "MAG",
-                        6
+                        11
                     ]
                 ]
             ],
             [
                 "stagger",
-                2
+                6
+            ],
+            [
+                "status_on_equip",
+                "ImmolationStatus"
             ]
         ]
     }

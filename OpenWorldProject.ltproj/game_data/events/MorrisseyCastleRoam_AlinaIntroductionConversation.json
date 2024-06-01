@@ -18,7 +18,7 @@
             "s;Simon;Yes. Of a sort.|But, if I may, I don't understand what happened at the school.|I thought nobility had been abolished in Pelopos,|so why did he call you a lowborn?",
             "s;Alina;His tongue slipped.{w} The correct term, now,|is \"lacking revolutionary heritage\".|My mother was a songstress, and travelled.|Neither of us took part in the revolution,|and are therefore thought to be untrustworthy.",
             "s;Simon;I see. So you have nothing against nobility?",
-            "s;Alina;Against certain nobles, sure.{w} But as to the institution,|Pelopos oddly taught me fondness for it.",
+            "s;Alina;Against certain nobles, sure.{w} But as to the institution,|Pelopos gave me fondness for it.",
             "s;Simon;I'm relieved to hear it.|My story is a long one, but I am the scion of House Verstadt.",
             "s;Alina;Let me find you a chair.{w} I want to hear it, from the start.",
             "transition;close;1000",

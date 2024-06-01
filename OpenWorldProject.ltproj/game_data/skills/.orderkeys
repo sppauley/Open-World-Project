@@ -208,5 +208,6 @@
     "Opportunist",
     "Homesight",
     "VisceralStrike",
-    "VisceralStrike_Proc"
+    "VisceralStrike_Proc",
+    "ImmolationStatus"
 ]

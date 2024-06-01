@@ -54,6 +54,8 @@
             "",
             "elif;v(\"ArmsDealerMapsLeft\") == 0 and v(\"FirstWeaponReceived\") != None",
             "",
+            "# If Alina is recruited, have her jump in here",
+            "give_item;Simon;Immolation",
             "game_var;ArmsDealerGone;True",
             "",
             "end"

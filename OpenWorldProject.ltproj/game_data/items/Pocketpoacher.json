@@ -3,7 +3,7 @@
         "nid": "Pocketpoacher",
         "name": "Pocketpoacher",
         "desc": "On kill, gain 75 gold.",
-        "icon_nid": "Bow",
+        "icon_nid": "{LordGlenn} Bow 11",
         "icon_index": [
             0,
             0

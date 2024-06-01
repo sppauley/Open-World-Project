@@ -157,3 +157,18 @@ class PersonalSkill(SkillComponent):
     nid = 'personal_skill'
     desc = "[This project specific] Skill will show up in the personal skill slot of the help menu"
     tag = SkillTags.ATTRIBUTE
+
+class SelfRecoil(SkillComponent):
+    nid = 'self_recoil'
+    desc = "Unit takes non-lethal damage after any combat"
+    tag = SkillTags.CUSTOM
+
+    expose = ComponentType.Int
+    value = 0
+    author = 'Lord_Tweed'
+
+    def end_combat(self, playback, unit, item, target, item2, mode):
+        if target:
+            end_health = unit.get_hp() - self.value
+            action.do(action.SetHP(unit, max(1, end_health)))
+            action.do(action.TriggerCharge(unit, self.skill))
