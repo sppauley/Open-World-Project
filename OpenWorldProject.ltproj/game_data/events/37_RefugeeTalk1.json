@@ -1,0 +1,14 @@
+[
+    {
+        "name": "RefugeeTalk1",
+        "trigger": "on_talk",
+        "level_nid": "37",
+        "condition": "unit2.nid == \"104\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ]
+    }
+]

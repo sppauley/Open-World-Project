@@ -14,8 +14,17 @@
             "    game_var;MapsToSkillUnlock;v(\"MAXMapsToSkillUnlock\")",
             "    game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))",
             "end",
+            "if;v(\"ArmsDealerUnlocked\") == None",
+            "    game_var;ArmsDealerUnlocked;False",
+            "    game_var;MAXMapsToArmsDealerUnlock;4",
+            "    game_var;ArmsDealerMapsLeft;int(v(\\\"MAXMapsToArmsDealerUnlock\\\"))",
+            "end",
             "",
-            "game_var;MapsToSkillUnlock;max(v(\"MapsToSkillUnlock\") - 1, 0)"
+            "game_var;MapsToSkillUnlock;max(v(\"MapsToSkillUnlock\") - 1, 0)",
+            "",
+            "if;v(\"ArmsDealerUnlocked\")",
+            "    game_var;ArmsDealerMapsLeft;max(v(\"ArmsDealerMapsLeft\") - 1, 0)",
+            "end"
         ]
     }
 ]

@@ -1,0 +1,45 @@
+[
+    {
+        "nid": "Janus",
+        "name": "Janus",
+        "desc": "",
+        "variant": "",
+        "level": 10,
+        "klass": "Mercenary",
+        "tags": [],
+        "bases": {
+            "HP": 15,
+            "PSE": 16,
+            "MOV": 5,
+            "SPD": 15,
+            "DEX": 7,
+            "MAG": 2,
+            "CON": 3
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Iron Sword",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "VillagerTeen",
+        "affinity": null,
+        "fields": []
+    }
+]

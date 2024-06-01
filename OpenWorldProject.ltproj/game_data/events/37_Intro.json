@@ -14,6 +14,9 @@
             "else",
             "    # Guards turn you away, other interactions",
             "    add_group;RoamGroup;RoamGroup;immediate",
+            "    add_talk;Simon;104",
+            "    add_talk;Simon;101",
+            "    add_talk;Simon;103",
             "end"
         ]
     }

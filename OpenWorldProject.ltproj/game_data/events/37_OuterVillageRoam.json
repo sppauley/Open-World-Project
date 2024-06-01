@@ -1,0 +1,21 @@
+[
+    {
+        "name": "OuterVillageRoam",
+        "trigger": "Village",
+        "level_nid": "37",
+        "condition": "unit.team=='player' and region.nid== \"OuterVillage\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.is_roam()",
+            "    add_portrait;Simon;Left",
+            "    add_portrait;Man2;Right",
+            "    s;Man2;Out, begone! We have nothing to give you!",
+            "    multi_remove_portrait;Simon;Man2",
+            "else",
+            "",
+            "end"
+        ]
+    }
+]

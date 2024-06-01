@@ -3,7 +3,7 @@
         "nid": "Rodger",
         "name": "Rodger",
         "desc": "The captain of a small trading vessel.",
-        "variant": null,
+        "variant": "",
         "level": 1,
         "klass": "Pirate",
         "tags": [],

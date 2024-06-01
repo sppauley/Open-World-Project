@@ -29,7 +29,11 @@
             "",
             "game_var;MAXMapsToSkillUnlock;3",
             "game_var;MapsToSkillUnlock;int(v(\"MAXMapsToSkillUnlock\"))",
-            "game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))"
+            "game_var;SkillIdx;static_random.get_randint(0, len(DB.skills.get_feats()))",
+            "",
+            "game_var;ArmsDealerUnlocked;False",
+            "game_var;MAXMapsToArmsDealerUnlock;4",
+            "game_var;ArmsDealerMapsLeft;int(v(\"MAXMapsToArmsDealerUnlock\"))"
         ]
     }
 ]
