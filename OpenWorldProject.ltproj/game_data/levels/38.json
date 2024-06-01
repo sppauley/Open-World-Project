@@ -48,10 +48,15 @@
                 "level": 1,
                 "klass": "Tycoon",
                 "faction": "Pelopos",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Freeze",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -67,15 +72,20 @@
                 "level": 1,
                 "klass": "Tycoon",
                 "faction": "Pelopos",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Freeze",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     23,
-                    4
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -85,7 +95,7 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "e",
                 "starting_position": [
                     7,
                     5
@@ -660,12 +670,12 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 10,
-                "klass": "Sniper",
+                "level": 17,
+                "klass": "Archer",
                 "faction": "Pelopos",
                 "starting_items": [
                     [
-                        "Greatbow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -675,8 +685,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    19
+                    7,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -699,8 +709,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    18
+                    8,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -756,7 +766,7 @@
             {
                 "nid": "130",
                 "variant": null,
-                "level": 6,
+                "level": 3,
                 "klass": "Druid",
                 "faction": "Pelopos",
                 "starting_items": [
@@ -778,33 +788,9 @@
                 "generic": true
             },
             {
-                "nid": "132",
-                "variant": null,
-                "level": 15,
-                "klass": "Shaman",
-                "faction": "Pelopos",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "d",
-                "starting_position": [
-                    24,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "131",
                 "variant": null,
-                "level": 7,
+                "level": 1,
                 "klass": "Halberdier",
                 "faction": "Pelopos",
                 "starting_items": [
@@ -867,30 +853,6 @@
                 "roam_ai": null,
                 "ai_group": "c",
                 "starting_position": [
-                    3,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "135",
-                "variant": null,
-                "level": 15,
-                "klass": "Archer",
-                "faction": "Pelopos",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
                     1,
                     19
                 ],
@@ -900,7 +862,7 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 7,
+                "level": 1,
                 "klass": "Swordmaster",
                 "faction": "Pelopos",
                 "starting_items": [
@@ -924,7 +886,7 @@
             {
                 "nid": "137",
                 "variant": null,
-                "level": 7,
+                "level": 3,
                 "klass": "Sniper",
                 "faction": "Pelopos",
                 "starting_items": [
@@ -940,7 +902,127 @@
                 "ai_group": "c",
                 "starting_position": [
                     3,
-                    15
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    7,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    17,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    9,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 10,
+                "klass": "Knight",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    19,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    18,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -981,6 +1063,14 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "e",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
