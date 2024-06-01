@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "37",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"LiberatedVerstadt\") or v(\"DragonCleared\") or v(\"SwampCleared\")",
+            "    # Path to Troy is open, do the battle",
+            "    remove_group;RoamGroup;immediate",
+            "else",
+            "    # Guards turn you away, other interactions",
+            "    add_group;RoamGroup;RoamGroup;immediate",
+            "end"
+        ]
+    }
+]

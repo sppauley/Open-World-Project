@@ -98,5 +98,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Troy",
+        "name": "Troy",
+        "desc": "",
+        "icon_nid": "EmpireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

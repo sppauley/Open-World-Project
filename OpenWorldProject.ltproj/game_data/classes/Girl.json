@@ -112,7 +112,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Villager (F) (Girl) Standing {IS}",
+        "map_sprite_nid": "Citizen_Girl",
         "combat_anim_nid": null,
         "fields": []
     }
