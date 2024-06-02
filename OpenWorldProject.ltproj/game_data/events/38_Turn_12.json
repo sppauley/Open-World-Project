@@ -1,15 +1,15 @@
 [
     {
-        "name": "Turn 7",
+        "name": "Turn 12",
         "trigger": "turn_change",
         "level_nid": "38",
-        "condition": "game.turncount == 7",
+        "condition": "game.turncount == 12",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "if;game.game_vars[\"SenateSide\"]==\"Melodie\"",
-            "    add_group;AttackReinforcements",
+            "    add_group;AttackReinforcements;;;closest;create",
             "    center_cursor;13,34",
             "    wait;300",
             "end"

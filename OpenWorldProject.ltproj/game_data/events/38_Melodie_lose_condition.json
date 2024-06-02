@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Melodie lose condition",
+        "trigger": "combat_end",
+        "level_nid": "38",
+        "condition": "game.game_vars[\"SenateSide\"]==\"Melodie\" and game.check_dead('Melodie')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Melodie;Left",
+            "expression;Melodie;CloseEyes",
+            "s;Melodie;Gah. To think these bastards got the better of me.{w}{br}The tribes... I let them down.",
+            "remove_portrait;Melodie",
+            "lose_game"
+        ]
+    }
+]

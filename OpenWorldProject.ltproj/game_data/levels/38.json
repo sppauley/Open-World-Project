@@ -509,6 +509,10 @@
                     [
                         "Steel Bow",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -581,6 +585,10 @@
                     [
                         "Grasp",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1206,6 +1214,132 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Bolting",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Bolting",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 6,
+                "klass": "Sniper",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 6,
+                "klass": "Sniper",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 6,
+                "klass": "Sniper",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 6,
+                "klass": "Sniper",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1221,6 +1355,23 @@
                     2
                 ],
                 "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "trap_attack",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    27,
+                    6
+                ],
+                "sub_nid": null,
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1252,6 +1403,43 @@
                     "147": [
                         15,
                         34
+                    ]
+                }
+            },
+            {
+                "nid": "AttackReinforcements2",
+                "units": [
+                    "148",
+                    "149",
+                    "150",
+                    "151",
+                    "153",
+                    "152"
+                ],
+                "positions": {
+                    "148": [
+                        8,
+                        17
+                    ],
+                    "149": [
+                        18,
+                        17
+                    ],
+                    "150": [
+                        26,
+                        10
+                    ],
+                    "151": [
+                        26,
+                        11
+                    ],
+                    "153": [
+                        0,
+                        10
+                    ],
+                    "152": [
+                        0,
+                        11
                     ]
                 }
             }
