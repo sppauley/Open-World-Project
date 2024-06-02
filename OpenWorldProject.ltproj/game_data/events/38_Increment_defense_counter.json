@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Increment defense counter",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "game.game_vars[\"SenateSide\"]==\"Euclid\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.turncount < 11",
+            "    change_objective_simple;Defend for {eval:13-game.turncount} turns",
+            "elif;game.turncount == 1",
+            "    change_objective_simple;Defend for 1 turn",
+            "elif;game.turncount == 12",
+            "    win_game",
+            "end"
+        ]
+    }
+]
