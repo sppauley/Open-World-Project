@@ -1397,23 +1397,6 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
-            },
-            {
-                "nid": "trap_attack_center",
-                "region_type": "normal",
-                "position": [
-                    5,
-                    17
-                ],
-                "size": [
-                    17,
-                    6
-                ],
-                "sub_nid": null,
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
             }
         ],
         "unit_groups": [

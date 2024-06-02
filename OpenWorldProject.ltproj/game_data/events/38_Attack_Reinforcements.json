@@ -3,7 +3,7 @@
         "name": "Attack Reinforcements",
         "trigger": "turn_change",
         "level_nid": "38",
-        "condition": "any(get_units_in_region('trap_attack', team='player'))) and game.game_vars[\"SenateSide\"]==\"Melodie\"",
+        "condition": "any(get_units_in_region('trap_attack', team='player')) and game.game_vars[\"SenateSide\"]==\"Melodie\"",
         "commands": [],
         "only_once": true,
         "priority": 20,
