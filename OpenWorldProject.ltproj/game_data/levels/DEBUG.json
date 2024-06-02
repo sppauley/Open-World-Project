@@ -261,14 +261,14 @@
                 "generic": false
             },
             {
-                "nid": "Luther",
+                "nid": "Euclid",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    4
+                    4,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -320,6 +320,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

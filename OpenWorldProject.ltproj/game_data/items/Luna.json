@@ -2,7 +2,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Ignore's enemy resistance",
+        "desc": "Deals +3 damage against magic classes",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "damage",
-                0
+                7
             ],
             [
                 "hit",
-                50
+                60
             ],
             [
                 "weapon_type",
@@ -42,17 +42,6 @@
                 null
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 12
             ],
@@ -62,7 +51,7 @@
             ],
             [
                 "value",
-                4200
+                1200
             ],
             [
                 "min_range",
@@ -73,8 +62,21 @@
                 2
             ],
             [
-                "alternate_resist_formula",
-                "ZERO"
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "status_on_equip",
+                "LunaBonus"
             ]
         ]
     }

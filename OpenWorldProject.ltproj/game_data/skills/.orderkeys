@@ -209,5 +209,7 @@
     "Homesight",
     "VisceralStrike",
     "VisceralStrike_Proc",
-    "ImmolationStatus"
+    "ImmolationStatus",
+    "MagicWeapon",
+    "LunaBonus"
 ]

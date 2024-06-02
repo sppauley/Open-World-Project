@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LunaBonus",
+        "name": "LunaBonus",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "3 if 'Magic' in target.tags else 0"
+            ]
+        ]
+    }
+]
