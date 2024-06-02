@@ -14,7 +14,8 @@
             "add_tag;101;Boss",
             "add_tag;102;Boss",
             "change_team;101;enemy",
-            "change_team;102;enemy"
+            "change_team;102;enemy",
+            "add_unit;Melodie;12,32"
         ]
     }
 ]

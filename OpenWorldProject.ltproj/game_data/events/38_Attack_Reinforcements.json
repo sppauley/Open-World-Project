@@ -5,7 +5,7 @@
         "level_nid": "38",
         "condition": "any(get_units_in_region('trap_attack', team='player'))) and game.game_vars[\"SenateSide\"]==\"Melodie\"",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_group;AttackReinforcements2;;;closest;create",

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Attack Reinforcements Center",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "any(get_units_in_region('trap_attack_center', team='player'))) and game.game_vars[\"SenateSide\"]==\"Melodie\" and game.turncount < 8",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;AttackReinforcements;;;closest;create",
+            "center_cursor;13,34",
+            "wait;300"
+        ]
+    }
+]
