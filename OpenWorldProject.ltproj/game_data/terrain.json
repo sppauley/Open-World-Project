@@ -165,6 +165,36 @@
         "status": null
     },
     {
+        "nid": "Chair",
+        "name": "Chair",
+        "color": [
+            64,
+            40,
+            40
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "background": "combat_plains",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "Table",
+        "name": "Table",
+        "color": [
+            64,
+            40,
+            40
+        ],
+        "minimap": "Wall",
+        "platform": "Wall",
+        "background": "combat_plains",
+        "mtype": "Fence",
+        "opaque": false,
+        "status": null
+    },
+    {
         "nid": "10",
         "name": "Lake",
         "color": [

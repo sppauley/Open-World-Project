@@ -93,10 +93,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    7,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -117,10 +114,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    33
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -141,10 +135,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    20,
-                    33
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -165,10 +156,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    29
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -189,10 +177,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    28
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -213,10 +198,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    17,
-                    29
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -237,10 +219,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    16,
-                    28
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -265,10 +244,7 @@
                 "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "f",
-                "starting_position": [
-                    13,
-                    21
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -289,10 +265,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "f",
-                "starting_position": [
-                    14,
-                    21
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -313,10 +286,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "f",
-                "starting_position": [
-                    12,
-                    21
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -337,10 +307,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    27
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -361,10 +328,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    21,
-                    27
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -389,10 +353,7 @@
                 "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    12,
-                    11
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -417,10 +378,7 @@
                 "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    14,
-                    11
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -441,10 +399,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    2,
-                    34
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -465,10 +420,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    1,
-                    33
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -489,10 +441,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    25,
-                    33
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -517,10 +466,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    24,
-                    34
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -541,10 +487,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    25,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -565,10 +508,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    2,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -593,10 +533,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    3,
-                    26
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -617,10 +554,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "g",
-                "starting_position": [
-                    20,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -641,10 +575,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "g",
-                "starting_position": [
-                    19,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -665,10 +596,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "g",
-                "starting_position": [
-                    20,
-                    19
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -689,10 +617,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "g",
-                "starting_position": [
-                    7,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -713,10 +638,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "g",
-                "starting_position": [
-                    8,
-                    17
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -737,10 +659,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    26,
-                    16
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -761,10 +680,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    25,
-                    16
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -785,10 +701,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    23,
-                    15
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -813,10 +726,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    25,
-                    20
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -837,10 +747,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    2,
-                    15
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -861,10 +768,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    1,
-                    19
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -889,10 +793,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    2,
-                    19
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -913,10 +814,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "c",
-                "starting_position": [
-                    3,
-                    14
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -937,10 +835,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    7,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -961,10 +856,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    17,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -985,10 +877,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    9,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1009,10 +898,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    19,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1037,10 +923,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "e",
-                "starting_position": [
-                    18,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1065,10 +948,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "h",
-                "starting_position": [
-                    13,
-                    17
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1089,10 +969,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "h",
-                "starting_position": [
-                    12,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1113,10 +990,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "h",
-                "starting_position": [
-                    14,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1137,10 +1011,7 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "a",
-                "starting_position": [
-                    13,
-                    18
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -1365,23 +1236,6 @@
         ],
         "regions": [
             {
-                "nid": "prep_attack",
-                "region_type": "formation",
-                "position": [
-                    11,
-                    33
-                ],
-                "size": [
-                    5,
-                    2
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
                 "nid": "trap_attack",
                 "region_type": "normal",
                 "position": [
@@ -1461,6 +1315,228 @@
                     "152": [
                         0,
                         11
+                    ]
+                }
+            },
+            {
+                "nid": "AttackStarting",
+                "units": [
+                    "Euclid_Boss",
+                    "103",
+                    "104",
+                    "105",
+                    "106",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "119",
+                    "113",
+                    "114",
+                    "115",
+                    "116",
+                    "117",
+                    "118",
+                    "120",
+                    "121",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "126",
+                    "127",
+                    "129",
+                    "128",
+                    "130",
+                    "131",
+                    "133",
+                    "134",
+                    "136",
+                    "137",
+                    "132",
+                    "138",
+                    "135",
+                    "139",
+                    "140",
+                    "141",
+                    "142",
+                    "143",
+                    "154"
+                ],
+                "positions": {
+                    "Euclid_Boss": [
+                        7,
+                        5
+                    ],
+                    "103": [
+                        6,
+                        33
+                    ],
+                    "104": [
+                        20,
+                        33
+                    ],
+                    "119": [
+                        21,
+                        27
+                    ],
+                    "112": [
+                        5,
+                        27
+                    ],
+                    "105": [
+                        9,
+                        29
+                    ],
+                    "106": [
+                        10,
+                        28
+                    ],
+                    "107": [
+                        17,
+                        29
+                    ],
+                    "108": [
+                        16,
+                        28
+                    ],
+                    "109": [
+                        13,
+                        21
+                    ],
+                    "110": [
+                        14,
+                        21
+                    ],
+                    "111": [
+                        12,
+                        21
+                    ],
+                    "113": [
+                        12,
+                        11
+                    ],
+                    "114": [
+                        14,
+                        11
+                    ],
+                    "115": [
+                        2,
+                        34
+                    ],
+                    "116": [
+                        1,
+                        33
+                    ],
+                    "117": [
+                        25,
+                        33
+                    ],
+                    "118": [
+                        24,
+                        34
+                    ],
+                    "120": [
+                        25,
+                        26
+                    ],
+                    "122": [
+                        3,
+                        26
+                    ],
+                    "121": [
+                        2,
+                        26
+                    ],
+                    "123": [
+                        20,
+                        18
+                    ],
+                    "124": [
+                        19,
+                        18
+                    ],
+                    "125": [
+                        20,
+                        19
+                    ],
+                    "126": [
+                        7,
+                        18
+                    ],
+                    "127": [
+                        8,
+                        17
+                    ],
+                    "129": [
+                        26,
+                        16
+                    ],
+                    "128": [
+                        25,
+                        16
+                    ],
+                    "130": [
+                        23,
+                        15
+                    ],
+                    "131": [
+                        25,
+                        20
+                    ],
+                    "133": [
+                        2,
+                        15
+                    ],
+                    "134": [
+                        1,
+                        19
+                    ],
+                    "136": [
+                        2,
+                        19
+                    ],
+                    "137": [
+                        3,
+                        14
+                    ],
+                    "132": [
+                        7,
+                        9
+                    ],
+                    "138": [
+                        17,
+                        9
+                    ],
+                    "135": [
+                        9,
+                        9
+                    ],
+                    "139": [
+                        19,
+                        9
+                    ],
+                    "140": [
+                        18,
+                        5
+                    ],
+                    "141": [
+                        13,
+                        17
+                    ],
+                    "142": [
+                        12,
+                        18
+                    ],
+                    "143": [
+                        14,
+                        18
+                    ],
+                    "154": [
+                        13,
+                        18
                     ]
                 }
             }
