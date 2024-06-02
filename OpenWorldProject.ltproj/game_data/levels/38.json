@@ -797,6 +797,10 @@
                     [
                         "Silver_Pike",
                         false
+                    ],
+                    [
+                        "Shockstick",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -862,13 +866,17 @@
             {
                 "nid": "136",
                 "variant": null,
-                "level": 1,
+                "level": 3,
                 "klass": "Swordmaster",
                 "faction": "Pelopos",
                 "starting_items": [
                     [
-                        "Silver Blade",
+                        "Killing Edge",
                         false
+                    ],
+                    [
+                        "VisceralManual",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -886,7 +894,7 @@
             {
                 "nid": "137",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Sniper",
                 "faction": "Pelopos",
                 "starting_items": [

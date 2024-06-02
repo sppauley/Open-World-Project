@@ -279,5 +279,13 @@
     {
         "nid": "{LordGlenn} Bow 11",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Visceral Book",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Batima} Shockstick",
+        "subicon_dict": {}
     }
 ]

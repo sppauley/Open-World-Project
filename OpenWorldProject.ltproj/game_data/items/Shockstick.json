@@ -1,0 +1,87 @@
+[
+    {
+        "nid": "Shockstick",
+        "name": "Shockstick",
+        "desc": "A magic lance. Deals -3 damage to magic classes.",
+        "icon_nid": "{Batima} Shockstick",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "weight",
+                10
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "value",
+                1600
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        4
+                    ],
+                    [
+                        "CON",
+                        8
+                    ]
+                ]
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "status_on_equip",
+                "MagicWeapon"
+            ]
+        ]
+    }
+]
