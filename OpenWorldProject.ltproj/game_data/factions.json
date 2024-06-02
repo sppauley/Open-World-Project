@@ -108,5 +108,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Nomad",
+        "name": "Nomad",
+        "desc": "Wandering tribes who value freedom.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

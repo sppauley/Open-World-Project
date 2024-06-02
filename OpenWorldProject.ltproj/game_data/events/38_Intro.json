@@ -8,10 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "transition;close",
             "show_layer;overlay",
             "show_layer;overlay2",
             "",
-            "game_var;SenateSide;\"Melodie\"",
+            "game_var;SenateSide;\"Euclid\"",
             "",
             "if;game.game_vars[\"SenateSide\"]==\"Melodie\"",
             "    trigger_script;38 Melodie Intro",
@@ -20,7 +21,10 @@
             "end",
             "",
             "trigger_script;Global DEBUGSeanPlaytest1",
-            "trigger_script;Global GenericPreps"
+            "",
+            "transition;open",
+            "trigger_script;Global GenericPreps",
+            ""
         ]
     }
 ]
