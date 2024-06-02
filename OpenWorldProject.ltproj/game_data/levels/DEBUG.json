@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    6
+                    3,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -256,6 +256,19 @@
                 "starting_position": [
                     3,
                     6
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Luther",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false

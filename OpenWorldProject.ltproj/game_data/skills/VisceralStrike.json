@@ -2,7 +2,7 @@
     {
         "nid": "VisceralStrike",
         "name": "Visceral Strike",
-        "desc": "When this unit crits, has a CRIT% chance of tripling critical mutliplier",
+        "desc": "When attacking a staggered target, unit has a CRIT% chance of dealing double damage",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             5,
@@ -10,16 +10,20 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "attack_pre_proc",
                 "VisceralStrike_Proc"
             ],
             [
-                "proc_rate",
-                "CRIT_HIT"
+                "custom_proc_rate",
+                "combat_calcs.crit_accuracy(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "'Staggered' in [skill.nid for skill in target.skills]"
             ]
         ]
     }
