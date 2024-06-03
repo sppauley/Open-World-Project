@@ -1619,7 +1619,7 @@
                 "ai_group": "",
                 "starting_position": [
                     13,
-                    25
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1632,7 +1632,7 @@
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel_Mace",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -1643,7 +1643,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    24
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1656,7 +1656,7 @@
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel_Mace",
+                        "Steel_Pike",
                         false
                     ]
                 ],
@@ -1667,7 +1667,7 @@
                 "ai_group": "",
                 "starting_position": [
                     14,
-                    24
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
