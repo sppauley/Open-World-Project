@@ -341,7 +341,7 @@
                         false
                     ],
                     [
-                        "Spear",
+                        "Short Spear",
                         false
                     ]
                 ],
@@ -366,7 +366,7 @@
                         false
                     ],
                     [
-                        "Spear",
+                        "Short Spear",
                         false
                     ]
                 ],
@@ -1259,7 +1259,7 @@
                 "ai_group": "",
                 "starting_position": [
                     13,
-                    12
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1283,7 +1283,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    12
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1307,7 +1307,7 @@
                 "ai_group": "",
                 "starting_position": [
                     14,
-                    12
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1356,6 +1356,102 @@
                 "starting_position": [
                     2,
                     13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "160",
+                "variant": null,
+                "level": 5,
+                "klass": "Mercenary",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "161",
+                "variant": null,
+                "level": 5,
+                "klass": "Mercenary",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Iron Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "162",
+                "variant": null,
+                "level": 7,
+                "klass": "Journeyman",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "163",
+                "variant": null,
+                "level": 7,
+                "klass": "Journeyman",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true

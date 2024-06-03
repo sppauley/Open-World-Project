@@ -17,6 +17,7 @@
             "change_team;102;enemy",
             "add_unit;Melodie;12,32",
             "add_unit;Simon;14,32",
+            "change_team;Euclid;enemy",
             "add_group;AttackStarting",
             "add_region;prep;11,33;5,2;formation"
         ]
