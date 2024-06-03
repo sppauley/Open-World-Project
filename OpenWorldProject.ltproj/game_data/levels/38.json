@@ -1355,7 +1355,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    13
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1452,6 +1452,222 @@
                 "starting_position": [
                     19,
                     10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "164",
+                "variant": null,
+                "level": 3,
+                "klass": "Swordmaster",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "165",
+                "variant": null,
+                "level": 9,
+                "klass": "Myrmidon",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "166",
+                "variant": null,
+                "level": 9,
+                "klass": "Myrmidon",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "167",
+                "variant": null,
+                "level": 9,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    24,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "168",
+                "variant": null,
+                "level": 9,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    26,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "169",
+                "variant": null,
+                "level": 3,
+                "klass": "Berserker",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    25,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "170",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Lord",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "171",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "172",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
