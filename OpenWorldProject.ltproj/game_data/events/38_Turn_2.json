@@ -12,6 +12,11 @@
             "    change_ai;110;Pursue",
             "    change_ai;111;Pursue",
             "    change_ai;109;Pursue",
+            "else",
+            "    change_ai;178;Pursue",
+            "    change_ai;179;Pursue",
+            "    change_ai;180;Pursue",
+            "    change_ai;181;Pursue",
             "end"
         ]
     }
