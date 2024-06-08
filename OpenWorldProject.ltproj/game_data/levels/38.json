@@ -1250,6 +1250,10 @@
                     [
                         "Silver Bow",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1339,13 +1343,13 @@
             {
                 "nid": "159",
                 "variant": null,
-                "level": 3,
-                "klass": "Assassin",
+                "level": 5,
+                "klass": "Hero",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Silver Sword",
-                        false
+                        "Silver Blade",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1610,6 +1614,10 @@
                     [
                         "Silver Axe",
                         false
+                    ],
+                    [
+                        "Heavy Spear",
+                        true
                     ]
                 ],
                 "starting_skills": [],
