@@ -1891,6 +1891,132 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "182",
+                "variant": null,
+                "level": 17,
+                "klass": "Myrmidon",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "183",
+                "variant": null,
+                "level": 17,
+                "klass": "Myrmidon",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "184",
+                "variant": null,
+                "level": 17,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "185",
+                "variant": null,
+                "level": 17,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "186",
+                "variant": null,
+                "level": 17,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "187",
+                "variant": null,
+                "level": 17,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2196,6 +2322,43 @@
                     "154": [
                         13,
                         18
+                    ]
+                }
+            },
+            {
+                "nid": "Defense1",
+                "units": [
+                    "182",
+                    "183",
+                    "184",
+                    "185",
+                    "186",
+                    "187"
+                ],
+                "positions": {
+                    "182": [
+                        1,
+                        35
+                    ],
+                    "183": [
+                        2,
+                        35
+                    ],
+                    "184": [
+                        24,
+                        35
+                    ],
+                    "185": [
+                        25,
+                        35
+                    ],
+                    "186": [
+                        10,
+                        35
+                    ],
+                    "187": [
+                        16,
+                        35
                     ]
                 }
             }
