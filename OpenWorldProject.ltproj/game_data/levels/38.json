@@ -1479,7 +1479,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    23
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1503,7 +1503,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    23
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1527,7 +1527,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    23
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1551,31 +1551,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "168",
-                "variant": null,
-                "level": 9,
-                "klass": "Fighter",
-                "faction": "Nomad",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "SenateAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    26,
-                    20
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1598,8 +1574,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    25,
-                    21
+                    23,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
