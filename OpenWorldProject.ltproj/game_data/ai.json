@@ -791,6 +791,24 @@
         "roam_ai": false
     },
     {
+        "nid": "SupportGuard",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 20,
+        "offense_bias": 2,
+        "roam_ai": false
+    },
+    {
         "nid": "EPEEnterCave",
         "behaviours": [
             {

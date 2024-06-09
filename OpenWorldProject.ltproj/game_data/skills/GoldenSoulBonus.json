@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GoldenSoulBonus",
+        "name": "Golden Soul",
+        "desc": "",
+        "icon_nid": "Golden Soul",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "25 if unit.get_hp() >= unit.get_max_hp() / 2 else 0"
+            ]
+        ]
+    }
+]

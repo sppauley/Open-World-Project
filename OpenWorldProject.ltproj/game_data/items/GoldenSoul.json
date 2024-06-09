@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "GoldenSoul",
+        "name": "Golden Soul",
+        "desc": "Euclid only. Holder gains +25 crit if above half HP.",
+        "icon_nid": "Golden Soul",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Euclid"
+                ]
+            ],
+            [
+                "status_on_hold",
+                "GoldenSoulBonus"
+            ]
+        ]
+    }
+]

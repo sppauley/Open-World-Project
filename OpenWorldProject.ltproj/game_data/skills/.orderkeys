@@ -211,5 +211,6 @@
     "VisceralStrike_Proc",
     "ImmolationStatus",
     "MagicWeapon",
-    "LunaBonus"
+    "LunaBonus",
+    "GoldenSoulBonus"
 ]

@@ -17,7 +17,8 @@
             "add_region;prep1;7,7;2,1;formation",
             "add_region;prep2;7,8;3,1;formation",
             "add_region;prep3;18,7;2,1;formation",
-            "add_region;prep4;17,8;3,1;formation"
+            "add_region;prep4;17,8;3,1;formation",
+            "add_talk;Euclid;188"
         ]
     }
 ]

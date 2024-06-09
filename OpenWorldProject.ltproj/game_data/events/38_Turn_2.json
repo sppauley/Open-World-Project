@@ -13,10 +13,15 @@
             "    change_ai;111;Pursue",
             "    change_ai;109;Pursue",
             "else",
-            "    change_ai;178;Pursue",
-            "    change_ai;179;Pursue",
-            "    change_ai;180;Pursue",
-            "    change_ai;181;Pursue",
+            "    change_ai;178;SenateAttack",
+            "    change_ai;179;SenateAttack",
+            "    change_ai;180;SenateAttack",
+            "    change_ai;181;SenateAttack",
+            "    change_ai;173;SenateAttack",
+            "    change_ai;174;SenateAttack",
+            "    change_ai;175;SenateAttack",
+            "    change_ai;176;SenateAttack",
+            "    change_ai;177;SenateAttack",
             "end"
         ]
     }
