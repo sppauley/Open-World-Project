@@ -1699,7 +1699,7 @@
                 "ai_group": "",
                 "starting_position": [
                     1,
-                    32
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1723,7 +1723,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    33
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1751,7 +1751,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    33
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1775,7 +1775,7 @@
                 "ai_group": "",
                 "starting_position": [
                     25,
-                    33
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1799,7 +1799,7 @@
                 "ai_group": "",
                 "starting_position": [
                     23,
-                    33
+                    31
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2042,11 +2042,11 @@
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Elixir",
                         false
                     ],
                     [
-                        "Vulnerary",
+                        "Elixir",
                         false
                     ]
                 ],
@@ -2397,11 +2397,11 @@
                         35
                     ],
                     "186": [
-                        10,
+                        9,
                         35
                     ],
                     "187": [
-                        16,
+                        17,
                         35
                     ]
                 }
