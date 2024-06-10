@@ -2024,7 +2024,7 @@
                 "nid": "186",
                 "variant": null,
                 "level": 17,
-                "klass": "Wyvern Rider",
+                "klass": "Soldier",
                 "faction": "Nomad",
                 "starting_items": [
                     [
@@ -2045,7 +2045,7 @@
                 "nid": "187",
                 "variant": null,
                 "level": 17,
-                "klass": "Wyvern Rider",
+                "klass": "Soldier",
                 "faction": "Nomad",
                 "starting_items": [
                     [
@@ -2134,6 +2134,153 @@
                 "starting_items": [
                     [
                         "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "193",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "194",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "195",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Rider",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "196",
+                "variant": null,
+                "level": 2,
+                "klass": "Guerilla",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "197",
+                "variant": null,
+                "level": 2,
+                "klass": "Guerilla",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "198",
+                "variant": null,
+                "level": 17,
+                "klass": "Myrmidon",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "199",
+                "variant": null,
+                "level": 17,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Killer Axe",
                         false
                     ]
                 ],
@@ -2514,6 +2661,48 @@
                     "192": [
                         26,
                         11
+                    ]
+                }
+            },
+            {
+                "nid": "Defense3",
+                "units": [
+                    "193",
+                    "194",
+                    "195",
+                    "196",
+                    "197",
+                    "198",
+                    "199"
+                ],
+                "positions": {
+                    "193": [
+                        12,
+                        35
+                    ],
+                    "194": [
+                        13,
+                        35
+                    ],
+                    "195": [
+                        14,
+                        35
+                    ],
+                    "196": [
+                        25,
+                        35
+                    ],
+                    "197": [
+                        1,
+                        35
+                    ],
+                    "198": [
+                        2,
+                        35
+                    ],
+                    "199": [
+                        24,
+                        35
                     ]
                 }
             }
