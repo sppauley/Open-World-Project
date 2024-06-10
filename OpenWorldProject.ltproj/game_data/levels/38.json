@@ -1478,32 +1478,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "165",
-                "variant": null,
-                "level": 9,
-                "klass": "Myrmidon",
-                "faction": "Nomad",
-                "starting_items": [
-                    [
-                        "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "SenateAttack",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    26
+                    3,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1516,7 +1492,7 @@
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -1526,8 +1502,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    26
+                    2,
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1540,7 +1516,7 @@
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -1698,7 +1674,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
+                    2,
                     31
                 ],
                 "starting_traveler": null,
@@ -1707,12 +1683,12 @@
             {
                 "nid": "174",
                 "variant": null,
-                "level": 4,
-                "klass": "Sniper",
+                "level": 5,
+                "klass": "Archer",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -1722,8 +1698,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    2,
-                    32
+                    1,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1757,30 +1733,6 @@
                 "generic": true
             },
             {
-                "nid": "176",
-                "variant": null,
-                "level": 5,
-                "klass": "Fighter",
-                "faction": "Nomad",
-                "starting_items": [
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    25,
-                    31
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "177",
                 "variant": null,
                 "level": 5,
@@ -1798,8 +1750,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    31
+                    25,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2042,12 +1994,12 @@
             {
                 "nid": "168",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Hand Axe",
                         false
                     ]
                 ],
@@ -2063,12 +2015,12 @@
             {
                 "nid": "190",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Fighter",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Hand Axe",
                         false
                     ]
                 ],
@@ -2084,12 +2036,12 @@
             {
                 "nid": "191",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Javelin",
                         false
                     ]
                 ],
@@ -2105,12 +2057,12 @@
             {
                 "nid": "192",
                 "variant": null,
-                "level": 7,
+                "level": 5,
                 "klass": "Soldier",
                 "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Javelin",
                         false
                     ]
                 ],
