@@ -9,11 +9,9 @@
         "priority": 20,
         "_source": [
             "if;game.game_vars[\"SenateSide\"]==\"Euclid\"",
-            "    add_group;Defense3;;;closest",
-            "    center_cursor;4,35",
-            "    wait;300",
-            "    center_cursor;22,35",
-            "    wait;300",
+            "    change_ai;170;SenateAttack",
+            "    change_ai;171;SenateAttack",
+            "    change_ai;172;SenateAttack",
             "end"
         ]
     }

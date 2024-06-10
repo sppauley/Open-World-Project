@@ -1,17 +1,19 @@
 [
     {
-        "name": "Turn 5",
+        "name": "Turn 7",
         "trigger": "turn_change",
         "level_nid": "38",
-        "condition": "game.turncount == 5",
+        "condition": "game.turncount == 7",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "if;game.game_vars[\"SenateSide\"]==\"Euclid\"",
-            "    change_ai;170;SenateAttack",
-            "    change_ai;171;SenateAttack",
-            "    change_ai;172;SenateAttack",
+            "    add_group;Defense3;;;closest",
+            "    center_cursor;4,35",
+            "    wait;300",
+            "    center_cursor;22,35",
+            "    wait;300",
             "end"
         ]
     }
