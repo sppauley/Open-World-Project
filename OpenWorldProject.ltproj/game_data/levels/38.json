@@ -1901,30 +1901,7 @@
                 "generic": true
             },
             {
-                "nid": "188",
-                "variant": null,
-                "level": 15,
-                "klass": "Druid",
-                "faction": "Pelopos",
-                "starting_items": [
-                    [
-                        "Physic",
-                        false
-                    ],
-                    [
-                        "Physic",
-                        false
-                    ],
-                    [
-                        "Elixir",
-                        false
-                    ],
-                    [
-                        "Elixir",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
+                "nid": "Lester",
                 "team": "other",
                 "ai": "SupportGuard",
                 "roam_ai": null,
@@ -1934,7 +1911,7 @@
                     23
                 ],
                 "starting_traveler": null,
-                "generic": true
+                "generic": false
             },
             {
                 "nid": "182",
@@ -2287,6 +2264,56 @@
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "200",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ],
+                    [
+                        "Elixir",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "201",
+                "variant": null,
+                "level": 15,
+                "klass": "General",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ],
+                    [
+                        "Elixir",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -2703,6 +2730,23 @@
                     "199": [
                         24,
                         35
+                    ]
+                }
+            },
+            {
+                "nid": "PeloposReinforcements",
+                "units": [
+                    "200",
+                    "201"
+                ],
+                "positions": {
+                    "200": [
+                        8,
+                        17
+                    ],
+                    "201": [
+                        18,
+                        17
                     ]
                 }
             }

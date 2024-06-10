@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "Lester",
+        "name": "Lester",
+        "desc": "A loyal defender of the Pelopos Senate.",
+        "variant": null,
+        "level": 12,
+        "klass": "Druid",
+        "tags": [],
+        "bases": {
+            "HP": 42,
+            "PSE": 20,
+            "MOV": 6,
+            "SPD": 16,
+            "DEX": 18,
+            "MAG": 20,
+            "CON": 7
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ],
+            [
+                "Elixir",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{LaurentLacroix} OC 26",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -1570,5 +1570,17 @@
             48
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "{LaurentLacroix} OC 26",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]
