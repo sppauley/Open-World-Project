@@ -14,8 +14,12 @@
                 null
             ],
             [
-                "dynamic_crit_accuracy",
-                "25 if unit.get_hp() >= unit.get_max_hp() / 2 else 0"
+                "condition",
+                "unit.get_hp() >= unit.get_max_hp() / 2"
+            ],
+            [
+                "crit",
+                25
             ]
         ]
     }

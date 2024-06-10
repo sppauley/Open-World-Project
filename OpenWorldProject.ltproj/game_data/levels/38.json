@@ -1726,8 +1726,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    31
+                    26,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1751,7 +1751,7 @@
                 "ai_group": "",
                 "starting_position": [
                     25,
-                    30
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2726,10 +2726,6 @@
             },
             {
                 "nid": "h",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
