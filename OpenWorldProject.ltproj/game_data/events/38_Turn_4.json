@@ -12,6 +12,12 @@
             "    change_ai;141;Pursue",
             "    change_ai;142;Pursue",
             "    change_ai;143;Pursue",
+            "else",
+            "    add_group;Defense2;;;closest",
+            "    center_cursor;1,10",
+            "    wait;300",
+            "    center_cursor;25,10",
+            "    wait;300",
             "end"
         ]
     }

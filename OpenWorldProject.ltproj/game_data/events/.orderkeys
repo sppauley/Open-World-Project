@@ -623,6 +623,7 @@
     "38_Turn_2",
     "38_Turn_3",
     "38_Turn_4",
+    "38_Turn_5",
     "38_Turn_9",
     "38_Turn_12",
     "37_WillemTalk",
@@ -631,5 +632,6 @@
     "38_Attack_Reinforcements",
     "38_Melodie_lose_condition",
     "38_Increment_defense_counter",
-    "38_Euclid_Talk_Druid"
+    "38_Euclid_Talk_Druid",
+    "38_Euclid_lost_condition"
 ]

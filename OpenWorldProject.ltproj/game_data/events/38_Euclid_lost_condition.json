@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Euclid lost condition",
+        "trigger": "combat_end",
+        "level_nid": "38",
+        "condition": "game.game_vars[\"SenateSide\"]==\"Euclid\" and (game.check_dead('Euclid') or game.check_dead('101') or game.check_dead('102'))",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Euclid;Left",
+            "s;Euclid;I failed my home...{w}{br}Now Pelopos will fall to chaos.",
+            "remove_portrait;Euclid",
+            "lose_game"
+        ]
+    }
+]

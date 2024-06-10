@@ -1901,6 +1901,42 @@
                 "generic": true
             },
             {
+                "nid": "188",
+                "variant": null,
+                "level": 15,
+                "klass": "Druid",
+                "faction": "Pelopos",
+                "starting_items": [
+                    [
+                        "Physic",
+                        false
+                    ],
+                    [
+                        "Physic",
+                        false
+                    ],
+                    [
+                        "Elixir",
+                        false
+                    ],
+                    [
+                        "Elixir",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "SupportGuard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "182",
                 "variant": null,
                 "level": 17,
@@ -2027,38 +2063,86 @@
                 "generic": true
             },
             {
-                "nid": "188",
+                "nid": "168",
                 "variant": null,
-                "level": 15,
-                "klass": "Druid",
-                "faction": "Pelopos",
+                "level": 7,
+                "klass": "Fighter",
+                "faction": "Nomad",
                 "starting_items": [
                     [
-                        "Physic",
-                        false
-                    ],
-                    [
-                        "Physic",
-                        false
-                    ],
-                    [
-                        "Elixir",
-                        false
-                    ],
-                    [
-                        "Elixir",
+                        "Steel Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "SupportGuard",
+                "team": "enemy",
+                "ai": "SenateAttack",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    13,
-                    23
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "190",
+                "variant": null,
+                "level": 7,
+                "klass": "Fighter",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
                 ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "191",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "192",
+                "variant": null,
+                "level": 7,
+                "klass": "Soldier",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             }
@@ -2405,6 +2489,33 @@
                         35
                     ]
                 }
+            },
+            {
+                "nid": "Defense2",
+                "units": [
+                    "168",
+                    "190",
+                    "191",
+                    "192"
+                ],
+                "positions": {
+                    "168": [
+                        0,
+                        10
+                    ],
+                    "190": [
+                        0,
+                        11
+                    ],
+                    "191": [
+                        26,
+                        10
+                    ],
+                    "192": [
+                        26,
+                        11
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -2430,6 +2541,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
