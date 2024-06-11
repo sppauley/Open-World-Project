@@ -1781,54 +1781,6 @@
                 "generic": true
             },
             {
-                "nid": "179",
-                "variant": null,
-                "level": 9,
-                "klass": "Wyvern Rider",
-                "faction": "Nomad",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "180",
-                "variant": null,
-                "level": 9,
-                "klass": "Wyvern Rider",
-                "faction": "Nomad",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    17,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "181",
                 "variant": null,
                 "level": 9,

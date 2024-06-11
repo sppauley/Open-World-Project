@@ -12,6 +12,11 @@
             "    change_ai;170;SenateAttack",
             "    change_ai;171;SenateAttack",
             "    change_ai;172;SenateAttack",
+            "    add_group;Defense2;;;closest",
+            "    center_cursor;1,10",
+            "    wait;300",
+            "    center_cursor;25,10",
+            "    wait;300",
             "end"
         ]
     }
