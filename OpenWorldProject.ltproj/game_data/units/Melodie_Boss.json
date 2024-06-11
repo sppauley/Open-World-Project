@@ -1,0 +1,71 @@
+[
+    {
+        "nid": "Melodie_Boss",
+        "name": "Melodie",
+        "desc": "A member of a primitivist group.\nBelieves civilization will destroy itself.",
+        "variant": "",
+        "level": 5,
+        "klass": "Ranger",
+        "tags": [],
+        "bases": {
+            "HP": 52,
+            "CON": 18,
+            "PSE": 25,
+            "MAG": 5,
+            "SPD": 8,
+            "MOV": 8,
+            "DEX": 18
+        },
+        "growths": {
+            "HP": 60,
+            "CON": 35,
+            "PSE": 40,
+            "MAG": 15,
+            "SPD": 20,
+            "DEX": 25
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Tradition",
+                false
+            ],
+            [
+                "Magebane",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Forester"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                181,
+                251
+            ],
+            "Sword": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Kanna} [F2E] OC 4",
+        "affinity": null,
+        "fields": [
+            [
+                "LoyaltyStatus",
+                "Loyalty mission not yet implemented"
+            ],
+            [
+                "DeathQuote",
+                "Backwards fools! You fight against history...|Yet, I must retreat for now."
+            ]
+        ]
+    }
+]

@@ -12,6 +12,17 @@
             "    add_group;AttackReinforcements;;;closest;create",
             "    center_cursor;13,34",
             "    wait;300",
+            "elif;game.game_vars[\"SenateSide\"]==\"Euclid\"",
+            "    add_group;Defense4;;;closest",
+            "    center_cursor;4,35",
+            "    wait;300",
+            "    center_cursor;22,35",
+            "    wait;300",
+            "    flicker_cursor;Melodie_Boss",
+            "    wait;300",
+            "    add_portrait;Melodie;Right",
+            "    s;Melodie;They've held us back so far, but we're not out of this yet.{w}{br}These damned tyrants, they won't get away with all they've done to us.{w}{br}We attack! Now!",
+            "    remove_portrait;Melodie",
             "end"
         ]
     }

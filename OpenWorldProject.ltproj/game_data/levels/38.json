@@ -2223,6 +2223,158 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "165",
+                "variant": null,
+                "level": 6,
+                "klass": "Cavalier",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "176",
+                "variant": null,
+                "level": 6,
+                "klass": "AxeCavalier",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "179",
+                "variant": null,
+                "level": 3,
+                "klass": "Ranger",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "180",
+                "variant": null,
+                "level": 3,
+                "klass": "Ranger",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "188",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Lord",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "202",
+                "variant": null,
+                "level": 3,
+                "klass": "Wyvern Lord",
+                "faction": "Nomad",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Melodie_Boss",
+                "team": "enemy",
+                "ai": "SenateAttack",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -2653,6 +2805,48 @@
                         17
                     ]
                 }
+            },
+            {
+                "nid": "Defense4",
+                "units": [
+                    "165",
+                    "176",
+                    "179",
+                    "180",
+                    "188",
+                    "202",
+                    "Melodie_Boss"
+                ],
+                "positions": {
+                    "188": [
+                        9,
+                        35
+                    ],
+                    "202": [
+                        17,
+                        35
+                    ],
+                    "180": [
+                        1,
+                        35
+                    ],
+                    "179": [
+                        25,
+                        35
+                    ],
+                    "176": [
+                        24,
+                        35
+                    ],
+                    "165": [
+                        2,
+                        35
+                    ],
+                    "Melodie_Boss": [
+                        13,
+                        35
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -2678,6 +2872,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
