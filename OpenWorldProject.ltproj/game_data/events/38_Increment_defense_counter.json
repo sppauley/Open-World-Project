@@ -8,11 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;game.turncount < 11",
-            "    change_objective_simple;Defend for {eval:13-game.turncount} turns",
-            "elif;game.turncount == 1",
+            "if;game.turncount < 13",
+            "    change_objective_simple;Defend for {eval:15-game.turncount} turns",
+            "elif;game.turncount == 14",
             "    change_objective_simple;Defend for 1 turn",
-            "elif;game.turncount == 12",
+            "elif;game.turncount == 15",
             "    win_game",
             "end"
         ]

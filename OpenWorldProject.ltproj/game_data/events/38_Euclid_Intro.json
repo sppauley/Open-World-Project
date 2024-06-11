@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_objective_simple;Defend for 12 turns",
-            "change_objective_win;Defend for 12 turns",
+            "change_objective_simple;Defend for 15 turns",
+            "change_objective_win;Defend for 15 turns",
             "change_objective_loss;Simon, Euclid, or a senator dies",
             "add_unit;Simon;9,7",
             "add_unit;Euclid;17,7",
