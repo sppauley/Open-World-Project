@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MelodieLoyaltyNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"MelodieRecruited\") == 1 and int(game.get_unit(\"Melodie\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Melodie\").get_field(\"BattlesDeployed\"))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Melodie;Left",
+            "s;Melodie;Simon! Uh, I need to talk with you about something.{w} Something important.{w}{br}Next time you're in Pelopos, let's meet up.{w} And bring your weapons.",
+            "remove_portrait;Melodie",
+            "",
+            "set_unit_field;Melodie;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "",
+            "trigger_script;Global LoyaltyTutorial"
+        ]
+    }
+]

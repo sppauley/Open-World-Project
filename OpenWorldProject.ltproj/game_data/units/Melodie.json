@@ -55,11 +55,19 @@
         "fields": [
             [
                 "LoyaltyStatus",
-                "Loyalty mission not yet implemented"
+                "Melodie's loyalty mission is not yet available. Deploy her on more maps to unlock it."
             ],
             [
                 "DeathQuote",
                 "Backwards fools! You fight against history...|Yet, I must retreat for now."
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "4"
             ]
         ]
     }

@@ -3,7 +3,7 @@
         "name": "EuclidLoyaltyNotification",
         "trigger": "overworld_start",
         "level_nid": null,
-        "condition": "v(\"EuclidRecruited\") == True and int(game.get_unit(\"Euclid\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Euclid\").get_field(\"BattlesDeployed\"))",
+        "condition": "v(\"EuclidRecruited\") == 1 and int(game.get_unit(\"Euclid\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Euclid\").get_field(\"BattlesDeployed\"))",
         "commands": [],
         "only_once": true,
         "priority": 20,
