@@ -114,5 +114,13 @@
     {
         "nid": "TwinsLoyal",
         "desc": "Are the Twins loyal?"
+    },
+    {
+        "nid": "EuclidRecruited",
+        "desc": "Has Euclid been recruited?"
+    },
+    {
+        "nid": "MelodieRecruited",
+        "desc": "Has Melodie been recruited?"
     }
 ]

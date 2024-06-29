@@ -43,6 +43,23 @@
         "alternate_classes": [],
         "portrait_nid": "{SirNicee} F2E OC 8",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "4"
+            ],
+            [
+                "LoyaltyStatus",
+                "Euclid's loyalty mission is not yet available. Deploy him on more maps to unlock it."
+            ],
+            [
+                "DeathQuote",
+                "Gah! This wound is making it hard to think.{w} Sorry, Simon, but I should retreat for now."
+            ]
+        ]
     }
 ]
