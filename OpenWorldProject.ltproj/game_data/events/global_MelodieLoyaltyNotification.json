@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Melodie;Left",
-            "s;Melodie;Simon! Uh, I need to talk with you about something.{w} Something important.{w}{br}Next time you're in Pelopos, let's meet up.{w} And bring your weapons.",
+            "s;Melodie;Simon! Uh, I need to talk with you about something.{w} Something important.{w}{br}Next time you're at Morrissey's, let's meet up.{w} And bring your weapons.",
             "remove_portrait;Melodie",
             "",
             "set_unit_field;Melodie;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
