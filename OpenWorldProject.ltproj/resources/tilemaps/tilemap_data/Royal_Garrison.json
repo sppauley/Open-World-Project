@@ -5723,7 +5723,7 @@
             {
                 "nid": "gatewalls",
                 "visible": true,
-                "foreground": true,
+                "foreground": false,
                 "terrain_grid": {},
                 "sprite_grid": {
                     "10,17": [

@@ -3,7 +3,7 @@
         "name": "GuardTalkNoPermission",
         "trigger": "on_talk",
         "level_nid": "37",
-        "condition": "unit2.nid == \"101\"",
+        "condition": "unit2.nid == \"101\" and not game.get_unit(\"Morrissey\").position",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -34,7 +34,8 @@
             "s;Simon;This is outrageous!{w} My father would have never been treated like this.",
             "s;Luther;Perhaps not, but your father's time has passed, milord.|It seems that we cannot rely on the king for any aid.|We must continue to put our faith in Lord Morrissey.",
             "",
-            "multi_remove_portrait;Luther;Simon"
+            "multi_remove_portrait;Luther;Simon",
+            "trigger_script;Global ConsolidateToSimon;Luther"
         ]
     }
 ]

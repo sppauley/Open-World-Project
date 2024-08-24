@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "show_layer;gatewalls;immediate",
+            "",
             "if;v(\"LiberatedVerstadt\") or v(\"DragonCleared\") or v(\"SwampCleared\")",
             "    # Path to Troy is open, do the battle",
             "    remove_group;RoamGroup;immediate",
