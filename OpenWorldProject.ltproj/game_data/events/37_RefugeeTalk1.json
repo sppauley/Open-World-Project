@@ -14,7 +14,27 @@
             "",
             "wait;300",
             "",
-            "add_portrait;Simon;FarLeft;left"
+            "add_portrait;Simon;FarLeft;left",
+            "",
+            "s;Simon;Excuse me, do you know of any way to pass through the garrison?",
+            "",
+            "mirror_portrait;Man1",
+            "s;Man1;A-ah! Lord... Lord Verstadt.|I- I do not-|Please sir, we know nothing of the rebels!",
+            "s;Simon;I... didn't believe you did.|I'm simply asking a question.",
+            "s;Man1;No, of course. We-we-we don't know about anyone fleeing through the garrison.",
+            "s;Simon;I see. Thank you for your help.",
+            "",
+            "s;Man1;Yes milord.",
+            "mirror_portrait;Man1",
+            "s;Man1;Q-quickly now!",
+            "move_portrait;Villager Girl;OffscreenRight",
+            "mirror_portrait;Woman1",
+            "move_portrait;Woman1;OffscreenRight",
+            "move_portrait;Man1;OffscreenRight",
+            "",
+            "wait;200",
+            "",
+            "remove_portrait;Simon"
         ]
     }
 ]

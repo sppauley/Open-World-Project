@@ -636,5 +636,6 @@
     "38_Melodie_lose_condition",
     "38_Increment_defense_counter",
     "38_Euclid_Talk_Lester",
-    "38_Euclid_lost_condition"
+    "38_Euclid_lost_condition",
+    "37_GuardTalkNoPermission"
 ]

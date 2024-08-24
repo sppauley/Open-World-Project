@@ -1,0 +1,40 @@
+[
+    {
+        "name": "GuardTalkNoPermission",
+        "trigger": "on_talk",
+        "level_nid": "37",
+        "condition": "unit2.nid == \"101\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierBlue;Right",
+            "wait;100",
+            "add_portrait;Simon;Left;left",
+            "",
+            "s;Simon;Lord Verstadt, passing through to enter the king's demense.",
+            "s;SoldierBlue;Sorry sir, but the king has declared a halt order for all entrants.",
+            "s;Simon;Indeed, but as a lord, I should be exempted.",
+            "s;SoldierBlue;There are no exceptions, I'm afraid.|This is the king's declaration.",
+            "s;Simon;But...{w} the king owes aid to his lords!",
+            "s;SoldierBlue;It isn't my decision, \"sir\". Now please step back.",
+            "",
+            "wait;300",
+            "move_portrait;Simon;OffscreenLeft",
+            "multi_remove_portrait;Simon;SoldierBlue",
+            "",
+            "wait;400",
+            "move_unit;Simon;10,22",
+            "",
+            "trigger_script;Global AppearBySimon;Luther",
+            "add_portrait;Luther;Left",
+            "wait;200",
+            "add_portrait;Simon;Right;right",
+            "",
+            "s;Simon;This is outrageous!{w} My father would have never been treated like this.",
+            "s;Luther;Perhaps not, but your father's time has passed, milord.|It seems that we cannot rely on the king for any aid.|We must continue to put our faith in Lord Morrissey.",
+            "",
+            "multi_remove_portrait;Luther;Simon"
+        ]
+    }
+]
