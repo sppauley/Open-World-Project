@@ -3,7 +3,7 @@
         "name": "MorrisseyDies",
         "trigger": "unit_death",
         "level_nid": "37",
-        "condition": "unit.nid == \"Morrissey\"",
+        "condition": "unit.nid == \"MorrisseyGarrison\"",
         "commands": [],
         "only_once": false,
         "priority": 20,

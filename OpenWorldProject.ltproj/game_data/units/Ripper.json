@@ -2,7 +2,7 @@
     {
         "nid": "Ripper",
         "name": "Ripper",
-        "desc": "One of the two bandit gang leaders.",
+        "desc": "A bandit gang leader skilled with diplomacy.",
         "variant": null,
         "level": 1,
         "klass": "Berserker",

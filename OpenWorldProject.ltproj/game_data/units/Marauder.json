@@ -1,8 +1,8 @@
 [
     {
         "nid": "Marauder",
-        "name": "Marauder",
-        "desc": "One of the two bandit gang leaders.",
+        "name": "\"Sir\" John",
+        "desc": "An honorless wannabe lord.",
         "variant": null,
         "level": 1,
         "klass": "Paladin",
