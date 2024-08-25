@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn9AllAttack",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "for;u;[u.nid for u in game.get_all_units() if u.team == \"enemy\"]",
+            "    change_ai;{u};Pursue",
+            "endf"
+        ]
+    }
+]

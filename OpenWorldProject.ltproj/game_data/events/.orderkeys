@@ -640,5 +640,8 @@
     "37_GuardTalkNoPermission",
     "37_DefeatBothBosses",
     "37_MorrisseyDies",
-    "37_Outro"
+    "37_Outro",
+    "37_Turn4Reinforcements",
+    "37_Turn9AllAttack",
+    "37_Turn6Reinforcements"
 ]

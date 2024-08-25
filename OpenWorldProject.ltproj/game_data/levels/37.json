@@ -253,7 +253,7 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -301,7 +301,7 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Defend",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -327,7 +327,7 @@
                 "team": "other",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "RipperGroup",
                 "starting_position": [
                     13,
                     4
@@ -816,6 +816,111 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 4,
+                "klass": "Assassin",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 4,
+                "klass": "Assassin",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 19,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 19,
+                "klass": "Brigand",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Iron_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 2,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -831,6 +936,57 @@
                     1
                 ],
                 "sub_nid": "Village",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prep1",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    12
+                ],
+                "size": [
+                    4,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prep1_1",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    11
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prep1_2",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    11
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

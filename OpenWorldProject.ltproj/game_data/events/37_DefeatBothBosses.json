@@ -17,7 +17,9 @@
             "center_cursor;MorrisseyGarrison",
             "add_portrait;Morrissey;Right",
             "s;Morrissey;Never better! Report to me Simon, we ride.",
-            "remove_portrait;Morrissey"
+            "remove_portrait;Morrissey",
+            "",
+            "win_game"
         ]
     }
 ]

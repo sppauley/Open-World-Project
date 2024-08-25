@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Turn6Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;22,14",
+            "",
+            "add_unit;137;22,14;fade;push",
+            "add_unit;136;22,13;fade;push",
+            "add_unit;137;22,15;fade;push"
+        ]
+    }
+]
