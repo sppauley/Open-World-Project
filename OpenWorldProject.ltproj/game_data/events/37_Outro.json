@@ -24,6 +24,7 @@
             "add_unit;105;15,22",
             "add_unit;106;14,23",
             "",
+            "music;NewDawnFinal",
             "transition;open",
             "",
             "add_portrait;Simon;Right",
@@ -76,6 +77,8 @@
             "",
             "move_unit;Vincent;12,23;no_follow",
             "",
+            "music_clear",
+            "",
             "add_portrait;Vincent;Left",
             "s;Vincent;Simon, Lord Morrissey wishes to speak with you.",
             "expression;Simon;NormalBlink",
@@ -101,7 +104,7 @@
             "s;Simon;Then... there may as well be no king.{w} Why bother asking for aid?",
             "s;Morrissey;Though the dynasty is fragile, the army is not.|They could aid us, if they so wished.",
             "s;Simon;And if they choose not to?",
-            "s;Morrissey;Then we must ensure, at the very least, that they will not threaten us.|Simon, a relationship between two equivalent powers is such:|they are in alliance, or in conflict.|There can be no middle ground.",
+            "s;Morrissey;Then we must ensure, at the very least, that they will not threaten us.|Simon, a relationship between two equivalent powers is as such:|they are in alliance, or in conflict.|There can be no middle ground.",
             "s;Simon;That is... cutthroat.",
             "s;Morrissey;But realistic. The king's army believes that we are an inferior power.|That notion is increasingly false.|When they realize we can match them in strength, we must be prepared.",
             "s;Simon;I see.",
@@ -111,7 +114,14 @@
             "",
             "trigger_script;Global IncreaseMitziProgress",
             "",
-            "transition;open;1"
+            "transition;open;1",
+            "",
+            "overworld_cinematic;1",
+            "center_cursor;Simon;immediate",
+            "reveal_overworld_node;44",
+            "reveal_overworld_road;43;44",
+            "reveal_overworld_node;42",
+            "reveal_overworld_road;44;42"
         ]
     }
 ]
