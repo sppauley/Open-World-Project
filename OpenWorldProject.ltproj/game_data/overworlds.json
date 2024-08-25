@@ -326,8 +326,16 @@
                     17
                 ],
                 "icon": "tower",
-                "level": null,
-                "menu_options": []
+                "level": "37",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "44",
