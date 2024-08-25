@@ -5995,6 +5995,62 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "westvillageclosed",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,26": "Fence"
+                },
+                "sprite_grid": {
+                    "2,26": [
+                        "main",
+                        [
+                            7,
+                            27
+                        ]
+                    ],
+                    "3,26": [
+                        "main",
+                        [
+                            10,
+                            28
+                        ]
+                    ]
+                }
+            },
+            {
+                "nid": "eastvillageclosed",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,26": "9",
+                    "19,25": "Fence"
+                },
+                "sprite_grid": {
+                    "18,25": [
+                        "main",
+                        [
+                            7,
+                            27
+                        ]
+                    ],
+                    "19,25": [
+                        "main",
+                        [
+                            10,
+                            28
+                        ]
+                    ],
+                    "20,25": [
+                        "main",
+                        [
+                            9,
+                            27
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

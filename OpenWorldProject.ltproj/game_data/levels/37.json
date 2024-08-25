@@ -53,9 +53,9 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "SouthGate",
                 "starting_position": [
                     10,
                     20
@@ -77,9 +77,9 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "SouthGate",
                 "starting_position": [
                     12,
                     20
@@ -245,10 +245,15 @@
                 "level": 1,
                 "klass": "Fighter",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Iron_Mace",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -264,10 +269,15 @@
                 "level": 1,
                 "klass": "Fighter",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -283,10 +293,15 @@
                 "level": 1,
                 "klass": "Knight",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -302,10 +317,15 @@
                 "level": 1,
                 "klass": "Knight",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Iron_Pike",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -321,10 +341,15 @@
                 "level": 1,
                 "klass": "Sniper",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -340,10 +365,15 @@
                 "level": 1,
                 "klass": "Sniper",
                 "faction": "Troy",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -389,6 +419,15 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "SouthGate",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
