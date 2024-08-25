@@ -1034,7 +1034,8 @@
                     "130",
                     "131",
                     "132",
-                    "133"
+                    "133",
+                    "Marauder"
                 ],
                 "positions": {}
             }
@@ -1046,10 +1047,6 @@
             },
             {
                 "nid": "RipperGroup",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             },
             {

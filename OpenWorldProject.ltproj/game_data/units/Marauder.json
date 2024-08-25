@@ -10,12 +10,12 @@
             "Boss"
         ],
         "bases": {
-            "HP": 23,
-            "CON": 7,
+            "HP": 40,
+            "CON": 11,
             "MAG": 0,
-            "DEX": 11,
-            "SPD": 13,
-            "PSE": 13,
+            "DEX": 12,
+            "SPD": 15,
+            "PSE": 24,
             "MOV": 8
         },
         "growths": {},
@@ -35,12 +35,12 @@
         "wexp_gain": {
             "Lance": [
                 false,
-                121,
+                181,
                 null
             ],
             "Sword": [
                 false,
-                121,
+                181,
                 null
             ]
         },
