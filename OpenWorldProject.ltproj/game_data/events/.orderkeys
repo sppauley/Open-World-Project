@@ -643,5 +643,6 @@
     "37_Outro",
     "37_Turn4Reinforcements",
     "37_Turn9AllAttack",
-    "37_Turn6Reinforcements"
+    "37_Turn6Reinforcements",
+    "global_GarrisonUnlockNotification"
 ]
