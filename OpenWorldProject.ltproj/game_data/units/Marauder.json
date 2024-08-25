@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Marauder",
+        "name": "Marauder",
+        "desc": "One of the two bandit gang leaders.",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 23,
+            "CON": 7,
+            "MAG": 0,
+            "DEX": 11,
+            "SPD": 13,
+            "PSE": 13,
+            "MOV": 8
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Brave Sword",
+                false
+            ],
+            [
+                "Silver_Pike",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                121,
+                null
+            ],
+            "Sword": [
+                false,
+                121,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Saar",
+        "affinity": null,
+        "fields": []
+    }
+]

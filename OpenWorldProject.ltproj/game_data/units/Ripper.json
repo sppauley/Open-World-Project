@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Ripper",
+        "name": "Ripper",
+        "desc": "One of the two bandit gang leaders.",
+        "variant": null,
+        "level": 1,
+        "klass": "Berserker",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 24,
+            "CON": 13,
+            "MAG": 0,
+            "DEX": 8,
+            "SPD": 9,
+            "PSE": 15,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Silver_Mace",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "OC 7",
+        "affinity": null,
+        "fields": []
+    }
+]
