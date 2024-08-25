@@ -5,7 +5,10 @@
         "tilemap": "Royal Garrison",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "OctopathSad",
+            "enemy_phase": "EndlessBattle"
+        },
         "objective": {
             "simple": "Explore",
             "win": "Explore",
