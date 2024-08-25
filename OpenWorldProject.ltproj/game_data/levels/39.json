@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "39",
+        "name": "Atropos Shrine",
+        "tilemap": "AtroposShrine",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Explore the Area",
+            "win": "Explore the Area",
+            "loss": "Simon dies"
+        },
+        "roam": true,
+        "roam_unit": "Simon",
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [],
+        "regions": [],
+        "unit_groups": [],
+        "ai_groups": []
+    }
+]
