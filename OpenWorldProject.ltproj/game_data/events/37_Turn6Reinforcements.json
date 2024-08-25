@@ -12,7 +12,10 @@
             "",
             "add_unit;137;22,14;fade;push",
             "add_unit;136;22,13;fade;push",
-            "add_unit;137;22,15;fade;push"
+            "add_unit;138;22,15;fade;push",
+            "",
+            "wait;400",
+            ""
         ]
     }
 ]

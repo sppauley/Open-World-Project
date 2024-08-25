@@ -3,7 +3,7 @@
         "name": "GuardTalkNoPermission",
         "trigger": "on_talk",
         "level_nid": "37",
-        "condition": "unit2.nid == \"101\" and not game.get_unit(\"Morrissey\").position",
+        "condition": "unit2.nid == \"101\"",
         "commands": [],
         "only_once": false,
         "priority": 20,

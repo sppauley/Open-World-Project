@@ -20,6 +20,10 @@
             [
                 "combat_condition",
                 "mode == 'attack'"
+            ],
+            [
+                "feat",
+                null
             ]
         ]
     }
