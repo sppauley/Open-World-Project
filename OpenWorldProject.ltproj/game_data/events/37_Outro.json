@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music_clear",
             "transition;close;2000",
             "remove_all_units",
             "add_unit;Simon;11,20",
