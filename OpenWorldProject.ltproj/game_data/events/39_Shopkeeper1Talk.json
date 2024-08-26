@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shopkeeper1Talk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"104\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Man2;Left",
+            "s;Man2;Provisions, tents! Step up, step up!|It's a few days journey back to the capital!",
+            "remove_portrait;Man2"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "PriestTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"114\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Priest;Right",
+            "",
+            "s;Priest;A disciple of Sister Clotho!|A pleasure to meet you.",
+            "s;Simon;The pleasure is mine.{w} Could you sense her blessing?",
+            "s;Priest;Oh, child, Clotho's scent emanates from your every pore.|From one child of the fates to another, how can I help you?",
+            "s;Simon;I was looking to speak with Atropos.",
+            "s;Priest;I understand. Alas, she is deep in thought, weaving her tapestry.|Yours is quite beautiful, I should add.",
+            "s;Simon;I'm... happy to hear it?{w} But very well, take care.",
+            "",
+            "",
+            "# TODO: Atropos teleports in, transports Simon to tapestry realm, speaks to him",
+            "",
+            "multi_remove_portrait;Priest;Simon"
+        ]
+    }
+]

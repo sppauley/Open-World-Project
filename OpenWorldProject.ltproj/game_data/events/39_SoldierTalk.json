@@ -1,0 +1,27 @@
+[
+    {
+        "name": "SoldierTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"116\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierBlue;Right;mirror",
+            "s;SoldierBlue;The shrine's as beautiful as ma always said...",
+            "",
+            "add_portrait;Simon;Left;left",
+            "s;Simon;Excuse me.",
+            "mirror_portrait;SoldierBlue",
+            "s;SoldierBlue;Sir!",
+            "s;Simon;This is Atropos' shrine, correct?{w} It's... crowded.",
+            "s;SoldierBlue;Yes sir. Warriors from across Troy gather here to worship her.",
+            "s;Simon;And she gives them her blessing?",
+            "s;SoldierBlue;Rarely, but sometimes. Atropos writes the narrative of history, milord.|I mean, in battle, everyone wants to be the hero, right?",
+            "s;Simon;I suppose so.",
+            "",
+            "multi_remove_portrait;Simon;SoldierBlue"
+        ]
+    }
+]

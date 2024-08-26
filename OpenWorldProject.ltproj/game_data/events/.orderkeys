@@ -645,5 +645,10 @@
     "37_Turn9AllAttack",
     "37_Turn6Reinforcements",
     "global_GarrisonUnlockNotification",
-    "39_Intro"
+    "39_Intro",
+    "39_Shopkeeper1Talk",
+    "39_Shopkeeper2Talk",
+    "39_Shopkeeper3Talk",
+    "39_PriestTalk",
+    "39_SoldierTalk"
 ]

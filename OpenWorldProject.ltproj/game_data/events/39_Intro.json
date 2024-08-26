@@ -8,8 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "show_layer;roof",
-            "show_layer;overlay"
+            "show_layer;roof;immediate",
+            "show_layer;overlay;immediate",
+            "",
+            "add_talk;Simon;104",
+            "add_talk;Simon;101",
+            "add_talk;Simon;102",
+            "add_talk;Simon;114",
+            "add_talk;Simon;116"
         ]
     }
 ]
