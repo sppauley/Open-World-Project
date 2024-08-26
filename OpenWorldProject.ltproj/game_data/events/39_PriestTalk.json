@@ -20,14 +20,8 @@
             "s;Simon;I'm... happy to hear it?{w} But very well, take care.",
             "multi_remove_portrait;Priest;Simon",
             "",
-            "# TODO: Atropos teleports in, transports Simon to tapestry realm, speaks to him",
-            "move_unit;Simon;12,12",
-            "add_unit;Atropos;12,13;warp",
-            "add_portrait;Atropos;Left",
-            "s;Atropos;Watch, now.",
-            "remove_portrait;Atropos",
-            "remove_unit;Simon;warp",
-            "remove_unit;Atropos;warp"
+            "# Does this work?",
+            "trigger_script;39 AtroposTalk"
         ]
     }
 ]

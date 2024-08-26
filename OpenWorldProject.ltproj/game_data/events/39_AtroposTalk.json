@@ -1,0 +1,21 @@
+[
+    {
+        "name": "AtroposTalk",
+        "trigger": null,
+        "level_nid": "39",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# TODO: Atropos teleports in, transports Simon to tapestry realm, speaks to him",
+            "move_unit;Simon;12,12",
+            "add_unit;Atropos;12,13;warp",
+            "add_portrait;Atropos;Left",
+            "s;Atropos;Watch, now.",
+            "remove_portrait;Atropos",
+            "remove_unit;Simon;warp",
+            "remove_unit;Atropos;warp"
+        ]
+    }
+]
