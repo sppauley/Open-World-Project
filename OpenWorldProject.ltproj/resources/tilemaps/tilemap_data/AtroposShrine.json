@@ -25,7 +25,7 @@
                     "0,5": "9",
                     "8,18": "1",
                     "19,18": "1",
-                    "11,14": "1",
+                    "11,14": "7",
                     "0,14": "1",
                     "11,23": "1",
                     "0,23": "1",
@@ -38,7 +38,7 @@
                     "14,15": "1",
                     "22,28": "1",
                     "3,24": "1",
-                    "14,24": "1",
+                    "14,24": "7",
                     "15,7": "9",
                     "7,3": "6",
                     "18,3": "9",
@@ -66,7 +66,7 @@
                     "3,19": "1",
                     "14,19": "1",
                     "3,28": "1",
-                    "14,28": "1",
+                    "14,28": "7",
                     "15,2": "6",
                     "15,11": "1",
                     "7,7": "9",
@@ -154,7 +154,7 @@
                     "10,11": "1",
                     "2,7": "9",
                     "2,16": "1",
-                    "13,13": "1",
+                    "13,13": "7",
                     "24,13": "1",
                     "13,22": "1",
                     "24,22": "1",
@@ -179,18 +179,18 @@
                     "20,20": "1",
                     "20,29": "1",
                     "10,6": "6",
-                    "12,25": "1",
+                    "12,25": "7",
                     "23,25": "1",
                     "2,2": "6",
                     "2,11": "1",
                     "13,8": "6",
                     "24,8": "1",
                     "1,15": "1",
-                    "13,17": "1",
+                    "13,17": "7",
                     "24,17": "1",
                     "16,13": "1",
                     "1,24": "1",
-                    "13,26": "1",
+                    "13,26": "7",
                     "24,26": "1",
                     "16,22": "1",
                     "5,3": "9",
@@ -239,11 +239,11 @@
                     "12,6": "6",
                     "23,6": "9",
                     "20,19": "1",
-                    "12,15": "1",
+                    "12,15": "7",
                     "23,15": "1",
                     "20,28": "1",
                     "4,11": "1",
-                    "12,24": "1",
+                    "12,24": "7",
                     "23,24": "1",
                     "4,20": "1",
                     "4,29": "1",
@@ -295,7 +295,7 @@
                     "1,18": "1",
                     "16,16": "1",
                     "15,20": "1",
-                    "15,29": "1",
+                    "15,29": "7",
                     "5,6": "9",
                     "7,25": "1",
                     "18,25": "1",
@@ -305,11 +305,11 @@
                     "0,4": "9",
                     "8,17": "1",
                     "19,17": "1",
-                    "11,13": "1",
+                    "11,13": "7",
                     "0,13": "1",
                     "8,26": "1",
                     "19,26": "1",
-                    "11,22": "1",
+                    "11,22": "7",
                     "0,22": "1",
                     "20,0": "9",
                     "20,9": "1",
@@ -317,7 +317,7 @@
                     "23,5": "9",
                     "20,18": "1",
                     "4,1": "9",
-                    "12,14": "1",
+                    "12,14": "7",
                     "23,14": "1",
                     "4,10": "1",
                     "12,23": "1",
@@ -342,7 +342,7 @@
                     "0,8": "1",
                     "8,21": "1",
                     "19,21": "1",
-                    "11,17": "1",
+                    "11,17": "7",
                     "0,17": "1",
                     "11,26": "1",
                     "0,26": "1",
@@ -365,7 +365,7 @@
                     "15,19": "1",
                     "7,15": "1",
                     "18,15": "1",
-                    "15,28": "1",
+                    "15,28": "7",
                     "7,24": "1",
                     "18,24": "1",
                     "8,7": "9",
@@ -377,7 +377,7 @@
                     "11,12": "1",
                     "0,12": "1",
                     "19,25": "1",
-                    "11,21": "1",
+                    "11,21": "7",
                     "0,21": "1",
                     "12,4": "6",
                     "23,4": "9",
@@ -406,7 +406,7 @@
                     "19,11": "1",
                     "11,7": "6",
                     "0,7": "9",
-                    "11,16": "1",
+                    "11,16": "7",
                     "0,16": "1",
                     "10,20": "1",
                     "10,29": "1",
@@ -473,7 +473,7 @@
                     "3,16": "1",
                     "14,16": "1",
                     "3,25": "1",
-                    "14,25": "1",
+                    "14,25": "7",
                     "17,18": "1",
                     "17,27": "1",
                     "7,4": "6",
@@ -493,7 +493,7 @@
                     "2,19": "1",
                     "2,28": "1",
                     "22,6": "9",
-                    "13,25": "1",
+                    "13,25": "7",
                     "3,2": "9",
                     "14,2": "9",
                     "3,11": "1",
@@ -550,7 +550,7 @@
                     "24,15": "1",
                     "16,11": "1",
                     "1,22": "1",
-                    "13,24": "1",
+                    "13,24": "7",
                     "24,24": "1",
                     "16,20": "1",
                     "16,29": "1",
@@ -570,7 +570,7 @@
                     "21,9": "1",
                     "6,20": "1",
                     "20,22": "1",
-                    "12,18": "1",
+                    "12,18": "7",
                     "12,27": "1",
                     "23,27": "1",
                     "2,4": "6",
@@ -582,7 +582,7 @@
                     "24,10": "1",
                     "16,6": "9",
                     "1,17": "1",
-                    "13,19": "1",
+                    "13,19": "7",
                     "24,19": "1",
                     "16,15": "1",
                     "1,26": "1",
@@ -602,7 +602,7 @@
                     "21,4": "6",
                     "20,8": "1",
                     "20,17": "1",
-                    "12,13": "1",
+                    "12,13": "7",
                     "23,13": "1",
                     "20,26": "1",
                     "12,22": "1",
@@ -614,7 +614,7 @@
                     "24,5": "9",
                     "16,1": "6",
                     "1,12": "1",
-                    "13,14": "1",
+                    "13,14": "7",
                     "24,14": "1",
                     "16,10": "9",
                     "1,21": "1",
@@ -642,10 +642,10 @@
                     "23,8": "1",
                     "20,21": "1",
                     "4,4": "6",
-                    "12,17": "1",
+                    "12,17": "7",
                     "23,17": "1",
                     "4,13": "1",
-                    "12,26": "1",
+                    "12,26": "7",
                     "23,26": "1",
                     "4,22": "1",
                     "13,0": "9",
@@ -655,7 +655,7 @@
                     "24,9": "1",
                     "16,5": "9",
                     "1,16": "1",
-                    "13,18": "1",
+                    "13,18": "7",
                     "24,18": "1",
                     "16,14": "1",
                     "1,25": "1",
@@ -706,7 +706,7 @@
                     "0,6": "9",
                     "8,19": "1",
                     "19,19": "1",
-                    "11,15": "1",
+                    "11,15": "7",
                     "0,15": "1",
                     "8,28": "1",
                     "19,28": "1",
@@ -717,7 +717,7 @@
                     "12,7": "6",
                     "23,7": "9",
                     "4,3": "9",
-                    "12,16": "1",
+                    "12,16": "7",
                     "23,16": "1",
                     "4,12": "1",
                     "4,21": "1",
@@ -758,7 +758,7 @@
                     "3,20": "1",
                     "14,20": "1",
                     "3,29": "1",
-                    "14,29": "1",
+                    "14,29": "7",
                     "15,3": "6",
                     "15,12": "1",
                     "7,8": "1"
@@ -1605,28 +1605,28 @@
                         ]
                     ],
                     "4,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             4,
                             60
                         ]
                     ],
                     "4,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             4,
                             61
                         ]
                     ],
                     "4,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             4,
                             61
                         ]
                     ],
                     "4,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             4,
                             62
@@ -1815,28 +1815,28 @@
                         ]
                     ],
                     "5,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             5,
                             60
                         ]
                     ],
                     "5,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             5,
                             61
                         ]
                     ],
                     "5,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             5,
                             61
                         ]
                     ],
                     "5,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             5,
                             62
@@ -2025,28 +2025,28 @@
                         ]
                     ],
                     "6,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             6,
                             60
                         ]
                     ],
                     "6,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             6,
                             61
                         ]
                     ],
                     "6,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             6,
                             61
                         ]
                     ],
                     "6,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             6,
                             62
@@ -4545,28 +4545,28 @@
                         ]
                     ],
                     "18,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             56
                         ]
                     ],
                     "18,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             57
                         ]
                     ],
                     "18,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             57
                         ]
                     ],
                     "18,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             58
@@ -4755,28 +4755,28 @@
                         ]
                     ],
                     "19,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             56
                         ]
                     ],
                     "19,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             57
                         ]
                     ],
                     "19,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             57
                         ]
                     ],
                     "19,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             58
@@ -4965,28 +4965,28 @@
                         ]
                     ],
                     "20,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             56
                         ]
                     ],
                     "20,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             57
                         ]
                     ],
                     "20,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             57
                         ]
                     ],
                     "20,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             58
@@ -6023,84 +6023,84 @@
                 "terrain_grid": {},
                 "sprite_grid": {
                     "11,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             60
                         ]
                     ],
                     "11,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             61
                         ]
                     ],
                     "11,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             61
                         ]
                     ],
                     "11,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             0,
                             62
                         ]
                     ],
                     "12,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             60
                         ]
                     ],
                     "12,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             61
                         ]
                     ],
                     "12,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             61
                         ]
                     ],
                     "12,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             1,
                             62
                         ]
                     ],
                     "13,0": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             60
                         ]
                     ],
                     "13,1": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             61
                         ]
                     ],
                     "13,2": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             61
                         ]
                     ],
                     "13,3": [
-                        "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+                        "interiors",
                         [
                             2,
                             62
@@ -7092,10 +7092,353 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "overlay",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,15": "Fence",
+                    "3,16": "Fence",
+                    "3,17": "Fence",
+                    "6,11": "Fence",
+                    "6,12": "Fence",
+                    "6,13": "Fence",
+                    "19,13": "Fence",
+                    "19,14": "Fence",
+                    "19,15": "Fence",
+                    "22,17": "Fence",
+                    "22,18": "Fence",
+                    "22,19": "Fence"
+                },
+                "sprite_grid": {
+                    "13,13": [
+                        "54728",
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    "11,13": [
+                        "54728",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "12,13": [
+                        "54728",
+                        [
+                            3,
+                            5
+                        ]
+                    ],
+                    "13,14": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "11,14": [
+                        "54728",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "12,14": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "11,15": [
+                        "54728",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "12,15": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "11,16": [
+                        "54728",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "12,16": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "12,17": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "13,18": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "13,17": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "13,19": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "11,17": [
+                        "54728",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "12,18": [
+                        "54728",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "11,22": [
+                        "54728",
+                        [
+                            3,
+                            7
+                        ]
+                    ],
+                    "11,21": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "14,24": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "12,24": [
+                        "54728",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "13,24": [
+                        "54728",
+                        [
+                            3,
+                            5
+                        ]
+                    ],
+                    "14,25": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "12,25": [
+                        "54728",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "13,25": [
+                        "54728",
+                        [
+                            3,
+                            6
+                        ]
+                    ],
+                    "12,26": [
+                        "54728",
+                        [
+                            2,
+                            7
+                        ]
+                    ],
+                    "13,26": [
+                        "54728",
+                        [
+                            4,
+                            7
+                        ]
+                    ],
+                    "14,28": [
+                        "54728",
+                        [
+                            2,
+                            5
+                        ]
+                    ],
+                    "14,29": [
+                        "54728",
+                        [
+                            2,
+                            6
+                        ]
+                    ],
+                    "15,28": [
+                        "54728",
+                        [
+                            4,
+                            5
+                        ]
+                    ],
+                    "15,29": [
+                        "54728",
+                        [
+                            4,
+                            6
+                        ]
+                    ],
+                    "19,13": [
+                        "54728",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "19,14": [
+                        "54728",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "19,12": [
+                        "54728",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "19,15": [
+                        "54728",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "3,14": [
+                        "54728",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "3,15": [
+                        "54728",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "3,16": [
+                        "54728",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "3,17": [
+                        "54728",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "6,10": [
+                        "54728",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "6,11": [
+                        "54728",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "6,12": [
+                        "54728",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "6,13": [
+                        "54728",
+                        [
+                            13,
+                            2
+                        ]
+                    ],
+                    "22,16": [
+                        "54728",
+                        [
+                            14,
+                            0
+                        ]
+                    ],
+                    "22,17": [
+                        "54728",
+                        [
+                            14,
+                            1
+                        ]
+                    ],
+                    "22,18": [
+                        "54728",
+                        [
+                            14,
+                            2
+                        ]
+                    ],
+                    "22,19": [
+                        "54728",
+                        [
+                            13,
+                            2
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
-            "medieval_pokemon_tileset__alienor_interiors_v1__by_anarlaurendil_dewgfsr",
+            "interiors",
             "54728",
             "Tower Valni"
         ]

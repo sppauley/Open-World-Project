@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "39",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;roof",
+            "show_layer;overlay"
+        ]
+    }
+]
