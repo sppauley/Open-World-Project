@@ -1,0 +1,23 @@
+[
+    {
+        "name": "VincentTwinsTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Vincent;0,21;immediate",
+            "add_unit;Twins;2,21;immediate",
+            "add_talk;Simon;Vincent",
+            "add_talk;Simon;Twins",
+            "",
+            "if;v(\"VincentPartners\").remove(\"Twins\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Vincent",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Twins",
+            "level_var;VincentTwinsConversation;True"
+        ]
+    }
+]

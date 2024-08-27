@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Alina;Right",
-            "add_portrait;Dugyu;Left",
+            "add_portrait;Duygu;Left",
             "",
             "s;Duygu;-in the taint!",
             "s;Alina;Err, no, the sentence is a bit too long.|Try \"and then he got hit in the taint\".",
@@ -21,10 +21,10 @@
             "s;Alina;Bwahaha, perfect! You're a poet, Duygu! A poet.",
             "s;Duygu;I'm a poet! Heheh...",
             "",
-            "multi_remove_portrait;Alina;Dugyu",
+            "multi_remove_portrait;Alina;Duygu",
             "",
             "remove_talk;Simon;Alina",
-            "remove_talk;Simon;Dugyu",
+            "remove_talk;Simon;Duygu",
             "level_var;AlinaDuyguConversation;False"
         ]
     }
