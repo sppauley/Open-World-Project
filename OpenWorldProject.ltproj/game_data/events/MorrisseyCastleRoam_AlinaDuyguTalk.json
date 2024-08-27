@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AlinaDuyguTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Alina;28,10;immediate",
+            "add_unit;Duygu;28,11;immediate",
+            "add_talk;Simon;Alina",
+            "add_talk;Simon;Duygu",
+            "",
+            "if;v(\"AlinaPartners\").remove(\"Duygu\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Alina",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Duygu",
+            "level_var;AlinaDuyguConversation;True"
+        ]
+    }
+]
