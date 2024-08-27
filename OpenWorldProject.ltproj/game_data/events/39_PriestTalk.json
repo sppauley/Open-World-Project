@@ -20,6 +20,7 @@
             "s;Simon;I'm... happy to hear it?{w} But very well, take care.",
             "multi_remove_portrait;Priest;Simon",
             "",
+            "end_skip",
             "# Does this work?",
             "trigger_script;39 AtroposTalk"
         ]
