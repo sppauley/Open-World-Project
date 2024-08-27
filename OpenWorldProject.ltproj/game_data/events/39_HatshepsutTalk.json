@@ -16,10 +16,12 @@
             "s;Hatshepsut;I briefly stopped there, yes.|I sense your adventures have taken you many places.",
             "s;Simon;We are a long way from that tavern.|Still, I remember you saying it's an ill omen for two blessed to be together.",
             "s;Hatshepsut;Perhaps...{w} this land has not been kind to me.|Perhaps it is time for old omens to be cast aside.",
+            "music;MoveOut",
             "s;Simon;Then you'll join me?",
             "s;Hatshepsut;So long as it suits me.",
             "s;Simon;I am Simon Verstadt, lord of a demense to the south of here.",
             "s;Hatshepsut;And I am Hatshepsut, awoken by Horus.|May our enemies rue our alliance.",
+            "music_clear",
             "change_team;Hatshepsut;player"
         ]
     }
