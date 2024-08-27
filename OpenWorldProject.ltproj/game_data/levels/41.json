@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "41",
+        "name": "Precursor Ruins",
+        "tilemap": "PrecursorRuins",
+        "bg_tilemap": null,
+        "party": "Simon",
+        "music": {},
+        "objective": {
+            "simple": "Find the Artifact",
+            "win": "Find the Artifact",
+            "loss": "Simon dies"
+        },
+        "roam": false,
+        "roam_unit": null,
+        "go_to_overworld": true,
+        "should_record": true,
+        "units": [
+            {
+                "nid": "Simon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    11,
+                    23
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "outside",
+                "region_type": "vision",
+                "position": [
+                    0,
+                    19
+                ],
+                "size": [
+                    25,
+                    6
+                ],
+                "sub_nid": "None",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [],
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
+    }
+]
