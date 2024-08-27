@@ -21,7 +21,7 @@
             "multi_remove_portrait;Priest;Simon",
             "",
             "end_skip",
-            "# Does this work?",
+            "# Holy shit this works perfectly with trigger only once",
             "trigger_script;39 AtroposTalk"
         ]
     }
