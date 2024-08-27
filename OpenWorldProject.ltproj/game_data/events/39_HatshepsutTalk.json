@@ -1,0 +1,26 @@
+[
+    {
+        "name": "HatshepsutTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"Hatshepsut\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Hatshepsut;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Hatshepsut;Fellow blessed.",
+            "s;Simon;I remember you. From Port Hull?",
+            "s;Hatshepsut;I briefly stopped there, yes.|I sense your adventures have taken you many places.",
+            "s;Simon;We are a long way from that tavern.|Still, I remember you saying it's an ill omen for two blessed to be together.",
+            "s;Hatshepsut;Perhaps...{w} this land has not been kind to me.|Perhaps it is time for old omens to be cast aside.",
+            "s;Simon;Then you'll join me?",
+            "s;Hatshepsut;So long as it suits me.",
+            "s;Simon;I am Simon Verstadt, lord of a demense to the south of here.",
+            "s;Hatshepsut;And I am Hatshepsut, awoken by Horus.|May our enemies rue our alliance.",
+            "change_team;Hatshepsut;player"
+        ]
+    }
+]
