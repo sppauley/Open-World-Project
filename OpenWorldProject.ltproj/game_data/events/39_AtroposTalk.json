@@ -15,7 +15,15 @@
             "s;Atropos;Watch, now.",
             "remove_portrait;Atropos",
             "remove_unit;Simon;warp",
-            "remove_unit;Atropos;warp"
+            "remove_unit;Atropos;warp",
+            "",
+            "transition;close;1500",
+            "change_tilemap;Tapestry",
+            "center_cursor;9,0",
+            "transition;open;1000",
+            "",
+            "add_unit;Atropos;9,1;warp",
+            "add_unit;Simon;9,0;warp"
         ]
     }
 ]
