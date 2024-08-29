@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "43",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# I don't have a vision here either, could be fun to make it the normal morrissey castle map",
+            "# Wraps in well with rest of game?"
+        ]
+    }
+]
