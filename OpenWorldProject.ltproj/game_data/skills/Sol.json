@@ -2,7 +2,7 @@
     {
         "nid": "Sol",
         "name": "Sol",
-        "desc": "Unit has DEX% chance to deal half of damage dealt.",
+        "desc": "Unit has DEX% chance to deal one third of damage dealt.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
