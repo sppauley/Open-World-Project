@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn4Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;2,13",
+            "add_unit;134;2,13;fade;push",
+            "flicker_cursor;134",
+            "",
+            "wait;400",
+            "",
+            "center_cursor;19,6",
+            "add_unit;135;19,6;fade;push",
+            "flicker_cursor;135",
+            "",
+            "wait;400",
+            "",
+            "center_cursor;Simon"
+        ]
+    }
+]

@@ -14,7 +14,12 @@
             "    s;Man2;Out, begone! We have nothing to give you!",
             "    multi_remove_portrait;Simon;Man2",
             "else",
-            "",
+            "    add_portrait;{unit};Left",
+            "    s;{unit};They cut down anyone they could find...",
+            "    give_item;{unit};Silver Axe",
+            "    remove_portrait;{unit}",
+            "    remove_region;OuterVillage",
+            "    show_layer;westvillageclosed",
             "end"
         ]
     }

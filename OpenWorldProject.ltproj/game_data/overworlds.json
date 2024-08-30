@@ -315,8 +315,16 @@
                     19
                 ],
                 "icon": "cathedral",
-                "level": null,
-                "menu_options": []
+                "level": "39",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "43",
@@ -326,8 +334,16 @@
                     17
                 ],
                 "icon": "tower",
-                "level": null,
-                "menu_options": []
+                "level": "37",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "44",

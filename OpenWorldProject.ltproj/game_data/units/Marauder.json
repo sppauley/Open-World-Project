@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Marauder",
+        "name": "\"Sir\" John",
+        "desc": "An honorless wannabe lord.",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 40,
+            "CON": 11,
+            "MAG": 0,
+            "DEX": 12,
+            "SPD": 15,
+            "PSE": 24,
+            "MOV": 8
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Brave Sword",
+                false
+            ],
+            [
+                "Silver_Pike",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                181,
+                null
+            ],
+            "Sword": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Saar",
+        "affinity": null,
+        "fields": []
+    }
+]

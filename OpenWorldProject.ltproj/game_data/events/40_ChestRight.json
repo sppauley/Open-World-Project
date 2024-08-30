@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ChestRight",
+        "trigger": "Chest",
+        "level_nid": "40",
+        "condition": "region.nid == \"chestright\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;openchestright"
+        ]
+    }
+]

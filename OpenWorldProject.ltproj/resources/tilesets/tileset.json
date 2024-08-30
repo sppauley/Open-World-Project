@@ -876,5 +876,10 @@
         "nid": "ballista",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "interiors",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

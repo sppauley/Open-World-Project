@@ -17,7 +17,7 @@
             "if;v(\"ArmsDealerUnlocked\") == None",
             "    game_var;ArmsDealerUnlocked;False",
             "    game_var;MAXMapsToArmsDealerUnlock;4",
-            "    game_var;ArmsDealerMapsLeft;int(v(\\\"MAXMapsToArmsDealerUnlock\\\"))",
+            "    game_var;ArmsDealerMapsLeft;int(v(\"MAXMapsToArmsDealerUnlock\"))",
             "end",
             "",
             "game_var;MapsToSkillUnlock;max(v(\"MapsToSkillUnlock\") - 1, 0)",

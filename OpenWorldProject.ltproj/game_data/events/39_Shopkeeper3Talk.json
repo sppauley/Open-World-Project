@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shopkeeper3Talk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"102\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mercenary1;Right",
+            "s;Mercenary1;Weapons for...{w} Ah, I can only sell to Trojan soldiers, I'm afraid.|Better luck elsewhere, friend.",
+            "remove_portrait;Mercenary1"
+        ]
+    }
+]

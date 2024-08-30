@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "39",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;roof;immediate",
+            "show_layer;overlay;immediate",
+            "",
+            "add_talk;Simon;104",
+            "add_talk;Simon;101",
+            "add_talk;Simon;102",
+            "add_talk;Simon;114",
+            "add_talk;Simon;116",
+            "",
+            "if;v(\"HatshepsutMet\") and game.get_unit(\"Hatshepsut\"). team == \"other\"",
+            "    add_unit;Hatshepsut;7,20",
+            "    add_talk;Simon;Hatshepsut",
+            "end"
+        ]
+    }
+]

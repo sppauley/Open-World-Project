@@ -2,7 +2,7 @@
     {
         "nid": "Sol_Proc",
         "name": "Sol",
-        "desc": "Unit has DEX% chance to deal half of damage dealt.",
+        "desc": "Unit has DEX% chance to deal one third of damage dealt.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "lifelink",
-                0.5
+                0.33
             ],
             [
                 "unit_flickering_tint",

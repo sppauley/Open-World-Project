@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Shopkeeper2Talk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"101\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Man3;Right",
+            "s;Man3;Beer, spirits, and moonshine! No need to enter battle sober!",
+            "remove_portrait;Man3"
+        ]
+    }
+]

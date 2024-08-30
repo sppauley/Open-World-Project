@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Turn9AllAttack",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "for;u;[u.nid for u in game.get_all_units() if u.team == \"enemy\"]",
+            "    change_ai;{u};Pursue",
+            "endf",
+            "",
+            "center_cursor;MorrisseyGarrison",
+            "add_portrait;Morrissey;Right",
+            "s;Morrissey;Caution, Simon!{w} They're preparing to charge!",
+            "add_portrait;Simon;Left",
+            "s;Simon;Then we'll break them on our blades.|Everyone, form up!",
+            "remove_portrait;Simon",
+            "",
+            "wait;200",
+            "",
+            "s;Morrissey;Hah, a lion of an heir!{w} Bertholdt, you would be proud.",
+            "remove_portrait;Morrissey"
+        ]
+    }
+]

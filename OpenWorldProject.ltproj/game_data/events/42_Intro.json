@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "42",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Don't feel the need to use the FF6 tileset I have right now",
+            "# I don't really have a vision for this tilemap yet"
+        ]
+    }
+]

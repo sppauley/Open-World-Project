@@ -1,0 +1,25 @@
+[
+    {
+        "name": "DefeatBothBosses",
+        "trigger": "combat_end",
+        "level_nid": "37",
+        "condition": "not any([\"Boss\" in unit.tags for unit in game.get_enemy_units()])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;Simon",
+            "",
+            "add_portrait;Simon;Right",
+            "s;Simon;Hufh... hufh... Lord Morrissey, are you alright?",
+            "remove_portrait;Simon",
+            "",
+            "center_cursor;MorrisseyGarrison",
+            "add_portrait;Morrissey;Right",
+            "s;Morrissey;Never better! Report to me when you wish Simon, we ride.",
+            "remove_portrait;Morrissey",
+            "",
+            "win_game"
+        ]
+    }
+]
