@@ -1,0 +1,33 @@
+[
+    {
+        "name": "MelodieLoyaltyConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Melodie\" and game.get_unit(\"Melodie\").get_field(\"LoyaltyTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;25,31",
+            "add_portrait;Simon;Left",
+            "add_portrait;Melodie;Right",
+            "s;Simon;Melodie, what's going on?{w} You seemed agitated.",
+            "s;Melodie;And you're not?{w} Were you not paying attention while strolling through that wretched city?",
+            "s;Simon;Pelopos? {w}I mean, being there is definitely risky.{w}{br}The Senate likely wanting me dead doesn't exactly put me at ease.{w}{br}But it seems like you have something else in mind. What's your issue with Pelopos?",
+            "s;Melodie;The Pelopos Senate is filled with vile, war-hungry parasites.{w}{br}You think they make your life hard?{w} You're a noble with powerful allies like Morrissey.{w}{br}What do you think they're doing to the surrounding tribes who don't have armies of troops?{w}{br}Yeah sure, surrounding towns are squeezed for tribute, but at least they get to live.{w}{br}Tribes like mine are better off dead in the eyes of the Senate. We're just barbarians to them.",
+            "s;Simon;Where's this coming from? Look, I'm hardly an ally of Pelopos, but this doesn't seem like a recent development.",
+            "s;Melodie;Going to the city was eye-opening, Simon. The people living there just don't seem to care.{w}{br}They just stand by, living in their perfect city that feeds on the corpses of surrounding villages and tribes.",
+            "s;Melodie;Simon, I know you want the Senate dealt with.{w}{br}You won't feel secure until they're dealt with.",
+            "s;Simon;You're not fully wrong...{w} They're certainly a threat.",
+            "s;Melodie;Exactly. I'm simply offering to help you. The tribes are ready to fight back.{w}{br}We're preparing to attack the Senate soon.{w}{br}And we could use your help.",
+            "s;Simon;It's a tempting offer. I'll consider it.",
+            "s;Melodie;I hope you'll do the right thing here.",
+            "multi_remove_portrait;Simon;Melodie",
+            "",
+            "level_var;RevealMelodieMission;True",
+            "",
+            "remove_talk;Simon;Melodie",
+            "set_unit_field;Melodie;LoyaltyTalkComplete;True"
+        ]
+    }
+]
