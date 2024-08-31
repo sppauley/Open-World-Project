@@ -676,6 +676,25 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "64",
+                "name": "The Pelopos Senate",
+                "pos": [
+                    24,
+                    10
+                ],
+                "icon": "map_node",
+                "level": "38",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": "OverworldMapSelect",
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -1249,6 +1268,16 @@
                 [
                     18,
                     18
+                ]
+            ],
+            "(24, 10)-(24, 12)": [
+                [
+                    24,
+                    10
+                ],
+                [
+                    24,
+                    12
                 ]
             ]
         },

@@ -22,6 +22,11 @@
             "if;v(\"RevealNikaMission\")",
             "    reveal_overworld_node;58",
             "    reveal_overworld_road;36;58",
+            "end",
+            "",
+            "if;v(\"RevealEuclidMission\") or v(\"RevealMelodieMission\")",
+            "    reveal_overworld_node;64",
+            "    reveal_overworld_road;39;64",
             "end"
         ]
     }
