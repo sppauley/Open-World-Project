@@ -695,6 +695,25 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "65",
+                "name": "Giant's Hunting Grounds",
+                "pos": [
+                    11,
+                    23
+                ],
+                "icon": "woods",
+                "level": "35",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -1278,6 +1297,28 @@
                 [
                     24,
                     12
+                ]
+            ],
+            "(11, 18)-(11, 23)": [
+                [
+                    11,
+                    23
+                ],
+                [
+                    11,
+                    22
+                ],
+                [
+                    10,
+                    21
+                ],
+                [
+                    10,
+                    19
+                ],
+                [
+                    11,
+                    18
                 ]
             ]
         },

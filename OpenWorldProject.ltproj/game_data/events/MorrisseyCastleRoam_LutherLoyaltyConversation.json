@@ -1,0 +1,33 @@
+[
+    {
+        "name": "LutherLoyaltyConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Luther\" and game.get_unit(\"Luther\").get_field(\"LoyaltyTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;18,16",
+            "add_portrait;Simon;Left",
+            "add_portrait;Luther;Right",
+            "s;Luther;Simon, thank you for hearing me out.{w}{br}I would hate to distract from our cause, but this is something I can't ignore.",
+            "s;Simon;What happened?",
+            "s;Luther;Back when I served your father,{w} giants roamed the land.{w}{br}They terrorized villages within Verstadt lands and beyond.{w}{br}To restore order, your father sent me and a small band of soldiers out to take them down.{w}{br}You likely know the rest by now.",
+            "s;Simon;Of course. Thanks to you, giants are no more.",
+            "s;Luther;So I thought.{w}{br}I've heard from Morrissey's scouts that a giant still lives.",
+            "s;Simon;...and you want us to kill it.",
+            "s;Luther;I know it's risky, and it's a departure from our current endeavors.{w}{br}But if we aim to restore order to these lands, no giant should be left alive.",
+            "s;Luther;And I could not call my work complete if I let one get away.",
+            "s;Simon;I understand. Just tell us where the giant was last spotted, and we'll look.",
+            "s;Luther;Thank you, Simon. ",
+            "",
+            "multi_remove_portrait;Simon;Luther",
+            "",
+            "level_var;RevealLutherMission;True",
+            "",
+            "remove_talk;Simon;Luther",
+            "set_unit_field;Luther;LoyaltyTalkComplete;True"
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "LutherLoyaltyNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "int(game.get_unit(\"Luther\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Luther\").get_field(\"BattlesDeployed\"))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Luther;Left",
+            "s;Luther;Simon, if you're available next time we reach Morrissey's, we should speak.{w}{br}Something has come up.",
+            "remove_portrait;Luther",
+            "",
+            "set_unit_field;Luther;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "",
+            "trigger_script;Global LoyaltyTutorial"
+        ]
+    }
+]
