@@ -10,7 +10,32 @@
         "_source": [
             "# Start in bottom left",
             "# Escape in top right",
-            "# Ballista in bottom right. Spiders burrow up and destroy walls there, monsters come from stairs"
+            "# Ballista in bottom right. Spiders burrow up and destroy walls there, monsters come from stairs",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps",
+            "",
+            "center_cursor;101",
+            "flicker_cursor;101",
+            "",
+            "add_portrait;SoldierBlue;Left",
+            "add_portrait;Simon;Right",
+            "s;SoldierBlue;Lord Verstadt, is the king behind you?",
+            "s;Simon;T-the king has... fallen. We were attacked from above, and couldn\u2019t reach him in time.",
+            "s;SoldierBlue;How... can that be?",
+            "",
+            "center_cursor;Simon",
+            "trigger_script;Global AppearBySimon;Juliet",
+            "add_portrait;Juliet;Right",
+            "s;Juliet;Hey, start moving!{w} We\u2019ll all be next if we don\u2019t retreat!",
+            "remove_portrait;Juliet",
+            "trigger_script;Global ConsolidateToSimon;Juliet",
+            "",
+            "center_cursor;101",
+            "s;SoldierBlue;Ah\u2026 yes.{w} Yes, we\u2019ll clear a path ahead!|Upon our honor, no harm will come to you, milord!",
+            "",
+            "center_cursor;Simon",
+            "multi_remove_portrait;Simon;SoldierBlue"
         ]
     }
 ]

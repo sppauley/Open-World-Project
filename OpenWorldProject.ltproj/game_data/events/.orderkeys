@@ -669,5 +669,10 @@
     "40_ChestLeft",
     "40_ChestRight",
     "42_Intro",
-    "43_Intro"
+    "43_Intro",
+    "40_Escape",
+    "40_Outro",
+    "40_GeneralBetrayal",
+    "40_AdanaFightGeneric",
+    "40_AdanaFightSimon"
 ]

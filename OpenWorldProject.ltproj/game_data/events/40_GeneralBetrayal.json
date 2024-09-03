@@ -1,0 +1,43 @@
+[
+    {
+        "name": "GeneralBetrayal",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "wait;200",
+            "",
+            "center_cursor;Adana",
+            "add_portrait;Adana;Right",
+            "s;Adana;The beasts must be focused on this artifact.{w} Then... it can\u2019t be.|Men! Lord Verstadt has betrayed the crown by bringing this relic to us!|Kill him and his retinue. No mercy for traitors!",
+            "remove_portrait;Adana",
+            "",
+            "center_cursor;Simon",
+            "add_portrait;Simon;Left",
+            "s;Simon;The artifact caused this attack?|No... then why would Morrissey send me to...",
+            "remove_portrait;Simon",
+            "",
+            "center_cursor;Adana",
+            "add_portrait;Adana;Right",
+            "s;Adana;And you, wretched thing...",
+            "sound;PromotionCrackle",
+            "wait;100",
+            "sound;PromotionCrackle",
+            "wait;100",
+            "sound;PromotionCrackle",
+            "s;Adana;Begone!",
+            "remove_portrait;Adana",
+            "",
+            "for;u;[u.nid for u in game.get_all_units() if u.team == \"other\"]",
+            "    change_team;{u};enemy",
+            "endf",
+            "",
+            "wait;500",
+            "",
+            "center_cursor;Simon"
+        ]
+    }
+]

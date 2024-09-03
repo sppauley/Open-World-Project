@@ -1582,5 +1582,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "GenAdana",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            24,
+            48
+        ],
+        "info_offset": 5
     }
 ]

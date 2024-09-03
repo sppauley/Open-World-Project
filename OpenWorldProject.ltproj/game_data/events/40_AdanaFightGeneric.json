@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AdanaFightGeneric",
+        "trigger": "combat_start",
+        "level_nid": "40",
+        "condition": "check_default('Adana', ['Simon'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Adana;Left",
+            "s;Adana;Traitors, all of you! Come closer, so I may cleave you in two!",
+            "remove_portrait;Adana"
+        ]
+    }
+]

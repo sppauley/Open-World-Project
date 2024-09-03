@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "40",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid=='Simon'",
+            "",
+            "add_portrait;Simon;Left",
+            "s;Simon;Everyone, this way!|Lord Morrissey has a lot to answer for.",
+            "remove_portrait;Simon",
+            "",
+            "trigger_script;Global IncreaseMitziProgress",
+            "win_game",
+            "",
+            "end",
+            "remove_unit;{unit}"
+        ]
+    }
+]

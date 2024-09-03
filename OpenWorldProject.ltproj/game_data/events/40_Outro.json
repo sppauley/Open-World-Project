@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "40",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# TODO: Have Simon move to now-abandoned royal garrison and rest",
+            "# Convene with teammates. Royal Garrison has now been taken over",
+            "# by refugees"
+        ]
+    }
+]
