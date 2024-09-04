@@ -13,7 +13,9 @@
             "game_var;JulietPartners;[\"Vincent\"]",
             "game_var;AlinaPartners;[\"Luther\", \"Duygu\"]",
             "game_var;BoudicaPartners;[\"Melodie\"]",
-            "game_var;VincentPartners;[\"Twins\"]"
+            "game_var;VincentPartners;[\"Twins\"]",
+            "game_var;EuclidPartners;[\"Lupus\"]",
+            "game_var;NikaPartners;[\"Mitzi\"]"
         ]
     }
 ]

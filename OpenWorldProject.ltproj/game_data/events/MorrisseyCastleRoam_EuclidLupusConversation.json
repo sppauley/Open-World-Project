@@ -1,0 +1,33 @@
+[
+    {
+        "name": "EuclidLupusConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Euclid\" or unit2.nid == \"Lupus\") and v(\"EuclidLupusConversation\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Euclid;Right",
+            "add_portrait;Lupus;Left",
+            "",
+            "s;Euclid;Lupus, was it?",
+            "s;Lupus;Yep. What do you want?",
+            "s;Euclid;I heard from some others that you're skilled with... the fairer sex.",
+            "s;Lupus;In bed? Oh, you better believe it.",
+            "s;Euclid;By the- no! As in, conversing with them.",
+            "s;Lupus;I can do that too, yeah.",
+            "s;Euclid;Would you perhaps have some pointers for me?",
+            "s;Lupus;Sure! Hmm... how would you normally start? Say, you see a fair maiden at the market.|What's your first move?",
+            "s;Euclid;Follow her for a time, making sure I take written notes of her path and habits.|Afterwards, trail her closely on her way home,{w} so I know where she lives in order to visit later.",
+            "s;Lupus;...",
+            "s;Lupus;This might be a lost cause.",
+            "",
+            "multi_remove_portrait;Euclid;Lupus",
+            "",
+            "remove_talk;Simon;Euclid",
+            "remove_talk;Simon;Lupus",
+            "level_var;EuclidLupusConversation;False"
+        ]
+    }
+]

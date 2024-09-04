@@ -11,9 +11,9 @@
             "add_portrait;Simon;Left",
             "add_portrait;Adana;Right",
             "",
-            "s;Adana;Traitor! You won\u2019t live long enough to hang!",
+            "s;Adana;Traitor! You won't live long enough to hang!",
             "s;Simon;General, please! I had no idea what that artifact was!|I was only asked to retrieve it as a gift by Lord Morrissey.",
-            "s;Adana;Your words are too late, wretch. You have slain the last of the Trojan dynasty!|But have no fear - Lord Morrissey\u2019s head will be the next to fall from his shoulders.",
+            "s;Adana;Your words are too late, wretch. You have slain the last of the Trojan dynasty!|But have no fear - Lord Morrissey's head will be the next to fall from his shoulders.",
             "",
             "multi_remove_portrait;Adana;Simon"
         ]

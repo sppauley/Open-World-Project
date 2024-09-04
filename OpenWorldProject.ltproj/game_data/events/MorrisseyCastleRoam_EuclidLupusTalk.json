@@ -1,0 +1,23 @@
+[
+    {
+        "name": "EuclidLupusTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Euclid;3,11;immediate",
+            "add_unit;Lupus;2,11;immediate",
+            "add_talk;Simon;Euclid",
+            "add_talk;Simon;Lupus",
+            "",
+            "if;v(\"EuclidPartners\").remove(\"Lupus\")",
+            "end",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Euclid",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Lupus",
+            "level_var;EuclidLupusConversation;True"
+        ]
+    }
+]
