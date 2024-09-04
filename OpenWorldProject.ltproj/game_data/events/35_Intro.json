@@ -8,8 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "",
-            "",
+            "change_background;Forest",
+            "multi_add_portrait;Luther;Right;Simon;Left",
+            "s;Luther;We should stop here. This looks like the giant's hunting grounds.",
+            "s;Simon;Let's pause before advancing.{w} It's been a tough trek out here, and some of us are starting to tire.{w}{br}We need to be at our best before taking on the giant.",
+            "s;Luther;We must push forward.{w} This giant's life is already an insult to my legacy.{w}{br}Please, Simon. {w}We cannot let it get away.",
             "",
             "# prep",
             "arrange_formation",
