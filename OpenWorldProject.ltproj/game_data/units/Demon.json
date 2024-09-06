@@ -1,0 +1,95 @@
+[
+    {
+        "nid": "Demon",
+        "name": "Demon",
+        "desc": "An ancient dragon whose worshippers claimed the ruins of an old city.",
+        "variant": "",
+        "level": 20,
+        "klass": "Demon",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 60,
+            "CON": 16,
+            "MAG": 21,
+            "DEX": 19,
+            "SPD": 16,
+            "PSE": 30,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 0,
+            "CON": 0,
+            "MAG": 0,
+            "DEX": 0,
+            "SPD": 0,
+            "PSE": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Sharp Claw",
+                false
+            ],
+            [
+                "Demon Light",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Ruler"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Innate": [
+                false,
+                251,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Djinn {Alexsplode}",
+        "affinity": "None",
+        "fields": []
+    }
+]

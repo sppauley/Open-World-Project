@@ -71,6 +71,7 @@
     "DireWolf",
     "Gargoyle",
     "Margoyle",
+    "Phantom",
     "Sword_Bonewalker",
     "Sword_Wight",
     "Bow_Bonewalker",
@@ -93,5 +94,6 @@
     "SpeedTome",
     "SlowTome",
     "DraconicKnight",
-    "Dragon"
+    "Dragon",
+    "Demon"
 ]
