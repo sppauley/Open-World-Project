@@ -2,7 +2,7 @@
     {
         "nid": "44",
         "name": "Anuki Loyalty",
-        "tilemap": "New Tilemap",
+        "tilemap": "AnukiLoyalty",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
