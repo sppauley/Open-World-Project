@@ -2,7 +2,7 @@
     {
         "nid": "Wretched Air",
         "name": "Wretched Air",
-        "desc": "Ignore's enemy defence.",
+        "desc": "On hit, max HP -5 until end of chapter.",
         "icon_nid": "Neutral",
         "icon_index": [
             0,
@@ -23,19 +23,15 @@
             ],
             [
                 "damage",
-                10
+                8
             ],
             [
                 "hit",
-                100
+                80
             ],
             [
                 "locked",
                 null
-            ],
-            [
-                "status_on_equip",
-                "Wretched Air"
             ],
             [
                 "wexp",
@@ -54,12 +50,16 @@
                 2
             ],
             [
-                "alternate_resist_formula",
-                "ZERO"
-            ],
-            [
                 "weapon_type",
                 "Innate"
+            ],
+            [
+                "status_on_hit",
+                "MaxHPDown"
+            ],
+            [
+                "stagger",
+                4
             ]
         ]
     }

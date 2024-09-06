@@ -11,7 +11,14 @@
             "level_var;_fog_of_war;True",
             "level_var;_fog_of_war_type;2",
             "level_var;_fog_of_war_radius;3",
-            "level_var;_ai_fog_of_war_radius;3"
+            "level_var;_ai_fog_of_war_radius;3",
+            "",
+            "move_unit;MaYuan;12,20",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps",
+            "",
+            "change_team;MaYuan;player"
         ]
     }
 ]

@@ -112,16 +112,12 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Mogall",
+                "klass": "Dracozombie",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "BloodyEye",
+                        "Wretched Air",
                         false
-                    ],
-                    [
-                        "Iron Sword",
-                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -130,8 +126,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    5
+                    6,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true

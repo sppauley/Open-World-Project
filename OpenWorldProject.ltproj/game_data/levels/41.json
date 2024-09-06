@@ -118,11 +118,11 @@
                 "nid": "104",
                 "variant": null,
                 "level": 5,
-                "klass": "Bow_Wight",
+                "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -139,6 +139,30 @@
                 "generic": true
             },
             {
+                "nid": "105",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    15,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "MaYuan",
                 "team": "other",
                 "ai": "None",
@@ -150,6 +174,30 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Dracozombie",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Wretched Air",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -162,23 +210,6 @@
                 ],
                 "size": [
                     3,
-                    1
-                ],
-                "sub_nid": "",
-                "condition": "True",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Formation_1",
-                "region_type": "formation",
-                "position": [
-                    12,
-                    25
-                ],
-                "size": [
-                    1,
                     1
                 ],
                 "sub_nid": "",

@@ -214,5 +214,6 @@
     "MagicWeapon",
     "LunaBonus",
     "GoldenSoulBonus",
-    "DemonDrain"
+    "DemonDrain",
+    "MaxHPDown"
 ]

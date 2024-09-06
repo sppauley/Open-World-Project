@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "MaxHPDown",
+        "name": "Max HP -5",
+        "desc": "For each stack, max HP -5.\nDisappears on chapter end.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            0
+        ],
+        "components": [
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        -5
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                999
+            ]
+        ]
+    }
+]
