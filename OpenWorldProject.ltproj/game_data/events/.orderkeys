@@ -679,5 +679,8 @@
     "40_GeneralBetrayal",
     "40_AdanaFightGeneric",
     "40_AdanaFightSimon",
-    "41_SpawnPhantom"
+    "41_RulerAction",
+    "41_OpenSideDoors",
+    "41_RulerTutorial",
+    "global_RoostTrigger"
 ]

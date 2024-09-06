@@ -66,6 +66,7 @@
     "Forester",
     "Zeal",
     "Encore",
+    "Roost",
     "WitchWarp",
     "Accost",
     "Accosted",
@@ -212,5 +213,6 @@
     "ImmolationStatus",
     "MagicWeapon",
     "LunaBonus",
-    "GoldenSoulBonus"
+    "GoldenSoulBonus",
+    "DemonDrain"
 ]

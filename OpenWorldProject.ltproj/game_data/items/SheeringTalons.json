@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "SheeringTalons",
+        "name": "Sheering Talons",
+        "desc": "Tears through armor.",
+        "icon_nid": "Neutral",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "locked",
+                null
+            ],
+            [
+                "wexp",
+                0
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Innate"
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        0
+                    ]
+                ]
+            ]
+        ]
+    }
+]

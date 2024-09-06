@@ -1,0 +1,14 @@
+[
+    {
+        "name": "RoostTrigger",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "any([skill.nid == \"Roost\" for skill in unit.skills]) and actively_chosen",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_current_hp;{unit};{eval:min(int(unit.get_hp()+(unit.get_max_hp()/2)), int(unit.get_max_hp()))}"
+        ]
+    }
+]

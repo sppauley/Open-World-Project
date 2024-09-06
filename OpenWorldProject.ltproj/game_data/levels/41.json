@@ -41,6 +41,115 @@
                 ],
                 "starting_traveler": null,
                 "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 5,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "RoughClaw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Center1",
+                "starting_position": [
+                    10,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 5,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "RoughClaw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Center1",
+                "starting_position": [
+                    14,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 5,
+                "klass": "Bow_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "MaYuan",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -53,7 +162,24 @@
                 ],
                 "size": [
                     3,
-                    2
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation_1",
+                "region_type": "formation",
+                "position": [
+                    12,
+                    25
+                ],
+                "size": [
+                    1,
+                    1
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -72,7 +198,41 @@
                     25,
                     5
                 ],
-                "sub_nid": "None",
+                "sub_nid": "1",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LeftDoor",
+                "region_type": "event",
+                "position": [
+                    6,
+                    14
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Door",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "RightDoor",
+                "region_type": "event",
+                "position": [
+                    18,
+                    14
+                ],
+                "size": [
+                    1,
+                    2
+                ],
+                "sub_nid": "Door",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -80,6 +240,15 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "Center1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

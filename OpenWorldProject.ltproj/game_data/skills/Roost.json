@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Roost",
+        "name": "Roost",
+        "desc": "If unit uses the Wait command, heal 50% max HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

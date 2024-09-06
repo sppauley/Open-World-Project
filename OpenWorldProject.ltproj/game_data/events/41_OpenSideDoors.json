@@ -1,0 +1,21 @@
+[
+    {
+        "name": "OpenSideDoors",
+        "trigger": "Door",
+        "level_nid": "41",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;region.nid == \"LeftDoor\"",
+            "    sound;Unlock",
+            "    show_layer;openleftdoor",
+            "elif;region.nid == \"RightDoor\"",
+            "    sound;Unlock",
+            "    show_layer;openrightdoor",
+            "end",
+            ""
+        ]
+    }
+]
