@@ -117,7 +117,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 5,
+                "level": 2,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
@@ -141,7 +141,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 5,
+                "level": 2,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
@@ -195,6 +195,102 @@
                 "starting_position": [
                     12,
                     11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 5,
+                "klass": "Dracozombie",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Wretched Air",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 5,
+                "klass": "Dracozombie",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Wretched Air",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 5,
+                "klass": "Dracozombie",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Wretched Air",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 5,
+                "klass": "Dracozombie",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Wretched Air",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true

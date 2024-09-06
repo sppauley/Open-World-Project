@@ -18,7 +18,9 @@
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",
-            "change_team;MaYuan;player"
+            "change_team;MaYuan;player",
+            "add_tag;109;Boss",
+            "add_tag;110;Boss"
         ]
     }
 ]

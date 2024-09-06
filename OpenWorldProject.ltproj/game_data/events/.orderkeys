@@ -682,5 +682,6 @@
     "41_RulerAction",
     "41_OpenSideDoors",
     "41_RulerTutorial",
-    "global_RoostTrigger"
+    "global_RoostTrigger",
+    "41_OpenMainDoor"
 ]

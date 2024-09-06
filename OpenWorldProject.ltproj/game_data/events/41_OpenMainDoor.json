@@ -1,0 +1,20 @@
+[
+    {
+        "name": "OpenMainDoor",
+        "trigger": "combat_end",
+        "level_nid": "41",
+        "condition": "game.check_dead(\"109\") and game.check_dead(\"110\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;DemonSurge",
+            "center_cursor;12,9",
+            "flicker_cursor;12,9",
+            "flicker_cursor;13,9",
+            "flicker_cursor;11,9",
+            "sound;Unlock",
+            "show_layer;opentopdoor"
+        ]
+    }
+]
