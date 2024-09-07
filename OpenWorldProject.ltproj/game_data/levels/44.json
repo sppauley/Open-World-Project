@@ -1,19 +1,19 @@
 [
     {
         "nid": "44",
-        "name": "Anuki Loyalty",
+        "name": "Roland Manor",
         "tilemap": "AnukiLoyalty",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "Defend Roland's Escape",
+            "win": "Lord Roland Escapes",
+            "loss": "Anuki, Simon, or Roland dies"
         },
         "roam": false,
         "roam_unit": null,
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
         "units": [
             {
@@ -37,6 +37,19 @@
                 "ai_group": "",
                 "starting_position": [
                     20,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Roland",
+                "team": "other",
+                "ai": "SupportGuard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
                     15
                 ],
                 "starting_traveler": null,
@@ -137,6 +150,126 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Cyclone",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 5,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Cyclone",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    31,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "107",
+                "variant": null,
+                "level": 10,
+                "klass": "Sniper",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "108",
+                "variant": null,
+                "level": 10,
+                "klass": "Sniper",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 16,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -193,6 +326,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

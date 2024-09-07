@@ -1,0 +1,45 @@
+[
+    {
+        "nid": "Roland",
+        "name": "Lord Roland",
+        "desc": "An opportunistic lord. Aims to expand his territory.",
+        "variant": null,
+        "level": 5,
+        "klass": "Tycoon",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "CON": 7,
+            "MAG": 17,
+            "DEX": 10,
+            "SPD": 14,
+            "PSE": 12,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Physic",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{LaurentLacroix} OC 8",
+        "affinity": null,
+        "fields": []
+    }
+]
