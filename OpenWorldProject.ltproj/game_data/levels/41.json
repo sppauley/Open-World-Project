@@ -91,6 +91,30 @@
                 "generic": true
             },
             {
+                "nid": "118",
+                "variant": null,
+                "level": 5,
+                "klass": "Entombed",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "RoughClaw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "103",
                 "variant": null,
                 "level": 5,
@@ -110,6 +134,198 @@
                 "starting_position": [
                     9,
                     13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top2",
+                "starting_position": [
+                    8,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top2",
+                "starting_position": [
+                    18,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top2",
+                "starting_position": [
+                    16,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top2",
+                "starting_position": [
+                    6,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "LGroup",
+                "starting_position": [
+                    5,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 5,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Killing Edge",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "LGroup",
+                "starting_position": [
+                    2,
+                    11
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 5,
+                "klass": "Angel",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 5,
+                "klass": "Angel",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -139,6 +355,102 @@
                 "generic": true
             },
             {
+                "nid": "123",
+                "variant": null,
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top1",
+                "starting_position": [
+                    20,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top1",
+                "starting_position": [
+                    16,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top1",
+                "starting_position": [
+                    8,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 2,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Top1",
+                "starting_position": [
+                    4,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "105",
                 "variant": null,
                 "level": 2,
@@ -158,6 +470,78 @@
                 "starting_position": [
                     15,
                     18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Flux",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "RGroup",
+                "starting_position": [
+                    20,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "RGroup",
+                "starting_position": [
+                    22,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 5,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Storm",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -217,8 +601,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    20
+                    24,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -370,6 +754,26 @@
         "ai_groups": [
             {
                 "nid": "Center1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "RGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "LGroup",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Top1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Top2",
                 "trigger_threshold": 1
             }
         ]
