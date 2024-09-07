@@ -61,7 +61,7 @@
             "    level_var;NextLevel;\"BoudicaGraveyard\"",
             "elif;'{v:CurrentNode}' == '44'",
             "    # Precursor Ruins",
-            "    level_var;NextLevel;\"41\"",
+            "    level_var;NextLevel;\"42\"",
             "else",
             "end",
             "# Actually enter",

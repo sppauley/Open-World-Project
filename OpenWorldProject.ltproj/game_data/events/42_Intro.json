@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "# Don't feel the need to use the FF6 tileset I have right now",
-            "# I don't really have a vision for this tilemap yet"
+            "# I don't really have a vision for this tilemap yet",
+            "game_var;freely_exit;True"
         ]
     }
 ]
