@@ -693,7 +693,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "RuinsBandits",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -717,7 +717,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "RuinsBandits",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -741,7 +741,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "RuinsBandits",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -765,7 +765,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "RuinsBandits",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -877,6 +877,10 @@
             },
             {
                 "nid": "Top2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

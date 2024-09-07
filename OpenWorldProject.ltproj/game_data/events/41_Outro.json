@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Outro",
+        "trigger": "level_end",
+        "level_nid": "41",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_all_units",
+            "level_var;_fog_of_war;False",
+            "",
+            "add_unit;Simon;14,1;immediate",
+            "add_unit;Luther;15,2;immediate",
+            "center_cursor;Simon;immediate",
+            ""
+        ]
+    }
+]

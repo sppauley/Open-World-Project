@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "sound;DemonSurge",
+            "wait;3000",
             "win_game"
         ]
     }
