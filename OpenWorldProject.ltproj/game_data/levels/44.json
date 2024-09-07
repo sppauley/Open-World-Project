@@ -202,7 +202,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 5,
+                "level": 2,
                 "klass": "Sniper",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -226,7 +226,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 5,
+                "level": 2,
                 "klass": "Sniper",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -250,7 +250,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 16,
+                "level": 8,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -368,54 +368,6 @@
                 "generic": true
             },
             {
-                "nid": "112",
-                "variant": null,
-                "level": 3,
-                "klass": "Knight",
-                "faction": "Roland",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 3,
-                "klass": "Knight",
-                "faction": "Roland",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "Escape",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    25,
-                    21
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "111",
                 "variant": null,
                 "level": 3,
@@ -442,7 +394,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 10,
+                "level": 5,
                 "klass": "Halberdier",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -514,7 +466,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 10,
+                "level": 5,
                 "klass": "Swordmaster",
                 "faction": "Morrissey",
                 "starting_items": [

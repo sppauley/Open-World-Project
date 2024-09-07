@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Roland Retreat Warning",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Roland;Right",
+            "s;Roland;Lady Anuki, I don't mean to disrespect your troops, but we need to get moving.{w}{br}We need to rush the exit soon, before they overwhelm us!",
+            "add_portrait;Anuki;Left;left",
+            "s;Anuki;Argh, have some patience. We're doing the best we can here.",
+            "multi_remove_portrait;Anuki;Roland"
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Roland Flees",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Roland;Right",
+            "s;Roland;I've had enough. We need to escape!{w} Now!",
+            "move_portrait;Roland;OffscreenLeft;2",
+            "remove_portrait;Roland",
+            "add_portrait;Anuki;Right;right",
+            "s;Anuki;No, wait!{w} It's not safe yet!{w}{br}Damn it, he's really not making it easy to save him...",
+            "remove_portrait;Anuki",
+            "change_ai;Roland;Escape"
+        ]
+    }
+]

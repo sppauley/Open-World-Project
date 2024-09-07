@@ -686,5 +686,7 @@
     "41_OpenMainDoor",
     "41_DefeatBoss",
     "44_Intro",
-    "41_SpawnBandits"
+    "41_SpawnBandits",
+    "44_Roland_Flees",
+    "44_Roland_Retreat_Warning"
 ]
