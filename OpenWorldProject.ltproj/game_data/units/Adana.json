@@ -30,7 +30,18 @@
         ],
         "learned_skills": [],
         "unit_notes": [],
-        "wexp_gain": {},
+        "wexp_gain": {
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Lance": [
+                false,
+                181,
+                null
+            ]
+        },
         "alternate_classes": [],
         "portrait_nid": "GenAdana",
         "affinity": null,
