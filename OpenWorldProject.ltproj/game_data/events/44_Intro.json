@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "44",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;overlay",
+            "show_layer;overlay2",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps"
+        ]
+    }
+]
