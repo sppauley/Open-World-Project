@@ -1,0 +1,22 @@
+[
+    {
+        "name": "SpawnBandits",
+        "trigger": "turn_change",
+        "level_nid": "41",
+        "condition": "v(\"SpawnBandits\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;BanditGroup;starting",
+            "center_cursor;12,25",
+            "",
+            "add_portrait;Bandit1;Right",
+            "s;Bandit1;Ha, an abandoned ruin!|C'mon boys, lets see what we can find!",
+            "remove_portrait;Bandit1",
+            "",
+            "# Not needed but feels like good practice.",
+            "level_var;SpawnBandits;False"
+        ]
+    }
+]

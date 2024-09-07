@@ -5,7 +5,7 @@
         "level_nid": "41",
         "condition": "game.check_dead(\"109\") and game.check_dead(\"110\")",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "sound;DemonSurge",
@@ -16,11 +16,7 @@
             "sound;Unlock",
             "show_layer;opentopdoor",
             "",
-            "add_group;BanditGroup;starting",
-            "center_cursor;12,25",
-            "",
-            "add_portrait;Bandit1;Right",
-            "s;Bandit1;Ha, an abandoned ruin!"
+            "level_var;SpawnBandits;True"
         ]
     }
 ]

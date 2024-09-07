@@ -685,5 +685,6 @@
     "global_RoostTrigger",
     "41_OpenMainDoor",
     "41_DefeatBoss",
-    "44_Intro"
+    "44_Intro",
+    "41_SpawnBandits"
 ]
