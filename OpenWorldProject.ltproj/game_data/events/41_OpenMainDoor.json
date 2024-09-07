@@ -14,7 +14,13 @@
             "flicker_cursor;13,9",
             "flicker_cursor;11,9",
             "sound;Unlock",
-            "show_layer;opentopdoor"
+            "show_layer;opentopdoor",
+            "",
+            "add_group;BanditGroup;starting",
+            "center_cursor;12,25",
+            "",
+            "add_portrait;Bandit1;Right",
+            "s;Bandit1;Ha, an abandoned ruin!"
         ]
     }
 ]

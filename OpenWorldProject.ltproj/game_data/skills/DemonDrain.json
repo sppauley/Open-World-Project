@@ -11,7 +11,7 @@
         "components": [
             [
                 "damage",
-                1
+                -1
             ],
             [
                 "stack",

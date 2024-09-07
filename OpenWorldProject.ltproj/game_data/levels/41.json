@@ -133,7 +133,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    13
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -349,7 +349,7 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    12
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -578,7 +578,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    11
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -678,6 +678,102 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Steel_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 1,
+                "klass": "Berserker",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 1,
+                "klass": "Paladin",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "Killer Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 1,
+                "klass": "Paladin",
+                "faction": "Bandit",
+                "starting_items": [
+                    [
+                        "AlertLance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -750,7 +846,18 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "BanditGroup",
+                "units": [
+                    "130",
+                    "129",
+                    "128",
+                    "127"
+                ],
+                "positions": {}
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "Center1",
