@@ -11,6 +11,15 @@
             "show_layer;overlay",
             "show_layer;overlay2",
             "",
+            "change_roam_ai;Anuki;FollowSimonRoam",
+            "",
+            "# removes the map units, sticks to the roam units to start",
+            "remove_group;StartingUnits;immediate",
+            "",
+            "# adds talks",
+            "add_talk;Simon;Roland",
+            "add_talk;Simon;BoxMover",
+            "",
             "# when writing this intro:",
             "# 1. the map involves negotiations going awry between Morrissey's troops and Roland",
             "# 2. Roland seized a small amount of uninhabited land in Morrissey's territory (as part of a larger expansion effort in bordering territories), group was sent to talk it out",
@@ -22,10 +31,7 @@
             "# 8. General: you don't have the strength to defend House Morrissey. If you would truly side with the enemy, then I will not hesitate to strike you down",
             "",
             "# when setting up the map:",
-            "# 1. portray Lord Roland as impulsive --- will flee to nearby rooms when feeling constrained in the current one (opportunistic, but not necessarily wise when it comes to seeing an opening)",
-            "",
-            "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "# 1. portray Lord Roland as impulsive --- will flee to nearby rooms when feeling constrained in the current one (opportunistic, but not necessarily wise when it comes to seeing an opening)"
         ]
     }
 ]

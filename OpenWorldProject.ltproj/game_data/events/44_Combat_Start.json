@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Combat Start",
+        "trigger": "on_talk",
+        "level_nid": "44",
+        "condition": "unit2.nid == 'Roland'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;Roland",
+            "change_roaming;f",
+            "",
+            "add_group;StartingUnits;starting",
+            "",
+            "move_unit;Simon;20,15;immediate",
+            "move_unit;Anuki;18,15;immediate",
+            "add_region;Escape;18,2;3,2;event;Escape",
+            "region_condition;Escape;unit.team=='other'",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps",
+            ""
+        ]
+    }
+]
