@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "King",
+        "name": "King Troy",
+        "desc": "The witless king of Troy.",
+        "variant": "_King",
+        "level": 1,
+        "klass": "Citizen",
+        "tags": [],
+        "bases": {
+            "HP": 1,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "{Its_Just_Jay} [F2E] OC 9",
+        "affinity": null,
+        "fields": []
+    }
+]

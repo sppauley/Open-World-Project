@@ -3,7 +3,7 @@
         "name": "RevealRuins",
         "trigger": "level_end",
         "level_nid": "42",
-        "condition": "True",
+        "condition": "v(\"RevealRuins\") == True",
         "commands": [],
         "only_once": true,
         "priority": 20,

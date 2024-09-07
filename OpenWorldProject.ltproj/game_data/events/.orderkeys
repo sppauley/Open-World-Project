@@ -692,5 +692,7 @@
     "44_Combat_Start",
     "44_Set_Up_Boxes",
     "41_Outro",
-    "42_RevealRuins"
+    "42_RevealRuins",
+    "42_GiveArtifact",
+    "42_KingTalk"
 ]

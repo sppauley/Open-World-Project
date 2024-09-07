@@ -1,0 +1,22 @@
+[
+    {
+        "name": "KingTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"King\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"HasRuinsArtifact\") == True",
+            "    trigger_script;42 GiveArtifact",
+            "else",
+            "    add_portrait;King;Right",
+            "    s;King;Write this later.",
+            "",
+            "    multi_add_portrait;Morrissey;MidLeft;Simon;FarLeft",
+            "    level_var;RevealRuins;True",
+            "end"
+        ]
+    }
+]
