@@ -353,8 +353,16 @@
                     14
                 ],
                 "icon": "palace",
-                "level": null,
-                "menu_options": []
+                "level": "42",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": "OverworldRoamSelect",
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "45",
@@ -368,7 +376,7 @@
                 "menu_options": [
                     {
                         "nid": "Battle",
-                        "event": null,
+                        "event": "OverworldMapSelect",
                         "option_name": "Battle",
                         "visible": true,
                         "enabled": true

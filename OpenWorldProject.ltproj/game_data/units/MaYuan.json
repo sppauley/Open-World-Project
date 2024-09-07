@@ -48,6 +48,23 @@
         "alternate_classes": [],
         "portrait_nid": "Armour {Dutch Introvert}",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "999"
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "DeathQuote",
+                "*squawk*..."
+            ],
+            [
+                "LoyaltyStatus",
+                "Loyal to the one who purged the ruins."
+            ]
+        ]
     }
 ]

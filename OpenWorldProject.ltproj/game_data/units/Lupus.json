@@ -2,7 +2,7 @@
     {
         "nid": "Lupus",
         "name": "Lupus",
-        "desc": "The alias of a renowned thief.\nA fashionable renowned thief.",
+        "desc": "The alias of a renowned thief.\nThe alias of a fashionable \nrenowned thief.",
         "variant": "_Lupus",
         "level": 4,
         "klass": "Thief",

@@ -14,7 +14,11 @@
             "add_unit;Simon;14,1;immediate",
             "add_unit;Luther;15,2;immediate",
             "center_cursor;Simon;immediate",
-            ""
+            "",
+            "add_portrait;Simon;MidRight",
+            "add_portrait;Luther;FarRight",
+            "",
+            "s;Simon"
         ]
     }
 ]
