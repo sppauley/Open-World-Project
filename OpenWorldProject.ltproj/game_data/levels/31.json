@@ -5,7 +5,10 @@
         "tilemap": "MalignedFort",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "DarkWastes",
+            "enemy_phase": "DarkWastes"
+        },
         "objective": {
             "simple": "Defeat Boss",
             "win": "Defeat Lycon",
