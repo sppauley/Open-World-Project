@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "transition;close",
             "change_objective_simple;Defeat bosses",
             "change_objective_win;Defeat the two bosses",
             "change_objective_loss;Simon or Melodie dies",
@@ -19,7 +20,8 @@
             "add_unit;Simon;14,32",
             "change_team;Euclid;enemy",
             "add_group;AttackStarting",
-            "add_region;prep;11,33;5,2;formation"
+            "add_region;prep;11,33;5,2;formation",
+            "transition;open"
         ]
     }
 ]
