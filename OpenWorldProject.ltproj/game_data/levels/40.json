@@ -5,7 +5,12 @@
         "tilemap": "TroyEscape",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Termini",
+            "enemy_phase": "Termini",
+            "enemy2_phase": "Termini",
+            "other_phase": "Termini"
+        },
         "objective": {
             "simple": "Simon Escapes",
             "win": "Simon Escapes",
@@ -701,7 +706,7 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -725,7 +730,7 @@
                 ],
                 "starting_skills": [],
                 "team": "other",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1030,7 +1035,7 @@
             {
                 "nid": "141",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Spider",
                 "faction": "Monster",
                 "starting_items": [
@@ -1051,7 +1056,7 @@
             {
                 "nid": "142",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Spider",
                 "faction": "Monster",
                 "starting_items": [
@@ -1072,7 +1077,7 @@
             {
                 "nid": "143",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Spider",
                 "faction": "Monster",
                 "starting_items": [
@@ -1093,7 +1098,7 @@
             {
                 "nid": "146",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "Spider",
                 "faction": "Monster",
                 "starting_items": [
@@ -1114,7 +1119,7 @@
             {
                 "nid": "147",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Ballista",
                 "faction": "Troy",
                 "starting_items": [

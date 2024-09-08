@@ -5,7 +5,11 @@
         "tilemap": "PrecursorRuins",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Chaos",
+            "enemy_phase": "Chaos",
+            "enemy2_phase": "Chaos"
+        },
         "objective": {
             "simple": "Find the Artifact",
             "win": "Find the Artifact",
