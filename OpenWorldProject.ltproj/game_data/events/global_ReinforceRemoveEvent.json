@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ReinforceRemoveEvent",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_current_poise;{unit};{e:unit.get_max_poise()}"
+        ]
+    }
+]

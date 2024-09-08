@@ -1,6 +1,6 @@
 [
     {
-        "name": "BanditEscape",
+        "name": "Escape",
         "trigger": "unit_wait",
         "level_nid": "14",
         "condition": "unit.klass == \"Brigand\" and unit.position in region.get_all_positions()",

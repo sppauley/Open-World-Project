@@ -22,7 +22,7 @@
             "speak;Simon;Is this a friend of yours?",
             "speak;Luther;We fought together a long time ago.{w}{br}So, it was a bit of a shock to run into each other here.",
             "wait;500",
-            "speak;Luther;I guess Fate has a way of bringing people together.",
+            "speak;Luther;I guess The Fates have a way of bringing people together.",
             "multi_remove_portrait;Simon;SoldierBlue;Luther",
             "remove_talk;Simon;Luther"
         ]

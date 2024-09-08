@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "transition;close;1500",
+            "music_clear",
             "remove_all_units",
             "add_unit;Simon;15,5;immediate",
             "resurrect;Boudica",
@@ -16,6 +17,8 @@
             "add_unit;Boudica;20,3;immediate",
             "center_cursor;Boudica;immediate",
             "transition;open;1500",
+            "",
+            "",
             "add_portrait;Boudica;Left",
             "speak;Boudica;...{w} Rest well.",
             "remove_portrait;Boudica",
@@ -40,7 +43,8 @@
             "reveal_overworld_node;34",
             "reveal_overworld_road;31;34;immediate",
             "reveal_overworld_node;33",
-            "reveal_overworld_road;31;33;immediate"
+            "reveal_overworld_road;31;33;immediate",
+            "wait;500"
         ]
     }
 ]

@@ -270,14 +270,14 @@
                 "generic": false
             },
             {
-                "nid": "MaYuan",
+                "nid": "Mitzi",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    8
+                    1,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -329,6 +329,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

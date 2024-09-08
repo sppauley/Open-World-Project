@@ -31,7 +31,7 @@
             "## More dialogue here",
             "speak;Simon;...;TextSpeed=11",
             "speak;Hatshepsut;...;TextSpeed=11",
-            "speak;Hatshepsut;Sit;TextSpeed=5",
+            "speak;Hatshepsut;Sit.;TextSpeed=5",
             "move_unit;Hatshepsut;15,17",
             "speak;Simon;...Fine.;TextSpeed=5",
             "move_unit;Simon;15,15",

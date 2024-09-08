@@ -414,7 +414,7 @@
     "26_PushUnit",
     "26_Open_Gate",
     "global_KajalSummon",
-    "14_BanditEscape",
+    "14_Escape",
     "5_RefreshDuringRoam",
     "global_DEBUGCheatItems",
     "global_DEBUGChapterStart",
@@ -706,5 +706,6 @@
     "40_MidLeftSpiders",
     "40_MidRightSpiders",
     "40_DracoRein2",
-    "40_EndlessDracos"
+    "40_EndlessDracos",
+    "global_ReinforceRemoveEvent"
 ]

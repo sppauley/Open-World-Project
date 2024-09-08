@@ -21,6 +21,10 @@
             [
                 "time",
                 1
+            ],
+            [
+                "event_on_remove",
+                "Global ReinforceRemoveEvent"
             ]
         ]
     }
