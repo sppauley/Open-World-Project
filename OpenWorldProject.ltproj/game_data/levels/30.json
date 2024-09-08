@@ -5,7 +5,11 @@
         "tilemap": "Racetrack",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "LitFuse",
+            "enemy_phase": "LitFuse",
+            "other_phase": "LitFuse"
+        },
         "objective": {
             "simple": "Win Race or Defeat Boss",
             "win": "Win Race or Defeat Boss",

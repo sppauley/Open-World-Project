@@ -29,7 +29,7 @@
             "",
             "mirror_portrait;Nika",
             "wait;100",
-            "move_portrait;Nika;OffscreenLeft",
+            "move_portrait;Nika;OffscreenRight",
             "wait;300",
             "",
             "s;Mitzi;Doesn't even know her own village's history. How sad.",
