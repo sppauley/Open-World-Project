@@ -1387,10 +1387,6 @@
             {
                 "nid": "LeftCorner",
                 "trigger_threshold": 1
-            },
-            {
-                "nid": "",
-                "trigger_threshold": 1
             }
         ]
     }
