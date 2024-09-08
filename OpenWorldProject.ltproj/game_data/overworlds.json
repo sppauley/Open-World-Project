@@ -671,8 +671,16 @@
                     21
                 ],
                 "icon": "map_node",
-                "level": null,
-                "menu_options": []
+                "level": "36",
+                "menu_options": [
+                    {
+                        "nid": "Battle",
+                        "event": null,
+                        "option_name": "Battle",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             },
             {
                 "nid": "63",
