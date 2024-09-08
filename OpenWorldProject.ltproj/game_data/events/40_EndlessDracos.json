@@ -1,0 +1,21 @@
+[
+    {
+        "name": "EndlessDracos",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.turncount > 7 and game.turncount % 3 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,9",
+            "flicker_cursor;0,9",
+            "wait;300",
+            "",
+            "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
+            "add_unit;{created_unit};0,9",
+            "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
+            "add_unit;{created_unit};0,10"
+        ]
+    }
+]

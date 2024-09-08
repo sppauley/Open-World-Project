@@ -1,0 +1,23 @@
+[
+    {
+        "name": "DracoRein2",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,9",
+            "flicker_cursor;0,9",
+            "wait;300",
+            "",
+            "show_layer;brokenwestwall",
+            "map_anim;Snag;0,9;;no_block",
+            "map_anim;Snag;0,10;;no_block",
+            "",
+            "add_unit;145;0,9",
+            "add_unit;144;0,10"
+        ]
+    }
+]

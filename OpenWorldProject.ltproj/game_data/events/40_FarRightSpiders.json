@@ -1,0 +1,24 @@
+[
+    {
+        "name": "FarRightSpiders",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.check_dead(\"123\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;22,16",
+            "flicker_cursor;22,16",
+            "wait;300",
+            "",
+            "map_anim;Snag;22,16;;no_block",
+            "map_anim;Snag;22,16;;no_block",
+            "map_anim;Snag;21,18;;no_block",
+            "show_layer;brokenrightwall;fade",
+            "",
+            "add_unit;141;22,16;fade",
+            "add_unit;141;21,18;fade"
+        ]
+    }
+]

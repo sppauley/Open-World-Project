@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AngelsFromCeiling",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.check_dead(\"129\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;15,8",
+            "flicker_cursor;15,8",
+            "wait;300",
+            "",
+            "add_unit;133;15,8;swoosh",
+            "add_unit;133;16,8;swoosh",
+            "add_unit;133;15,9;swoosh",
+            "add_unit;133;16,9;swoosh",
+            "",
+            "wait;500"
+        ]
+    }
+]
