@@ -11,6 +11,7 @@
             "transition;close",
             "show_layer;overlay",
             "show_layer;overlay2",
+            "remove_group;DefenseStarting",
             "",
             "choice;SenateSide;Who will you support?;Euclid,Melodie",
             "",
