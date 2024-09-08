@@ -5,7 +5,11 @@
         "tilemap": "Senate Chambers",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "UnderseaEncounters",
+            "enemy_phase": "UnderseaEncounters",
+            "other_phase": "UnderseaEncounters"
+        },
         "objective": {
             "simple": "",
             "win": "",
@@ -13,7 +17,7 @@
         },
         "roam": false,
         "roam_unit": null,
-        "go_to_overworld": false,
+        "go_to_overworld": true,
         "should_record": true,
         "units": [
             {
@@ -2847,6 +2851,36 @@
                         35
                     ]
                 }
+            },
+            {
+                "nid": "DefenseStarting",
+                "units": [
+                    "155",
+                    "156",
+                    "157",
+                    "158",
+                    "159",
+                    "160",
+                    "161",
+                    "162",
+                    "163",
+                    "164",
+                    "166",
+                    "167",
+                    "169",
+                    "170",
+                    "171",
+                    "172",
+                    "189",
+                    "173",
+                    "174",
+                    "175",
+                    "177",
+                    "178",
+                    "181",
+                    "Lester"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [

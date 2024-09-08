@@ -13,6 +13,7 @@
             "change_objective_loss;Simon, Euclid, or a senator dies",
             "add_unit;Simon;9,7",
             "add_unit;Euclid;17,7",
+            "add_group;DefenseStarting;starting",
             "change_team;Melodie;enemy",
             "add_region;prep1;7,7;2,1;formation",
             "add_region;prep2;7,8;3,1;formation",
