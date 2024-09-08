@@ -1,0 +1,20 @@
+[
+    {
+        "name": "DracozombieReins",
+        "trigger": "turn_change",
+        "level_nid": "40",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;13,21",
+            "flicker_cursor;13,21",
+            "add_unit;107;13,21",
+            "add_unit;108;12,21",
+            "add_unit;109;14,21",
+            "",
+            "wait;500"
+        ]
+    }
+]

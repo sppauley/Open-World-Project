@@ -7,7 +7,10 @@
         "movement_group": "Infantry",
         "promotes_from": null,
         "turns_into": [],
-        "tags": [],
+        "tags": [
+            "Dragon",
+            "Monster"
+        ],
         "max_level": 20,
         "bases": {
             "HP": 30,

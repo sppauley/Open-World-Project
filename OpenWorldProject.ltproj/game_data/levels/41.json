@@ -569,6 +569,10 @@
                     [
                         "Wretched Air",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -593,6 +597,10 @@
                     [
                         "Wretched Air",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -617,6 +625,10 @@
                     [
                         "Wretched Air",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -641,6 +653,10 @@
                     [
                         "Wretched Air",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -665,6 +681,10 @@
                     [
                         "Wretched Air",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -877,6 +897,10 @@
             },
             {
                 "nid": "Top2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
