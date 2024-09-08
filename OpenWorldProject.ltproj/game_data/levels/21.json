@@ -661,7 +661,7 @@
                 "ai_group": "",
                 "starting_position": [
                     31,
-                    23
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -685,7 +685,7 @@
                 "ai_group": "",
                 "starting_position": [
                     30,
-                    20
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -709,7 +709,7 @@
                 "ai_group": "",
                 "starting_position": [
                     31,
-                    24
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -733,7 +733,7 @@
                 "ai_group": "",
                 "starting_position": [
                     31,
-                    20
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -757,7 +757,7 @@
                 "ai_group": "",
                 "starting_position": [
                     32,
-                    21
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1185,13 +1185,13 @@
                 "region_type": "normal",
                 "position": [
                     29,
-                    20
+                    21
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -1253,7 +1253,7 @@
                 "region_type": "event",
                 "position": [
                     24,
-                    23
+                    24
                 ],
                 "size": [
                     1,
@@ -1270,7 +1270,7 @@
                 "region_type": "event",
                 "position": [
                     25,
-                    23
+                    24
                 ],
                 "size": [
                     1,
@@ -1287,7 +1287,7 @@
                 "region_type": "event",
                 "position": [
                     26,
-                    23
+                    24
                 ],
                 "size": [
                     1,
@@ -1406,7 +1406,7 @@
                 "region_type": "event",
                 "position": [
                     36,
-                    25
+                    26
                 ],
                 "size": [
                     1,
@@ -1423,7 +1423,7 @@
                 "region_type": "event",
                 "position": [
                     37,
-                    25
+                    26
                 ],
                 "size": [
                     1,
@@ -1440,7 +1440,7 @@
                 "region_type": "event",
                 "position": [
                     38,
-                    25
+                    26
                 ],
                 "size": [
                     1,
