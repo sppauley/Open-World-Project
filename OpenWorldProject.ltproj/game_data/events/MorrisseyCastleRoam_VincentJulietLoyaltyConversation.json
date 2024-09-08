@@ -1,0 +1,42 @@
+[
+    {
+        "name": "VincentJulietLoyaltyConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "(unit2.nid == \"Vincent\" and game.get_unit(\"Vincent\").get_field(\"LoyaltyTalkComplete\") == False) or (unit2.nid == \"Juliet\" and game.get_unit(\"Juliet\").get_field(\"LoyaltyTalkComplete\") == False)",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;14,25",
+            "add_portrait;Simon;Right",
+            "add_portrait;Juliet;FarLeft",
+            "add_portrait;Vincent;MidLeft",
+            "",
+            "s;Simon;You two said there was something urgent.|What is it?",
+            "s;Vincent;We... look, we weren't trying to undermine you-",
+            "s;Juliet;We've sent letters home, but haven't heard back.|It's been a few weeks now, and we're nervous.",
+            "s;Simon;I thought Luther said not to do that?",
+            "s;Vincent;He did, but we...",
+            "s;Juliet;I talked him into it. If you're angry, be angry at me.",
+            "s;Simon;I'm not angry.{w} How far from here is your village?",
+            "s;Vincent;It's Ramm Village, just over the border.|Milord, give us a few days, and we'll return.",
+            "s;Simon;No need to go alone.{w} We'll all accompany you.",
+            "s;Juliet;Really?",
+            "s;Vincent;It's too dangerous!{w} I can't ask you to take that risk.",
+            "s;Simon;You two have had plenty of opportunity to abandon Luther and I.|I want to repay that debt.",
+            "s;Vincent;...",
+            "s;Juliet;Thanks, Simon.{w} We can guide you to Ramm whenever you're ready.",
+            "",
+            "multi_remove_portrait;Simon;Juliet;Vincent",
+            "",
+            "level_var;RevealVincentJulietMission;True",
+            "",
+            "remove_talk;Simon;Vincent",
+            "remove_talk;Simon;Juliet",
+            "",
+            "set_unit_field;Vincent;LoyaltyTalkComplete;True",
+            "set_unit_field;Juliet;LoyaltyTalkComplete;True"
+        ]
+    }
+]

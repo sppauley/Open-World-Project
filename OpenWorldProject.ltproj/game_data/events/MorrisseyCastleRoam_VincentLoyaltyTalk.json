@@ -1,0 +1,22 @@
+[
+    {
+        "name": "VincentLoyaltyTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "add_unit;Vincent;14,24;immediate;no_warn",
+            "add_unit;Juliet;13,25;immediate;no_warn",
+            "add_talk;Simon;Vincent",
+            "add_talk;Simon;Juliet",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Vincent",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Juliet",
+            "set_unit_field;Vincent;LoyaltyTalkComplete;False",
+            "set_unit_field;Juliet;LoyaltyTalkComplete;False"
+        ]
+    }
+]

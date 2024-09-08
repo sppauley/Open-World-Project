@@ -24,6 +24,8 @@
             "set_unit_field;Flower;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
             "",
             "reveal_overworld_node;52",
+            "center_cursor;52",
+            "wait;300",
             "reveal_overworld_road;32;52",
             "",
             "trigger_script;Global LoyaltyTutorial"
