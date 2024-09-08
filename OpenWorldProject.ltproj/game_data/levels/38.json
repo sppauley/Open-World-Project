@@ -5,7 +5,11 @@
         "tilemap": "Senate Chambers",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "UnderseaEncounters",
+            "enemy_phase": "UnderseaEncounters",
+            "other_phase": "UnderseaEncounters"
+        },
         "objective": {
             "simple": "",
             "win": "",
