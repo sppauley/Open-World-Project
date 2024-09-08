@@ -755,8 +755,8 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Killer Lance",
-                        false
+                        "Spear",
+                        true
                     ]
                 ],
                 "starting_skills": [],

@@ -6,7 +6,9 @@
         "variant": null,
         "level": 10,
         "klass": "General",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 40,
             "MOV": 5,

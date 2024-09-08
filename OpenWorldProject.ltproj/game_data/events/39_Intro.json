@@ -16,6 +16,7 @@
             "add_talk;Simon;102",
             "add_talk;Simon;114",
             "add_talk;Simon;116",
+            "add_talk;Simon;Adana",
             "",
             "if;v(\"HatshepsutMet\") and game.get_unit(\"Hatshepsut\").team == \"other\"",
             "    add_unit;Hatshepsut;7,20",

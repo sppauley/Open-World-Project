@@ -1,0 +1,39 @@
+[
+    {
+        "name": "AdanaTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"Adana\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Right;mirror",
+            "wait;300",
+            "add_portrait;Adana;MidLeft",
+            "s;Adana;Sir!",
+            "mirror_portrait;Simon",
+            "s;Simon;Ah! Yes?",
+            "s;Adana;You carry yourself with an upright back.|A rare trait, these days.|You wouldn't happen to be of a noble house?",
+            "s;Simon;I... am. Lord Simon Verstadt, a pleasure to meet you.",
+            "s;Adana;General Charles Adana. Likewise.",
+            "s;Simon;A general? Of Troy, I presume?",
+            "s;Adana;Indeed.{w} With me are Squires Emory and Wilheart.",
+            "",
+            "wait;200",
+            "add_portrait;SoldierBlue;FarLeft",
+            "wait;200",
+            "add_portrait;SoldierRed;Left",
+            "",
+            "s;Adana;I make this pilgrimage with each new batch of squires.|I believe that the Atropos shrine helps give them perspective.",
+            "s;Simon;I see.{w} Have you ever spoken with her?",
+            "s;Adana;She is a god, and I am a general, Lord Verstadt.|Though a part of me hopes to see my tapestry,|I know my place.",
+            "s;Simon;I understand.{w} Have you ever met someone with her blessing?",
+            "s;Adana;Not as far as I know.{w} Though, if I had...|They would be my ally, or I would be dead, I imagine.",
+            "s;Simon;Most likely.{w} Well, General Adana, if we meet in the king's court-",
+            "s;Adana;Drinks are on me.{w} Take care, Lord Verstadt.",
+            "",
+            "multi_remove_portrait;SoldierBlue;SoldierRed;Simon;Adana"
+        ]
+    }
+]
