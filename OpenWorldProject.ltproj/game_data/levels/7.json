@@ -1577,7 +1577,7 @@
             {
                 "nid": "146",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1598,7 +1598,7 @@
             {
                 "nid": "147",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1619,7 +1619,7 @@
             {
                 "nid": "148",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1640,7 +1640,7 @@
             {
                 "nid": "149",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1661,7 +1661,7 @@
             {
                 "nid": "150",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1682,7 +1682,7 @@
             {
                 "nid": "151",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1703,7 +1703,7 @@
             {
                 "nid": "152",
                 "variant": null,
-                "level": 12,
+                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -2026,6 +2026,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

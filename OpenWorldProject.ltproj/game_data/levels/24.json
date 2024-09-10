@@ -835,7 +835,7 @@
                 "variant": null,
                 "level": 10,
                 "klass": "Knight",
-                "faction": "Dragon",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -863,7 +863,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Dragon",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -887,7 +887,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Wyvern Rider",
-                "faction": "Dragon",
+                "faction": "Cutthroat",
                 "starting_items": [
                     [
                         "Steel_Pike",
@@ -1071,6 +1071,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
