@@ -8,10 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# debugging",
-            "for;PLAYER_UNIT;[unit.nid for unit in game.get_player_units()]",
-            "autolevel_to;{PLAYER_UNIT};16",
-            "endf",
             "#story",
             "center_cursor;Dragonlord",
             "music;ThraciaFate",

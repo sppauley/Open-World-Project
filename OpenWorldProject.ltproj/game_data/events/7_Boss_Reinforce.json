@@ -3,7 +3,7 @@
         "name": "Boss Reinforce",
         "trigger": "combat_end",
         "level_nid": "7",
-        "condition": "unit2.nid=='Dragonlord'",
+        "condition": "unit2.nid=='Dragonlord' and game.level_vars['Phase']=='Player'",
         "commands": [],
         "only_once": true,
         "priority": 20,
