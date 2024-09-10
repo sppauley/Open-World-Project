@@ -25,6 +25,10 @@
             [
                 "unit_anim",
                 "MapStatDecrease"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
             ]
         ]
     }
