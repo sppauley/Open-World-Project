@@ -350,5 +350,9 @@
     {
         "nid": "_attribution",
         "text": "By SP & KD"
+    },
+    {
+        "nid": "shop_no_stock",
+        "text": "We're all out!"
     }
 ]

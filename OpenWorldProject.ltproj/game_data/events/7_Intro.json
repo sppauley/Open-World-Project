@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "#story",
-            "center_cursor;Dragonlord",
+            "center_cursor;Dragonlord;immediate",
             "music;ThraciaFate",
             "multi_add_portrait;Simon;Left;Juliet;FarRight;Luther;MidRight",
             "s;Luther;So it is a dragon after all...{w}{br}To think I'd see one again after all this time.",

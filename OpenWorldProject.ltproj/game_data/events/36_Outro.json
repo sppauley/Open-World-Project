@@ -10,6 +10,8 @@
         "_source": [
             "transition;close;2000",
             "remove_all_units",
+            "resurrect;Juliet",
+            "resurrect;Vincent",
             "wait;1000",
             "add_unit;Simon;13,9;immediate",
             "add_unit;Vincent;13,10",

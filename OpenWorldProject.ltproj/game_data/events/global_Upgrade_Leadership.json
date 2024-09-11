@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;Simon;{eval:'Leadership'+u('Simon').get_field('Leadership')};no_banner",
+            "remove_skill;Simon;{eval:'Leadership'+str(u('Simon').get_field('Leadership'))};no_banner",
             "give_skill;Simon;{eval:'Leadership'+str(int(u('Simon').get_field('Leadership'))+1)}",
             "set_unit_field;Simon;Leadership;int(u('Simon').get_field('Leadership'))+1"
         ]
