@@ -24,7 +24,7 @@
             "remove_portrait;Duygu",
             "",
             "alert;Duygu's Heirloom Band can now be used.",
-            "set_unit_field;Duygu;LoyaltyStatus;Duygu is completely loyal."
+            "set_unit_field;Duygu;LoyaltyStatus;\"Duygu is completely loyal.\""
         ]
     }
 ]

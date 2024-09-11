@@ -12,7 +12,7 @@
             "s;Euclid;Simon, I've heard rumblings from the senators.{w} Something is very wrong in Pelopos.{w}{br}Next time you're at Morrissey Castle, we should talk.",
             "remove_portrait;Euclid",
             "",
-            "set_unit_field;Euclid;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "set_unit_field;Euclid;LoyaltyStatus;\"This unit's loyalty mission has been unlocked.\"",
             "",
             "trigger_script;Global LoyaltyTutorial"
         ]

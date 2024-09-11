@@ -31,6 +31,7 @@
             "game_var;SkillNidToForce;\"DarkVessel\"",
             "trigger_script;Global ForceAddSkill;Kajal",
             "add_skill_component;{unit};DarkVessel;feat;None",
+            "set_unit_field;Kajal;LoyaltyStatus;\"Kajal is completely loyal.\"",
             "",
             "#",
             "wait;700",

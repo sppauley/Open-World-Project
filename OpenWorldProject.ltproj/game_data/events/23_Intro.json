@@ -18,6 +18,8 @@
             "give_skill;Simon;FormalWear;;no_banner",
             "give_skill;Anuki;FormalWear;;no_banner",
             "",
+            "music;Infiltration44100",
+            "",
             "center_cursor;Simon;immediate",
             "",
             "# Dialogue here",

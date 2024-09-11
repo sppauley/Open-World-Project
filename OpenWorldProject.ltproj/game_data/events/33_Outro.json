@@ -37,7 +37,7 @@
             "    s;Mitzi;Well, one cannot always get what they wish for.|Now, I believe you have earned coauthorship on my next paper.",
             "    multi_remove_portrait;Mitzi;Simon",
             "",
-            "    set_unit_field;Mitzi;LoyaltyStatus;Mitzi is completely loyal.",
+            "    set_unit_field;Mitzi;LoyaltyStatus;\"Mitzi is completely loyal.\"",
             "    give_skill;Mitzi;Historymaker",
             "end",
             "",

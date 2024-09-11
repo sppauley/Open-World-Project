@@ -48,7 +48,7 @@
             "transition;open;1",
             "",
             "give_skill;Boudica;Quietude",
-            "set_unit_field;Boudica;LoyaltyStatus;Boudica is completely loyal.",
+            "set_unit_field;Boudica;LoyaltyStatus;\"Boudica is completely loyal.\"",
             "win_game"
         ]
     }

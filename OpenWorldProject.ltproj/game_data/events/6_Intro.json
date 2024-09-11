@@ -25,7 +25,7 @@
             "change_ai;Vilge;Defend",
             "change_ai_group;Vilge;VilgeGroup",
             "",
-            "change_ai;Flower;FollowSimonRoam",
+            "change_roam_ai;Flower;FollowSimonRoam",
             "#",
             "# Start event narration",
             "center_cursor;Simon;immediate",

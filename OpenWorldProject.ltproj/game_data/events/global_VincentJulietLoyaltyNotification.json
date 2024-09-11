@@ -15,8 +15,8 @@
             "s;Vincent;It's important, we swear.",
             "multi_remove_portrait;Vincent;Juliet",
             "",
-            "set_unit_field;Vincent;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
-            "set_unit_field;Juliet;LoyaltyStatus;This unit's loyalty mission has been unlocked.",
+            "set_unit_field;Vincent;LoyaltyStatus;\"This unit's loyalty mission has been unlocked.\"",
+            "set_unit_field;Juliet;LoyaltyStatus;\"This unit's loyalty mission has been unlocked.\"",
             "",
             "trigger_script;Global LoyaltyTutorial"
         ]

@@ -10,6 +10,8 @@
         "_source": [
             "transition;close;2000",
             "",
+            "change_roam_ai;Flower;None",
+            "",
             "remove_all_units",
             "",
             "add_unit;Simon;5,7;immediate",
@@ -54,7 +56,7 @@
             "#wait;6000",
             "#unhold;IntroQuote",
             "",
-            "set_unit_field;Flower;LoyaltyStatus;Flower is completely loyal.",
+            "set_unit_field;Flower;LoyaltyStatus;\"Flower is completely loyal.\"",
             "",
             "# Add new Flower ability",
             "give_item;Flower;HellfangFlower",

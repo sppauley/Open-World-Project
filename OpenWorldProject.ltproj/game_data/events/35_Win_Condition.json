@@ -12,6 +12,8 @@
             "# Reward",
             "give_skill;Luther;CrushingMight",
             "",
+            "set_unit_field;Luther;LoyaltyStatus;\"Luther is completely loyal.\"",
+            "",
             "win_game"
         ]
     }

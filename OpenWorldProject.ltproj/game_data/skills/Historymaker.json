@@ -2,7 +2,7 @@
     {
         "nid": "Historymaker",
         "name": "Historymaker",
-        "desc": "At the start of the turn, adjacent allies gain\n\"This player phase, this unit's attacks are brave\"",
+        "desc": "At the start of the turn, adjacent allies gain\n\"This player phase, this unit's attacks are brave.\"",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

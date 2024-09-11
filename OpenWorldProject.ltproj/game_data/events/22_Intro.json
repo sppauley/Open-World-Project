@@ -21,6 +21,8 @@
             "add_talk;Simon;115",
             "add_talk;Simon;112",
             "",
+            "change_roam_ai;Anuki;FollowSimonRoam",
+            "",
             "center_cursor;Simon;immediate",
             "",
             "move_unit;Simon;8,28;no_follow",

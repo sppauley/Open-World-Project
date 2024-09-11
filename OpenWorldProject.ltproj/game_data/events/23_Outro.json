@@ -16,7 +16,7 @@
             "",
             "trigger_script;Global IncreaseMitziProgress",
             "",
-            "set_unit_field;Lupus;LoyaltyStatus;Lupus is completely loyal."
+            "set_unit_field;Lupus;LoyaltyStatus;\"Lupus is completely loyal.\""
         ]
     }
 ]

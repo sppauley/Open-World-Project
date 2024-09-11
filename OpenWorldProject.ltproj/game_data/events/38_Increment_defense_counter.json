@@ -47,6 +47,7 @@
             "    s;Simon;Thanks?",
             "    s;Euclid;Your mind still needs further refinement, of course,{w} and you must reconsider your monarchical ambitions,{w} but you will make a just ruler.",
             "    s;Simon;I guess I'll take that as a compliment?",
+            "    set_unit_field;Euclid;LoyaltyStatus;\"Euclid is completely loyal.\"",
             "    win_game",
             "end"
         ]

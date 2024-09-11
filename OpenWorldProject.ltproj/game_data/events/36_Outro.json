@@ -161,6 +161,9 @@
             "give_skill;Vincent;VincentTogether",
             "give_skill;Juliet;JulietTogether",
             "",
+            "set_unit_field;Vincent;LoyaltyStatus;\"Vincent is completely loyal.\"",
+            "set_unit_field;Juliet;LoyaltyStatus;\"Juliet is completely loyal.\"",
+            "",
             "trigger_script;Global IncreaseMitziProgress"
         ]
     }

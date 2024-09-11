@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "set_unit_field;Melodie;LoyaltyStatus;\"Melodie is completely loyal.\"",
             "win_game"
         ]
     }

@@ -11,6 +11,8 @@
             "move_unit;Simon;19,3;no_block;no_follow",
             "move_unit;Anuki;18,3;no_follow",
             "",
+            "change_roam_ai;Anuki;None",
+            "",
             "add_portrait;Simon;MidLeft",
             "add_portrait;Anuki;FarLeft",
             "s;Simon;We have the passwords. Now we wait for Lupus.",

@@ -56,7 +56,7 @@
             "s;Simon;A tragic situation.",
             "",
             "wait;400",
-            "s;Gesmen;Quite. {c:wait;600}And now here I stand, neglecting my duties as host.{w}{br}Lord Verstadt, join your fiance.",
+            "s;Gesmen;Quite.|{c:wait;1000}And now here I stand, neglecting my duties as host.{w}{br}Lord Verstadt, join your fiance.",
             "s;Simon;I apologize for bothering you, Senator.{w}{br}Have a pleasant night.",
             "",
             "multi_remove_portrait;Simon;Gesmen",
