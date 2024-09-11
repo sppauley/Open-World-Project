@@ -18,6 +18,7 @@
             "add_region;Escape;18,2;3,2;event;Escape",
             "region_condition;Escape;unit.team=='other'",
             "arrange_formation",
+            "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps",
             ""
         ]
