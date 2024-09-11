@@ -1,0 +1,14 @@
+[
+    {
+        "name": "AlinaDies",
+        "trigger": "unit_death",
+        "level_nid": "33",
+        "condition": "unit.nid == \"Alina\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game"
+        ]
+    }
+]
