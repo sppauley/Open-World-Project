@@ -2,7 +2,7 @@
     {
         "nid": "Nosferatu",
         "name": "Nosferatu",
-        "desc": "Heal half damage dealt. Cannot double.\nLibrary loan.",
+        "desc": "Heal half damage dealt. Cannot double. Library loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             7,

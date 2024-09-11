@@ -2,7 +2,7 @@
     {
         "nid": "EclipseLibrary",
         "name": "Eclipse",
-        "desc": "Target loses half current HP on hit.\nLibrary loan.",
+        "desc": "Target loses half current HP on hit. Library loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             5,

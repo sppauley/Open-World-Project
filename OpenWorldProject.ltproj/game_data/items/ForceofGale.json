@@ -2,7 +2,7 @@
     {
         "nid": "ForceofGale",
         "name": "Force of Gale",
-        "desc": "Staggering an opponent grants an extra action.\nLibrary loan.",
+        "desc": "Staggering an opponent grants an extra action. Library loan.",
         "icon_nid": "TacticsOgre_Items",
         "icon_index": [
             8,

@@ -7,8 +7,8 @@
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "",
-            "win": "",
+            "simple": "Explore",
+            "win": "Explore",
             "loss": ""
         },
         "roam": true,
