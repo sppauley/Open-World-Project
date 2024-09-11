@@ -169,7 +169,7 @@
             "remove_weather;fire",
             "end_skip",
             "add_unit;Simon;10,5;immediate",
-            "add_unit;Atropos;9,5;immediate",
+            "add_unit;Lachesis;9,5;immediate",
             "add_unit;Servant;17,7;immediate",
             "add_unit;Servant_1;18,7;immediate",
             "center_cursor;Simon",
@@ -177,13 +177,12 @@
             "add_portrait;Simon;Left",
             "s;Simon;A vision from the Fates...",
             "s;Simon;But why?{w} What are you trying to show me?",
-            "add_portrait;Atropos;Right",
-            "s;Atropos;I merely aim to show the truth.",
-            "s;Atropos;You, Simon, do not seem to grasp your circumstances.{w}{br}Do you truly believe you can restore the noble houses?{w}{br}Their fall has long been the fated path, even centuries ago.{w}{br}You mortals behold my tapestry yet fail to comprehend.",
-            "s;Atropos;I have woven this moment around you.{w}{br}Behold these final seconds.",
+            "add_portrait;Lachesis;Right",
+            "s;Lachesis;I merely aim to show the truth.",
+            "s;Lachesis;You, Simon, do not seem to grasp your circumstances.{w}{br}Do you truly believe you can restore the noble houses?{w}{br}Their fall has long been the fated path, even centuries ago.{w}{br}Behold these final seconds.",
             "multi_remove_portrait;Atropos;Simon",
             "add_talk;Simon;Moran",
-            "add_talk;Simon;Atropos",
+            "add_talk;Simon;Lachesis",
             "add_talk;Simon;Servant"
         ]
     }

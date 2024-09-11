@@ -5,11 +5,13 @@
         "tilemap": "Battlements",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "AtroposFinal"
+        },
         "objective": {
-            "simple": "",
-            "win": "",
-            "loss": ""
+            "simple": "--",
+            "win": "--",
+            "loss": "--"
         },
         "roam": true,
         "roam_unit": "Simon",
@@ -27,7 +29,7 @@
                 "generic": false
             },
             {
-                "nid": "Atropos",
+                "nid": "Lachesis",
                 "team": "enemy2",
                 "ai": "None",
                 "roam_ai": null,
@@ -601,6 +603,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

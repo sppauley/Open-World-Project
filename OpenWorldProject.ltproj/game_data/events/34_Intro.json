@@ -10,6 +10,7 @@
         "_source": [
             "# setup",
             "show_layer;overlay",
+            "game_var;freely_exit;True",
             "",
             "add_talk;Simon;Raymond",
             "add_talk;Simon;101"
