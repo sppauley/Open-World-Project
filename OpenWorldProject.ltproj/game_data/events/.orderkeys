@@ -252,7 +252,7 @@
     "global_PuzzleSetup",
     "7_Turn8",
     "7_Turn10",
-    "7_Boss_Reinforce",
+    "7_Boss_Reinforce_Warning",
     "15_Talk_Villager",
     "global_Accost",
     "global_AttackUnitWithAccost",
@@ -707,5 +707,6 @@
     "40_MidRightSpiders",
     "40_DracoRein2",
     "40_EndlessDracos",
-    "global_ReinforceRemoveEvent"
+    "global_ReinforceRemoveEvent",
+    "7_Boss_Reinforce"
 ]
