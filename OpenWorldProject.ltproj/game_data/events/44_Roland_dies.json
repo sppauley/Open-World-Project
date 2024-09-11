@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Roland dies",
+        "trigger": "combat_end",
+        "level_nid": "44",
+        "condition": "game.check_dead('Roland')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# do more writing after 6am when I have more brainpower",
+            "lose_game"
+        ]
+    }
+]

@@ -710,5 +710,7 @@
     "global_ReinforceRemoveEvent",
     "7_Boss_Reinforce",
     "44_Escape",
-    "44_Outro"
+    "44_Outro",
+    "44_Anuki_dies",
+    "44_Roland_dies"
 ]

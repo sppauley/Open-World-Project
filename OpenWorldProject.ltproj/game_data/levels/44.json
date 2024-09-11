@@ -828,10 +828,6 @@
         ],
         "ai_groups": [
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "a",
                 "trigger_threshold": 1
             }
