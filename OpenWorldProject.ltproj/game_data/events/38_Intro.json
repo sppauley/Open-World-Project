@@ -79,6 +79,7 @@
             "    trigger_script;38 Euclid Intro",
             "end",
             "",
+            "arrange_formation",
             "trigger_script;Global GenericPreps",
             ""
         ]

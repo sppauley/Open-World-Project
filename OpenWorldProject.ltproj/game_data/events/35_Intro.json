@@ -15,6 +15,7 @@
             "s;Luther;We must push forward.{w} This giant's life is already an insult to my legacy.{w}{br}Please, Simon. {w}We cannot let it get away.",
             "",
             "# prep",
+            "center_cursor;Simon;immediate",
             "arrange_formation",
             "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps"
