@@ -758,6 +758,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "EscapeTemp",
+                "region_type": "event",
+                "position": [
+                    18,
+                    2
+                ],
+                "size": [
+                    3,
+                    2
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team=='other'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

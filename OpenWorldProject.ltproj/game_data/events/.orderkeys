@@ -708,5 +708,7 @@
     "40_DracoRein2",
     "40_EndlessDracos",
     "global_ReinforceRemoveEvent",
-    "7_Boss_Reinforce"
+    "7_Boss_Reinforce",
+    "44_Escape",
+    "44_Outro"
 ]

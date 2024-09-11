@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Escape",
+        "trigger": "Escape",
+        "level_nid": "44",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_unit;{unit}",
+            "if;unit.nid=='Roland'",
+            "    win_game",
+            "end"
+        ]
+    }
+]

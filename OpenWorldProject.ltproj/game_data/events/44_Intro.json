@@ -10,6 +10,7 @@
         "_source": [
             "show_layer;overlay",
             "show_layer;overlay2",
+            "remove_region;EscapeTemp",
             "",
             "change_roam_ai;Anuki;FollowSimonRoam",
             "",
