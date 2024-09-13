@@ -10,6 +10,7 @@
         "_source": [
             "music_clear",
             "transition;close;2000",
+            "transition;close;2000",
             "remove_all_units",
             "add_unit;Simon;11,20",
             "add_unit;Vincent;12,13",
@@ -112,6 +113,8 @@
             "s;Morrissey;Something to mull over during our ride, at least.|Now, Lord Verstadt, we march.|Follow my carriage.",
             "",
             "transition;close;2000",
+            "",
+            "multi_remove_portrait;Simon;Morrissey",
             "",
             "trigger_script;Global IncreaseMitziProgress",
             "",

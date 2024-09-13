@@ -7,7 +7,9 @@
         "party": "Simon",
         "music": {
             "player_phase": "OctopathSad",
-            "enemy_phase": "EndlessBattle"
+            "enemy_phase": "EndlessBattle",
+            "other_phase": "EndlessBattle",
+            "enemy2_phase": "EndlessBattle"
         },
         "objective": {
             "simple": "Explore",
@@ -415,7 +417,7 @@
             {
                 "nid": "117",
                 "variant": null,
-                "level": 18,
+                "level": 20,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -439,7 +441,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 18,
+                "level": 20,
                 "klass": "Fighter",
                 "faction": "Bandit",
                 "starting_items": [
@@ -511,13 +513,17 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 18,
-                "klass": "Soldier",
+                "level": 6,
+                "klass": "Halberdier",
                 "faction": "Bandit",
                 "starting_items": [
                     [
                         "Short Spear",
                         true
+                    ],
+                    [
+                        "Brave Lance",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -631,7 +637,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 2,
+                "level": 16,
                 "klass": "Paladin",
                 "faction": "Soldier",
                 "starting_items": [
@@ -655,12 +661,16 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 3,
+                "level": 10,
                 "klass": "Great_Knight",
                 "faction": "Soldier",
                 "starting_items": [
                     [
                         "Hammer",
+                        false
+                    ],
+                    [
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -679,7 +689,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 3,
+                "level": 10,
                 "klass": "Great_Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -696,6 +706,54 @@
                 "starting_position": [
                     2,
                     28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 10,
+                "klass": "Great_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "JohnGroup",
+                "starting_position": [
+                    1,
+                    29
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 10,
+                "klass": "Great_Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "JohnGroup",
+                "starting_position": [
+                    2,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -755,7 +813,7 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 1,
+                "level": 4,
                 "klass": "General",
                 "faction": "Bandit",
                 "starting_items": [
@@ -832,7 +890,7 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Silver Sword",
                         false
                     ]
                 ],
@@ -851,7 +909,7 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 18,
+                "level": 20,
                 "klass": "Mercenary",
                 "faction": "Bandit",
                 "starting_items": [
@@ -875,7 +933,7 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 4,
+                "level": 10,
                 "klass": "Assassin",
                 "faction": "Bandit",
                 "starting_items": [
@@ -896,7 +954,7 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 4,
+                "level": 10,
                 "klass": "Assassin",
                 "faction": "Bandit",
                 "starting_items": [
@@ -959,7 +1017,7 @@
             {
                 "nid": "138",
                 "variant": null,
-                "level": 2,
+                "level": 5,
                 "klass": "Berserker",
                 "faction": "Bandit",
                 "starting_items": [
@@ -1111,6 +1169,10 @@
             {
                 "nid": "JohnGroup",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }
