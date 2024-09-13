@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Euclid;Left",
+            "add_portrait;Euclid;Right",
             "s;Euclid;I failed my home...{w}{br}Now Pelopos will fall to chaos.",
             "remove_portrait;Euclid",
             "lose_game"

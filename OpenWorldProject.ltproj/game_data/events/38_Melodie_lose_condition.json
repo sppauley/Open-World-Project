@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Melodie;Left",
+            "add_portrait;Melodie;Right",
             "expression;Melodie;CloseEyes",
             "s;Melodie;Gah. To think these bastards got the better of me.{w}{br}The tribes... I let them down.",
             "remove_portrait;Melodie",

@@ -80,6 +80,7 @@
             "end",
             "",
             "arrange_formation",
+            "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps",
             ""
         ]
