@@ -37,7 +37,7 @@
             "    s;Morrissey;Yet, that is a problem for another day.",
             "",
             "end",
-            "s;Morrissey;With your hard work, I can finally devote my forces to other aims.{w}{br}Namely, helping you retake Castle Verstadt.",
+            "s;Morrissey;With your hard work, I can finally devote my forces to other aims.{w}{br}Namely, helping you retake Castle Verstadt.|When you're ready, join me on the outskirts of your manor.|My men will await you there to begin the siege.",
             "multi_remove_portrait;Simon;Morrissey",
             "game_var;MorrisseySupport;1",
             "remove_talk;Simon;Morrissey"

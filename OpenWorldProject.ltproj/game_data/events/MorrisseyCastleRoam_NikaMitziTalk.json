@@ -11,6 +11,8 @@
             "add_unit;Nika;14,11;immediate",
             "add_talk;Simon;Nika",
             "",
+            "if;v(\"NikaPartners\").remove(\"Mitzi\")",
+            "end",
             "trigger_script;MorrisseyCastleRoam MarkInConversation;Nika",
             "level_var;NikaMitziConversation;True"
         ]
