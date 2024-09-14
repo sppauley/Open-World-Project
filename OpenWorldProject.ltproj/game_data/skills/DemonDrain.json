@@ -2,7 +2,7 @@
     {
         "nid": "DemonDrain",
         "name": "Demon Drain",
-        "desc": "Until the start of the next turn, -1 attack per stack.",
+        "desc": "Until the end of player phase, -1 attack per stack.",
         "icon_nid": "Skills",
         "icon_index": [
             5,
@@ -18,7 +18,7 @@
                 999
             ],
             [
-                "time",
+                "end_time",
                 1
             ]
         ]
