@@ -27,7 +27,7 @@
             ],
             [
                 "damage",
-                15
+                12
             ],
             [
                 "hit",
@@ -70,15 +70,13 @@
                 9000
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        12
+                    ]
+                ]
             ]
         ]
     }

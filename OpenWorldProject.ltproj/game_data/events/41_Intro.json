@@ -16,6 +16,8 @@
             "center_cursor;Simon;immediate",
             "level_var;SpawnBandits;False",
             "",
+            "trigger_script;Global AppearBySimon;Vincent",
+            "",
             "add_portrait;Simon;Right",
             "s;Simon;These must be the ruins Lord Morrissey mentioned.",
             "add_portrait;Vincent;Left",
@@ -45,12 +47,17 @@
             "wait;300",
             "multi_remove_portrait;Vincent;Simon",
             "",
+            "trigger_script;Global ConsolidateToSimon;Vincent",
+            "",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",
             "change_team;MaYuan;player",
             "add_tag;109;Boss",
-            "add_tag;110;Boss"
+            "add_tag;110;Boss",
+            "",
+            "show_layer;openleftdoor;immediate",
+            "show_layer;openrightdoor;immediate"
         ]
     }
 ]

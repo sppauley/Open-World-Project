@@ -287,6 +287,7 @@
     "global_DEBUGEarlyMidGame",
     "global_DEBUGKevPlaytest1",
     "global_DEBUGKevPlaytest2",
+    "global_DEBUGKevPlaytest3",
     "global_DEBUGSeanPlaytest1",
     "19_Intro",
     "19_JaegusStore",
@@ -714,5 +715,6 @@
     "44_Roland_dies",
     "33_AlinaDies",
     "34_Exit",
-    "42_Exit"
+    "42_Exit",
+    "41_InfiniteDracoSpawns"
 ]

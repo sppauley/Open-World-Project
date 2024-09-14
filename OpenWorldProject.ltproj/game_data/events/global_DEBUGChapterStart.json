@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 23,
         "_source": [
-            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,KDPlaytest1,KDPlaytest2,SPPlaytest1,None",
+            "choice;DEBUGTeamLoad;Choose debug team setup;Post-tutorial,Earlymidgame,KDPlaytest1,KDPlaytest2,SPPlaytest1,KDPlaytest3,None",
             "if;v(\"_last_choice\") == \"Post-tutorial\"",
             "    trigger_script;Global DEBUGPostTutorial",
             "elif;v(\"_last_choice\") == \"Earlymidgame\"",
@@ -19,8 +19,12 @@
             "    trigger_script;Global DEBUGKevPlaytest2",
             "elif;v(\"_last_choice\") == \"SPPlaytest1\"",
             "    trigger_script;Global DEBUGSeanPlaytest1",
+            "elif;v(\"_last_choice\") == \"KDPlaytest3\"",
+            "    trigger_script;Global DEBUGKevPlaytest3",
             "end",
-            "trigger_script;Global DEBUGCheatItems",
+            "",
+            "# Disabling for now because it's annoying and I forgot why I did it",
+            "#trigger_script;Global DEBUGCheatItems",
             "",
             "# Disabling this for now because it interferes too heavily with full game tests",
             "#game_var;MapsToSkillUnlock;0"

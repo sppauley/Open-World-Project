@@ -49,7 +49,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Entombed",
                 "faction": "Monster",
                 "starting_items": [
@@ -73,7 +73,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Entombed",
                 "faction": "Monster",
                 "starting_items": [
@@ -97,7 +97,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Entombed",
                 "faction": "Monster",
                 "starting_items": [
@@ -121,7 +121,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -145,7 +145,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -169,7 +169,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -193,7 +193,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -217,7 +217,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -241,13 +241,13 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
                     [
                         "Silver Lance",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -265,7 +265,7 @@
             {
                 "nid": "112",
                 "variant": null,
-                "level": 5,
+                "level": 10,
                 "klass": "Sword_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -337,12 +337,12 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -361,12 +361,12 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -385,12 +385,12 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -409,12 +409,12 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -433,12 +433,12 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -457,12 +457,12 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 2,
+                "level": 6,
                 "klass": "Druid",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -486,7 +486,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -510,7 +510,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Gravity",
+                        "Fenrir",
                         false
                     ]
                 ],
@@ -839,12 +839,12 @@
                 "nid": "LeftDoor",
                 "region_type": "event",
                 "position": [
-                    6,
-                    14
+                    0,
+                    4
                 ],
                 "size": [
                     1,
-                    2
+                    1
                 ],
                 "sub_nid": "Door",
                 "condition": "True",
@@ -856,12 +856,12 @@
                 "nid": "RightDoor",
                 "region_type": "event",
                 "position": [
-                    18,
-                    14
+                    24,
+                    4
                 ],
                 "size": [
                     1,
-                    2
+                    1
                 ],
                 "sub_nid": "Door",
                 "condition": "True",
@@ -901,6 +901,10 @@
             },
             {
                 "nid": "Top2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
