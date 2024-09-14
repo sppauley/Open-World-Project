@@ -15,7 +15,9 @@
             "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
             "add_unit;{created_unit};0,9",
             "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
-            "add_unit;{created_unit};0,10"
+            "add_unit;{created_unit};0,10",
+            "",
+            "wait;500"
         ]
     }
 ]

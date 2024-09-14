@@ -16,9 +16,12 @@
             "map_anim;Snag;14,10;;no_block",
             "map_anim;Snag;14,11;;no_block",
             "map_anim;Snag;15,11;;no_block",
+            "wait;500",
             "show_layer;brokenrightmidwall;fade",
             "",
-            "add_unit;143;14,10;fade"
+            "add_unit;143;14,10;fade",
+            "",
+            "wait;500"
         ]
     }
 ]

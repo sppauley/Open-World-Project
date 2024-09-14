@@ -15,10 +15,12 @@
             "map_anim;Snag;22,16;;no_block",
             "map_anim;Snag;22,16;;no_block",
             "map_anim;Snag;21,18;;no_block",
+            "wait;500",
             "show_layer;brokenrightwall;fade",
             "",
             "add_unit;141;22,16;fade",
-            "add_unit;141;21,18;fade"
+            "add_unit;141;21,18;fade",
+            "wait;500"
         ]
     }
 ]

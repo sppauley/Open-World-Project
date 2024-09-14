@@ -15,9 +15,11 @@
             "map_anim;Snag;8,6;;no_block",
             "map_anim;Snag;6,8;;no_block",
             "map_anim;Snag;6,11;;no_block",
+            "wait;500",
             "show_layer;brokenleftmidwall;fade",
             "",
-            "add_unit;146;6,8;fade"
+            "add_unit;146;6,8;fade",
+            "wait;500"
         ]
     }
 ]
