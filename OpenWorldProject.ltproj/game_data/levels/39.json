@@ -5,7 +5,9 @@
         "tilemap": "AtroposShrine",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Autumn"
+        },
         "objective": {
             "simple": "Explore the Area",
             "win": "Explore the Area",

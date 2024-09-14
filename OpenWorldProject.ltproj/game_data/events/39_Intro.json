@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "center_cursor;Simon;immediate",
+            "",
             "show_layer;roof;immediate",
             "show_layer;overlay;immediate",
             "",

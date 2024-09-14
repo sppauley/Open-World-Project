@@ -9,9 +9,12 @@
         "priority": 20,
         "_source": [
             "overworld_cinematic;1",
+            "set_overworld_position;Simon;44",
             "center_cursor;Simon;immediate",
             "reveal_overworld_node;45",
-            "reveal_overworld_road;44;45"
+            "wait;600",
+            "reveal_overworld_road;44;45",
+            "wait;600"
         ]
     }
 ]

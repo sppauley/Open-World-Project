@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;SoldierBlue;Right;mirror",
-            "s;SoldierBlue;The shrine's as beautiful as ma always said...",
+            "s;SoldierBlue;The shrine's as beautiful as Ma always said...",
             "",
             "add_portrait;Simon;Left;left",
             "s;Simon;Excuse me.",

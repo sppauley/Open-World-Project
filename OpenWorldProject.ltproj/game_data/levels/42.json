@@ -43,7 +43,25 @@
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Exit",
+                "region_type": "event",
+                "position": [
+                    0,
+                    0
+                ],
+                "size": [
+                    8,
+                    13
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     }
