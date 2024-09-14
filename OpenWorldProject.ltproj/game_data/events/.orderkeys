@@ -716,5 +716,6 @@
     "33_AlinaDies",
     "34_Exit",
     "42_Exit",
-    "41_InfiniteDracoSpawns"
+    "41_InfiniteDracoSpawns",
+    "41_SwitchBanditAI"
 ]

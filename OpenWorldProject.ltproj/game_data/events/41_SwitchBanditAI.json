@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SwitchBanditAI",
+        "trigger": "combat_end",
+        "level_nid": "41",
+        "condition": "unit.team == \"enemy2\" or unit2.team == \"enemy2\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;enemy;game.get_enemy2_units()",
+            "    change_ai;{enemy};Pursue",
+            "endf"
+        ]
+    }
+]
