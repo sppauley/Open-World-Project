@@ -2,7 +2,7 @@
     {
         "nid": "Rogue",
         "name": "Rogue",
-        "desc": "",
+        "desc": "Masters of stealth and evasive combat.",
         "tier": 2,
         "movement_group": "Infantry",
         "promotes_from": "Thief",
