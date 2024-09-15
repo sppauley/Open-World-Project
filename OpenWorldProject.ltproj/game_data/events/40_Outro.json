@@ -10,7 +10,14 @@
         "_source": [
             "# TODO: Have Simon move to now-abandoned royal garrison and rest",
             "# Convene with teammates. Royal Garrison has now been taken over",
-            "# by refugees"
+            "# by refugees",
+            "",
+            "overworld_cinematic;1",
+            "overworld_move_unit;Simon;43",
+            "game_var;_goto_level;\"48\"",
+            "",
+            "transition;close;2000",
+            "transition;open;1"
         ]
     }
 ]
