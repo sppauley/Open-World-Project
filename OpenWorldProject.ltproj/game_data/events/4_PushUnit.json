@@ -11,15 +11,15 @@
             "# handles the left door",
             "if;any(get_units_in_region('door_left', nid=unit.nid))",
             "remove_unit;{unit}",
-            "add_unit;{unit};9,26;immediate;closest",
+            "add_unit;{unit};11,34;immediate;closest",
             "# handles the right door",
             "elif;any(get_units_in_region('door_right', nid=unit.nid))",
             "remove_unit;{unit}",
-            "add_unit;{unit};23,30;immediate;closest",
+            "add_unit;{unit};25,38;immediate;closest",
             "# handles the upper door",
             "elif;any(get_units_in_region('door_upper', nid=unit.nid))",
             "remove_unit;{unit}",
-            "add_unit;{unit};18,15;immediate;closest",
+            "add_unit;{unit};20,23;immediate;closest",
             "end"
         ]
     }
