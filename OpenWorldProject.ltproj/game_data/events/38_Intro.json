@@ -12,7 +12,7 @@
             "show_layer;overlay2",
             "remove_group;DefenseStarting",
             "",
-            "change_background;GradoCastle",
+            "change_background;InsideCastle",
             "#set_unit_field;Euclid;LoyaltyTalkComplete;True",
             "#set_unit_field;Melodie;LoyaltyTalkComplete;True",
             "",
