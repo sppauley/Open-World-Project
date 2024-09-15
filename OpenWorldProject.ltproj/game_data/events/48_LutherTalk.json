@@ -1,0 +1,32 @@
+[
+    {
+        "name": "LutherTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Luther\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Luther;Right",
+            "",
+            "s;Luther;Are you prepared to march on, milord?",
+            "choice;FinishConvene;Continue?;Yes,No",
+            "if;'{v:FinishConvene}' == 'Yes'",
+            "    s;Luther;Understood.|Milord, I...",
+            "    s;Luther;Simon.{w} I have watched you grow from a runt to a man.|From a man, to a leader.",
+            "    s;Simon;Thank you, Luther.",
+            "    s;Luther;Be aware that Lord Morrissey still sees you as that runt.",
+            "    s;Simon;Then we'll prove him wrong.",
+            "    s;Luther;Aye. He'll soon regret that mistake.|I'll be right behind you, Simon.|All of us will.",
+            "    transition;close;2000",
+            "    transition;open;1",
+            "    win_game",
+            "else",
+            "    s;Luther;Of course.",
+            "end",
+            "multi_remove_portrait;Luther;Simon"
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "FlowerTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Flower\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Flower;Left",
+            "add_portrait;Simon;Right",
+            "s;Flower;Awwoooo!",
+            "s;Simon;Good boy.{w} Don't worry, we'll go back to Frees soon.",
+            "s;Flower;*sniff*, *sniff*",
+            "s;Simon;But there's still more fighting before then.|I'm sorry.",
+            "s;Flower;Awwoooo!",
+            "multi_remove_portrait;Simon;Flower"
+        ]
+    }
+]

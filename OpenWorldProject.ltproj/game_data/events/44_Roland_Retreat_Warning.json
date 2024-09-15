@@ -11,7 +11,7 @@
             "add_portrait;Roland;Right",
             "s;Roland;Lady Anuki, I don't mean to disrespect your troops, but we need to get moving.{w}{br}We need to rush the exit soon, before they overwhelm us!",
             "add_portrait;Anuki;Left;left",
-            "s;Anuki;Argh, have some patience. We're doing the best we can here.",
+            "s;Anuki;Argh, have some patience! We're doing the best we can here.",
             "multi_remove_portrait;Anuki;Roland"
         ]
     }

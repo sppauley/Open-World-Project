@@ -2,16 +2,13 @@
     {
         "name": "Outro",
         "trigger": "level_end",
-        "level_nid": "44",
+        "level_nid": "48",
         "condition": "True",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# outro dialogue",
-            "",
-            "set_unit_field;Anuki;LoyaltyStatus;\"Anuki is completely loyal.\"",
-            "game_var;AnukiLoyal;True"
+            "game_var;freely_exit;True"
         ]
     }
 ]

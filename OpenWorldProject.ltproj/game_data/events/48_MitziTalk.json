@@ -1,0 +1,26 @@
+[
+    {
+        "name": "MitziTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Mitzi\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mitzi;Left",
+            "add_portrait;Simon;Right",
+            "s;Mitzi;Simon, you'll be proud to know that I've decided on a name.",
+            "s;Simon;A name? For what?",
+            "s;Mitzi;The chronicle I'm writing.{w} Your work deserves to be remembered.",
+            "bop_portrait;Simon",
+            "s;Simon;A chronicle?{w} We've just barely escaped Troy, and you're writing a story?",
+            "s;Mitzi;Writing your story, Simon.{w} Someone ought to remember you.|Remember us.",
+            "s;Simon;Hopefully, we won't be relegated to memory any time soon.",
+            "s;Mitzi;Agreed. But these stories can help hold up a throne too.",
+            "s;Simon;You think I want to supplant Morrissey?",
+            "s;Mitzi;If this comes to blows, you will have to.|If we avoid battle, you will have your own demesne.|Either way, you will rule.|Strength brings stability.|And only those who know someone's strength can respect it.",
+            "multi_remove_portrait;Mitzi;Simon"
+        ]
+    }
+]

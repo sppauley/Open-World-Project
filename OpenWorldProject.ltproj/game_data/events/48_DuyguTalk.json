@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DuyguTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Duygu\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Duygu;Left",
+            "add_portrait;Simon;Right",
+            "s;Duygu;Not much to be said, if you ask me.|Looks like we just got a new obstacle.",
+            "s;Simon;This isn't like our other foes.{w} He knows us well,|and will be prepared.",
+            "s;Duygu;Ah, cause the rest of 'em were pushovers?|Simon, Simon, Simon.|He's just another obstacle.|Don't let the betrayal get under your skin.",
+            "multi_remove_portrait;Simon;Duygu"
+        ]
+    }
+]

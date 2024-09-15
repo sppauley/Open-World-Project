@@ -1,0 +1,32 @@
+[
+    {
+        "name": "MaYuanTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"MaYuan\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;MaYuan;Left",
+            "add_portrait;Simon;Right",
+            "s;MaYuan;Squawk!",
+            "s;Simon;Good evening.",
+            "s;MaYuan;Squawk!",
+            "wait;400",
+            "s;Simon;Do you understand what we're doing?",
+            "s;MaYuan;...",
+            "s;Simon;Can you understand our language?",
+            "s;MaYuan;...",
+            "s;Simon;I wish I was like you. A free bird.|You could leave right now, you know.",
+            "s;MaYuan;Squawk!",
+            "s;Simon;Not worry about Morrissey, or Pelopos, or Troy.",
+            "s;MaYuan;...",
+            "s;Simon;I've been thinking... what do I want?|I want to survive.|I want my friends to survive.|But beyond that, do I want to be a lord?|I am, I suppose.|Maybe that's all that matters.",
+            "s;MaYuan;...",
+            "s;Simon;That's enough rambling for now.",
+            "s;MaYuan;Squawk!",
+            "multi_remove_portrait;Simon;MaYuan"
+        ]
+    }
+]

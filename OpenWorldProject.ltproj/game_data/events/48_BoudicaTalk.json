@@ -1,0 +1,22 @@
+[
+    {
+        "name": "BoudicaTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Boudica\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Boudica;Right",
+            "add_portrait;Simon;Left",
+            "s;Simon;How are you faring?",
+            "s;Boudica;I am well enough.{w} Though my time with you may be at an end soon.",
+            "s;Simon;Oh?",
+            "s;Boudica;Make no mistake, I shall aid you through this betrayal.|But I am no royal guard.|Once your army has laid down its weapons, I will say goodbye.",
+            "s;Simon;I wouldn't ask anything else.{w} Your aid has been invaluable.",
+            "s;Boudica;As has yours.{w} I only hope that the peace we've brought will last.",
+            "multi_remove_portrait;Boudica;Simon"
+        ]
+    }
+]

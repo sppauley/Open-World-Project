@@ -1,0 +1,36 @@
+[
+    {
+        "name": "JulietVincentTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Vincent\" or unit2.nid == \"Juliet\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Vincent;FarLeft",
+            "add_portrait;Juliet;MidLeft",
+            "wait;100",
+            "add_portrait;Simon;Right;right",
+            "s;Simon;How are you two doing?",
+            "s;Vincent;We're alive.{w} Honestly, after everything, that was...|Only a little nerve-racking.",
+            "s;Juliet;And I've been watching our rear since we fled.|Neither monster nor Trojan have followed us.",
+            "s;Simon;Glad to hear it.{w} Even if they do mount a search party, we should be safe now.",
+            "s;Vincent;Will we have to fight Lord Morrissey now?",
+            "s;Simon;I... don't know. I wouldn't like to.",
+            "s;Vincent;If I may...",
+            "s;Juliet;Vincent, c'mon.",
+            "s;Simon;Speak your mind. Please.",
+            "s;Vincent;We aren't the same rough band of survivors as before.|Lord Morrissey's armies dwarfed us once.",
+            "s;Juliet;They still do.",
+            "s;Vincent;But not in spirit.{w} We- your men are elite, Simon.|We're loyal.",
+            "s;Juliet;What he's trying to say is that if Morrissey wanted to pick a fight,|this wasn't a smart one.",
+            "s;Simon;I appreciate your optimism.|It isn't that I think we can't win.|I'm just tired of bloodshed.",
+            "s;Juliet;Everyone is.",
+            "s;Vincent;Aye.",
+            "s;Simon;Still, it's good to know you two still have my back.",
+            "s;Vincent;As if we would ever falter.",
+            "multi_remove_portrait;Vincent;Juliet;Simon"
+        ]
+    }
+]

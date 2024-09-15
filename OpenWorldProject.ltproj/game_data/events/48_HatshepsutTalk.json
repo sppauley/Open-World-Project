@@ -1,0 +1,31 @@
+[
+    {
+        "name": "HatshepsutTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Hatshepsut\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Hatshepsut;Left;mirror",
+            "wait;200",
+            "add_portrait;Simon;Right;right",
+            "s;Hatshepsut;Our rear is clear, Simon.{w} Juliet and I have seen no signs of pursuers.",
+            "s;Simon;That's good to hear.",
+            "s;Hatshepsut;...{w} Do you need something?",
+            "s;Simon;I want you to know that we aren't keeping you here.",
+            "s;Hatshepsut;You couldn't if you tried.",
+            "s;Simon;That's probably true.{w} But I didn't mean for you to be endangered.",
+            "s;Hatshepsut;In some ways, you are as naive as when we spoke in Port Hull.|I was joining with a blessed. Of course I am in danger.",
+            "s;Simon;Still. I thought our most dangerous days were behind us.",
+            "s;Hatshepsut;Mine certainly are.{w} Simon, do you recall what I said in the port?",
+            "s;Simon;That there is always a way out?",
+            "s;Hatshepsut;There still is.{w} Book passage on a merchant's vessel.|Start a new life.",
+            "s;Simon;I... would like to.{w} But, at the very least, I have to deal with Morrissey first.",
+            "s;Hatshepsut;If you insist.",
+            "",
+            "multi_remove_portrait;Simon;Hatshepsut"
+        ]
+    }
+]

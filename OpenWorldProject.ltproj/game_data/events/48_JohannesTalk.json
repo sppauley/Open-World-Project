@@ -1,0 +1,21 @@
+[
+    {
+        "name": "JohannesTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Johannes\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Johannes;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Simon;Johannes, what do you think about all of this?",
+            "s;Johannes;It sure seemed like a trap to me.|I mean, Lord Morrissey had left far in advance.|Is it really more complicated than that?",
+            "s;Simon;It's just hard to believe.|We've been allies for so long.",
+            "s;Johannes;Maybe.{w} Or maybe he's just been using you.|Either way, you're the boss, Simon.|I'll follow your lead.",
+            "multi_remove_portrait;Simon;Johannes"
+        ]
+    }
+]

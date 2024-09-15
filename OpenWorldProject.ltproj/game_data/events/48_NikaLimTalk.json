@@ -1,0 +1,32 @@
+[
+    {
+        "name": "NikaLimTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Nika\" or unit2.nid == \"Lim\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Nika;MidRight",
+            "if;game.check_alive(\"Lim\")",
+            "    add_portrait;Lim;Right",
+            "end",
+            "add_portrait;Simon;Left;left",
+            "",
+            "s;Nika;If Morrissey's a tyrant, Frees won't be safe until he's gone.",
+            "s;Simon;I- I don't know if he's a tyrant.",
+            "s;Nika;Sending us into a trap-|using us to kill the king-|I'd call that a tyrant.",
+            "",
+            "if;game.check_alive(\"Lim\")",
+            "    s;Lim;Nika and I have talked it over, Simon.|We're with you to protect our home.",
+            "else",
+            "    s;Nika;If I don't help you now, I won't get a better chance.",
+            "end",
+            "",
+            "s;Simon;I understand.{w} I hope this is all a misunderstanding,|but if we have to fight, I'm glad you'll be with me.",
+            "",
+            "multi_remove_portrait;Nika;Lim;Simon;no_warn"
+        ]
+    }
+]
