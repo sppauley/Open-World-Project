@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "HereticalBlade",
+        "name": "Heretical Blade",
+        "desc": "Raymond only. A blade cursed by Lachesis. 30 minus MAG % chance of taking damage equal to the damage dealt.",
+        "icon_nid": "{Beansy} Crablass",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                10
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "stagger",
+                4
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Raymond"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "HereticalBladeCurse"
+            ]
+        ]
+    }
+]

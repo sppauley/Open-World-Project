@@ -217,5 +217,7 @@
     "LunaBonus",
     "GoldenSoulBonus",
     "DemonDrain",
-    "MaxHPDown"
+    "MaxHPDown",
+    "HereticalBladeCurse",
+    "HereticalBladeCurse_Proc"
 ]

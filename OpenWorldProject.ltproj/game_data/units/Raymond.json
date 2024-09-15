@@ -9,21 +9,33 @@
         "tags": [],
         "bases": {
             "HP": 25,
-            "CON": 18,
+            "CON": 10,
             "DEX": 21,
-            "SPD": 8,
+            "SPD": 12,
             "PSE": 11,
             "MOV": 6
         },
-        "growths": {},
+        "growths": {
+            "MAG": 180,
+            "CON": 15,
+            "DEX": 15,
+            "PSE": 25,
+            "SPD": 35,
+            "HP": 55
+        },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "HereticalBlade",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
                 false,
-                251,
+                181,
                 251
             ]
         },

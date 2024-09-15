@@ -110,5 +110,9 @@
     {
         "nid": "DEXTERITY",
         "expression": "DEX"
+    },
+    {
+        "nid": "HERETICAL_BLADE",
+        "expression": "30 - MAG"
     }
 ]
