@@ -26,6 +26,7 @@
             "s;Melodie;I never saw myself siding with a lord.{w}{br}But you and your allies seem to want to shake the world without shattering it.{w}{br}That's a mentality I can get behind.",
             "s;Simon;I think we have very different conceptions of what our goals are...{w}{br}But I can't help agreeing that this world might need some shaking.",
             "multi_remove_portrait;Simon;Melodie",
+            "give_item;Melodie;WarriorsCharm",
             "set_unit_field;Melodie;LoyaltyStatus;\"Melodie is completely loyal.\"",
             "win_game"
         ]

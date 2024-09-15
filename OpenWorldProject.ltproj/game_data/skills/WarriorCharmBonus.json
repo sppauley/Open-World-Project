@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WarriorCharmBonus",
+        "name": "Warrior's Charm Bonus",
+        "desc": "",
+        "icon_nid": "{GabrielKnight} (3) Icon 9",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
+            ],
+            [
+                "all_brave",
+                null
+            ]
+        ]
+    }
+]
