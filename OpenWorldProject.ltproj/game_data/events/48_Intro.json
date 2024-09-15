@@ -19,8 +19,6 @@
             "show_layer;westvillageclosed;immediate",
             "show_layer;eastvillageclosed;immediate",
             "",
-            "# Writing todo: Melodie, Euclid, Titus, Kajal, Lupus, Yusna, Alina, Lysander",
-            "",
             "# ALL ALLIED UNITS (other than mandatory recruits) should be added here, rather than placed",
             "# directly on map in level editor. That way you won't automatically recruit everyone in the game",
             "if;game.get_unit(\"Melodie\").team == \"player\"",

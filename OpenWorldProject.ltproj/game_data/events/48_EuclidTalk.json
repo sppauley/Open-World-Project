@@ -1,0 +1,25 @@
+[
+    {
+        "name": "EuclidTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Euclid\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Euclid;Right",
+            "add_portrait;Simon;Left",
+            "s;Euclid;Though it may not be expedient to say,|I honestly admire Morrissey.",
+            "s;Simon;Really?",
+            "s;Euclid;Not to, a-hem, insinuate treachery of course.|I am loyal.",
+            "s;Simon;I trust you. Go ahead.",
+            "s;Euclid;The scale of the gambit is impressive.|I mean, giving you food, shelter, protection.|Opportunity to train and recruit.|Just to try and sacrifice you now!|Quite the agenda, I think.",
+            "s;Simon;Do you really think he planned all this from the start?",
+            "s;Euclid;Maybe not. I may be overestimating him.|A fun hypothesis though, I think.",
+            "s;Simon;I don't think Anuki or I would agree with the \"fun\" part.|This could still be a misunderstanding.",
+            "s;Euclid;It isn't impossible. Merely deeply improbable.",
+            "multi_remove_portrait;Simon;Euclid"
+        ]
+    }
+]

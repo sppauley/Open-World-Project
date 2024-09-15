@@ -1,0 +1,29 @@
+[
+    {
+        "name": "AlinaTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Alina\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Alina;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Alina;Excuse me.",
+            "s;Simon;Hmm?",
+            "s;Alina;This may be premature, but I have a request to make.",
+            "s;Simon;Given the situation, I'll do what I can.",
+            "s;Alina;This is for once we've... overcome Morrissey.|Whatever that looks like.",
+            "s;Simon;I understand. Go ahead.",
+            "s;Alina;I'd like to start a university.|In Verstadt land, if possible.",
+            "s;Simon;I'm certainly interested.|Would you need funds?",
+            "s;Alina;Absolutely.{w} It's a big ask, I know.",
+            "s;Simon;It might be some time, but I'd like to help make that happen.",
+            "s;Alina;Thank you.{w} It... means the world.",
+            "",
+            "multi_remove_portrait;Alina;Simon"
+        ]
+    }
+]

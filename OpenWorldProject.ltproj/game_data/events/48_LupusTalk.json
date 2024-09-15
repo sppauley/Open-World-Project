@@ -1,0 +1,31 @@
+[
+    {
+        "name": "LupusTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Lupus\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lupus;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Lupus;H-hey, Simon.{w} I'm... nervous.",
+            "s;Simon;About Morrissey.",
+            "s;Lupus;Yeah. I'm really, really nervous.|I mean, who haven't we pissed off now?",
+            "s;Simon;...That's a fair point.",
+            "s;Lupus;Like, we've got the whole world against us!|I mean...",
+            "s;Simon;Lupus, take a breath.|If...",
+            "expression;Simon;CloseEyes",
+            "s;Simon;If you want to split, I'll look the other way.",
+            "expression;Simon;NormalBlink",
+            "s;Simon;A strange thing for a Lord to say, but I'm serious.",
+            "s;Lupus;Heh... haha, Simon if I split you wouldn't have a chance of catching me.",
+            "s;Simon;Maybe not. You're good.",
+            "s;Lupus;...Yeah.{w} Thanks, though.|Nerves just got to me.|You can rely on me, I promise.",
+            "",
+            "multi_remove_portrait;Simon;Lupus"
+        ]
+    }
+]

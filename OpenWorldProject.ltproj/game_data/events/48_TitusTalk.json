@@ -1,0 +1,23 @@
+[
+    {
+        "name": "TitusTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Titus\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Titus;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Titus;Hey, I got in contact with some of the other knights.",
+            "s;Simon;Any good news?",
+            "s;Titus;Sorry to say I couldn't get much, other than their neutrality.|They're not one to take sides in politics.",
+            "s;Simon;I understand.{w} Thank you for trying.|At the very least, having one fewer enemy will help.",
+            "s;Titus;Yeah, we got too many of those already.|Good luck in those talks, kid.|I wouldn't want to be you.",
+            "",
+            "multi_remove_portrait;Titus;Simon"
+        ]
+    }
+]
