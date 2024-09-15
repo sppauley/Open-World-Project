@@ -75,6 +75,25 @@
                 "generic": true
             },
             {
+                "nid": "132",
+                "variant": null,
+                "level": 1,
+                "klass": "Citizen",
+                "faction": "Roland",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 12,
@@ -941,6 +960,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
