@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "47",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Battle where you destroy Lachesis's artifact",
+            "# Need to have recruited Euclid and beaten the precursor ruins to get here.",
+            "",
+            ""
+        ]
+    }
+]

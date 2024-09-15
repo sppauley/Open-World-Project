@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "45",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Battle where you destroy Clotho's artifact",
+            "# Need to have recruited Mitzi and beaten the precursor ruins to get here.",
+            "change_team;Lucius;enemy",
+            "change_team;Annetta;enemy"
+        ]
+    }
+]

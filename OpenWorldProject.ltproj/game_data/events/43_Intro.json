@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "# I don't have a vision here either, could be fun to make it the normal morrissey castle map",
-            "# Wraps in well with rest of game?"
+            "# Wraps in well with rest of game?",
+            "change_team;MorrisseyBoss;enemy"
         ]
     }
 ]

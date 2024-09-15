@@ -1,14 +1,14 @@
 [
     {
-        "nid": "43",
-        "name": "Morrissey's Rise",
-        "tilemap": "MorrisseyBattle",
+        "nid": "47",
+        "name": "Lachesis",
+        "tilemap": "LachesisTemple",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
         "objective": {
-            "simple": "Defeat Morrissey",
-            "win": "Defeat Morrissey",
+            "simple": "Destroy the Abacus",
+            "win": "Destroy the Abacus",
             "loss": "Simon dies"
         },
         "roam": false,
@@ -23,21 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    10
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "MorrisseyBoss",
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    3
+                    10,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -45,6 +32,11 @@
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "nid": "42",
-        "name": "Troy Roam",
+        "name": "Troy",
         "tilemap": "TroyRoam",
         "bg_tilemap": null,
         "party": "Simon",
