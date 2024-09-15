@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Talk Doorman",
+        "trigger": "on_talk",
+        "level_nid": "44",
+        "condition": "unit2.nid=='Doorman'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;Doorman",
+            "",
+            "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft;OldMan1;Right",
+            "s;OldMan1;Welcome to Roland Manor.{w} Who might you two be?",
+            "s;Anuki;Anuki Morrissey and Simon Verstadt.{w}{br}We're here for negotiations with Lord Roland.",
+            "s;OldMan1;Ah, Lady Morrissey and her fiance.{w}{br}Now let me see, let me see.",
+            "wait;300",
+            "s;OldMan1;It appears you aren't on the list, Anuki Morrissey and Simon Verstadt.{w}{br}How strange, how strange.",
+            "s;Anuki;You'd refuse entry to two lords?{w}{br}You really think that'll help your boss's chance with negotiations?",
+            "s;OldMan1;Ack!{w} No, surely not. Surely not.{w}{br}Please head right this way, Anuki Morrissey and Simon Verstadt.{w}{br}His lordship awaits in the dining room.",
+            "move_portrait;OldMan1;OffscreenLeft",
+            "s;Simon;What an odd man...{w}{br}This is off to a strange start.",
+            "multi_remove_portrait;Simon;Anuki;OldMan1"
+        ]
+    }
+]
