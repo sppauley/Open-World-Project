@@ -881,5 +881,10 @@
         "nid": "interiors",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "ff5town",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

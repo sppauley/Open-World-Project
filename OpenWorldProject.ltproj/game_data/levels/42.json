@@ -48,12 +48,12 @@
                 "nid": "Exit",
                 "region_type": "event",
                 "position": [
-                    0,
-                    0
+                    12,
+                    24
                 ],
                 "size": [
-                    8,
-                    13
+                    7,
+                    1
                 ],
                 "sub_nid": "Exit",
                 "condition": "True",
