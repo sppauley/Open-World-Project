@@ -1,8 +1,8 @@
 [
     {
         "nid": "WarriorsCharm",
-        "name": "Warrior's Charm",
-        "desc": "Melodie only. Holder's attacks with bows are brave.",
+        "name": "Chaos Charm",
+        "desc": "Melodie only. When initiating combat, holder's attacks with bows are brave.",
         "icon_nid": "{GabrielKnight} (3) Icon 9",
         "icon_index": [
             0,
