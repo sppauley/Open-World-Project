@@ -2,7 +2,7 @@
     {
         "nid": "Wrath",
         "name": "Wrath",
-        "desc": "Gains +50 crit when unit's HP is half or less",
+        "desc": "Gains +50 crit when unit's HP is half or less.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

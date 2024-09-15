@@ -2,7 +2,7 @@
     {
         "nid": "EyeofVesner",
         "name": "Eye of Vesner",
-        "desc": "Grants +10 sight radius",
+        "desc": "Grants +10 sight radius.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,

@@ -2,7 +2,7 @@
     {
         "nid": "Confidence",
         "name": "Confidence",
-        "desc": "Hit and avoid +15 if unit is at full HP",
+        "desc": "Hit and avoid +15 if unit is at full HP.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,

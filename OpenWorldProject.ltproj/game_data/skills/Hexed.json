@@ -2,7 +2,7 @@
     {
         "nid": "Hexed",
         "name": "Hexed",
-        "desc": "Unit has halved HP",
+        "desc": "Unit has halved HP.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             4,

@@ -2,7 +2,7 @@
     {
         "nid": "MoransLegacy_proc",
         "name": "Moran's Legacy",
-        "desc": "+3 MOV for 2 turns",
+        "desc": "+3 MOV for 2 turns.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

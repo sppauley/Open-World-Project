@@ -2,7 +2,7 @@
     {
         "nid": "OldCurse",
         "name": "Old Curse",
-        "desc": "+8 SPD, loses 1 SPD each turn",
+        "desc": "+8 SPD, loses 1 SPD each turn.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,

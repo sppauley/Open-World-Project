@@ -2,7 +2,7 @@
     {
         "nid": "PathToVictory",
         "name": "Path to Victory",
-        "desc": "Stagger damage +5 when unit is on road terrain",
+        "desc": "Stagger damage +5 when unit is on road terrain.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

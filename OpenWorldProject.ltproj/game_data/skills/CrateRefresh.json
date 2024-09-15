@@ -2,7 +2,7 @@
     {
         "nid": "CrateRefresh",
         "name": "Refresh",
-        "desc": "Refresh adjacent allies",
+        "desc": "Refresh adjacent allies.",
         "icon_nid": "Skills",
         "icon_index": [
             3,

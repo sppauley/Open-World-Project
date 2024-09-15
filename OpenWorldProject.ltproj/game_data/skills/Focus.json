@@ -2,7 +2,7 @@
     {
         "nid": "Focus",
         "name": "Focus",
-        "desc": "Critical +10 when no allies in a 3 tile radius",
+        "desc": "Critical +10 when no allies in a 3 tile radius.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             5,

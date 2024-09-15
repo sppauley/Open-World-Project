@@ -2,7 +2,7 @@
     {
         "nid": "Phantasm",
         "name": "Phantasm",
-        "desc": "Unit heals 40% HP at the start of each turn",
+        "desc": "Unit heals 40% HP at the start of each turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,

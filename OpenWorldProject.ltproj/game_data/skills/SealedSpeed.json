@@ -2,7 +2,7 @@
     {
         "nid": "SealedSpeed",
         "name": "Sealed Speed",
-        "desc": "-4 SPD for one turn",
+        "desc": "-4 SPD for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,

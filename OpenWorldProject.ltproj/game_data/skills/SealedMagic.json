@@ -2,7 +2,7 @@
     {
         "nid": "SealedMagic",
         "name": "Sealed Magic",
-        "desc": "-4 MAG for one turn",
+        "desc": "-4 MAG for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,

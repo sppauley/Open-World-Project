@@ -2,7 +2,7 @@
     {
         "nid": "BowBreaker",
         "name": "Bow Breaker",
-        "desc": "Hit and avoid +50 if foe is equipped with a bow",
+        "desc": "Hit and avoid +50 if foe is equipped with a bow.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             3,

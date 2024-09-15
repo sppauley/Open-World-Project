@@ -2,7 +2,7 @@
     {
         "nid": "Trample",
         "name": "Trample",
-        "desc": "Unit deals +2 damage to non-mounted enemies",
+        "desc": "Unit deals +2 damage to non-mounted enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             5,

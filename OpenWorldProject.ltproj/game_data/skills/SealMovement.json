@@ -2,7 +2,7 @@
     {
         "nid": "SealMovement",
         "name": "Seal Movement",
-        "desc": "If unit hits the enemy, foe suffers -2 MOV for 1 turn after combat",
+        "desc": "If unit hits the enemy, foe suffers -2 MOV for 1 turn after combat.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,

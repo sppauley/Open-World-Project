@@ -2,7 +2,7 @@
     {
         "nid": "DartingBlow",
         "name": "Darting Blow",
-        "desc": "If unit initiates combat, grants +6 SPD",
+        "desc": "If unit initiates combat, grants +6 SPD.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             3,

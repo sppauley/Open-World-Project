@@ -2,7 +2,7 @@
     {
         "nid": "LiveToServe",
         "name": "Live to Serve",
-        "desc": "When healing an ally, the user recovers the same amount of HP",
+        "desc": "When healing an ally, the user recovers the same amount of HP.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             3,

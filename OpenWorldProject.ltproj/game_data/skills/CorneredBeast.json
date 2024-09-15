@@ -2,7 +2,7 @@
     {
         "nid": "CorneredBeast",
         "name": "Cornered Beast",
-        "desc": "Unit deals +2 damage when not at full HP",
+        "desc": "Unit deals +2 damage when not at full HP.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             3,

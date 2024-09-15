@@ -2,7 +2,7 @@
     {
         "nid": "Slow",
         "name": "Slow",
-        "desc": "-3 MOV for 1 turn",
+        "desc": "-3 MOV for 1 turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

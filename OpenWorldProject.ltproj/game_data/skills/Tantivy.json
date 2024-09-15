@@ -2,7 +2,7 @@
     {
         "nid": "Tantivy",
         "name": "Tantivy",
-        "desc": "SPD +3 when no allies in a 3 tile radius",
+        "desc": "SPD +3 when no allies in a 3 tile radius.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,

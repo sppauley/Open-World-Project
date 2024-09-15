@@ -2,7 +2,7 @@
     {
         "nid": "CovertFighter",
         "name": "Covert Fighter",
-        "desc": "Hit +40 and MAG +3 when unit is in forest or thicket terrain",
+        "desc": "Hit +40 and MAG +3 when unit is in forest or thicket terrain.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,

@@ -2,7 +2,7 @@
     {
         "nid": "Pavise",
         "name": "Pavise",
-        "desc": "Unit takes -1 damage from adjacent enemies",
+        "desc": "Unit takes -1 damage from adjacent enemies.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,

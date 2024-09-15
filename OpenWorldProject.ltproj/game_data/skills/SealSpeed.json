@@ -2,7 +2,7 @@
     {
         "nid": "SealSpeed",
         "name": "Seal Speed",
-        "desc": "If unit hits the enemy, foe suffers -4 SPD for 1 turn after combat",
+        "desc": "If unit hits the enemy, foe suffers -4 SPD for 1 turn after combat.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             3,

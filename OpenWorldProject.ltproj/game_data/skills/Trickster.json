@@ -2,7 +2,7 @@
     {
         "nid": "Trickster",
         "name": "Trickster",
-        "desc": "+2 MOV during first 7 turns",
+        "desc": "+2 MOV during first 7 turns.",
         "icon_nid": "Boosters",
         "icon_index": [
             0,

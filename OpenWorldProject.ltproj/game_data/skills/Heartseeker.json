@@ -2,7 +2,7 @@
     {
         "nid": "Heartseeker",
         "name": "Heartseeker",
-        "desc": "-15 hit and avoid to adjacent enemies",
+        "desc": "-15 hit and avoid to adjacent enemies.",
         "icon_nid": "Skills",
         "icon_index": [
             10,

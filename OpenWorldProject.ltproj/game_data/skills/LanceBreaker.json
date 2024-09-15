@@ -2,7 +2,7 @@
     {
         "nid": "LanceBreaker",
         "name": "Lance Breaker",
-        "desc": "Hit and avoid +50 if foe is equipped with a lance",
+        "desc": "Hit and avoid +50 if foe is equipped with a lance.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             1,

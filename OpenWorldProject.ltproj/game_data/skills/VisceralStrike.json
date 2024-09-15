@@ -2,7 +2,7 @@
     {
         "nid": "VisceralStrike",
         "name": "Visceral Strike",
-        "desc": "When attacking a staggered target, unit has a CRIT% chance of dealing double damage",
+        "desc": "When attacking a staggered target, unit has a CRIT% chance of dealing double damage,",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             5,

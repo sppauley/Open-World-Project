@@ -2,7 +2,7 @@
     {
         "nid": "AxeBreaker",
         "name": "Axe Breaker",
-        "desc": "Hit and avoid +50 if foe is equipped with an axe",
+        "desc": "Hit and avoid +50 if foe is equipped with an axe.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

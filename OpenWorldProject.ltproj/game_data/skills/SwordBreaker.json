@@ -2,7 +2,7 @@
     {
         "nid": "SwordBreaker",
         "name": "Sword Breaker",
-        "desc": "Hit and avoid +50 if foe is equipped with a sword",
+        "desc": "Hit and avoid +50 if foe is equipped with a sword.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,

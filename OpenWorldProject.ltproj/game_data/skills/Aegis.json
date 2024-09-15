@@ -2,7 +2,7 @@
     {
         "nid": "Aegis",
         "name": "Aegis",
-        "desc": "Unit takes -1 damage from non-adjacent enemies",
+        "desc": "Unit takes -1 damage from non-adjacent enemies.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             4,
