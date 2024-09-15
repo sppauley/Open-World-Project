@@ -1,0 +1,24 @@
+[
+    {
+        "name": "KajalTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Kajal\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kajal;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Kajal;It seems that House Morrissey will be the next to fall.",
+            "s;Simon;Not necessarily. Even if this comes to blows, Anuki lives on.",
+            "s;Kajal;True, traditionally your child would inherit the mother's name.|But will she choose to keep it?",
+            "s;Simon;Hard to say.",
+            "s;Kajal;Exactly.{w} I must say, though I have some respect for Lord Morrissey,|his achievements pale compared to your's and Vesner's.",
+            "s;Simon;Thank you.",
+            "s;Kajal;You and Vesner are men of action.|I respect that, and others will too.",
+            "multi_remove_portrait;Simon;Kajal"
+        ]
+    }
+]

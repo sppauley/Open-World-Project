@@ -1,0 +1,26 @@
+[
+    {
+        "name": "LysanderTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Lysander\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lysander;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Lysander;Worried I might make a break for it?",
+            "s;Simon;Not really, I just wanted to check how you're feeling.",
+            "s;Lysander;I don't shy away from fights, Lord Verstadt.|Just ain't in my nature.",
+            "s;Simon;I know.",
+            "s;Lysander;Here's the cowardly way to do it-|Start talking, then have me put one between his eyes.",
+            "s;Simon;I don't think that's called for yet.|This might not need to come to bloodshed.",
+            "s;Lysander;Possible.{w} But I do like a fair fight more.|Either way, just give me the signal.",
+            "",
+            "multi_remove_portrait;Lysander;Simon",
+            ""
+        ]
+    }
+]

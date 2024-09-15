@@ -5,7 +5,9 @@
         "tilemap": "Royal Garrison",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "NewDawnFinal"
+        },
         "objective": {
             "simple": "Speak with Allies",
             "win": "Speak with Allies",

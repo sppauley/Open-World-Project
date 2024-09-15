@@ -1,0 +1,27 @@
+[
+    {
+        "name": "YusnaTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Yusna\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Yusna;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Yusna;Do you regret all of this?",
+            "s;Simon;I don't think I can. It wasn't really my choice.",
+            "s;Yusna;Sure sounds like someone blessed by the Fates.|I think you do have a choice, Simon.",
+            "s;Simon;What do you suggest?",
+            "s;Yusna;You can run.{w} Might seem silly, but no one is forcing this.",
+            "s;Simon;After all of this?{w} Really? You want me to run?",
+            "s;Yusna;Just... no, I get it.|You want to see this through.",
+            "s;Simon;I do. And even if I do have a choice, it doesn't feel like it.",
+            "s;Yusna;I understand.{w} I do have your back.|I just wanted to suggest this.",
+            "",
+            "multi_remove_portrait;Yusna;Simon"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MelodieTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Melodie\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Melodie;Right",
+            "add_portrait;Simon;Left",
+            "s;Melodie;It might hurt to hear, but this is why I can't stand \"civilization\".",
+            "s;Simon;The scheming?",
+            "s;Melodie;Mhmm. His most noble highness, yada-yada-yada, ruthless betraying us.",
+            "s;Simon;...So your tribes never go to war?",
+            "s;Melodie;Oh, sure.{w} We bicker and fight.|But we don't try and wipe each other out.",
+            "s;Simon;I'm starting to understand the appeal,|but I don't think you'll truly convince me.",
+            "s;Melodie;I'm not expecting to, just gloating.|Good luck on your throne, Verstadt.",
+            "multi_remove_portrait;Melodie;Simon"
+        ]
+    }
+]
