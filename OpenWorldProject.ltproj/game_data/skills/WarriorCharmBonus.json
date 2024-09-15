@@ -14,12 +14,12 @@
                 null
             ],
             [
-                "condition",
-                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
-            ],
-            [
                 "all_brave",
                 null
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack' and unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) == 'Bow'"
             ]
         ]
     }
