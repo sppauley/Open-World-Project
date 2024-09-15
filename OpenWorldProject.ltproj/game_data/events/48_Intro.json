@@ -8,6 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "# Game automatically brings you here after Death of a King",
+            "# Talk with your allies before you return to Morrissey's castle/confront him",
+            "",
             "center_cursor;Simon;immediate",
             "show_layer;northgateopen;immediate",
             "show_layer;southgateopen;immediate",
