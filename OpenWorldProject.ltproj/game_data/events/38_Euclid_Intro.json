@@ -8,8 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_background;GradoCastle",
-            "",
             "if;game.game_vars[\"MelodieRecruited\"]==1",
             "    add_portrait;Melodie;Right",
             "    s;Melodie;Are you serious?{w} Simon, you really want to side with these parasites?{w}{br}Gah, I guess I overestimated your honor.{w}{br}Pelopos's corrupt leadership will fall today.",

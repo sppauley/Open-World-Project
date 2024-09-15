@@ -8,8 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_background;GradoCastle",
-            "",
             "if;game.game_vars[\"EuclidRecruited\"]==1",
             "    add_portrait;Euclid;Right",
             "    s;Euclid;I can't believe you'd side with the attackers!{w}{br}Maybe New Dawn was right to root out your kind.{w}{br}But Pelopos is strong.{w} We will endure this assault!",

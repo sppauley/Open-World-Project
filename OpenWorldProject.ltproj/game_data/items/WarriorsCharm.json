@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "WarriorsCharm",
+        "name": "Warrior's Charm",
+        "desc": "Melodie only. Holder's attacks with bows are brave.",
+        "icon_nid": "{GabrielKnight} (3) Icon 9",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Melodie"
+                ]
+            ],
+            [
+                "status_on_hold",
+                "WarriorCharmBonus"
+            ]
+        ]
+    }
+]
