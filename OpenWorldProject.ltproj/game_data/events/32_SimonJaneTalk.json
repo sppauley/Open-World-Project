@@ -24,6 +24,7 @@
             "    s;Simon;I accept your terms. Tell your men to lay down their arms.",
             "    s;LadyJane;I am glad we could come to an arrangement.|I look forward to serving your cause.",
             "    multi_remove_portrait;Simon;LadyJane",
+            "    change_team;LadyJane;player",
             "    win_game",
             "end"
         ]

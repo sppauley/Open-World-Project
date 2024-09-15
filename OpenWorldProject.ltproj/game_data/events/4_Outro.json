@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Do Nothing"
+            "# Do Nothing",
+            "set_overworld_menu_option_visible;1;59;Roam;false"
         ]
     }
 ]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "AlinaLoyaltyTrigger",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"AlinaMetDancer\") == True and v(\"AlinaMetSinger\") == True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Alina;Left",
+            "s;Alina;Simon, I was thinking about what you said.|About teaching you.",
+            "s;Alina;We don't have the time for full lessons right now, but I wrote this.|Some of it is advice from Master Patrick, or things my mom showed me.|Some of it's new. Out of my head.|Anyway, I hope it's worth something.",
+            "remove_portrait;Alina",
+            "give_item;Simon;DanceManual",
+            "set_unit_field;Alina;LoyaltyStatus;\"Alina is completely loyal.\""
+        ]
+    }
+]

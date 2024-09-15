@@ -1,0 +1,53 @@
+[
+    {
+        "nid": "DanceManual",
+        "name": "Dancer Manual",
+        "desc": "Teaches Dance (refresh an adjacent ally's action).",
+        "icon_nid": "danceskillbook",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "event_on_hit",
+                "Global Teach Dance"
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "len([skill for skill in unit.skills if any([component.nid == 'feat' for component in skill.components])]) < 3"
+            ]
+        ]
+    }
+]

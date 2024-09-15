@@ -13,7 +13,12 @@
             "game_var;freely_exit;True",
             "",
             "add_talk;Simon;Raymond",
-            "add_talk;Simon;101"
+            "add_talk;Simon;101",
+            "",
+            "add_talk;Simon;104",
+            "if;v(\"AlinaMetDancer\") == True",
+            "    remove_unit;104",
+            "end"
         ]
     }
 ]

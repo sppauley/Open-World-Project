@@ -651,6 +651,7 @@
     "37_WillemTalk",
     "global_Pocketpoacher",
     "global_Teach_VisceralStrike",
+    "global_Teach_Dance",
     "38_Attack_Reinforcements",
     "38_Melodie_lose_condition",
     "38_Increment_defense_counter",
@@ -717,5 +718,8 @@
     "34_Exit",
     "42_Exit",
     "41_InfiniteDracoSpawns",
-    "41_SwitchBanditAI"
+    "41_SwitchBanditAI",
+    "0_SingerTalk",
+    "34_TalkDancer",
+    "global_AlinaLoyaltyTrigger"
 ]

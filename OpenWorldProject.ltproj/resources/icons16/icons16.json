@@ -291,5 +291,9 @@
     {
         "nid": "Golden Soul",
         "subicon_dict": {}
+    },
+    {
+        "nid": "danceskillbook",
+        "subicon_dict": {}
     }
 ]
