@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Intro",
+        "trigger": "level_start",
+        "level_nid": "48",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Game automatically brings you here after Death of a King",
+            "# Talk with your allies before you return to Morrissey's castle/confront him",
+            "",
+            "center_cursor;Simon;immediate",
+            "show_layer;northgateopen;immediate",
+            "show_layer;southgateopen;immediate",
+            "show_layer;westvillageclosed;immediate",
+            "show_layer;eastvillageclosed;immediate",
+            "",
+            "# ALL ALLIED UNITS (other than mandatory recruits) should be added here, rather than placed",
+            "# directly on map in level editor. That way you won't automatically recruit everyone in the game"
+        ]
+    }
+]
