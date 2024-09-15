@@ -29,7 +29,7 @@
                 "generic": false
             },
             {
-                "nid": "Lachesis",
+                "nid": "Atropos",
                 "team": "enemy2",
                 "ai": "None",
                 "roam_ai": null,
@@ -603,6 +603,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
