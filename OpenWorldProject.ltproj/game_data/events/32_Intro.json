@@ -68,7 +68,7 @@
             "",
             "center_cursor;Simon",
             "",
-            "s;Twins;Yeah, but if seized them she'd get spooked.|Nothing wrong with that-|It'd just put us on a clock.",
+            "s;Twins;Yeah, but if we seized them, she'd get spooked.|Nothing wrong with that-|It'd just put us on a clock.",
             "s;Boudica;Battle approaches, the time for talking is over.",
             "trigger_script;Global ConsolidateToSimon;Boudica",
             "",

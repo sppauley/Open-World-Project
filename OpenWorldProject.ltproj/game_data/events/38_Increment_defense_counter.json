@@ -38,7 +38,6 @@
             "    mirror_portrait;OldMan1",
             "    move_portrait;OldMan1;OffscreenRight",
             "    remove_portrait;OldMan1",
-            "    mirror_portrait;Simon",
             "    move_portrait;Simon;MidRight",
             "    s;Simon;We just saved your life, you ungrateful-",
             "    s;Euclid;Simon, pay him no heed.",
@@ -46,7 +45,7 @@
             "    s;Euclid;Pelopos is a great city.{w} We have better minds than anywhere, and the best among us rule.{w}{br}But you and your companions have shown me that even foreigners can possess wisdom.",
             "    s;Simon;Thanks?",
             "    s;Euclid;Your mind still needs further refinement, of course,{w} and you must reconsider your monarchical ambitions,{w} but you will make a just ruler.",
-            "    s;Simon;I guess I'll take that as a compliment?",
+            "    s;Simon;I guess I'll take that as a compliment.",
             "    set_unit_field;Euclid;LoyaltyStatus;\"Euclid is completely loyal.\"",
             "    win_game",
             "end"

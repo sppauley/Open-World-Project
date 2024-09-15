@@ -5,7 +5,7 @@
         "level_nid": "25",
         "condition": "game.turncount > 1 and game.get_unit(\"Thanatos2\").position != (27, 2)",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "center_cursor;23,6",
