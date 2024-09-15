@@ -1,0 +1,24 @@
+[
+    {
+        "name": "TwinsTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"Twins\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Twins;Right",
+            "",
+            "s;Twins;For once, we're in agreement.{w} Don't give him the time of day.",
+            "s;Simon;Really?",
+            "s;Twins;What has he done for you?!|I mean, really.|Gave you a roof for you and your men.|But other than that?|Just sent you on errand after errand.",
+            "s;Simon;I suppose that is true, but he did help us in our time of need.",
+            "s;Twins;We think he's dismissive of you and loathful of the New Dawn.|But now that they're gone, he doesn't need you.",
+            "s;Simon;I see your point. Thank you for your advice.",
+            "s;Twins;It was mostly my idea.|That is not true!",
+            "multi_remove_portrait;Twins;Simon"
+        ]
+    }
+]

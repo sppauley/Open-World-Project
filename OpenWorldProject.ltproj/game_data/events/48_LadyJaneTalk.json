@@ -1,0 +1,18 @@
+[
+    {
+        "name": "LadyJaneTalk",
+        "trigger": "on_talk",
+        "level_nid": "48",
+        "condition": "unit2.nid == \"LadyJane\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;LadyJane;Right;mirror",
+            "s;LadyJane;We're near the end now, aren't we?|Yes, yes...",
+            "expression;LadyJane;CloseEyes",
+            "s;LadyJane;Oh, the essence I'll gather...",
+            "remove_portrait;LadyJane"
+        ]
+    }
+]
