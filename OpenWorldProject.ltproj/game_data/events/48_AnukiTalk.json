@@ -39,7 +39,7 @@
             "",
             "else",
             "",
-            "s;Anuki;I think that... I think...|Simon, he is my father.|I can't believe that he wanted this.|I just won't accept it.",
+            "s;Anuki;I think that... I think...|Simon, he's my father.|I can't believe that he wanted this.|I just won't accept it.",
             "s;Simon;I understand your hesitation, but isn't it suspicious?",
             "mirror_portrait;Anuki",
             "expression;Anuki;CloseEyes",

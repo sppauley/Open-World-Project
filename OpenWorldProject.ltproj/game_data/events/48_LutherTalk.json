@@ -21,12 +21,15 @@
             "    s;Simon;Then we'll prove him wrong.",
             "    s;Luther;Aye. He'll soon regret that mistake.|I'll be right behind you, Simon.|All of us will.",
             "    transition;close;2000",
-            "    transition;open;1",
+            "    multi_remove_portrait;Luther;Simon",
+            "    music_clear;1000",
             "    win_game",
+            "    transition;open;1",
             "else",
             "    s;Luther;Of course.",
+            "    multi_remove_portrait;Luther;Simon",
             "end",
-            "multi_remove_portrait;Luther;Simon"
+            ""
         ]
     }
 ]
