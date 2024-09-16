@@ -313,7 +313,7 @@
                 "starting_items": [
                     [
                         "Fimbulvetr",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -458,6 +458,10 @@
                     [
                         "Silver Lance",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -530,6 +534,10 @@
                     [
                         "Silver Sword",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -834,6 +842,10 @@
                     [
                         "Magebane",
                         false
+                    ],
+                    [
+                        "KnowledgeScroll",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -975,7 +987,8 @@
                 "nid": "PreCombatUnits",
                 "units": [
                     "BoxMover",
-                    "Doorman"
+                    "Doorman",
+                    "NervousCleric"
                 ],
                 "positions": {}
             }
