@@ -8,6 +8,7 @@
     "Charm": "Personal Skills",
     "Charm_child": "Personal Skills",
     "CloseandPersonal": "Random Pull Skills",
+    "Defiance": "Personal Skills",
     "Desperation": "Random Pull Skills",
     "DistractingPresence": "Random Pull Skills",
     "DistractingPresenceChild": "Random Pull Skills",
@@ -52,7 +53,6 @@
     "SunLightProc": "Personal Skills",
     "VincentTogether": "Personal Skills",
     "VincentTogetherEffect": "Personal Skills",
-    "WarriorCharmBonus": "Personal Skills",
     "WitchWarp": "Personal Skills",
     "Zeal": "Personal Skills"
 }

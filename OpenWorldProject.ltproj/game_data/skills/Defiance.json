@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Defiance",
+        "name": "Defiance",
+        "desc": "When below 25% HP, unit takes 2 less damage and gains 8 SPD.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit.get_hp() < unit.get_max_hp() / 4"
+            ],
+            [
+                "resist",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        8
+                    ]
+                ]
+            ]
+        ]
+    }
+]
