@@ -11,6 +11,7 @@
             "remove_talk;Simon;Roland",
             "change_roaming;f",
             "",
+            "remove_group;PreCombatUnits",
             "add_group;StartingUnits;starting",
             "",
             "move_unit;Simon;20,15;immediate",

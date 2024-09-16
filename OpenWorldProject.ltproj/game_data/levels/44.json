@@ -94,6 +94,25 @@
                 "generic": true
             },
             {
+                "nid": "NervousCleric",
+                "variant": null,
+                "level": 1,
+                "klass": "Cleric",
+                "faction": "Roland",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "101",
                 "variant": null,
                 "level": 12,
@@ -951,6 +970,14 @@
                         23
                     ]
                 }
+            },
+            {
+                "nid": "PreCombatUnits",
+                "units": [
+                    "BoxMover",
+                    "Doorman"
+                ],
+                "positions": {}
             }
         ],
         "ai_groups": [

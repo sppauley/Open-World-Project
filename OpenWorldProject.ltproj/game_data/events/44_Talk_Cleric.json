@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Talk Cleric",
+        "trigger": "on_talk",
+        "level_nid": "44",
+        "condition": "unit2.nid=='NervousCleric'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;NervousCleric",
+            "",
+            "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft",
+            "add_portrait;VillagerWoman;Right;mirror",
+            "s;VillagerWoman;Why are they bringing their weapons?{w}{br}Aren't they just supposed to talk?{w}{br}Are we all going to die?",
+            "s;Simon;Uh, excuse me. Are you alright?",
+            "mirror_portrait;VillagerWoman",
+            "s;VillagerWoman;Ah! Absolutely fine.{w}{br}What can I do for you?",
+            "s;Anuki;Were you talking about weapons?{w}{br}House Morrissey always comes armed.{w}{br}Not a slight against your house or anything,{w} but father always wants to be prepared for betrayal.",
+            "s;VillagerWoman;Your father?{w} Lady Morrissey?",
+            "mirror_portrait;VillagerWoman",
+            "s;VillagerWoman;Oh this is bad.{w} This is very bad.",
+            "s;Anuki;Uh, what's wrong?",
+            "mirror_portrait;VillagerWoman",
+            "s;VillagerWoman;Why did Lord Morrissey send you?{w}{br}Why are his general and soldiers not enough?{w}{br}What does he want with us?",
+            "s;Anuki;Calm down. I'm here of my own volition.{w}{br}I just wanted to check in on the negotiations.",
+            "s;VillagerWoman;Of course.{w} Now, if you'll excuse me.",
+            "mirror_portrait;VillagerWoman",
+            "move_portrait;VillagerWoman;OffscreenRight;2",
+            "wait;300",
+            "s;Anuki;Why is she so nervous?{w} These are supposed to be routine negotiations...{w}{br}Or maybe something is wrong here after all.",
+            "multi_remove_portrait;Simon;Anuki;VillagerWoman"
+        ]
+    }
+]
