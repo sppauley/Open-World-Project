@@ -1,7 +1,7 @@
 [
     {
         "nid": "Roost",
-        "name": "Roost",
+        "name": "Self-Repair",
         "desc": "If unit uses the Wait command, heal 50% max HP.",
         "icon_nid": "Skills",
         "icon_index": [

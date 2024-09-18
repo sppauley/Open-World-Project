@@ -24,7 +24,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "FinalTouches"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Staff": [
