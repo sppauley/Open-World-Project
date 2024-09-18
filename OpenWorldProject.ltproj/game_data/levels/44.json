@@ -859,6 +859,62 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Storm",
+                        false
+                    ],
+                    [
+                        "Enfeeble",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    28,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Storm",
+                        false
+                    ],
+                    [
+                        "Enfeeble",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -957,7 +1013,9 @@
                     "128",
                     "129",
                     "130",
-                    "131"
+                    "131",
+                    "132",
+                    "133"
                 ],
                 "positions": {}
             },
@@ -1000,6 +1058,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
