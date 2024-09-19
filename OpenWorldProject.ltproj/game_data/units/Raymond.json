@@ -2,7 +2,7 @@
     {
         "nid": "Raymond",
         "name": "Raymond",
-        "desc": "A heretic.",
+        "desc": "A heretic, now cursed by Lachesis.",
         "variant": "",
         "level": 1,
         "klass": "Rogue",
@@ -42,6 +42,23 @@
         "alternate_classes": [],
         "portrait_nid": "{AmBrosiac} OC Gray",
         "affinity": null,
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "Lachesis, damn you...|Your curse won't hold me back for much longer!"
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "999"
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "LoyaltyStatus",
+                "Raymond is completely loyal."
+            ]
+        ]
     }
 ]

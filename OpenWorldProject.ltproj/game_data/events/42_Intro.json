@@ -18,7 +18,8 @@
             "",
             "level_var;RevealRuins;False",
             "",
-            "add_talk;Simon;King"
+            "add_talk;Simon;King",
+            "add_talk;Simon;Morrissey"
         ]
     }
 ]

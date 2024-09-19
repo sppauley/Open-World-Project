@@ -1,0 +1,37 @@
+[
+    {
+        "name": "FirstIntroTalk",
+        "trigger": "level_start",
+        "level_nid": "42",
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "remove_unit;Morrissey",
+            "add_unit;Morrissey;16,29",
+            "",
+            "move_unit;Morrissey;16,26;normal;no_follow",
+            "",
+            "add_portrait;Morrissey;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Morrissey;We're here.{w} Simon, are you unharmed?",
+            "s;Simon;I... yes?{w} I don't understand what you mean.",
+            "s;Morrissey;The outer city in Troy has a certain reputation.|We are in the interior, now, however.|You and your men should be perfectly safe here.",
+            "s;Simon;I wasn't aware the capital was in such a state.|I thought the military kept order here?",
+            "s;Morrissey;They are well-trained in crushing dissent.{w} No armed rebellion has have approached Troy.",
+            "s;Simon;Then why the fear?",
+            "s;Morrissey;They are no peacekeepers.{w} So long as the criminals don't challenge the crown,|they're left alone.|The civilian watchmen here are known to be corrupt,|and the military protects only here, the inner city.",
+            "s;Simon;Lord Morrissey, the more I see of Trojan land...|Is it really possible for them to aid us?",
+            "s;Morrissey;Perhaps, perhaps not.{w} Either way, we ought to take stock of their strength.|Take heed of what I said at the garrison:|If we are not careful, they may become as much of a threat as any rebel.",
+            "s;Simon;I remember.",
+            "s;Morrissey;Good.{w} I'll await you by the castle doors.|Join me whenever you're ready.",
+            "multi_remove_portrait;Simon;Morrissey",
+            "",
+            "music;Autumn;2000",
+            "",
+            "move_unit;Morrissey;16,13;no_follow"
+        ]
+    }
+]

@@ -5,7 +5,9 @@
         "tilemap": "TroyRoam",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Autumn"
+        },
         "objective": {
             "simple": "Explore",
             "win": "Explore",
@@ -50,7 +52,7 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    14
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": false
