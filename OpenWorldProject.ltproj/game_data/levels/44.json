@@ -915,6 +915,62 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 3,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ],
+                    [
+                        "Short Spear",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    8,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 3,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    30,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1015,7 +1071,9 @@
                     "130",
                     "131",
                     "132",
-                    "133"
+                    "133",
+                    "134",
+                    "135"
                 ],
                 "positions": {}
             },
@@ -1058,6 +1116,14 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "d",
                 "trigger_threshold": 1
             }
         ]
