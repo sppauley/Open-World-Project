@@ -1,0 +1,22 @@
+[
+    {
+        "name": "SoldierTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"102\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;SoldierBlue;Left;mirror",
+            "wait;200",
+            "add_portrait;Simon;Right;right",
+            "s;SoldierBlue;Hah, that'll teach you.",
+            "wait;200",
+            "mirror_portrait;SoldierBlue",
+            "s;SoldierBlue;Oh! Err...|He's just drunk sir, don't worry.",
+            "s;Simon;...",
+            "multi_remove_portrait;SoldierBlue;Simon"
+        ]
+    }
+]
