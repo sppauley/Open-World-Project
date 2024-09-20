@@ -19,7 +19,7 @@
             "",
             "# adds talks",
             "add_talk;Simon;Roland",
-            "add_talk;Simon;BoxMover",
+            "#add_talk;Simon;BoxMover",
             "add_talk;Simon;Doorman",
             "add_talk;Simon;NervousCleric",
             "",
