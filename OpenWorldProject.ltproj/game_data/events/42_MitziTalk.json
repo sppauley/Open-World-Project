@@ -1,0 +1,24 @@
+[
+    {
+        "name": "MitziTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"Mitzi\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mitzi;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Simon;How does it feel to be home?",
+            "s;Mitzi;The same as always.{w} Little changes here, Simon.",
+            "s;Simon;Truly? Even in the outer city?",
+            "s;Mitzi;Little of import changes.{w} The plebians may do what they will.|But history takes no note of them.",
+            "s;Simon;Do you really believe that is true?|Boudica was a village warrior, but she fights with us now.",
+            "s;Mitzi;Boudica will not be even a footnote in the history of your journey.|Do not confuse us with her.|The people in the city below us mean nothing.",
+            "",
+            "multi_remove_portrait;Mitzi;Simon"
+        ]
+    }
+]
