@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "StaggeringLight",
+        "name": "Staggering Light",
+        "desc": "If foe cannot counterattack, +6 stagger damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            8
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stagger_bonus",
+                6
+            ],
+            [
+                "combat_condition",
+                "not combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon())"
+            ]
+        ]
+    }
+]
