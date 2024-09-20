@@ -912,7 +912,7 @@
                 "ai_group": "c",
                 "starting_position": [
                     8,
-                    9
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -939,7 +939,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    30,
+                    31,
                     9
                 ],
                 "starting_traveler": null,
@@ -1338,10 +1338,6 @@
             },
             {
                 "nid": "e",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
