@@ -690,6 +690,10 @@
                     [
                         "Silver Bow",
                         false
+                    ],
+                    [
+                        "Tomereaver",
+                        false
                     ]
                 ],
                 "starting_skills": [],

@@ -12,7 +12,7 @@
             "    map_anim;Snag;21,5",
             "    remove_region;CenterVillage",
             "elif;game.check_alive('Gustav')",
-            "    give_item;{unit};Lancereaver",
+            "    give_item;{unit};Tomereaver",
             "else",
             "    add_portrait;Simon;Left",
             "    speak;Simon;It looks like they raided the ruins already.",
