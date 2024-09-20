@@ -2,7 +2,7 @@
     {
         "nid": "45",
         "name": "Clotho",
-        "tilemap": "InsideClothoTemple",
+        "tilemap": "ClothoBattle",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    11
+                    14,
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -34,10 +34,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Boss",
                 "starting_position": [
                     8,
-                    6
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -47,17 +47,74 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Boss",
                 "starting_position": [
                     10,
-                    6
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Prep",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    33
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prep_1",
+                "region_type": "formation",
+                "position": [
+                    3,
+                    33
+                ],
+                "size": [
+                    3,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Prep_2",
+                "region_type": "formation",
+                "position": [
+                    4,
+                    32
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "Boss",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
