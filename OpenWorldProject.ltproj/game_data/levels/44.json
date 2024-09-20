@@ -43,6 +43,19 @@
                 "generic": false
             },
             {
+                "nid": "Edric",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    19,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Roland",
                 "team": "other",
                 "ai": "SupportGuard",
@@ -1119,6 +1132,102 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 17,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    17,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 17,
+                "klass": "Mage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    21,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 5,
+                "klass": "Swordmaster",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    14,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 5,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "e",
+                "starting_position": [
+                    24,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1224,7 +1333,15 @@
                     "135",
                     "136",
                     "137",
-                    "138"
+                    "138",
+                    "139",
+                    "140",
+                    "142",
+                    "Edric",
+                    "141",
+                    "143",
+                    "144",
+                    "145"
                 ],
                 "positions": {}
             },
@@ -1275,6 +1392,14 @@
             },
             {
                 "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "e",
                 "trigger_threshold": 1
             }
         ]
