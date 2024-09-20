@@ -416,7 +416,7 @@
             {
                 "nid": "110",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Roland",
                 "starting_items": [
@@ -440,7 +440,7 @@
             {
                 "nid": "111",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Roland",
                 "starting_items": [
@@ -610,54 +610,6 @@
                     5,
                     22
                 ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "112",
-                "variant": null,
-                "level": 1,
-                "klass": "Crate25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "121",
-                "variant": null,
-                "level": 1,
-                "klass": "Crate25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "123",
-                "variant": null,
-                "level": 1,
-                "klass": "Crate25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -891,6 +843,10 @@
                     [
                         "Enfeeble",
                         false
+                    ],
+                    [
+                        "KnowledgeScroll",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1047,6 +1003,10 @@
                     [
                         "Horseslayer",
                         false
+                    ],
+                    [
+                        "Elixir",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1119,6 +1079,10 @@
                     [
                         "Magebane",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1346,28 +1310,6 @@
                 "positions": {}
             },
             {
-                "nid": "BoxesRight",
-                "units": [
-                    "123",
-                    "112",
-                    "121"
-                ],
-                "positions": {
-                    "123": [
-                        28,
-                        22
-                    ],
-                    "121": [
-                        28,
-                        24
-                    ],
-                    "112": [
-                        28,
-                        23
-                    ]
-                }
-            },
-            {
                 "nid": "PreCombatUnits",
                 "units": [
                     "BoxMover",
@@ -1396,6 +1338,10 @@
             },
             {
                 "nid": "e",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
