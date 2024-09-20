@@ -13,7 +13,12 @@
             "change_team;Lucius;enemy",
             "change_team;Annetta;enemy",
             "add_tag;Annetta;Boss",
-            "add_tag;Lucius;Boss"
+            "add_tag;Lucius;Boss",
+            "",
+            "show_layer;overlay;immediate",
+            "",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

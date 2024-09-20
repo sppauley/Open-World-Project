@@ -5559,10 +5559,79 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "overlay",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "6,20": "Ballista",
+                    "6,29": "Ballista"
+                },
+                "sprite_grid": {
+                    "12,18": [
+                        "mage_ballista",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "12,19": [
+                        "mage_ballista",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "12,26": [
+                        "mage_ballista",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "12,27": [
+                        "mage_ballista",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "6,28": [
+                        "ballista",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "6,29": [
+                        "ballista",
+                        [
+                            1,
+                            1
+                        ]
+                    ],
+                    "6,19": [
+                        "ballista",
+                        [
+                            1,
+                            0
+                        ]
+                    ],
+                    "6,20": [
+                        "ballista",
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
-            "Tower Valni"
+            "Tower Valni",
+            "mage_ballista",
+            "ballista"
         ]
     }
 ]

@@ -886,5 +886,10 @@
         "nid": "ff5town",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "mage_ballista",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
