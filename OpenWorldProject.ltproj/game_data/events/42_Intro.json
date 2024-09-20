@@ -19,7 +19,10 @@
             "level_var;RevealRuins;False",
             "",
             "add_talk;Simon;King",
-            "add_talk;Simon;Morrissey"
+            "add_talk;Simon;Morrissey",
+            "",
+            "add_unit;Mitzi;20,20;immediate",
+            "add_talk;Simon;Mitzi"
         ]
     }
 ]
