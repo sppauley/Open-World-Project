@@ -272,12 +272,12 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 2,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -296,12 +296,12 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 2,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -1091,8 +1091,8 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    32,
-                    3
+                    31,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
