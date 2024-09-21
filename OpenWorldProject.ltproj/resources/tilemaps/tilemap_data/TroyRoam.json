@@ -9503,6 +9503,45 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "escaperoute",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "11,1": "6",
+                    "10,1": "6"
+                },
+                "sprite_grid": {
+                    "11,0": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            9,
+                            23
+                        ]
+                    ],
+                    "12,0": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            9,
+                            23
+                        ]
+                    ],
+                    "10,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            25
+                        ]
+                    ],
+                    "11,1": [
+                        "Improved Castle Tileset Palette 2",
+                        [
+                            21,
+                            25
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [

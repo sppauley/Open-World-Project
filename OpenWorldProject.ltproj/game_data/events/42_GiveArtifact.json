@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "s;Simon;Oh no, it was a trap.",
             "game_var;_goto_level;\"40\"",
-            "win_game"
+            "win_game",
+            "transition;open;1"
         ]
     }
 ]
