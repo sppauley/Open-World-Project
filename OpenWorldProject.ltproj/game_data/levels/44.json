@@ -69,25 +69,6 @@
                 "generic": false
             },
             {
-                "nid": "BoxMover",
-                "variant": null,
-                "level": 1,
-                "klass": "Citizen",
-                "faction": "Roland",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    37,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Doorman",
                 "variant": null,
                 "level": 1,
@@ -1312,7 +1293,6 @@
             {
                 "nid": "PreCombatUnits",
                 "units": [
-                    "BoxMover",
                     "Doorman",
                     "NervousCleric"
                 ],

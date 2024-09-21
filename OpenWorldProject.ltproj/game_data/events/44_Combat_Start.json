@@ -20,8 +20,7 @@
             "region_condition;Escape;unit.team=='other'",
             "arrange_formation",
             "game_var;freely_exit;True",
-            "trigger_script;Global GenericPreps",
-            ""
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]
