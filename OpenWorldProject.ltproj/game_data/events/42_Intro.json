@@ -22,7 +22,10 @@
             "add_talk;Simon;Morrissey",
             "",
             "add_unit;Mitzi;20,20;immediate",
-            "add_talk;Simon;Mitzi"
+            "add_talk;Simon;Mitzi",
+            "",
+            "add_talk;Simon;103",
+            "add_talk;Simon;104"
         ]
     }
 ]
