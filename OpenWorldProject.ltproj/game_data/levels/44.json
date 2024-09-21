@@ -1260,6 +1260,23 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Library",
+                "region_type": "event",
+                "position": [
+                    33,
+                    14
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Investigate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

@@ -1,7 +1,7 @@
 [
     {
         "name": "Library",
-        "trigger": null,
+        "trigger": "Investigate",
         "level_nid": "44",
         "condition": "region.nid == 'Library'",
         "commands": [],
@@ -12,7 +12,20 @@
             "# Simon: maybe he's trying to live up to his ancestors' might by claiming more land?",
             "# Anuki: makes a comment about how Simon's also trying to live up to his house's history",
             "# Simon: admits it",
-            "# * gets an item of some kind? like a ring for House Roland?"
+            "# * gets an item of some kind? like a ring for House Roland?",
+            "move_unit;Simon;34,14",
+            "move_unit;Anuki;33,14;no_block;no_follow",
+            "multi_add_portrait;Simon;Left;Anuki;Right",
+            "s;Simon;Huh. Roland must've been reading this book.",
+            "wait;300",
+            "s;Simon;Looks like historical records of House Roland.{w} It says that House Roland was a dominant force long ago.{w} But much of their land was conquered by Vesner.",
+            "s;Anuki;This was probably before Vesner was preoccupied with trying to defy death then.{w}{br}But I guess that early conquest is why Vesner's territory is so big.",
+            "s;Simon;Well, this makes sense why Roland is so eager to claim more land.{w}{br}Maybe he's just trying to live up to his house's legacy.{w} Restore his house's honor and such.",
+            "s;Anuki;Speaking from experience?",
+            "s;Simon;...",
+            "wait;200",
+            "s;Simon;Yeah, I suppose so.",
+            "multi_remove_portrait;Simon;Anuki"
         ]
     }
 ]

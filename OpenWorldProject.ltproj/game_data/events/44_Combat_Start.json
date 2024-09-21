@@ -12,6 +12,7 @@
             "change_roaming;f",
             "",
             "remove_region;Pool",
+            "remove_region;Library",
             "",
             "remove_group;PreCombatUnits",
             "move_unit;Simon;20,15;immediate",
