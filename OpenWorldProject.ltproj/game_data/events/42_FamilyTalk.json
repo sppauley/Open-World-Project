@@ -16,7 +16,7 @@
             "s;Woman1;Ah but...",
             "s;Woman1;I just can't believe you're already being deployed.",
             "s;SoldierBlue;It's a bandit gang in the north.|Nothing to worry about!",
-            "s;Woman1;Oh, be careful please.{w} I want an unwashed peasant to land a lucky blow.",
+            "s;Woman1;Oh, be careful please.{w} I don't want an unwashed peasant to land a lucky blow.",
             "s;SoldierBlue;They won't get the chance.|I'll make you proud ma, I promise.",
             "",
             "multi_remove_portrait;Woman1;SoldierBlue"
