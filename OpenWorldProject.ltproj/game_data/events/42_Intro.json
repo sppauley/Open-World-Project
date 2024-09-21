@@ -24,8 +24,15 @@
             "add_unit;Mitzi;20,20;immediate",
             "add_talk;Simon;Mitzi",
             "",
+            "add_talk;Simon;102",
             "add_talk;Simon;103",
-            "add_talk;Simon;104"
+            "add_talk;Simon;104",
+            "",
+            "if;v(\"MetHeretic\") == True and v(\"RaymondRecruited\") != True",
+            "    load_unit;Raymond",
+            "    add_unit;Raymond;29,23;immediate",
+            "    add_talk;Simon;Raymond",
+            "end"
         ]
     }
 ]

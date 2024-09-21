@@ -26,7 +26,9 @@
             "s;Raymond;I'm in the middle of trying to find out.{w}{br}So buzz off.",
             "multi_remove_portrait;Simon;Raymond",
             "",
-            "remove_talk;Simon;Raymond"
+            "remove_talk;Simon;Raymond",
+            "",
+            "game_var;MetHeretic;True"
         ]
     }
 ]

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "RaymondTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"Raymond\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Raymond;Right",
+            "s;Raymond;Simon!",
+            "add_portrait;Simon;Left",
+            "s;Simon;You... we met at Lachesis's temple, right?",
+            "s;Raymond;We did.{w} I was investigating a way in, but now...",
+            "s;Simon;You found one?",
+            "s;Raymond;No, but I've decided that you're my best chance.",
+            "s;Simon;Why would I want to break into Lachesis's shrine?",
+            "s;Raymond;Because maybe, like me, you've discovered something.|Your \"blessing\" is a curse in disguise.",
+            "s;Simon;You're blessed by the Fates too?",
+            "s;Raymond;By Lachesis.{w} My blade can cut through any flesh,|but is just as likely to cut through my own.",
+            "s;Simon;I see. But my blessing isn't like that.",
+            "s;Raymond;I promise that it is.{w} Whatever boon it may grant,|I promise it is equally a curse.",
+            "s;Simon;...",
+            "",
+            "music;MoveOut;2000",
+            "s;Raymond;At the very least, you want me at your side.|Opening locks or necks, makes no difference to me.",
+            "s;Simon;A thief's help is invaluable.|Very well.{w} I don't trust your motives,|but you may work with us for now.",
+            "",
+            "change_team;Raymond;player",
+            "s;Raymond;You won't regret it.",
+            "multi_remove_portrait;Raymond;Simon",
+            "",
+            "music_clear;2000",
+            "",
+            "remove_talk;Simon;Raymond",
+            "game_var;RaymondRecruited;True"
+        ]
+    }
+]

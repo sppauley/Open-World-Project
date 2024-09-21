@@ -18,6 +18,10 @@
             "add_talk;Simon;104",
             "if;v(\"AlinaMetDancer\") == True",
             "    remove_unit;104",
+            "end",
+            "",
+            "if;v(\"MetHeretic\") == True",
+            "    remove_unit;Raymond",
             "end"
         ]
     }
