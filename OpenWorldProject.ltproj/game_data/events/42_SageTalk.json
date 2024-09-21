@@ -13,8 +13,20 @@
             "add_portrait;Simon;Left;left",
             "",
             "s;GenericMage;Hey there!",
-            "s;Simon;Hello?",
-            "# propaganda dude"
+            "s;Simon;Good morning?",
+            "# propaganda dude",
+            "s;GenericMage;Have you heard tale of the king's illness?",
+            "s;Simon;I have, yes.{w} Why?",
+            "s;GenericMage;I seek to assure you, sire, that they are that-|merely tales.",
+            "s;Simon;Truly?",
+            "s;GenericMage;Indeed, indeed.{w} Ne'er-do-wells seek to demean the king!|But the poor decisions made last season were the fault of advisors,|and they have been duly executed?",
+            "s;Simon;What are you referring to?",
+            "s;GenericMage;The order to plant corn, the increased conscription,|really, anything!",
+            "s;Simon;Anything?",
+            "s;GenericMage;The Trojan bloodline is healthy, sir.|I simply must ensure you know that.",
+            "s;Simon;...I see.",
+            "",
+            "multi_remove_portrait;GenericMage;Simon"
         ]
     }
 ]
