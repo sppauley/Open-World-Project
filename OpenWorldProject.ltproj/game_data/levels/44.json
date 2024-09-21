@@ -128,7 +128,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 12,
+                "level": 3,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -152,7 +152,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 12,
+                "level": 3,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -176,7 +176,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 12,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -200,7 +200,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 12,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -224,7 +224,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -248,7 +248,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -272,12 +272,12 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 2,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -296,12 +296,12 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 2,
-                "klass": "Sniper",
+                "level": 15,
+                "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Bow",
+                        "Steel Bow",
                         false
                     ]
                 ],
@@ -320,7 +320,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -464,7 +464,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Halberdier",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -540,7 +540,7 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Swordmaster",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -832,7 +832,7 @@
             {
                 "nid": "132",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -864,7 +864,7 @@
             {
                 "nid": "133",
                 "variant": null,
-                "level": 8,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -912,7 +912,7 @@
                 "ai_group": "c",
                 "starting_position": [
                     8,
-                    9
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -939,7 +939,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    30,
+                    31,
                     9
                 ],
                 "starting_traveler": null,
@@ -1091,8 +1091,8 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    32,
-                    3
+                    31,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true

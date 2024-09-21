@@ -4,19 +4,19 @@
         "name": "Edric",
         "desc": "A general in Morrissey's army.\nA cunning tactician.",
         "variant": "",
-        "level": 20,
+        "level": 12,
         "klass": "Halberdier",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 48,
+            "HP": 52,
             "PSE": 25,
-            "MOV": 8,
-            "SPD": 16,
-            "DEX": 17,
-            "CON": 15,
-            "MAG": 18
+            "MOV": 6,
+            "SPD": 17,
+            "DEX": 21,
+            "CON": 16,
+            "MAG": 7
         },
         "growths": {},
         "stat_cap_modifiers": {},

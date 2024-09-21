@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Arena Loss",
+        "trigger": "combat_end",
+        "level_nid": "29",
+        "condition": "game.get_player_units() == []",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game"
+        ]
+    }
+]
