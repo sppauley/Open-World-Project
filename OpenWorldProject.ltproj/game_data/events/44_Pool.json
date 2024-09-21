@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Pool",
+        "trigger": "Investigate",
+        "level_nid": "44",
+        "condition": "region.nid == 'Pool'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;31,5;;closest",
+            "move_unit;Anuki;32,6;;closest;no_follow;no_block",
+            "multi_add_portrait;Simon;Left;Anuki;Right",
+            "s;Anuki;Looks like Roland really knows how to relax.{w}{br}Morrissey Castle always felt so...{w} functional.{w}{br}I couldn't imagine father installing an elaborate bath like this.",
+            "s;Simon;Yeah, this whole place feels like it's suited for luxury, not defense.",
+            "wait;300",
+            "s;Simon;Was Roland ever attacked by bandits or groups like the New Dawn?{w}{br}I feel like he wouldn't last long if so.",
+            "s;Anuki;Honestly, not that I know of, which kind of surprises me.{w}{br}He's definitely not projecting the same kind of strength as House Morrissey.",
+            "s;Simon;Maybe the Fates want him around?",
+            "s;Anuki;I can't imagine why.",
+            "wait;200",
+            "s;Anuki;It's probably more likely that he got lucky.{w}{br}His land falls safely between House Morrissey, Troy, and the outskirts of Vesner's old lands,{w} so there's not a great way for bandits to get to him.",
+            "s;Simon;Then I guess he can keep living in luxury until something changes.",
+            "s;Anuki;Must be nice.",
+            "multi_remove_portrait;Simon;Anuki"
+        ]
+    }
+]

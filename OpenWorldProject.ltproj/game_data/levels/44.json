@@ -1243,6 +1243,23 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Pool",
+                "region_type": "event",
+                "position": [
+                    30,
+                    3
+                ],
+                "size": [
+                    9,
+                    5
+                ],
+                "sub_nid": "Investigate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

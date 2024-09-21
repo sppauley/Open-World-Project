@@ -11,6 +11,8 @@
             "remove_talk;Simon;Roland",
             "change_roaming;f",
             "",
+            "remove_region;Pool",
+            "",
             "remove_group;PreCombatUnits",
             "move_unit;Simon;20,15;immediate",
             "move_unit;Anuki;18,15;immediate",
