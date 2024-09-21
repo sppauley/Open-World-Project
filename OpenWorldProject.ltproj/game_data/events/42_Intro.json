@@ -27,6 +27,8 @@
             "add_talk;Simon;102",
             "add_talk;Simon;103",
             "add_talk;Simon;104",
+            "add_talk;Simon;108",
+            "add_talk;Simon;109",
             "",
             "if;v(\"MetHeretic\") == True and v(\"RaymondRecruited\") != True",
             "    load_unit;Raymond",

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "SageTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"109\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;GenericMage;Right",
+            "wait;200",
+            "add_portrait;Simon;Left;left",
+            "",
+            "s;GenericMage;Hey there!",
+            "s;Simon;Hello?",
+            "# propaganda dude"
+        ]
+    }
+]

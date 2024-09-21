@@ -1,0 +1,17 @@
+[
+    {
+        "name": "SquadTalk",
+        "trigger": "on_talk",
+        "level_nid": "42",
+        "condition": "unit2.nid == \"108\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mercenary1;Left",
+            "s;Mercenary1;Form up, boys!",
+            "s;Mercenary1;A patrol spotted a group of refugees who crossed to the northeast.|We're going out to round 'em up and send 'em back to where they came from.|We're not anticipating resistance,{w} but don't let any of them slip through.|Glory to the Trojans!",
+            "remove_portrait;Mercenary1"
+        ]
+    }
+]
