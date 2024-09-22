@@ -1,0 +1,25 @@
+[
+    {
+        "name": "EndingOverview",
+        "trigger": "level_start",
+        "level_nid": "49",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;v(\"EndingChosen\") == \"Clotho\"",
+            "    trigger_script;49 ClothoEnding",
+            "elif;v(\"EndingChosen\") == \"Lachesis\"",
+            "    trigger_script;49 LachesisEnding",
+            "elif;v(\"EndingChosen\") == \"Atropos\"",
+            "    trigger_script;49 AtroposEnding",
+            "elif;v(\"FatesDefied\") == \"True\"",
+            "    trigger_script;49 DefiedEnding",
+            "else",
+            "    s;Simon;Fuck you",
+            "    win_game",
+            "end"
+        ]
+    }
+]

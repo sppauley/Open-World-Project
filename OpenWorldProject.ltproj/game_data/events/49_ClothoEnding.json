@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ClothoEnding",
+        "trigger": null,
+        "level_nid": "49",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Music here",
+            "",
+            "credits;A Game By;SP,KD;wait;center"
+        ]
+    }
+]
