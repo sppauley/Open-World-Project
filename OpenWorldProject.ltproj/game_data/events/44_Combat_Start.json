@@ -85,7 +85,7 @@
             "s;Anuki;This seems bad.{w} What should we do?",
             "s;Simon;I don't know, but I think Roland is in grave danger.",
             "s;Anuki;Ugh!{w} Does father really want Roland dead? Why?",
-            "s;Simon;I'm not sure, but I think he can be reasoned with.{w}{br}I don't want to let him die.",
+            "s;Simon;I'm not sure, but I think Roland can be reasoned with.{w}{br}I don't want to let him die.",
             "s;Anuki;Damn it, Simon! Neither do I.{w} But am I really going to defy one of father's generals?",
             "wait;300",
             "s;Anuki;Ugh, damn it all.{w} I'm really sticking my neck out for Lord Roland of all people, aren't I?{w}{br}But let's go.",
