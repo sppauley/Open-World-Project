@@ -763,5 +763,8 @@
     "44_Lounge",
     "44_TalkScholar",
     "45_ForceTurnwheelTest",
-    "MorrisseyCastleRoam_MorrisseyBetrayal"
+    "MorrisseyCastleRoam_MorrisseyBetrayal",
+    "global_AnukiLoyaltyNotification",
+    "MorrisseyCastleRoam_AnukiLoyaltyConversation",
+    "MorrisseyCastleRoam_AnukiLoyaltyTalk"
 ]

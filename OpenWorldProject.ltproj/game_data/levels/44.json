@@ -128,7 +128,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -152,7 +152,7 @@
             {
                 "nid": "102",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -176,7 +176,7 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -200,7 +200,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -320,7 +320,7 @@
             {
                 "nid": "109",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -616,7 +616,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 9,
+                "level": 3,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -648,7 +648,7 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 7,
+                "level": 2,
                 "klass": "Sniper",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -676,7 +676,7 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 16,
+                "level": 9,
                 "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -700,7 +700,7 @@
             {
                 "nid": "127",
                 "variant": null,
-                "level": 16,
+                "level": 9,
                 "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -724,7 +724,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 11,
+                "level": 2,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -752,7 +752,7 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 15,
+                "level": 9,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -776,7 +776,7 @@
             {
                 "nid": "130",
                 "variant": null,
-                "level": 15,
+                "level": 9,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -800,7 +800,7 @@
             {
                 "nid": "131",
                 "variant": null,
-                "level": 6,
+                "level": 3,
                 "klass": "Swordmaster",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -892,8 +892,8 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 3,
-                "klass": "General",
+                "level": 17,
+                "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -920,12 +920,12 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 3,
-                "klass": "General",
+                "level": 17,
+                "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Axe",
+                        "Steel Axe",
                         false
                     ],
                     [
@@ -996,7 +996,7 @@
             {
                 "nid": "138",
                 "variant": null,
-                "level": 17,
+                "level": 14,
                 "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1072,7 +1072,7 @@
             {
                 "nid": "142",
                 "variant": null,
-                "level": 17,
+                "level": 14,
                 "klass": "Myrmidon",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1100,12 +1100,12 @@
             {
                 "nid": "141",
                 "variant": null,
-                "level": 17,
+                "level": 12,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Fimbulvetr",
+                        "Elfire",
                         false
                     ]
                 ],
@@ -1124,12 +1124,12 @@
             {
                 "nid": "143",
                 "variant": null,
-                "level": 17,
+                "level": 12,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Fimbulvetr",
+                        "Elfire",
                         false
                     ]
                 ],
@@ -1389,6 +1389,10 @@
             },
             {
                 "nid": "e",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
