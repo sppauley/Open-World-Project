@@ -18,7 +18,11 @@
             "show_layer;overlay;immediate",
             "",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "# Redo this map: Make Annetta be in a forward room and have Clotho's blessing.",
+            "# It's still defeat both bosses, but killing her forces turnwheel, so you need to ",
+            "# kill Lucius, which will cause her to take him and teleport away"
         ]
     }
 ]
