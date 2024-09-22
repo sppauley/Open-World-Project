@@ -1,0 +1,24 @@
+[
+    {
+        "name": "DEBUGEndings",
+        "trigger": "level_start",
+        "level_nid": "49",
+        "condition": "cf.SETTINGS['debug']",
+        "commands": [],
+        "only_once": false,
+        "priority": 23,
+        "_source": [
+            "choice;DEBUGChooseEndings;Debug ending;Atropos,Lachesis,Clotho,Defy",
+            "",
+            "if;v(\"_last_choice\") == \"Atropos\"",
+            "    game_var;EndingChosen;\"Atropos\"",
+            "elif;v(\"_last_choice\") == \"Lachesis\"",
+            "    game_var;EndingChosen;\"Lachesis\"",
+            "elif;v(\"_last_choice\") == \"Clotho\"",
+            "    game_var;EndingChosen;\"Clotho\"",
+            "elif;v(\"_last_choice\") == \"Defy\"",
+            "    game_var;FatesDefied;True",
+            "end"
+        ]
+    }
+]
