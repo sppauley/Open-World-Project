@@ -8,9 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# I don't have a vision here either, could be fun to make it the normal morrissey castle map",
-            "# Wraps in well with rest of game?",
-            "change_team;MorrisseyBoss;enemy"
+            "# debugging for tests",
+            "game_var;AnukiLoyal;True",
+            "",
+            "# if Anuki is loyal, she joins you",
+            "if;game.game_vars['AnukiLoyal']==True",
+            "    add_unit;Anuki;10,4",
+            "end"
         ]
     }
 ]

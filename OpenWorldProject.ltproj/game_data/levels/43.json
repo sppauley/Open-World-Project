@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    10
+                    9,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -35,16 +35,18 @@
                 "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }
         ],
         "regions": [],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
