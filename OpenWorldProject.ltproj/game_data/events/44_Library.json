@@ -8,11 +8,6 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "# history of House Roland: once much more powerful --- kind of a force to be reckoned with until it was taken out by Vesner in his youth (much stronger before he grew obsessed with defying death and securing his legacy)",
-            "# Simon: maybe he's trying to live up to his ancestors' might by claiming more land?",
-            "# Anuki: makes a comment about how Simon's also trying to live up to his house's history",
-            "# Simon: admits it",
-            "# * gets an item of some kind? like a ring for House Roland?",
             "move_unit;Simon;34,14",
             "move_unit;Anuki;33,14;no_block;no_follow",
             "multi_add_portrait;Simon;Left;Anuki;Right",
