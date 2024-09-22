@@ -1,0 +1,18 @@
+[
+    {
+        "name": "AnukiLoyaltyTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 18,
+        "_source": [
+            "add_unit;Anuki;7,8;immediate;no_warn",
+            "add_talk;Simon;Anuki",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Anuki",
+            "set_unit_field;Anuki;LoyaltyTalkComplete;False"
+        ]
+    }
+]
