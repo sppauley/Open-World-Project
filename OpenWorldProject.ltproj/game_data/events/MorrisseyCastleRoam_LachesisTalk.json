@@ -1,0 +1,30 @@
+[
+    {
+        "name": "LachesisTalk",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Lachesis\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lachesis;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Lachesis;Simon. The odds are weighted against you.|I am Lachesis, sister of the Fates.|Will you come with me?",
+            "",
+            "choice;LachesisChoice;Take her hand?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "",
+            "    s;Lachesis;Very well. May the odds roll in your favor.",
+            "    game_var;EndingChosen;\"Lachesis\"",
+            "    multi_remove_portrait;Simon;Lachesis",
+            "    trigger_script;MorrisseyCastleRoam BetrayalEnding",
+            "else",
+            "",
+            "    s;Lachesis;Hmm. Step carefully, Simon.",
+            "    multi_remove_portrait;Simon;Lachesis",
+            "end"
+        ]
+    }
+]

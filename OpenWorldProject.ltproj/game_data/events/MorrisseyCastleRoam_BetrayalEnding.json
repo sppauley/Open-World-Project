@@ -1,0 +1,36 @@
+[
+    {
+        "name": "BetrayalEnding",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;Simon;9,6",
+            "reset;Morrissey",
+            "",
+            "add_portrait;Morrissey;Right",
+            "s;Morrissey;Are you ready to continue?|The core of my library is past here.",
+            "add_portrait;Simon;Left",
+            "s;Simon;I apologize. Lead the way.",
+            "multi_remove_portrait;Morrissey;Simon",
+            "",
+            "move_unit;Morrissey;9,0",
+            "remove_unit;Morrissey",
+            "",
+            "wait;500",
+            "",
+            "move_unit;Simon;9,0",
+            "wait;500",
+            "remove_unit;Simon",
+            "",
+            "transition;close;1000",
+            "",
+            "game_var;_goto_level;\"43\"",
+            "win_game",
+            "transition;open;1"
+        ]
+    }
+]

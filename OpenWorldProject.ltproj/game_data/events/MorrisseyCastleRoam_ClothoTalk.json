@@ -1,0 +1,30 @@
+[
+    {
+        "name": "ClothoTalk",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Clotho\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Clotho;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Clotho;Simon. Of my sisters, I know you the best.|It is my blessing that has made your journey possible.|Will you accept my gift, one final time?",
+            "",
+            "choice;ClothoChoice;Take her hand?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "",
+            "    s;Clotho;You have chosen wisely.|I will care well for you.",
+            "    game_var;EndingChosen;\"Clotho\"",
+            "    multi_remove_portrait;Simon;Clotho",
+            "    trigger_script;MorrisseyCastleRoam BetrayalEnding",
+            "else",
+            "",
+            "    s;Clotho;Disappointing.{w} I promise, you have much to gain from walking with me.",
+            "    multi_remove_portrait;Simon;Clotho",
+            "end"
+        ]
+    }
+]

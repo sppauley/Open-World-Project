@@ -763,5 +763,9 @@
     "44_Lounge",
     "44_TalkScholar",
     "45_ForceTurnwheelTest",
-    "MorrisseyCastleRoam_MorrisseyBetrayal"
+    "MorrisseyCastleRoam_MorrisseyBetrayal",
+    "MorrisseyCastleRoam_ClothoTalk",
+    "MorrisseyCastleRoam_AtroposTalk",
+    "MorrisseyCastleRoam_LachesisTalk",
+    "MorrisseyCastleRoam_BetrayalEnding"
 ]
