@@ -49,6 +49,13 @@
             "    center_cursor;53",
             "    wait;300",
             "    reveal_overworld_road;27;53",
+            "end",
+            "",
+            "if;v(\"RevealAnukiMission\")",
+            "    reveal_overworld_node;66",
+            "    center_cursor;66",
+            "    wait;300",
+            "    reveal_overworld_road;30;66",
             "end"
         ]
     }

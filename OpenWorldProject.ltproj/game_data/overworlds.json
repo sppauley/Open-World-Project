@@ -746,6 +746,25 @@
                         "enabled": true
                     }
                 ]
+            },
+            {
+                "nid": "66",
+                "name": "Roland Manor",
+                "pos": [
+                    10,
+                    10
+                ],
+                "icon": "town",
+                "level": "44",
+                "menu_options": [
+                    {
+                        "nid": "Roam",
+                        "event": null,
+                        "option_name": "Roam",
+                        "visible": true,
+                        "enabled": true
+                    }
+                ]
             }
         ],
         "map_paths": {
@@ -1351,6 +1370,20 @@
                 [
                     11,
                     18
+                ]
+            ],
+            "(8, 9)-(10, 10)": [
+                [
+                    8,
+                    9
+                ],
+                [
+                    9,
+                    9
+                ],
+                [
+                    10,
+                    10
                 ]
             ]
         },

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "AnukiLoyaltyNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "int(game.get_unit(\"Anuki\").get_field(\"BattlesBeforeLoyaltyTalk\")) == int(game.get_unit(\"Anuki\").get_field(\"BattlesDeployed\"))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Anuki;Left",
+            "s;Anuki;Hey Simon, come find me when we're back at the castle.{w}{br}Something weird is going on.",
+            "remove_portrait;Anuki",
+            "",
+            "set_unit_field;Anuki;LoyaltyStatus;\"This unit's loyalty mission has been unlocked.\"",
+            "",
+            "trigger_script;Global LoyaltyTutorial"
+        ]
+    }
+]
