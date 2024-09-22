@@ -8,6 +8,9 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "move_unit;Simon;5,15",
+            "move_unit;Anuki;4,16;no_block;no_follow",
+            "",
             "multi_add_portrait;Simon;Left;Anuki;Right",
             "s;Anuki;Looks comfortable.{w} I can see why Roland rarely left his manor.",
             "s;Simon;Did he not interact with the other lords much then?",

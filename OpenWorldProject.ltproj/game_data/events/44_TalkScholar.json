@@ -1,0 +1,33 @@
+[
+    {
+        "name": "TalkScholar",
+        "trigger": "on_talk",
+        "level_nid": "44",
+        "condition": "unit2.nid == 'Scholar'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "remove_talk;Simon;Scholar",
+            "add_portrait;Man3;Right;;CloseEyes;mirror",
+            "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft",
+            "s;Man3;Oh Atropos, please let House Roland's tapestry continue.",
+            "s;Anuki;Sorry to interrupt your prayer, but is everything alright?",
+            "expression;Man3;OpenEyes",
+            "bop_portrait;Man3;no_block",
+            "s;Man3;Ack!",
+            "mirror_portrait;Man3",
+            "s;Man3;Sorry, sorry.{w} You must be Lord Roland's guests.{w}{br}Is there anything you require from the library?",
+            "s;Anuki;Not really.{w} I'm just wondering about your prayer.{w}{br}What are you worried about happening to House Roland?",
+            "s;Man3;Oh, nothing at all.{w} I simply wish to celebrate his lordship's rule.{w}{br}Now, if you'll excuse me.",
+            "mirror_portrait;Man3",
+            "move_portrait;Man3;OffscreenRight;1.5",
+            "wait;150",
+            "move_portrait;Simon;MidRight",
+            "mirror_portrait;Simon",
+            "s;Simon;It looks like they're pretty scared of House Morrissey's arrival.",
+            "s;Anuki;I mean, Roland's troops are pretty pitiful.{w}{br}But it's not like we're mounting an attack or anything.{w}{br}I think Roland's staff just needs to calm down.",
+            "multi_remove_portrait;Simon;Anuki"
+        ]
+    }
+]
