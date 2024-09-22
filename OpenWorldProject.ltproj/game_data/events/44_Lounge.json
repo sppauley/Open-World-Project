@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Lounge",
+        "trigger": "Investigate",
+        "level_nid": "44",
+        "condition": "region.nid == 'Lounge'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Simon;Left;Anuki;Right",
+            "s;Anuki;Looks comfortable.{w} I can see why Roland rarely left his manor.",
+            "s;Simon;Did he not interact with the other lords much then?",
+            "s;Anuki;Not to my knowledge at least.{w}{br}We'd only see him when father was trying to get our land back.{w}{br}And it's not like Roland did much to help anyone except himself.{w}{br}He was barely holding bandits back from his own land.",
+            "s;Simon;...",
+            "s;Anuki;What's wrong?",
+            "s;Simon;...",
+            "wait;200",
+            "s;Simon;I guess I'm just ashamed to admit that House Verstadt has been the same under my rule.{w}{br}I rarely worked with the remaining lords.{w} And I did a pitiful job of protecting our lands from the New Dawn.",
+            "wait;200",
+            "s;Anuki;I mean, yeah, you're right.",
+            "s;Simon;Not what I was hoping to hear...",
+            "s;Anuki;I barely knew you existed, even though our houses bordered each other.{w}{br}And yes, the New Dawn attacked and you couldn't defend.",
+            "s;Simon;...",
+            "s;Anuki;But at the same time, I don't know what I would have done if I were put in your position.{w}{br}I'm glad I wasn't stuck trying to rule without guidance.",
+            "wait;150",
+            "s;Anuki;And look, I hate to admit it to your face,{w} but you've got guts doing all you've done after your house fell.",
+            "s;Simon;Thanks.{w} It turns out all of this has been a cruel wakeup call.{w}{br}If I'm still ruling after all of this is done, I won't make the same mistakes again.",
+            "multi_remove_portrait;Simon;Anuki"
+        ]
+    }
+]

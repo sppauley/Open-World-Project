@@ -13,6 +13,7 @@
             "",
             "remove_region;Pool",
             "remove_region;Library",
+            "remove_region;Lounge",
             "",
             "remove_group;PreCombatUnits",
             "move_unit;Simon;20,15;immediate",

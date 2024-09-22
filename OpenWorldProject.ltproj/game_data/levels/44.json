@@ -1277,6 +1277,23 @@
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Lounge",
+                "region_type": "event",
+                "position": [
+                    0,
+                    13
+                ],
+                "size": [
+                    7,
+                    4
+                ],
+                "sub_nid": "Investigate",
+                "condition": "True",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [

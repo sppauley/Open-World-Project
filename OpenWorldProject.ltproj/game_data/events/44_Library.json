@@ -3,7 +3,7 @@
         "name": "Library",
         "trigger": "Investigate",
         "level_nid": "44",
-        "condition": "region.nid == 'Library'",
+        "condition": "region.nid == 'Library' and game.game_vars['RolandLibrary'] != 1",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -19,13 +19,15 @@
             "s;Simon;Huh. Roland must've been reading this book.",
             "wait;300",
             "s;Simon;Looks like historical records of House Roland.{w} It says that House Roland was a dominant force long ago.{w} But much of their land was conquered by Vesner.",
-            "s;Anuki;This was probably before Vesner was preoccupied with trying to defy death then.{w}{br}But I guess that early conquest is why Vesner's territory is so big.",
+            "s;Anuki;That was probably before Vesner was preoccupied with trying to defy death then.{w}{br}But I guess that early conquest is why Vesner's territory is so big.",
             "s;Simon;Well, this makes sense why Roland is so eager to claim more land.{w}{br}Maybe he's just trying to live up to his house's legacy.{w} Restore his house's honor and such.",
             "s;Anuki;Speaking from experience?",
             "s;Simon;...",
             "wait;200",
             "s;Simon;Yeah, I suppose so.",
-            "multi_remove_portrait;Simon;Anuki"
+            "multi_remove_portrait;Simon;Anuki",
+            "give_item;Simon;Secret Book",
+            "game_var;RolandLibrary;1"
         ]
     }
 ]
