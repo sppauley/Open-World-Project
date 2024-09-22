@@ -659,6 +659,10 @@
                     [
                         "Tomereaver",
                         false
+                    ],
+                    [
+                        "KnowledgeScroll",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -813,7 +817,7 @@
                         false
                     ],
                     [
-                        "KnowledgeScroll",
+                        "VantageManual",
                         true
                     ]
                 ],

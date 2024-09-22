@@ -307,5 +307,9 @@
     {
         "nid": "{GabrielKnight} (Blessed&Killer) Bow 1",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Pikmin} Adept Skill Book",
+        "subicon_dict": {}
     }
 ]
