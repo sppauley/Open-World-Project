@@ -24,6 +24,7 @@
             "",
             "if;v(\"EndingAvailable\") == True",
             "    add_talk;Simon;Morrissey",
+            "    change_music;player_phase;ThraciaFate",
             "end"
         ]
     }

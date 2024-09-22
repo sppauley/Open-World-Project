@@ -126,5 +126,9 @@
     {
         "nid": "EndingAvailable",
         "desc": "Can the Morrissey Betrayal begin?"
+    },
+    {
+        "nid": "FatesDefied",
+        "desc": "Have all three artifacts been destroyed?"
     }
 ]

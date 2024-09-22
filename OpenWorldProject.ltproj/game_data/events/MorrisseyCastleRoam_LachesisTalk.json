@@ -11,6 +11,8 @@
             "add_portrait;Lachesis;Right",
             "add_portrait;Simon;Left",
             "",
+            "if;game.check_alive(\"LadyJane\") and game.get_unit(\"LadyJane\").team == \"player\"",
+            "",
             "s;Lachesis;Simon. The odds are weighted against you.|I am Lachesis, sister of the Fates.|Will you come with me?",
             "",
             "choice;LachesisChoice;Take her hand?;Yes,No",
@@ -24,6 +26,12 @@
             "",
             "    s;Lachesis;Hmm. Step carefully, Simon.",
             "    multi_remove_portrait;Simon;Lachesis",
+            "end",
+            "",
+            "else",
+            "",
+            "s;Lachesis;Simon. The scales have tipped against you.|Though it pains me, you are not ready to take my hand.",
+            "",
             "end"
         ]
     }

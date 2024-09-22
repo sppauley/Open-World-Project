@@ -8,6 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "remove_unit;Clotho;warp",
+            "wait;200",
+            "remove_unit;Atropos;warp",
+            "wait;200",
+            "remove_unit;Lachesis;warp",
+            "wait;200",
+            "",
             "move_unit;Simon;9,6",
             "reset;Morrissey",
             "",
