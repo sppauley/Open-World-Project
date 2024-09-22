@@ -3,7 +3,7 @@
         "name": "MorrisseyTroops",
         "trigger": "on_talk",
         "level_nid": "MorrisseyCastleRoam",
-        "condition": "unit2.nid=='Morrissey' and (v(\"DragonCleared\")==1 or v(\"SwampCleared\")==1) and v(\"MorrisseySupport\") != 1",
+        "condition": "unit2.nid=='Morrissey' and v(\"EndingAvailable\") != True and (v(\"DragonCleared\")==1 or v(\"SwampCleared\")==1) and v(\"MorrisseySupport\") != 1",
         "commands": [],
         "only_once": true,
         "priority": 20,

@@ -122,5 +122,9 @@
     {
         "nid": "MelodieRecruited",
         "desc": "Has Melodie been recruited?"
+    },
+    {
+        "nid": "EndingAvailable",
+        "desc": "Can the Morrissey Betrayal begin?"
     }
 ]

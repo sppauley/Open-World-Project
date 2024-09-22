@@ -20,6 +20,10 @@
             "# condition for getting Morrissey's support",
             "if;(v(\"DragonCleared\")==1 or v(\"SwampCleared\")==1) and v(\"PortHullVisited\")==1",
             "    add_talk;Simon;Morrissey",
+            "end",
+            "",
+            "if;v(\"EndingAvailable\") == True",
+            "    add_talk;Simon;Morrissey",
             "end"
         ]
     }

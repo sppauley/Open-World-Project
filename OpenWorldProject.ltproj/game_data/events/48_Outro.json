@@ -8,7 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "game_var;freely_exit;True"
+            "game_var;freely_exit;True",
+            "set_overworld_menu_option_visible;1;44;Roam;f",
+            "game_var;EndingAvailable;True"
         ]
     }
 ]
