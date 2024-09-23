@@ -10,7 +10,9 @@
         "_source": [
             "# Music here",
             "",
-            "credits;A Game By;SP,KD;wait;center"
+            "credits;A Game By;SP,KD;wait;center",
+            "",
+            "credits;Tilesets;Feaw,N426,ZoramineFae,Venno,Lexou;wait;center"
         ]
     }
 ]

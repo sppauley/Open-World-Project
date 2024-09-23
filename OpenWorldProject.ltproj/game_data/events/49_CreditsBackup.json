@@ -1,0 +1,38 @@
+[
+    {
+        "name": "CreditsBackup",
+        "trigger": null,
+        "level_nid": "49",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Credits here can be copy-pasted into other files ",
+            "",
+            "change_background;BlackBackground",
+            "credits;A Game By;SP,KD;wait;center",
+            "wait;4000",
+            "",
+            "credits;Engine By;rainlash,mag,KD,aorlnn;wait;center",
+            "wait;4000",
+            "",
+            "credits;World Map By;BT;wait;center",
+            "wait;4000",
+            "",
+            "credits;Tilesets By;Feaw,N426,ZoramineFae,Venno,Lexou,Amras Anarion,Thunungu,aveontrainer,Inkaline, Redshrike,dracoyan,magiscarf;wait;center",
+            "wait;4000",
+            "",
+            "credits;Item Icons By;Ironmachine,Topazlight,Beansy,Maxim,Lisandra Brave,Pikmin1211,WhydidImakethisaccount,Zelix,LordGlenn,Celice,Batima,Suneohair,FuriousHaunter,GabrielKnight;center",
+            "wait;8000",
+            "",
+            "credits;Map Sprites By;Suloir,Teraspark,Primefusion,ArcherBias,ZeroXA,Alusq,Epicer,N426,ShadowAllyX,Leif,MeatofJustice,Rasdel,ArcaneEli,Pikmin,L95,Der,Skitty,Devisian Nights,Fe7if,Boonzeet,Dei,Dondon151,Ririk,Catinator,Alexsplode,Dominus_Vobiscum,Snewping,Pushwall,Argo,Flasuban,ArcherBias,EldrichAbomination,knabepiercer,NightBloodTK,SALVAGED,BoneMan,Seth,VelvetKitsune,CanDy,Leo_link;center",
+            "wait;10000",
+            "",
+            "credits;Portraits By;Wasdye,amema003,CanDy,Armory,CapibaraInSpace,Eldritch Abomination,Freefall,Kanna,bwan,Obsidian Daddy,LaurentLacroix,Tom776,Zeldacrafter,Imperial,Its Just Jay,Levin64,XVI,Citrus,JiroPaiPai,Rammerrush,DATonDeman,Sterling Glover,SphealNuke,Salty,Sgt Dark,SirNicee,XPGamesNL,Ambrosiac,L95,Smokeguy77,RandomWizard,Yang Kai,Matthieu,XPGamesNL,Dutch Introvert,Alice;center",
+            "wait;15000",
+            "",
+            "credits;Maps By;SP,KD,Rammerrush"
+        ]
+    }
+]
