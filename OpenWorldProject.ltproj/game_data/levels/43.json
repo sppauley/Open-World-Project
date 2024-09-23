@@ -86,6 +86,31 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "DoorGuard",
+                "variant": null,
+                "level": 18,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ],
+                    [
+                        "Door Key",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [],

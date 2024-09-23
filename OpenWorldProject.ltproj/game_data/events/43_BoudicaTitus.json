@@ -1,0 +1,15 @@
+[
+    {
+        "name": "BoudicaTitus",
+        "trigger": "turn_change",
+        "level_nid": "43",
+        "condition": "game.turncount==6",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_unit;Boudica;22,9",
+            "add_unit;Titus;22,8"
+        ]
+    }
+]
