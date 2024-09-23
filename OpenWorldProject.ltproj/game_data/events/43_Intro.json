@@ -13,7 +13,7 @@
             "",
             "# if Anuki is loyal, she joins you",
             "if;game.game_vars['AnukiLoyal']==True",
-            "    add_unit;Anuki;10,4",
+            "    add_unit;Anuki;12,6",
             "end"
         ]
     }
