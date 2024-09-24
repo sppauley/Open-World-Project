@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;SilverGarden",
             "change_background;BlackBackground",
             "credits;A Game By;SP,KD;wait;center",
             "wait;6000",
