@@ -12,13 +12,13 @@
             "",
             "change_background;BlackBackground",
             "credits;A Game By;SP,KD;wait;center",
-            "wait;4000",
+            "wait;6000",
             "",
             "credits;Engine By;rainlash,mag,KD,aorlnn;wait;center",
-            "wait;4000",
+            "wait;6000",
             "",
             "credits;World Map By;BT;wait;center",
-            "wait;4000",
+            "wait;6000",
             "",
             "credits;Tilesets By;Feaw,N426,ZoramineFae,Venno,Lexou,Amras Anarion,Thunungu,aveontrainer,Inkaline, Redshrike,dracoyan,magiscarf;wait;center",
             "wait;4000",
@@ -32,7 +32,11 @@
             "credits;Portraits By;Wasdye,amema003,CanDy,Armory,CapibaraInSpace,Eldritch Abomination,Freefall,Kanna,bwan,Obsidian Daddy,LaurentLacroix,Tom776,Zeldacrafter,Imperial,Its Just Jay,Levin64,XVI,Citrus,JiroPaiPai,Rammerrush,DATonDeman,Sterling Glover,SphealNuke,Salty,Sgt Dark,SirNicee,XPGamesNL,Ambrosiac,L95,Smokeguy77,RandomWizard,Yang Kai,Matthieu,XPGamesNL,Dutch Introvert,Alice;center",
             "wait;15000",
             "",
-            "credits;Maps By;SP,KD,Rammerrush"
+            "credits;Maps By;SP,KD,Rammerrush;wait;center",
+            "wait;6000",
+            "",
+            "credits;Playtesting By;HeroicVileplume,EthanGreen,;wait;center",
+            "wait;6000"
         ]
     }
 ]

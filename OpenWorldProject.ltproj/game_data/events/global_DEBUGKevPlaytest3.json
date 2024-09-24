@@ -171,6 +171,7 @@
             "",
             "load_unit;Lysander",
             "load_unit;Hatshepsut",
+            "load_unit;LadyJane",
             "",
             "give_item;convoy;Fire;no_banner",
             "give_item;convoy;Killing Edge;no_banner",
