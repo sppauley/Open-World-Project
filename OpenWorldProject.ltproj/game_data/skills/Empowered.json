@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Empowered",
+        "name": "Empowered",
+        "desc": "Can act again on player phase after a player unit waits. Halves MOV on player phase. Unit also takes 2 less damage, gains +5 Poise and +5 SPD.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ],
+                    [
+                        "PSE",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "resist",
+                2
+            ]
+        ]
+    }
+]

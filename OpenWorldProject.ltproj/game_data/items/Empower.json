@@ -1,12 +1,12 @@
 [
     {
-        "nid": "Physic",
-        "name": "Physic",
-        "desc": "Restores an ally's HP from afar.",
+        "nid": "Empower",
+        "name": "Empower",
+        "desc": "Morrissey only. Grants Ruler status. Empowered unit also takes 2 less damage, and gains +5 Poise and +5 SPD.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
-            3
+            4
         ],
         "components": [
             [
@@ -23,7 +23,7 @@
             ],
             [
                 "weapon_rank",
-                "B"
+                "A"
             ],
             [
                 "magic",
@@ -38,15 +38,11 @@
                 22
             ],
             [
-                "value",
-                3750
-            ],
-            [
                 "map_hit_add_blend",
                 [
-                    96,
-                    144,
-                    232
+                    255,
+                    85,
+                    0
                 ]
             ],
             [
@@ -70,7 +66,11 @@
             ],
             [
                 "max_range",
-                8
+                25
+            ],
+            [
+                "status_on_hit",
+                "Empowered"
             ]
         ]
     }
