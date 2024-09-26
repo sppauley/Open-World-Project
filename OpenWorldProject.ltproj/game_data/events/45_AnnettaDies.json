@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AnnettaDies",
+        "trigger": "unit_death",
+        "level_nid": "45",
+        "condition": "unit.nid == \"Annetta\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Annetta;Right;;CloseEyes",
+            "s;Annetta;Lady Clotho... restore my thread...",
+            "activate_turnwheel;t"
+        ]
+    }
+]
