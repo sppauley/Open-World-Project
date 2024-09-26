@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Empower Ruler",
+        "trigger": "unit_wait",
+        "level_nid": "43",
+        "condition": "unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# gets a list of empowered units",
+            "level_var;EmpoweredUnits;[unit.nid for unit in game.get_enemy_units() if 'Empowered' in [skill.nid for skill in unit.skills] and unit.nid != 'MorrisseyBoss']",
+            "",
+            "for;EMPOWERED_UNIT;game.level_vars['EmpoweredUnits']",
+            "    unit_act;{EMPOWERED_UNIT}",
+            "endf",
+            "",
+            "center_cursor;{unit}"
+        ]
+    }
+]
