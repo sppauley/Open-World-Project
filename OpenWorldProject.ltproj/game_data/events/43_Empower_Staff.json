@@ -17,13 +17,14 @@
             "level_var;NonEmpoweredUnits;[unit.nid for unit in get_units_in_region(v('EmpowerRegion'), team='enemy') if 'Empowered' not in [skill.nid for skill in unit.skills] and unit.nid != 'MorrisseyBoss']",
             "",
             "# selects the unit to be empowered",
-            "level_var;EmpowerUnit;game.get_random_choice(game.level_vars['NonEmpoweredUnits'])",
-            "",
-            "flicker_cursor;{eval:game.level_vars['EmpowerUnit']}",
-            "wait;200",
-            "give_skill;{eval:game.level_vars['EmpowerUnit']};Empowered;no_banner",
-            "add_tag;{eval:game.level_vars['EmpowerUnit']};Boss",
-            "map_anim;AOE_Reinforce;{eval:game.level_vars['EmpowerUnit']}"
+            "if;len(game.level_vars['NonEmpoweredUnits'])>0",
+            "    level_var;EmpowerUnit;game.get_random_choice(game.level_vars['NonEmpoweredUnits'])",
+            "    flicker_cursor;{eval:game.level_vars['EmpowerUnit']}",
+            "    wait;200",
+            "    give_skill;{eval:game.level_vars['EmpowerUnit']};Empowered;no_banner",
+            "    add_tag;{eval:game.level_vars['EmpowerUnit']};Boss",
+            "    map_anim;AOE_Reinforce;{eval:game.level_vars['EmpowerUnit']}",
+            "end"
         ]
     }
 ]
