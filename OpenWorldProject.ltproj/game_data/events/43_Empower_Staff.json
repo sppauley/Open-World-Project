@@ -14,7 +14,7 @@
             "level_var;EmpowerRegion;'Phase'+str(game.level_vars['MapPhase'])",
             "",
             "# gets a list of units that can be empowered",
-            "level_var;NonEmpoweredUnits;[unit.nid for unit in get_units_in_region(v('EmpowerRegion'), team='enemy') if 'Empowered' not in [skill.nid for skill in unit.skills] and unit.nid != 'MorrisseyBoss']",
+            "level_var;NonEmpoweredUnits;[unit.nid for unit in get_units_in_region(v('EmpowerRegion'), team='enemy') if 'Empowered' not in [skill.nid for skill in unit.skills] and'Staggered' not in [skill.nid for skill in unit.skills] and unit.nid != 'MorrisseyBoss']",
             "",
             "# selects the unit to be empowered",
             "if;len(game.level_vars['NonEmpoweredUnits'])>0",
