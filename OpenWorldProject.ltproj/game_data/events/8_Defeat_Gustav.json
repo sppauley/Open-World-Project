@@ -9,14 +9,11 @@
         "priority": 20,
         "_source": [
             "add_portrait;Simon;Left",
-            "speak;Simon;It looks like they're retreating...",
+            "speak;Simon;It looks like they're retreating...{w}{br}Let's use this opportunity to advance.",
             "remove_portrait;Simon",
             "remove_all_enemies",
             "wait;500",
-            "trigger_script;Global ConsolidateToLeader",
-            "change_roaming;t",
-            "change_roaming_unit;Simon",
-            "center_cursor;Simon"
+            "win_game"
         ]
     }
 ]
