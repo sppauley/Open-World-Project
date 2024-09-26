@@ -47,7 +47,7 @@
                 "variant": null,
                 "level": 1,
                 "klass": "Myrmidon",
-                "faction": "Soldier",
+                "faction": "Morrissey",
                 "starting_items": [
                     [
                         "Iron Sword",
@@ -61,7 +61,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    24
+                    23
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -84,9 +84,31 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Phase1",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    21
+                ],
+                "size": [
+                    23,
+                    10
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
