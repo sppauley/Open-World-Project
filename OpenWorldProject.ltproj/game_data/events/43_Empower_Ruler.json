@@ -15,7 +15,9 @@
             "    unit_act;{EMPOWERED_UNIT}",
             "endf",
             "",
-            "center_cursor;{unit}"
+            "if;len(game.level_vars['EmpoweredUnits'])>0",
+            "    center_cursor;{unit}",
+            "end"
         ]
     }
 ]
