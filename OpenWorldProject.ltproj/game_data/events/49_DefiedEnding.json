@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Music here",
+            "music;WindsweptDay;1000",
             "",
             "change_background;BlackBackground",
             "wait;2000",
@@ -68,7 +68,7 @@
             "end",
             "",
             "credits;Tilesets By;Feaw,N426,ZoramineFae,Venno,Lexou,Amras Anarion,Thunungu,aveontrainer,Inkaline, Redshrike,dracoyan,magiscarf;wait;center",
-            "wait;6000",
+            "wait;4000",
             "",
             "if;game.check_alive(\"Flower\")",
             "ending;Flower;Flower;{tgs}After returning to Frees, Flower lived a long and happy life with her owners. History has little to say about her, though many trace the abundance of puppies in Frees to her legacy.",

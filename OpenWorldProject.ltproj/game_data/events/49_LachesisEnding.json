@@ -65,7 +65,7 @@
             "end",
             "",
             "credits;Tilesets By;Feaw,N426,ZoramineFae,Venno,Lexou,Amras Anarion,Thunungu,aveontrainer,Inkaline, Redshrike,dracoyan,magiscarf;wait;center",
-            "wait;6000",
+            "wait;4000",
             "",
             "if;game.check_alive(\"Flower\")",
             "ending;Flower;Flower;Abandoned and confused, Flower attempted to make her way back to Frees village. After wandering away from Castle Verstadt, she was never seen again.",
