@@ -14,10 +14,10 @@
             "    trigger_script;49 LachesisEnding",
             "elif;v(\"EndingChosen\") == \"Atropos\"",
             "    trigger_script;49 AtroposEnding",
-            "elif;v(\"FatesDefied\") == \"True\"",
+            "elif;v(\"FatesDefied\") == True",
             "    trigger_script;49 DefiedEnding",
             "else",
-            "    s;Simon;Fuck you",
+            "    s;Simon;Bug, please report",
             "    win_game",
             "end"
         ]
