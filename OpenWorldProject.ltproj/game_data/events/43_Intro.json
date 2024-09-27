@@ -15,6 +15,7 @@
             "level_var;MapPhase;1",
             "",
             "#",
+            "change_team;Anuki;enemy",
             "add_weather;sunset",
             "show_layer;overlay",
             "arrange_formation",
@@ -22,7 +23,8 @@
             "",
             "# if Anuki is loyal, she joins you",
             "if;game.game_vars['AnukiLoyal']==True",
-            "    add_unit;Anuki;12,6",
+            "    change_team;Anuki;player",
+            "    add_unit;Anuki;12,27",
             "end"
         ]
     }
