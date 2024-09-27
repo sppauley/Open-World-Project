@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AntiMonarchistTalk",
+        "trigger": "on_talk",
+        "level_nid": "29",
+        "condition": "unit2.nid == \"129\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mercenary1;Left",
+            "add_portrait;Simon;Right",
+            "",
+            "s;Simon;What's this?",
+            "s;Mercenary1;Old relics of House Charin.{w} Found it in old warehouses.",
+            "s;Simon;House Charin?",
+            "s;Mercenary1;Hah, not from around here?|They're the lords that used to rule us.|Fat bastards got their due,|now we're making sure their crests do too!",
+            "s;Simon;...",
+            "",
+            "multi_remove_portrait;Simon;Mercenary1"
+        ]
+    }
+]

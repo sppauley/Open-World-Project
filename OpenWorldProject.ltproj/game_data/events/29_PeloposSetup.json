@@ -47,6 +47,7 @@
             "add_talk;Simon;102",
             "add_talk;Simon;106",
             "add_talk;Simon;108",
+            "add_talk;Simon;129",
             "",
             "if;v('LysanderRecruited') == 1",
             "    add_unit;Lysander;19,2;immediate",
