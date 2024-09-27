@@ -62,7 +62,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 6,
+                "level": 13,
                 "klass": "Bow_Wight",
                 "faction": "Monster",
                 "starting_items": [
@@ -79,6 +79,30 @@
                 "starting_position": [
                     18,
                     32
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 13,
+                "klass": "Bow_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -141,6 +165,10 @@
         "ai_groups": [
             {
                 "nid": "Boss",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
