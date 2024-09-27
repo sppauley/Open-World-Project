@@ -14,7 +14,7 @@
             "SPD": 9,
             "PSE": 16,
             "MOV": 11,
-            "CON": 4
+            "CON": 6
         },
         "growths": {
             "HP": 50,
