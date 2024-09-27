@@ -24,7 +24,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    27
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -37,7 +37,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    17
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -61,7 +61,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    20
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -85,7 +85,7 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    20
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -109,7 +109,7 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    23
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -133,7 +133,7 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    24
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -157,7 +157,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    24
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -181,7 +181,7 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    23
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -205,7 +205,7 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
-                    23
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -229,7 +229,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    28
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -253,7 +253,7 @@
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    28
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -277,7 +277,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    27
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -301,7 +301,7 @@
                 "ai_group": "",
                 "starting_position": [
                     2,
-                    29
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -325,7 +325,7 @@
                 "ai_group": "",
                 "starting_position": [
                     18,
-                    27
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -349,7 +349,7 @@
                 "ai_group": "",
                 "starting_position": [
                     20,
-                    29
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -361,7 +361,7 @@
                 "region_type": "formation",
                 "position": [
                     9,
-                    28
+                    34
                 ],
                 "size": [
                     5,
@@ -378,7 +378,7 @@
                 "region_type": "normal",
                 "position": [
                     0,
-                    21
+                    27
                 ],
                 "size": [
                     23,

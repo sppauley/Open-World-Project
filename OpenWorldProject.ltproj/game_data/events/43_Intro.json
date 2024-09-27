@@ -24,7 +24,7 @@
             "# if Anuki is loyal, she joins you",
             "if;game.game_vars['AnukiLoyal']==True",
             "    change_team;Anuki;player",
-            "    add_unit;Anuki;12,27",
+            "    add_unit;Anuki;12,33",
             "end"
         ]
     }
