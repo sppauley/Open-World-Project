@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Aura",
-        "name": "Aura",
-        "desc": "",
+        "nid": "Elimination",
+        "name": "Elimination",
+        "desc": "The tome of Clotho's head priest.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -43,18 +43,7 @@
             ],
             [
                 "weight",
-                15
-            ],
-            [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                11
             ],
             [
                 "level_exp",
@@ -79,6 +68,10 @@
             [
                 "magic",
                 null
+            ],
+            [
+                "stagger",
+                10
             ]
         ]
     }

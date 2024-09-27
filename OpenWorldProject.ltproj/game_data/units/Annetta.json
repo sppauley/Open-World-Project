@@ -2,18 +2,18 @@
     {
         "nid": "Annetta",
         "name": "Annetta",
-        "desc": "",
+        "desc": "The loyal priest of Clotho.\nBlessed by her.",
         "variant": "_Seer",
         "level": 1,
         "klass": "Cleric",
         "tags": [],
         "bases": {
             "HP": 35,
-            "CON": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "CON": 11,
+            "MAG": 22,
+            "DEX": 18,
+            "SPD": 13,
+            "PSE": 25,
             "MOV": 5
         },
         "growths": {
@@ -26,7 +26,12 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Elimination",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
@@ -57,7 +62,7 @@
             ],
             "Anima": [
                 false,
-                0,
+                181,
                 251
             ],
             "Staff": [

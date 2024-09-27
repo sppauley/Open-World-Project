@@ -12,6 +12,8 @@
             "# Need to have recruited Mitzi and beaten the precursor ruins to get here.",
             "change_team;Lucius;enemy",
             "change_team;Annetta;enemy",
+            "change_ai;Annetta;Pursue",
+            "change_ai;Lucius;Defend",
             "add_tag;Annetta;Boss",
             "add_tag;Lucius;Boss",
             "",

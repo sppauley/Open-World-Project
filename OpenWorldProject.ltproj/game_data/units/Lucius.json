@@ -2,18 +2,18 @@
     {
         "nid": "Lucius",
         "name": "Lucius",
-        "desc": "",
+        "desc": "Annetta's loyal husband.\nVigilant to a fault.",
         "variant": "",
         "level": 1,
         "klass": "Hero",
         "tags": [],
         "bases": {
             "HP": 50,
-            "CON": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "CON": 16,
+            "MAG": 8,
+            "DEX": 17,
+            "SPD": 22,
+            "PSE": 25,
             "MOV": 5
         },
         "growths": {
@@ -26,7 +26,16 @@
             "MOV": 0
         },
         "stat_cap_modifiers": {},
-        "starting_items": [],
+        "starting_items": [
+            [
+                "Brave Sword",
+                false
+            ],
+            [
+                "Brave Axe",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {
