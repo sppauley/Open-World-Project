@@ -658,5 +658,20 @@
         "mtype": "Dirt",
         "opaque": false,
         "status": "Ballista"
+    },
+    {
+        "nid": "Orb",
+        "name": "Orb",
+        "color": [
+            152,
+            255,
+            212
+        ],
+        "minimap": "Grass",
+        "platform": "Arena",
+        "background": "None",
+        "mtype": "Dirt",
+        "opaque": false,
+        "status": "Ballista"
     }
 ]

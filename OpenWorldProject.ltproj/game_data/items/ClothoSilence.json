@@ -1,0 +1,73 @@
+[
+    {
+        "nid": "ClothoSilence",
+        "name": "Silence",
+        "desc": "Enemy is rendered unable to use magic.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                30
+            ],
+            [
+                "value",
+                1200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Silence"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "eval_target_restrict",
+                "unit.wexp['Anima'] or unit.wexp['Staff']"
+            ],
+            [
+                "max_range",
+                6
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

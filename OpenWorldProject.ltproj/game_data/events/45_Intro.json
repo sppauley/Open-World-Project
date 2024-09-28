@@ -40,11 +40,11 @@
             "",
             "center_cursor;114",
             "flicker_cursor;114",
-            "wait;500",
+            "wait;1000",
             "",
             "center_cursor;115",
             "flicker_cursor;115",
-            "wait;500"
+            "wait;1000"
         ]
     }
 ]

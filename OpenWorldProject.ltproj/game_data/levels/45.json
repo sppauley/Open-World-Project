@@ -11,8 +11,8 @@
             "enemy2_phase": "Termini"
         },
         "objective": {
-            "simple": "Destroy the Artifact",
-            "win": "Destroy the Artifact",
+            "simple": "Defeat All Bosses",
+            "win": "Defeat All Bosses",
             "loss": "Simon dies"
         },
         "roam": false,
@@ -41,7 +41,7 @@
                 "ai_group": "Boss",
                 "starting_position": [
                     12,
-                    29
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -276,6 +276,30 @@
                 "generic": true
             },
             {
+                "nid": "127",
+                "variant": null,
+                "level": 14,
+                "klass": "Sword_Wight",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "107",
                 "variant": null,
                 "level": 14,
@@ -420,14 +444,14 @@
                 "generic": true
             },
             {
-                "nid": "110",
+                "nid": "126",
                 "variant": null,
                 "level": 14,
                 "klass": "Bishop",
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Silence",
+                        "Enfeeble",
                         false
                     ]
                 ],
@@ -444,9 +468,33 @@
                 "generic": true
             },
             {
-                "nid": "114",
+                "nid": "110",
                 "variant": null,
                 "level": 14,
+                "klass": "Bishop",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "ClothoSilence",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    31
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 8,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
@@ -470,7 +518,7 @@
             {
                 "nid": "115",
                 "variant": null,
-                "level": 14,
+                "level": 8,
                 "klass": "Arch_Mogall",
                 "faction": "Monster",
                 "starting_items": [
