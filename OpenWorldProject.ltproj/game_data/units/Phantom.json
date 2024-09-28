@@ -15,7 +15,7 @@
             "MOV": 6,
             "CON": 15,
             "MAG": 25,
-            "SPD": 5,
+            "SPD": 10,
             "DEX": 19
         },
         "growths": {},
