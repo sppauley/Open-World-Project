@@ -28,8 +28,8 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Brave Sword",
-                false
+                "ClothoShears",
+                true
             ],
             [
                 "Brave Axe",

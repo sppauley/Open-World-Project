@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Audhulma",
-        "name": "Audhulma",
-        "desc": "Resistance +5. Effective against monsters",
+        "nid": "ClothoShears",
+        "name": "Clotho's Shears",
+        "desc": "Used to sever the threads of mortals.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                18
+                14
             ],
             [
                 "hit",
@@ -38,23 +38,8 @@
                 "S"
             ],
             [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "weight",
                 9
-            ],
-            [
-                "status_on_equip",
-                "Resistance +5"
             ],
             [
                 "crit",
@@ -69,18 +54,21 @@
                 1
             ],
             [
-                "effective",
-                36
+                "stagger",
+                8
             ],
             [
-                "effective_tag",
+                "stat_req",
                 [
-                    "Monster"
+                    [
+                        "DEX",
+                        16
+                    ],
+                    [
+                        "CON",
+                        12
+                    ]
                 ]
-            ],
-            [
-                "effective_multiplier",
-                1
             ]
         ]
     }

@@ -758,6 +758,10 @@
             {
                 "nid": "Lucius",
                 "trigger_threshold": 3
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }
