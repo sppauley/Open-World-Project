@@ -577,8 +577,8 @@
             {
                 "nid": "123",
                 "variant": null,
-                "level": 14,
-                "klass": "Mage",
+                "level": 3,
+                "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -597,6 +597,90 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 8,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Storm",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 6,
+                "klass": "Swordmaster",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ],
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 6,
+                "klass": "Swordmaster",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ],
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -604,11 +688,11 @@
                 "nid": "prep",
                 "region_type": "formation",
                 "position": [
-                    9,
+                    10,
                     40
                 ],
                 "size": [
-                    5,
+                    3,
                     3
                 ],
                 "sub_nid": "",

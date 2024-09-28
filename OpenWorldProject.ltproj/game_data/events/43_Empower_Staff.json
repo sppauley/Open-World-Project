@@ -3,7 +3,7 @@
         "name": "Empower Staff",
         "trigger": "enemy_turn_change",
         "level_nid": "43",
-        "condition": "game.turncount % 2 == 1 and game.check_alive('MorrisseyBoss')",
+        "condition": "game.check_alive('MorrisseyBoss')",
         "commands": [],
         "only_once": false,
         "priority": 20,

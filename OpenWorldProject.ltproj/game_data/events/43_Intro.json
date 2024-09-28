@@ -16,7 +16,6 @@
             "",
             "#",
             "change_team;Anuki;enemy",
-            "add_weather;sunset",
             "show_layer;overlay",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
