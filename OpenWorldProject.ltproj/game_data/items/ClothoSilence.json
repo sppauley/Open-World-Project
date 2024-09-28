@@ -43,7 +43,7 @@
             ],
             [
                 "status_on_hit",
-                "Silence"
+                "ClothoSilence"
             ],
             [
                 "target_enemy",

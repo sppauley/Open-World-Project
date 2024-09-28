@@ -17,6 +17,8 @@
             "add_tag;Annetta;Boss",
             "add_tag;Lucius;Boss",
             "",
+            "map_anim;mage_ballista;12,23;permanent",
+            "",
             "add_tag;114;Boss",
             "add_tag;115;Boss",
             "",
