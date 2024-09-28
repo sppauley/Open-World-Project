@@ -353,6 +353,130 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 7,
+                "klass": "Mage Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    2,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 17,
+                "klass": "Cavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    3,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 17,
+                "klass": "Cavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    3,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 17,
+                "klass": "Cavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    1,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 17,
+                "klass": "Cavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    1,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -389,9 +513,35 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Phase2",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    20
+                ],
+                "size": [
+                    23,
+                    12
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "a",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
