@@ -10,7 +10,12 @@
         "_source": [
             "add_portrait;Annetta;Right;;CloseEyes",
             "s;Annetta;Lady Clotho... restore my thread...",
-            "activate_turnwheel;t"
+            "",
+            "if;v(\"TurnwheelEnabled\") == True",
+            "    activate_turnwheel;t",
+            "else",
+            "    lose_game",
+            "end"
         ]
     }
 ]

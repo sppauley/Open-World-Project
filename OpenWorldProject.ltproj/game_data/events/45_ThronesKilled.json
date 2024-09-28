@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ThronesKilled",
+        "trigger": "combat_end",
+        "level_nid": "45",
+        "condition": "game.check_dead(\"114\") and game.check_dead(\"115\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;12,15",
+            "flicker_cursor;12,15",
+            "show_layer;central",
+            "",
+            "add_unit;119;12,14;swoosh",
+            "add_unit;120;12,16;swoosh",
+            "add_unit;121;11,15;swoosh",
+            "add_unit;122;13,15;swoosh"
+        ]
+    }
+]

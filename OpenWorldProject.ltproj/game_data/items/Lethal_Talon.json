@@ -31,7 +31,7 @@
             ],
             [
                 "hit",
-                60
+                65
             ],
             [
                 "weight",
@@ -60,6 +60,10 @@
             [
                 "weapon_type",
                 "Innate"
+            ],
+            [
+                "stagger",
+                6
             ]
         ]
     }
