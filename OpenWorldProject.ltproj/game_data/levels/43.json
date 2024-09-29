@@ -35,13 +35,23 @@
             {
                 "nid": "MorrisseyBoss",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     11,
                     3
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "AnukiBoss",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -360,7 +370,7 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 7,
+                "level": 2,
                 "klass": "Mage Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -379,8 +389,36 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    2,
-                    23
+                    1,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 2,
+                "klass": "Mage Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "Magebane",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    3,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -410,30 +448,6 @@
                 "generic": true
             },
             {
-                "nid": "116",
-                "variant": null,
-                "level": 2,
-                "klass": "Paladin",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "a",
-                "starting_position": [
-                    3,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "117",
                 "variant": null,
                 "level": 17,
@@ -453,30 +467,6 @@
                 "starting_position": [
                     1,
                     24
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "118",
-                "variant": null,
-                "level": 2,
-                "klass": "Paladin",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Lancereaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "a",
-                "starting_position": [
-                    1,
-                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -913,34 +903,6 @@
                 "starting_position": [
                     21,
                     23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "136",
-                "variant": null,
-                "level": 4,
-                "klass": "General",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Halberd",
-                        false
-                    ],
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "a",
-                "starting_position": [
-                    20,
-                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1557,6 +1519,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

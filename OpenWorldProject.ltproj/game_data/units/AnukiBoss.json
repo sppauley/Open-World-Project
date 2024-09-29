@@ -1,40 +1,36 @@
 [
     {
-        "nid": "MorrisseyBoss",
-        "name": "Morrissey",
-        "desc": "His ambition has reached its climax.",
+        "nid": "AnukiBoss",
+        "name": "Anuki",
+        "desc": "Carefree, in a strange way.\nAn unusual lady.",
         "variant": "",
         "level": 20,
-        "klass": "Morrissey_Lord",
+        "klass": "Anuki_Great_Lord",
         "tags": [
             "Boss"
         ],
         "bases": {
-            "HP": 60,
-            "MAG": 20,
-            "DEX": 18,
-            "SPD": 15,
-            "PSE": 18,
+            "HP": 52,
+            "MAG": 5,
+            "DEX": 14,
+            "SPD": 19,
+            "PSE": 25,
             "MOV": 6,
-            "CON": 12
+            "CON": 21
         },
         "growths": {
-            "HP": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 50,
+            "MAG": 10,
+            "DEX": 15,
+            "SPD": 25,
+            "PSE": 25,
             "MOV": 0,
-            "CON": 0
+            "CON": 35
         },
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Freeze",
-                false
-            ],
-            [
-                "Elfire",
+                "Agamemnon_Boss",
                 false
             ]
         ],
@@ -53,7 +49,7 @@
             ],
             "Axe": [
                 false,
-                0,
+                251,
                 251
             ],
             "Bow": [
@@ -73,7 +69,7 @@
             ],
             "Anima": [
                 false,
-                251,
+                0,
                 251
             ],
             "Dark": [
@@ -83,7 +79,7 @@
             ],
             "Staff": [
                 false,
-                251,
+                0,
                 251
             ],
             "Default": [
@@ -93,8 +89,25 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "LaurentLacroix_27",
+        "portrait_nid": "Anuki",
         "affinity": "None",
-        "fields": []
+        "fields": [
+            [
+                "DeathQuote",
+                "My blood...?{w} That's not how it's supposed to be!{w}{br}Urgh... I'll get you for this!"
+            ],
+            [
+                "BattlesBeforeLoyaltyTalk",
+                "8"
+            ],
+            [
+                "BattlesDeployed",
+                "0"
+            ],
+            [
+                "LoyaltyStatus",
+                "Loyalty mission not yet implemented"
+            ]
+        ]
     }
 ]
