@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Todo",
+            "",
             "remove_all_units",
             "resurrect;MorrisseyBoss",
             "add_unit;MorrisseyBoss;11,3",
