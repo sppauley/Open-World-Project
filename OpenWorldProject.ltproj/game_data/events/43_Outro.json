@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "# outro dialogue here",
-            "",
+            "music_clear",
             "if;v(\"EndingChosen\") == \"Clotho\"",
             "    trigger_script;43 ClothoOutro",
             "elif;v(\"EndingChosen\") == \"Lachesis\"",
