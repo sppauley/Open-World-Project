@@ -412,12 +412,12 @@
             {
                 "nid": "116",
                 "variant": null,
-                "level": 17,
-                "klass": "Cavalier",
+                "level": 2,
+                "klass": "Paladin",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Steel Sword",
+                        "Silver Sword",
                         false
                     ]
                 ],
@@ -460,8 +460,8 @@
             {
                 "nid": "118",
                 "variant": null,
-                "level": 17,
-                "klass": "Cavalier",
+                "level": 2,
+                "klass": "Paladin",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
@@ -623,7 +623,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
+                    11,
                     14
                 ],
                 "starting_traveler": null,
@@ -809,6 +809,186 @@
                 "starting_position": [
                     19,
                     29
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 1,
+                "klass": "Bishop",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "CursingRod",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 1,
+                "klass": "Bishop",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "HexingRod",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 3,
+                "klass": "Swordmaster",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    19,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 3,
+                "klass": "Swordmaster",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    21,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 4,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Halberd",
+                        false
+                    ],
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    20,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    19,
+                    25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    21,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
