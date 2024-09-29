@@ -1340,19 +1340,11 @@
                 "trigger_threshold": 1
             },
             {
-                "nid": "",
-                "trigger_threshold": 1
-            },
-            {
                 "nid": "st",
                 "trigger_threshold": 1
             },
             {
                 "nid": "sb",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "fr",
                 "trigger_threshold": 1
             },
             {

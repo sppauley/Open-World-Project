@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Phase2",
+        "trigger": "turn_change",
+        "level_nid": "43",
+        "condition": "any(get_units_in_region('Phase2', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "level_var;MapPhase;2"
+        ]
+    }
+]
