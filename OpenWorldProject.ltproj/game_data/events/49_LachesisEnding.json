@@ -14,7 +14,7 @@
             "credits;A Game By;SP,KD;wait;center",
             "wait;6000",
             "",
-            "ending;Simon;Simon;Under Jane's control, Verstadt land returned to how it had been under Simon's father. The people were mercilessly persecuted, and only a reborn New Dawn managed to finally overthrow him.Simon's mind succumbed to illness without Jane's influence, and his body was hung from the castle gate, just as it had almost been all those years ago.",
+            "ending;Simon;Simon;Under Jane's control, Verstadt land returned to how it had been under Simon's father. The people were mercilessly persecuted, and only a reborn New Dawn managed to finally overthrow him. Simon succumbed to illness without Jane's influence, and his body was hung from the castle gate, just as it had almost been all those years ago.",
             "wait;10000",
             "pop_dialog",
             "",

@@ -69,6 +69,7 @@
             "",
             "add_portrait;Simon;Right",
             "s;Simon;It's... over...",
+            "wait;1500",
             "",
             "screen_shake;0;default",
             "sound;PromotionCrackle",
