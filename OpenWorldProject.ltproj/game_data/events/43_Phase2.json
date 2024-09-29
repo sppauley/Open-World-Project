@@ -8,7 +8,10 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "level_var;MapPhase;2"
+            "level_var;MapPhase;2",
+            "add_group;Phase2;Phase2;warp;closest",
+            "flicker_cursor;11,41",
+            "wait;500"
         ]
     }
 ]
