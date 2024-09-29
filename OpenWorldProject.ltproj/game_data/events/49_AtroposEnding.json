@@ -14,7 +14,7 @@
             "credits;A Game By;SP,KD;wait;center",
             "wait;6000",
             "",
-            "ending;Simon;Simon;{tgs}With his mind broken, nothing stood between the noble houses and complete chaos. Rebel groups quickly overwhelmed the remains of the nobles' armies, and established new governments across the realm. Simon, when captured, was kept alive. He was, after all, no threat to anyone.",
+            "ending;Simon;Simon;{tgs}Left unable to form new memories, Simon's reign, along with the other noble houses, collapsed. Rebel groups quickly overwhelmed the remains of the nobles' armies, and established new governments across the realm. Simon, when captured, was kept alive. He was, after all, no threat to anyone.",
             "wait;10000",
             "pop_dialog",
             "",

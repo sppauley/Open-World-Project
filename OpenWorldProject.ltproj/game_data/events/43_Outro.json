@@ -24,6 +24,7 @@
             "end",
             "",
             "game_var;_goto_level;\"49\"",
+            "skip_save;true",
             "win_game"
         ]
     }
