@@ -1,7 +1,7 @@
 [
     {
         "nid": "VantageManual",
-        "name": "Vantage VantageManual",
+        "name": "Vantage Manual",
         "desc": "Teaches Vantage (When under 50% HP, unit strikes first when defending)",
         "icon_nid": "{Pikmin} Adept Skill Book",
         "icon_index": [

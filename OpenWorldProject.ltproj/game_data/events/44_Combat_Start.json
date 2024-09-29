@@ -118,6 +118,8 @@
             "move_unit;Simon;20,15;immediate",
             "move_unit;Anuki;18,15;immediate",
             "add_group;StartingUnits;starting",
+            "change_ai;Edric;Defend",
+            "change_ai_group;Edric;e",
             "",
             "change_music;player_phase;Cauldros-Night",
             "",
