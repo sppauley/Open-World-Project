@@ -785,5 +785,7 @@
     "45_ThronesKilled",
     "43_Phase2",
     "43_Phase3",
-    "43_Phase4"
+    "43_Phase4",
+    "43_Win_Condition",
+    "43_Outro"
 ]
