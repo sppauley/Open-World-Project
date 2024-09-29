@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "# outro dialogue",
+            "music;Autumn",
             "change_background;Bedroom",
             "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft;Roland;Right",
             "s;Roland;Lady Morrissey, I cannot thank you enough.{w}{br}I would've been a dead man had you not intervened.{w}{br}But at the risk of sounding ungrateful, why save me?",
@@ -26,6 +27,7 @@
             "transition;close",
             "wait;300",
             "end_skip",
+            "music;OctopathSad",
             "change_background;InsideCastle",
             "transition;open",
             "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft;Morrissey;Right",

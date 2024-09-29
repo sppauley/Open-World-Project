@@ -5,7 +5,11 @@
         "tilemap": "AnukiLoyalty",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Autumn",
+            "enemy_phase": "Cauldros-Night",
+            "other_phase": "Cauldros-Night"
+        },
         "objective": {
             "simple": "Defend Roland's Escape",
             "win": "Lord Roland Escapes",
