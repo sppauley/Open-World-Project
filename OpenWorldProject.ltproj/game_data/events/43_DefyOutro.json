@@ -1,0 +1,14 @@
+[
+    {
+        "name": "DefyOutro",
+        "trigger": null,
+        "level_nid": "43",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# TODO"
+        ]
+    }
+]

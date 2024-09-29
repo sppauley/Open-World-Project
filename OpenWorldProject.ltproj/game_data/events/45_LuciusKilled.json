@@ -1,0 +1,35 @@
+[
+    {
+        "name": "LuciusKilled",
+        "trigger": "unit_death",
+        "level_nid": "45",
+        "condition": "unit.nid == \"Lucius\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lucius;Right;;CloseEyes",
+            "s;Lucius;I'm sorry... darling...",
+            "remove_portrait;Lucius",
+            "",
+            "center_cursor;Annetta",
+            "add_portrait;Annetta;Left",
+            "s;Annetta;L-lucius..?|No!",
+            "remove_portrait;Annetta",
+            "",
+            "center_cursor;Lucius",
+            "move_unit;Annetta;Lucius;warp;closest",
+            "add_portrait;Annetta;Left",
+            "s;Annetta;Come here... you won't... you won't die on...",
+            "add_portrait;Lucius;Right;normal;CloseEyes",
+            "s;Annetta;I'm getting you out of here. It-|It will be okay!",
+            "remove_portrait;Annetta",
+            "remove_portrait;Lucius",
+            "",
+            "remove_unit;Lucius;warp",
+            "remove_unit;Annetta",
+            "",
+            "win_game"
+        ]
+    }
+]

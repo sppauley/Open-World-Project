@@ -8,7 +8,23 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# outro dialogue here"
+            "# outro dialogue here",
+            "",
+            "if;v(\"EndingChosen\") == \"Clotho\"",
+            "    trigger_script;43 ClothoOutro",
+            "elif;v(\"EndingChosen\") == \"Lachesis\"",
+            "    trigger_script;43 LachesisOutro",
+            "elif;v(\"EndingChosen\") == \"Atropos\"",
+            "    trigger_script;43 AtroposOutro",
+            "elif;v(\"FatesDefied\") == True",
+            "    trigger_script;43 DefyOutro",
+            "else",
+            "    s;Simon;Bug, please report",
+            "    win_game",
+            "end",
+            "",
+            "game_var;_goto_level;\"49\"",
+            "win_game"
         ]
     }
 ]
