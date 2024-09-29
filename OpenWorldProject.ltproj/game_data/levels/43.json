@@ -948,7 +948,7 @@
             {
                 "nid": "137",
                 "variant": null,
-                "level": 4,
+                "level": 14,
                 "klass": "Myrmidon",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -972,7 +972,7 @@
             {
                 "nid": "138",
                 "variant": null,
-                "level": 4,
+                "level": 14,
                 "klass": "Myrmidon",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -989,6 +989,258 @@
                 "starting_position": [
                     21,
                     25
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 4,
+                "klass": "Ranger",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Tomereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    1,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 15,
+                "klass": "AxeCavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Killer Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    2,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 15,
+                "klass": "AxeCavalier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Killer Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    3,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 4,
+                "klass": "Great_Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    10,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 4,
+                "klass": "Great_Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Halberd",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    12,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 8,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    15,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 15,
+                "klass": "Archer",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Killer Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    14,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 15,
+                "klass": "Archer",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Killer Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    16,
+                    16
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 10,
+                "klass": "General",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "d",
+                "starting_position": [
+                    12,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1045,6 +1297,40 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Phase3",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    15
+                ],
+                "size": [
+                    23,
+                    5
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Phase4",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    3
+                ],
+                "size": [
+                    23,
+                    11
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
         "unit_groups": [],
@@ -1063,6 +1349,18 @@
             },
             {
                 "nid": "sb",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "fr",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "d",
                 "trigger_threshold": 1
             }
         ]
