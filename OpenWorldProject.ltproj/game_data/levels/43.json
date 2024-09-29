@@ -5,7 +5,10 @@
         "tilemap": "Betrayal2",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Twilight-of-the-Gods",
+            "enemy_phase": "Twilight-of-the-Gods"
+        },
         "objective": {
             "simple": "Defeat Morrissey",
             "win": "Defeat Morrissey",
@@ -649,7 +652,7 @@
                 "ai_group": "",
                 "starting_position": [
                     10,
-                    17
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -677,7 +680,135 @@
                 "ai_group": "",
                 "starting_position": [
                     12,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 6,
+                "klass": "Sniper",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
                     17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 2,
+                "klass": "DireWolf",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "sb",
+                "starting_position": [
+                    7,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 2,
+                "klass": "DireWolf",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Sharp Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "sb",
+                "starting_position": [
+                    6,
+                    27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 2,
+                "klass": "Paladin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ],
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "st",
+                "starting_position": [
+                    20,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 2,
+                "klass": "Paladin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Blade",
+                        false
+                    ],
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "st",
+                "starting_position": [
+                    19,
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -747,7 +878,11 @@
                 "trigger_threshold": 1
             },
             {
-                "nid": "z",
+                "nid": "st",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "sb",
                 "trigger_threshold": 1
             }
         ]
