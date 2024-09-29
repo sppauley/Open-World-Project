@@ -11,6 +11,7 @@
             "# debugging for tests",
             "game_var;AnukiLoyal;True",
             "",
+            "hide_layer;opentopdoor;immediate",
             "# variables for the map phases",
             "level_var;MapPhase;1",
             "",

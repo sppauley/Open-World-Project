@@ -8,7 +8,33 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Todo"
+            "# Todo",
+            "remove_all_units",
+            "resurrect;MorrisseyBoss",
+            "add_unit;MorrisseyBoss;11,3",
+            "add_unit;Simon;11,4",
+            "",
+            "add_portrait;Morrissey;Right;normal;CloseEyes",
+            "s;Morrissey;Ah... blood...{w} It's been so long...",
+            "add_portrait;Simon;Left;left",
+            "s;Simon;You've lost, Morrissey.{w} Surrender.",
+            "s;Morrissey;Surrender?{w} Hah... hah...|Even now, so naive...",
+            "s;Simon;I'm merciful.{w} That's something you'll never understand.",
+            "s;Morrissey;Hah! I was merciful once.{w} I too have spared my adversaries.|Allowed bandits to reintegrate into villages, rebellious lords to return to their manors.|And my mercy was always met with a new betrayal!",
+            "s;Simon;So you yourself became a traitor.",
+            "s;Morrissey;I became focused.{w} A noble's strength, not their character, is what matters.|Tell me, Simon: are you ready to crush rebellions?|Wipe out villages to set a necessary example?|Execute lords for treason?",
+            "s;Simon;...",
+            "s;Morrissey;Because when you take my head, and my throne, you will become that tyrant.|It is inevitable.",
+            "s;Simon;...",
+            "s;Morrissey;If you cannot accept that, then burn!",
+            "multi_remove_portrait;Morrissey;Simon",
+            "",
+            "map_anim;AOE_Fireball;11,4;no_block",
+            "move_unit;Simon;10,4;no_follow",
+            "move_unit;Simon;10,3;no_follow",
+            "kill_unit;MorrisseyBoss",
+            "",
+            "add_portrait;Simon;Left;normal;CloseEyes"
         ]
     }
 ]
