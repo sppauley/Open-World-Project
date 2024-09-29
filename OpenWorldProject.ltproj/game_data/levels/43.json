@@ -226,7 +226,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Great_Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -250,7 +250,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "Paladin",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -474,7 +474,7 @@
             {
                 "nid": "119",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -498,7 +498,7 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 3,
+                "level": 1,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -522,7 +522,7 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 13,
+                "level": 9,
                 "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -546,7 +546,7 @@
             {
                 "nid": "122",
                 "variant": null,
-                "level": 13,
+                "level": 9,
                 "klass": "Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -594,7 +594,7 @@
             {
                 "nid": "124",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "Sage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -678,7 +678,7 @@
             {
                 "nid": "128",
                 "variant": null,
-                "level": 6,
+                "level": 1,
                 "klass": "Sniper",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -695,110 +695,6 @@
                 "starting_position": [
                     11,
                     17
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "127",
-                "variant": null,
-                "level": 2,
-                "klass": "DireWolf",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "sb",
-                "starting_position": [
-                    7,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "129",
-                "variant": null,
-                "level": 2,
-                "klass": "DireWolf",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "sb",
-                "starting_position": [
-                    6,
-                    27
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "130",
-                "variant": null,
-                "level": 2,
-                "klass": "Paladin",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Silver Blade",
-                        false
-                    ],
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "st",
-                "starting_position": [
-                    20,
-                    28
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "131",
-                "variant": null,
-                "level": 2,
-                "klass": "Paladin",
-                "faction": "Morrissey",
-                "starting_items": [
-                    [
-                        "Silver Blade",
-                        false
-                    ],
-                    [
-                        "Silver_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "st",
-                "starting_position": [
-                    19,
-                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -862,7 +758,7 @@
             {
                 "nid": "134",
                 "variant": null,
-                "level": 3,
+                "level": 2,
                 "klass": "Swordmaster",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -886,7 +782,7 @@
             {
                 "nid": "135",
                 "variant": null,
-                "level": 3,
+                "level": 2,
                 "klass": "Swordmaster",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -986,7 +882,7 @@
             {
                 "nid": "140",
                 "variant": null,
-                "level": 15,
+                "level": 9,
                 "klass": "AxeCavalier",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1010,7 +906,7 @@
             {
                 "nid": "141",
                 "variant": null,
-                "level": 15,
+                "level": 9,
                 "klass": "AxeCavalier",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1034,7 +930,7 @@
             {
                 "nid": "142",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Great_Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1062,7 +958,7 @@
             {
                 "nid": "143",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Great_Knight",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1090,7 +986,7 @@
             {
                 "nid": "144",
                 "variant": null,
-                "level": 8,
+                "level": 5,
                 "klass": "General",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1114,7 +1010,7 @@
             {
                 "nid": "145",
                 "variant": null,
-                "level": 15,
+                "level": 13,
                 "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1138,7 +1034,7 @@
             {
                 "nid": "146",
                 "variant": null,
-                "level": 15,
+                "level": 13,
                 "klass": "Archer",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -1406,6 +1302,73 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 3,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 3,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "Freeze",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 3,
+                "klass": "Sage",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1495,7 +1458,30 @@
                 "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Phase2",
+                "units": [
+                    "116",
+                    "127",
+                    "129"
+                ],
+                "positions": {
+                    "116": [
+                        10,
+                        41
+                    ],
+                    "127": [
+                        11,
+                        41
+                    ],
+                    "129": [
+                        12,
+                        41
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "a",
