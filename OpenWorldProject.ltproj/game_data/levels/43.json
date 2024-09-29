@@ -1369,6 +1369,127 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 3,
+                "klass": "Mage Knight",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Fimbulvetr",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 10,
+                "klass": "Halberdier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Shockstick",
+                        false
+                    ],
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "157",
+                "variant": null,
+                "level": 10,
+                "klass": "Halberdier",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Shockstick",
+                        false
+                    ],
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "158",
+                "variant": null,
+                "level": 10,
+                "klass": "Cleric",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Grasp",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1480,19 +1601,43 @@
                         41
                     ]
                 }
+            },
+            {
+                "nid": "Phase3",
+                "units": [
+                    "130",
+                    "131",
+                    "136",
+                    "157",
+                    "158"
+                ],
+                "positions": {
+                    "130": [
+                        0,
+                        23
+                    ],
+                    "131": [
+                        0,
+                        24
+                    ],
+                    "136": [
+                        20,
+                        15
+                    ],
+                    "157": [
+                        21,
+                        16
+                    ],
+                    "158": [
+                        20,
+                        16
+                    ]
+                }
             }
         ],
         "ai_groups": [
             {
                 "nid": "a",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "st",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "sb",
                 "trigger_threshold": 1
             },
             {
@@ -1505,6 +1650,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

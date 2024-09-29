@@ -8,7 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "level_var;MapPhase;3"
+            "level_var;MapPhase;3",
+            "add_group;Phase3",
+            "center_cursor;0,23",
+            "wait;500",
+            "center_cursor;20,16",
+            "wait;500"
         ]
     }
 ]
