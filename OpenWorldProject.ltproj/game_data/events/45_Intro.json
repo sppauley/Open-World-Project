@@ -37,6 +37,7 @@
             "s;Simon;Then...",
             "s;Annetta;If I fall, our battle will simply begin anew.|I will give my eternity for Lady Clotho.|Prepare yourself.",
             "",
+            "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",

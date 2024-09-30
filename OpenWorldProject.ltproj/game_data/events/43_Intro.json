@@ -78,6 +78,7 @@
             "#",
             "change_team;Anuki;enemy",
             "show_layer;overlay",
+            "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",

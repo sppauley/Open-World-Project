@@ -12,7 +12,11 @@
             "# Need to have recruited Alina and beaten the precursor ruins to get here.",
             "hide_layer;roof;immediate",
             "show_layer;tapestry;immediate",
-            "show_layer;overlay;immediate"
+            "show_layer;overlay;immediate",
+            "",
+            "level_var;PrepMusic;\"BriefingIII\"",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]

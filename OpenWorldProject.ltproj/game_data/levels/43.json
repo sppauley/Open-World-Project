@@ -6,8 +6,10 @@
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
-            "player_phase": "Twilight-of-the-Gods",
-            "enemy_phase": "Twilight-of-the-Gods"
+            "player_phase": "ThornInYou",
+            "enemy_phase": "ThornInYou",
+            "enemy2_phase": "ThornInYou",
+            "other_phase": "ThornInYou"
         },
         "objective": {
             "simple": "Defeat Morrissey",
@@ -1839,10 +1841,6 @@
             },
             {
                 "nid": "c",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]

@@ -5,7 +5,12 @@
         "tilemap": "empty",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Twilight-of-the-Gods",
+            "enemy_phase": "Twilight-of-the-Gods",
+            "enemy2_phase": "Twilight-of-the-Gods",
+            "other_phase": "Twilight-of-the-Gods"
+        },
         "objective": {
             "simple": "Defeat the Fates",
             "win": "Defeat the Fates",
