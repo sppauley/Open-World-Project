@@ -10,6 +10,16 @@
         "_source": [
             "music_clear;2000",
             "",
+            "move_unit;Simon;16,7",
+            "",
+            "add_portrait;Simon;Left;normal;CloseEyes",
+            "s;Simon;If I speak to Morrissey now...{w} If he has betrayed me, there's no turning back.|Am I really ready?;;;thought_bubble",
+            "choice;BeginEnding;Speak to Morrissey?;Yes,No",
+            "",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "remove_portrait;Simon",
+            "move_unit;Simon;Morrissey;normal;closest",
+            "",
             "add_portrait;Simon;Left",
             "add_portrait;Morrissey;Right",
             "",
@@ -104,6 +114,8 @@
             "game_var;_go_to_overworld_nid;None",
             "game_var;_goto_level;\"43\"",
             "win_game",
+            "",
+            "end",
             "",
             "end"
         ]

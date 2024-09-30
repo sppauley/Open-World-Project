@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "# story",
+            "game_var;freely_exit;False",
             "remove_group;StartingEnemies",
             "show_layer;libraryintro",
             "load_unit;Morrissey;other",
