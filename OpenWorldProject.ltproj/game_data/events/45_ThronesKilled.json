@@ -12,10 +12,7 @@
             "flicker_cursor;12,15",
             "show_layer;central",
             "",
-            "add_unit;119;12,14;swoosh",
-            "add_unit;120;12,16;swoosh",
-            "add_unit;121;11,15;swoosh",
-            "add_unit;122;13,15;swoosh"
+            "level_var;SpawnAngels;True"
         ]
     }
 ]

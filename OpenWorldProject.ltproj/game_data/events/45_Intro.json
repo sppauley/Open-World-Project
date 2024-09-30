@@ -16,6 +16,7 @@
             "change_ai;Lucius;Defend",
             "add_tag;Annetta;Boss",
             "add_tag;Lucius;Boss",
+            "level_var;SpawnAngels;False",
             "",
             "map_anim;mage_ballista;12,23;permanent",
             "",
