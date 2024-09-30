@@ -5,7 +5,12 @@
         "tilemap": "Ramm",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "DarkWastes",
+            "enemy_phase": "DarkWastes",
+            "enemy2_phase": "DarkWastes",
+            "other_phase": "DarkWastes"
+        },
         "objective": {
             "simple": "Defeat All Bosses",
             "win": "Defeat All Bosses",
