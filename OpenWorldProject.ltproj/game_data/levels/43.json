@@ -1511,6 +1511,90 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Assassin_1",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Assassin_2",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Assassin_3",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Assassin_4",
+                "variant": null,
+                "level": 20,
+                "klass": "Assassin",
+                "faction": "Morrissey",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1652,6 +1736,90 @@
                     "158": [
                         20,
                         16
+                    ]
+                }
+            },
+            {
+                "nid": "StartingEnemies",
+                "units": [
+                    "MorrisseyBoss",
+                    "103",
+                    "104",
+                    "105",
+                    "102",
+                    "106",
+                    "113",
+                    "114",
+                    "107",
+                    "108",
+                    "109",
+                    "110",
+                    "111",
+                    "112",
+                    "101",
+                    "118",
+                    "115",
+                    "117",
+                    "119",
+                    "120",
+                    "121",
+                    "122",
+                    "123",
+                    "124",
+                    "125",
+                    "126",
+                    "128",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "137",
+                    "138",
+                    "139",
+                    "140",
+                    "141",
+                    "142",
+                    "143",
+                    "144",
+                    "145",
+                    "146",
+                    "147",
+                    "148",
+                    "149",
+                    "150",
+                    "151",
+                    "152",
+                    "153",
+                    "154",
+                    "155",
+                    "156"
+                ],
+                "positions": {}
+            },
+            {
+                "nid": "StoryAssassins",
+                "units": [
+                    "Assassin_1",
+                    "Assassin_2",
+                    "Assassin_3",
+                    "Assassin_4"
+                ],
+                "positions": {
+                    "Assassin_1": [
+                        8,
+                        6
+                    ],
+                    "Assassin_2": [
+                        8,
+                        9
+                    ],
+                    "Assassin_3": [
+                        14,
+                        6
+                    ],
+                    "Assassin_4": [
+                        14,
+                        9
                     ]
                 }
             }

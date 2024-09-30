@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 25,
         "_source": [
-            "add_portrait;Anuki;Left;;CloseEyes",
+            "add_portrait;Anuki;Right;;CloseEyes",
             "s;Anuki;To think I'd be bested by my house's own troops...{w}{br}Damn it all.",
             "remove_portrait;Anuki",
             "lose_game"
