@@ -243,5 +243,10 @@
         "BriefingIII",
         false,
         false
+    ],
+    [
+        "LostAndForgotten",
+        false,
+        false
     ]
 ]
