@@ -9,7 +9,7 @@
         "layers": [
             {
                 "nid": "base",
-                "visible": false,
+                "visible": true,
                 "foreground": false,
                 "terrain_grid": {
                     "5,32": "5",
@@ -8142,7 +8142,7 @@
             },
             {
                 "nid": "overlay",
-                "visible": false,
+                "visible": true,
                 "foreground": false,
                 "terrain_grid": {
                     "20,30": "2",
@@ -9591,7 +9591,7 @@
             },
             {
                 "nid": "libraryintro",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "10,9": "Carpet",
