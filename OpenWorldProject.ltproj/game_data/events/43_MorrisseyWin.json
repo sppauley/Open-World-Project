@@ -1,0 +1,29 @@
+[
+    {
+        "name": "MorrisseyWin",
+        "trigger": "combat_end",
+        "level_nid": "43",
+        "condition": "len(game.get_player_units(True)) == 1 and not game.check_dead('MorrisseyBoss')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit(\"Simon\").get_skill('Frozen') or game.get_unit(\"Simon\").get_skill('Crippled') or game.get_unit(\"Simon\").get_skill('Enfeebled')",
+            "",
+            "music_clear",
+            "center_cursor;MorrisseyBoss",
+            "",
+            "game_var;MorrisseyWins;True",
+            "",
+            "add_portrait;Morrissey;Right",
+            "s;Morrissey;Poor Lord Verstadt, left all alone against me.|There's no need to prolong this battle.|Men, capture him!",
+            "remove_portrait;Morrissey;immediate",
+            "transition;close;1",
+            "sound;Critical Kill",
+            "wait;2000",
+            "win_game",
+            "",
+            "end"
+        ]
+    }
+]

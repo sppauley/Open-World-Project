@@ -10,7 +10,9 @@
         "_source": [
             "# outro dialogue here",
             "music_clear",
-            "if;v(\"EndingChosen\") == \"Clotho\"",
+            "if;v(\"MorrisseyWins\") == True",
+            "    #pass",
+            "elif;v(\"EndingChosen\") == \"Clotho\"",
             "    trigger_script;43 ClothoOutro",
             "elif;v(\"EndingChosen\") == \"Lachesis\"",
             "    trigger_script;43 LachesisOutro",
@@ -24,8 +26,7 @@
             "end",
             "",
             "game_var;_goto_level;\"49\"",
-            "skip_save;true",
-            "win_game"
+            "skip_save;true"
         ]
     }
 ]

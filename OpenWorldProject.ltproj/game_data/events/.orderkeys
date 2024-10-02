@@ -786,7 +786,6 @@
     "43_Phase2",
     "43_Phase3",
     "43_Phase4",
-    "43_Win_Condition",
     "43_Outro",
     "45_LuciusKilled",
     "45_Outro",
@@ -795,5 +794,7 @@
     "43_AtroposOutro",
     "43_DefyOutro",
     "50_Intro",
-    "45_SpawnAngels"
+    "45_SpawnAngels",
+    "49_MorrisseyEnding",
+    "43_MorrisseyWin"
 ]
