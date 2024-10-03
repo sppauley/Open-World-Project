@@ -798,5 +798,7 @@
     "49_MorrisseyEnding",
     "43_MorrisseyWin",
     "43_Win_Condition",
-    "43_InitialWaveAttack"
+    "43_InitialWaveAttack",
+    "43_MorrisseyAttacked",
+    "43_MorrisseyReinforcements"
 ]
