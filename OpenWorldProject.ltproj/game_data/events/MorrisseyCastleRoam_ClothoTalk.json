@@ -13,7 +13,7 @@
             "",
             "if;game.check_alive(\"Hatshepsut\") and game.get_unit(\"Hatshepsut\").team == \"player\"",
             "",
-            "s;Clotho;Simon. Of my sisters, I know you the best.|It is my blessing that has made your journey possible.|Will you accept my gift, one final time?",
+            "s;Clotho;Simon. Of my sisters, I know you the best.|It is my blessing that has made your journey possible.|I offer you true safety from your enemies.|Will you accept my gift, one final time?",
             "",
             "choice;ClothoChoice;Take her hand?;Yes,No",
             "if;v(\"_last_choice\") == \"Yes\"",

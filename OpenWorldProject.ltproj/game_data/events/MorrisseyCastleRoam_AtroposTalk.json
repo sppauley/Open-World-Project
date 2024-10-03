@@ -11,7 +11,7 @@
             "add_portrait;Atropos;Left",
             "add_portrait;Simon;Right",
             "",
-            "s;Atropos;Simon. It is time now for you to choose.|I am Atropos, sister of the Fates.|Will you take my hand?",
+            "s;Atropos;Simon. It is time now for you to choose.|I am Atropos, sister of the Fates.|I offer you a lifetime of new memories.|Will you take my hand?",
             "",
             "choice;AtroposChoice;Take her hand?;Yes,No",
             "if;v(\"_last_choice\") == \"Yes\"",
