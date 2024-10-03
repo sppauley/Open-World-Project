@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "# debugging for tests",
-            "#game_var;AnukiLoyal;True",
+            "game_var;AnukiLoyal;True",
             "",
             "# story",
             "music;DreamPt1",
@@ -351,19 +351,19 @@
             "change_team;Bordeaux;enemy",
             "change_team;Brandt;enemy",
             "",
-            "#",
-            "show_layer;overlay",
-            "level_var;PrepMusic;\"BriefingIII\"",
-            "arrange_formation",
-            "trigger_script;Global GenericPreps",
-            "",
             "# if Anuki is loyal, she joins you",
             "if;game.game_vars['AnukiLoyal']==True",
             "    change_team;Anuki;player",
-            "    add_unit;Anuki;12,39",
             "else",
             "    add_unit;AnukiBoss;12,10",
-            "end"
+            "end",
+            "",
+            "#",
+            "remove_unit;Vincent",
+            "remove_unit;Luther",
+            "level_var;PrepMusic;\"BriefingIII\"",
+            "arrange_formation",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]
