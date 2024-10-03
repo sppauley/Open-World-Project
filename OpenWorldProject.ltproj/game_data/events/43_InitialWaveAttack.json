@@ -1,0 +1,22 @@
+[
+    {
+        "name": "InitialWaveAttack",
+        "trigger": "turn_change",
+        "level_nid": "43",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_ai;128;Pursue",
+            "change_ai;125;Pursue",
+            "change_ai;126;Pursue",
+            "",
+            "change_ai;123;Pursue",
+            "change_ai;121;Pursue",
+            "change_ai;122;Pursue",
+            "change_ai;119;Pursue",
+            "change_ai;120;Pursue"
+        ]
+    }
+]

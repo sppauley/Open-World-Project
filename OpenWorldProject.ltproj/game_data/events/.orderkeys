@@ -797,5 +797,6 @@
     "45_SpawnAngels",
     "49_MorrisseyEnding",
     "43_MorrisseyWin",
-    "43_Win_Condition"
+    "43_Win_Condition",
+    "43_InitialWaveAttack"
 ]
