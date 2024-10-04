@@ -814,7 +814,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "BanditsLeave",
+                "target_spec": "Escape",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -824,7 +824,7 @@
             {
                 "action": "Move_to",
                 "target": "Event",
-                "target_spec": "BanditsLeave",
+                "target_spec": "Escape",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
