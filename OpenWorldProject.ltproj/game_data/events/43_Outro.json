@@ -10,6 +10,8 @@
         "_source": [
             "# outro dialogue here",
             "music_clear",
+            "resurrect;Luther",
+            "resurrect;Anuki",
             "if;v(\"MorrisseyWins\") == True",
             "    #pass",
             "elif;v(\"EndingChosen\") == \"Clotho\"",
