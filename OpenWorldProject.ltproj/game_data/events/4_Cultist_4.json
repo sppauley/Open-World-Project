@@ -1,14 +1,14 @@
 [
     {
-        "name": "Druid 122",
+        "name": "Cultist_4",
         "trigger": "combat_end",
         "level_nid": "4",
-        "condition": "game.check_dead('122')",
+        "condition": "game.check_dead('Cultist_4')",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;illuminate_right2;32,38;7,5;vision;4",
+            "add_region;illuminate_right2;32,27;7,5;vision;4",
             "add_group;RightDruid2"
         ]
     }

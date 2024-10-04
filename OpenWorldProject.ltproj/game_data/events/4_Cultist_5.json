@@ -1,14 +1,14 @@
 [
     {
-        "name": "Druid 135",
+        "name": "Cultist_5",
         "trigger": "combat_end",
         "level_nid": "4",
-        "condition": "game.check_dead('135')",
+        "condition": "game.check_dead('Cultist_5')",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;illuminate_top1;0,13;9,5;vision;4",
+            "add_region;illuminate_top1;0,6;9,5;vision;2",
             "add_group;TopLeft"
         ]
     }

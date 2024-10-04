@@ -2,7 +2,7 @@
     {
         "nid": "4",
         "name": "Submerged Mausoleum",
-        "tilemap": "SumbergedMausoleum2",
+        "tilemap": "Mausoleum3",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
@@ -29,7 +29,7 @@
                 "ai_group": null,
                 "starting_position": [
                     11,
-                    47
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -41,8 +41,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    46
+                    37,
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -88,8 +88,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    8,
-                    47
+                    36,
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -112,8 +112,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    9,
-                    47
+                    36,
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -136,8 +136,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    31,
-                    46
+                    36,
+                    38
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -160,8 +160,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    31,
-                    47
+                    8,
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -184,8 +184,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    31,
-                    48
+                    9,
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -209,7 +209,7 @@
                 "ai_group": null,
                 "starting_position": [
                     10,
-                    47
+                    35
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -231,10 +231,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    44
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -255,10 +252,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    11,
-                    45
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -279,10 +273,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    28,
-                    46
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -303,10 +294,7 @@
                 "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    27,
-                    47
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -330,8 +318,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    41
+                    1,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -356,8 +344,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    1,
-                    33
+                    9,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -382,8 +370,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    33,
-                    37
+                    31,
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -409,7 +397,7 @@
                 "ai_group": "",
                 "starting_position": [
                     26,
-                    22
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -434,8 +422,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    22
+                    33,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -461,7 +449,7 @@
                 "ai_group": "",
                 "starting_position": [
                     21,
-                    37
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -487,7 +475,7 @@
                 "ai_group": "",
                 "starting_position": [
                     16,
-                    33
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -513,33 +501,7 @@
                 "ai_group": "",
                 "starting_position": [
                     32,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "166",
-                "variant": null,
-                "level": 1,
-                "klass": "Arch_Mogall",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Crimson Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "EyeofVesner"
-                ],
-                "team": "enemy2",
-                "ai": "Guard",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    20,
-                    13
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -564,8 +526,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    17
+                    36,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -591,7 +553,7 @@
                 "ai_group": "",
                 "starting_position": [
                     13,
-                    22
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -617,7 +579,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    12
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -640,8 +602,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    43
+                    13,
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -664,8 +626,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    42
+                    14,
+                    34
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -688,8 +650,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    41
+                    5,
+                    32
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -712,8 +674,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    42
+                    4,
+                    33
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -736,8 +698,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    46
+                    23,
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -764,8 +726,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    22,
-                    45
+                    23,
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -788,8 +750,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    36
+                    3,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -812,8 +774,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    35
+                    4,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -840,8 +802,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    36
+                    16,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -864,14 +826,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    37
+                    17,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "119",
+                "nid": "Cultist_3",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -889,13 +851,13 @@
                 "ai_group": "",
                 "starting_position": [
                     17,
-                    35
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "120",
+                "nid": "Cultist_1",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -912,14 +874,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    34
+                    2,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "121",
+                "nid": "Cultist_2",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -937,13 +899,13 @@
                 "ai_group": "",
                 "starting_position": [
                     19,
-                    39
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "122",
+                "nid": "Cultist_4",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -961,7 +923,7 @@
                 "ai_group": "",
                 "starting_position": [
                     37,
-                    39
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -985,7 +947,7 @@
                 "ai_group": "",
                 "starting_position": [
                     20,
-                    41
+                    29
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1008,8 +970,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    40
+                    19,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1032,8 +994,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
-                    41
+                    32,
+                    30
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1056,12 +1018,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Pursue",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    23
+                    4,
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1084,8 +1046,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    39
+                    31,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1108,8 +1070,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    40
+                    32,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1132,8 +1094,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    0,
-                    13
+                    6,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1156,8 +1118,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    19
+                    4,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1180,8 +1142,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    26
+                    0,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1204,8 +1166,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    36,
-                    32
+                    35,
+                    21
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1228,14 +1190,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
-                    30
+                    36,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "135",
+                "nid": "Cultist_5",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -1253,13 +1215,13 @@
                 "ai_group": "",
                 "starting_position": [
                     5,
-                    14
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "136",
+                "nid": "Cultist_6",
                 "variant": null,
                 "level": 10,
                 "klass": "Druid",
@@ -1277,7 +1239,7 @@
                 "ai_group": "",
                 "starting_position": [
                     35,
-                    10
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1301,7 +1263,7 @@
                 "ai_group": "",
                 "starting_position": [
                     34,
-                    11
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1325,7 +1287,7 @@
                 "ai_group": "",
                 "starting_position": [
                     36,
-                    11
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1349,7 +1311,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    15
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1373,7 +1335,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    15
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1396,8 +1358,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    22
+                    16,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1420,8 +1382,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    21
+                    20,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1444,8 +1406,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    21
+                    31,
+                    18
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1468,8 +1430,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    33,
-                    22
+                    32,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1492,8 +1454,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    25
+                    8,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1516,8 +1478,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    24
+                    9,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1541,7 +1503,7 @@
                 "ai_group": "",
                 "starting_position": [
                     24,
-                    26
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1565,7 +1527,7 @@
                 "ai_group": "",
                 "starting_position": [
                     26,
-                    26
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1578,22 +1540,18 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Elfire",
-                        false
-                    ],
-                    [
-                        "Freeze",
+                        "Fimbulvetr",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Pursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     25,
-                    25
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1616,8 +1574,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    29,
-                    31
+                    32,
+                    36
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1640,8 +1598,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    31
+                    31,
+                    37
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1664,12 +1622,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    37,
-                    16
+                    32,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1692,8 +1650,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    25
+                    9,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1720,104 +1678,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    32,
-                    22
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "159",
-                "variant": null,
-                "level": 10,
-                "klass": "Druid",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "160",
-                "variant": null,
-                "level": 10,
-                "klass": "Druid",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    27,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "161",
-                "variant": null,
-                "level": 10,
-                "klass": "Druid",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    14,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "162",
-                "variant": null,
-                "level": 10,
-                "klass": "Druid",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Flux",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    26,
-                    5
+                    31,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1825,7 +1687,7 @@
             {
                 "nid": "170",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Halberdier",
                 "faction": "Monster",
                 "starting_items": [
@@ -1836,12 +1698,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "d",
                 "starting_position": [
                     19,
-                    16
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1849,7 +1711,7 @@
             {
                 "nid": "172",
                 "variant": null,
-                "level": 5,
+                "level": 1,
                 "klass": "Halberdier",
                 "faction": "Monster",
                 "starting_items": [
@@ -1860,12 +1722,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy2",
-                "ai": "Attack",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "d",
                 "starting_position": [
                     21,
-                    16
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1888,8 +1750,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    27,
-                    12
+                    21,
+                    19
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1912,8 +1774,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    12
+                    15,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1936,8 +1798,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    17,
-                    4
+                    19,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1960,8 +1822,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    23,
-                    4
+                    21,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2322,6 +2184,54 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 15,
+                "klass": "Thief",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    27,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 15,
+                "klass": "Thief",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Red Gem",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2398,7 +2308,7 @@
                 "region_type": "normal",
                 "position": [
                     5,
-                    15
+                    8
                 ],
                 "size": [
                     1,
@@ -2415,7 +2325,7 @@
                 "region_type": "normal",
                 "position": [
                     35,
-                    11
+                    7
                 ],
                 "size": [
                     1,
@@ -2449,7 +2359,7 @@
                 "region_type": "normal",
                 "position": [
                     3,
-                    35
+                    24
                 ],
                 "size": [
                     1,
@@ -2466,7 +2376,7 @@
                 "region_type": "normal",
                 "position": [
                     17,
-                    36
+                    25
                 ],
                 "size": [
                     1,
@@ -2483,7 +2393,7 @@
                 "region_type": "normal",
                 "position": [
                     11,
-                    28
+                    17
                 ],
                 "size": [
                     1,
@@ -2500,7 +2410,7 @@
                 "region_type": "normal",
                 "position": [
                     19,
-                    40
+                    29
                 ],
                 "size": [
                     1,
@@ -2517,7 +2427,7 @@
                 "region_type": "normal",
                 "position": [
                     37,
-                    40
+                    29
                 ],
                 "size": [
                     1,
@@ -2534,7 +2444,7 @@
                 "region_type": "normal",
                 "position": [
                     25,
-                    32
+                    21
                 ],
                 "size": [
                     1,
@@ -2551,7 +2461,7 @@
                 "region_type": "normal",
                 "position": [
                     10,
-                    30
+                    19
                 ],
                 "size": [
                     3,
@@ -2568,7 +2478,7 @@
                 "region_type": "normal",
                 "position": [
                     24,
-                    34
+                    23
                 ],
                 "size": [
                     3,
@@ -2585,7 +2495,7 @@
                 "region_type": "normal",
                 "position": [
                     19,
-                    19
+                    10
                 ],
                 "size": [
                     3,
@@ -2602,10 +2512,10 @@
                 "region_type": "formation",
                 "position": [
                     8,
-                    48
+                    36
                 ],
                 "size": [
-                    4,
+                    3,
                     1
                 ],
                 "sub_nid": "",
@@ -2618,12 +2528,12 @@
                 "nid": "prep_right",
                 "region_type": "formation",
                 "position": [
-                    32,
-                    47
+                    37,
+                    36
                 ],
                 "size": [
-                    2,
-                    2
+                    1,
+                    3
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -2653,7 +2563,7 @@
                 "region_type": "vision",
                 "position": [
                     3,
-                    35
+                    24
                 ],
                 "size": [
                     1,
@@ -2670,7 +2580,7 @@
                 "region_type": "vision",
                 "position": [
                     17,
-                    36
+                    25
                 ],
                 "size": [
                     1,
@@ -2687,7 +2597,7 @@
                 "region_type": "vision",
                 "position": [
                     19,
-                    40
+                    29
                 ],
                 "size": [
                     1,
@@ -2704,7 +2614,7 @@
                 "region_type": "vision",
                 "position": [
                     37,
-                    40
+                    29
                 ],
                 "size": [
                     1,
@@ -2721,11 +2631,11 @@
                 "region_type": "normal",
                 "position": [
                     0,
-                    4
+                    0
                 ],
                 "size": [
                     39,
-                    29
+                    22
                 ],
                 "sub_nid": "",
                 "condition": "True",
@@ -2745,15 +2655,15 @@
                 "positions": {
                     "177": [
                         0,
-                        46
+                        33
                     ],
                     "179": [
                         0,
-                        47
+                        34
                     ],
                     "178": [
                         0,
-                        48
+                        35
                     ]
                 }
             },
@@ -2766,16 +2676,16 @@
                 ],
                 "positions": {
                     "180": [
-                        13,
-                        49
+                        0,
+                        33
                     ],
                     "181": [
-                        14,
-                        49
+                        0,
+                        34
                     ],
                     "182": [
-                        15,
-                        49
+                        0,
+                        35
                     ]
                 }
             },
@@ -2789,15 +2699,15 @@
                 "positions": {
                     "183": [
                         38,
-                        47
+                        35
                     ],
                     "185": [
                         38,
-                        48
+                        36
                     ],
                     "184": [
                         38,
-                        49
+                        37
                     ]
                 }
             },
@@ -2809,12 +2719,12 @@
                 ],
                 "positions": {
                     "186": [
-                        36,
-                        49
+                        38,
+                        35
                     ],
                     "187": [
-                        37,
-                        49
+                        38,
+                        36
                     ]
                 }
             },
@@ -2828,15 +2738,15 @@
                 "positions": {
                     "188": [
                         0,
-                        27
+                        16
                     ],
                     "189": [
                         0,
-                        26
+                        15
                     ],
                     "190": [
                         0,
-                        28
+                        17
                     ]
                 }
             },
@@ -2850,19 +2760,28 @@
                 "positions": {
                     "191": [
                         38,
-                        24
+                        14
                     ],
                     "192": [
-                        38,
-                        23
+                        37,
+                        14
                     ],
                     "193": [
-                        38,
-                        25
+                        37,
+                        15
                     ]
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "d",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

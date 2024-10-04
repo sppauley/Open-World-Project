@@ -1,14 +1,14 @@
 [
     {
-        "name": "Druid 136",
+        "name": "Cultist_6",
         "trigger": "combat_end",
         "level_nid": "4",
-        "condition": "game.check_dead('136')",
+        "condition": "game.check_dead('Cultist_6')",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_region;illuminate_top2;31,9;8,5;vision;4",
+            "add_region;illuminate_top2;31,5;8,5;vision;2",
             "add_group;TopRight"
         ]
     }
