@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MorrisseySimonBattle",
+        "trigger": "combat_start",
+        "level_nid": "43",
+        "condition": "check_pair('Simon', 'MorrisseyBoss')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left",
+            "add_portrait;Morrissey;Right",
+            "",
+            "s;Morrissey;Impressive, Verstadt. I expected resistance, but you've put up quite the fight.",
+            "s;Simon;You can still surrender.{w} I would spare you, I swear.",
+            "s;Morrissey;Even in that, you show your naivety.|You are not ready to rule, Simon.|Now concede to your better!",
+            "multi_remove_portrait;Morrissey;Simon"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MorrisseyAnukiBattle",
+        "trigger": "combat_start",
+        "level_nid": "43",
+        "condition": "check_pair('Anuki', 'MorrisseyBoss')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Anuki;Left",
+            "add_portrait;Morrissey;Right",
+            "",
+            "s;Morrissey;What are you thinking, foolish girl?!|Your place is at my side, not this upstarts!",
+            "s;Anuki;When you betrayed him, father, you betrayed me as well.|He has shown me respect and trust.{w} He's protected me on the battlefield,|just as I have protected him.{w} You have no right to raise your hand against him.",
+            "s;Morrissey;No right? No right?!{w} Oh, how I've failed to teach you!|We have every right to do as we please, Anuki.|For the victor, the strongest, there is nothing that they have no right to.",
+            "s;Anuki;Seems that you haven't realized that you aren't the strongest-|and haven't been for a while.",
+            "s;Morrissey;You seek to dethrone me? Hah!{w} Swing well, my daughter.|You won't have a second chance.",
+            "multi_remove_portrait;Morrissey;Simon"
+        ]
+    }
+]

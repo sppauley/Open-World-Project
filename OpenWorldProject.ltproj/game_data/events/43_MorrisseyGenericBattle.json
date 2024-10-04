@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MorrisseyGenericBattle",
+        "trigger": "combat_start",
+        "level_nid": "43",
+        "condition": "check_default('MorrisseyBoss', ['Simon', 'Anuki'])",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Morrissey;Right",
+            "s;Morrissey;Your loyalty to Simon is commendable, if misplaced.|A shame that so many talented warriors must fall today.",
+            "remove_portrait;Morrissey"
+        ]
+    }
+]
