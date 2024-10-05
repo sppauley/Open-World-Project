@@ -2,7 +2,7 @@
     {
         "nid": "1",
         "name": "The Continent",
-        "tilemap": "empty",
+        "tilemap": "map",
         "music": "EnterTheWoods",
         "overworld_nodes": [
             {

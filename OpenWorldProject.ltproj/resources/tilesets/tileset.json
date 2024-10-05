@@ -891,5 +891,10 @@
         "nid": "mage_ballista",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "map",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
