@@ -31,16 +31,6 @@
                 "generic": false
             },
             {
-                "nid": "Melodie",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "101",
                 "variant": null,
                 "level": 1,
@@ -1233,16 +1223,6 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
-            },
-            {
-                "nid": "Euclid",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
             },
             {
                 "nid": "155",
