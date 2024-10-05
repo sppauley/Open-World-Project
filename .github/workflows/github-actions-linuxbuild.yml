@@ -23,6 +23,6 @@ jobs:
           chmod -R 777 ./*
           dos2unix ./utilities/build_tools/engine_build.sh
           ./utilities/build_tools/engine_build.sh OpenWorldProject
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         path: OpenWorldProject/*
