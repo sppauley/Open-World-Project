@@ -18,6 +18,7 @@
             "game_var;AccuracyWeaponMaterial;4",
             "give_item;Simon;ForgingBag;no_banner",
             "",
+            "give_item;Bone;Iron Axe",
             "autolevel_to;Nika;10",
             "give_item;Nika;Master Seal",
             "",

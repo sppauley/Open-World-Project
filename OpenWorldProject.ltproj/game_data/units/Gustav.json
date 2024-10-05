@@ -42,7 +42,12 @@
                 true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Ruler"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
