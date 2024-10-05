@@ -6,7 +6,9 @@
         "variant": null,
         "level": 5,
         "klass": "Druid",
-        "tags": [],
+        "tags": [
+            "Boss"
+        ],
         "bases": {
             "HP": 30,
             "CON": 7,
