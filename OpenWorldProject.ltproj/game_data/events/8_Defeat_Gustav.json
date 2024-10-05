@@ -11,8 +11,12 @@
             "add_portrait;Simon;Left",
             "speak;Simon;It looks like they're retreating...{w}{br}Let's use this opportunity to advance.",
             "remove_portrait;Simon",
-            "remove_all_enemies",
             "wait;500",
+            "overworld_cinematic;1",
+            "reveal_overworld_node;29",
+            "reveal_overworld_road;29;30",
+            "set_overworld_menu_option_visible;1;30;Roam;f",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }

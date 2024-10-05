@@ -16,8 +16,8 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Escape",
-            "win": "Escape",
+            "simple": "Defeat Boss or Escape",
+            "win": "Defeat Boss or Escape",
             "loss": "Simon Dies"
         },
         "roam": false,
