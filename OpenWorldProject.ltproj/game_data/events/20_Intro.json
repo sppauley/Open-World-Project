@@ -147,6 +147,7 @@
             "wait;300",
             "s;Narrator;If the hull is destroyed, the boat will sink, killing ALL non-flying units standing on the ship.;StyleNid=hint",
             "",
+            "change_ai;Caylus;Pursue",
             "arrange_formation",
             "game_var;freely_exit;True",
             "trigger_script;Global GenericPreps",
