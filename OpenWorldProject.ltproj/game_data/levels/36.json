@@ -817,7 +817,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "WestDoor",
+                "nid": "DoorWest",
                 "region_type": "event",
                 "position": [
                     4,

@@ -1308,7 +1308,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "SouthDoor",
+                "nid": "DoorSouth",
                 "region_type": "event",
                 "position": [
                     12,

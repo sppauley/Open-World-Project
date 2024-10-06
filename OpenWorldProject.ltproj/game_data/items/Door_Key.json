@@ -2,7 +2,7 @@
     {
         "nid": "Door Key",
         "name": "Door Key",
-        "desc": "Opens doors.",
+        "desc": "Opens doors. Reusable",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
