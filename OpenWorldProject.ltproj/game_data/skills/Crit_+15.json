@@ -2,7 +2,7 @@
     {
         "nid": "Crit +15",
         "name": "Crit +15",
-        "desc": "Grants +15 Critical chance",
+        "desc": "Gains +15 critical chance.",
         "icon_nid": "Skills",
         "icon_index": [
             2,

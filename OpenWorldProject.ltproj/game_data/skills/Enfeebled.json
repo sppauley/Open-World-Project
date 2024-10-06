@@ -2,7 +2,7 @@
     {
         "nid": "Enfeebled",
         "name": "Enfeebled",
-        "desc": "-4 to all stats except HP and MOV for one turn",
+        "desc": "-4 to all stats except HP and MOV for one turn.",
         "icon_nid": "Skills",
         "icon_index": [
             3,
