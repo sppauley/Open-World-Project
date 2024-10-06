@@ -226,5 +226,7 @@
     "MaxHPDown",
     "HereticalBladeCurse",
     "HereticalBladeCurse_Proc",
-    "Cultist"
+    "Cultist",
+    "Aptitude",
+    "Discipline"
 ]

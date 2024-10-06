@@ -5,8 +5,8 @@
         "desc": "Stagger damage +5 when unit is on road terrain.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
-            2,
-            47
+            6,
+            38
         ],
         "components": [
             [
