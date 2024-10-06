@@ -1,0 +1,18 @@
+[
+    {
+        "name": "RemoveStaggerinOutros",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 22,
+        "_source": [
+            "for;u;[u.nid for u in game.get_all_units(True)]",
+            "    if;has_skill(\"{u}\", 'Staggered')",
+            "        remove_skill;{u};Staggered;no_banner",
+            "    end",
+            "endf"
+        ]
+    }
+]

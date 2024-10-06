@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "add_portrait;Luther;Left;left",
             "speak;Luther;Milord, we've cleared a route!{w}{br}Let us away!",
             "remove_portrait;Luther",

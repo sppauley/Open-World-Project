@@ -12,6 +12,8 @@
             "resurrect;Titus",
             "music_clear",
             "",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "center_cursor;Simon;immediate",
             "remove_unit;Titus;immediate",
             "add_unit;Titus;19,12;immediate",

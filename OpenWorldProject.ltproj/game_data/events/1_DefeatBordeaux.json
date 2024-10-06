@@ -19,6 +19,7 @@
             "end",
             "#change_background;BlackBackground",
             "game_var;freely_exit;True",
+            "trigger_script;Global RemoveStaggerinOutros",
             "#Fates speak style",
             "speak_style;FatesTalk;;center;160;;white;;None;;f;None;fit",
             "#",

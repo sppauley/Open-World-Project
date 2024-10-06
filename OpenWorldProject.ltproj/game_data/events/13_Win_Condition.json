@@ -8,6 +8,8 @@
         "only_once": true,
         "priority": 20,
         "_source": [
+            "",
+            "trigger_script;Global RemoveStaggerinOutros",
             "add_portrait;Mercenary1;FarRight",
             "music_clear",
             "s;Mercenary1;They've gotten the boss!",

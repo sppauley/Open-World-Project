@@ -801,5 +801,6 @@
     "4_Cultist_6",
     "43_MorrisseySimonBattle",
     "43_MorrisseyAnukiBattle",
-    "43_MorrisseyGenericBattle"
+    "43_MorrisseyGenericBattle",
+    "global_RemoveStaggerinOutros"
 ]

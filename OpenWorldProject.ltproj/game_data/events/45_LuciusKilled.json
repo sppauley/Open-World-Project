@@ -12,6 +12,8 @@
             "s;Lucius;I'm sorry... darling...",
             "remove_portrait;Lucius",
             "",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "center_cursor;Annetta",
             "add_portrait;Annetta;Left",
             "s;Annetta;L-lucius..?|No!",

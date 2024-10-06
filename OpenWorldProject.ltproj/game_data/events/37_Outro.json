@@ -10,7 +10,8 @@
         "_source": [
             "music_clear",
             "transition;close;2000",
-            "transition;close;2000",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "remove_all_units",
             "add_unit;Simon;11,20",
             "add_unit;Vincent;12,13",

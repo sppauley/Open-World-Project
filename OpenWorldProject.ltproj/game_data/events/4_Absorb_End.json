@@ -9,6 +9,8 @@
         "priority": 20,
         "_source": [
             "remove_all_enemies",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "",
             "game_var;KajalAbsorb;1",
             "flicker_cursor;Kajal",

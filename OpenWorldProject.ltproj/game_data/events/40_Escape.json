@@ -16,6 +16,8 @@
             "remove_portrait;Simon",
             "",
             "transition;close;2000",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "",
             "trigger_script;Global IncreaseMitziProgress",
             "transition;open;1",

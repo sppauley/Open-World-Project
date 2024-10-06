@@ -12,6 +12,8 @@
             "music_clear",
             "resurrect;Luther",
             "resurrect;Anuki",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "if;v(\"MorrisseyWins\") == True",
             "    #pass",
             "elif;v(\"EndingChosen\") == \"Clotho\"",

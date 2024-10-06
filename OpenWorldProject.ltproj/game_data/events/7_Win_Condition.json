@@ -11,6 +11,8 @@
             "s;Dragonlord;RARGHHHHH!",
             "music_clear",
             "wait;600",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "add_portrait;Simon;Left",
             "add_portrait;Johannes;Right",
             "s;Simon;We really did it...{w}{br}We killed the dragon.",

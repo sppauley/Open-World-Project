@@ -9,6 +9,8 @@
         "priority": 20,
         "_source": [
             "transition;close;2000",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "remove_all_units",
             "resurrect;Juliet",
             "resurrect;Vincent",
