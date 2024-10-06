@@ -9,6 +9,8 @@
         "priority": 20,
         "_source": [
             "# outro dialogue",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "music;Autumn",
             "change_background;Bedroom",
             "multi_add_portrait;Simon;MidLeft;Anuki;FarLeft;Roland;Right",

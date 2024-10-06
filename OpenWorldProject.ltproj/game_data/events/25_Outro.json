@@ -11,6 +11,8 @@
             "",
             "show_layer;prechaptercutscene",
             "change_background;BlackBackground",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "",
             "music_clear",
             "",

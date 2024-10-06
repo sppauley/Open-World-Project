@@ -8,6 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "add_portrait;Titus;Left",
             "s;Titus;Time to end this...",
             "remove_portrait;Titus",

@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "",
+            "trigger_script;Global RemoveStaggerinOutros",
             "add_portrait;Melodie;Left",
             "s;Melodie;Ha! The tyrants are dead!{w}{br}I can't believe we actually did it!",
             "remove_portrait;Melodie",

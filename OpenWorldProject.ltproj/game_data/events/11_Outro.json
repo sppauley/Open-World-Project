@@ -9,6 +9,8 @@
         "priority": 20,
         "_source": [
             "transition;close",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "remove_all_units",
             "music_clear",
             "add_unit;Simon;26,8;immediate",

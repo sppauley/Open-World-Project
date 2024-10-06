@@ -23,6 +23,8 @@
             "endf",
             "",
             "remove_all_units",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "add_unit;Simon;16,10;immediate",
             "",
             "center_cursor;Simon",

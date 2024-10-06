@@ -8,6 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "",
+            "trigger_script;Global RemoveStaggerinOutros",
             "game_var;EbertState;\"TookIsle\"",
             "music_clear",
             "remove_all_units",

@@ -13,6 +13,8 @@
             "change_roam_ai;Flower;None",
             "",
             "remove_all_units",
+            "trigger_script;Global RemoveStaggerinOutros",
+            "",
             "",
             "add_unit;Simon;5,7;immediate",
             "add_unit;Flower;6,6;immediate",
