@@ -2,7 +2,7 @@
     {
         "nid": "Steal",
         "name": "Steal",
-        "desc": "Can open chests as well as steal items from enemies with lower speed.",
+        "desc": "Can open chests as well as steal items from enemies with lower speed. Can only steal items with weight lower than unit's CON.",
         "icon_nid": "Skills",
         "icon_index": [
             7,
