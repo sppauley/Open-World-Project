@@ -354,5 +354,21 @@
     {
         "nid": "shop_no_stock",
         "text": "We're all out!"
+    },
+    {
+        "nid": "display_fps_desc",
+        "text": "Display FPS?"
+    },
+    {
+        "nid": "battle_bg_desc",
+        "text": "Battle backgrounds?"
+    },
+    {
+        "nid": "show_bounds_desc",
+        "text": "Show map boundaries?"
+    },
+    {
+        "nid": "grid_opacity_desc",
+        "text": "Grid opacity level"
     }
 ]

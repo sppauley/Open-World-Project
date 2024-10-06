@@ -50,9 +50,9 @@
             {
                 "nid": "Caylus",
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     12,
                     6
