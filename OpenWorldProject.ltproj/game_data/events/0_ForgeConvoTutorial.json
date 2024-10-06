@@ -10,7 +10,7 @@
         "_source": [
             "# dialogue",
             "if;{v:tutorialPopups} == 1",
-            "speak;Narrator;Forging can improve your weapons in powerful ways.{w}{br}Forging costs materials which can be found in battle.",
+            "speak;Narrator;Forging can improve your weapons in powerful ways.{w}{br}Forging costs materials which can be found in battle.{w}{br}Improving one of a weapon's attributes will make future upgrades to that attribute cost more materials.{w}{br}Forging will also increase the stat requirements for the forged weapon.;StyleNid=hint",
             "end"
         ]
     }
