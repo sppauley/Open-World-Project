@@ -311,5 +311,13 @@
     {
         "nid": "{Pikmin} Adept Skill Book",
         "subicon_dict": {}
+    },
+    {
+        "nid": "AptitudeManual",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "DisciplineManual",
+        "subicon_dict": {}
     }
 ]
