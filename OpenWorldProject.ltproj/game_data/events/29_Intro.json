@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "center_cursor;Simon",
-            "trigger_script;29 PeloposSetup"
+            "trigger_script;29 PeloposSetup",
+            "game_var;freely_exit;False"
         ]
     }
 ]
