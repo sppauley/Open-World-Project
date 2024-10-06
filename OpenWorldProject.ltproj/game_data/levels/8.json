@@ -16,8 +16,8 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Defeat Boss or Escape",
-            "win": "Defeat Boss or Escape",
+            "simple": "Defeat Boss or Arrive",
+            "win": "Defeat Boss or Arrive with Simon",
             "loss": "Simon Dies"
         },
         "roam": false,
@@ -1162,7 +1162,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Escape",
+                "nid": "Arrive",
                 "region_type": "event",
                 "position": [
                     12,
@@ -1172,8 +1172,8 @@
                     8,
                     1
                 ],
-                "sub_nid": "Escape",
-                "condition": "True",
+                "sub_nid": "Arrive",
+                "condition": "unit.nid=='Simon'",
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
