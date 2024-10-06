@@ -16,6 +16,9 @@
             "center_cursor;Simon",
             "add_portrait;Simon;Right",
             "speak;Simon;Looks like they're bringing in their real ships.{w}{br}Hold fast, everyone!",
+            "add_portrait;Yusna;Left",
+            "s;Yusna;H-how much longer can this go on?",
+            "s;Simon;There's no telling.{w} We have to just keep fighting.",
             "remove_portrait;Simon"
         ]
     }
