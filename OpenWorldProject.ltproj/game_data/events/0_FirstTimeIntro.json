@@ -66,6 +66,10 @@
             "game_var;MitziRecruited;True",
             "alert;Mitzi has joined your party.",
             "",
+            "if;v('tutorialPopups') == 1 or v('basicTutorials') == 1",
+            "speak;Narrator;Staves have few uses, but refresh their uses at the end of each chapter.;StyleNid=hint",
+            "end",
+            "",
             "trigger_script;Global ConsolidateToSimon;Luther"
         ]
     }

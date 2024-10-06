@@ -2,7 +2,7 @@
     {
         "nid": "Vulnerary",
         "name": "Vulnerary",
-        "desc": "Restores 20 HP.",
+        "desc": "Restores 20 HP. Refills after map completion.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
