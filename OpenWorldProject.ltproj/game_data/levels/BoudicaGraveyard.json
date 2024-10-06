@@ -14,7 +14,7 @@
         "roam": true,
         "roam_unit": "Boudica",
         "go_to_overworld": true,
-        "should_record": true,
+        "should_record": false,
         "units": [
             {
                 "nid": "Boudica",

@@ -46,7 +46,10 @@
             "give_skill;Boudica;Quietude;no_banner",
             "",
             "#give_skill;Vincent;VincentTogether",
-            "#give_skill;Juliet;JulietTogether"
+            "#give_skill;Juliet;JulietTogether",
+            "",
+            "autolevel_to;Duygu;10",
+            "give_item;Duygu;Master Seal;no_banner"
         ]
     }
 ]

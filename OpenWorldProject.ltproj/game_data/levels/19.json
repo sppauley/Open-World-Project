@@ -16,7 +16,7 @@
         "roam": true,
         "roam_unit": "Simon",
         "go_to_overworld": true,
-        "should_record": true,
+        "should_record": false,
         "units": [
             {
                 "nid": "Simon",
