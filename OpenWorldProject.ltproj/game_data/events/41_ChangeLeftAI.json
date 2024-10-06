@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ChangeLeftAI",
+        "trigger": "turn_change",
+        "level_nid": "41",
+        "condition": "game.check_dead(\"109\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_ai;110;RuinsBandits;no_warn",
+            "change_ai;112;RuinsBandits;no_warn",
+            "change_ai;114;RuinsBandits;no_warn"
+        ]
+    }
+]

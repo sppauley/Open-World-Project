@@ -4,7 +4,7 @@
         "name": "Angel",
         "desc": "",
         "tier": 1,
-        "movement_group": "Regular",
+        "movement_group": "Fliers",
         "promotes_from": null,
         "turns_into": [],
         "tags": [

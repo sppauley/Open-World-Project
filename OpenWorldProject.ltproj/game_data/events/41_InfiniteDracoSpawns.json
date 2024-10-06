@@ -3,7 +3,7 @@
         "name": "InfiniteDracoSpawns",
         "trigger": "turn_change",
         "level_nid": "41",
-        "condition": "game.turncount > 9 and game.turncount % 5 == 0",
+        "condition": "game.turncount > 10 and game.turncount % 5 == 0",
         "commands": [],
         "only_once": false,
         "priority": 20,

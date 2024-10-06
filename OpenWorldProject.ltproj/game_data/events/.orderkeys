@@ -804,5 +804,7 @@
     "43_MorrisseySimonBattle",
     "43_MorrisseyAnukiBattle",
     "43_MorrisseyGenericBattle",
-    "global_RemoveStaggerinOutros"
+    "global_RemoveStaggerinOutros",
+    "41_ChangeLeftAI",
+    "41_ChangeRightAI"
 ]

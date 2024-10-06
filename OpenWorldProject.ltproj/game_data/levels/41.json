@@ -613,8 +613,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    24,
-                    13
+                    20,
+                    15
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -864,6 +864,40 @@
                     1
                 ],
                 "sub_nid": "Door",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "RightVision",
+                "region_type": "vision",
+                "position": [
+                    22,
+                    7
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "1",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "LeftVision",
+                "region_type": "vision",
+                "position": [
+                    0,
+                    7
+                ],
+                "size": [
+                    3,
+                    3
+                ],
+                "sub_nid": "1",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
