@@ -37,6 +37,7 @@
             "remove_talk;Simon;Euclid",
             "",
             "game_var;EuclidRecruited;1",
+            "alert;Euclid has joined your party.",
             "change_team;Euclid;player",
             "set_unit_field;Euclid;PartyMember;'Yes'"
         ]

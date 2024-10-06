@@ -50,6 +50,7 @@
             "speak;Simon;I don't even know what to say.",
             "remove_portrait;Simon",
             "change_team;Twins;player",
+            "alert;Tristan and Trina have joined your party.",
             "set_unit_field;Twins;PartyMember;'Yes'",
             "game_var;TwinsRecruited;True",
             "remove_talk;Simon;Twins"

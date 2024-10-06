@@ -64,6 +64,7 @@
             "remove_unit;Mitzi",
             "",
             "game_var;MitziRecruited;True",
+            "alert;Mitzi has joined your party.",
             "",
             "trigger_script;Global ConsolidateToSimon;Luther"
         ]
