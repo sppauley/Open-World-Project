@@ -32,6 +32,8 @@
             "elif;v(\"EbertState\") == \"Killed\" or v(\"EbertState\") == \"Fought\"",
             "    remove_region;EbertDoor",
             "    remove_unit;Ebert",
+            "else",
+            "    add_talk;Simon;Ebert",
             "end",
             "",
             "add_talk;Simon;Blacksmith",
