@@ -313,7 +313,7 @@
     },
     {
         "nid": "record_header",
-        "text": "Chapter Name       Turn Count        MVP"
+        "text": "      Chapter Name       Turn Count        MVP"
     },
     {
         "nid": "mvp_record_header",
