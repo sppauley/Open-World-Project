@@ -3,7 +3,7 @@
         "name": "Unlock Southdoor",
         "trigger": "Door",
         "level_nid": "32",
-        "condition": "region.nid == \"SouthDoor\"",
+        "condition": "region.nid == \"DoorSouth\"",
         "commands": [],
         "only_once": false,
         "priority": 20,
