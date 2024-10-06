@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Aptitude",
+        "name": "Aptitude",
+        "desc": "Unit has increased stat growths when leveling up.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            47
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ],
+            [
+                "growth_change",
+                [
+                    [
+                        "HP",
+                        10
+                    ],
+                    [
+                        "CON",
+                        10
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ],
+                    [
+                        "DEX",
+                        10
+                    ],
+                    [
+                        "SPD",
+                        10
+                    ],
+                    [
+                        "PSE",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    }
+]

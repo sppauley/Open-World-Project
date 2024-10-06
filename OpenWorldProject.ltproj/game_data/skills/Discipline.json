@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Discipline",
+        "name": "Discipline",
+        "desc": "Unit gains doubled weapon experience.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            0,
+            45
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "feat",
+                null
+            ],
+            [
+                "wexp_multiplier",
+                2.0
+            ]
+        ]
+    }
+]
