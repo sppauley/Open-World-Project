@@ -17,7 +17,7 @@
             "# This is also skills that display as feats but cannot be obtained this way",
             "# I.e. Renewal, other dropped manuals",
             "if;v(\"ReceivedSkills\") is None",
-            "    game_var;ReceivedSkills;[\"Renewal\", \"Sol\", \"Visceral\", \"Perceptive\"]",
+            "    game_var;ReceivedSkills;[\"Renewal\", \"Sol\", \"Visceral\", \"Perceptive\", \"Vantage\"]",
             "end",
             "",
             "if;v(\"SkillIdx\") is None",
