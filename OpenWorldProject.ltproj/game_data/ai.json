@@ -239,7 +239,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "DefendObjective",
+                "target_spec": "Arrive",
                 "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -259,7 +259,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "DefendObjective",
+                "target_spec": "Arrive",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

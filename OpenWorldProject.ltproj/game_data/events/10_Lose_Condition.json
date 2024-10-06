@@ -1,7 +1,7 @@
 [
     {
         "name": "Lose Condition",
-        "trigger": "DefendObjective",
+        "trigger": "Arrive",
         "level_nid": "10",
         "condition": "unit.team=='enemy'",
         "commands": [],
