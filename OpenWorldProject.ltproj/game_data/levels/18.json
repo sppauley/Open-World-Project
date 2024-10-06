@@ -13,7 +13,7 @@
         },
         "objective": {
             "simple": "Survive or Defeat Boss",
-            "win": "Survive or Defeat Boss,{e:10 - game.turncount} turns remain",
+            "win": "Survive or Defeat Boss",
             "loss": "Simon dies"
         },
         "roam": false,
