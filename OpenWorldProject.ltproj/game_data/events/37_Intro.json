@@ -10,6 +10,7 @@
         "_source": [
             "show_layer;gatewalls;immediate",
             "center_cursor;Simon;immediate",
+            "game_var;freely_exit;True",
             "",
             "remove_group;RipperGroup;immediate",
             "remove_group;InitialEnemyGroup;immediate",
