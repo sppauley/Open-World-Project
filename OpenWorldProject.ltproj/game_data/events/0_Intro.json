@@ -10,6 +10,8 @@
         "_source": [
             "# condition for Morrissey",
             "game_var;PortHullVisited;1",
+            "game_var;DamageWeaponMaterial;6",
+            "game_var;TriangleWeaponMaterial;2",
             "",
             "show_layer;overlaytiles;immediate;no_warn",
             "hide_layer;merchantdooropen;immediate;no_warn",
