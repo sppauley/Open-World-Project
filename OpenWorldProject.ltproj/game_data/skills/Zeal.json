@@ -2,7 +2,7 @@
     {
         "nid": "Zeal",
         "name": "Zeal",
-        "desc": "Gains +15 crit and -15 crit avoid.",
+        "desc": "Unit gains +15 crit but suffers -15 crit avoid.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             5,
