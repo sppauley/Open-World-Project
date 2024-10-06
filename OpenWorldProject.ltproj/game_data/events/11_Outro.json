@@ -50,6 +50,7 @@
             "transition;close;4000",
             "",
             "game_var;EbertState;\"Killed\"",
+            "set_overworld_menu_option_visible;1;56;Roam;false",
             "",
             "trigger_script;Global IncreaseMitziProgress"
         ]

@@ -11,6 +11,7 @@
             "add_portrait;Ebert;Left",
             "s;Ebert;A bad bet... one single bad bet...",
             "remove_portrait;Ebert",
+            "set_overworld_menu_option_visible;1;56;Roam;false",
             "win_game"
         ]
     }
