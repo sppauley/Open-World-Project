@@ -836,7 +836,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "LeftDoor",
+                "nid": "DoorLeft",
                 "region_type": "event",
                 "position": [
                     0,
@@ -853,7 +853,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "RightDoor",
+                "nid": "DoorRight",
                 "region_type": "event",
                 "position": [
                     24,
