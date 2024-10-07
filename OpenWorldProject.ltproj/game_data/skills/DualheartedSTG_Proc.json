@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "DualheartedSTG_Proc",
+        "name": "Dualhearted - STG",
+        "desc": "This turn, deal +4 stagger damage. Next turn, deal +4 damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            5
+        ],
+        "components": []
+    }
+]

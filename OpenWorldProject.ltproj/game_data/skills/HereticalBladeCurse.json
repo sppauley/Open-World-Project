@@ -20,6 +20,10 @@
             [
                 "attack_proc",
                 "HereticalBladeCurse_Proc"
+            ],
+            [
+                "combat_condition",
+                "'enemy' in target.team"
             ]
         ]
     }

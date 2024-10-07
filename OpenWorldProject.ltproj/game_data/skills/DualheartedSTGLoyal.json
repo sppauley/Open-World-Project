@@ -18,12 +18,16 @@
                 6
             ],
             [
-                "display_skill_icon_in_combat",
+                "personal_skill",
                 null
             ],
             [
-                "personal_skill",
-                null
+                "combat_condition",
+                "'enemy' in target.team"
+            ],
+            [
+                "attack_proc",
+                "DualheartedSTG_Proc"
             ]
         ]
     }
