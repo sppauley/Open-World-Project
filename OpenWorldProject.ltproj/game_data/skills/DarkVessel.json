@@ -2,7 +2,7 @@
     {
         "nid": "DarkVessel",
         "name": "Dark Vessel",
-        "desc": "Allows Kajal to summon monsters from nearby empty tiles.",
+        "desc": "Allows Kajal to summon monsters from nearby empty tiles. Monsters can attack enemies or allies other than Kajal.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,

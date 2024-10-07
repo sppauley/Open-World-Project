@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music_clear",
             "remove_all_enemies",
             "trigger_script;Global RemoveStaggerinOutros",
             "",

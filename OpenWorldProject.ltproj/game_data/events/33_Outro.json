@@ -59,7 +59,7 @@
             "add_portrait;Alina;FarRight",
             "s;Librarian;No, no, they attacked that harlot!{w} If I had known that,|I would have told you not to intervene!|I knew you were a curse here, girl.|A lowborn wench like you has no place here!",
             "s;Alina;\"Lowborn\"...{w} Then you would be of noble blood?",
-            "s;Librarian;Ah! No... no, I didn't mean...{w}{c:wait;700} You have no revoluntionary heritage.|Your parents are not citizens.|You should not have come here.",
+            "s;Librarian;Ah! No... no, I didn't mean...{w}{c:wait;700} You have no revolutionary heritage.|Your parents are not citizens.|You should not have come here.",
             "mirror_portrait;Simon",
             "s;Simon;Come with us.{w} We're mercenaries, and-",
             "s;Alina;Fine. Anywhere is better than here.",
