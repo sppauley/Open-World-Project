@@ -21,12 +21,12 @@
             "CON": 3
         },
         "growths": {
-            "HP": 65,
+            "HP": 75,
             "SPD": 20,
             "MOV": 0,
             "DEX": 30,
             "MAG": 0,
-            "PSE": 50,
+            "PSE": 20,
             "CON": 15
         },
         "growth_bonus": {

@@ -17,7 +17,7 @@
             "MOV": 6,
             "DEX": 5,
             "MAG": 2,
-            "PSE": 25,
+            "PSE": 22,
             "CON": 3
         },
         "growths": {
@@ -53,7 +53,7 @@
             "MOV": 15,
             "DEX": 22,
             "MAG": 22,
-            "PSE": 27,
+            "PSE": 40,
             "CON": 26
         },
         "learned_skills": [

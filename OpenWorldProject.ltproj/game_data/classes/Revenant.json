@@ -19,7 +19,7 @@
             "MOV": 5,
             "DEX": 8,
             "MAG": 0,
-            "PSE": 8,
+            "PSE": 5,
             "CON": 4
         },
         "growths": {
@@ -28,7 +28,7 @@
             "MOV": 0,
             "DEX": 30,
             "MAG": 0,
-            "PSE": 30,
+            "PSE": 25,
             "CON": 25
         },
         "growth_bonus": {

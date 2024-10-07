@@ -28,7 +28,7 @@
             "MOV": 0,
             "DEX": 25,
             "MAG": 5,
-            "PSE": 50,
+            "PSE": 40,
             "CON": 65
         },
         "growth_bonus": {
@@ -55,7 +55,7 @@
             "MOV": 15,
             "DEX": 23,
             "MAG": 22,
-            "PSE": 25,
+            "PSE": 27,
             "CON": 27
         },
         "learned_skills": [
