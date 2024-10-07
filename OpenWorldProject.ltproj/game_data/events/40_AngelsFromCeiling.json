@@ -12,10 +12,10 @@
             "flicker_cursor;15,8",
             "wait;300",
             "",
-            "add_unit;133;15,8;swoosh",
-            "add_unit;134;16,8;swoosh",
-            "add_unit;135;15,9;swoosh",
-            "add_unit;136;16,9;swoosh",
+            "add_unit;133;15,8;swoosh;closest",
+            "add_unit;134;16,8;swoosh;closest",
+            "add_unit;135;15,9;swoosh;closest",
+            "add_unit;136;16,9;swoosh;closest",
             "",
             "wait;500"
         ]

@@ -5,7 +5,7 @@
         "level_nid": null,
         "condition": "unit.nid == \"Duygu\" and unit.stats['CON'] == 20",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "center_cursor;Duygu",

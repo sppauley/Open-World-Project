@@ -2,7 +2,7 @@
     {
         "nid": "ExecutionersBand",
         "name": "Executioner's Band",
-        "desc": "Holder deals +1 damage against staggered foes",
+        "desc": "Holder deals +3 damage against staggered foes",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
