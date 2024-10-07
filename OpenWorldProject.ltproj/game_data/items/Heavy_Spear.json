@@ -58,20 +58,6 @@
                 1
             ],
             [
-                "effective_tag",
-                [
-                    "Armor"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                1
-            ],
-            [
-                "effective",
-                18
-            ],
-            [
                 "stagger",
                 8
             ],
@@ -83,6 +69,17 @@
                         12
                     ]
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }
