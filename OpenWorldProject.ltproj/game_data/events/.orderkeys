@@ -807,5 +807,6 @@
     "global_RemoveStaggerinOutros",
     "41_ChangeLeftAI",
     "41_ChangeRightAI",
-    "37_MorrisseyTalk"
+    "37_MorrisseyTalk",
+    "39_Exit"
 ]

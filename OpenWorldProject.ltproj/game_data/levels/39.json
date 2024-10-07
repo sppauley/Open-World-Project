@@ -519,7 +519,59 @@
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Exit",
+                "region_type": "event",
+                "position": [
+                    0,
+                    29
+                ],
+                "size": [
+                    25,
+                    1
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_1",
+                "region_type": "event",
+                "position": [
+                    24,
+                    8
+                ],
+                "size": [
+                    1,
+                    21
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Exit_2",
+                "region_type": "event",
+                "position": [
+                    0,
+                    8
+                ],
+                "size": [
+                    1,
+                    21
+                ],
+                "sub_nid": "Exit",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
         "ai_groups": []
     }

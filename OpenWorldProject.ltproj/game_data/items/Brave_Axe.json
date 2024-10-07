@@ -23,7 +23,7 @@
             ],
             [
                 "damage",
-                10
+                2
             ],
             [
                 "hit",
@@ -36,17 +36,6 @@
             [
                 "weapon_rank",
                 "B"
-            ],
-            [
-                "uses",
-                30
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
             ],
             [
                 "brave",
@@ -71,6 +60,19 @@
             [
                 "max_range",
                 1
+            ],
+            [
+                "stagger",
+                6
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        10
+                    ]
+                ]
             ]
         ]
     }

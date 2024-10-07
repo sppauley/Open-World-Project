@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Exit",
+        "trigger": "Exit",
+        "level_nid": "39",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "game_var;freely_exit;True",
+            "win_game"
+        ]
+    }
+]
