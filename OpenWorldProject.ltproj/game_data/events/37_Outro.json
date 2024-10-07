@@ -121,6 +121,8 @@
             "",
             "transition;open;1",
             "",
+            "set_overworld_menu_option_visible;1;43;Roam;f",
+            "",
             "overworld_cinematic;1",
             "center_cursor;Simon;immediate",
             "reveal_overworld_node;44",
