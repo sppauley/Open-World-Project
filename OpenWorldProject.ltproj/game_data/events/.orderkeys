@@ -806,5 +806,6 @@
     "43_MorrisseyGenericBattle",
     "global_RemoveStaggerinOutros",
     "41_ChangeLeftAI",
-    "41_ChangeRightAI"
+    "41_ChangeRightAI",
+    "37_MorrisseyTalk"
 ]

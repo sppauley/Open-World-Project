@@ -18,7 +18,7 @@
             "wait;400",
             "s;Titus;What happened?",
             "wait;1000",
-            "s;Boudica;I had left for a raid. My warriors were with me.|We thought our camp was hidden.|I flew into a rage. I hunted down every bandit I could find.",
+            "s;Boudica;I had left for a raid. My warriors were with me.|We thought our camp was hidden.|...|Afterwards, I flew into a rage. I hunted down every bandit I could find.",
             "s;Titus;Did it help?",
             "s;Boudica;Some.{w} I do not regret it.|But then, I became lost.|I believe I still am.",
             "wait;1000",
