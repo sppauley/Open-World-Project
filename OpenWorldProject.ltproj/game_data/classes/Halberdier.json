@@ -42,7 +42,7 @@
             "MOV": 1,
             "DEX": 3,
             "MAG": 1,
-            "PSE": 4,
+            "PSE": 1,
             "CON": 3
         },
         "max_stats": {
