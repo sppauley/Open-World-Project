@@ -10,6 +10,7 @@
         "_source": [
             "sound;DemonSurge",
             "wait;3000",
+            "trigger_script;Global RemoveStaggerinOutros",
             "win_game"
         ]
     }

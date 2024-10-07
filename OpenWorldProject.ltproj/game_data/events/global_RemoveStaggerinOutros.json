@@ -1,7 +1,7 @@
 [
     {
         "name": "RemoveStaggerinOutros",
-        "trigger": "level_end",
+        "trigger": null,
         "level_nid": null,
         "condition": "True",
         "commands": [],
