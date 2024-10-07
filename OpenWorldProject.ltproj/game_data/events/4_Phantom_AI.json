@@ -28,7 +28,18 @@
             "        end",
             "    endf",
             "    remove_region;PhantomSpawn",
-            "endf"
+            "endf",
+            "",
+            "# if there aren't places to teleport to, retreats to the tomb",
+            "if;game.board.in_vision(u('Phantom').position, 'player')         ",
+            "    flicker_cursor;Phantom",
+            "    wait;300",
+            "    map_anim;Warp;Phantom;no_block",
+            "end",
+            "move_unit;Phantom;20,9;immediate;closest;no_follow",
+            "map_anim;Warp;Phantom;no_block",
+            "flicker_cursor;Phantom",
+            "wait;500"
         ]
     }
 ]
