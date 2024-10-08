@@ -433,6 +433,10 @@
                     [
                         "Steel Sword",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],

@@ -139,7 +139,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 12,
+                "level": 1,
                 "klass": "DireWolf",
                 "faction": "Monster",
                 "starting_items": [
@@ -148,7 +148,7 @@
                         false
                     ],
                     [
-                        "HurricaneAxe",
+                        "Master Seal",
                         true
                     ]
                 ],
@@ -522,6 +522,10 @@
                     [
                         "Killer Lance",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -622,6 +626,10 @@
                     [
                         "Cripple",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -650,6 +658,10 @@
                     [
                         "Cripple",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -886,6 +898,10 @@
             },
             {
                 "nid": "d",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

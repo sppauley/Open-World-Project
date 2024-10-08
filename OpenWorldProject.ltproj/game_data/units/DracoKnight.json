@@ -24,6 +24,10 @@
             [
                 "DraconicAxe",
                 false
+            ],
+            [
+                "EnergyRing",
+                true
             ]
         ],
         "learned_skills": [

@@ -678,6 +678,10 @@
                     [
                         "Iron Sword",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -898,6 +902,10 @@
                     [
                         "Elfire",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1042,6 +1050,10 @@
                     [
                         "Steel Sword",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1138,6 +1150,10 @@
                     [
                         "Enfeeble",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1166,6 +1182,10 @@
                     [
                         "Elfire",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -2026,6 +2046,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
