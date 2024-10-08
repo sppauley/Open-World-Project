@@ -13,7 +13,7 @@
             "s;LadyJane;The battle has turned against us.|Send for my chariot.",
             "add_portrait;Priest;Left",
             "s;Priest;A-ah are you sure?{w} Many of your experiments will be lost.",
-            "s;LadyJane;I have no choice.{w} The skill of their commander is...|Impressive.{w} Hah, truth be told, I would join him if I could.|But alas, we must start anew.{w} Somewhere else.|Somewhere more... hospitable.",
+            "s;LadyJane;I have no choice.{w} We've drawn too much attention.|Alas, we must start anew.{w} Somewhere else.|Somewhere more... hospitable.",
             "s;Priest;I understand, milady.{w} I will send for our escape.",
             "multi_remove_portrait;Priest;LadyJane",
             "",
