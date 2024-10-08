@@ -3,7 +3,7 @@
         "name": "DefeatLysander",
         "trigger": "combat_end",
         "level_nid": "29",
-        "condition": "game.check_dead('Lysander') and v('ArenaLayer') == 1",
+        "condition": "game.check_dead('Lysander') and v('ArenaLayer') == 1 and game.tilemap.nid=='Arena'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -26,7 +26,7 @@
             "game_var;ArenaLayer;2",
             "game_var;LysanderRecruited;1",
             "",
-            "give_money;750;Simon",
+            "give_money;1000;Simon",
             "",
             "trigger_script;29 ArenaCleanup"
         ]

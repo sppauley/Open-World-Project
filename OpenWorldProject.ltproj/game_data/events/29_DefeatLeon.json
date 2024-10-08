@@ -3,7 +3,7 @@
         "name": "DefeatLeon",
         "trigger": "combat_end",
         "level_nid": "29",
-        "condition": "game.check_dead('Leon') and game.game_vars['ArenaLayer'] == 3",
+        "condition": "game.check_dead('Leon') and game.game_vars['ArenaLayer'] == 3 and game.tilemap.nid=='Arena'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -13,7 +13,7 @@
             "s;Leon;I suppose I simply wasn't strong enough.{w}{br}What an embarassment...",
             "remove_portrait;Leon",
             "",
-            "give_money;1000;Simon",
+            "give_money;2000;Simon",
             "",
             "trigger_script;29 ArenaCleanup"
         ]

@@ -3,7 +3,7 @@
         "name": "Layer 2 Rout",
         "trigger": "combat_end",
         "level_nid": "29",
-        "condition": "game.get_enemy_units() == [] and v('ArenaLayer') == 2",
+        "condition": "game.get_enemy_units() == [] and v('ArenaLayer') == 2 and game.tilemap.nid=='Arena'",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -14,7 +14,7 @@
             "s;Bandit1;Well done!{w}{br}Here's your prize.",
             "remove_portrait;Simon",
             "",
-            "give_money;750;Simon",
+            "give_money;1500;Simon",
             "",
             "trigger_script;29 ArenaCleanup"
         ]
