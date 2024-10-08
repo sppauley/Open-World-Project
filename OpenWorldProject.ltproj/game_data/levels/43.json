@@ -624,16 +624,12 @@
             {
                 "nid": "125",
                 "variant": null,
-                "level": 6,
-                "klass": "Swordmaster",
+                "level": 1,
+                "klass": "DireWolf",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Sword",
-                        false
-                    ],
-                    [
-                        "Magebane",
+                        "Sharp Claw",
                         false
                     ]
                 ],
@@ -652,16 +648,12 @@
             {
                 "nid": "126",
                 "variant": null,
-                "level": 6,
-                "klass": "Swordmaster",
+                "level": 1,
+                "klass": "DireWolf",
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Sword",
-                        false
-                    ],
-                    [
-                        "Magebane",
+                        "Sharp Claw",
                         false
                     ]
                 ],
@@ -2002,6 +1994,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
