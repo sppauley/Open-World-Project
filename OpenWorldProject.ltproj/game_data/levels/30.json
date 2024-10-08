@@ -248,6 +248,10 @@
                     [
                         "Iron Bow",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -479,30 +483,6 @@
                 "generic": true
             },
             {
-                "nid": "117",
-                "variant": null,
-                "level": 4,
-                "klass": "Knight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "DefendPlayerOnly",
-                "roam_ai": null,
-                "ai_group": "GroupB",
-                "starting_position": [
-                    15,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "118",
                 "variant": null,
                 "level": 4,
@@ -522,6 +502,34 @@
                 "starting_position": [
                     16,
                     27
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 4,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "DefendPlayerOnly",
+                "roam_ai": null,
+                "ai_group": "GroupB",
+                "starting_position": [
+                    15,
+                    26
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -584,6 +592,10 @@
                     [
                         "Iron Axe",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],

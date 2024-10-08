@@ -1120,6 +1120,10 @@
                     [
                         "Steel_Mace",
                         false
+                    ],
+                    [
+                        "ForgingBag",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1220,6 +1224,10 @@
                     [
                         "AlertLance",
                         false
+                    ],
+                    [
+                        "ForgingBag2",
+                        true
                     ]
                 ],
                 "starting_skills": [],
