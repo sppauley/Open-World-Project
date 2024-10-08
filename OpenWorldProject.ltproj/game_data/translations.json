@@ -181,7 +181,7 @@
     },
     {
         "nid": "CON_desc",
-        "text": "Constitution. Affects how well the unit can wield weapons."
+        "text": "Constitution. Offsets penalties to attack speed from weapon weight."
     },
     {
         "nid": "Aid_desc",
