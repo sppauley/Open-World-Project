@@ -595,11 +595,11 @@
                 "nid": "122",
                 "variant": null,
                 "level": 5,
-                "klass": "Archer",
+                "klass": "Wolf",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Bow",
+                        "RoughClaw",
                         false
                     ]
                 ],
