@@ -1,0 +1,31 @@
+[
+    {
+        "name": "MudFade",
+        "trigger": "turn_change",
+        "level_nid": "30",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.turncount == int(v(\"mud1fadeturn\"))",
+            "    hide_layer;mud1;fade;no_warn",
+            "end",
+            "if;game.turncount == int(v(\"mud2fadeturn\"))",
+            "    hide_layer;mud2;fade;no_warn",
+            "end",
+            "if;game.turncount == int(v(\"mud3fadeturn\"))",
+            "    hide_layer;mud3;fade;no_warn",
+            "end",
+            "if;game.turncount == int(v(\"mud4fadeturn\"))",
+            "    hide_layer;mud4;fade;no_warn",
+            "end",
+            "if;game.turncount == int(v(\"mud5fadeturn\"))",
+            "    hide_layer;mud5;fade;no_warn",
+            "end",
+            "if;game.turncount == int(v(\"mud6fadeturn\"))",
+            "    hide_layer;mud6;fade;no_warn",
+            "end"
+        ]
+    }
+]

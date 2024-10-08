@@ -11,16 +11,22 @@
             "# Show mud terrain",
             "if;unit.nid == \"102\"",
             "    show_layer;mud1;fade",
+            "    level_var;mud1fadeturn;game.turncount + 2",
             "elif;unit.nid == \"103\"",
             "    show_layer;mud2;fade",
+            "    level_var;mud2fadeturn;game.turncount + 2",
             "elif;unit.nid == \"104\"",
             "    show_layer;mud3;fade",
+            "    level_var;mud3fadeturn;game.turncount + 2",
             "elif;unit.nid == \"105\"",
             "    show_layer;mud4;fade",
+            "    level_var;mud4fadeturn;game.turncount + 2",
             "elif;unit.nid == \"106\"",
             "    show_layer;mud6;fade",
+            "    level_var;mud6fadeturn;game.turncount + 2",
             "elif;unit.nid == \"107\"",
             "    show_layer;mud5;fade",
+            "    level_var;mud5fadeturn;game.turncount + 2",
             "end"
         ]
     }

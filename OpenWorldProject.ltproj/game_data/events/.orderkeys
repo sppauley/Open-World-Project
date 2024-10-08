@@ -806,5 +806,6 @@
     "41_ChangeLeftAI",
     "41_ChangeRightAI",
     "37_MorrisseyTalk",
-    "39_Exit"
+    "39_Exit",
+    "30_MudFade"
 ]

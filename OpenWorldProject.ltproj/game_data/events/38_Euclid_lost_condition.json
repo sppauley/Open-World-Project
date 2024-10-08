@@ -11,7 +11,12 @@
             "add_portrait;Euclid;Right",
             "s;Euclid;I failed my home...{w}{br}Now Pelopos will fall to chaos.",
             "remove_portrait;Euclid",
-            "lose_game"
+            "",
+            "if;v('_turnwheel') and game.game_vars.get('_current_turnwheel_uses', 0) > 0",
+            "activate_turnwheel",
+            "else",
+            "lose_game",
+            "end"
         ]
     }
 ]
