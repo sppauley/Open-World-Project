@@ -13,18 +13,18 @@
             "HP": 24,
             "CON": 11,
             "MAG": 16,
-            "DEX": 8,
+            "DEX": 10,
             "SPD": 13,
             "PSE": 12,
-            "MOV": 5
+            "MOV": 6
         },
         "growths": {
-            "HP": 0,
-            "CON": 0,
-            "MAG": 0,
-            "DEX": 0,
-            "SPD": 0,
-            "PSE": 0,
+            "HP": 20,
+            "CON": 25,
+            "MAG": 40,
+            "DEX": 30,
+            "SPD": 20,
+            "PSE": 10,
             "MOV": 0
         },
         "stat_cap_modifiers": {},

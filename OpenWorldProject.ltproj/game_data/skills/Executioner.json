@@ -15,7 +15,7 @@
             ],
             [
                 "dynamic_damage",
-                "1 if 'Staggered' in [skill.nid for skill in unit2.skills] else 0"
+                "3 if 'Staggered' in [skill.nid for skill in unit2.skills] else 0"
             ]
         ]
     }

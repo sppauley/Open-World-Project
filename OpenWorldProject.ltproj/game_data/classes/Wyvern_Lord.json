@@ -28,7 +28,7 @@
             "MOV": 0,
             "DEX": 30,
             "MAG": 10,
-            "PSE": 50,
+            "PSE": 35,
             "CON": 60
         },
         "growth_bonus": {

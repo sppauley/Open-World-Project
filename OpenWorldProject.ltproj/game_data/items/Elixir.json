@@ -2,7 +2,7 @@
     {
         "nid": "Elixir",
         "name": "Elixir",
-        "desc": "Fully recovers HP.",
+        "desc": "Fully recovers HP. Refreshes at end of chapter.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

@@ -9,17 +9,17 @@
         "priority": 20,
         "_source": [
             "center_cursor;19,17",
-            "make_generic;Shaman1;Shaman;11;enemy;Pursue;Monster;;Thanatos",
-            "set_stats;Shaman1;HP,50;immediate",
-            "set_current_hp;Shaman1;50",
-            "add_unit;Shaman1;19,17;warp;push",
+            "make_generic;;Shaman;11;enemy;Pursue;Monster;;Thanatos",
+            "set_stats;{created_unit};HP,50;immediate",
+            "set_current_hp;{created_unit};50",
+            "add_unit;{created_unit};19,17;warp;push",
             "wait;800",
             "",
             "center_cursor;13,17",
-            "make_generic;Shaman2;Shaman;11;enemy;Pursue;Monster;;Thanatos",
-            "set_stats;Shaman2;HP,50;immediate",
-            "set_current_hp;Shaman2;50",
-            "add_unit;Shaman2;13,17;warp;push",
+            "make_generic;;Shaman;11;enemy;Pursue;Monster;;Thanatos",
+            "set_stats;{created_unit};HP,50;immediate",
+            "set_current_hp;{created_unit};50",
+            "add_unit;{created_unit};13,17;warp;push",
             "wait;800"
         ]
     }
