@@ -58,20 +58,6 @@
                 1
             ],
             [
-                "effective",
-                12
-            ],
-            [
-                "effective_tag",
-                [
-                    "Dragon"
-                ]
-            ],
-            [
-                "effective_multiplier",
-                3.0
-            ],
-            [
                 "stagger",
                 2
             ],
@@ -89,6 +75,17 @@
                 [
                     "Johannes"
                 ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }
