@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "BreakingCounter",
+        "name": "Breaking Counter",
+        "desc": "Damage taken from adjacent enemies is reflected. Adjacent attackers suffer -4 max poise until their next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "defense_proc",
+                "BreakingCounterAura"
+            ],
+            [
+                "proc_rate",
+                "ALWAYS"
+            ],
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) == 1"
+            ],
+            [
+                "give_status_after_combat",
+                "CounterPoiseDebuff"
+            ]
+        ]
+    }
+]

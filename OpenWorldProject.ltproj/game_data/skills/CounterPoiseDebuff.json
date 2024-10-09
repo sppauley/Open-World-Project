@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "CounterPoiseDebuff",
+        "name": "Lowered Poise",
+        "desc": "-4 max poise.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            6,
+            20
+        ],
+        "components": [
+            [
+                "end_time",
+                2
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "PSE",
+                        -4
+                    ]
+                ]
+            ],
+            [
+                "unit_anim",
+                "MapStatDecrease"
+            ]
+        ]
+    }
+]

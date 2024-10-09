@@ -146,30 +146,6 @@
                 "generic": false
             },
             {
-                "nid": "109",
-                "variant": null,
-                "level": 1,
-                "klass": "Sniper",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Pocketpoacher",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    1,
-                    5
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "101",
                 "variant": null,
                 "level": 1,
@@ -296,14 +272,14 @@
                 "generic": false
             },
             {
-                "nid": "Twins",
+                "nid": "Lysander",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    4
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false

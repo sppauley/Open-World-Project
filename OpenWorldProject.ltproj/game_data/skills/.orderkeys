@@ -230,5 +230,9 @@
     "HereticalBladeCurse_Proc",
     "Cultist",
     "Aptitude",
-    "Discipline"
+    "Discipline",
+    "BreakingCounter",
+    "BreakingCounterAura",
+    "BreakingCounterDebuff",
+    "CounterPoiseDebuff"
 ]
