@@ -8,10 +8,10 @@
         "klass": "Rogue",
         "tags": [],
         "bases": {
-            "HP": 25,
-            "CON": 10,
+            "HP": 33,
+            "CON": 11,
             "DEX": 21,
-            "SPD": 12,
+            "SPD": 15,
             "PSE": 11,
             "MOV": 6
         },
