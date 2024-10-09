@@ -39,6 +39,7 @@
             "    game_var;SkillNidToForce;\"DartingBlow\"",
             "    trigger_script;Global ForceAddSkill;Johannes",
             "    add_skill_component;{unit};DartingBlow;feat;None",
+            "    set_unit_field;Johannes;LoyaltyStatus;\"Johannes is fully loyal.\"",
             "end",
             "",
             "wait;500",
@@ -53,7 +54,6 @@
             "give_money;5000",
             "give_item;convoy;MoransLegacy",
             "game_var;DragonCleared;1",
-            "set_unit_field;Johannes;LoyaltyStatus;\"Johannes is fully loyal.\"",
             "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
