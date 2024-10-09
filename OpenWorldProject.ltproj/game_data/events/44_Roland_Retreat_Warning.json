@@ -3,7 +3,7 @@
         "name": "Roland Retreat Warning",
         "trigger": "turn_change",
         "level_nid": "44",
-        "condition": "game.turncount == 6",
+        "condition": "game.turncount == 5",
         "commands": [],
         "only_once": true,
         "priority": 20,
