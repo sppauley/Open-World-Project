@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "EnchantingGrasp",
+        "name": "Enchanting Grasp",
+        "desc": "If unit uses a staff on an ally, that ally gains +4 magic until their next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_combat_on_hit",
+                "MagicPlus4"
+            ],
+            [
+                "combat_condition",
+                "(target.team == 'player' or target.team == 'other') and target.nid != unit.nid"
+            ]
+        ]
+    }
+]

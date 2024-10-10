@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "MagicPlus4",
+        "name": "Magic +4",
+        "desc": "Grants MAG +4.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            19
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        4
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

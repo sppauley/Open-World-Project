@@ -43,11 +43,11 @@
             ],
             [
                 "weapon_type",
-                "Bow"
+                "Anima"
             ],
             [
                 "weapon_rank",
-                "B"
+                "C"
             ],
             [
                 "map_hit_add_blend",
@@ -71,7 +71,7 @@
             ],
             [
                 "c_uses",
-                3
+                2
             ],
             [
                 "uses_options",

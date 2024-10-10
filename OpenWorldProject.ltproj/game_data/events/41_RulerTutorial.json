@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "sound;DemonSurge",
-            "s;Narrator;A demon calls from within the ruins.|For each step taken, Simon and his men will lose one attack until the start of enemy phase.;;;hint"
+            "s;Narrator;A demon calls from within the ruins.|For each action taken, Simon and his men will lose one attack until the start of enemy phase.;;;hint"
         ]
     }
 ]

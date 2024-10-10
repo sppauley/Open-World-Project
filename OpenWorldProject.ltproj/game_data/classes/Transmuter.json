@@ -59,7 +59,7 @@
         "learned_skills": [
             [
                 1,
-                "FinalTouches"
+                "EnchantingGrasp"
             ]
         ],
         "wexp_gain": {
@@ -94,7 +94,7 @@
                 251
             ],
             "Staff": [
-                false,
+                true,
                 31,
                 251
             ],

@@ -39,7 +39,7 @@
             "    game_var;SkillNidToForce;\"DartingBlow\"",
             "    trigger_script;Global ForceAddSkill;Johannes",
             "    add_skill_component;{unit};DartingBlow;feat;None",
-            "    set_unit_field;Johannes;LoyaltyStatus;\"Johannes is fully loyal.\"",
+            "    set_unit_field;Johannes;LoyaltyStatus;\"Johannes is completely loyal.\"",
             "end",
             "",
             "wait;500",

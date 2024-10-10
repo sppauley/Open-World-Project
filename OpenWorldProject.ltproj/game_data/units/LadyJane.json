@@ -34,13 +34,18 @@
         "wexp_gain": {
             "Staff": [
                 false,
-                0,
+                31,
                 251
             ],
             "Anima": [
                 false,
                 121,
                 251
+            ],
+            "Default": [
+                false,
+                0,
+                null
             ]
         },
         "alternate_classes": [],
