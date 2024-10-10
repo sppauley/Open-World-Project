@@ -1,0 +1,23 @@
+[
+    {
+        "name": "RemoveWall",
+        "trigger": "unit_wait",
+        "level_nid": "4",
+        "condition": "any(get_units_in_region('door_left3'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 25,
+        "_source": [
+            "center_cursor;6,25",
+            "wait;300",
+            "sound;VillageDestroyed",
+            "map_anim;Snag;6,23;no_block",
+            "map_anim;Snag;6,24;no_block",
+            "map_anim;Snag;6,25;no_block",
+            "map_anim;Snag;6,26;no_block",
+            "map_anim;Snag;6,27;no_block",
+            "show_layer;missing_wall",
+            "wait;600"
+        ]
+    }
+]

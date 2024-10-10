@@ -807,5 +807,6 @@
     "41_ChangeRightAI",
     "37_MorrisseyTalk",
     "39_Exit",
-    "30_MudFade"
+    "30_MudFade",
+    "4_RemoveWall"
 ]

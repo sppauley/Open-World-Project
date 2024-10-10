@@ -13080,6 +13080,55 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "missing_wall",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "6,23": "6",
+                    "6,24": "6",
+                    "6,25": "6",
+                    "6,26": "6",
+                    "6,27": "6"
+                },
+                "sprite_grid": {
+                    "6,23": [
+                        "Castle Dark",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "6,24": [
+                        "Castle Dark",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "6,25": [
+                        "Castle Dark",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "6,26": [
+                        "Castle Dark",
+                        [
+                            16,
+                            22
+                        ]
+                    ],
+                    "6,27": [
+                        "Castle Dark",
+                        [
+                            16,
+                            22
+                        ]
+                    ]
+                }
             }
         ],
         "tilesets": [
