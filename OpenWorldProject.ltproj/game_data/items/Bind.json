@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                70
+                85
             ],
             [
                 "crit",
@@ -86,7 +86,7 @@
             ],
             [
                 "status_on_hit",
-                "Stunned"
+                "Bound"
             ]
         ]
     }
