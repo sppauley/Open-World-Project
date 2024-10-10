@@ -2,7 +2,7 @@
     {
         "nid": "Accost",
         "name": "Accost",
-        "desc": "If unit has higher HP and SPD than the target at the start of combat, initiates another round of combat.",
+        "desc": "If unit has higher HP and SPD than the enemy at the start of combat, there is another round of combat.",
         "icon_nid": "Accost",
         "icon_index": [
             0,
