@@ -698,11 +698,11 @@
                 "nid": "107",
                 "variant": null,
                 "level": 5,
-                "klass": "Swordmaster",
+                "klass": "Hero",
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Silver Blade",
                         false
                     ]
                 ],
@@ -726,7 +726,7 @@
                 "faction": "Cutthroat",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Lancereaver",
                         false
                     ]
                 ],
