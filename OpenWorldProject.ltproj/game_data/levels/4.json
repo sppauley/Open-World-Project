@@ -840,7 +840,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -864,7 +864,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -888,7 +888,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -912,7 +912,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -1208,7 +1208,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -1232,7 +1232,7 @@
                 "faction": "Monster",
                 "starting_items": [
                     [
-                        "Flux",
+                        "Gravity",
                         false
                     ]
                 ],
@@ -1244,6 +1244,54 @@
                 "starting_position": [
                     35,
                     6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Cultist_7",
+                "variant": null,
+                "level": 10,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Cultist_8",
+                "variant": null,
+                "level": 10,
+                "klass": "Druid",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Gravity",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy2",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    32,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -2851,6 +2899,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

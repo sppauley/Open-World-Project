@@ -2,7 +2,7 @@
     {
         "nid": "Phantasm",
         "name": "Phantasm",
-        "desc": "Unit takes 3 less damage for each living druid cultist.",
+        "desc": "Unit takes 4 less damage for each living druid cultist.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,
@@ -19,7 +19,7 @@
             ],
             [
                 "dynamic_resist",
-                "3*len([unit for unit in game.get_enemy_units() if 'Cultist' in unit.nid])"
+                "4*len([unit for unit in game.get_enemy_units() if 'Cultist' in unit.nid])"
             ]
         ]
     }

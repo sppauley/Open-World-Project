@@ -2,7 +2,7 @@
     {
         "nid": "Cultist",
         "name": "Cultist",
-        "desc": "Phantom takes 3 less damage while this unit lives.",
+        "desc": "Phantom takes 4 less damage while this unit lives.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,
