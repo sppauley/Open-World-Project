@@ -2,7 +2,7 @@
     {
         "nid": "Heal",
         "name": "Heal",
-        "desc": "Restores (User's MAG + 10) HP.",
+        "desc": "Restores (User's MAG) HP.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -55,7 +55,7 @@
             ],
             [
                 "magic_heal",
-                10
+                0
             ],
             [
                 "c_uses",
