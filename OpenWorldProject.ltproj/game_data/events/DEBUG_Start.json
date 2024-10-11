@@ -1,6 +1,6 @@
 [
     {
-        "name": "Test",
+        "name": "Start",
         "trigger": "level_start",
         "level_nid": "DEBUG",
         "condition": "True",
@@ -40,7 +40,10 @@
             "#give_skill;Juliet;JulietTogether",
             "",
             "autolevel_to;Duygu;10",
-            "give_item;Duygu;Master Seal;no_banner"
+            "give_item;Duygu;Master Seal;no_banner",
+            "",
+            "give_skill;Mitzi;Historymaker;no_banner",
+            "give_item;Melodie;WarriorsCharm;no_banner"
         ]
     }
 ]

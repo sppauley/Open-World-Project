@@ -95,7 +95,7 @@
             "pop_dialog",
             "end",
             "",
-            "credits;Item Icons By;Ironmachine,Topazlight,Beansy,Maxim,Lisandra Brave,Pikmin1211,WhydidImakethisaccount,Zelix,LordGlenn,Celice,Batima,Suneohair,FuriousHaunter,GabrielKnight;center",
+            "credits;Item Icons By;Ironmachine,Topazlight,Beansy,Maxim,Lisandra Brave,Pikmin1211,WhydidImakethisaccount,Zelix,LordGlenn,Celice,Batima,Suneohair,FuriousHaunter,GabrielKnight,NeoMasterZX,ZeroXA;center",
             "wait;8000",
             "",
             "if;game.check_alive(\"Euclid\") and game.get_unit(\"Euclid\").team == 'player'",
