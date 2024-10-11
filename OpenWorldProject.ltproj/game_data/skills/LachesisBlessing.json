@@ -2,7 +2,7 @@
     {
         "nid": "LachesisBlessing",
         "name": "Lachesis's Blessing",
-        "desc": "",
+        "desc": "Fortune lies in Lachesis's hands. If unit can hit, they will hit. If they can crit, they will crit. If their enemy would miss, they will miss. If that foe can miss a crit, they will not crit.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,
@@ -11,7 +11,11 @@
         "components": [
             [
                 "dynamic_accuracy",
-                "100 if combat_calcs.compute_hit(unit, target, item, target.get_weapon(), 'attack', (0,0)) > 0 else 0"
+                "999 if combat_calcs.compute_hit(unit, target, item, target.get_weapon(), 'attack', (0,0)) > 0 else 0"
+            ],
+            [
+                "dynamic_avoid",
+                "999 if combat_calcs.compute_hit(target, unit, target.get_weapon(), item, 'attack', (0,0)) < 100 else 0"
             ]
         ]
     }
