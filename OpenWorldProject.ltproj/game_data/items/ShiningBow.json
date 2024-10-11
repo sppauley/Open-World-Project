@@ -2,7 +2,7 @@
     {
         "nid": "ShiningBow",
         "name": "Shining Bow",
-        "desc": "The weapon of a Sun God. Cannot critical.",
+        "desc": "Hatshepsut only. The weapon of a Sun God. Cannot critical.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -79,6 +79,12 @@
                         "CON",
                         5
                     ]
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Hatshepsut"
                 ]
             ]
         ]
