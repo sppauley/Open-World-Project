@@ -355,7 +355,7 @@
             "change_ai_group;Bordeaux;a",
             "change_team;Bordeaux;enemy",
             "change_team;Brandt;enemy",
-            "set_stats;Bordeaux;MOV,6",
+            "set_stats;Bordeaux;MOV,6;immediate",
             "",
             "# if Anuki is loyal, she joins you",
             "if;game.game_vars['AnukiLoyal']==True",

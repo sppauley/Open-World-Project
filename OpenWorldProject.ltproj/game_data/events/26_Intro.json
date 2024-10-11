@@ -21,7 +21,7 @@
             "change_team;Brandt;other",
             "autolevel_to;Bordeaux;20",
             "remove_tag;Bordeaux;Boss",
-            "set_stats;Bordeaux;MOV,6",
+            "set_stats;Bordeaux;MOV,6;immediate",
             "remove_tag;Brandt;Boss",
             "level_var;ForestTrap;0",
             "if;game.game_vars['MorrisseySupport']!=1",
