@@ -1,0 +1,45 @@
+[
+    {
+        "nid": "Enoch",
+        "name": "Enoch",
+        "desc": "A devoted guardian of Lachesis's shrine.",
+        "variant": null,
+        "level": 20,
+        "klass": "Sniper",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 52,
+            "PSE": 16,
+            "MOV": 6,
+            "DEX": 25,
+            "SPD": 29,
+            "MAG": 8,
+            "CON": 14
+        },
+        "growths": {},
+        "stat_cap_modifiers": {
+            "SPD": 10
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "LachesisBlessing"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Nickt} [F2U] OC Vent",
+        "affinity": null,
+        "fields": []
+    }
+]

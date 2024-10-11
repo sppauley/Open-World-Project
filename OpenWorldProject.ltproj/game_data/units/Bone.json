@@ -30,7 +30,7 @@
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Iron Axe",
+                "Killer Axe",
                 false
             ]
         ],
@@ -49,7 +49,7 @@
             ],
             "Axe": [
                 true,
-                31,
+                121,
                 251
             ],
             "Bow": [

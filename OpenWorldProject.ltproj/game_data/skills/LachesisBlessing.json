@@ -24,6 +24,14 @@
             [
                 "dynamic_crit_accuracy",
                 "999 if combat_calcs.compute_crit(unit, target, item, target.get_weapon(), 'attack', (0,0)) > 0 else 0"
+            ],
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

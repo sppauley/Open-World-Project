@@ -1678,5 +1678,17 @@
             40
         ],
         "info_offset": 0
+    },
+    {
+        "nid": "{Nickt} [F2U] OC Vent",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
     }
 ]

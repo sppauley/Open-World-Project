@@ -144,7 +144,7 @@
             "pop_dialog",
             "end",
             "",
-            "credits;Portraits By;Wasdye,amema003,CanDy,Armory,CapibaraInSpace,Eldritch Abomination,Freefall,Kanna,bwan,Obsidian Daddy,LaurentLacroix,Tom776,Zeldacrafter,Imperial,Its Just Jay,Levin64,XVI,Citrus,JiroPaiPai,Rammerrush,DATonDeman,Sterling Glover,SphealNuke,Salty,Sgt Dark,SirNicee,XPGamesNL,Ambrosiac,L95,Smokeguy77,RandomWizard,Yang Kai,Matthieu,XPGamesNL,Dutch Introvert,Alice;center",
+            "credits;Portraits By;Wasdye,amema003,CanDy,Armory,CapibaraInSpace,Eldritch Abomination,Freefall,Kanna,bwan,Obsidian Daddy,LaurentLacroix,Tom776,Zeldacrafter,Imperial,Its Just Jay,Levin64,XVI,Citrus,JiroPaiPai,Rammerrush,DATonDeman,Sterling Glover,SphealNuke,Salty,Sgt Dark,SirNicee,XPGamesNL,Ambrosiac,L95,Smokeguy77,RandomWizard,Yang Kai,Matthieu,XPGamesNL,Dutch Introvert,Alice,Nickt;center",
             "wait;15000",
             "",
             "if;game.check_alive(\"Duygu\")",
