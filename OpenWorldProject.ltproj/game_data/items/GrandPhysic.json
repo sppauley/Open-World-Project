@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "GrandPhysic",
+        "name": "Grand Physic",
+        "desc": "Lester only. Restores an ally's HP from afar.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "B"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "value",
+                3750
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "magic_heal",
+                20
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "c_uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "max_range",
+                16
+            ],
+            [
+                "prf_unit",
+                [
+                    "Lester"
+                ]
+            ]
+        ]
+    }
+]
