@@ -17,7 +17,8 @@
             "# table of units",
             "table;Units;{eval:','.join([unit.nid for unit in game.get_units_in_party()])};Unit;11,1;76;top_left;menu_bg_base;type_unit;left;-0,0",
             "# money",
-            "textbox;GoldDisplay;game.get_money();top_right;60;2;;;;;funds_display;expression",
+            "textbox;GoldDisplay;game.get_money();top_right;60;1;;;;;textbox_funds_display;expression",
+            "# textbox;money;\"Money: \" + str(game.get_money());top_right;80;expression",
             "#",
             "trigger_script;Unforge_PickUnit"
         ]
