@@ -50,7 +50,9 @@
             "wait;1000",
             "s;Simon;I'll take a look around. Might be able to learn something.",
             "multi_remove_portrait;Anuki;Simon",
-            "trigger_script;Global ConsolidateToSimon;Anuki"
+            "trigger_script;Global ConsolidateToSimon;Anuki",
+            "",
+            "change_roam_ai;Anuki;None"
         ]
     }
 ]

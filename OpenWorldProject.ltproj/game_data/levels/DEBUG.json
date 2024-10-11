@@ -181,6 +181,10 @@
                     [
                         "Fire",
                         false
+                    ],
+                    [
+                        "Cripple",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -220,7 +224,7 @@
                 "generic": true
             },
             {
-                "nid": "Juliet",
+                "nid": "Lupus",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,

@@ -11,6 +11,8 @@
             "transition;close",
             "trigger_script;Global RemoveStaggerinOutros",
             "",
+            "change_roam_ai;Anuki;None",
+            "",
             "remove_all_units",
             "music_clear",
             "add_unit;Simon;26,8;immediate",

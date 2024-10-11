@@ -35,7 +35,7 @@
             ],
             [
                 "eval_target_restrict_2",
-                "target.stats['SPD'] < unit.stats['SPD']"
+                "target.get_stats('SPD') < unit.get_stats('SPD')"
             ]
         ]
     }

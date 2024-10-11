@@ -13,8 +13,10 @@
             "wait;300",
             "",
             "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
+            "give_skill;{created_unit};Void Curse;no_banner",
             "add_unit;{created_unit};0,9",
             "make_generic;;Dracozombie;15;enemy2;Pursue;Monster;;Wretched Air",
+            "give_skill;{created_unit};Void Curse;no_banner",
             "add_unit;{created_unit};0,10",
             "",
             "wait;500"

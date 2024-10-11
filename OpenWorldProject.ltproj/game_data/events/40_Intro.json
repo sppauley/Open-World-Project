@@ -16,6 +16,8 @@
             "hide_layer;brokenrightmidwall;immediate;no_warn",
             "hide_layer;brokenrightwall;immediate;no_warn",
             "",
+            "set_overworld_menu_option_visible;1;44;Roam;f",
+            "",
             "center_cursor;Simon;immediate",
             "game_var;freely_exit;False",
             "",
