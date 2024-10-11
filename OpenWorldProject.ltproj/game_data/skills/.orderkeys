@@ -237,5 +237,6 @@
     "BreakingCounter",
     "BreakingCounterAura",
     "BreakingCounterDebuff",
-    "CounterPoiseDebuff"
+    "CounterPoiseDebuff",
+    "LachesisBlessing"
 ]

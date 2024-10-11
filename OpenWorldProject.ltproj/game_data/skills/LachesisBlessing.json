@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "LachesisBlessing",
+        "name": "Lachesis's Blessing",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            29
+        ],
+        "components": [
+            [
+                "dynamic_accuracy",
+                "100 if combat_calcs.compute_hit(unit, target, item, target.get_weapon(), 'attack', (0,0)) > 0 else 0"
+            ]
+        ]
+    }
+]

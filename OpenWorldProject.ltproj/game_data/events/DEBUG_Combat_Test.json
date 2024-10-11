@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Combat Test",
+        "trigger": "combat_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "alert;{eval:combat_calcs.compute_hit(unit, target, item, target.get_weapon(), 'attack', (0,0))}"
+        ]
+    }
+]

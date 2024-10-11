@@ -302,14 +302,14 @@
                 "generic": false
             },
             {
-                "nid": "106",
+                "nid": "108",
                 "variant": null,
                 "level": 1,
-                "klass": "Mercenary",
+                "klass": "Swordmaster",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Killing Edge",
+                        "Iron Sword",
                         false
                     ]
                 ],
@@ -372,6 +372,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

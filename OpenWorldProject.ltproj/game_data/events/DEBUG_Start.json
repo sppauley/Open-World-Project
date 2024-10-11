@@ -21,6 +21,8 @@
             "remove_skill;Lysander;Counter;no_banner",
             "give_skill;Lysander;BreakingCounter;no_banner",
             "",
+            "give_skill;Bone;LachesisBlessing;no_banner",
+            "",
             "give_skill;Yusna;StaggeringLight;no_banner",
             "",
             "#trigger_script;GenericPreps (Global GenericPreps)",

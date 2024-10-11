@@ -808,5 +808,6 @@
     "37_MorrisseyTalk",
     "39_Exit",
     "30_MudFade",
-    "4_RemoveWall"
+    "4_RemoveWall",
+    "DEBUG_Combat_Test"
 ]
