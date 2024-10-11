@@ -50,7 +50,7 @@
             {
                 "nid": "Caylus",
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -226,7 +226,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -250,7 +250,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -274,7 +274,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -298,7 +298,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -322,7 +322,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -346,7 +346,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -370,7 +370,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -394,7 +394,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Guard",
+                "ai": "FleetBallista",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -501,7 +501,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -525,7 +525,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -549,7 +549,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -573,7 +573,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -597,7 +597,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -621,7 +621,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -673,7 +673,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "FleetDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -697,7 +697,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -721,7 +721,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "FleetDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -745,7 +745,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "b2",
                 "starting_position": [
@@ -769,7 +769,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "b2",
                 "starting_position": [
@@ -793,7 +793,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "FleetDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -817,7 +817,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "FleetDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -845,7 +845,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "FleetDefend",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -869,7 +869,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -893,7 +893,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "b2",
                 "starting_position": [
@@ -949,7 +949,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -1011,7 +1011,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1032,7 +1032,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1053,7 +1053,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1074,7 +1074,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Pursue",
+                "ai": "FleetPursue",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1279,6 +1279,10 @@
         "ai_groups": [
             {
                 "nid": "b2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
