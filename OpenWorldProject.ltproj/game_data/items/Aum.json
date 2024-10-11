@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Aum",
+        "name": "Aum",
+        "desc": "Revive a unit who has been forced to retreat this map.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Aum"
+            ],
+            [
+                "eval_target_restrict_2",
+                "any([u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)])"
+            ]
+        ]
+    }
+]

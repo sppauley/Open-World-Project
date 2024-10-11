@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Aum",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "choice;revival;Who to revive?;[u.nid for u in game.get_all_units_in_party() if is_dead(u.nid)];Dimensions=8,1;EntryType=type_unit;expression",
+            "resurrect;{v:revival}",
+            "set_current_hp;{v:revival};1",
+            "add_unit;{v:revival};{e:target_pos};warp",
+            "has_finished;{v:revival}"
+        ]
+    }
+]
