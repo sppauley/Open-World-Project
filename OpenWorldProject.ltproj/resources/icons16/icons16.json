@@ -319,5 +319,9 @@
     {
         "nid": "DisciplineManual",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{GabrielKnight} (Br,Ir,St,Slvr,Gld) Bow 5",
+        "subicon_dict": {}
     }
 ]

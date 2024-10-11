@@ -5,7 +5,7 @@
         "desc": "A devoted guardian of Lachesis's shrine.",
         "variant": null,
         "level": 20,
-        "klass": "Sniper",
+        "klass": "Ranger",
         "tags": [
             "Boss"
         ],
@@ -22,7 +22,16 @@
         "stat_cap_modifiers": {
             "SPD": 10
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "LachesisNeedle",
+                true
+            ],
+            [
+                "Magebane",
+                false
+            ]
+        ],
         "learned_skills": [
             [
                 1,
@@ -34,6 +43,11 @@
             "Bow": [
                 false,
                 251,
+                null
+            ],
+            "Sword": [
+                false,
+                121,
                 null
             ]
         },

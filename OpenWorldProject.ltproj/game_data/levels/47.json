@@ -2,7 +2,7 @@
     {
         "nid": "47",
         "name": "Lachesis",
-        "tilemap": "LachesisTemple",
+        "tilemap": "Lachesis",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {},
@@ -25,6 +25,19 @@
                 "starting_position": [
                     10,
                     7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Enoch",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
