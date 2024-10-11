@@ -809,5 +809,6 @@
     "39_Exit",
     "30_MudFade",
     "4_RemoveWall",
-    "DEBUG_Combat_Test"
+    "DEBUG_Combat_Test",
+    "global_Aum"
 ]
