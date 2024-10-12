@@ -22,6 +22,11 @@
             "",
             "if;v(\"MetHeretic\") == True",
             "    remove_unit;Raymond",
+            "end",
+            "",
+            "if;v(\"ShrineBattlesAvailable\") == True",
+            "    add_unit;Raymond;5,14",
+            "    add_talk;Simon;Raymond",
             "end"
         ]
     }

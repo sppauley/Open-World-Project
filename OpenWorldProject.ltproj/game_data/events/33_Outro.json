@@ -41,6 +41,7 @@
             "",
             "    set_unit_field;Mitzi;LoyaltyStatus;\"Mitzi is completely loyal.\"",
             "    give_skill;Mitzi;Historymaker",
+            "    set_unit_field;Mitzi;Loyal;True",
             "end",
             "",
             "add_portrait;Simon;MidRight;mirror",

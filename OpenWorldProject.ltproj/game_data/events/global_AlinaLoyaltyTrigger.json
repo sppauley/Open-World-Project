@@ -13,7 +13,8 @@
             "s;Alina;We don't have the time for full lessons right now, but I wrote this.|Some of it is advice from Master Patrick, or things my mom showed me.|Some of it's new. Out of my head.|Anyway, I hope it's worth something.",
             "remove_portrait;Alina",
             "give_item;Simon;DanceManual",
-            "set_unit_field;Alina;LoyaltyStatus;\"Alina is completely loyal.\""
+            "set_unit_field;Alina;LoyaltyStatus;\"Alina is completely loyal.\"",
+            "set_unit_field;Alina;Loyal;True"
         ]
     }
 ]

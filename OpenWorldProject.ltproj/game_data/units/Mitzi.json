@@ -99,6 +99,10 @@
             [
                 "LoyaltyStatus",
                 "Visit places of learning."
+            ],
+            [
+                "Loyal",
+                "False"
             ]
         ]
     }

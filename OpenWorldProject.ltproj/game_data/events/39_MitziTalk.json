@@ -1,0 +1,18 @@
+[
+    {
+        "name": "MitziTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "unit2.nid == \"Mitzi\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Mitzi;Left",
+            "add_portrait;Simon;Right",
+            "# TODO: Write",
+            "game_var;_goto_level;\"46\"",
+            "win_game"
+        ]
+    }
+]

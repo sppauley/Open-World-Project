@@ -23,6 +23,11 @@
             "if;v(\"HatshepsutMet\") and game.get_unit(\"Hatshepsut\").team == \"other\"",
             "    add_unit;Hatshepsut;7,20",
             "    add_talk;Simon;Hatshepsut",
+            "end",
+            "",
+            "if;v(\"ShrineBattlesAvailable\") == True",
+            "    add_unit;Mitzi;12,27",
+            "    add_talk;Simon;Mitzi",
             "end"
         ]
     }
