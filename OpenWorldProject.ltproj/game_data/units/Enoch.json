@@ -12,15 +12,16 @@
         "bases": {
             "HP": 52,
             "PSE": 16,
-            "MOV": 6,
-            "DEX": 25,
-            "SPD": 29,
+            "MOV": 8,
+            "DEX": 29,
+            "SPD": 21,
             "MAG": 8,
-            "CON": 14
+            "CON": 16
         },
         "growths": {},
         "stat_cap_modifiers": {
-            "SPD": 10
+            "SPD": 10,
+            "DEX": 10
         },
         "starting_items": [
             [
