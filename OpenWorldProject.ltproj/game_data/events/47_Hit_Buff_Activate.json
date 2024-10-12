@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Hit Buff Activate",
+        "trigger": "enemy_turn_change",
+        "level_nid": "47",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;POSITION;v('BlessPositions')",
+            "    remove_map_anim;Square;{POSITION}",
+            "    map_anim;StatUpSpark;{POSITION};no_block",
+            "    give_skill;{eval:get_units_within_distance({POSITION}, 0)[0]};MinorBlessing;no_banner",
+            "endf",
+            "sound;WindWave",
+            "wait;500"
+        ]
+    }
+]

@@ -11,7 +11,6 @@
     "NoAvoid",
     "Avoid5",
     "AvoidDown10",
-    "FocusTerrain",
     "Flying",
     "Strength_+2",
     "Strength_+5",
@@ -239,5 +238,6 @@
     "BreakingCounterAura",
     "BreakingCounterDebuff",
     "CounterPoiseDebuff",
-    "LachesisBlessing"
+    "LachesisBlessing",
+    "MinorBlessing"
 ]
