@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "# Battle where you destroy Clotho's artifact",
-            "# Need to have recruited Mitzi and beaten the precursor ruins to get here.",
+            "# Need to have recruited Alina and beaten the precursor ruins to get here.",
             "change_team;Lucius;enemy",
             "change_team;Annetta;enemy",
             "change_ai;Annetta;Pursue",

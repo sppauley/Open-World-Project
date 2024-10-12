@@ -9,8 +9,8 @@
         "priority": 20,
         "_source": [
             "# 1/3 to fight fates",
-            "# Need to have recruited Alina and beaten the precursor ruins to get here.",
-            "hide_layer;roof;immediate",
+            "# Need to have recruited Mitzi and beaten the precursor ruins to get here.",
+            "show_layer;roof;immediate",
             "show_layer;tapestry;immediate",
             "show_layer;overlay;immediate",
             "",
@@ -18,7 +18,8 @@
             "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            ""
         ]
     }
 ]

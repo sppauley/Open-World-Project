@@ -1,0 +1,45 @@
+[
+    {
+        "nid": "ClothoPriest",
+        "name": "Head Priest",
+        "desc": "A loyal priest of Atropos.\nBlesses warriors.",
+        "variant": null,
+        "level": 10,
+        "klass": "Bishop",
+        "tags": [],
+        "bases": {
+            "CON": 7,
+            "HP": 35,
+            "DEX": 15,
+            "MAG": 20,
+            "SPD": 12,
+            "PSE": 14,
+            "MOV": 0
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Physic",
+                false
+            ],
+            [
+                "Aum",
+                true
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Staff": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Priest",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -820,5 +820,9 @@
     "47_Hit_Buff_Warn",
     "47_Win_Condition",
     "46_AddGhostPosition",
-    "46_CreateGhosts"
+    "46_CreateGhosts",
+    "46_KilledBoss",
+    "46_PriestDies",
+    "46_LoseOnTime",
+    "46_UpdateTime"
 ]

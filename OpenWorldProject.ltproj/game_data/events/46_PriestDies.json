@@ -1,0 +1,16 @@
+[
+    {
+        "name": "PriestDies",
+        "trigger": "unit_death",
+        "level_nid": "46",
+        "condition": "unit.nid == \"ClothoPriest\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Priest;Right",
+            "s;Priest;Lady Atropos... I can aid you no longer...",
+            "remove_portrait;Priest"
+        ]
+    }
+]
