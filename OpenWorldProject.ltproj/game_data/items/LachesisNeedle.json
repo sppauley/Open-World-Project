@@ -1,8 +1,8 @@
 [
     {
         "nid": "LachesisNeedle",
-        "name": "Lachesis's Needle",
-        "desc": "Guides fortune's path.",
+        "name": "Fortune's Path",
+        "desc": "Lachesis ensures that the path of fortune aligns with her will.",
         "icon_nid": "{GabrielKnight} (Br,Ir,St,Slvr,Gld) Bow 5",
         "icon_index": [
             0,

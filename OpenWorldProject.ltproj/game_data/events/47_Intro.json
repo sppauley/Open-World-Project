@@ -11,6 +11,9 @@
             "# Battle where you destroy Lachesis's artifact",
             "# Need to have recruited Euclid and beaten the precursor ruins to get here.",
             "",
+            "# setup",
+            "add_weather;light",
+            "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps"

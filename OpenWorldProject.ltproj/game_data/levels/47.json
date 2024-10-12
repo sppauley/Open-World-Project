@@ -34,10 +34,10 @@
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "boss",
                 "starting_position": [
                     15,
-                    12
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -126,7 +126,7 @@
         "unit_groups": [],
         "ai_groups": [
             {
-                "nid": "",
+                "nid": "boss",
                 "trigger_threshold": 1
             }
         ]
