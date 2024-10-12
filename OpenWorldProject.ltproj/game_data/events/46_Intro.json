@@ -14,6 +14,8 @@
             "show_layer;tapestry;immediate",
             "show_layer;overlay;immediate",
             "",
+            "level_var;DeadUnitsPositionList;[]",
+            "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps"

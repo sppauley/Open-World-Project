@@ -1,0 +1,19 @@
+[
+    {
+        "name": "AddGhostPosition",
+        "trigger": "unit_death",
+        "level_nid": "46",
+        "condition": "unit.team == \"enemy\" and unit.klass != \"Phantom\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#make_generic;;Phantom;15;enemy;Pursue;Monster;;Silver Axe",
+            "#add_unit;{created_unit};{e:unit.position};fade;stack",
+            "",
+            "map_anim;MapSmallHealTrans;{e:unit.position};permanent",
+            "if;v(\"DeadUnitsPositionList\").append(str(unit.position))",
+            "end"
+        ]
+    }
+]

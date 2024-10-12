@@ -818,5 +818,7 @@
     "34_RaymondTalk",
     "47_Hit_Buff_Activate",
     "47_Hit_Buff_Warn",
-    "47_Win_Condition"
+    "47_Win_Condition",
+    "46_AddGhostPosition",
+    "46_CreateGhosts"
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "CreateGhosts",
+        "trigger": "turn_change",
+        "level_nid": "46",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;pos;v(\"DeadUnitsPositionList\")",
+            "    make_generic;;Phantom;15;enemy;Pursue;Monster;;Silver Axe",
+            "    add_unit;{created_unit};{e:tuple({pos})};fade;stack",
+            "",
+            "    wait;200",
+            "",
+            "    remove_map_anim;MapSmallHealTrans;{e:tuple({pos})}",
+            "endf",
+            "level_var;DeadUnitsPositionList;[]"
+        ]
+    }
+]
