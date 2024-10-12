@@ -23,8 +23,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    7
+                    14,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -36,15 +36,51 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    13,
-                    6
+                    17,
+                    28
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Raymond",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": false
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "prep",
+                "region_type": "formation",
+                "position": [
+                    13,
+                    29
+                ],
+                "size": [
+                    5,
+                    2
+                ],
+                "sub_nid": "",
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]
