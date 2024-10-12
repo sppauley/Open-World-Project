@@ -100,6 +100,10 @@
             [
                 "LoyaltyStatus",
                 "Collect two legendary tomes for her loyalty."
+            ],
+            [
+                "Loyal",
+                "False"
             ]
         ]
     }

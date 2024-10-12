@@ -810,5 +810,8 @@
     "30_MudFade",
     "4_RemoveWall",
     "DEBUG_Combat_Test",
-    "global_Aum"
+    "global_Aum",
+    "global_RaymondDefyAlert",
+    "0_RaymondTalk",
+    "19_AlinaTalk"
 ]
