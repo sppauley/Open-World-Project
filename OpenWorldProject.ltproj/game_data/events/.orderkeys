@@ -817,5 +817,6 @@
     "39_MitziTalk",
     "34_RaymondTalk",
     "47_Hit_Buff_Activate",
-    "47_Hit_Buff_Warn"
+    "47_Hit_Buff_Warn",
+    "47_Win_Condition"
 ]

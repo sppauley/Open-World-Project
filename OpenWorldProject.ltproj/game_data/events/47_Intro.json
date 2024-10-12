@@ -13,6 +13,7 @@
             "",
             "# setup",
             "add_weather;light",
+            "show_layer;overlay;immediate",
             "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
