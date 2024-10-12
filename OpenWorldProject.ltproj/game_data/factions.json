@@ -128,5 +128,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "LachesisCult",
+        "name": "Cultist",
+        "desc": "Followers of Lachesis who seek to change their fortune for the better.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]
