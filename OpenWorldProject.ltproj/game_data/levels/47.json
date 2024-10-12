@@ -56,57 +56,9 @@
                 "generic": false
             },
             {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "Myrmidon",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    13,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "Myrmidon",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    11,
-                    26
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "103",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "General",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -130,7 +82,7 @@
             {
                 "nid": "104",
                 "variant": null,
-                "level": 5,
+                "level": 15,
                 "klass": "General",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -154,7 +106,7 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wyvern Lord",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -178,7 +130,7 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wyvern Lord",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -202,7 +154,7 @@
             {
                 "nid": "107",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wyvern Lord",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -226,7 +178,7 @@
             {
                 "nid": "108",
                 "variant": null,
-                "level": 7,
+                "level": 10,
                 "klass": "Wyvern Lord",
                 "faction": "LachesisCult",
                 "starting_items": [
@@ -243,6 +195,230 @@
                 "starting_position": [
                     16,
                     20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 11,
+                "klass": "Berserker",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 11,
+                "klass": "Swordmaster",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    26
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "109",
+                "variant": null,
+                "level": 8,
+                "klass": "Bishop",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Cripple",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    22,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "110",
+                "variant": null,
+                "level": 18,
+                "klass": "Cleric",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Grasp",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Shine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    21,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 10,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Shine",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    23,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "113",
+                "variant": null,
+                "level": 8,
+                "klass": "DireWolf",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "114",
+                "variant": null,
+                "level": 8,
+                "klass": "DireWolf",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "115",
+                "variant": null,
+                "level": 16,
+                "klass": "Halberdier",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ],
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -292,6 +468,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
