@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Bertholdt",
+        "name": "Bertholdt",
+        "desc": "Simon's late father.",
+        "variant": null,
+        "level": 1,
+        "klass": "Swordmaster",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 45,
+            "CON": 12,
+            "MAG": 8,
+            "DEX": 15,
+            "SPD": 19,
+            "PSE": 25,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "BertholdtParizitis",
+                false
+            ],
+            [
+                "Silver Blade",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "BertholdtLeadership"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "{Lonkfromcalifornia} [F2E] OC Scaeva",
+        "affinity": null,
+        "fields": []
+    }
+]

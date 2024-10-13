@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MoranDies",
+        "trigger": "unit_death",
+        "level_nid": "46",
+        "condition": "unit.nid == \"Moran\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Moran;Right;normal;CloseEyes",
+            "s;Moran;...",
+            "remove_portrait;Moran"
+        ]
+    }
+]

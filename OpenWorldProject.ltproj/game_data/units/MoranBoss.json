@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "MoranBoss",
+        "name": "Moran",
+        "desc": "The head of lost House Moran.",
+        "variant": null,
+        "level": 1,
+        "klass": "Morrissey_Lord",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 40,
+            "MOV": 6,
+            "CON": 15,
+            "MAG": 20,
+            "DEX": 17,
+            "SPD": 18,
+            "PSE": 20
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Elfire",
+                false
+            ],
+            [
+                "Freeze",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                251,
+                251
+            ],
+            "Staff": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "XPGamesNL F2E 4",
+        "affinity": null,
+        "fields": []
+    }
+]

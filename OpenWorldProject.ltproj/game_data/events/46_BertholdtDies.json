@@ -1,0 +1,16 @@
+[
+    {
+        "name": "BertholdtDies",
+        "trigger": "unit_death",
+        "level_nid": "46",
+        "condition": "unit.nid == \"Bertholdt\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Bertholdt;Right;normal;CloseEyes",
+            "s;Bertholdt;...",
+            "remove_portrait;Bertholdt"
+        ]
+    }
+]
