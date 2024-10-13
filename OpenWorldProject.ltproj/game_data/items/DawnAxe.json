@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "DawnAxe",
+        "name": "Dawn Axe",
+        "desc": "An axe heralding a new beginning. On hit, grants +4 stagger damage for 1 turn to allies within 2 spaces of the wielder.",
+        "icon_nid": "{LordGlenn} (ArchaneaIconProject) tile134",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                75
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                22
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ],
+            [
+                "stagger",
+                10
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        20
+                    ],
+                    [
+                        "DEX",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global Rally Stagger"
+            ]
+        ]
+    }
+]

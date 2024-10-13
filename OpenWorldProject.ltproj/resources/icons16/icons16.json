@@ -327,5 +327,9 @@
     {
         "nid": "{Lisandra Brave} (FE5 Recolor) 157 8x8",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (ArchaneaIconProject) tile134",
+        "subicon_dict": {}
     }
 ]

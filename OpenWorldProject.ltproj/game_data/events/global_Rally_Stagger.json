@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Rally Stagger",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;AOE_Rally;{unit}",
+            "for;RALLY_UNIT;get_allies_within_distance(unit.position, 2)",
+            "    give_skill;{RALLY_UNIT};RalliedStagger;no_banner",
+            "endf"
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "RalliedStagger",
+        "name": "Rallied Stagger",
+        "desc": "Unit deals +4 stagger damage.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            13
+        ],
+        "components": [
+            [
+                "end_time",
+                1
+            ],
+            [
+                "stagger_bonus",
+                4
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    85,
+                    0
+                ]
+            ]
+        ]
+    }
+]

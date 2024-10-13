@@ -14,7 +14,7 @@
             "SPD": 27,
             "PSE": 30,
             "MOV": 6,
-            "CON": 18
+            "CON": 20
         },
         "growths": {
             "HP": 0,
@@ -35,7 +35,7 @@
                 false
             ],
             [
-                "Silver Axe",
+                "DawnAxe",
                 false
             ]
         ],
@@ -44,7 +44,7 @@
         "wexp_gain": {
             "Sword": [
                 false,
-                181,
+                251,
                 251
             ],
             "Lance": [
@@ -54,7 +54,7 @@
             ],
             "Axe": [
                 false,
-                181,
+                251,
                 251
             ],
             "Bow": [
