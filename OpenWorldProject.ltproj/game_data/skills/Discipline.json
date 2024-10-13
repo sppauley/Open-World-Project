@@ -10,16 +10,12 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
-                "feat",
-                null
-            ],
-            [
                 "wexp_multiplier",
                 2.0
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }
