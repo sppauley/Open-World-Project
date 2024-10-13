@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "level_var;BlessPositions;[unit.position for unit in game.get_enemy_units()]",
+            "level_var;BlessPositions;[unit.position for unit in game.get_enemy_units() if 'Barrier' not in unit.nid]",
             "",
-            "for;POSITION;v('BlessPositions')",
+            "for;POSITION;v('BlessPositions')    ",
             "    map_anim;Square;{POSITION};permanent",
             "endf"
         ]

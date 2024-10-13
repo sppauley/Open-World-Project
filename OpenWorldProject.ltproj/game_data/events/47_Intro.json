@@ -11,6 +11,8 @@
             "# Battle where you destroy Lachesis's artifact",
             "# Need to have recruited Euclid and beaten the precursor ruins to get here.",
             "",
+            "# set up the barriers being tied to Enoch being alive",
+            "",
             "# setup",
             "add_weather;light",
             "show_layer;overlay;immediate",

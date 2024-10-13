@@ -56,6 +56,120 @@
                 "generic": false
             },
             {
+                "nid": "Barrier_1",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Barrier_2",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Barrier_3",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Barrier_4",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Barrier_5",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Barrier_6",
+                "variant": null,
+                "level": 1,
+                "klass": "LightRune",
+                "faction": "Wall",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "103",
                 "variant": null,
                 "level": 15,
@@ -468,6 +582,10 @@
             },
             {
                 "nid": "c",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

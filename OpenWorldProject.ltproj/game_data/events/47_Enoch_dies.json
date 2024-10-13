@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Enoch dies",
+        "trigger": "combat_end",
+        "level_nid": "47",
+        "condition": "game.check_dead('Enoch')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Enoch;Right;;CloseEyes",
+            "s;Enoch;How could this happen...{w}{br}Lachesis...{w} you said I'd finally be safe...",
+            "remove_portrait;Enoch",
+            "wait;300",
+            "center_cursor;15,1",
+            "wait;400",
+            "remove_unit;Barrier_1;warp",
+            "remove_unit;Barrier_2;warp",
+            "remove_unit;Barrier_3;warp",
+            "remove_unit;Barrier_4;warp",
+            "remove_unit;Barrier_5;warp",
+            "remove_unit;Barrier_6;warp",
+            "wait;600"
+        ]
+    }
+]
