@@ -855,6 +855,10 @@
                     [
                         "Rotten Claw",
                         false
+                    ],
+                    [
+                        "FocusGem",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -882,6 +886,10 @@
                     ],
                     [
                         "Rotten Claw",
+                        false
+                    ],
+                    [
+                        "FocusGem",
                         false
                     ]
                 ],
@@ -911,6 +919,10 @@
                     [
                         "Rotten Claw",
                         false
+                    ],
+                    [
+                        "FocusGem",
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -938,6 +950,10 @@
                     ],
                     [
                         "Rotten Claw",
+                        false
+                    ],
+                    [
+                        "FocusGem",
                         false
                     ]
                 ],

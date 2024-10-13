@@ -1650,7 +1650,7 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Sword",
+                        "Brave Sword",
                         false
                     ]
                 ],
@@ -1674,8 +1674,12 @@
                 "faction": "NewDawn",
                 "starting_items": [
                     [
-                        "Silver Lance",
+                        "Brave Lance",
                         false
+                    ],
+                    [
+                        "FocusGem",
+                        true
                     ]
                 ],
                 "starting_skills": [],
