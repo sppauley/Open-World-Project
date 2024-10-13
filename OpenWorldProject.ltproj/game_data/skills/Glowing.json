@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Glowing",
+        "name": "Glowing",
+        "desc": "[HIDDEN] Glowing",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ]
+        ]
+    }
+]

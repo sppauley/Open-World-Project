@@ -10,7 +10,7 @@
         "_source": [
             "for;pos;v(\"DeadUnitsPositionList\")",
             "    make_generic;;Phantom;15;enemy;Pursue;Monster;;Silver Axe",
-            "    add_unit;{created_unit};{e:tuple({pos})};fade;stack",
+            "    add_unit;{created_unit};{e:tuple({pos})};fade;push",
             "",
             "    wait;200",
             "",
