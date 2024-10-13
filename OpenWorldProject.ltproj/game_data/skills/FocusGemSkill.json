@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "FocusGemSkill",
+        "name": "Focus Gem",
+        "desc": "",
+        "icon_nid": "TacticsOgre_Items",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "unit.get_stat('SPD') < unit2.get_stat('SPD')"
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "stagger_bonus",
+                2
+            ]
+        ]
+    }
+]

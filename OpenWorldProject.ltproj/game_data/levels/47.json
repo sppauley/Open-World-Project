@@ -840,6 +840,214 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "128",
+                "variant": null,
+                "level": 16,
+                "klass": "Angel",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ],
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    6,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "130",
+                "variant": null,
+                "level": 16,
+                "klass": "Angel",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ],
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    23,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "131",
+                "variant": null,
+                "level": 16,
+                "klass": "Angel",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ],
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    24,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "129",
+                "variant": null,
+                "level": 16,
+                "klass": "Angel",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ],
+                    [
+                        "Rotten Claw",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    7,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "132",
+                "variant": null,
+                "level": 16,
+                "klass": "General",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    11,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "133",
+                "variant": null,
+                "level": 16,
+                "klass": "General",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    13,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "134",
+                "variant": null,
+                "level": 16,
+                "klass": "General",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    17,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "135",
+                "variant": null,
+                "level": 16,
+                "klass": "General",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "c",
+                "starting_position": [
+                    19,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [

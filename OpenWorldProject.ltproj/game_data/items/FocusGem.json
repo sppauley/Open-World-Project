@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "FocusGem",
+        "name": "Focus Gem",
+        "desc": "If holder has less speed than foe, deals +2 damage and +2 stagger.",
+        "icon_nid": "TacticsOgre_Items",
+        "icon_index": [
+            1,
+            13
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        6
+                    ]
+                ]
+            ],
+            [
+                "status_on_hold",
+                "FocusGemSkill"
+            ]
+        ]
+    }
+]

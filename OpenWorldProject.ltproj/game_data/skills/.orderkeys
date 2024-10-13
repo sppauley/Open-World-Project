@@ -239,5 +239,6 @@
     "BreakingCounterDebuff",
     "CounterPoiseDebuff",
     "LachesisBlessing",
-    "MinorBlessing"
+    "MinorBlessing",
+    "FocusGemSkill"
 ]
