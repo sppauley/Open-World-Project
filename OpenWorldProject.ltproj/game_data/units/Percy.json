@@ -36,7 +36,7 @@
             ],
             [
                 "DawnAxe",
-                false
+                true
             ]
         ],
         "learned_skills": [],
