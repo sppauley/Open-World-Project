@@ -1,6 +1,6 @@
 [
     {
-        "name": "Teach Discipline",
+        "name": "Teach Paragon",
         "trigger": null,
         "level_nid": null,
         "condition": "True",
@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;{unit};Discipline",
-            "add_skill_component;{unit};Discipline;feat;None"
+            "give_skill;{unit};Paragon",
+            "add_skill_component;{unit};Paragon;feat;None"
         ]
     }
 ]

@@ -1,9 +1,9 @@
 [
     {
-        "nid": "DisciplineManual",
-        "name": "Discipline Manual",
-        "desc": "Teaches Discipline (Unit gains doubled weapon experience)",
-        "icon_nid": "DisciplineManual",
+        "nid": "ParagonManual",
+        "name": "Paragon Manual",
+        "desc": "Teaches Paragon (Unit has doubled experience gain)",
+        "icon_nid": "{Lisandra Brave} (FE5 Recolor) 157 8x8",
         "icon_index": [
             0,
             0
@@ -38,7 +38,7 @@
             ],
             [
                 "event_on_hit",
-                "Global Teach Discipline"
+                "Global Teach Paragon"
             ],
             [
                 "target_unit",
