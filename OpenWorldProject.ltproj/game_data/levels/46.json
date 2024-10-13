@@ -2,7 +2,7 @@
     {
         "nid": "46",
         "name": "Atropos",
-        "tilemap": "AtroposShrine",
+        "tilemap": "AtroposBattle",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
