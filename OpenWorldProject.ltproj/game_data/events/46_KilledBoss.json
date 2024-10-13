@@ -8,7 +8,12 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "hide_layer;roof",
+            "center_cursor;12,2",
             "",
+            "add_portrait;Mitzi;Right",
+            "s;Mitzi;Quickly, burn the tapestries!",
+            "remove_portrait;Mitzi",
             "win_game"
         ]
     }
