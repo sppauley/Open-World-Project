@@ -177,7 +177,7 @@
                 "faction": "LachesisCult",
                 "starting_items": [
                     [
-                        "Silver_Pike",
+                        "Silver_Mace",
                         false
                     ]
                 ],
@@ -421,7 +421,7 @@
                 "faction": "LachesisCult",
                 "starting_items": [
                     [
-                        "Shine",
+                        "Fimbulvetr",
                         false
                     ]
                 ],
@@ -445,7 +445,7 @@
                 "faction": "LachesisCult",
                 "starting_items": [
                     [
-                        "Shine",
+                        "Fimbulvetr",
                         false
                     ]
                 ],
@@ -536,6 +536,310 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "116",
+                "variant": null,
+                "level": 16,
+                "klass": "Valkyrie",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Enfeeble",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    12,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "117",
+                "variant": null,
+                "level": 16,
+                "klass": "Valkyrie",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Enfeeble",
+                        false
+                    ],
+                    [
+                        "Fimbulvetr",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    18,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "118",
+                "variant": null,
+                "level": 16,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    1,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "120",
+                "variant": null,
+                "level": 16,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    27,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "119",
+                "variant": null,
+                "level": 16,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    3,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "121",
+                "variant": null,
+                "level": 16,
+                "klass": "Sage",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "boss",
+                "starting_position": [
+                    29,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "122",
+                "variant": null,
+                "level": 16,
+                "klass": "Paladin",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ],
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    2,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "123",
+                "variant": null,
+                "level": 16,
+                "klass": "Great_Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    28,
+                    19
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "124",
+                "variant": null,
+                "level": 20,
+                "klass": "Cavalier",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    3,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "125",
+                "variant": null,
+                "level": 20,
+                "klass": "Cavalier",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver_Pike",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "a",
+                "starting_position": [
+                    3,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "126",
+                "variant": null,
+                "level": 20,
+                "klass": "AxeCavalier",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    27,
+                    18
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "127",
+                "variant": null,
+                "level": 20,
+                "klass": "AxeCavalier",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver_Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "b",
+                "starting_position": [
+                    27,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -585,7 +889,11 @@
                 "trigger_threshold": 1
             },
             {
-                "nid": "",
+                "nid": "a",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "b",
                 "trigger_threshold": 1
             }
         ]
