@@ -1,0 +1,20 @@
+[
+    {
+        "name": "HallwayReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "47",
+        "condition": "game.turncount % 4 == 0 and game.turncount > 15 and game.turncount < 25",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Hallways;Hallways;create",
+            "center_cursor;2,19",
+            "wait;400",
+            "center_cursor;28,19",
+            "wait;400",
+            "center_cursor;15,28",
+            "wait;400"
+        ]
+    }
+]

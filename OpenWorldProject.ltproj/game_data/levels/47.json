@@ -1064,6 +1064,252 @@
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "136",
+                "variant": null,
+                "level": 18,
+                "klass": "Ranger",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Tomereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "137",
+                "variant": null,
+                "level": 18,
+                "klass": "Ranger",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Tomereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "138",
+                "variant": null,
+                "level": 15,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "139",
+                "variant": null,
+                "level": 15,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "140",
+                "variant": null,
+                "level": 18,
+                "klass": "Paladin",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "141",
+                "variant": null,
+                "level": 18,
+                "klass": "Paladin",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "142",
+                "variant": null,
+                "level": 14,
+                "klass": "Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "143",
+                "variant": null,
+                "level": 14,
+                "klass": "Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "144",
+                "variant": null,
+                "level": 14,
+                "klass": "Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "145",
+                "variant": null,
+                "level": 14,
+                "klass": "Mogall",
+                "faction": "Monster",
+                "starting_items": [
+                    [
+                        "Crimson Eye",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1100,9 +1346,108 @@
                 "time_left": null,
                 "only_once": false,
                 "interrupt_move": false
+            },
+            {
+                "nid": "Phase2_1",
+                "region_type": "normal",
+                "position": [
+                    0,
+                    16
+                ],
+                "size": [
+                    7,
+                    6
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Phase2_2",
+                "region_type": "normal",
+                "position": [
+                    24,
+                    16
+                ],
+                "size": [
+                    7,
+                    6
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
             }
         ],
-        "unit_groups": [],
+        "unit_groups": [
+            {
+                "nid": "Hallways",
+                "units": [
+                    "136",
+                    "137",
+                    "138",
+                    "139",
+                    "140",
+                    "141"
+                ],
+                "positions": {
+                    "138": [
+                        0,
+                        18
+                    ],
+                    "139": [
+                        0,
+                        20
+                    ],
+                    "136": [
+                        30,
+                        18
+                    ],
+                    "137": [
+                        30,
+                        20
+                    ],
+                    "140": [
+                        14,
+                        30
+                    ],
+                    "141": [
+                        16,
+                        30
+                    ]
+                }
+            },
+            {
+                "nid": "Center",
+                "units": [
+                    "142",
+                    "143",
+                    "144",
+                    "145"
+                ],
+                "positions": {
+                    "142": [
+                        14,
+                        18
+                    ],
+                    "143": [
+                        16,
+                        18
+                    ],
+                    "144": [
+                        14,
+                        20
+                    ],
+                    "145": [
+                        16,
+                        20
+                    ]
+                }
+            }
+        ],
         "ai_groups": [
             {
                 "nid": "boss",
@@ -1118,6 +1463,10 @@
             },
             {
                 "nid": "b",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CenterReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "47",
+        "condition": "any(get_units_in_region('Phase2_1', team='player')) or any(get_units_in_region('Phase2_2', team='player'))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;15,19",
+            "add_group;Center;Center;create",
+            "wait;500"
+        ]
+    }
+]
