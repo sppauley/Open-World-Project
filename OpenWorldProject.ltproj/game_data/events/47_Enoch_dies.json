@@ -20,7 +20,12 @@
             "remove_unit;Barrier_4;warp",
             "remove_unit;Barrier_5;warp",
             "remove_unit;Barrier_6;warp",
-            "wait;600"
+            "wait;600",
+            "flicker_cursor;Simon",
+            "add_portrait;Simon;Left",
+            "s;Simon;Lachesis won't be happy about us killing one of her Chosen.{w}{br}We need to get to the abacus.{w} Now.",
+            "remove_portrait;Simon",
+            "level_var;LachesisFinal;1"
         ]
     }
 ]

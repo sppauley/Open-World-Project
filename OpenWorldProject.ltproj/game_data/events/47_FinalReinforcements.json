@@ -1,0 +1,20 @@
+[
+    {
+        "name": "FinalReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "47",
+        "condition": "game.level_vars['LachesisFinal']==1",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_group;FinalGroup;FinalGroup;;closest;create",
+            "center_cursor;2,19",
+            "wait;400",
+            "center_cursor;28,19",
+            "wait;400",
+            "center_cursor;15,28",
+            "wait;400"
+        ]
+    }
+]

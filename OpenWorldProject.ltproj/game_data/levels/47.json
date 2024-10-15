@@ -1310,6 +1310,276 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "146",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "147",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "148",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "149",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "152",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "155",
+                "variant": null,
+                "level": 20,
+                "klass": "Mage Knight",
+                "faction": "LachesisCult",
+                "starting_items": [
+                    [
+                        "Elimination",
+                        false
+                    ],
+                    [
+                        "CalamityGate",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1444,6 +1714,63 @@
                     "145": [
                         16,
                         20
+                    ]
+                }
+            },
+            {
+                "nid": "FinalGroup",
+                "units": [
+                    "146",
+                    "147",
+                    "148",
+                    "149",
+                    "150",
+                    "151",
+                    "152",
+                    "153",
+                    "154",
+                    "155"
+                ],
+                "positions": {
+                    "146": [
+                        0,
+                        18
+                    ],
+                    "147": [
+                        0,
+                        19
+                    ],
+                    "148": [
+                        0,
+                        20
+                    ],
+                    "149": [
+                        30,
+                        18
+                    ],
+                    "150": [
+                        30,
+                        19
+                    ],
+                    "151": [
+                        30,
+                        20
+                    ],
+                    "152": [
+                        12,
+                        30
+                    ],
+                    "153": [
+                        13,
+                        30
+                    ],
+                    "154": [
+                        17,
+                        30
+                    ],
+                    "155": [
+                        18,
+                        30
                     ]
                 }
             }
