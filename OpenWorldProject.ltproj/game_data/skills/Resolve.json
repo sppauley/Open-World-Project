@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Resolve",
+        "name": "Resolve",
+        "desc": "After unit initiates combat and defeats an enemy, gains +10 MAG and +10 SPD until the end of their next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            47
+        ],
+        "components": [
+            [
+                "personal_skill",
+                null
+            ],
+            [
+                "gain_skill_after_active_kill",
+                "Resolve_Proc"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

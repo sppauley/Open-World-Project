@@ -245,5 +245,7 @@
     "FocusGemSkill",
     "Paragon",
     "Glowing",
-    "RalliedStagger"
+    "RalliedStagger",
+    "Resolve",
+    "Resolve_Proc"
 ]

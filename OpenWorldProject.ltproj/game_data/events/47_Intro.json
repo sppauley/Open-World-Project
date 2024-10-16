@@ -9,7 +9,12 @@
         "priority": 20,
         "_source": [
             "# Battle where you destroy Lachesis's artifact",
-            "# Need to have recruited Euclid and beaten the precursor ruins to get here.",
+            "# Need to have recruited Raymond and beaten the precursor ruins to get here.",
+            "",
+            "music;ThraciaFate",
+            "multi_add_portrait;Simon;Left;Raymond;Right",
+            "s;Raymond;The inside of Lachesis's shrine...{w} Finally...{w}{br}I never thought she'd allow me the luck to make it this far.",
+            "",
             "",
             "# set up the barriers being tied to Enoch being alive",
             "",

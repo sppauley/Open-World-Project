@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Resolve_Proc",
+        "name": "Resolve Bonus",
+        "desc": "Unit has +10 MAG and +10 SPD until the end of their next turn.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            5,
+            47
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        10
+                    ],
+                    [
+                        "MAG",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "end_time",
+                2
+            ],
+            [
+                "unit_anim",
+                "OverchargeAura"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]
