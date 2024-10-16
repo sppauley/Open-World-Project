@@ -2,7 +2,7 @@
     {
         "nid": "50",
         "name": "Confluence of Fate",
-        "tilemap": "empty",
+        "tilemap": "Fates",
         "bg_tilemap": null,
         "party": "Simon",
         "music": {
@@ -28,54 +28,225 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    16,
-                    14
+                    13,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "Lachesis",
-                "team": "enemy2",
-                "ai": "None",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Fates",
                 "starting_position": [
-                    14,
-                    11
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "Atropos",
-                "team": "enemy2",
-                "ai": "None",
+                "team": "enemy",
+                "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": "",
+                "ai_group": "Fates",
                 "starting_position": [
-                    16,
-                    11
+                    15,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "Clotho",
-                "team": "enemy2",
-                "ai": "None",
+                "team": "enemy",
+                "ai": "Defend",
+                "roam_ai": null,
+                "ai_group": "Fates",
+                "starting_position": [
+                    13,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 10,
+                "klass": "Bishop",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "HexingRod",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "102",
+                "variant": null,
+                "level": 10,
+                "klass": "Bishop",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "CursingRod",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "103",
+                "variant": null,
+                "level": 6,
+                "klass": "General",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "104",
+                "variant": null,
+                "level": 6,
+                "klass": "General",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     18,
-                    11
+                    15
                 ],
                 "starting_traveler": null,
-                "generic": false
+                "generic": true
+            },
+            {
+                "nid": "105",
+                "variant": null,
+                "level": 6,
+                "klass": "Guerilla",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Brave Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "106",
+                "variant": null,
+                "level": 6,
+                "klass": "Guerilla",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Brave Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
             }
         ],
-        "regions": [],
+        "regions": [
+            {
+                "nid": "Formation",
+                "region_type": "formation",
+                "position": [
+                    10,
+                    29
+                ],
+                "size": [
+                    7,
+                    2
+                ],
+                "sub_nid": null,
+                "condition": "True",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            }
+        ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "Fates",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

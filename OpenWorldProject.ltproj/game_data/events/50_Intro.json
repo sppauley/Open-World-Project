@@ -8,6 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_team;Lachesis;enemy",
+            "change_team;Clotho;enemy",
+            "change_team;Atropos;enemy",
+            "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
             "trigger_script;Global GenericPreps"
