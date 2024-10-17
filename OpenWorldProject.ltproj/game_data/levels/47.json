@@ -5,7 +5,10 @@
         "tilemap": "Lachesis",
         "bg_tilemap": null,
         "party": "Simon",
-        "music": {},
+        "music": {
+            "player_phase": "Termini",
+            "enemy_phase": "Termini"
+        },
         "objective": {
             "simple": "Destroy the Abacus",
             "win": "Destroy the Abacus",
