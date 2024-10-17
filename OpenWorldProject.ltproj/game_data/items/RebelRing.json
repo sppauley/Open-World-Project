@@ -1,8 +1,8 @@
 [
     {
-        "nid": "CrusaderRing",
-        "name": "Crusader's Ring",
-        "desc": "If the holder's poise isn't broken, holder cannot be critically hit.\nCON growth +30%",
+        "nid": "RebelRing",
+        "name": "Rebel's Ring",
+        "desc": "If the holder's poise isn't broken, holder cannot be critically hit.\nSPD growth +20%",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
@@ -26,7 +26,7 @@
                 "multi_status_on_hold",
                 [
                     "NoCrit",
-                    "CONGrowth30"
+                    "SPDGrowth20"
                 ]
             ]
         ]

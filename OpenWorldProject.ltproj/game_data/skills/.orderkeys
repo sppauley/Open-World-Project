@@ -247,5 +247,9 @@
     "Glowing",
     "RalliedStagger",
     "Resolve",
-    "Resolve_Proc"
+    "Resolve_Proc",
+    "CONGrowth30",
+    "MAGGrowth30",
+    "SPDGrowth20",
+    "DEXGrowth30"
 ]

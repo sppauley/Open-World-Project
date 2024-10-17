@@ -231,6 +231,10 @@
                     [
                         "Fire",
                         false
+                    ],
+                    [
+                        "MageRing",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1033,6 +1037,10 @@
             },
             {
                 "nid": "L1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

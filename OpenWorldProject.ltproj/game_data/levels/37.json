@@ -820,6 +820,10 @@
                     [
                         "Killer Lance",
                         false
+                    ],
+                    [
+                        "TrojanRing",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1173,6 +1177,10 @@
             {
                 "nid": "JohnGroup",
                 "trigger_threshold": 2
+            },
+            {
+                "nid": "",
+                "trigger_threshold": 1
             }
         ]
     }
