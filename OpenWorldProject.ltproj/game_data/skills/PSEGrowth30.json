@@ -1,7 +1,7 @@
 [
     {
-        "nid": "SPDGrowth20",
-        "name": "SPD Growth% +30",
+        "nid": "PSEGrowth30",
+        "name": "PSE Growth% +30",
         "desc": "",
         "icon_nid": null,
         "icon_index": [
@@ -17,7 +17,7 @@
                 "growth_change",
                 [
                     [
-                        "SPD",
+                        "PSE",
                         30
                     ]
                 ]
