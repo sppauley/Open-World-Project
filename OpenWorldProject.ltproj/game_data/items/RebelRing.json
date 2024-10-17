@@ -2,7 +2,7 @@
     {
         "nid": "RebelRing",
         "name": "Rebel's Ring",
-        "desc": "If the holder's poise isn't broken, holder cannot be critically hit.\nSPD growth +20%",
+        "desc": "If the holder's poise isn't broken, holder cannot be critically hit.\nSPD growth +30%",
         "icon_nid": "Boosters",
         "icon_index": [
             0,
