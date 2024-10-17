@@ -231,6 +231,8 @@
     "Storm": "Magic",
     "Summon": "SkillItems",
     "Summon_Soldier": "SkillItems",
+    "Swap": "Accessories",
+    "SwapManual": "Accessories",
     "Swiftsole": "Misc. Items",
     "Swordreaver": "Axes",
     "Swordslayer": "Axes",

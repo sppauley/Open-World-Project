@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "SwapManual",
+        "name": "Swap Manual",
+        "desc": "Holder can swap places with adjacent allies.",
+        "icon_nid": "TacticsOgre_Items",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "Swap"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "CON",
+                        5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

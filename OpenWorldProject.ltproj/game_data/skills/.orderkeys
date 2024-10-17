@@ -251,5 +251,6 @@
     "CONGrowth30",
     "MAGGrowth30",
     "SPDGrowth20",
-    "DEXGrowth30"
+    "DEXGrowth30",
+    "Swap"
 ]

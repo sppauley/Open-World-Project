@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Swap",
+        "name": "Swap",
+        "desc": "Swap places with adjacent allies",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "ability",
+                "Swap"
+            ]
+        ]
+    }
+]
