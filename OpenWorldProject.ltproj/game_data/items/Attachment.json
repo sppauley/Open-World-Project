@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Attachment",
+        "name": "Attachment",
+        "desc": "When held, weapons deal -2 damage but +4 stagger damage.",
+        "icon_nid": "TacticsOgre_Items",
+        "icon_index": [
+            4,
+            15
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "Attachment"
+            ]
+        ]
+    }
+]
