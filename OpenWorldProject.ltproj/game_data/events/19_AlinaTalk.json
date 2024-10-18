@@ -10,9 +10,26 @@
         "_source": [
             "add_portrait;Simon;Left",
             "add_portrait;Alina;Right",
-            "#Write this convo",
-            "game_var;_goto_level;\"45\"",
-            "win_game"
+            "s;Alina;Is it time?{w} If we're really ready...|Might as well do it now.",
+            "choice;AttackClotho;Begin the attack?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "    remove_unit;Lucius",
+            "    remove_unit;Annetta",
+            "    move_unit;Alina;10,1;no_block;no_follow",
+            "    move_unit;Simon;10,2",
+            "    multi_remove_portrait;Alina;Simon",
+            "    sound;Unlock",
+            "    show_layer;opendoor",
+            "    move_unit;Alina;10,0",
+            "    remove_unit;Alina",
+            "    move_unit;Simon;10,0",
+            "    remove_unit;Simon",
+            "    game_var;AttackingFates;True",
+            "    game_var;_goto_level;\"45\"",
+            "    win_game",
+            "else",
+            "    multi_remove_portrait;Alina;Simon",
+            "end"
         ]
     }
 ]

@@ -25,7 +25,7 @@
             "    add_talk;Simon;Hatshepsut",
             "end",
             "",
-            "if;v(\"ShrineBattlesAvailable\") == True",
+            "if;v(\"ShrineBattlesAvailable\") == True and v(\"AtroposDestroyed\") != True",
             "    add_unit;Mitzi;12,27",
             "    add_talk;Simon;Mitzi",
             "end"

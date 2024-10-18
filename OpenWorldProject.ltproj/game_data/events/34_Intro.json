@@ -24,7 +24,7 @@
             "    remove_unit;Raymond",
             "end",
             "",
-            "if;v(\"ShrineBattlesAvailable\") == True",
+            "if;v(\"ShrineBattlesAvailable\") == True and v(\"LachesisDestroyed\") != True",
             "    add_unit;Raymond;5,14",
             "    add_talk;Simon;Raymond",
             "end"

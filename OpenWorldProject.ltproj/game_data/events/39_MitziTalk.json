@@ -10,9 +10,16 @@
         "_source": [
             "add_portrait;Mitzi;Left",
             "add_portrait;Simon;Right",
-            "# TODO: Write",
-            "game_var;_goto_level;\"46\"",
-            "win_game"
+            "s;Mitzi;Are you ready, Simon?{w} Once we begin, there's no turning back.",
+            "choice;AttackAtropos;Begin the attack?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "    multi_remove_portrait;Mitzi;Simon",
+            "    game_var;AttackingFates;True",
+            "    game_var;_goto_level;\"46\"",
+            "    win_game",
+            "else",
+            "    multi_remove_portrait;Mitzi;Simon",
+            "end"
         ]
     }
 ]

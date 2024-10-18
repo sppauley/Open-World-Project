@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# TODO"
+            "# TODO",
+            "game_var;ClothoDestroyed;True"
         ]
     }
 ]

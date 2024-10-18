@@ -22,7 +22,7 @@
             "    add_talk;Simon;Morrissey",
             "end",
             "",
-            "if;v(\"EndingAvailable\") == True",
+            "if;v(\"EndingAvailable\") == True and v(\"AttackingFates\") != True",
             "    add_talk;Simon;Morrissey",
             "    change_music;player_phase;ThraciaFate",
             "end"

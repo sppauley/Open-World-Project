@@ -8,11 +8,29 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "",
             "add_portrait;Raymond;Right",
             "add_portrait;Simon;Left",
-            "# TODO: Write",
-            "game_var;_goto_level;\"47\"",
-            "win_game"
+            "s;Raymond;Finally, after all these years...",
+            "choice;AttackLachesis;Begin the attack?;Yes,No",
+            "if;v(\"_last_choice\") == \"Yes\"",
+            "    s;Raymond;C'mon Simon, let's end this tyrant's rein!",
+            "    multi_remove_portrait;Raymond;Simon",
+            "    move_unit;Raymond;10,7;no_block;no_follow",
+            "    move_unit;Simon;10,7",
+            "    remove_unit;Seal_1;warp",
+            "    remove_unit;Seal_2;warp",
+            "    remove_unit;Seal_3;warp",
+            "    transition;close;1000",
+            "    move_unit;Raymond;10,4",
+            "    sound;Unlock",
+            "    game_var;AttackingFates;True",
+            "    game_var;_goto_level;\"47\"",
+            "    win_game",
+            "    transition;open;1",
+            "else",
+            "    multi_remove_portrait;Raymond;Simon",
+            "end"
         ]
     }
 ]

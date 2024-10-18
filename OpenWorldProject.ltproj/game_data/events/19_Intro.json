@@ -36,7 +36,7 @@
             "    game_var;freely_exit;True",
             "end",
             "",
-            "if;v(\"ShrineBattlesAvailable\") == True",
+            "if;v(\"ShrineBattlesAvailable\") == True and v(\"ClothoDestroyed\") != True",
             "    add_unit;Alina;4,9",
             "    add_talk;Simon;Alina",
             "end",

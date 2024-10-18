@@ -41,7 +41,9 @@
             "s;Raymond;...{w}{br}It's done.",
             "s;Simon;Raymond, are you alright?",
             "s;Raymond;She took everything from me, Simon.{w}{br}My curse has been my life.{w}{br}So it feels good to break her precious abacus.{w}{br}We'll break her next.{w} And we'll break the world out of the Fates' damned grasp.",
-            "multi_remove_portrait;Simon;Raymond"
+            "multi_remove_portrait;Simon;Raymond",
+            "",
+            "game_var;LachesisDestroyed;True"
         ]
     }
 ]
