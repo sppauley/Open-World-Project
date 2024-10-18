@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Talk Cultist",
+        "trigger": "on_talk",
+        "level_nid": "34",
+        "condition": "unit2.nid == '102'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Simon;Left;no_block",
+            "add_portrait;Villager Man 5;Right;;mirror",
+            "s;Villager Man 5;They sealed the door without me...",
+            "expression;Villager Man 5;CloseEyes",
+            "s;Villager Man 5;Oh Lachesis, am I truly so unworthy?",
+            "s;Simon;What's wrong?",
+            "expression;Villager Man 5;OpenEyes",
+            "mirror_portrait;Villager Man 5",
+            "s;Villager Man 5;The other followers of Lachesis are inside the shrine.{w}{br}Enoch, her chosen protector, is taking... defensive measures.",
+            "s;Simon;Why the change? What are they afraid of?",
+            "s;Villager Man 5;People these days take Lachesis's blessings for granted.{w} Those whom she blesses attribute their fortune to their own skill.{w}{br}But those whom she curses seek to desecrate her shrine.{w}{br}So gamblers, heretics, and all sorts of unfortunate people have been causing us trouble.",
+            "s;Simon;...",
+            "s;Villager Man 5;But Lachesis will usher me to safety.{w}{br}She may not have given me the same blessings as Enoch, but I believe fortune will guide me to safety.",
+            "s;Simon;Wait, what type of blessing does her chosen protector have?",
+            "s;Villager Man 5;The currents of fortune flow ever in his favor.{w}{br}If his opponents have a chance of failing, they will fail.{w}{br}If he has any chance of success, no matter how small, he will prevail.",
+            "s;Simon;I see...",
+            "s;Villager Man 5;So you better not try anything.{w}{br}Lachesis and Enoch won't allow it.",
+            "multi_remove_portrait;Simon;Villager Man 5",
+            "remove_talk;Simon;102"
+        ]
+    }
+]

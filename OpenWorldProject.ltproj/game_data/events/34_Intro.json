@@ -25,6 +25,12 @@
             "end",
             "",
             "if;v(\"ShrineBattlesAvailable\") == True and v(\"LachesisDestroyed\") != True",
+            "    remove_unit;102",
+            "else",
+            "    add_talk;Simon;102",
+            "end",
+            "",
+            "if;v(\"ShrineBattlesAvailable\") == True and v(\"LachesisDestroyed\") != True",
             "    add_unit;Raymond;5,14",
             "    add_talk;Simon;Raymond",
             "end"
