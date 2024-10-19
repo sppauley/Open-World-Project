@@ -1,0 +1,15 @@
+[
+    {
+        "name": "TriggerAtroposBlessing",
+        "trigger": "unit_death",
+        "level_nid": "50",
+        "condition": "has_skill(unit, \"AtroposBlessingFinale\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Phantom;15;enemy;Pursue;Monster;;Silver Axe",
+            "add_unit;{created_unit};{e:unit.position};fade;stack"
+        ]
+    }
+]

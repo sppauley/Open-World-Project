@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "AtroposBlessingFinale",
+        "name": "Blessing of Atropos",
+        "desc": "When unit dies, create a ghost in their place.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            2,
+            36
+        ],
+        "components": []
+    }
+]

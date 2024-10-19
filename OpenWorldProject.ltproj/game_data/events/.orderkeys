@@ -834,5 +834,8 @@
     "47_HallwayReinforcements",
     "47_FinalReinforcements",
     "47_Outro",
-    "34_Talk_Cultist"
+    "34_Talk_Cultist",
+    "50_GiveBlessing",
+    "global_RemoveClothoBlessing",
+    "50_TriggerAtroposBlessing"
 ]

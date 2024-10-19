@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ClothoBlessingFinale",
+        "name": "Blessing of Clotho",
+        "desc": "Until unit is staggered, they cannot take damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "resist",
+                999
+            ],
+            [
+                "event_after_staggering",
+                "Global RemoveClothoBlessing"
+            ]
+        ]
+    }
+]

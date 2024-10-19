@@ -1,0 +1,14 @@
+[
+    {
+        "name": "GiveBlessing",
+        "trigger": "turn_change",
+        "level_nid": "50",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Iterate through Fates giving a blessing to unit who does not yet have one and who is not one of them"
+        ]
+    }
+]
