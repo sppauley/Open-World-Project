@@ -29,8 +29,12 @@
             "    win_game",
             "end",
             "",
-            "game_var;_goto_level;\"49\"",
-            "skip_save;true"
+            "if;v(\"FatesDefied\") == True",
+            "    game_var;_goto_level;\"50\"",
+            "else",
+            "    game_var;_goto_level;\"49\"",
+            "    skip_save;true",
+            "end"
         ]
     }
 ]
