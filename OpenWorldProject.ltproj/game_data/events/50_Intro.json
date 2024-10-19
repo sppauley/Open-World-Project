@@ -14,6 +14,7 @@
             "add_tag;Lachesis;Boss",
             "add_tag;Clotho;Boss",
             "add_tag;Atropos;Boss",
+            "level_var;NextBlessingFrom;\"Lachesis\"",
             "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",

@@ -3,12 +3,26 @@
         "name": "GiveBlessing",
         "trigger": "turn_change",
         "level_nid": "50",
-        "condition": "True",
+        "condition": "game.check_alive(\"Clotho\") and game.check_alive(\"Lachesis\") and game.check_alive(\"Atropos\")",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# Iterate through Fates giving a blessing to unit who does not yet have one and who is not one of them"
+            "# Iterate through Fates giving a blessing to unit who does not yet have one and who is not one of them",
+            "if;v(\"NextBlessingFrom\") == \"Lachesis\"",
+            "    # Trigger give Lachesis",
+            "    level_var;ValidFatesTargets;[u.nid for u in game.get_enemy_units() if not has_skill(u, \"LachesisBlessingFinale\") and \"Boss\" not in u.tags]",
+            "    if;len(v(\"ValidFatesTargets\")) > 0",
+            "        #Random num, give skill",
+            "    end",
+            "    level_var;NextBlessingFrom;\"Clotho\"",
+            "elif;v(\"NextBlessingFrom\") == \"Clotho\"",
+            "    # Trigger give Clotho",
+            "    level_var;NextBlessingFrom;\"Atropos\"",
+            "elif;v(\"NextBlessingFrom\") == \"Atropos\"",
+            "    # Trigger give Atropos",
+            "    level_var;NextBlessingFrom;\"Lachesis\"",
+            "end"
         ]
     }
 ]

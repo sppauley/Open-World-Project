@@ -1,7 +1,7 @@
 [
     {
         "nid": "ClothoBlessingFinale",
-        "name": "Blessing of Clotho",
+        "name": "Clotho's Minor Blessing",
         "desc": "Until unit is staggered, they cannot take damage.",
         "icon_nid": "Skills",
         "icon_index": [
