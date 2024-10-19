@@ -580,7 +580,7 @@
                         false
                     ],
                     [
-                        "Fimbulvetr",
+                        "CalamityGate",
                         false
                     ]
                 ],
@@ -623,12 +623,12 @@
             {
                 "nid": "120",
                 "variant": null,
-                "level": 16,
-                "klass": "Sage",
+                "level": 14,
+                "klass": "DireWolf",
                 "faction": "LachesisCult",
                 "starting_items": [
                     [
-                        "Elimination",
+                        "Fetid Claw",
                         false
                     ]
                 ],
@@ -671,12 +671,12 @@
             {
                 "nid": "121",
                 "variant": null,
-                "level": 16,
-                "klass": "Sage",
+                "level": 14,
+                "klass": "DireWolf",
                 "faction": "LachesisCult",
                 "starting_items": [
                     [
-                        "Elimination",
+                        "Fetid Claw",
                         false
                     ]
                 ],
@@ -1689,7 +1689,7 @@
                 "starting_items": [
                     [
                         "Freeze",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -2033,10 +2033,6 @@
             },
             {
                 "nid": "m",
-                "trigger_threshold": 1
-            },
-            {
-                "nid": "",
                 "trigger_threshold": 1
             }
         ]
