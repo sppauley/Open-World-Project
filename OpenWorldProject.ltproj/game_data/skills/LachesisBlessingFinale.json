@@ -2,7 +2,7 @@
     {
         "nid": "LachesisBlessingFinale",
         "name": "Lachesis's Minor Blessing",
-        "desc": "If unit can hit, they will hit. If they can crit, they will crit. If their enemy would miss, they will miss. If that foe can miss a crit, they will not crit.",
+        "desc": "If unit can hit, they will hit. If they can crit, they will crit.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             2,
@@ -12,14 +12,6 @@
             [
                 "dynamic_accuracy",
                 "999 if combat_calcs_no_dynamic.compute_hit(unit, target, item, target.get_weapon(), 'attack', (0,0)) > 0 else 0"
-            ],
-            [
-                "dynamic_avoid",
-                "999 if combat_calcs_no_dynamic.compute_hit(target, unit, target.get_weapon(), item, 'attack', (0,0)) < 100 else 0"
-            ],
-            [
-                "dynamic_crit_avoid",
-                "999 if combat_calcs_no_dynamic.compute_crit(target, unit, target.get_weapon(), item, 'attack', (0,0)) < 100 else 0"
             ],
             [
                 "dynamic_crit_accuracy",
