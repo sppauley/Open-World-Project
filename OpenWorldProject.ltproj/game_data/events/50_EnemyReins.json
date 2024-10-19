@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EnemyReins",
+        "trigger": "turn_change",
+        "level_nid": "50",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;13,31",
+            "add_unit;138;12,31;warp",
+            "add_unit;139;13,31;warp",
+            "add_unit;140;14,31;warp"
+        ]
+    }
+]

@@ -1,7 +1,7 @@
 [
     {
         "nid": "NosferatuBad",
-        "name": "NosferatuBad",
+        "name": "Nosferatu",
         "desc": "User recovers HP equal to damage dealt.",
         "icon_nid": "Dark",
         "icon_index": [
@@ -70,19 +70,12 @@
                 3200
             ],
             [
-                "uses",
-                20
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "lifelink",
                 1.0
+            ],
+            [
+                "stagger",
+                0
             ]
         ]
     }

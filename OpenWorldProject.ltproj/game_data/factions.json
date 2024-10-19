@@ -138,5 +138,15 @@
             0,
             0
         ]
+    },
+    {
+        "nid": "Summon",
+        "name": "Summon",
+        "desc": "A ghostly being summoned by the Fates.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
     }
 ]

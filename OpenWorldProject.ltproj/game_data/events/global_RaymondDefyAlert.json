@@ -3,7 +3,7 @@
         "name": "RaymondDefyAlert",
         "trigger": "overworld_start",
         "level_nid": null,
-        "condition": "v(\"EndingAvailable\") == True and game.get_unit(\"Raymond\").team == \"player\" and game.get_unit(\"Mitzi\").get_field(\"Loyal\") and game.get_unit(\"Alina\").get_field(\"Loyal\")",
+        "condition": "v(\"EndingAvailable\") == True and game.get_unit(\"Raymond\").team == \"player\" and game.get_unit(\"Mitzi\").get_field(\"Loyal\") and game.get_unit(\"Alina\").get_field(\"Loyal\") and game.get_unit(\"Anuki\").get_field(\"Loyal\") and game.game_vars['AnukiLoyal']==True",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -11,7 +11,8 @@
             "add_portrait;Raymond;Left",
             "s;Raymond;Simon, I've spoken with Alina and Mitzi.|Before you speak to Morrissey,|meet us in Port Hull.",
             "remove_portrait;Raymond",
-            "game_var;PortHullDefyTalk;True"
+            "game_var;PortHullDefyTalk;True",
+            ""
         ]
     }
 ]

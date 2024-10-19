@@ -16,9 +16,25 @@
             "add_tag;Atropos;Boss",
             "level_var;NextBlessingFrom;\"Lachesis\"",
             "",
+            "create_record;NumDeathsFinalMap;0",
+            "",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "music;Twilight-of-the-Gods;1000",
+            "",
+            "if;not RECORDS.get(\"NumDeathsFinalMap\")",
+            "    center_cursor;Clotho",
+            "    add_portrait;Clotho;Right",
+            "    s;Clotho;Come forward, blessed one, with all your confidence and might.|And feel yourself succumb, again and again, to us.|How long will that confidence last?",
+            "    wait;300",
+            "    remove_portrait;Clotho",
+            "    center_cursor;Simon",
+            "    update_record;NumDeathsFinalMap;1",
+            "else",
+            "",
+            "end"
         ]
     }
 ]

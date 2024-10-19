@@ -837,5 +837,7 @@
     "34_Talk_Cultist",
     "50_GiveBlessing",
     "global_RemoveClothoBlessing",
-    "50_TriggerAtroposBlessing"
+    "50_TriggerAtroposBlessing",
+    "50_SimonDies",
+    "50_EnemyReins"
 ]

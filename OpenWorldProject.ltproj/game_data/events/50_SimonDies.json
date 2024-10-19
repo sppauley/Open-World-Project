@@ -1,0 +1,14 @@
+[
+    {
+        "name": "SimonDies",
+        "trigger": "unit_death",
+        "level_nid": "50",
+        "condition": "unit.nid == \"Simon\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 22,
+        "_source": [
+            "update_record;NumDeathsFinalMap;int(RECORDS.get(\"NumDeathsFinalMap\")) + 1"
+        ]
+    }
+]
