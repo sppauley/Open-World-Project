@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MitziAtroposBattle",
+        "trigger": "combat_start",
+        "level_nid": "50",
+        "condition": "check_pair('Mitzi', 'Atropos')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Atropos;Right",
+            "add_portrait;Mitzi;Left",
+            "s;Atropos;You... have the makings of a promising priest.|A shame you chose a foolish path.",
+            "s;Mitzi;How novel. One of the all-powerful Fates, acknowledging a mortal's choice.",
+            "s;Atropos;There is no more need for a facade, Mitzi.|You, especially, have long seen through our ruse.",
+            "s;Mitzi;Yes. Though taboo to speak publically on,|an honest study of history is not kind towards divine determinism.",
+            "s;Atropos;Truly spoken.{w} Alas, the deception will remain.",
+            "s;Mitzi;Only if you are able to strike down Lord Verstadt.",
+            "s;Atropos;Has he told you how many times he's failed already?|Hah, no matter.",
+            "multi_remove_portrait;Atropos;Mitzi"
+        ]
+    }
+]

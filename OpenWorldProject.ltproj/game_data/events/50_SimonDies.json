@@ -3,7 +3,7 @@
         "name": "SimonDies",
         "trigger": "unit_death",
         "level_nid": "50",
-        "condition": "unit.nid == \"Simon\"",
+        "condition": "unit.nid == \"Simon\" and RECORDS.get(\"NumDeathsFinalMap\") > 1",
         "commands": [],
         "only_once": false,
         "priority": 22,

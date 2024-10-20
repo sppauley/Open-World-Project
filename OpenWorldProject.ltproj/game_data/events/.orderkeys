@@ -839,5 +839,9 @@
     "global_RemoveClothoBlessing",
     "50_TriggerAtroposBlessing",
     "50_SimonDies",
-    "50_EnemyReins"
+    "50_EnemyReins",
+    "50_LachesisRaymondBattle",
+    "50_SimonClothoBattle",
+    "50_AnukiClothoBattle",
+    "50_MitziAtroposBattle"
 ]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "AnukiClothoBattle",
+        "trigger": "combat_start",
+        "level_nid": "50",
+        "condition": "check_pair('Anuki', 'Clotho')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Clotho;Right",
+            "add_portrait;Anuki;Left",
+            "s;Anuki;Was it you?",
+            "s;Clotho;...",
+            "s;Anuki;The one who ordained my father be put into his grave.|Was it you?",
+            "s;Clotho;I believe only your axe could have done that.",
+            "s;Anuki;Enough! Why did he have to die?",
+            "s;Clotho;Because he would not have accepted anything less than complete victory.|Without Simon, he would have come to rule all of Aeolia.",
+            "s;Anuki;So?",
+            "s;Clotho;We tire of your kind, Morrissey.{w} Of the cycle of nobility rising and falling.|Of lordlings creating an empire, only for time to erode them.|With Simon's death, there will be no more lords.|There will be space for something more... interesting.",
+            "s;Anuki;You were bored? My father is dead because you were bored?|I'll kill you! God or not, I'll tear you apart!",
+            "multi_remove_portrait;Clotho;Anuki"
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "SimonClothoBattle",
+        "trigger": "combat_start",
+        "level_nid": "50",
+        "condition": "check_pair('Simon', 'Clotho')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Clotho;Right",
+            "add_portrait;Simon;Left",
+            "s;Clotho;So close, Simon. But you will not take one more step.|I have woven it so.",
+            "s;Simon;Have you?{w} Did you also \"weave\" my destruction of your temple?",
+            "s;Clotho;...",
+            "s;Simon;You can't truly control mortals' lives, can you?|It's an impressive bluff.",
+            "s;Clotho;It is hardly a bluff when you are all so eager to believe it.|Especially when those who challenge us are so quick to go to their graves.",
+            "multi_remove_portrait;Clotho;Simon"
+        ]
+    }
+]

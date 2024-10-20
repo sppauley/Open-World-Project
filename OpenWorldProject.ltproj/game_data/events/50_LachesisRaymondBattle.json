@@ -1,0 +1,18 @@
+[
+    {
+        "name": "LachesisRaymondBattle",
+        "trigger": "combat_start",
+        "level_nid": "50",
+        "condition": "check_pair('Raymond', 'Lachesis')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Raymond;Left",
+            "add_portrait;Lachesis;Right",
+            "s;Raymond;Ha! Hahaha!{w} I'm looking at a god, and I can't stop laughing!|No more runes to hide behind, eh?{w} No more delusional priests?|Oh, I will enjoy this!",
+            "s;Lachesis;You were promising, once.{w} A shame that I gave my blessing wantonly.|It was a mistake for you to outlive your purpose.",
+            "multi_remove_portrait;Lachesis;Raymond"
+        ]
+    }
+]
