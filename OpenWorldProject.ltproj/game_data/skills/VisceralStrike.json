@@ -24,10 +24,6 @@
             [
                 "combat_condition",
                 "'Staggered' in [skill.nid for skill in target.skills]"
-            ],
-            [
-                "feat",
-                null
             ]
         ]
     }
