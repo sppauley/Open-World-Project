@@ -12,10 +12,6 @@
             [
                 "resist",
                 999
-            ],
-            [
-                "event_after_staggering",
-                "Global RemoveClothoBlessing"
             ]
         ]
     }
