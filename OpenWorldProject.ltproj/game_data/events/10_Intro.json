@@ -62,8 +62,8 @@
             "wait;400",
             "music_clear",
             "arrange_formation",
-            "trigger_script;Global GenericPreps",
-            "game_var;freely_exit;True"
+            "game_var;freely_exit;True",
+            "trigger_script;Global GenericPreps"
         ]
     }
 ]
