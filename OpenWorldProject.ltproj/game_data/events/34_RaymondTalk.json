@@ -3,7 +3,7 @@
         "name": "RaymondTalk",
         "trigger": "on_talk",
         "level_nid": "34",
-        "condition": "unit2.nid == \"Raymond\"",
+        "condition": "unit2.nid == \"Raymond\" and v(\"ShrineBattlesAvailable\") == True and v(\"LachesisDestroyed\") != True",
         "commands": [],
         "only_once": false,
         "priority": 20,
