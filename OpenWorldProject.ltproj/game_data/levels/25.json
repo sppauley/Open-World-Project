@@ -42,7 +42,7 @@
             },
             {
                 "nid": "Lim",
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -854,6 +854,10 @@
             },
             {
                 "nid": "R2",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

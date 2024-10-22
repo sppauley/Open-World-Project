@@ -36,10 +36,10 @@
             },
             {
                 "nid": "Boudica",
-                "team": "player",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     4,
                     2
@@ -456,6 +456,10 @@
             },
             {
                 "nid": "G1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]

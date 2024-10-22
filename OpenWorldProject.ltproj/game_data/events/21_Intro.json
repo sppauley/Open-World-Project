@@ -63,7 +63,9 @@
             "multi_remove_portrait;Duygu;Simon",
             "",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "change_team;Duygu;player"
         ]
     }
 ]

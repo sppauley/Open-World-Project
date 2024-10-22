@@ -55,7 +55,9 @@
             "speak;Bandit1;Search these ruins for anything leftover.{w}{br}There's no way they've been picked clean already!",
             "remove_portrait;Bandit1",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "change_team;Boudica;player"
         ]
     }
 ]

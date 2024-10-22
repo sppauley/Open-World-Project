@@ -194,6 +194,8 @@
             "level_var;PrepMusic;\"Route10\"",
             "trigger_script;Global GenericPreps",
             "",
+            "change_team;Lim;player",
+            "",
             "s;Narrator;Against Thanatos and his minions, all of Nika and Lim's attacks will double.;StyleNid=hint",
             "give_skill;Lim;AntiThanatos;;no_banner",
             "give_skill;Nika;AntiThanatos;;no_banner"
