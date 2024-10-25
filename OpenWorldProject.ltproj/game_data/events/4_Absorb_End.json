@@ -66,6 +66,7 @@
             "#",
             "game_var;SwampCleared;1",
             "trigger_script;Global Upgrade Leadership",
+            "trigger_script;Global IncreaseMitziProgress",
             "win_game"
         ]
     }
