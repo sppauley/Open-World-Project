@@ -1,0 +1,14 @@
+[
+    {
+        "name": "FatesDead",
+        "trigger": "combat_end",
+        "level_nid": "50",
+        "condition": "(v(\"LiberatedVerstadt\") or v(\"DragonCleared\") or v(\"SwampCleared\")) and not any([\"Boss\" in unit.tags for unit in game.get_enemy_units()])",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "win_game"
+        ]
+    }
+]
