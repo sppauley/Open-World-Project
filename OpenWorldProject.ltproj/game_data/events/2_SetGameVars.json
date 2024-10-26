@@ -23,6 +23,7 @@
             "game_var;LoyaltyTutorial;False",
             "game_var;EndingAvailable;False",
             "game_var;FatesDefied;False",
+            "game_var;AnukiLoyal;False",
             "",
             "game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
             "game_var;HullShopNotification;False",
