@@ -8,7 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            ""
+            "# TODO I have NO idea how to close this out lol",
+            "",
+            "game_var;_goto_level;\"49\"",
+            "skip_save;true"
         ]
     }
 ]
