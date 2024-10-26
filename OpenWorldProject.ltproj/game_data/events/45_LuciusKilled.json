@@ -31,6 +31,8 @@
             "remove_unit;Lucius;warp",
             "remove_unit;Annetta",
             "",
+            "give_item;Simon;ClothoShears",
+            "",
             "win_game"
         ]
     }
