@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AtroposDies",
+        "trigger": "unit_death",
+        "level_nid": "50",
+        "condition": "unit.nid == \"Atropos\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Atropos;Right",
+            "s;Atropos;...There are simply no words...",
+            "remove_portrait;Atropos"
+        ]
+    }
+]

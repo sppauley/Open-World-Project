@@ -845,5 +845,8 @@
     "50_AnukiClothoBattle",
     "50_MitziAtroposBattle",
     "50_FatesDead",
-    "50_Outro"
+    "50_Outro",
+    "50_AtroposDies",
+    "50_LachesisDies",
+    "50_ClothoDies"
 ]

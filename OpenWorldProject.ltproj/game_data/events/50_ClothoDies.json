@@ -1,0 +1,16 @@
+[
+    {
+        "name": "ClothoDies",
+        "trigger": "unit_death",
+        "level_nid": "50",
+        "condition": "unit.nid == \"Clotho\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Clotho;Right",
+            "s;Clotho;Denied... that which I can give so freely...",
+            "remove_portrait;Clotho"
+        ]
+    }
+]
