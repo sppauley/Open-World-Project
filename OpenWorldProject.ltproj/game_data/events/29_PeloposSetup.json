@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "show_layer;overlay",
-            "show_layer;overlay2",
+            "show_layer;overlay;immediate",
+            "show_layer;overlay2;immediate",
             "",
             "# variable setup",
             "if;v(\"PeloposShop\") == None",
@@ -67,7 +67,9 @@
             "    remove_talk;Simon;108",
             "    move_unit;109;28,17;immediate",
             "    add_talk;Simon;109",
-            "end"
+            "end",
+            "",
+            "center_cursor;Simon;immediate"
         ]
     }
 ]

@@ -107,6 +107,12 @@
             "",
             "game_var;ArmsDealerGone;True",
             "",
+            "elif;v(\"ArmsDealerMapsLeft\") > 0",
+            "",
+            "add_portrait;GenericMage;Right",
+            "s;GenericMage;Patience, young lord. All will be given in time...",
+            "remove_portrait;GenericMage",
+            "",
             "end"
         ]
     }
