@@ -49,7 +49,7 @@
             "",
             "center_cursor;19,17",
             "add_unit;Duygu;19,17;fade;giveup;south",
-            "move_unit;Duygu;20,16",
+            "move_unit;Duygu;20,15",
             "",
             "add_portrait;Duygu;Right",
             "s;Duygu;Move aside! Move aside or I shall rend you into two!",
@@ -65,7 +65,9 @@
             "arrange_formation",
             "trigger_script;Global GenericPreps",
             "",
-            "change_team;Duygu;player"
+            "change_team;Duygu;player",
+            "remove_item;Duygu;DuyguBand;no_banner",
+            "give_item;Duygu;DuyguBand;no_banner"
         ]
     }
 ]
