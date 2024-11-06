@@ -69,6 +69,7 @@
             "",
             "set_unit_field;Anuki;LoyaltyStatus;\"Anuki is completely loyal.\"",
             "game_var;AnukiLoyal;True",
+            "set_unit_field;Anuki;Loyal;True",
             "",
             "set_overworld_menu_option_visible;1;66;Roam;false"
         ]
