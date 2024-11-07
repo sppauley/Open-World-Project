@@ -6,9 +6,9 @@
         "condition": "True",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 18,
         "_source": [
-            "for;pos;v(\"DeadUnitsPositionList\")",
+            "for;pos;v(\"AtroposDeadUnitsPositionList\")",
             "    make_generic;;Phantom;15;enemy;Pursue;Monster;;Silver Axe",
             "    add_unit;{created_unit};{e:tuple({pos})};fade;push",
             "",
@@ -16,7 +16,7 @@
             "",
             "    remove_map_anim;MapSmallHealTrans;{e:tuple({pos})}",
             "endf",
-            "level_var;DeadUnitsPositionList;[]"
+            "level_var;AtroposDeadUnitsPositionList;[]"
         ]
     }
 ]

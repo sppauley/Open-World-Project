@@ -22,7 +22,7 @@
             "",
             "music;StalkingMenace",
             "",
-            "level_var;DeadUnitsPositionList;[]",
+            "level_var;AtroposDeadUnitsPositionList;[]",
             "",
             "add_portrait;Simon;Right",
             "s;Simon;All of you, stand aside! We have no quarrel with you.",
