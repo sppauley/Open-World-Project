@@ -10,6 +10,7 @@
         "_source": [
             "# outro dialogue",
             "trigger_script;Global RemoveStaggerinOutros",
+            "change_roam_ai;Anuki;None",
             "",
             "music;Autumn",
             "change_background;Bedroom",

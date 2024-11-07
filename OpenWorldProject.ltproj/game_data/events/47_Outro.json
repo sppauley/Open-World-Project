@@ -11,6 +11,8 @@
             "music_clear",
             "transition;close",
             "remove_all_units",
+            "reset;Simon",
+            "resurrect;Raymond",
             "add_unit;Simon;13,1",
             "add_unit;Raymond;15,2",
             "transition;open",

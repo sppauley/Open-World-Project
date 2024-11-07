@@ -24,6 +24,7 @@
             "    remove_unit;Alina",
             "    move_unit;Simon;10,0",
             "    remove_unit;Simon",
+            "    music_clear",
             "    game_var;AttackingFates;True",
             "    game_var;_goto_level;\"45\"",
             "    win_game",

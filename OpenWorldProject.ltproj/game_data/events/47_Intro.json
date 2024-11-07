@@ -31,7 +31,7 @@
             "trigger_script;Global GenericPreps",
             "",
             "multi_add_portrait;Simon;Left;Raymond;Right",
-            "s;Simon;How are we supposed to reach the abacus?{w}{br}It's protected by another layer of barriers?",
+            "s;Simon;How are we supposed to reach the abacus?{w}{br}It's protected by another layer of barriers.",
             "multi_remove_portrait;Simon;Raymond",
             "flicker_cursor;15,1",
             "wait;500",

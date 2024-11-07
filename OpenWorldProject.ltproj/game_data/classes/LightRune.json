@@ -15,7 +15,7 @@
             "MAG": 0,
             "DEX": 0,
             "SPD": 0,
-            "PSE": 0,
+            "PSE": 60,
             "MOV": 0
         },
         "growths": {
@@ -51,7 +51,7 @@
             "MAG": 30,
             "DEX": 30,
             "SPD": 30,
-            "PSE": 25,
+            "PSE": 60,
             "MOV": 15
         },
         "learned_skills": [
