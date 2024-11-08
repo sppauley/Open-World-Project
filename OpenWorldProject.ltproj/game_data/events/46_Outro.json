@@ -35,6 +35,7 @@
             "transition;close;2000",
             "",
             "game_var;AtroposDestroyed;True",
+            "game_var;AttackingFates;True",
             "transition;open;1"
         ]
     }

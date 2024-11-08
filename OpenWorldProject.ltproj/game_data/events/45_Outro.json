@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "# TODO",
-            "game_var;ClothoDestroyed;True"
+            "game_var;ClothoDestroyed;True",
+            "game_var;AttackingFates;True"
         ]
     }
 ]
