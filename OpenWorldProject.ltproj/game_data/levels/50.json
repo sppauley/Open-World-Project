@@ -1197,6 +1197,81 @@
                 "generic": true
             },
             {
+                "nid": "149",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Lord",
+                "faction": "Summon",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ],
+                    [
+                        "Brave Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "150",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Lord",
+                "faction": "Summon",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ],
+                    [
+                        "Brave Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "151",
+                "variant": null,
+                "level": 9,
+                "klass": "Wyvern Lord",
+                "faction": "Summon",
+                "starting_items": [
+                    [
+                        "Brave Lance",
+                        false
+                    ],
+                    [
+                        "Brave Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
                 "nid": "146",
                 "variant": null,
                 "level": 12,

@@ -74,7 +74,7 @@
             "change_background",
             "screen_shake;0",
             "",
-            "add_portrait;Simon;Middle",
+            "add_portrait;Simon;Left",
             "s;Simon;What is... what's...",
             "remove_portrait;Simon;immediate",
             "screen_shake_end"
