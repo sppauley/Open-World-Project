@@ -1,0 +1,26 @@
+[
+    {
+        "name": "FinalDefenders",
+        "trigger": "turn_change",
+        "level_nid": "50",
+        "condition": "not game.board.get_unit((13,7))",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;13,5",
+            "add_unit;153;13,5;warp",
+            "give_skill;153;ClothoBlessingFinale",
+            "give_skill;153;AtroposBlessingFinale",
+            "give_skill;153;LachesisBlessingFinale",
+            "add_unit;152;11,4;warp",
+            "give_skill;152;ClothoBlessingFinale",
+            "give_skill;152;AtroposBlessingFinale",
+            "give_skill;152;LachesisBlessingFinale",
+            "add_unit;154;15,4;warp",
+            "give_skill;154;ClothoBlessingFinale",
+            "give_skill;154;AtroposBlessingFinale",
+            "give_skill;154;LachesisBlessingFinale"
+        ]
+    }
+]
