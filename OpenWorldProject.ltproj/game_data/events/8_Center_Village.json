@@ -17,7 +17,8 @@
             "    add_portrait;Simon;Left",
             "    speak;Simon;It looks like they raided the ruins already.",
             "    remove_portrait;Simon",
-            "end"
+            "end",
+            "has_traded;{unit}"
         ]
     }
 ]
