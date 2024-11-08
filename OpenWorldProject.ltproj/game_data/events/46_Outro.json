@@ -38,6 +38,7 @@
             "",
             "game_var;AtroposDestroyed;True",
             "game_var;AttackingFates;True",
+            "set_overworld_menu_option_visible;1;42;Roam;f",
             "transition;open;1"
         ]
     }

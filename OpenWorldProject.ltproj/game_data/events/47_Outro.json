@@ -46,7 +46,8 @@
             "multi_remove_portrait;Simon;Raymond",
             "",
             "game_var;LachesisDestroyed;True",
-            "game_var;AttackingFates;True"
+            "game_var;AttackingFates;True",
+            "set_overworld_menu_option_visible;1;37;Roam;f"
         ]
     }
 ]

@@ -19,6 +19,8 @@
             "change_ai_group;Lucius;Lucius",
             "level_var;SpawnAngels;False",
             "",
+            "map_anim;scissors;12,1;permanent;no_block;overlay",
+            "",
             "map_anim;mage_ballista;12,23;permanent",
             "",
             "add_tag;114;Boss",

@@ -8,9 +8,34 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# TODO",
+            "music_clear",
+            "transition;close;1000",
+            "remove_all_units",
+            "add_unit;Simon;12,3",
+            "center_cursor;Simon",
+            "transition;open;500",
+            "",
+            "add_portrait;Simon;Left",
+            "s;Simon;Clotho, can you hear me?",
+            "wait;1000",
+            "s;Simon;Hmm.",
+            "move_unit;Simon;12,2;normal;no_follow",
+            "s;Simon;You are powerless, aren't you?{w} In your shrine, in front of your own artifact...",
+            "remove_map_anim;scissors;12,1",
+            "sound;CritInit",
+            "wait;300",
+            "s;Simon;And you could do nothing to stop me.|I don't know your reasons, or your goals.|But I won't allow myself to be controlled by you.",
+            "remove_portrait;Simon",
+            "",
+            "move_unit;Simon;12,9",
+            "",
+            "add_portrait;Simon;MidLeft;mirror",
+            "s;Simon;I may owe you my life. But, regardless, your manipulation has ended.",
+            "remove_portrait;Simon",
+            "",
             "game_var;ClothoDestroyed;True",
-            "game_var;AttackingFates;True"
+            "game_var;AttackingFates;True",
+            "set_overworld_menu_option_visible;1;28;Roam;f"
         ]
     }
 ]
