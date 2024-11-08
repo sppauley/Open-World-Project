@@ -373,7 +373,11 @@
             "remove_unit;Luther",
             "level_var;PrepMusic;\"BriefingIII\"",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "remove_unit;Brandt;immediate",
+            "add_unit;Brandt;2,23;immediate",
+            "change_roam_ai;Brandt;None"
         ]
     }
 ]

@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music_clear",
             "transition;close;1000",
             "remove_all_units",
             "show_layer;roof",
@@ -15,6 +16,7 @@
             "add_weather;fire",
             "add_unit;Simon;12,16",
             "add_unit;Mitzi;13,16",
+            "center_cursor;Simon",
             "transition;open;1000",
             "",
             "add_portrait;Mitzi;Right",

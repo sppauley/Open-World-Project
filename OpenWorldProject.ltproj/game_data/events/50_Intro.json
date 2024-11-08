@@ -15,6 +15,7 @@
             "add_tag;Clotho;Boss",
             "add_tag;Atropos;Boss",
             "level_var;NextBlessingFrom;\"Lachesis\"",
+            "show_layer;overlay;immediate",
             "",
             "create_record;NumDeathsFinalMap;0",
             "",
