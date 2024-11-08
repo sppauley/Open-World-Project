@@ -35,7 +35,7 @@
             "remove_unit;Melodie",
             "s;Boudica;Oh, Melodie... Ever so quick to anger.",
             "remove_portrait;Boudica",
-            "level_var;BoudicaMelodieFirstConvoSeen;True",
+            "game_var;BoudicaMelodieFirstConvoSeen;True",
             "",
             "else",
             "",
