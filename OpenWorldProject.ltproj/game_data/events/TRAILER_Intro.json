@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "add_group;layer2;layer2;immediate",
+            "add_weather;night",
             "",
             "center_cursor;Simon;immediate",
             "flicker_cursor;Luther",
