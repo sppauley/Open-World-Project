@@ -3,7 +3,7 @@
         "name": "SimonDeath",
         "trigger": "combat_end",
         "level_nid": null,
-        "condition": "game.level.nid != \"2\" and (unit2.nid == \"Simon\" or unit1.nid == \"Simon\") and game.check_dead(\"Simon\")",
+        "condition": "game.level.nid != \"2\" and game.level.nid != \"TRAILER\" and (unit2.nid == \"Simon\" or unit1.nid == \"Simon\") and game.check_dead(\"Simon\")",
         "commands": [],
         "only_once": false,
         "priority": 20,
