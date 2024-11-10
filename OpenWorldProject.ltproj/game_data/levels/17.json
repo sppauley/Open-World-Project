@@ -377,15 +377,15 @@
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Iron Lance",
-                        false
+                        "Steel Lance",
+                        true
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "Defend",
                 "roam_ai": null,
-                "ai_group": null,
+                "ai_group": "",
                 "starting_position": [
                     9,
                     13
@@ -600,6 +600,10 @@
             },
             {
                 "nid": "G1",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
