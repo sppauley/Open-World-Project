@@ -1,0 +1,14 @@
+[
+    {
+        "name": "ArmsDealerNotification",
+        "trigger": "overworld_start",
+        "level_nid": null,
+        "condition": "v(\"ArmsDealerUnlocked\") and v(\"ArmsDealerMapsLeft\") == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "s;Narrator;A small, unmarked envelope arrives with a mail courier:|\"Lord Verstadt, visit me at the garrison soon. Your investment is ready.\";StyleNid=hint"
+        ]
+    }
+]
