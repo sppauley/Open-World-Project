@@ -12,7 +12,7 @@
             "s;Luther;Milord, a messenger from Lord Morrissey.",
             "wait;300",
             "add_portrait;SoldierBlue;Left",
-            "s;SoldierBlue;Sir! Lord Morrissey requests your presence at the royal garrison.|He has secured passage for both of you into the king's demense.|Please meet him there at your earliest convenience.",
+            "s;SoldierBlue;Sir! Lord Morrissey requests your presence at the royal garrison.|He has secured passage for both of you into the king's demesne.|Please meet him there at your earliest convenience.",
             "multi_remove_portrait;SoldierBlue;Luther"
         ]
     }

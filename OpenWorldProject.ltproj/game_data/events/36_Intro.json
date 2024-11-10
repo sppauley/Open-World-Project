@@ -75,7 +75,7 @@
             "wait;300",
             "move_portrait;Tirago;MidRight",
             "s;Tirago;I hadn't heard anything, and thought...|Ah, thank the Fates!",
-            "s;Juliet;Have you been safe?{w} We had to flee the demense,|but we wanted to check on you and Vincent's parents.",
+            "s;Juliet;Have you been safe?{w} We had to flee the demesne,|but we wanted to check on you and Vincent's parents.",
             "s;Vincent;Yes, I'm sorry to interrupt, but are they safe?",
             "s;Tirago;I... wish I could tell you.{w} They were exiled a few weeks ago.",
             "s;Vincent;Exiled! Why?{w} They've lived here their whole lives!",

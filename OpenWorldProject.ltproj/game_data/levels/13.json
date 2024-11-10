@@ -824,7 +824,7 @@
                     1
                 ],
                 "sub_nid": "Chest",
-                "condition": "True",
+                "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

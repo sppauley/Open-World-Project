@@ -50,6 +50,8 @@
             "set_stats;101;HP,18;immediate",
             "add_unit;102;22,3;immediate",
             "loop_units;[unit for unit in game.get_all_units()];Global Reset Poise",
+            "remove_skill;101;Staggered;no_banner",
+            "remove_skill;102;Staggered;no_banner",
             "#sets the layers",
             "show_layer;layer1;immediate",
             "show_layer;layer2;immediate",

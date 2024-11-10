@@ -28,7 +28,8 @@
             "add_unit;109;22,15",
             "level_var;TalkMorrissey;1",
             "remove_talk;Simon;Vincent",
-            "remove_talk;Simon;Juliet"
+            "remove_talk;Simon;Juliet",
+            "remove_talk;Simon;Brandt"
         ]
     }
 ]

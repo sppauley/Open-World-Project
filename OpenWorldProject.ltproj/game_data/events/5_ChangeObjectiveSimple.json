@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 15,
         "_source": [
-            "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns."
+            "change_objective_simple;Defeat in {e:v(\"maxTurns\") - game.turncount} turns."
         ]
     }
 ]

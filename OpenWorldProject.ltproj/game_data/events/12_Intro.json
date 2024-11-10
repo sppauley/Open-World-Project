@@ -45,7 +45,7 @@
             "speak;Vincent;I can see the gate!",
             "center_cursor;15,5",
             "add_portrait;Luther;CenterRight;right",
-            "speak;Luther;Only a token force has been left in defence.{w}{br}Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w} and his demense is the nearest.",
+            "speak;Luther;Only a token force has been left in defence.{w}{br}Sire, we must escape to the north.{w}{br}We have an ally in Lord Morrissey,{w} and his demesne is the nearest.",
             "flicker_cursor;15,5",
             "flicker_cursor;14,5",
             "wait;500",

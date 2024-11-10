@@ -12,7 +12,7 @@
             "wait;100",
             "add_portrait;Simon;Left;left",
             "",
-            "s;Simon;Lord Verstadt, passing through to enter the king's demense.",
+            "s;Simon;Lord Verstadt, passing through to enter the king's demesne.",
             "s;SoldierBlue;Sorry sir, but the king has declared a halt order for all entrants.",
             "s;Simon;Indeed, but as a lord, I should be exempted.",
             "s;SoldierBlue;There are no exceptions, I'm afraid.|This is the king's declaration.",

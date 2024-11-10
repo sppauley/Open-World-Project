@@ -27,7 +27,7 @@
             "",
             "center_cursor;Lupus",
             "speak;Narrator;Seven turns from now, a boat will arrive for Lupus.{w}{br}Lupus must be spoken to before then.;StyleNid=hint",
-            "change_objective_simple;Victory in {e:v(\"maxTurns\") - game.turncount} turns.",
+            "change_objective_simple;Defeat in {e:v(\"maxTurns\") - game.turncount} turns.",
             "level_var;maxTurns;game.turncount + 7",
             "center_cursor;Simon",
             "",
