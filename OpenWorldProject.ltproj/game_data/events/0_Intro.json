@@ -29,7 +29,7 @@
             "    add_talk;Simon;Yusna",
             "    add_talk;Simon;Rodger",
             "    remove_region;EbertDoor",
-            "elif;v(\"EbertState\") == \"Killed\" or v(\"EbertState\") == \"Fought\"",
+            "elif;v(\"EbertState\") == \"Killed\" or v(\"EbertState\") == \"Fought\" or v(\"EbertState\") == \"TookIsle\"",
             "    remove_region;EbertDoor",
             "    remove_unit;Ebert",
             "else",
