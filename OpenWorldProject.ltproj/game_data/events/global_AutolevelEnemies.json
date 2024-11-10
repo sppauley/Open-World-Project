@@ -6,7 +6,7 @@
         "condition": "game.level.nid != \"7\" and game.level.nid != \"4\" and game.level.nid != \"26\"",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 30,
         "_source": [
             "level_var;AvgPlayerLvl;{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")])/len([u for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")]))}",
             "",

@@ -73,6 +73,10 @@
             [
                 "stagger",
                 6
+            ],
+            [
+                "warning",
+                null
             ]
         ]
     }

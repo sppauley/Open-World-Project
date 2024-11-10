@@ -89,6 +89,10 @@
             [
                 "reaver",
                 null
+            ],
+            [
+                "warning",
+                null
             ]
         ]
     }
