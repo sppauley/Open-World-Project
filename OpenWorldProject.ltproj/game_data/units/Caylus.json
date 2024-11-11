@@ -30,6 +30,10 @@
             [
                 "Silver Axe",
                 true
+            ],
+            [
+                "Hand Axe",
+                false
             ]
         ],
         "learned_skills": [],

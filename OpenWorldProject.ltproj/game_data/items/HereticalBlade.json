@@ -2,7 +2,7 @@
     {
         "nid": "HereticalBlade",
         "name": "Heretical Blade",
-        "desc": "Raymond only. A blade cursed by Lachesis. 30 minus MAG % chance of taking damage equal to the damage dealt.",
+        "desc": "Locked to Raymond. A blade cursed by Lachesis. 30 minus MAG % chance of taking damage equal to the damage dealt.",
         "icon_nid": "{Beansy} Crablass",
         "icon_index": [
             0,

@@ -2,7 +2,7 @@
     {
         "nid": "VisceralManual",
         "name": "Visceral Manual",
-        "desc": "Teaches Visceral Strike (CRIT% chance to double damage when attacking staggered foes)",
+        "desc": "Teaches Visceral Strike (Base crit% chance to double damage when attacking staggered foes)",
         "icon_nid": "Visceral Book",
         "icon_index": [
             0,

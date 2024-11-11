@@ -15,7 +15,7 @@
             "add_unit;149;22,0",
             "",
             "add_portrait;Adana;Right",
-            "add_portrait;SoldierBlue;Right",
+            "add_portrait;SoldierBlue;Left",
             "s;SoldierBlue;Sire we've... recovered the king's body.",
             "expression;GenAdana;CloseEyes",
             "s;Adana;Damn it all.",

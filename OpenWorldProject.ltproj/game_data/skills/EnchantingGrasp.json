@@ -2,7 +2,7 @@
     {
         "nid": "EnchantingGrasp",
         "name": "Enchanting Grasp",
-        "desc": "If unit uses a staff on an ally, that ally gains +4 magic until their next turn.",
+        "desc": "If unit uses a staff on an ally, that ally gains +4 MAG until their next turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             4,
