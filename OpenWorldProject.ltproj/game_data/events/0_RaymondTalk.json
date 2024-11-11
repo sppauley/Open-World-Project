@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Raymond;MidRight",
-            "add_portrait;Simon;Left",
+            "add_portrait;Simon;MidLeft",
             "s;Raymond;Simon, let's talk.",
             "add_portrait;Alina;FarLeft",
             "add_portrait;Mitzi;FarRight",
