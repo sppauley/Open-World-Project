@@ -65,13 +65,10 @@
             "s;Boudica;Thank you.",
             "multi_remove_portrait;Boudica;Titus",
             "",
-            "overworld_cinematic;1",
-            "reveal_overworld_node;63",
-            "reveal_overworld_road;31;63",
-            "",
             "remove_talk;Simon;Boudica",
             "remove_talk;Simon;Titus",
-            "level_var;BoudicaTitusConversation;False"
+            "level_var;BoudicaTitusConversation;False",
+            "game_var;BoudicaLevelUnlocked;True"
         ]
     }
 ]

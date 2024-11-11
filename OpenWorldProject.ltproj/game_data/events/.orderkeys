@@ -851,5 +851,6 @@
     "50_AtroposDies",
     "50_LachesisDies",
     "50_ClothoDies",
-    "50_FinalDefenders"
+    "50_FinalDefenders",
+    "global_ShowBoudicaLevel"
 ]
