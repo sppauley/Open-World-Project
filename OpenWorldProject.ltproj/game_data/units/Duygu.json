@@ -10,7 +10,7 @@
         "bases": {
             "HP": 27,
             "CON": 8,
-            "MAG": 0,
+            "MAG": 3,
             "DEX": 8,
             "SPD": 7,
             "PSE": 19,

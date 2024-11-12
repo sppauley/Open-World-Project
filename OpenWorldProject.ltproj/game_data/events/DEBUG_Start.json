@@ -46,7 +46,9 @@
             "give_skill;Mitzi;Historymaker;no_banner",
             "give_item;Melodie;WarriorsCharm;no_banner",
             "",
-            "give_skill;104;ClothoBlessingFinale;no_banner"
+            "give_skill;104;ClothoBlessingFinale;no_banner",
+            "",
+            "give_skill;Melodie;Dance;no_banner"
         ]
     }
 ]
