@@ -19,7 +19,7 @@
             ],
             [
                 "condition",
-                "not item_system.is_spell(unit, item) and item_system.damage(unit, item) and item_system.damage(unit, item) > 0"
+                "item_system.damage(unit, item) and item_system.damage(unit, item) > 0"
             ]
         ]
     }
