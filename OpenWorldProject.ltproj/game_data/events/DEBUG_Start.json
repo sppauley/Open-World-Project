@@ -49,6 +49,8 @@
             "",
             "give_skill;104;ClothoBlessingFinale;no_banner",
             "",
+            "set_stats;108;MAG,12;immediate",
+            "",
             "give_skill;Melodie;Dance;no_banner"
         ]
     }

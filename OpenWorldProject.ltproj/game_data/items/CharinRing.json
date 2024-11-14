@@ -16,6 +16,15 @@
             [
                 "status_on_hold",
                 "CharinRing"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        12
+                    ]
+                ]
             ]
         ]
     }

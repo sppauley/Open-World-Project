@@ -16,6 +16,15 @@
             [
                 "status_on_hold",
                 "GesmenRing"
+            ],
+            [
+                "stat_req",
+                [
+                    [
+                        "MAG",
+                        12
+                    ]
+                ]
             ]
         ]
     }
