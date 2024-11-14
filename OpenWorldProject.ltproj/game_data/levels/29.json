@@ -373,6 +373,10 @@
                     [
                         "Silver Sword",
                         false
+                    ],
+                    [
+                        "CharinRing",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -876,6 +880,11 @@
                 "positions": {}
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CharinRing",
+        "name": "Charin Ring",
+        "desc": "+5 SPD to holder if a non-magical weapon is equipped.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "CharinRing"
+            ]
+        ]
+    }
+]
