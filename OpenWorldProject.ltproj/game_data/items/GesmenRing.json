@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GesmenRing",
+        "name": "Gesmen's Ring",
+        "desc": "+5 SPD to holder if a non-magical weapon is equipped.\nDesigned after a noble's relic.",
+        "icon_nid": "Boosters",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "accessory",
+                null
+            ],
+            [
+                "status_on_hold",
+                "GesmenRing"
+            ]
+        ]
+    }
+]

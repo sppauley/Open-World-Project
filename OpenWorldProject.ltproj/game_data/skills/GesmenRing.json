@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "GesmenRing",
+        "name": "Gesmen Ring",
+        "desc": "Grants SPD +5 if a non-magical weapon is equipped.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            9
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "unit.get_weapon() and item_system.weapon_type(unit, unit.get_weapon()) != 'Anima'"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

@@ -11,7 +11,7 @@
             "game_var;freely_exit;True",
             "",
             "trigger_script;Global SafeHullShop",
-            "game_var;HullShop;v(\"HullShop\") + \",ThiefSword\"",
+            "game_var;HullShop;v(\"HullShop\") + \",ThiefSword,GesmenRing\"",
             "game_var;HullShopNotification;True",
             "",
             "trigger_script;Global IncreaseMitziProgress",
