@@ -36,7 +36,7 @@
             "",
             "",
             "# Brandt and Bordeaux survival condition",
-            "if;game.check_alive('Bordeaux') and game.check_alive('Brandt')",
+            "if;game.check_alive('Bordeaux') and game.check_alive('Brandt') and game.game_vars['MorrisseySupport']==1",
             "    wait;500",
             "    transition;open",
             "    multi_add_portrait;Morrissey;Right;Simon;Left",
