@@ -25,7 +25,7 @@
             "game_var;FatesDefied;False",
             "game_var;AnukiLoyal;False",
             "",
-            "game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
+            "game_var;HullShop;\"Steel Blade,Steel_Pike,Steel_Mace,Steel Bow,Thunder,Javelin\"",
             "game_var;HullShopNotification;False",
             "game_var;PeloposShop;\"Angelic Robe, Speedwing, Talisman, Secret Book, EnergyRing, Master Seal\"",
             "game_var;PeloposInventory;\"1, 1, 1, 1, 1, 3\"",

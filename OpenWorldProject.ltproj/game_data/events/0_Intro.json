@@ -16,7 +16,7 @@
             "hide_layer;sewersentranceopen;immediate;no_warn",
             "",
             "if;v(\"HullShop\") == None",
-            "    game_var;HullShop;\"Iron Sword,Iron Lance,Iron Axe,Iron Bow,Fire,Javelin\"",
+            "    game_var;HullShop;\"Steel Blade,Steel_Pike,Steel_Mace,Steel Bow,Thunder,Javelin\"",
             "end",
             "game_var;HullShopNotification;False",
             "",
