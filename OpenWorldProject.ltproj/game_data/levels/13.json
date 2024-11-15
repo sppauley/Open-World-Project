@@ -28,8 +28,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    24,
-                    24
+                    22,
+                    20
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -41,8 +41,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    29,
-                    20
+                    28,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -65,8 +65,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    30,
-                    26
+                    29,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -93,8 +93,8 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    23,
-                    17
+                    22,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -117,8 +117,8 @@
                 "roam_ai": null,
                 "ai_group": "a",
                 "starting_position": [
-                    21,
-                    20
+                    20,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -142,7 +142,7 @@
                 "ai_group": "a",
                 "starting_position": [
                     16,
-                    18
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -160,8 +160,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    28,
-                    21
+                    27,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -179,8 +179,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    12,
-                    11
+                    11,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -198,27 +198,8 @@
                 "roam_ai": null,
                 "ai_group": null,
                 "starting_position": [
-                    15,
-                    18
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "ChestWall",
-                "variant": null,
-                "level": 5,
-                "klass": "Wall25",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": null,
-                "starting_position": [
-                    12,
-                    0
+                    14,
+                    14
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -246,7 +227,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     6,
-                    11
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -270,7 +251,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     2,
-                    16
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -294,7 +275,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     4,
-                    16
+                    12
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -318,7 +299,7 @@
                 "ai_group": "b",
                 "starting_position": [
                     4,
-                    15
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -332,7 +313,7 @@
                 "starting_items": [
                     [
                         "Steel Bow",
-                        false
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -341,8 +322,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    15,
-                    9
+                    13,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -351,11 +332,11 @@
                 "nid": "112",
                 "variant": null,
                 "level": 1,
-                "klass": "Warrior",
+                "klass": "Swordmaster",
                 "faction": "Bandit",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Steel Sword",
                         false
                     ]
                 ],
@@ -365,8 +346,8 @@
                 "roam_ai": null,
                 "ai_group": "c",
                 "starting_position": [
-                    7,
-                    4
+                    6,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -446,7 +427,7 @@
                 "ai_group": "c",
                 "starting_position": [
                     14,
-                    6
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -458,7 +439,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    21,
+                    19,
                     2
                 ],
                 "starting_traveler": null,
@@ -482,7 +463,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    19,
+                    17,
                     2
                 ],
                 "starting_traveler": null,
@@ -506,7 +487,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    23,
+                    21,
                     2
                 ],
                 "starting_traveler": null,
@@ -530,7 +511,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    20,
+                    18,
                     3
                 ],
                 "starting_traveler": null,
@@ -554,7 +535,7 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    22,
+                    20,
                     3
                 ],
                 "starting_traveler": null,
@@ -569,7 +550,7 @@
                 "starting_items": [
                     [
                         "Steel Bow",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -578,8 +559,8 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    27,
-                    12
+                    26,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -602,8 +583,8 @@
                 "roam_ai": null,
                 "ai_group": "d",
                 "starting_position": [
-                    29,
-                    9
+                    27,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -799,11 +780,11 @@
                 "nid": "prep",
                 "region_type": "formation",
                 "position": [
-                    24,
-                    25
+                    21,
+                    21
                 ],
                 "size": [
-                    2,
+                    3,
                     2
                 ],
                 "sub_nid": "",
@@ -813,28 +794,11 @@
                 "interrupt_move": false
             },
             {
-                "nid": "chest",
-                "region_type": "event",
-                "position": [
-                    14,
-                    1
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Chest",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
                 "nid": "Door",
                 "region_type": "event",
                 "position": [
-                    23,
-                    17
+                    22,
+                    13
                 ],
                 "size": [
                     1,
@@ -854,10 +818,10 @@
                     0
                 ],
                 "size": [
-                    31,
-                    14
+                    30,
+                    11
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -874,7 +838,6 @@
                     "108",
                     "111",
                     "RampartWall",
-                    "ChestWall",
                     "112",
                     "113",
                     "114",

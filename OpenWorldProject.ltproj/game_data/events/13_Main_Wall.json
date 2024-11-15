@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "map_anim;Snag;15,18",
+            "map_anim;Snag;14,14",
             "show_layer;main_break",
             "wait;500",
             "add_group;HiddenEnemies;starting",
@@ -19,7 +19,7 @@
             "s;Luther;Aye, but the battle's just begun.",
             "s;Luther;The bandits have likely been alerted to our presense.{w}{br}We should tread carefully and use the terrain to our advantage.",
             "s;Simon;Right.{w}{br}And it looks like their leader is deeper in the cave.",
-            "flicker_cursor;21,2",
+            "flicker_cursor;Bryce",
             "s;Simon;If we can stop him, we can probably get the rest of them to retreat.",
             "s;Luther;Just be careful, milord.{w}{br}The bandit leaders are known for their cruelty and cunning.",
             "s;Simon;Understood.",

@@ -8,7 +8,7 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "map_anim;Snag;28,21",
+            "map_anim;Snag;27,17",
             "show_layer;prison_break",
             "add_portrait;Nika;Right",
             "#music;Route10",

@@ -10,6 +10,7 @@
         "_source": [
             "add_portrait;Lupus;Left",
             "s;Lupus;Going through the front door typically isn't my style,{w}{br}but the bandits won't be expecting it.",
+            "wait;150",
             "s;Lupus;Let's get this open.",
             "remove_portrait;Lupus",
             "show_layer;front_door",
@@ -21,7 +22,7 @@
             "s;Simon;Nice work, Lupus. We're in.{w}{br}But the bandits have likely been alerted to our presense.",
             "s;Simon;We should move quickly and try to stop their leader.",
             "multi_remove_portrait;Simon;Lupus",
-            "flicker_cursor;21,2",
+            "flicker_cursor;Bryce",
             "wait;300"
         ]
     }
