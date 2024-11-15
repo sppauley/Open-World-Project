@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "transition;close",
+            "remove_game_board_bounds",
             "trigger_script;Global RemoveStaggerinOutros",
             "",
             "change_roam_ai;Anuki;None",
