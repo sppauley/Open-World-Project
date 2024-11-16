@@ -17,13 +17,13 @@
             "CON": 8
         },
         "growths": {
-            "HP": 50,
+            "HP": 55,
             "MAG": 10,
-            "DEX": 15,
-            "SPD": 25,
-            "PSE": 25,
+            "DEX": 20,
+            "SPD": 30,
+            "PSE": 30,
             "MOV": 0,
-            "CON": 35
+            "CON": 40
         },
         "stat_cap_modifiers": {},
         "starting_items": [
