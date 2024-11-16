@@ -1,11 +1,11 @@
 [
     {
         "name": "EbertDeath",
-        "trigger": "unit_death",
+        "trigger": "combat_end",
         "level_nid": "11",
-        "condition": "unit.nid == \"Ebert\"",
+        "condition": "game.check_dead(\"Ebert\")",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_portrait;Ebert;Left",
