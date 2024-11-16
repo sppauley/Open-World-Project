@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HiddenParagon",
+        "name": "Paragon",
+        "desc": "Unit has doubled experience gain.",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            4,
+            43
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                2.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

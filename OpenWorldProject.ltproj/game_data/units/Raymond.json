@@ -30,7 +30,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "HiddenParagon"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [
