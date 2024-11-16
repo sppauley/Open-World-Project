@@ -760,7 +760,7 @@
             {
                 "nid": "129",
                 "variant": null,
-                "level": 9,
+                "level": 15,
                 "klass": "Mage",
                 "faction": "Morrissey",
                 "starting_items": [
@@ -775,8 +775,8 @@
                 "roam_ai": null,
                 "ai_group": "b",
                 "starting_position": [
-                    31,
-                    16
+                    32,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -1161,7 +1161,7 @@
                 "faction": "Morrissey",
                 "starting_items": [
                     [
-                        "Silver Blade",
+                        "Silver Sword",
                         false
                     ]
                 ],

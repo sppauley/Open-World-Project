@@ -13,16 +13,16 @@
             "HP": 52,
             "PSE": 25,
             "MOV": 6,
-            "SPD": 17,
+            "SPD": 19,
             "DEX": 21,
-            "CON": 16,
+            "CON": 17,
             "MAG": 7
         },
         "growths": {},
         "stat_cap_modifiers": {},
         "starting_items": [
             [
-                "Silver Lance",
+                "Silver_Pike",
                 false
             ],
             [
