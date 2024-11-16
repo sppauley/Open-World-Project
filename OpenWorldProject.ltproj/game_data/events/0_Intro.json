@@ -69,7 +69,7 @@
             "    show_layer;sewersentranceopen;immediate",
             "end",
             "",
-            "if;game.check_alive(\"Alina\") and v(\"AlinaMetSinger\") != True",
+            "if;v(\"AlinaRecruited\") == True and v(\"AlinaMetSinger\") != True",
             "    add_unit;104;5,11",
             "    add_talk;Simon;104",
             "end",

@@ -130,5 +130,9 @@
     {
         "nid": "FatesDefied",
         "desc": "Have all three artifacts been destroyed?"
+    },
+    {
+        "nid": "AlinaRecruited",
+        "desc": "Was Alina recruited?"
     }
 ]

@@ -12,6 +12,10 @@
             [
                 "value",
                 5000
+            ],
+            [
+                "accessory",
+                null
             ]
         ]
     }

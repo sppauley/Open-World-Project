@@ -92,6 +92,8 @@
             "move_unit;Simon;16,19",
             "remove_unit;Simon",
             "",
+            "game_var;AlinaRecruited;True",
+            "",
             "transition;close;800",
             "wait;1500",
             "transition;open;1"
