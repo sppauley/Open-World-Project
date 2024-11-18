@@ -36,6 +36,7 @@
             "multi_remove_portrait;Simon;Melodie",
             "give_item;Melodie;WarriorsCharm",
             "set_unit_field;Melodie;LoyaltyStatus;\"Melodie is completely loyal.\"",
+            "game_var;MelodieLoyal;True",
             "win_game"
         ]
     }

@@ -58,7 +58,7 @@
             "    add_talk;Simon;Euclid",
             "end",
             "",
-            "if;game.game_vars[\"SenateSide\"]==\"Melodie\"",
+            "if;v('MelodieLoyal') == True",
             "    remove_unit;Euclid",
             "end",
             "",
