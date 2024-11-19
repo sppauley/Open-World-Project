@@ -14,6 +14,8 @@
             "game_var;HullShop;v(\"HullShop\") + \",ThiefSword,GesmenRing\"",
             "game_var;HullShopNotification;True",
             "",
+            "set_overworld_menu_option_visible;1;57;Roam;f",
+            "",
             "trigger_script;Global IncreaseMitziProgress",
             "",
             "set_unit_field;Lupus;LoyaltyStatus;\"Lupus is completely loyal.\""
