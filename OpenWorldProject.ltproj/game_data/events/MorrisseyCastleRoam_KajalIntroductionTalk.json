@@ -1,0 +1,18 @@
+[
+    {
+        "name": "KajalIntroductionTalk",
+        "trigger": null,
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Kajal;20,11;immediate;no_warn",
+            "add_talk;Simon;Kajal;no_warn",
+            "",
+            "trigger_script;MorrisseyCastleRoam MarkInConversation;Kajal",
+            "set_unit_field;Kajal;IntroductionTalkComplete;False"
+        ]
+    }
+]

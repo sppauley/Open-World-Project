@@ -1,0 +1,31 @@
+[
+    {
+        "name": "KajalConversation",
+        "trigger": "on_talk",
+        "level_nid": "MorrisseyCastleRoam",
+        "condition": "unit2.nid == \"Kajal\" and game.get_unit(\"Kajal\").get_field(\"IntroductionTalkComplete\") == False",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Kajal;Right",
+            "add_portrait;Simon;Left",
+            "",
+            "s;Kajal;Ah, Lord Verstadt.",
+            "s;Simon;Kajal. What are you looking for?",
+            "s;Kajal;I am merely browsing. Nothing has yet to catch my eye.",
+            "wait;700",
+            "s;Kajal;Though, I did hear that you are engaged.",
+            "s;Simon;That's no secret. Lord Morrissey has arranged a marriage between Anuki and I.",
+            "s;Kajal;Interesting...",
+            "s;Simon;How so?",
+            "s;Kajal;Such an arrangement is quite disadvantageous for you.|As you know, the family name is passed matrilinearly-|Your children will be Morrisseys, with Verstadt titles.",
+            "s;Simon;I am aware. Still, it was the only realistic choice.|I need Lord Morrissey's help to retake my lands.",
+            "s;Kajal;Quite true. You are pragmatic, Lord Verstadt.|I admire that.",
+            "",
+            "",
+            "remove_talk;Simon;Kajal",
+            "set_unit_field;Kajal;IntroductionTalkComplete;True"
+        ]
+    }
+]
