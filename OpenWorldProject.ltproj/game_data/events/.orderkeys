@@ -853,5 +853,6 @@
     "global_ShowBoudicaLevel",
     "MorrisseyCastleRoam_KajalIntroductionTalk",
     "MorrisseyCastleRoam_KajalConversation",
-    "DEBUG_Escape"
+    "DEBUG_Escape",
+    "33_ForcedEncore"
 ]
