@@ -42,7 +42,7 @@
             "add_talk;Simon;108",
             "add_talk;Simon;109",
             "",
-            "if;v(\"MetHeretic\") == True and v(\"RaymondRecruited\") != True",
+            "if;v(\"RaymondPortHull\") == True and v(\"RaymondRecruited\") != True",
             "    load_unit;Raymond",
             "    add_unit;Raymond;29,23;immediate",
             "    add_talk;Simon;Raymond",

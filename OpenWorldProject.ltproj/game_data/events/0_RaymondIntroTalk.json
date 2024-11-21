@@ -1,0 +1,40 @@
+[
+    {
+        "name": "RaymondIntroTalk",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit2.nid == \"Raymond\" and v(\"RaymondPortHull\") != True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Simon;Left;Raymond;Right",
+            "s;Simon;You...{w} You're that heretic from Lachesis's shrine, right?{w} What are you doing in Port Hull?",
+            "s;Raymond;Bah! I thought I told you to leave me alone.",
+            "s;Simon;You were trying to disable the seals...{w}{br}Why was that?",
+            "s;Raymond;Damn, you're persistent...{w} and annoying.{w}{br}But sure, why not at this point...",
+            "wait;100",
+            "s;Raymond;The Fates bring nothing but misery.{w}{br}And Lachesis is by far the worst.{w}{br}Her spite will alter the path of forture simply to crush your spirit.",
+            "wait;100",
+            "s;Raymond;I'm going to kill her.{w}{br}And Port Hull is my best lead for finding ways to break those damned seals.",
+            "s;Simon;Killing a god is certainly an ambitious plan.",
+            "s;Raymond;I've got a personal stake in this.{w} And it'll better the world.{w}{br}Otherwise, Lachesis's petty schemes will drive us all to ruin.",
+            "wait;100",
+            "s;Raymond;So I must ask you, wandering nuissance, do you know of any way to break the seals?",
+            "s;Simon;It's Simon.{w} And I don't know anything about the seals.{w}{br}But I know a thing or two about the Fates.",
+            "s;Raymond;You have their blessing, I know.{w} Their foul stench eminates from you too.",
+            "wait;100",
+            "s;Raymond;Well, Simon, I will keep trying to kill your gods.{w}{br}And bring some semblance of order to Lachesis's chaotic hold over the world.",
+            "mirror_portrait;Raymond",
+            "move_portrait;Raymond;OffscreenRight",
+            "remove_portrait;Raymond",
+            "wait;100",
+            "s;Simon;Bringing order amidst all of this...{w} Could the heretic be right somehow?",
+            "remove_portrait;Simon",
+            "",
+            "remove_talk;Simon;Raymond",
+            "",
+            "game_var;RaymondPortHull;True"
+        ]
+    }
+]
