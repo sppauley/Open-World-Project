@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Talk Euclid",
+        "trigger": "on_talk",
+        "level_nid": "34",
+        "condition": "unit2.nid=='Euclid'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Simon;Left;Euclid;Right",
+            "s;Euclid;Lachesis's temple...{w} the world's greatest mathematicians supposedly study here.{w}{br}But all I see is a locked gate.",
+            "s;Simon;You were hoping to learn from them somehow?",
+            "s;Euclid;Of course!{w} Imagine... being able to calculate the flow of fortune, explain entropy...{w}{br}It would be a dream come true.",
+            "s;Simon;Are there no documents of their work?",
+            "s;Euclid;Only rumors, unfortunately.{w}{br}A shame their work is not guided by Pelopos's hand,{w} else they would have written brilliant treatises.",
+            "s;Simon;Well, maybe you can find something while we're here.{w}{br}Maybe one of Lachesis's cultists dropped their notes.",
+            "s;Euclid;One can only hope.",
+            "multi_remove_portrait;Simon;Euclid",
+            "game_var;EuclidLachesisShrine;True",
+            "remove_talk;Simon;Euclid"
+        ]
+    }
+]
