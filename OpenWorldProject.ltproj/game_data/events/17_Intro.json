@@ -66,7 +66,10 @@
             "multi_remove_portrait;Vilge;GenericMage",
             "move_unit;Vilge;10,0",
             "remove_unit;Vilge",
-            "center_cursor;Simon"
+            "center_cursor;Simon",
+            "",
+            "",
+            "set_overworld_menu_option_visible;1;32;Roam;t;no_warn"
         ]
     }
 ]

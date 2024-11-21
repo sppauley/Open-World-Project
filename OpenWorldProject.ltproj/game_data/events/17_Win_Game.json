@@ -80,6 +80,9 @@
             "game_var;FlowerRecruited;1",
             "end",
             "",
+            "set_overworld_menu_option_visible;1;32;Battle;false",
+            "set_overworld_menu_option_visible;1;32;Roam;t;no_warn",
+            "",
             "game_var;_goto_level;\"FVRoaming\"",
             "trigger_script;Global IncreaseMitziProgress",
             "win_game"

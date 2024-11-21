@@ -6,10 +6,10 @@
         "condition": "True",
         "commands": [],
         "only_once": false,
-        "priority": 20,
+        "priority": 19,
         "_source": [
-            "set_overworld_menu_option_visible;1;32;Battle;false",
-            "set_overworld_menu_option_visible;1;32;Roam;t;no_warn"
+            "#set_overworld_menu_option_visible;1;32;Battle;false",
+            "#set_overworld_menu_option_visible;1;32;Roam;t;no_warn"
         ]
     }
 ]
