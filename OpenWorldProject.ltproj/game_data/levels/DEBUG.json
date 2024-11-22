@@ -333,7 +333,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Aum",
+                        "Immolation",
                         false
                     ]
                 ],
@@ -344,7 +344,7 @@
                 "ai_group": "",
                 "starting_position": [
                     3,
-                    8
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
