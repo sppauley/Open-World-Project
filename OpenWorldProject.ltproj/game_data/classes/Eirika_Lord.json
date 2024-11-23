@@ -1,20 +1,18 @@
 [
     {
         "nid": "Eirika_Lord",
-        "name": "Lord",
+        "name": "Great Lord",
         "desc": "A lord from a foreign land.",
-        "tier": 1,
+        "tier": 2,
         "movement_group": "Infantry",
         "promotes_from": null,
-        "turns_into": [
-            "Eirika_Great_Lord"
-        ],
+        "turns_into": [],
         "tags": [],
         "max_level": 20,
         "bases": {
             "HP": 16,
             "SPD": 9,
-            "MOV": 5,
+            "MOV": 6,
             "DEX": 8,
             "MAG": 0,
             "PSE": 5,
