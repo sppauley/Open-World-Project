@@ -19,6 +19,7 @@
     "global_Credits",
     "2_Intro",
     "global_SetRoamSpeed",
+    "global_ResetLevelEndTriggered",
     "2_Simon_dies",
     "global_EndCombatEncounterQuick",
     "global_HidePartyMember",
