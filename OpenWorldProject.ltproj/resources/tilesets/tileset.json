@@ -901,5 +901,10 @@
         "nid": "battlements",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "map_final2",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]
