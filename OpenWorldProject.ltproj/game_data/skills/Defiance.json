@@ -2,7 +2,7 @@
     {
         "nid": "Defiance",
         "name": "Defiance",
-        "desc": "When below 25% HP, unit takes 2 less damage and gains 8 SPD.",
+        "desc": "When HP is half or less, unit takes 2 less damage and gains 4 SPD.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             6,
@@ -19,7 +19,7 @@
             ],
             [
                 "condition",
-                "unit.get_hp() < unit.get_max_hp() / 4"
+                "unit.get_hp() <= unit.get_max_hp() / 2"
             ],
             [
                 "resist",
@@ -30,7 +30,7 @@
                 [
                     [
                         "SPD",
-                        8
+                        4
                     ]
                 ]
             ]
