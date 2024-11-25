@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "",
+            "music_clear",
             "trigger_script;Global RemoveStaggerinOutros",
             "add_portrait;Luther;Right",
             "s;Luther;It's over, beast!",
@@ -22,7 +22,6 @@
             "wait;1200",
             "transition;open",
             "change_background;Forest",
-            "music;Distant Roads",
             "multi_add_portrait;Simon;MidLeft;Vincent;FarLeft;Luther;Right",
             "s;Vincent;So, Luther, how do you feel?",
             "s;Luther;...{w}{br}I feel...{w} powerful again.{w}{br}I finally felt that spark of fighting spirit,{w} that sense of being unstoppable.",
