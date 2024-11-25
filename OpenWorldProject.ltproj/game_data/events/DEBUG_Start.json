@@ -51,7 +51,9 @@
             "",
             "set_stats;108;MAG,12;immediate",
             "",
-            "give_skill;Melodie;Dance;no_banner"
+            "give_skill;Melodie;Dance;no_banner",
+            "",
+            "give_item;108;SwapManual;no_banner"
         ]
     }
 ]

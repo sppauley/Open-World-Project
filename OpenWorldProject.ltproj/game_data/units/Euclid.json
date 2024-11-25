@@ -8,7 +8,7 @@
         "klass": "Shaman",
         "tags": [],
         "bases": {
-            "HP": 26,
+            "HP": 24,
             "CON": 15,
             "PSE": 18,
             "MAG": 6,
@@ -19,9 +19,9 @@
         "growths": {
             "CON": 35,
             "PSE": 35,
-            "HP": 50,
+            "HP": 30,
             "MAG": 20,
-            "SPD": 30,
+            "SPD": 10,
             "DEX": 25
         },
         "stat_cap_modifiers": {},
