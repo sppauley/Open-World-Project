@@ -3,7 +3,7 @@
         "name": "Giant AI Change",
         "trigger": "turn_change",
         "level_nid": "35",
-        "condition": "game.turncount == 12",
+        "condition": "game.turncount == 14",
         "commands": [],
         "only_once": true,
         "priority": 20,
