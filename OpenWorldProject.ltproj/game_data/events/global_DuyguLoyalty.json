@@ -26,6 +26,8 @@
             "    game_var;DuyguLoyal;True",
             "    alert;Duygu's Heirloom Band can now be used.",
             "    set_unit_field;Duygu;LoyaltyStatus;\"Duygu is completely loyal.\"",
+            "    remove_item;Duygu;DuyguBand;no_banner",
+            "    give_item;Duygu;DuyguBand;no_banner",
             "",
             "end"
         ]
