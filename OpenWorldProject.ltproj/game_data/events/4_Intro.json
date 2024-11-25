@@ -23,7 +23,7 @@
             "give_skill;Cultist_7;Cultist;no_banner",
             "give_skill;Cultist_8;Cultist;no_banner",
             "#",
-            "music;In Sorrows Shroud",
+            "music;ManonShipNight",
             "change_background;InsideCastle",
             "multi_add_portrait;Simon;Left;Kajal;Right",
             "speak;Kajal;Simon, I understand that you wish to destroy my lord's remains?",
