@@ -857,5 +857,6 @@
     "DEBUG_Escape",
     "33_ForcedEncore",
     "0_RaymondIntroTalk",
-    "34_Talk_Euclid"
+    "34_Talk_Euclid",
+    "global_Enemy_Stat_Reqs"
 ]
