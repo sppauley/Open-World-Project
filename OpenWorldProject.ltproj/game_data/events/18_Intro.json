@@ -8,7 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_team;Yusna;player",
             "center_cursor;Simon;immediate",
             "hide_layer;rightship;immediate;no_warn",
             "remove_group;RightGroup;immediate",
@@ -87,7 +86,9 @@
             "remove_unit;Luther;immediate",
             "remove_unit;Vincent;immediate",
             "arrange_formation",
-            "trigger_script;Global GenericPreps"
+            "trigger_script;Global GenericPreps",
+            "",
+            "change_team;Yusna;player"
         ]
     }
 ]

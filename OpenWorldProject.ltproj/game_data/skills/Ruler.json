@@ -2,7 +2,7 @@
     {
         "nid": "Ruler",
         "name": "Ruler",
-        "desc": "Can act again on player phase after a player unit waits. Halves MOV on player phase.",
+        "desc": "Can act again on player phase after a player unit waits.",
         "icon_nid": "Skills",
         "icon_index": [
             10,

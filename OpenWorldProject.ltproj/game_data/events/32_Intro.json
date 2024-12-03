@@ -74,7 +74,7 @@
             "",
             "s;Twins;One moment.{w} Simon, Tristan wouldn't like to admit it,|but I think the Sorceress could be talked down.",
             "s;Simon;You don't think she deserves to die?",
-            "s;Twins;No, she does.{w} But she values power, and you're about to display it.|She'd be interested, absolutely.{w} I'm simplying informing you, as your comrade,|that she would be a valuable tool.|Do what you will with that information. We won't hold it against you.",
+            "s;Twins;No, she does.{w} But she values power, and you're about to display it.|She'd be interested, absolutely.{w} I'm simply informing you, as your comrade,|that she would be a valuable tool.|Do what you will with that information. We won't hold it against you.",
             "",
             "trigger_script;Global ConsolidateToSimon;Twins",
             "",

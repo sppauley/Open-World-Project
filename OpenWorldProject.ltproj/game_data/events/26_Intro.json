@@ -14,7 +14,7 @@
             "change_ai;Percy;Defend",
             "show_layer;trees2",
             "resurrect;Bordeaux",
-            "remove_skill;Bordeaux;Ruler;no_banner",
+            "remove_skill;Bordeaux;MinorRuler;no_banner",
             "remove_item;Bordeaux;Horseslayer;;no_banner",
             "give_item;Bordeaux;Silver_Pike;no_banner",
             "change_team;Bordeaux;other",
