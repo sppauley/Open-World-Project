@@ -69,6 +69,10 @@
                 "starting_items": [
                     [
                         "Toxin Lance",
+                        false
+                    ],
+                    [
+                        "ForgingBag",
                         true
                     ]
                 ],

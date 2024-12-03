@@ -1697,6 +1697,10 @@
                 "starting_items": [
                     [
                         "Grasp",
+                        false
+                    ],
+                    [
+                        "ForgingBag",
                         true
                     ]
                 ],
