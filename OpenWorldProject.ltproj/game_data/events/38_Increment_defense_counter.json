@@ -39,7 +39,7 @@
             "    mirror_portrait;Simon",
             "    add_portrait;OldMan1;OffscreenRight",
             "    move_portrait;OldMan1;Right",
-            "    s;OldMan1;You, scholar held true to your city, which has nutured your mind and given you shelter since your birth.{w}{br}It is only natural you repay it.",
+            "    s;OldMan1;You, scholar held true to your city, which has nurtured your mind and given you shelter since your birth.{w}{br}It is only natural you repay it.",
             "    s;OldMan1;And you, lordling, defeated these ruffians, warranting a small payment.",
             "    give_item;Simon;Master Seal",
             "    s;OldMan1;But you cannot hope for anything beyond this for the work mere mercenaries could have accomplished.{w}{br}I would rather fall to ruin than see Pelopos be swallowed up by some foolish lord's ambitious.",

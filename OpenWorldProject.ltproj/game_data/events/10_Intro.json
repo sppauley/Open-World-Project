@@ -19,7 +19,7 @@
             "s;Simon;So, we're nearing the grounds of Vesner's castle?",
             "s;Kajal;Yes. He is buried just past here.",
             "s;Simon;His lands have really fallen to ruin, haven't they?",
-            "s;Kajal;Lord Vesner was... {w}preocupied{w} late into his life.{w}{br}Defeating death was more important to him than combatting minor bandit gangs.",
+            "s;Kajal;Lord Vesner was... {w}preoccupied{w} late into his life.{w}{br}Defeating death was more important to him than combatting minor bandit gangs.",
             "s;Simon;But look at the state of this place after those \"minor gangs\" ran rampant.",
             "multi_remove_portrait;Simon;Kajal",
             "flicker_cursor;1,13",
