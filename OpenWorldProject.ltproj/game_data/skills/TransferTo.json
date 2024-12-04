@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "TransferTo",
+        "name": "Transfer To",
+        "desc": "",
+        "icon_nid": "{ZessDynamite, Rainlash} All Icons",
+        "icon_index": [
+            3,
+            32
+        ],
+        "components": []
+    }
+]

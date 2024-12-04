@@ -1,0 +1,24 @@
+[
+    {
+        "name": "TransferDamage",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "alert;Transfer!",
+            "",
+            "if;'TransferFrom' in [skill.nid for skill in unit.skills]",
+            "    remove_skill;{unit};TransferFrom;no_banner",
+            "    interact_unit;{unit2};{eval:[t for t in game.get_all_units() if 'TransferTo' in [skill.nid for skill in t.skills]][0]}",
+            "else",
+            "    remove_skill;{unit2};TransferFrom;no_banner",
+            "    interact_unit;{unit};{eval:[t for t in game.get_all_units() if 'TransferTo' in [skill.nid for skill in t.skills]][0]}",
+            "end",
+            "",
+            "remove_skill;{eval:[t for t in game.get_all_units() if 'TransferTo' in [skill.nid for skill in t.skills]][0]};TransferTo;no_banner"
+        ]
+    }
+]
