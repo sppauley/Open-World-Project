@@ -1,0 +1,25 @@
+[
+    {
+        "name": "EndlessReinforcements",
+        "trigger": "turn_change",
+        "level_nid": "7",
+        "condition": "game.turncount > 10 and game.turncount % 2 == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.turncount==12",
+            "    add_portrait;Simon;Left",
+            "    s;Simon;The dragon's forces... they just keep coming.{w}{br}We should keep moving before we get overwhelmed.",
+            "    remove_portrait;Simon",
+            "end",
+            "",
+            "wait;300",
+            "add_group;GreatKnights2;;fade;closest;create",
+            "center_cursor;1,42",
+            "wait;500",
+            "center_cursor;33,42",
+            "wait;500"
+        ]
+    }
+]

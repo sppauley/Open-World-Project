@@ -1740,6 +1740,114 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "153",
+                "variant": null,
+                "level": 16,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "154",
+                "variant": null,
+                "level": 16,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "155",
+                "variant": null,
+                "level": 16,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "156",
+                "variant": null,
+                "level": 16,
+                "klass": "Great_Knight",
+                "faction": "Dragon",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ],
+                    [
+                        "Swordreaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Void Curse"
+                ],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -2017,6 +2125,33 @@
                         6
                     ]
                 }
+            },
+            {
+                "nid": "GreatKnights2",
+                "units": [
+                    "153",
+                    "154",
+                    "155",
+                    "156"
+                ],
+                "positions": {
+                    "153": [
+                        1,
+                        42
+                    ],
+                    "154": [
+                        1,
+                        43
+                    ],
+                    "155": [
+                        33,
+                        42
+                    ],
+                    "156": [
+                        33,
+                        43
+                    ]
+                }
             }
         ],
         "ai_groups": [
@@ -2046,6 +2181,10 @@
             },
             {
                 "nid": "h",
+                "trigger_threshold": 1
+            },
+            {
+                "nid": "",
                 "trigger_threshold": 1
             }
         ]
