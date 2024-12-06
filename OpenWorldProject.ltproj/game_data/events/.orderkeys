@@ -859,6 +859,5 @@
     "0_RaymondIntroTalk",
     "34_Talk_Euclid",
     "global_Enemy_Stat_Reqs",
-    "global_Other_Stat_Reqs",
-    "global_TransferDamage"
+    "global_Other_Stat_Reqs"
 ]

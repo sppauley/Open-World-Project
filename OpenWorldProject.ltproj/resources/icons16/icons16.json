@@ -54,12 +54,7 @@
     },
     {
         "nid": "Staff",
-        "subicon_dict": {
-            "Staff 0, 11": [
-                0,
-                11
-            ]
-        }
+        "subicon_dict": {}
     },
     {
         "nid": "Sword",
