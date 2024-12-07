@@ -16,6 +16,8 @@
             "s;Simon;Aye. We'll take Castle Verstadt back yet.",
             "multi_remove_portrait;Simon;Luther",
             "",
+            "set_overworld_menu_option_visible;1;62;Battle;f",
+            "",
             "win_game"
         ]
     }
