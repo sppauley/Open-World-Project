@@ -13,7 +13,9 @@
             "if;v(\"NodeToShowBattleOption\")",
             "    set_overworld_menu_option_visible;1;{v:NodeToShowBattleOption};Battle;t",
             "    game_var;NodeToShowBattleOption;None",
-            "end"
+            "end",
+            "",
+            "game_var;freely_exit;True"
         ]
     }
 ]

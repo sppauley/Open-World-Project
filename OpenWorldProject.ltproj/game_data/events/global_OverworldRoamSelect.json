@@ -20,7 +20,7 @@
             "remove_unit;Simon",
             "#",
             "#",
-            "level_var;CurrentNode;{eval:game.overworld_controller.selected_party_node().nid}",
+            "game_var;CurrentNode;{eval:game.overworld_controller.selected_party_node().nid}",
             "level_var;NextLevel;\"DEBUG\"",
             "# Prepare for a long ass if statement chain",
             "if;'{v:CurrentNode}' == '32'",
