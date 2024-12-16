@@ -76,6 +76,7 @@
             "",
             "if;v(\"MetHeretic\") == True and v(\"RaymondPortHull\") != True",
             "    add_unit;Raymond;20,12;immediate",
+            "    add_talk;Simon;Raymond",
             "end",
             "",
             "if;v(\"PortHullDefyTalk\")",
