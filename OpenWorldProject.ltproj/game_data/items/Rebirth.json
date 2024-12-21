@@ -1,29 +1,37 @@
 [
     {
-        "nid": "Bind",
-        "name": "Bind",
-        "desc": "Hit targets cannot act for one turn.",
-        "icon_nid": "Anima",
+        "nid": "Rebirth",
+        "name": "Rebirth",
+        "desc": "The tome of Clotho's head priest.",
+        "icon_nid": "Light",
         "icon_index": [
             0,
-            3
+            4
         ],
         "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                8000
+            ],
             [
                 "target_enemy",
                 null
             ],
             [
                 "min_range",
-                3
+                1
             ],
             [
                 "max_range",
-                25
+                3
             ],
             [
                 "damage",
-                5
+                12
             ],
             [
                 "hit",
@@ -31,11 +39,11 @@
             ],
             [
                 "crit",
-                0
+                15
             ],
             [
                 "weight",
-                20
+                11
             ],
             [
                 "level_exp",
@@ -47,7 +55,7 @@
             ],
             [
                 "weapon_rank",
-                "E"
+                "A"
             ],
             [
                 "map_hit_add_blend",
@@ -62,31 +70,12 @@
                 null
             ],
             [
-                "value",
-                2500
-            ],
-            [
-                "siege_weapon",
-                null
-            ],
-            [
-                "c_uses",
-                2
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
-            ],
-            [
                 "stagger",
-                0
+                10
             ],
             [
-                "status_on_hit",
-                "Bound"
+                "brave",
+                null
             ]
         ]
     }

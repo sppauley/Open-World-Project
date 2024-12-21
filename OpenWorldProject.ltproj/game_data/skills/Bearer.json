@@ -2,7 +2,7 @@
     {
         "nid": "Bearer",
         "name": "Cursebearer",
-        "desc": "At the start of this unit's turn, all adjacent units lose 4 CON for one turn.",
+        "desc": "At the start of this unit's turn, all adjacent enemies lose 4 CON for one turn.",
         "icon_nid": "{ZessDynamite, Rainlash} All Icons",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
                     "skill": "BearerChild",
                     "range": 1,
                     "affect_self": false,
-                    "target": "any"
+                    "target": "enemy"
                 }
             ],
             [

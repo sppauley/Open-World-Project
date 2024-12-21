@@ -30,10 +30,6 @@
             [
                 "ClothoShears",
                 true
-            ],
-            [
-                "Brave Axe",
-                false
             ]
         ],
         "learned_skills": [],
