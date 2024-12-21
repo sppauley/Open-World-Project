@@ -20,6 +20,8 @@
             "remove_group;BertholdtGroup;immediate",
             "remove_unit;MoranBoss;immediate",
             "",
+            "add_tag;ClothoPriest;Boss",
+            "",
             "music;StalkingMenace",
             "",
             "level_var;AtroposDeadUnitsPositionList;[]",

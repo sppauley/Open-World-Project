@@ -175,8 +175,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    19,
-                    24
+                    13,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -199,8 +199,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    18,
-                    22
+                    17,
+                    24
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -223,8 +223,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    20,
-                    25
+                    19,
+                    27
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -247,8 +247,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    5,
-                    24
+                    11,
+                    22
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -271,8 +271,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    3,
-                    25
+                    5,
+                    28
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -295,8 +295,8 @@
                 "roam_ai": null,
                 "ai_group": "G1",
                 "starting_position": [
-                    6,
-                    23
+                    7,
+                    25
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -315,7 +315,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "G3",
                 "starting_position": [
@@ -339,7 +339,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "G3",
                 "starting_position": [
@@ -363,7 +363,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "G3",
                 "starting_position": [
@@ -387,7 +387,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Defend",
+                "ai": "Attack",
                 "roam_ai": null,
                 "ai_group": "G3",
                 "starting_position": [
@@ -415,8 +415,8 @@
                 "roam_ai": null,
                 "ai_group": "G2",
                 "starting_position": [
-                    23,
-                    15
+                    18,
+                    13
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -596,8 +596,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    18
+                    6,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -620,8 +620,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    20,
-                    18
+                    19,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -644,8 +644,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    21,
-                    18
+                    19,
+                    16
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -668,8 +668,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    18
+                    6,
+                    17
                 ],
                 "starting_traveler": null,
                 "generic": true

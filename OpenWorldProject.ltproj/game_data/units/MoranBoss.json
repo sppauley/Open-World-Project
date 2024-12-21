@@ -6,9 +6,7 @@
         "variant": null,
         "level": 1,
         "klass": "Morrissey_Lord",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 40,
             "MOV": 6,

@@ -6,9 +6,7 @@
         "variant": null,
         "level": 1,
         "klass": "Swordmaster",
-        "tags": [
-            "Boss"
-        ],
+        "tags": [],
         "bases": {
             "HP": 45,
             "CON": 12,
