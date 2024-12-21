@@ -2,7 +2,7 @@
     {
         "nid": "ForgingBag2",
         "name": "Forging Materials",
-        "desc": "A bag of accuracy and critical forging materials",
+        "desc": "A bag of accuracy and critical forging materials.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                350
+                500
             ],
             [
                 "uses",

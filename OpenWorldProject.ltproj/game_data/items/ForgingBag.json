@@ -2,7 +2,7 @@
     {
         "nid": "ForgingBag",
         "name": "Forging Materials",
-        "desc": "A bag of damage and stagger forging materials",
+        "desc": "A bag of damage and stagger forging materials.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "value",
-                350
+                500
             ],
             [
                 "uses",
