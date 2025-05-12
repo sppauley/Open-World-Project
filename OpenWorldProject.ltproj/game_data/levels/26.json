@@ -1295,78 +1295,6 @@
                 "generic": true
             },
             {
-                "nid": "151",
-                "variant": null,
-                "level": 18,
-                "klass": "Soldier",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    2,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "152",
-                "variant": null,
-                "level": 18,
-                "klass": "Soldier",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    3,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "153",
-                "variant": null,
-                "level": 18,
-                "klass": "Soldier",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "c",
-                "starting_position": [
-                    4,
-                    23
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "154",
                 "variant": null,
                 "level": 10,
@@ -1409,30 +1337,6 @@
                 "ai_group": "d",
                 "starting_position": [
                     16,
-                    38
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "156",
-                "variant": null,
-                "level": 15,
-                "klass": "Archer",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel Bow",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "d",
-                "starting_position": [
-                    18,
                     38
                 ],
                 "starting_traveler": null,
@@ -1563,62 +1467,6 @@
                 "generic": true
             },
             {
-                "nid": "162",
-                "variant": null,
-                "level": 18,
-                "klass": "Fighter",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ],
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "d",
-                "starting_position": [
-                    4,
-                    39
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "163",
-                "variant": null,
-                "level": 18,
-                "klass": "Fighter",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ],
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "d",
-                "starting_position": [
-                    6,
-                    39
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "164",
                 "variant": null,
                 "level": 10,
@@ -1689,102 +1537,6 @@
                 "ai_group": "e",
                 "starting_position": [
                     22,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "167",
-                "variant": null,
-                "level": 18,
-                "klass": "Wolf",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "e",
-                "starting_position": [
-                    8,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "168",
-                "variant": null,
-                "level": 18,
-                "klass": "Wolf",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "e",
-                "starting_position": [
-                    10,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "169",
-                "variant": null,
-                "level": 18,
-                "klass": "Wolf",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "e",
-                "starting_position": [
-                    21,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "170",
-                "variant": null,
-                "level": 18,
-                "klass": "Wolf",
-                "faction": "NewDawn",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "e",
-                "starting_position": [
-                    23,
                     42
                 ],
                 "starting_traveler": null,
