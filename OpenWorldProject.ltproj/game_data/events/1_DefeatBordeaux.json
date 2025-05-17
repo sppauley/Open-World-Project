@@ -175,6 +175,8 @@
             "speak;Simon;Perhaps so.{w} Thank you, Luther.",
             "multi_remove_portrait;Luther;Simon",
             "#",
+            "",
+            "end_skip",
             "overworld_cinematic;1",
             "center_cursor;Simon;immediate",
             "reveal_overworld_node;26;immediate",
@@ -195,6 +197,10 @@
             "center_cursor;62",
             "reveal_overworld_road;27;62",
             "set_overworld_position;Simon;27;no_animate",
+            "wait;800",
+            "add_portrait;Simon;FarLeft",
+            "add_portrait;Luther;FarRight",
+            "s;Luther;Where we travel next is up to you, milord.",
             "win_game"
         ]
     }

@@ -860,5 +860,7 @@
     "34_Talk_Euclid",
     "global_Enemy_Stat_Reqs",
     "global_Other_Stat_Reqs",
-    "7_EndlessReinforcements"
+    "7_EndlessReinforcements",
+    "51_creditsstart",
+    "51_tapestrystart"
 ]

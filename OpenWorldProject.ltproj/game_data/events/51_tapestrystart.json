@@ -1,0 +1,16 @@
+[
+    {
+        "name": "tapestrystart",
+        "trigger": "level_start",
+        "level_nid": "51",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;9,0;immediate",
+            "center_cursor;9,10;Speed=4000",
+            "center_cursor;9,25;Speed=4000"
+        ]
+    }
+]

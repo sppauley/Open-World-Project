@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 30,
         "_source": [
-            "level_var;AvgPlayerLvl;{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")])/len([u for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")]))}",
+            "level_var;AvgPlayerLvl;{e:math.floor(sum([u.get_internal_level() for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")])/max(1, len([u for u in game.units if not u.dead and u.team == \"player\" and not u.get_field(\"IgnoreLvl\")])))}",
             "",
             "for;enemy_unit;[u.nid for u in game.units if u.team.startswith('enemy')];no_warn",
             "",
