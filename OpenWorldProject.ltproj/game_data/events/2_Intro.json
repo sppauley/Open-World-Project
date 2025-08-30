@@ -22,6 +22,7 @@
             "music;PercyArrivesFinal",
             "speak_style;FatesTalk;;center;160;0.5;white;;None;;f;None;fit",
             "set_stats;101;HP,18;immediate",
+            "set_stats;102;PSE,2;immediate",
             "center_cursor;Simon;immediate",
             "show_layer;upperdoor;immediate",
             "move_unit;Simon;27,0;immediate",
