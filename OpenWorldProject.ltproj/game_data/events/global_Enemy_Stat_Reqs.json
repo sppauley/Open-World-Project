@@ -11,7 +11,7 @@
             "for;ENEMY;game.get_enemy_units(False)",
             "",
             "    # iterates through enemy stat reqs",
-            "    for;REQS;[[out.value for out in i.components if out.nid == 'stat_req'] for i in u('{ENEMY}').items if 'stat_req' in [c.nid for c in i.components]]",
+            "    for;REQS;[[out.value for out in i.components if out.nid == 'stat_req'] for i in u('{ENEMY}').nonaccessories if 'stat_req' in [c.nid for c in i.components]]",
             "        # looks through the item's stat reqs",
             "        if;len({REQS})>0",
             "            for;REQ;{REQS}[0]",
