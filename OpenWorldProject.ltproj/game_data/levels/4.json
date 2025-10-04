@@ -1177,30 +1177,6 @@
                 "generic": true
             },
             {
-                "nid": "155",
-                "variant": null,
-                "level": 15,
-                "klass": "Mogall",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Crimson Eye",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Defend",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    36,
-                    20
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Cultist_5",
                 "variant": null,
                 "level": 10,
@@ -1935,27 +1911,6 @@
                 "generic": true
             },
             {
-                "nid": "178",
-                "variant": null,
-                "level": 10,
-                "klass": "Knight",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Pike",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "180",
                 "variant": null,
                 "level": 10,
@@ -1985,48 +1940,6 @@
                 "starting_items": [
                     [
                         "Grasp",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "182",
-                "variant": null,
-                "level": 10,
-                "klass": "Fighter",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel_Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "183",
-                "variant": null,
-                "level": 10,
-                "klass": "Myrmidon",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Steel Sword",
                         false
                     ]
                 ],
@@ -2082,27 +1995,6 @@
                 "generic": true
             },
             {
-                "nid": "186",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "187",
                 "variant": null,
                 "level": 15,
@@ -2132,27 +2024,6 @@
                 "starting_items": [
                     [
                         "Steel Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "189",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
                         false
                     ]
                 ],
@@ -2209,27 +2080,6 @@
             },
             {
                 "nid": "192",
-                "variant": null,
-                "level": 15,
-                "klass": "Revenant",
-                "faction": "Monster",
-                "starting_items": [
-                    [
-                        "Sharp Claw",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "193",
                 "variant": null,
                 "level": 15,
                 "klass": "Revenant",
@@ -2764,8 +2614,7 @@
                 "nid": "LeftDruid1",
                 "units": [
                     "177",
-                    "179",
-                    "178"
+                    "179"
                 ],
                 "positions": {
                     "177": [
@@ -2775,10 +2624,6 @@
                     "179": [
                         0,
                         34
-                    ],
-                    "178": [
-                        0,
-                        35
                     ]
                 }
             },
@@ -2786,8 +2631,7 @@
                 "nid": "LeftDruid2",
                 "units": [
                     "180",
-                    "181",
-                    "182"
+                    "181"
                 ],
                 "positions": {
                     "180": [
@@ -2797,25 +2641,16 @@
                     "181": [
                         0,
                         34
-                    ],
-                    "182": [
-                        0,
-                        35
                     ]
                 }
             },
             {
                 "nid": "RightDruid1",
                 "units": [
-                    "183",
                     "185",
                     "184"
                 ],
                 "positions": {
-                    "183": [
-                        38,
-                        35
-                    ],
                     "185": [
                         38,
                         36
@@ -2829,14 +2664,9 @@
             {
                 "nid": "RightDruid2",
                 "units": [
-                    "186",
                     "187"
                 ],
                 "positions": {
-                    "186": [
-                        38,
-                        35
-                    ],
                     "187": [
                         38,
                         36
@@ -2847,17 +2677,12 @@
                 "nid": "TopLeft",
                 "units": [
                     "188",
-                    "189",
                     "190"
                 ],
                 "positions": {
                     "188": [
                         0,
                         16
-                    ],
-                    "189": [
-                        0,
-                        15
                     ],
                     "190": [
                         0,
@@ -2869,8 +2694,7 @@
                 "nid": "TopRight",
                 "units": [
                     "191",
-                    "192",
-                    "193"
+                    "192"
                 ],
                 "positions": {
                     "191": [
@@ -2880,10 +2704,6 @@
                     "192": [
                         37,
                         14
-                    ],
-                    "193": [
-                        37,
-                        15
                     ]
                 }
             }

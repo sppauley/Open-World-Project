@@ -1325,30 +1325,6 @@
                 "generic": true
             },
             {
-                "nid": "131",
-                "variant": null,
-                "level": 4,
-                "klass": "Great_Knight",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    33,
-                    42
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "132",
                 "variant": null,
                 "level": 4,
@@ -1469,48 +1445,6 @@
                 "generic": true
             },
             {
-                "nid": "135",
-                "variant": null,
-                "level": 8,
-                "klass": "Great_Knight",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "136",
-                "variant": null,
-                "level": 8,
-                "klass": "Great_Knight",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "137",
                 "variant": null,
                 "level": 8,
@@ -1553,51 +1487,9 @@
                 "generic": true
             },
             {
-                "nid": "139",
-                "variant": null,
-                "level": 3,
-                "klass": "Sage",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "140",
                 "variant": null,
                 "level": 3,
-                "klass": "Sage",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "146",
-                "variant": null,
-                "level": 2,
                 "klass": "Sage",
                 "faction": "Dragon",
                 "starting_items": [
@@ -1637,49 +1529,7 @@
                 "generic": true
             },
             {
-                "nid": "148",
-                "variant": null,
-                "level": 2,
-                "klass": "Sage",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "149",
-                "variant": null,
-                "level": 2,
-                "klass": "Sage",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Elfire",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "150",
                 "variant": null,
                 "level": 2,
                 "klass": "Sage",
@@ -1743,60 +1593,6 @@
             },
             {
                 "nid": "153",
-                "variant": null,
-                "level": 16,
-                "klass": "Great_Knight",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ],
-                    [
-                        "Swordreaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Void Curse"
-                ],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "154",
-                "variant": null,
-                "level": 16,
-                "klass": "Great_Knight",
-                "faction": "Dragon",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ],
-                    [
-                        "Swordreaver",
-                        false
-                    ]
-                ],
-                "starting_skills": [
-                    "Void Curse"
-                ],
-                "team": "enemy",
-                "ai": "Pursue",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "155",
                 "variant": null,
                 "level": 16,
                 "klass": "Great_Knight",
@@ -2043,20 +1839,10 @@
             {
                 "nid": "GreatKnights",
                 "units": [
-                    "135",
-                    "136",
                     "137",
                     "138"
                 ],
                 "positions": {
-                    "135": [
-                        33,
-                        42
-                    ],
-                    "136": [
-                        33,
-                        43
-                    ],
                     "137": [
                         1,
                         42
@@ -2070,14 +1856,9 @@
             {
                 "nid": "Sages",
                 "units": [
-                    "139",
                     "140"
                 ],
                 "positions": {
-                    "139": [
-                        19,
-                        11
-                    ],
                     "140": [
                         20,
                         11
@@ -2087,34 +1868,19 @@
             {
                 "nid": "Boss",
                 "units": [
-                    "146",
                     "147",
-                    "148",
                     "149",
-                    "150",
                     "151",
                     "152"
                 ],
                 "positions": {
-                    "146": [
-                        21,
-                        13
-                    ],
                     "147": [
                         8,
                         7
                     ],
-                    "148": [
-                        20,
-                        14
-                    ],
                     "149": [
                         24,
                         10
-                    ],
-                    "150": [
-                        19,
-                        13
                     ],
                     "151": [
                         25,
@@ -2130,21 +1896,11 @@
                 "nid": "GreatKnights2",
                 "units": [
                     "153",
-                    "154",
-                    "155",
                     "156"
                 ],
                 "positions": {
                     "153": [
                         1,
-                        42
-                    ],
-                    "154": [
-                        1,
-                        43
-                    ],
-                    "155": [
-                        33,
                         42
                     ],
                     "156": [
